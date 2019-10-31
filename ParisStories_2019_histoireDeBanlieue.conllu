@@ -6,6 +6,7 @@
 4	parle	parler	VERB	_	_	0	root	_	_
 5	une	un	DET	_	_	6	det	_	_
 6	histoire	histoire	NOUN	_	_	4	comp:obl	_	_
+7	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_2
 # text = en fait j'habite dans une maison en banlieue , la banlieue parisienne .
@@ -18,9 +19,11 @@
 7	maison	maison	NOUN	_	_	5	comp:obj	_	_
 8	en	en	ADP	_	_	4	discourse	_	_
 9	banlieue	banlieue	NOUN	_	_	8	comp:obj	_	_
-10	la	le	DET	_	_	11	det	_	_
-11	banlieue	banlieue	NOUN	_	_	9	conj:dicto	_	_
-12	parisienne	parisien	ADJ	_	_	11	mod	_	_
+10	,	_	PUNCT	_	_	12	punct	_	_
+11	la	le	DET	_	_	12	det	_	_
+12	banlieue	banlieue	NOUN	_	_	9	conj:dicto	_	_
+13	parisienne	parisien	ADJ	_	_	12	mod	_	_
+14	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_3
 # text = et euh le propriétaire est un chinois , fin un em français-chinois .
@@ -31,22 +34,26 @@
 5	est	être	AUX	_	_	0	root	_	_
 6	un	un	DET	_	_	7	det	_	_
 7	chinois	Chinois	NOUN	_	_	5	comp:pred	_	_
-8	fin	enfin	ADV	_	_	11	discourse	_	_
-9	un	un	DET	_	_	11	det	_	_
-10	em	euh	INTJ	_	_	9	discourse	_	_
-11	français-chinois	français-chinois	NOUN	_	_	7	conj:dicto	_	_
+8	,	_	PUNCT	_	_	12	punct	_	_
+9	fin	enfin	ADV	_	_	12	discourse	_	_
+10	un	un	DET	_	_	12	det	_	_
+11	em	euh	INTJ	_	_	10	discourse	_	_
+12	français-chinois	français-chinois	NOUN	_	_	7	conj:dicto	_	_
+13	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_4
 # text = et on est , on était six dans le maison .
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	on	on	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
-4	on	on	PRON	_	_	5	subj	_	_
-5	était	être	AUX	_	_	3	conj:dicto	_	_
-6	six	six	NUM	_	_	5	mod	_	_
-7	dans	dans	ADP	_	_	5	comp:pred	_	_
-8	le	le	DET	_	_	9	det	_	_
-9	maison	maison	NOUN	_	_	7	comp:obj	_	_
+4	,	_	PUNCT	_	_	6	punct	_	_
+5	on	on	PRON	_	_	6	subj	_	_
+6	était	être	AUX	_	_	3	conj:dicto	_	_
+7	six	six	NUM	_	_	6	mod	_	_
+8	dans	dans	ADP	_	_	6	comp:pred	_	_
+9	le	le	DET	_	_	10	det	_	_
+10	maison	maison	NOUN	_	_	8	comp:obj	_	_
+11	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_5
 # text = fin c'est pas , c'est pas dans la maison , c'est euh .
@@ -54,15 +61,18 @@
 2	c'	ce	PRON	_	_	3	subj	_	SpaceAfter=No
 3	est	être	AUX	_	_	0	root	_	_
 4	pas	pas	ADV	_	_	3	mod	_	_
-5	c'	ce	PRON	_	_	6	subj	_	SpaceAfter=No
-6	est	être	AUX	_	_	3	conj:dicto	_	_
-7	pas	pas	ADV	_	_	6	mod	_	_
-8	dans	dans	ADP	_	_	6	comp:pred	_	_
-9	la	le	DET	_	_	10	det	_	_
-10	maison	maison	NOUN	_	_	8	comp:obj	_	_
-11	c'	ce	PRON	_	_	12	subj	_	SpaceAfter=No
-12	est	être	AUX	_	_	6	conj:dicto	_	_
-13	euh	euh	INTJ	_	_	3	discourse	_	_
+5	,	_	PUNCT	_	_	7	punct	_	_
+6	c'	ce	PRON	_	_	7	subj	_	SpaceAfter=No
+7	est	être	AUX	_	_	3	conj:dicto	_	_
+8	pas	pas	ADV	_	_	7	mod	_	_
+9	dans	dans	ADP	_	_	7	comp:pred	_	_
+10	la	le	DET	_	_	11	det	_	_
+11	maison	maison	NOUN	_	_	9	comp:obj	_	_
+12	,	_	PUNCT	_	_	14	punct	_	_
+13	c'	ce	PRON	_	_	14	subj	_	SpaceAfter=No
+14	est	être	AUX	_	_	7	conj:dicto	_	_
+15	euh	euh	INTJ	_	_	3	discourse	_	_
+16	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_6
 # text = il y a une maison , et une cour .
@@ -71,9 +81,11 @@
 3	a	avoir	VERB	_	_	0	root	_	_
 4	une	un	DET	_	_	5	det	_	_
 5	maison	maison	NOUN	_	_	3	comp:obj	_	_
-6	et	et	CCONJ	_	_	8	cc	_	_
-7	une	un	DET	_	_	8	det	_	_
-8	cour	cour	NOUN	_	_	5	conj:coord	_	_
+6	,	_	PUNCT	_	_	9	punct	_	_
+7	et	et	CCONJ	_	_	9	cc	_	_
+8	une	un	DET	_	_	9	det	_	_
+9	cour	cour	NOUN	_	_	5	conj:coord	_	_
+10	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_7
 # text = et dans cette cour il y a quatre studios .
@@ -86,30 +98,36 @@
 7	a	avoir	VERB	_	_	0	root	_	_
 8	quatre	quatre	NUM	_	_	9	det	_	_
 9	studios	studio	NOUN	_	_	7	comp:obj	_	_
+10	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_8
 # text = donc en fait moi , mon amie , et les parents du propriétaire , et le fils du propriétaire , on habite dans la maison .
-1	donc	donc	ADV	_	_	18	cc	_	_
+1	donc	donc	ADV	_	_	22	cc	_	_
 2	en	en	ADP	_	_	1	discourse	_	_
 3	fait	fait	NOUN	_	_	2	comp:obj	_	_
-4	moi	lui	PRON	_	_	18	dislocated	_	_
-5	mon	son	DET	_	_	6	det	_	_
-6	amie	ami	NOUN	_	_	4	conj:appos	_	_
-7	et	et	CCONJ	_	_	9	cc	_	_
-8	les	le	DET	_	_	9	det	_	_
-9	parents	parent	NOUN	_	_	6	conj:coord	_	_
-10	du	de+le	ADP	_	_	9	mod	_	_
-11	propriétaire	propriétaire	NOUN	_	_	10	comp:obj	_	_
-12	et	et	CCONJ	_	_	14	cc	_	_
-13	le	le	DET	_	_	14	det	_	_
-14	fils	fils	NOUN	_	_	9	conj:coord	_	_
-15	du	de+le	ADP	_	_	14	mod	_	_
-16	propriétaire	propriétaire	NOUN	_	_	15	comp:obj	_	_
-17	on	on	PRON	_	_	18	subj	_	_
-18	habite	habiter	VERB	_	_	0	root	_	_
-19	dans	dans	ADP	_	_	18	comp:obl	_	_
-20	la	le	DET	_	_	21	det	_	_
-21	maison	maison	NOUN	_	_	19	comp:obj	_	_
+4	moi	lui	PRON	_	_	22	dislocated	_	_
+5	,	_	PUNCT	_	_	7	punct	_	_
+6	mon	son	DET	_	_	7	det	_	_
+7	amie	ami	NOUN	_	_	4	conj:appos	_	_
+8	,	_	PUNCT	_	_	11	punct	_	_
+9	et	et	CCONJ	_	_	11	cc	_	_
+10	les	le	DET	_	_	11	det	_	_
+11	parents	parent	NOUN	_	_	7	conj:coord	_	_
+12	du	de+le	ADP	_	_	11	mod	_	_
+13	propriétaire	propriétaire	NOUN	_	_	12	comp:obj	_	_
+14	,	_	PUNCT	_	_	17	punct	_	_
+15	et	et	CCONJ	_	_	17	cc	_	_
+16	le	le	DET	_	_	17	det	_	_
+17	fils	fils	NOUN	_	_	11	conj:coord	_	_
+18	du	de+le	ADP	_	_	17	mod	_	_
+19	propriétaire	propriétaire	NOUN	_	_	18	comp:obj	_	_
+20	,	_	PUNCT	_	_	4	punct	_	_
+21	on	on	PRON	_	_	22	subj	_	_
+22	habite	habiter	VERB	_	_	0	root	_	_
+23	dans	dans	ADP	_	_	22	comp:obl	_	_
+24	la	le	DET	_	_	25	det	_	_
+25	maison	maison	NOUN	_	_	23	comp:obj	_	_
+26	.	_	PUNCT	_	_	22	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_9
 # text = et il y a un garçon , qui habite dans un de ces quatre studios dans la cour .
@@ -119,17 +137,19 @@
 4	a	avoir	VERB	_	_	0	root	_	_
 5	un	un	DET	_	_	6	det	_	_
 6	garçon	garçon	NOUN	_	_	4	comp:obj	_	_
-7	qui	qui	PRON	_	_	8	subj	_	_
-8	habite	habiter	VERB	_	_	6	mod	_	_
-9	dans	dans	ADP	_	_	8	comp:obl	_	_
-10	un	un	PRON	_	_	9	comp:obj	_	_
-11	de	de	ADP	_	_	10	mod	_	_
-12	ces	ce	DET	_	_	14	det	_	_
-13	quatre	quatre	NUM	_	_	14	mod	_	_
-14	studios	studio	NOUN	_	_	11	comp:obj	_	_
-15	dans	dans	ADP	_	_	14	mod	_	_
-16	la	le	DET	_	_	17	det	_	_
-17	cour	cour	NOUN	_	_	15	comp:obj	_	_
+7	,	_	PUNCT	_	_	9	punct	_	_
+8	qui	qui	PRON	_	_	9	subj	_	_
+9	habite	habiter	VERB	_	_	6	mod	_	_
+10	dans	dans	ADP	_	_	9	comp:obl	_	_
+11	un	un	PRON	_	_	10	comp:obj	_	_
+12	de	de	ADP	_	_	11	mod	_	_
+13	ces	ce	DET	_	_	15	det	_	_
+14	quatre	quatre	NUM	_	_	15	mod	_	_
+15	studios	studio	NOUN	_	_	12	comp:obj	_	_
+16	dans	dans	ADP	_	_	15	mod	_	_
+17	la	le	DET	_	_	18	det	_	_
+18	cour	cour	NOUN	_	_	16	comp:obj	_	_
+19	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_10
 # text = on est euh tous les chinois , fin , soit les chinois soit euh les français-chinois .
@@ -139,41 +159,48 @@
 4	tous	tout	ADJ	_	_	6	mod	_	_
 5	les	le	DET	_	_	6	det	_	_
 6	chinois	Chinois	NOUN	_	_	2	comp:pred	_	_
-7	fin	enfin	ADV	_	_	6	discourse	_	_
-8	soit	soit	CCONJ	_	_	10	cc	_	_
-9	les	le	DET	_	_	10	det	_	_
-10	chinois	Chinois	NOUN	_	_	6	conj:dicto	_	_
-11	soit	soit	CCONJ	_	_	14	cc	_	_
-12	euh	euh	INTJ	_	_	11	discourse	_	_
-13	les	le	DET	_	_	14	det	_	_
-14	français-chinois	français-chinois	NOUN	_	_	10	conj:coord	_	_
+7	,	_	PUNCT	_	_	8	punct	_	_
+8	fin	enfin	ADV	_	_	6	discourse	_	_
+9	,	_	PUNCT	_	_	12	punct	_	_
+10	soit	soit	CCONJ	_	_	12	cc	_	_
+11	les	le	DET	_	_	12	det	_	_
+12	chinois	Chinois	NOUN	_	_	6	conj:dicto	_	_
+13	soit	soit	CCONJ	_	_	16	cc	_	_
+14	euh	euh	INTJ	_	_	13	discourse	_	_
+15	les	le	DET	_	_	16	det	_	_
+16	français-chinois	français-chinois	NOUN	_	_	12	conj:coord	_	_
+17	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_11
 # text = un jour , euh fin un mardi , tu sais que je rentre tard le mardi puisque j'ai , j'ai cours jusqu'à dix-neuf heures .
 1	un	un	DET	_	_	2	det	_	_
-2	jour	jour	NOUN	_	_	8	mod	_	_
-3	euh	euh	INTJ	_	_	6	discourse	_	_
-4	fin	enfin	ADV	_	_	6	discourse	_	_
-5	un	un	DET	_	_	6	det	_	_
-6	mardi	_	NOUN	_	_	2	conj:dicto	_	_
-7	tu	tu	PRON	_	_	8	subj	_	_
-8	sais	savoir	VERB	_	_	0	root	_	_
-9	que	que	SCONJ	_	_	8	comp:obj	_	_
-10	je	je	PRON	_	_	11	subj	_	_
-11	rentre	rentrer	VERB	_	_	9	comp:obj	_	_
-12	tard	tard	ADV	_	_	11	mod	_	_
-13	le	le	DET	_	_	14	det	_	_
-14	mardi	_	NOUN	_	_	11	mod	_	_
-15	puisque	puisque	SCONJ	_	_	11	mod	_	_
-16	j'	je	PRON	_	_	17	subj	_	SpaceAfter=No
-17	ai	avoir	VERB	_	_	15	comp:obj	_	_
+2	jour	jour	NOUN	_	_	10	mod	_	_
+3	,	_	PUNCT	_	_	7	punct	_	_
+4	euh	euh	INTJ	_	_	7	discourse	_	_
+5	fin	enfin	ADV	_	_	7	discourse	_	_
+6	un	un	DET	_	_	7	det	_	_
+7	mardi	_	NOUN	_	_	2	conj:dicto	_	_
+8	,	_	PUNCT	_	_	2	punct	_	_
+9	tu	tu	PRON	_	_	10	subj	_	_
+10	sais	savoir	VERB	_	_	0	root	_	_
+11	que	que	SCONJ	_	_	10	comp:obj	_	_
+12	je	je	PRON	_	_	13	subj	_	_
+13	rentre	rentrer	VERB	_	_	11	comp:obj	_	_
+14	tard	tard	ADV	_	_	13	mod	_	_
+15	le	le	DET	_	_	16	det	_	_
+16	mardi	_	NOUN	_	_	13	mod	_	_
+17	puisque	puisque	SCONJ	_	_	13	mod	_	_
 18	j'	je	PRON	_	_	19	subj	_	SpaceAfter=No
-19	ai	avoir	VERB	_	_	17	conj:dicto	_	_
-20	cours	cours	NOUN	_	_	19	comp:obj	_	_
-21	jusqu'	jusque	ADV	_	_	22	mod	_	SpaceAfter=No
-22	à	à	ADP	_	_	20	mod	_	_
-23	dix-neuf	dix-neuf	NUM	_	_	24	det	_	_
-24	heures	heure	NOUN	_	_	22	comp:obj	_	_
+19	ai	avoir	VERB	_	_	17	comp:obj	_	_
+20	,	_	PUNCT	_	_	22	punct	_	_
+21	j'	je	PRON	_	_	22	subj	_	SpaceAfter=No
+22	ai	avoir	VERB	_	_	19	conj:dicto	_	_
+23	cours	cours	NOUN	_	_	22	comp:obj	_	_
+24	jusqu'	jusque	ADV	_	_	25	mod	_	SpaceAfter=No
+25	à	à	ADP	_	_	23	mod	_	_
+26	dix-neuf	dix-neuf	NUM	_	_	27	det	_	_
+27	heures	heure	NOUN	_	_	25	comp:obj	_	_
+28	.	_	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_12
 # text = et après je rentre vers euh , vers vingt heures .
@@ -182,10 +209,12 @@
 3	je	je	PRON	_	_	4	subj	_	_
 4	rentre	rentrer	VERB	_	_	0	root	_	_
 5	vers	vers	ADP	_	_	4	mod	_	_
-6	euh	euh	INTJ	_	_	7	discourse	_	_
-7	vers	vers	ADP	_	_	5	conj:dicto	_	_
-8	vingt	vingt	NUM	_	_	9	det	_	_
-9	heures	heure	NOUN	_	_	7	comp:obj	_	_
+6	euh	euh	INTJ	_	_	8	discourse	_	_
+7	,	_	PUNCT	_	_	6	punct	_	_
+8	vers	vers	ADP	_	_	5	conj:dicto	_	_
+9	vingt	vingt	NUM	_	_	10	det	_	_
+10	heures	heure	NOUN	_	_	8	comp:obj	_	_
+11	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_13
 # text = et c'est un peu tard tu vois .
@@ -197,6 +226,7 @@
 6	tard	tard	ADV	_	_	3	mod	_	_
 7	tu	tu	PRON	_	_	8	subj	_	_
 8	vois	voir	VERB	_	_	3	discourse	_	_
+9	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_14
 # text = et mon quartier c'est pas un , c'est pas un quartier très bon .
@@ -207,13 +237,15 @@
 5	est	être	AUX	_	_	0	root	_	_
 6	pas	pas	ADV	_	_	5	mod	_	_
 7	un	un	DET	_	_	5	comp:pred	_	_
-8	c'	ce	PRON	_	_	9	subj	_	SpaceAfter=No
-9	est	être	AUX	_	_	5	conj:dicto	_	_
-10	pas	pas	ADV	_	_	9	mod	_	_
-11	un	un	DET	_	_	12	det	_	_
-12	quartier	quartier	NOUN	_	_	9	comp:pred	_	_
-13	très	très	ADV	_	_	14	mod	_	_
-14	bon	bon	ADJ	_	_	12	mod	_	_
+8	,	_	PUNCT	_	_	10	punct	_	_
+9	c'	ce	PRON	_	_	10	subj	_	SpaceAfter=No
+10	est	être	AUX	_	_	5	conj:dicto	_	_
+11	pas	pas	ADV	_	_	10	mod	_	_
+12	un	un	DET	_	_	13	det	_	_
+13	quartier	quartier	NOUN	_	_	10	comp:pred	_	_
+14	très	très	ADV	_	_	15	mod	_	_
+15	bon	bon	ADJ	_	_	13	mod	_	_
+16	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_15
 # text = euh fin c'est pas un quartier de très bonne sécurité .
@@ -228,13 +260,14 @@
 9	très	très	ADV	_	_	10	mod	_	_
 10	bonne	bon	ADJ	_	_	11	mod	_	_
 11	sécurité	sécurité	NOUN	_	_	8	comp:obj	_	_
+12	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_16
 # text = à ce jour-là dans la petite rue que je passe normalement pour euh pour rentrer chez moi , il n'y a personne .
-1	à	à	ADP	_	_	21	mod	_	_
+1	à	à	ADP	_	_	22	mod	_	_
 2	ce	ce	DET	_	_	3	det	_	_
 3	jour-là	jour-là	NOUN	_	_	1	comp:obj	_	_
-4	dans	dans	ADP	_	_	21	mod	_	_
+4	dans	dans	ADP	_	_	22	mod	_	_
 5	la	le	DET	_	_	7	det	_	_
 6	petite	petit	ADJ	_	_	7	mod	_	_
 7	rue	rue	NOUN	_	_	4	comp:obj	_	_
@@ -248,11 +281,13 @@
 15	rentrer	rentrer	VERB	_	_	14	comp:obj	_	_
 16	chez	chez	ADP	_	_	15	mod	_	_
 17	moi	lui	PRON	_	_	16	comp:obj	_	_
-18	il	il	PRON	_	_	21	subj	_	_
-19	n'	ne	ADV	_	_	21	mod	_	SpaceAfter=No
-20	y	y	PRON	_	_	21	mod	_	_
-21	a	avoir	VERB	_	_	0	root	_	_
-22	personne	personne	NOUN	_	_	21	comp:obj	_	_
+18	,	_	PUNCT	_	_	4	punct	_	_
+19	il	il	PRON	_	_	22	subj	_	_
+20	n'	ne	ADV	_	_	22	mod	_	SpaceAfter=No
+21	y	y	PRON	_	_	22	mod	_	_
+22	a	avoir	VERB	_	_	0	root	_	_
+23	personne	personne	NOUN	_	_	22	comp:obj	_	_
+24	.	_	PUNCT	_	_	22	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_17
 # text = mais à côté de l'entrée de la rue il y a quelques hommes , qui euh em , qui étaient euh , qui restaient ici et euh qui qui étaient en train de boire , fin qui euh , qui avaient l'air pas très euh , pas très amicaux .
@@ -270,37 +305,44 @@
 12	a	avoir	VERB	_	_	0	root	_	_
 13	quelques	quelque	DET	_	_	14	det	_	_
 14	hommes	homme	NOUN	_	_	12	comp:obj	_	_
-15	qui	qui	PRON	_	_	14	mod	_	_
-16	euh	euh	INTJ	_	_	19	discourse	_	_
-17	em	em	INTJ	_	_	19	discourse	_	_
-18	qui	qui	PRON	_	_	19	subj	_	_
-19	étaient	être	VERB	_	_	15	conj:dicto	_	_
-20	euh	euh	INTJ	_	_	22	discourse	_	_
-21	qui	qui	PRON	_	_	22	subj	_	_
-22	restaient	rester	VERB	_	_	19	conj:dicto	_	_
-23	ici	ici	ADV	_	_	22	mod	_	_
-24	et	et	CCONJ	_	_	28	cc	_	_
-25	euh	euh	INTJ	_	_	24	discourse	_	_
-26	qui	qui	PRON	_	_	28	subj	_	_
-27	qui	qui	PRON	_	_	26	conj:dicto	_	_
-28	étaient	être	VERB	_	_	22	conj:coord	_	_
-29	en	en	ADP	_	_	28	comp:pred	_	_
-30	train	train	NOUN	_	_	29	comp:obj	_	_
-31	de	de	ADP	_	_	30	mod	_	_
-32	boire	boire	VERB	_	_	31	comp:obj	_	_
-33	fin	fin	ADV	_	_	37	discourse	_	_
-34	qui	qui	PRON	_	_	37	subj	_	_
-35	euh	euh	INTJ	_	_	36	discourse	_	_
-36	qui	qui	PRON	_	_	34	conj:dicto	_	_
-37	avaient	avoir	VERB	_	_	28	conj:dicto	_	_
-38	l'	le	DET	_	_	39	det	_	SpaceAfter=No
-39	air	air	NOUN	_	_	37	comp:obj	_	_
-40	pas	pas	ADV	_	_	41	mod	_	_
-41	très	très	ADV	_	_	39	mod	_	_
-42	euh	euh	INTJ	_	_	45	discourse	_	_
-43	pas	pas	ADV	_	_	44	mod	_	_
-44	très	très	ADV	_	_	45	mod	_	_
-45	amicaux	amical	ADJ	_	_	41	conj:dicto	_	_
+15	,	_	PUNCT	_	_	16	punct	_	_
+16	qui	qui	PRON	_	_	14	mod	_	_
+17	euh	euh	INTJ	_	_	21	discourse	_	_
+18	em	em	INTJ	_	_	21	discourse	_	_
+19	,	_	PUNCT	_	_	18	punct	_	_
+20	qui	qui	PRON	_	_	21	subj	_	_
+21	étaient	être	VERB	_	_	16	conj:dicto	_	_
+22	euh	euh	INTJ	_	_	25	discourse	_	_
+23	,	_	PUNCT	_	_	22	punct	_	_
+24	qui	qui	PRON	_	_	25	subj	_	_
+25	restaient	rester	VERB	_	_	21	conj:dicto	_	_
+26	ici	ici	ADV	_	_	25	mod	_	_
+27	et	et	CCONJ	_	_	31	cc	_	_
+28	euh	euh	INTJ	_	_	27	discourse	_	_
+29	qui	qui	PRON	_	_	31	subj	_	_
+30	qui	qui	PRON	_	_	29	conj:dicto	_	_
+31	étaient	être	VERB	_	_	25	conj:coord	_	_
+32	en	en	ADP	_	_	31	comp:pred	_	_
+33	train	train	NOUN	_	_	32	comp:obj	_	_
+34	de	de	ADP	_	_	33	mod	_	_
+35	boire	boire	VERB	_	_	34	comp:obj	_	_
+36	,	_	PUNCT	_	_	42	punct	_	_
+37	fin	fin	ADV	_	_	42	discourse	_	_
+38	qui	qui	PRON	_	_	42	subj	_	_
+39	euh	euh	INTJ	_	_	41	discourse	_	_
+40	,	_	PUNCT	_	_	39	punct	_	_
+41	qui	qui	PRON	_	_	38	conj:dicto	_	_
+42	avaient	avoir	VERB	_	_	31	conj:dicto	_	_
+43	l'	le	DET	_	_	44	det	_	SpaceAfter=No
+44	air	air	NOUN	_	_	42	comp:obj	_	_
+45	pas	pas	ADV	_	_	46	mod	_	_
+46	très	très	ADV	_	_	44	mod	_	_
+47	euh	euh	INTJ	_	_	51	discourse	_	_
+48	,	_	PUNCT	_	_	47	punct	_	_
+49	pas	pas	ADV	_	_	50	mod	_	_
+50	très	très	ADV	_	_	51	mod	_	_
+51	amicaux	amical	ADJ	_	_	46	conj:dicto	_	_
+52	.	_	PUNCT	_	_	12	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_18
 # text = et du coup j'ai pensé de ne pas passer par euh cette rue-là , mais plutôt faire un bout de détour , parce que il y a une autre rue plus grande vers chez moi .
@@ -318,26 +360,29 @@
 12	euh	euh	INTJ	_	_	14	discourse	_	_
 13	cette	ce	DET	_	_	14	det	_	_
 14	rue-là	rue-là	NOUN	_	_	11	comp:obj	_	_
-15	mais	mais	ADV	_	_	17	cc	_	_
-16	plutôt	plutôt	ADV	_	_	17	mod	_	_
-17	faire	faire	VERB	_	_	10	conj:coord	_	_
-18	un	un	DET	_	_	19	det	_	_
-19	bout	bout	NOUN	_	_	17	comp:obj	_	_
-20	de	de	ADP	_	_	19	mod	_	_
-21	détour	détour	NOUN	_	_	20	comp:obj	_	_
-22	parce	parce	SCONJ	_	_	6	mod	_	_
-23	que	que	SCONJ	_	_	22	unk@fixed	_	_
-24	il	il	PRON	_	_	26	subj	_	_
-25	y	y	PRON	_	_	26	mod	_	_
-26	a	avoir	VERB	_	_	22	comp:obj	_	_
-27	une	un	DET	_	_	29	det	_	_
-28	autre	autre	ADJ	_	_	29	mod	_	_
-29	rue	rue	NOUN	_	_	26	comp:obj	_	_
-30	plus	plus	ADV	_	_	31	mod	_	_
-31	grande	grand	ADJ	_	_	29	mod	_	_
-32	vers	vers	ADP	_	_	29	mod	_	_
-33	chez	chez	ADP	_	_	32	comp:obj	_	_
-34	moi	lui	PRON	_	_	33	comp:obj	_	_
+15	,	_	PUNCT	_	_	18	punct	_	_
+16	mais	mais	ADV	_	_	18	cc	_	_
+17	plutôt	plutôt	ADV	_	_	18	mod	_	_
+18	faire	faire	VERB	_	_	10	conj:coord	_	_
+19	un	un	DET	_	_	20	det	_	_
+20	bout	bout	NOUN	_	_	18	comp:obj	_	_
+21	de	de	ADP	_	_	20	mod	_	_
+22	détour	détour	NOUN	_	_	21	comp:obj	_	_
+23	,	_	PUNCT	_	_	24	punct	_	_
+24	parce	parce	SCONJ	_	_	6	mod	_	_
+25	que	que	SCONJ	_	_	24	unk@fixed	_	_
+26	il	il	PRON	_	_	28	subj	_	_
+27	y	y	PRON	_	_	28	mod	_	_
+28	a	avoir	VERB	_	_	24	comp:obj	_	_
+29	une	un	DET	_	_	31	det	_	_
+30	autre	autre	ADJ	_	_	31	mod	_	_
+31	rue	rue	NOUN	_	_	28	comp:obj	_	_
+32	plus	plus	ADV	_	_	33	mod	_	_
+33	grande	grand	ADJ	_	_	31	mod	_	_
+34	vers	vers	ADP	_	_	31	mod	_	_
+35	chez	chez	ADP	_	_	34	comp:obj	_	_
+36	moi	lui	PRON	_	_	35	comp:obj	_	_
+37	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_19
 # text = c'est seulement c'est un peu c'est un peu plus loin .
@@ -354,6 +399,7 @@
 11	peu	peu	ADV	_	_	9	mod	_	_
 12	plus	plus	ADV	_	_	13	mod	_	_
 13	loin	loin	ADV	_	_	9	comp:pred	_	_
+14	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_20
 # text = faut que je marche euh dix minutes en plus .
@@ -366,23 +412,26 @@
 7	minutes	minute	NOUN	_	_	4	mod	_	_
 8	en	en	ADP	_	_	7	mod	_	_
 9	plus	plus	ADV	_	_	8	comp:obj	_	_
+10	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_21
 # text = mais à ce moment-là , j'ai vu qu'il y avait un euh garçon .
-1	mais	mais	ADV	_	_	6	cc	_	_
-2	à	à	ADP	_	_	6	mod	_	_
+1	mais	mais	ADV	_	_	7	cc	_	_
+2	à	à	ADP	_	_	7	mod	_	_
 3	ce	ce	DET	_	_	4	det	_	_
 4	moment-là	moment-là	NOUN	_	_	2	comp:obj	_	_
-5	j'	je	PRON	_	_	6	subj	_	SpaceAfter=No
-6	ai	avoir	AUX	_	_	0	root	_	_
-7	vu	voir	VERB	_	_	6	comp:aux	_	_
-8	qu'	que	SCONJ	_	_	7	comp:obj	_	SpaceAfter=No
-9	il	il	PRON	_	_	11	subj	_	_
-10	y	y	PRON	_	_	11	mod	_	_
-11	avait	avoir	VERB	_	_	8	comp:obj	_	_
-12	un	un	DET	_	_	14	det	_	_
-13	euh	euh	INTJ	_	_	12	discourse	_	_
-14	garçon	garçon	NOUN	_	_	11	comp:obj	_	_
+5	,	_	PUNCT	_	_	2	punct	_	_
+6	j'	je	PRON	_	_	7	subj	_	SpaceAfter=No
+7	ai	avoir	AUX	_	_	0	root	_	_
+8	vu	voir	VERB	_	_	7	comp:aux	_	_
+9	qu'	que	SCONJ	_	_	8	comp:obj	_	SpaceAfter=No
+10	il	il	PRON	_	_	12	subj	_	_
+11	y	y	PRON	_	_	12	mod	_	_
+12	avait	avoir	VERB	_	_	9	comp:obj	_	_
+13	un	un	DET	_	_	15	det	_	_
+14	euh	euh	INTJ	_	_	13	discourse	_	_
+15	garçon	garçon	NOUN	_	_	12	comp:obj	_	_
+16	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_22
 # text = fin il y avait un euh , un étudiant , qui euh , qui po~ port , qui portait un , un sac à dos et euh , avec des choses à manger à la main .
@@ -390,32 +439,39 @@
 2	il	il	PRON	_	_	4	subj	_	_
 3	y	y	PRON	_	_	4	mod	_	_
 4	avait	avoir	VERB	_	_	0	root	_	_
-5	un	un	DET	_	_	8	det	_	_
-6	euh	euh	INTJ	_	_	7	discourse	_	_
-7	un	un	DET	_	_	5	conj:dicto	_	_
-8	étudiant	étudiant	NOUN	_	_	4	comp:obj	_	_
-9	qui	qui	PRON	_	_	12	subj	_	_
-10	euh	euh	INTJ	_	_	11	discourse	_	_
-11	qui	qui	PRON	_	_	9	conj:dicto	_	_
-12	po~	po~	VERB	_	_	8	mod	_	_
-13	port	_	VERB	_	_	12	conj:dicto	_	_
-14	qui	qui	PRON	_	_	15	subj	_	_
-15	portait	porter	VERB	_	_	13	conj:dicto	_	_
-16	un	un	DET	_	_	18	det	_	_
-17	un	un	DET	_	_	16	conj:dicto	_	_
-18	sac	sac	NOUN	_	_	15	comp:obj	_	_
-19	à	à	ADP	_	_	18	mod	_	_
-20	dos	_	NOUN	_	_	19	comp:obj	_	_
-21	et	et	CCONJ	_	_	23	cc	_	_
-22	euh	euh	INTJ	_	_	21	discourse	_	_
-23	avec	avec	ADP	_	_	15	conj:coord	_	_
-24	des	de+le	DET	_	_	25	det	_	_
-25	choses	chose	NOUN	_	_	23	comp:obj	_	_
-26	à	à	ADP	_	_	25	mod	_	_
-27	manger	manger	VERB	_	_	26	comp:obj	_	_
-28	à	à	ADP	_	_	25	mod	_	_
-29	la	le	DET	_	_	30	det	_	_
-30	main	main	NOUN	_	_	28	comp:obj	_	_
+5	un	un	DET	_	_	9	det	_	_
+6	euh	euh	INTJ	_	_	8	discourse	_	_
+7	,	_	PUNCT	_	_	6	punct	_	_
+8	un	un	DET	_	_	5	conj:dicto	_	_
+9	étudiant	étudiant	NOUN	_	_	4	comp:obj	_	_
+10	,	_	PUNCT	_	_	15	punct	_	_
+11	qui	qui	PRON	_	_	15	subj	_	_
+12	euh	euh	INTJ	_	_	14	discourse	_	_
+13	,	_	PUNCT	_	_	12	punct	_	_
+14	qui	qui	PRON	_	_	11	conj:dicto	_	_
+15	po~	po~	VERB	_	_	9	mod	_	_
+16	port	_	VERB	_	_	15	conj:dicto	_	_
+17	,	_	PUNCT	_	_	19	punct	_	_
+18	qui	qui	PRON	_	_	19	subj	_	_
+19	portait	porter	VERB	_	_	16	conj:dicto	_	_
+20	un	un	DET	_	_	23	det	_	_
+21	,	_	PUNCT	_	_	22	punct	_	_
+22	un	un	DET	_	_	20	conj:dicto	_	_
+23	sac	sac	NOUN	_	_	19	comp:obj	_	_
+24	à	à	ADP	_	_	23	mod	_	_
+25	dos	_	NOUN	_	_	24	comp:obj	_	_
+26	et	et	CCONJ	_	_	29	cc	_	_
+27	euh	euh	INTJ	_	_	26	discourse	_	_
+28	,	_	PUNCT	_	_	26	punct	_	_
+29	avec	avec	ADP	_	_	19	conj:coord	_	_
+30	des	de+le	DET	_	_	31	det	_	_
+31	choses	chose	NOUN	_	_	29	comp:obj	_	_
+32	à	à	ADP	_	_	31	mod	_	_
+33	manger	manger	VERB	_	_	32	comp:obj	_	_
+34	à	à	ADP	_	_	31	mod	_	_
+35	la	le	DET	_	_	36	det	_	_
+36	main	main	NOUN	_	_	34	comp:obj	_	_
+37	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_23
 # text = et euh il est venu et euh il passé par euh cette euh petite rue .
@@ -434,29 +490,33 @@
 13	euh	euh	INTJ	_	_	12	discourse	_	_
 14	petite	petit	ADJ	_	_	15	mod	_	_
 15	rue	rue	NOUN	_	_	10	comp:obj	_	_
+16	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_24
 # text = donc j'ai euh , je l'ai suivi et j'ai passé par euh , j'ai passé par là aussi .
 1	donc	donc	ADV	_	_	3	cc	_	_
 2	j'	je	PRON	_	_	3	subj	_	SpaceAfter=No
 3	ai	avoir	AUX	_	_	0	root	_	_
-4	euh	euh	INTJ	_	_	7	discourse	_	_
-5	je	je	PRON	_	_	7	subj	_	_
-6	l'	le	PRON	_	_	8	comp:obj	_	SpaceAfter=No
-7	ai	avoir	AUX	_	_	3	conj:dicto	_	_
-8	suivi	suivre	VERB	_	_	7	comp:aux	_	_
-9	et	et	CCONJ	_	_	11	cc	_	_
-10	j'	je	PRON	_	_	11	subj	_	SpaceAfter=No
-11	ai	avoir	AUX	_	_	7	conj:coord	_	_
-12	passé	passer	VERB	_	_	11	comp:aux	_	_
-13	par	par	ADP	_	_	12	comp:obl	_	_
-14	euh	euh	INTJ	_	_	16	discourse	_	_
-15	j'	je	PRON	_	_	16	subj	_	SpaceAfter=No
-16	ai	avoir	AUX	_	_	11	conj:dicto	_	_
-17	passé	passer	VERB	_	_	16	comp:aux	_	_
-18	par	par	ADP	_	_	17	comp:obl	_	_
-19	là	là	ADV	_	_	18	comp:obj	_	_
-20	aussi	aussi	ADV	_	_	17	mod	_	_
+4	euh	euh	INTJ	_	_	8	discourse	_	_
+5	,	_	PUNCT	_	_	4	punct	_	_
+6	je	je	PRON	_	_	8	subj	_	_
+7	l'	le	PRON	_	_	9	comp:obj	_	SpaceAfter=No
+8	ai	avoir	AUX	_	_	3	conj:dicto	_	_
+9	suivi	suivre	VERB	_	_	8	comp:aux	_	_
+10	et	et	CCONJ	_	_	12	cc	_	_
+11	j'	je	PRON	_	_	12	subj	_	SpaceAfter=No
+12	ai	avoir	AUX	_	_	8	conj:coord	_	_
+13	passé	passer	VERB	_	_	12	comp:aux	_	_
+14	par	par	ADP	_	_	13	comp:obl	_	_
+15	euh	euh	INTJ	_	_	18	discourse	_	_
+16	,	_	PUNCT	_	_	15	punct	_	_
+17	j'	je	PRON	_	_	18	subj	_	SpaceAfter=No
+18	ai	avoir	AUX	_	_	12	conj:dicto	_	_
+19	passé	passer	VERB	_	_	18	comp:aux	_	_
+20	par	par	ADP	_	_	19	comp:obl	_	_
+21	là	là	ADV	_	_	20	comp:obj	_	_
+22	aussi	aussi	ADV	_	_	19	mod	_	_
+23	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_25
 # text = et donc je l'ai suivi .
@@ -466,6 +526,7 @@
 4	l'	le	PRON	_	_	6	comp:obj	_	SpaceAfter=No
 5	ai	avoir	AUX	_	_	0	root	_	_
 6	suivi	suivre	VERB	_	_	5	comp:aux	_	_
+7	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_26
 # text = et euh au milieu de la rue il y a un euh fourché .
@@ -482,6 +543,7 @@
 11	un	un	DET	_	_	13	det	_	_
 12	euh	euh	INTJ	_	_	11	discourse	_	_
 13	fourché	fourché	NOUN	_	_	10	comp:obj	_	_
+14	.	_	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_27
 # text = il tourne vers là-bas .
@@ -489,6 +551,7 @@
 2	tourne	tourner	VERB	_	_	0	root	_	_
 3	vers	vers	ADP	_	_	2	mod	_	_
 4	là-bas	là-bas	ADV	_	_	3	comp:obj	_	_
+5	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_28
 # text = et je do~ et je dois tourner vers là-bas aussi , parce que c'est euh c'est la rue où j'habite .
@@ -502,18 +565,20 @@
 8	vers	vers	ADP	_	_	7	mod	_	_
 9	là-bas	là-bas	ADV	_	_	8	comp:obj	_	_
 10	aussi	aussi	ADV	_	_	7	mod	_	_
-11	parce	parce	SCONJ	_	_	7	mod	_	_
-12	que	que	SCONJ	_	_	11	unk@fixed	_	_
-13	c'	ce	PRON	_	_	14	subj	_	SpaceAfter=No
-14	est	être	AUX	_	_	11	comp:obj	_	_
-15	euh	euh	INTJ	_	_	17	discourse	_	_
-16	c'	ce	PRON	_	_	17	subj	_	SpaceAfter=No
-17	est	être	AUX	_	_	14	conj:dicto	_	_
-18	la	le	DET	_	_	19	det	_	_
-19	rue	rue	NOUN	_	_	17	comp:pred	_	_
-20	où	où	PRON	_	_	19	mod	_	_
-21	j'	je	PRON	_	_	22	subj	_	SpaceAfter=No
-22	habite	habiter	VERB	_	_	20	comp:obj	_	_
+11	,	_	PUNCT	_	_	12	punct	_	_
+12	parce	parce	SCONJ	_	_	7	mod	_	_
+13	que	que	SCONJ	_	_	12	unk@fixed	_	_
+14	c'	ce	PRON	_	_	15	subj	_	SpaceAfter=No
+15	est	être	AUX	_	_	12	comp:obj	_	_
+16	euh	euh	INTJ	_	_	18	discourse	_	_
+17	c'	ce	PRON	_	_	18	subj	_	SpaceAfter=No
+18	est	être	AUX	_	_	15	conj:dicto	_	_
+19	la	le	DET	_	_	20	det	_	_
+20	rue	rue	NOUN	_	_	18	comp:pred	_	_
+21	où	où	PRON	_	_	20	mod	_	_
+22	j'	je	PRON	_	_	23	subj	_	SpaceAfter=No
+23	habite	habiter	VERB	_	_	21	comp:obj	_	_
+24	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_histoireDeBanlieue_29
 # text = et dans cette rue il marche toujours devant moi .
@@ -526,4 +591,5 @@
 7	toujours	toujours	ADV	_	_	6	mod	_	_
 8	devant	devant	ADP	_	_	6	mod	_	_
 9	moi	lui	PRON	_	_	8	comp:obj	_	_
+10	.	_	PUNCT	_	_	6	punct	_	_
 
