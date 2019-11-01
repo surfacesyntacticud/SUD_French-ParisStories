@@ -23,11 +23,9 @@
 6	la	le	DET	_	_	7	det	_	_
 7	conduite	conduite	NOUN	_	_	5	comp:obj	_	_
 8	accompagnée	accompagner	VERB	_	_	7	mod	_	_
-9-10	au	_	_	_	_	_	_	_	_
-9	à	à	ADP	_	_	5	mod	_	_
-10	le	le	DET	_	_	11	det	_	_
-11	lycée	lycée	NOUN	_	_	9	comp:obj	_	_
-12	.	_	PUNCT	_	_	4	punct	_	_
+9	au	à+le	ADP	_	_	5	mod	_	_
+10	lycée	lycée	NOUN	_	_	9	comp:obj	_	_
+11	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_3
 # text = Donc avant ça il fallait que je passe le code et tout ,
@@ -98,25 +96,26 @@
 
 # sent_id = ParisStories_2019_peripitiesVoiture_6
 # text = et j'avais donc euh trois milles kilomètres à faire , je crois , je suis plus très sûr .
-1	j'	je	PRON	_	_	2	subj	_	SpaceAfter=No
-2	avais	avoir	AUX	_	_	0	root	_	_
-3	donc	donc	ADV	_	_	2	mod	_	_
-4	euh	euh	INTJ	_	_	8	discourse	_	_
-5	trois	trois	NUM	_	_	6	mod	_	_
-6	milles	mille	NUM	_	_	7	det	_	_
-7	kilomètres	kilomètre	NOUN	_	_	9	comp:obj	_	_
-8	à	à	ADP	_	_	2	comp:obj	_	_
-9	faire	faire	VERB	_	_	8	comp:obj	_	_
-10	,	_	PUNCT	_	_	12	punct	_	_
-11	je	je	PRON	_	_	12	subj	_	_
-12	crois	croire	VERB	_	_	2	discourse	_	_
-13	,	_	PUNCT	_	_	15	punct	_	_
-14	je	je	PRON	_	_	15	subj	_	_
-15	suis	être	VERB	_	_	12	conj:dicto	_	_
-16	plus	plus	ADV	_	_	15	mod	_	_
-17	très	très	ADV	_	_	18	mod	_	_
-18	sûr	sûr	ADJ	_	_	15	comp:pred	_	_
-19	.	_	PUNCT	_	_	2	punct	_	_
+1	et	et	PUNCT	_	_	3	cc	_	_
+2	j'	je	PRON	_	_	3	subj	_	SpaceAfter=No
+3	avais	avoir	AUX	_	_	0	root	_	_
+4	donc	donc	ADV	_	_	3	mod	_	_
+5	euh	euh	INTJ	_	_	9	discourse	_	_
+6	trois	trois	NUM	_	_	7	mod	_	_
+7	milles	mille	NUM	_	_	8	det	_	_
+8	kilomètres	kilomètre	NOUN	_	_	10	comp:obj	_	_
+9	à	à	ADP	_	_	3	comp:obj	_	_
+10	faire	faire	VERB	_	_	9	comp:obj	_	_
+11	,	_	PUNCT	_	_	13	punct	_	_
+12	je	je	PRON	_	_	13	subj	_	_
+13	crois	croire	VERB	_	_	3	discourse	_	_
+14	,	_	PUNCT	_	_	16	punct	_	_
+15	je	je	PRON	_	_	16	subj	_	_
+16	suis	être	VERB	_	_	13	conj:dicto	_	_
+17	plus	plus	ADV	_	_	16	mod	_	_
+18	très	très	ADV	_	_	19	mod	_	_
+19	sûr	sûr	ADJ	_	_	16	comp:pred	_	_
+20	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_7
 # text = Donc c'était sur un an je devais faire la conduite accompagnée .
@@ -303,7 +302,7 @@
 13	,	_	PUNCT	_	_	14	punct	_	_
 14	pour	pour	ADP	_	_	8	mod	_	_
 15	vérifier	vérifier	VERB	_	_	14	comp:obj	_	_
-16	que	que	CCONJ	_	_	15	comp:obj	_	_
+16	que	que	SCONJ	_	_	15	comp:obj	_	_
 17	j'	je	PRON	_	_	18	subj	_	SpaceAfter=No
 18	avais	avoir	AUX	_	_	16	comp:obj	_	_
 19	pas	pas	ADV	_	_	18	mod	_	_
@@ -351,16 +350,14 @@
 14	je	je	PRON	_	_	15	subj	_	_
 15	devais	devoir	VERB	_	_	12	comp:obj	_	_
 16	pas	pas	ADV	_	_	15	mod	_	_
-17-18	du	_	_	_	_	_	_	_	_
-17	de	de	ADP	_	_	16	mod	_	_
-18	le	le	DET	_	_	19	det	_	_
-19	tout	tout	NOUN	_	_	17	comp:obj	_	_
-20	me	me	PRON	_	_	21	comp:obj	_	_
-21	mettre	mettre	VERB	_	_	15	comp:obj@x	_	_
-22	sur	sur	ADP	_	_	21	comp:obl	_	_
-23	cette	ce	PRON	_	_	24	det	_	_
-24	voie	voie	NOUN	_	_	22	comp:obj	_	_
-25	.	_	PUNCT	_	_	3	punct	_	_
+17	du	de+le	ADP	_	_	16	mod	_	_
+18	tout	tout	NOUN	_	_	17	comp:obj	_	_
+19	me	me	PRON	_	_	20	comp:obj	_	_
+20	mettre	mettre	VERB	_	_	15	comp:obj@x	_	_
+21	sur	sur	ADP	_	_	20	comp:obl	_	_
+22	cette	ce	PRON	_	_	23	det	_	_
+23	voie	voie	NOUN	_	_	21	comp:obj	_	_
+24	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_18
 # text = c'est parce que je pensais que le stop il s'étalait sur tout le long de la route , mais , en fait , pas du tout .
@@ -390,11 +387,9 @@
 24	fait	faire	VERB	_	_	23	comp:obj	_	_
 25	,	_	PUNCT	_	_	23	punct	_	_
 26	pas	pas	ADV	_	_	12	conj:coord	_	_
-27-28	du	_	_	_	_	_	_	_	_
-27	de	de	ADP	_	_	26	mod	_	_
-28	le	le	DET	_	_	29	det	_	_
-29	tout	tout	NOUN	_	_	27	comp:obj	_	_
-30	.	_	PUNCT	_	_	2	punct	_	_
+27	du	de+le	ADP	_	_	26	mod	_	_
+28	tout	tout	NOUN	_	_	27	comp:obj	_	_
+29	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_19
 # text = Donc euh coup de pression , le moniteur il était pas très content , et moi , vu que c'était la veille de mon permis , bah , je me suis donnée un petit coup de pression , quoi .
@@ -524,51 +519,52 @@
 
 # sent_id = ParisStories_2019_peripitiesVoiture_25
 # text = Et , en fait , euh vu que j'habite sur euh la ... fin , dans le sud de seine et marne , j'ai du me déplacer sur Paris le matin , prendre le train et tout , et remonter après mon partiel .
-1	Et	et	CCONJ	_	_	25	cc	_	_
+1	Et	et	CCONJ	_	_	26	cc	_	_
 2	,	_	PUNCT	_	_	3	punct	_	_
 3	en	en	PRON	_	_	1	discourse	_	_
 4	fait	faire	NOUN	_	_	3	comp:obj	_	_
 5	,	_	PUNCT	_	_	6	punct	_	_
 6	euh	euh	INTJ	_	_	1	discourse	_	_
-7	vu	voir	ADP	_	_	25	mod	_	_
+7	vu	voir	ADP	_	_	26	mod	_	_
 8	que	que	SCONJ	_	_	7	comp:obj	_	_
 9	j'	je	PRON	_	_	10	subj	_	SpaceAfter=No
 10	habite	habiter	VERB	_	_	8	comp:obj	_	_
 11	sur	sur	ADP	_	_	10	comp:obl	_	_
-12	euh	euh	INTJ	_	_	14	discourse	_	_
-13	la	le	DET	_	_	14	det	_	_
-14	fin	fin	NOUN	_	_	11	comp:obj	_	_
-15	,	_	PUNCT	_	_	16	punct	_	_
-16	dans	dans	ADP	_	_	11	conj:dicto	_	_
-17	le	le	DET	_	_	18	det	_	_
-18	sud	sud	NOUN	_	_	16	comp:obj	_	_
-19	de	de	ADP	_	_	18	mod	_	_
-20	seine	seine	PROPN	_	_	19	comp:obj	_	_
-21	et	et	CCONJ	_	_	22	cc	_	_
-22	marne	marne	PROPN	_	_	20	conj:coord	_	_
-23	,	_	PUNCT	_	_	7	punct	_	_
-24	j'	je	PRON	_	_	25	subj	_	SpaceAfter=No
-25	ai	avoir	AUX	_	_	0	root	_	_
-26	du	de+le	VERB	_	_	25	comp:aux	_	_
-27	me	me	PRON	_	_	28	comp:obj	_	_
-28	déplacer	déplacer	VERB	_	_	26	comp:obj@x	_	_
-29	sur	sur	ADP	_	_	28	mod	_	_
-30	Paris	Paris	PROPN	_	_	29	comp:obj	_	_
-31	le	le	DET	_	_	32	det	_	_
-32	matin	matin	NOUN	_	_	28	mod	_	_
-33	,	_	PUNCT	_	_	34	punct	_	_
-34	prendre	prendre	VERB	_	_	28	mod	_	_
-35	le	le	DET	_	_	36	det	_	_
-36	train	train	NOUN	_	_	34	comp:obj	_	_
-37	et	et	CCONJ	_	_	38	cc	_	_
-38	tout	tout	PRON	_	_	36	conj:appos	_	_
-39	,	_	PUNCT	_	_	41	punct	_	_
-40	et	et	CCONJ	_	_	41	cc	_	_
-41	remonter	remonter	VERB	_	_	28	conj:coord	_	_
-42	après	après	ADP	_	_	41	mod	_	_
-43	mon	son	PRON	_	_	44	det	_	_
-44	partiel	partiel	NOUN	_	_	42	comp:obj	_	_
-45	.	_	PUNCT	_	_	25	punct	_	_
+12	euh	euh	INTJ	_	_	15	discourse	_	_
+13	la	le	DET	_	_	15	det	_	_
+14	...	...	PUNCT	_	_	13	punct	_	_
+15	fin	fin	NOUN	_	_	11	comp:obj	_	_
+16	,	_	PUNCT	_	_	17	punct	_	_
+17	dans	dans	ADP	_	_	11	conj:dicto	_	_
+18	le	le	DET	_	_	19	det	_	_
+19	sud	sud	NOUN	_	_	17	comp:obj	_	_
+20	de	de	ADP	_	_	19	mod	_	_
+21	seine	seine	PROPN	_	_	20	comp:obj	_	_
+22	et	et	CCONJ	_	_	23	cc	_	_
+23	marne	marne	PROPN	_	_	21	conj:coord	_	_
+24	,	_	PUNCT	_	_	7	punct	_	_
+25	j'	je	PRON	_	_	26	subj	_	SpaceAfter=No
+26	ai	avoir	AUX	_	_	0	root	_	_
+27	du	de+le	VERB	_	_	26	comp:aux	_	_
+28	me	me	PRON	_	_	29	comp:obj	_	_
+29	déplacer	déplacer	VERB	_	_	27	comp:obj@x	_	_
+30	sur	sur	ADP	_	_	29	mod	_	_
+31	Paris	Paris	PROPN	_	_	30	comp:obj	_	_
+32	le	le	DET	_	_	33	det	_	_
+33	matin	matin	NOUN	_	_	29	mod	_	_
+34	,	_	PUNCT	_	_	35	punct	_	_
+35	prendre	prendre	VERB	_	_	29	mod	_	_
+36	le	le	DET	_	_	37	det	_	_
+37	train	train	NOUN	_	_	35	comp:obj	_	_
+38	et	et	CCONJ	_	_	39	cc	_	_
+39	tout	tout	PRON	_	_	37	conj:appos	_	_
+40	,	_	PUNCT	_	_	42	punct	_	_
+41	et	et	CCONJ	_	_	42	cc	_	_
+42	remonter	remonter	VERB	_	_	29	conj:coord	_	_
+43	après	après	ADP	_	_	42	mod	_	_
+44	mon	son	PRON	_	_	45	det	_	_
+45	partiel	partiel	NOUN	_	_	43	comp:obj	_	_
+46	.	_	PUNCT	_	_	26	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_26
 # text = Donc ça s'est fait .
@@ -590,14 +586,13 @@
 7	que	que	PRON	_	_	9	comp:obj	_	_
 8	c'	ce	PRON	_	_	9	subj	_	SpaceAfter=No
 9	était	être	AUX	_	_	6	mod	_	_
-10	ça	ça	PRON	_	_	11	subj	_	_
-11	tombait	tomber	VERB	_	_	9	conj:dicto	_	_
-12	pas	pas	ADV	_	_	11	mod	_	_
-13-14	au	_	_	_	_	_	_	_	_
-13	à	à	ADP	_	_	11	comp:obl	_	_
-14	le	le	DET	_	_	16	det	_	_
+10	...	...	PUNCT	_	_	12	punct	_	_
+11	ça	ça	PRON	_	_	12	subj	_	_
+12	tombait	tomber	VERB	_	_	9	conj:dicto	_	_
+13	pas	pas	ADV	_	_	12	mod	_	_
+14	au	à+le	ADP	_	_	12	comp:obl	_	_
 15	même	même	ADJ	_	_	16	mod	_	_
-16	moment	moment	NOUN	_	_	13	comp:obj	_	_
+16	moment	moment	NOUN	_	_	14	comp:obj	_	_
 17	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_28
@@ -625,28 +620,26 @@
 
 # sent_id = ParisStories_2019_peripitiesVoiture_30
 # text = Après euh l'après-midi du coup je me suis rendue euh à mon lieu de rendez-vous pour mon permis ,
-1	Après	après	ADV	_	_	10	mod	_	_
+1	Après	après	ADV	_	_	9	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	l'	le	DET	_	_	4	det	_	SpaceAfter=No
-4	après-midi	_	NOUN	_	_	10	mod	_	_
-5-6	du	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	10	discourse	_	_
-6	le	le	DET	_	_	7	det	_	_
-7	coup	coup	NOUN	_	_	5	comp:obj	_	_
-8	je	je	PRON	_	_	10	subj	_	_
-9	me	me	PRON	_	_	11	comp:obj	_	_
-10	suis	être	AUX	_	_	0	root	_	_
-11	rendue	_	VERB	_	_	10	comp:aux@pass	_	_
-12	euh	euh	INTJ	_	_	13	discourse	_	_
-13	à	à	ADP	_	_	11	comp:obl	_	_
-14	mon	son	DET	_	_	15	det	_	_
-15	lieu	lieu	NOUN	_	_	13	comp:obj	_	_
-16	de	de	ADP	_	_	15	mod	_	_
-17	rendez-vous	rendez-vous	NOUN	_	_	16	comp:obj	_	_
-18	pour	pour	ADP	_	_	11	mod	_	_
-19	mon	son	DET	_	_	20	det	_	_
-20	permis	_	NOUN	_	_	18	comp:obj	_	_
-21	,	_	PUNCT	_	_	10	punct	_	_
+4	après-midi	_	NOUN	_	_	9	mod	_	_
+5	du	de+le	ADP	_	_	9	discourse	_	_
+6	coup	coup	NOUN	_	_	5	comp:obj	_	_
+7	je	je	PRON	_	_	9	subj	_	_
+8	me	me	PRON	_	_	10	comp:obj	_	_
+9	suis	être	AUX	_	_	0	root	_	_
+10	rendue	_	VERB	_	_	9	comp:aux@pass	_	_
+11	euh	euh	INTJ	_	_	12	discourse	_	_
+12	à	à	ADP	_	_	10	comp:obl	_	_
+13	mon	son	DET	_	_	14	det	_	_
+14	lieu	lieu	NOUN	_	_	12	comp:obj	_	_
+15	de	de	ADP	_	_	14	mod	_	_
+16	rendez-vous	rendez-vous	NOUN	_	_	15	comp:obj	_	_
+17	pour	pour	ADP	_	_	10	mod	_	_
+18	mon	son	DET	_	_	19	det	_	_
+19	permis	_	NOUN	_	_	17	comp:obj	_	_
+20	,	_	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_31
 # text = j'étais accompagnée de ma mère .
@@ -663,47 +656,49 @@
 1	J'	je	PRON	_	_	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	_	0	root	_	_
 3	pu	pouvoir	VERB	_	_	2	comp:aux	_	_
-4	du	de+le	DET	_	_	12	discourse	_	_
-5	coup	coup	NOUN	_	_	4	comp:obj	_	_
-6	,	_	PUNCT	_	_	4	punct	_	_
-7	dans	dans	ADP	_	_	12	mod	_	_
-8	la	le	DET	_	_	9	det	_	_
-9	voiture	voiture	NOUN	_	_	7	comp:obj	_	_
-10	elle	il	PRON	_	_	12	subj	_	_
-11	m'	me	PRON	_	_	14	comp:obj	_	SpaceAfter=No
-12	a	avoir	AUX	_	_	2	conj:dicto	_	_
-13	beaucoup	beaucoup	ADV	_	_	14	mod	_	_
-14	aidé	aider	VERB	_	_	12	comp:aux	_	_
-15	à	à	ADP	_	_	14	comp:obl@x	_	_
-16	réviser	réviser	VERB	_	_	15	comp:obj	_	_
-17	,	_	PUNCT	_	_	18	punct	_	_
-18	à	à	ADP	_	_	15	conj:appos	_	_
-19	travailler	travailler	VERB	_	_	18	comp:obj	_	_
-20	euh	euh	INTJ	_	_	21	discourse	_	_
-21	parce	parce	SCONJ	_	_	14	mod	_	_
-22	que	que	SCONJ	_	_	21	unk@fixed	_	_
-23	quand	quand	SCONJ	_	_	30	mod	_	_
-24	on	on	PRON	_	_	25	subj	_	_
-25	passe	passer	VERB	_	_	23	comp:obj	_	_
-26	le	le	DET	_	_	27	det	_	_
-27	permis	_	NOUN	_	_	25	comp:obj	_	_
-28	il	il	PRON	_	_	30	subj	_	_
-29	y	y	PRON	_	_	30	mod	_	_
-30	a	avoir	VERB	_	_	21	comp:obj	_	_
-31	des	de+le	DET	_	_	32	det	_	_
-32	questions	question	NOUN	_	_	30	comp:obj	_	_
-33	en	en	PRON	_	_	32	mod	_	_
-34	plus	plus	ADV	_	_	33	comp:obj	_	_
-35	euh	euh	INTJ	_	_	37	discourse	_	_
-36	,	_	PUNCT	_	_	35	punct	_	_
-37	théoriques	théorique	ADJ	_	_	33	conj:dicto	_	_
-38	,	_	PROPN	_	_	39	punct	_	_
-39	en	en	PRON	_	_	37	conj:dicto	_	_
-40	plus	plus	ADV	_	_	39	comp:obj	_	_
-41	de	de	ADP	_	_	40	mod	_	_
-42	la	le	DET	_	_	43	det	_	_
-43	pratique	pratique	NOUN	_	_	41	comp:obj	_	_
-44	.	_	PUNCT	_	_	2	punct	_	_
+4	..	..	PUNCT	_	_	13	punct	_	_
+5	du	de+le	DET	_	_	13	discourse	_	_
+6	coup	coup	NOUN	_	_	5	comp:obj	_	_
+7	,	_	PUNCT	_	_	5	punct	_	_
+8	dans	dans	ADP	_	_	13	mod	_	_
+9	la	le	DET	_	_	10	det	_	_
+10	voiture	voiture	NOUN	_	_	8	comp:obj	_	_
+11	elle	il	PRON	_	_	13	subj	_	_
+12	m'	me	PRON	_	_	15	comp:obj	_	SpaceAfter=No
+13	a	avoir	AUX	_	_	2	conj:dicto	_	_
+14	beaucoup	beaucoup	ADV	_	_	15	mod	_	_
+15	aidé	aider	VERB	_	_	13	comp:aux	_	_
+16	à	à	ADP	_	_	15	comp:obl@x	_	_
+17	réviser	réviser	VERB	_	_	16	comp:obj	_	_
+18	,	_	PUNCT	_	_	19	punct	_	_
+19	à	à	ADP	_	_	16	conj:appos	_	_
+20	travailler	travailler	VERB	_	_	19	comp:obj	_	_
+21	...	...	PUNCT	_	_	23	punct	_	_
+22	euh	euh	INTJ	_	_	23	discourse	_	_
+23	parce	parce	SCONJ	_	_	15	mod	_	_
+24	que	que	SCONJ	_	_	23	unk@fixed	_	_
+25	quand	quand	SCONJ	_	_	32	mod	_	_
+26	on	on	PRON	_	_	27	subj	_	_
+27	passe	passer	VERB	_	_	25	comp:obj	_	_
+28	le	le	DET	_	_	29	det	_	_
+29	permis	_	NOUN	_	_	27	comp:obj	_	_
+30	il	il	PRON	_	_	32	subj	_	_
+31	y	y	PRON	_	_	32	mod	_	_
+32	a	avoir	VERB	_	_	23	comp:obj	_	_
+33	des	de+le	DET	_	_	34	det	_	_
+34	questions	question	NOUN	_	_	32	comp:obj	_	_
+35	en	en	PRON	_	_	34	mod	_	_
+36	plus	plus	ADV	_	_	35	comp:obj	_	_
+37	euh	euh	INTJ	_	_	39	discourse	_	_
+38	,	_	PUNCT	_	_	37	punct	_	_
+39	théoriques	théorique	ADJ	_	_	35	conj:dicto	_	_
+40	,	_	PROPN	_	_	41	punct	_	_
+41	en	en	PRON	_	_	39	conj:dicto	_	_
+42	plus	plus	ADV	_	_	41	comp:obj	_	_
+43	de	de	ADP	_	_	42	mod	_	_
+44	la	le	DET	_	_	45	det	_	_
+45	pratique	pratique	NOUN	_	_	43	comp:obj	_	_
+46	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_33
 # text = Du coup , je les ai XX , fin , j'ai essayé de les voir pour les retenir par coeur parce que c'est c'est des points de gagnés , quoi .
