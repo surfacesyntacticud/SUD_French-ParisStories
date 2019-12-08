@@ -41,7 +41,7 @@
 5	assez	assez	ADV	_	_	6	mod	_	_
 6	drôle	drôle	ADJ	_	_	4	comp:pred	_	_
 7	apparemment	apparemment	ADV	_	_	4	mod	_	_
-8	d'	d'	ADP	_	_	4	mod	_	SpaceAfter=No
+8	d'	de	ADP	_	_	4	mod	_	SpaceAfter=No
 9	après	après	ADP	_	_	8	comp:obj	_	_
 10	Thomas	_	PROPN	_	_	9	comp:obj	_	_
 11	.	_	PUNCT	_	_	4	punct	_	_
@@ -147,7 +147,7 @@
 # sent_id = ParisStories_2019_peripleCrous_9
 # text = et euh de le coup on est allé à Jussieu ,
 1	et	et	CCONJ	_	_	7	cc	_	_
-2	euh	euh	INTJ	_	_	1	discourse	_	_
+2	euh	euh	INTJ	_	_	1	cc	_	_
 3	de	de	ADP	_	_	7	discourse	_	_
 4	le	le	DET	_	_	5	det	_	_
 5	coup	coup	NOUN	_	_	3	comp:obj	_	_
@@ -220,7 +220,7 @@
 38	que	que	SCONJ	_	_	36	comp:obj	_	_
 39	une	un	DET	_	_	40	det	_	_
 40	entrée	entrée	NOUN	_	_	38	comp:obj	_	_
-41	d'	d'	ADP	_	_	40	mod	_	SpaceAfter=No
+41	d'	de	ADP	_	_	40	mod	_	SpaceAfter=No
 42	ouverte	ouvrir	VERB	_	_	41	comp:obj	_	_
 43	comme	comme	ADP	_	_	36	mod	_	_
 44	partout	partout	ADV	_	_	43	comp:obj	_	_
@@ -230,7 +230,7 @@
 # text = ce qui est assez chiant .
 1	ce	ce	PRON	_	_	0	root	_	_
 2	qui	qui	PRON	_	_	3	subj	_	_
-3	est	être	AUX	_	_	1	mod	_	_
+3	est	être	AUX	_	_	1	mod@relcl	_	_
 4	assez	assez	ADV	_	_	5	mod	_	_
 5	chiant	chiant	ADJ	_	_	3	comp:pred	_	_
 6	.	_	PUNCT	_	_	1	punct	_	_
@@ -327,7 +327,7 @@
 16	,	_	PUNCT	_	_	17	punct	_	_
 17	en	en	ADP	_	_	10	mod	_	_
 18	mode	mode	NOUN	_	_	17	comp:obj	_	_
-19	bon	bon	ADJ	_	_	21	discourse	_	_
+19	bon	bon	INTJ	_	_	21	discourse	_	_
 20	ils	il	PRON	_	_	21	subj	_	_
 21	doivent	devoir	VERB	_	_	18	mod	_	_
 22	bien	bien	ADV	_	_	23	mod	_	_
@@ -347,13 +347,13 @@
 6	à	à	ADP	_	_	13	mod	_	_
 7	le	le	DET	_	_	8	det	_	_
 8	bout	bout	NOUN	_	_	6	comp:obj	_	_
-9	d'	d'	ADP	_	_	8	mod	_	SpaceAfter=No
+9	d'	de	ADP	_	_	8	mod	_	SpaceAfter=No
 10	un	un	DET	_	_	11	det	_	_
 11	moment	moment	NOUN	_	_	9	comp:obj	_	_
 12	j'	je	PRON	_	_	13	subj	_	SpaceAfter=No
 13	ai	avoir	AUX	_	_	0	root	_	_
 14	vu	voir	VERB	_	_	13	comp:aux	_	_
-15	quand	quand	SCONJ	_	_	14	mod	_	_
+15	quand	quand	SCONJ	_	_	14	mod	_	EXTPOS=ADV
 16	même	même	ADV	_	_	15	unk@fixed	_	_
 17	qu'	que	SCONJ	_	_	14	mod	_	SpaceAfter=No
 18	il	il	PRON	_	_	20	subj	_	_
@@ -368,7 +368,7 @@
 
 # sent_id = ParisStories_2019_peripleCrous_20
 # text = bon Cuvier ça veut rien dire pour moi ,
-1	bon	bon	ADJ	_	_	4	discourse	_	_
+1	bon	bon	INTJ	_	_	4	discourse	_	_
 2	Cuvier	cuvier	PROPN	_	_	4	dislocated	_	_
 3	ça	ça	PRON	_	_	4	subj	_	_
 4	veut	vouloir	VERB	_	_	0	root	_	_
@@ -383,7 +383,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	t'	te	PRON	_	_	3	subj	_	SpaceAfter=No
 3	avais	avoir	VERB	_	_	0	root	_	_
-4	quand	quand	SCONJ	_	_	3	mod	_	_
+4	quand	quand	SCONJ	_	_	3	mod	_	EXTPOS=ADV
 5	même	même	ADV	_	_	4	unk@fixed	_	_
 6	un	un	DET	_	_	7	det	_	_
 7	couteau	couteau	NOUN	_	_	3	comp:obj	_	_
@@ -401,14 +401,14 @@
 19	qui	qui	PRON	_	_	22	subj	_	_
 20	du	de+le	VERB	_	_	22	discourse	_	_
 21	coup	coup	NOUN	_	_	20	comp:obj	_	_
-22	indiquait	indiquer	VERB	_	_	18	mod	_	_
+22	indiquait	indiquer	VERB	_	_	18	mod@relcl	_	_
 23	un	un	DET	_	_	24	det	_	_
 24	CROUS	crous	PROPN	_	_	22	comp:obj	_	_
 25	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_22
 # text = bon , de le coup on commence à marcher ,
-1	bon	bon	ADJ	_	_	7	discourse	_	_
+1	bon	bon	INTJ	_	_	7	discourse	_	_
 2	,	_	PUNCT	_	_	1	punct	_	_
 3	de	de	ADP	_	_	7	discourse	_	_
 4	le	le	DET	_	_	5	det	_	_
@@ -456,7 +456,7 @@
 # sent_id = ParisStories_2019_peripleCrous_26
 # text = et donc là on trouve le rond 47 .
 1	et	et	CCONJ	_	_	5	cc	_	_
-2	donc	donc	ADV	_	_	1	discourse	_	_
+2	donc	donc	ADV	_	_	1	cc	_	_
 3	là	là	ADV	_	_	5	mod	_	_
 4	on	on	PRON	_	_	5	subj	_	_
 5	trouve	trouver	VERB	_	_	0	root	_	_
@@ -559,13 +559,13 @@
 9	le	le	DET	_	_	10	det	_	_
 10	couloir	couloir	NOUN	_	_	8	comp:obj	_	_
 11	t'	te	PRON	_	_	12	subj	_	SpaceAfter=No
-12	as	avoir	AUX	_	_	0	root	_	_
+12	as	avoir	VERB	_	_	0	root	_	_
 13	juste	juste	ADV	_	_	12	mod	_	_
 14	une	un	DET	_	_	15	det	_	_
 15	porte	porte	NOUN	_	_	12	comp:obj	_	_
 16	qui	qui	PRON	_	_	18	subj	_	_
 17	te	te	PRON	_	_	18	comp:obj	_	_
-18	ramène	ramener	VERB	_	_	15	mod	_	_
+18	ramène	ramener	VERB	_	_	15	mod@relcl	_	_
 19	dehors	dehors	ADV	_	_	18	mod	_	_
 20	.	_	PUNCT	_	_	12	punct	_	_
 
@@ -585,7 +585,7 @@
 12	vu	voir	VERB	_	_	19	mod	_	_
 13	qu'	que	SCONJ	_	_	12	unk@fixed	_	SpaceAfter=No
 14	y	y	PRON	_	_	15	mod	_	_
-15	avait	avoir	AUX	_	_	12	comp:obj	_	_
+15	avait	avoir	VERB	_	_	12	comp:obj	_	_
 16	un	un	DET	_	_	17	det	_	_
 17	gars	gars	NOUN	_	_	15	comp:obj	_	_
 18	on	on	PRON	_	_	19	subj	_	_
@@ -600,7 +600,7 @@
 # text = et , euh , là on a trouvé le CROUS .
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	,	_	PUNCT	_	_	3	punct	_	_
-3	euh	euh	INTJ	_	_	1	discourse	_	_
+3	euh	euh	INTJ	_	_	1	cc	_	_
 4	,	_	PUNCT	_	_	1	punct	_	_
 5	là	là	ADV	_	_	7	mod	_	_
 6	on	on	PRON	_	_	7	subj	_	_
@@ -668,7 +668,7 @@
 # sent_id = ParisStories_2019_peripleCrous_39
 # text = et bah le CROUS de Jussieu .
 1	et	et	CCONJ	_	_	4	cc	_	_
-2	bah	bah	INTJ	_	_	1	discourse	_	_
+2	bah	bah	INTJ	_	_	1	cc	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	CROUS	crous	PROPN	_	_	0	root	_	_
 5	de	de	ADP	_	_	4	mod	_	_
@@ -689,7 +689,7 @@
 10	moins	moins	ADV	_	_	8	comp:obj	_	_
 11	un	un	DET	_	_	12	det	_	_
 12	quart	quart	NOUN	_	_	7	comp:obj	_	_
-13	d'	d'	ADP	_	_	12	mod	_	SpaceAfter=No
+13	d'	de	ADP	_	_	12	mod	_	SpaceAfter=No
 14	heure	heure	NOUN	_	_	13	comp:obj	_	_
 15	à	à	ADP	_	_	7	comp:obl@x	_	_
 16	faire	faire	VERB	_	_	15	comp:obj	_	_
@@ -720,7 +720,7 @@
 41	,	_	PUNCT	_	_	42	punct	_	_
 42	ce	ce	PRON	_	_	39	dislocated	_	_
 43	qui	qui	PRON	_	_	44	subj	_	_
-44	était	être	AUX	_	_	42	mod	_	_
+44	était	être	AUX	_	_	42	mod@relcl	_	_
 45	assez	assez	ADV	_	_	46	mod	_	_
 46	décevant	décevant	ADJ	_	_	44	comp:pred	_	_
 47	.	_	PUNCT	_	_	6	punct	_	_
@@ -738,7 +738,7 @@
 9	avait	avoir	VERB	_	_	6	comp:obj	_	_
 10	un	un	DET	_	_	9	comp:obj	_	_
 11	y'	y	PRON	_	_	12	mod	_	SpaceAfter=No
-12	avait	avoir	AUX	_	_	9	conj:dicto	_	_
+12	avait	avoir	VERB	_	_	9	conj:dicto	_	_
 13	un	un	DET	_	_	14	det	_	_
 14	escalator	escalator	NOUN	_	_	12	comp:obj	_	_
 15	dans	dans	ADV	_	_	12	mod	_	_
@@ -865,13 +865,13 @@
 16	gens	gens	NOUN	_	_	5	conj:coord	_	_
 17	qui	qui	PRON	_	_	19	subj	_	_
 18	se	se	PRON	_	_	19	comp:obj	_	_
-19	plaignent	plaigner	VERB	_	_	16	mod	_	_
+19	plaignent	plaigner	VERB	_	_	16	mod@relcl	_	_
 20	,	_	PUNCT	_	_	22	punct	_	_
 21	tout	tout	ADV	_	_	22	mod	_	_
 22	ça	ça	PRON	_	_	5	discourse	_	_
 23	,	_	PUNCT	_	_	24	punct	_	_
 24	bon	bon	ADP	_	_	5	discourse	_	_
-25	bref	bref	ADV	_	_	5	discourse	_	_
+25	bref	bref	INTJ	_	_	5	discourse	_	_
 26	,	_	PUNCT	_	_	28	punct	_	_
 27	la	le	DET	_	_	28	det	_	_
 28	France	France	PROPN	_	_	5	discourse	_	_

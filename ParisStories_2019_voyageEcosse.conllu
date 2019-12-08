@@ -3,7 +3,7 @@
 1	c'	ce	PRON	_	_	2	subj	_	SpaceAfter=No
 2	est	être	AUX	_	_	0	root	_	_
 3	vrai	vrai	ADJ	_	_	2	comp:pred	_	_
-4	que	que	SCONJ	_	_	2	dislocated	_	_
+4	que	que	SCONJ	_	_	2	mod	_	_
 5	quand	quand	SCONJ	_	_	14	mod	_	_
 6	je	je	PRON	_	_	8	subj	_	_
 7	le	le	PRON	_	_	8	comp:obj	_	_
@@ -129,7 +129,7 @@
 8	et	et	CCONJ	_	_	13	cc	_	_
 9	ma	son	DET	_	_	10	det	_	_
 10	prof	prof	NOUN	_	_	13	subj	_	_
-11	d'	d'	ADP	_	_	10	mod	_	SpaceAfter=No
+11	d'	de	ADP	_	_	10	mod	_	SpaceAfter=No
 12	anglais	anglais	NOUN	_	_	11	comp:obj	_	_
 13	organisait	organiser	VERB	_	_	4	conj:coord	_	_
 14	un	un	DET	_	_	15	det	_	_
@@ -149,7 +149,7 @@
 4	on	on	PRON	_	_	5	subj	_	_
 5	avait	avoir	VERB	_	_	0	root	_	_
 6	pas	pas	ADV	_	_	8	mod	_	_
-7	d'	d'	DET	_	_	6	fixed	_	SpaceAfter=No
+7	d'	UN	DET	_	_	6	fixed	_	SpaceAfter=No
 8	informations	_	NOUN	_	_	5	comp:obj	_	_
 9	,	_	PUNCT	_	_	10	punct	_	_
 10	parce	parce	SCONJ	_	_	5	mod	_	_
@@ -208,7 +208,7 @@
 2	c'	ce	PRON	_	_	3	subj	_	SpaceAfter=No
 3	est	être	AUX	_	_	0	root	_	_
 4	vrai	vrai	ADJ	_	_	3	comp:pred	_	_
-5	que	que	SCONJ	_	_	3	dislocated	_	_
+5	que	que	SCONJ	_	_	3	mod	_	_
 6	quand	quand	SCONJ	_	_	12	mod	_	_
 7	j'	je	PRON	_	_	8	subj	_	SpaceAfter=No
 8	ai	avoir	AUX	_	_	6	comp:obj	_	_
@@ -242,7 +242,7 @@
 15	pays	pays	NOUN	_	_	13	comp:obj	_	_
 16	où	où	PRON	_	_	22	comp:obl	_	_
 17	j'	je	PRON	_	_	18	subj	_	SpaceAfter=No
-18	avais	avoir	AUX	_	_	15	mod	_	_
+18	avais	avoir	AUX	_	_	15	mod@relcl	_	_
 19	toujours	toujours	ADV	_	_	20	mod	_	_
 20	rêvé	rêver	VERB	_	_	18	comp:aux	_	_
 21	d'	d'	ADP	_	_	20	comp:obl	_	SpaceAfter=No
@@ -349,7 +349,7 @@
 17	ressenti	ressentir	VERB	_	_	15	comp:aux	_	_
 18	la	le	DET	_	_	19	det	_	_
 19	fatigue	fatigue	NOUN	_	_	17	comp:obj	_	_
-20	quand	quand	ADV	_	_	17	mod	_	_
+20	quand	quand	SCONJ	_	_	17	mod	_	EXTPOS=ADV
 21	même	même	ADV	_	_	20	unk@fixed	_	_
 22	,	_	PUNCT	_	_	23	punct	_	_
 23	que	que	SCONJ	_	_	17	mod	_	_
@@ -396,13 +396,13 @@
 # sent_id = ParisStories_2019_voyageEcosse_18
 # text = et en fait , ce que j' ai adoré dans ce voyage , c' est que il y avait la moitié de le temps où c' était du temps libre , et l' autre moitié où on faisait des activités donc par rapport à la ville .
 1	et	et	CCONJ	_	_	15	cc	_	_
-2	en	en	PRON	_	_	1	discourse	_	_
+2	en	en	PRON	_	_	1	cc	_	_
 3	fait	faire	VERB	_	_	2	comp:obj	_	_
 4	,	_	PUNCT	_	_	1	punct	_	_
 5	ce	ce	PRON	_	_	15	dislocated	_	_
 6	que	que	PRON	_	_	9	comp:obj	_	_
 7	j'	je	PRON	_	_	8	subj	_	SpaceAfter=No
-8	ai	avoir	AUX	_	_	5	mod	_	_
+8	ai	avoir	AUX	_	_	5	mod@relcl	_	_
 9	adoré	adorer	VERB	_	_	8	comp:aux	_	_
 10	dans	dans	ADP	_	_	9	mod	_	_
 11	ce	ce	DET	_	_	12	det	_	_
@@ -421,7 +421,7 @@
 24	temps	temps	NOUN	_	_	22	comp:obj	_	_
 25	où	où	PRON	_	_	27	dislocated	_	_
 26	c'	ce	PRON	_	_	27	subj	_	SpaceAfter=No
-27	était	être	AUX	_	_	21	mod	_	_
+27	était	être	AUX	_	_	21	mod@relcl	_	_
 28	du	de+le	DET	_	_	29	det	_	_
 29	temps	temps	NOUN	_	_	27	comp:pred	_	_
 30	libre	Libre	ADJ	_	_	29	mod	_	_
@@ -432,7 +432,7 @@
 35	moitié	moitié	NOUN	_	_	21	conj:coord	_	_
 36	où	où	PRON	_	_	38	mod	_	_
 37	on	on	PRON	_	_	38	subj	_	_
-38	faisait	faire	VERB	_	_	35	mod	_	_
+38	faisait	faire	VERB	_	_	35	mod@relcl	_	_
 39	des	de+le	DET	_	_	40	det	_	_
 40	activités	_	NOUN	_	_	38	comp:obj	_	_
 41	donc	donc	ADV	_	_	42	discourse	_	_
@@ -497,7 +497,7 @@
 6	qui	qui	PRON	_	_	5	mod	_	_
 7	ce	ce	PRON	_	_	5	conj:dicto	_	_
 8	qui	qui	PRON	_	_	9	subj	_	_
-9	crée	_	VERB	_	_	7	mod	_	_
+9	crée	_	VERB	_	_	7	mod@relcl	_	_
 10	un	un	DET	_	_	11	det	_	_
 11	lien	lien	NOUN	_	_	9	comp:obj	_	_
 12	avec	avec	ADP	_	_	11	mod	_	_
@@ -530,7 +530,7 @@
 18	chose	chose	NOUN	_	_	16	comp:pred	_	_
 19	qui	qui	PRON	_	_	21	subj	_	_
 20	nous	nous	PRON	_	_	21	comp:obj	_	_
-21	lie	lier	VERB	_	_	18	mod	_	_
+21	lie	lier	VERB	_	_	18	mod@relcl	_	_
 22	plus	plus	ADV	_	_	23	mod	_	_
 23	à	à	ADP	_	_	21	mod	_	_
 24	la	le	DET	_	_	25	det	_	_
@@ -560,8 +560,8 @@
 # sent_id = ParisStories_2019_voyageEcosse_23
 # text = et donc euh j' ai vraiment découvert une ville euh festive et et magique .
 1	et	et	CCONJ	_	_	5	cc	_	_
-2	donc	donc	ADV	_	_	1	discourse	_	_
-3	euh	euh	INTJ	_	_	1	discourse	_	_
+2	donc	donc	ADV	_	_	1	cc	_	_
+3	euh	euh	INTJ	_	_	1	cc	_	_
 4	j'	je	PRON	_	_	5	subj	_	SpaceAfter=No
 5	ai	avoir	AUX	_	_	0	root	_	_
 6	vraiment	vraiment	ADV	_	_	5	mod	_	_
@@ -581,7 +581,7 @@
 2	c'	ce	PRON	_	_	3	subj	_	SpaceAfter=No
 3	est	être	AUX	_	_	0	root	_	_
 4	vrai	vrai	ADJ	_	_	3	comp:pred	_	_
-5	que	que	SCONJ	_	_	3	dislocated	_	_
+5	que	que	SCONJ	_	_	3	mod	_	_
 6	quand	quand	SCONJ	_	_	15	mod	_	_
 7	on	on	PRON	_	_	8	subj	_	_
 8	marche	marcher	VERB	_	_	6	comp:obj	_	_
@@ -653,7 +653,7 @@
 10	Ecosse	ecosse	PROPN	_	_	8	comp:obj	_	_
 11	qui	qui	PRON	_	_	13	subj	_	_
 12	m'	me	PRON	_	_	14	comp:obl	_	SpaceAfter=No
-13	a	avoir	AUX	_	_	7	mod	_	_
+13	a	avoir	AUX	_	_	7	mod@relcl	_	_
 14	attiré	attirer	VERB	_	_	13	comp:aux	_	_
 15	,	_	PUNCT	_	_	3	punct	_	_
 
@@ -730,14 +730,14 @@
 10	c'	ce	PRON	_	_	11	subj	_	SpaceAfter=No
 11	est	être	AUX	_	_	3	conj:coord	_	_
 12	vrai	vrai	ADJ	_	_	11	comp:pred	_	_
-13	que	que	SCONJ	_	_	11	dislocated	_	_
+13	que	que	SCONJ	_	_	11	mod	_	_
 14	c'	ce	PRON	_	_	15	subj	_	SpaceAfter=No
 15	est	être	AUX	_	_	13	comp:obj	_	_
 16	quelque	quelque	DET	_	_	17	det	_	_
 17	chose	chose	NOUN	_	_	15	comp:pred	_	_
 18	que	que	PRON	_	_	21	comp:obj	_	_
 19	j'	je	PRON	_	_	20	subj	_	SpaceAfter=No
-20	ai	avoir	AUX	_	_	17	mod	_	_
+20	ai	avoir	AUX	_	_	17	mod@relcl	_	_
 21	adoré	adorer	VERB	_	_	20	comp:aux	_	_
 22	là-bas	là-bas	ADV	_	_	21	mod	_	_
 23	,	_	PUNCT	_	_	25	punct	_	_
@@ -816,7 +816,7 @@
 7	chez	chez	ADP	_	_	12	mod	_	_
 8	qui	qui	PRON	_	_	7	comp:obj	_	_
 9	on	on	PRON	_	_	10	subj	_	_
-10	était	être	AUX	_	_	6	mod	_	_
+10	était	être	AUX	_	_	6	mod@relcl	_	_
 11	euh	euh	INTJ	_	_	12	discourse	_	_
 12	hébergés	héberger	VERB	_	_	10	comp:aux@pass	_	_
 13	,	_	PUNCT	_	_	4	punct	_	_
@@ -842,7 +842,7 @@
 8	,	_	PUNCT	_	_	11	punct	_	_
 9	qui	qui	PRON	_	_	11	subj	_	_
 10	se	se	PRON	_	_	11	comp:obj	_	_
-11	ressemblent	_	VERB	_	_	6	mod	_	_
+11	ressemblent	_	VERB	_	_	6	mod@relcl	_	_
 12	toutes	tout	ADJ	_	_	11	mod	_	_
 13	,	_	PUNCT	_	_	14	punct	_	_
 14	avec	avec	ADP	_	_	2	conj:coord	_	_
@@ -859,7 +859,7 @@
 2	c'	ce	PRON	_	_	3	subj	_	SpaceAfter=No
 3	est	être	AUX	_	_	0	root	_	_
 4	vrai	vrai	ADJ	_	_	3	comp:pred	_	_
-5	que	que	SCONJ	_	_	3	dislocated	_	_
+5	que	que	SCONJ	_	_	3	mod	_	_
 6	de	de	ADP	_	_	10	discourse	_	_
 7	le	le	DET	_	_	8	det	_	_
 8	coup	coup	NOUN	_	_	6	comp:obj	_	_
@@ -885,7 +885,7 @@
 6	pense	penser	VERB	_	_	9	discourse	_	_
 7	,	_	PUNCT	_	_	6	punct	_	_
 8	n'	ne	ADV	_	_	9	mod	_	SpaceAfter=No
-9	est	être	AUX	_	_	2	mod	_	_
+9	est	être	AUX	_	_	2	mod@relcl	_	_
 10	pas	pas	ADV	_	_	9	mod	_	_
 11	l'	le	DET	_	_	12	det	_	SpaceAfter=No
 12	avis	avis	NOUN	_	_	9	comp:pred	_	_
@@ -898,7 +898,7 @@
 # sent_id = ParisStories_2019_voyageEcosse_37
 # text = et de le coup le reste de le temps on avait des activités donc par rapport à la ville .
 1	et	et	CCONJ	_	_	11	cc	_	_
-2	de	de	ADP	_	_	1	discourse	_	_
+2	de	de	ADP	_	_	1	cc	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	coup	coup	NOUN	_	_	2	comp:obj	_	_
 5	le	le	DET	_	_	6	det	_	_
@@ -934,7 +934,7 @@
 12	visiter	visiter	VERB	_	_	11	comp:pred	_	_
 13	le	le	DET	_	_	14	det	_	_
 14	château	château	NOUN	_	_	12	comp:obj	_	_
-15	d'	d'	ADP	_	_	14	mod	_	SpaceAfter=No
+15	d'	de	ADP	_	_	14	mod	_	SpaceAfter=No
 16	Edimbourg	edimbourg	PROPN	_	_	15	comp:obj	_	_
 17	,	_	PUNCT	_	_	20	punct	_	_
 18	et	et	CCONJ	_	_	20	cc	_	_

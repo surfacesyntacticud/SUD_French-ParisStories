@@ -4,9 +4,9 @@
 2	bah	bah	INTJ	_	_	10	discourse	_	_
 3	euh	euh	INTJ	_	_	10	discourse	_	_
 4	,	_	PUNCT	_	_	3	punct	_	_
-5	bon	bon	ADJ	_	_	10	discourse	_	_
+5	bon	bon	INTJ	_	_	10	discourse	_	_
 6	tout	tout	ADV	_	_	7	mod	_	_
-7	d'	d'	ADP	_	_	10	mod	_	SpaceAfter=No
+7	d'	de	ADP	_	_	10	mod	_	SpaceAfter=No
 8	abord	abord	NOUN	_	_	7	comp:obj@fixed	_	_
 9	je	je	PRON	_	_	10	subj	_	_
 10	voudrais	vouloir	VERB	_	_	0	root	_	_
@@ -23,7 +23,7 @@
 # sent_id = ParisStories_2019_experienceFac_2
 # text = euh bon sinon blague à part , je vais parler de mon arrivée à la fac
 1	euh	euh	INTJ	_	_	9	discourse	_	_
-2	bon	bon	ADJ	_	_	9	discourse	_	_
+2	bon	bon	INTJ	_	_	9	discourse	_	_
 3	sinon	sinon	ADV	_	_	9	mod	_	_
 4	blague	blague	NOUN	_	_	9	mod	_	_
 5	à	à	ADP	_	_	4	mod	_	_
@@ -170,7 +170,7 @@
 6	que	que	SCONJ	_	_	5	comp:obl	_	_
 7	y	y	PRON	_	_	8	mod	_	_
 8	avait	avoir	VERB	_	_	6	comp:obj	_	_
-9	d'	de	DET	_	_	11	det	_	SpaceAfter=No
+9	d'	UN	DET	_	_	11	det	_	SpaceAfter=No
 10	énormes	énorme	ADJ	_	_	11	mod	_	_
 11	bâtiments	_	NOUN	_	_	8	comp:obj	_	_
 12	avec	avec	ADP	_	_	11	mod	_	_
@@ -225,7 +225,7 @@
 5	la	le	DET	_	_	6	det	_	_
 6	rentrée	rentrée	NOUN	_	_	11	mod	_	_
 7	euh	euh	INTJ	_	_	6	discourse	_	_
-8	bon	bon	ADJ	_	_	6	discourse	_	_
+8	bon	bon	INTJ	_	_	6	discourse	_	_
 9	les	le	DET	_	_	10	det	_	_
 10	gens	gens	NOUN	_	_	11	subj	_	_
 11	sont	être	AUX	_	_	0	root	_	_
@@ -386,7 +386,7 @@
 6	essentiel	essentiel	NOUN	_	_	8	dislocated	_	_
 7	c'	ce	PRON	_	_	8	subj	_	SpaceAfter=No
 8	est	être	VERB	_	_	0	root	_	_
-9	quand	quand	ADV	_	_	8	mod	_	_
+9	quand	quand	SCONJ	_	_	8	mod	_	EXTPOS=ADV
 10	même	même	ADV	_	_	9	unk@fixed	_	_
 11	de	de	ADP	_	_	8	comp:pred	_	_
 12	réussir	réussir	VERB	_	_	11	comp:obj	_	_
@@ -419,7 +419,7 @@
 8	fac	fac	NOUN	_	_	10	dislocated	_	_
 9	c'	ce	PRON	_	_	10	subj	_	SpaceAfter=No
 10	est	être	VERB	_	_	6	comp:obj	_	_
-11	quand	quand	SCONJ	_	_	10	mod	_	_
+11	quand	quand	SCONJ	_	_	10	mod	_	EXTPOS=ADV
 12	même	même	ADV	_	_	11	unk@fixed	_	_
 13	une	un	DET	_	_	15	det	_	_
 14	bonne	bon	ADJ	_	_	15	mod	_	_
@@ -458,9 +458,9 @@
 # sent_id = ParisStories_2019_experienceFac_26
 # text = et euh enfin voilà c' est c' est sympa .
 1	et	et	CCONJ	_	_	6	cc	_	_
-2	euh	euh	INTJ	_	_	1	discourse	_	_
-3	enfin	enfin	ADV	_	_	1	discourse	_	_
-4	voilà	voilà	VERB	_	_	1	discourse	_	_
+2	euh	euh	INTJ	_	_	1	cc	_	_
+3	enfin	enfin	ADV	_	_	1	cc	_	_
+4	voilà	voilà	VERB	_	_	1	cc	_	_
 5	c'	ce	PRON	_	_	6	subj	_	SpaceAfter=No
 6	est	être	VERB	_	_	0	root	_	_
 7	c'	ce	PRON	_	_	8	subj	_	SpaceAfter=No
@@ -543,7 +543,7 @@
 # sent_id = ParisStories_2019_experienceFac_32
 # text = et euh franchement c' était une soirée super euh sympa .
 1	et	et	CCONJ	_	_	5	cc	_	_
-2	euh	euh	INTJ	_	_	1	discourse	_	_
+2	euh	euh	INTJ	_	_	1	cc	_	_
 3	franchement	_	ADV	_	_	5	mod	_	_
 4	c'	ce	PRON	_	_	5	subj	_	SpaceAfter=No
 5	était	être	VERB	_	_	0	root	_	_
@@ -574,7 +574,7 @@
 4	a	avoir	VERB	_	_	0	root	_	_
 5	pas	pas	ADV	_	_	6	mod@fixed	_	_
 6	mal	mal	ADV	_	_	4	comp:obj	_	_
-7	de	de	DET	_	_	6	comp:obl	_	_
+7	de	UN	DET	_	_	6	comp:obl	_	_
 8	trucs	truc	NOUN	_	_	7	comp:obj	_	_
 9	d'	de	ADP	_	_	8	mod	_	SpaceAfter=No
 10	organisés	organisé	ADJ	_	_	9	comp:obj	_	_
@@ -714,7 +714,7 @@
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	c'	ce	PRON	_	_	5	subj	_	SpaceAfter=No
 5	est	être	AUX	_	_	3	comp:obj	_	_
-6	quand	quand	ADV	_	_	5	mod	_	_
+6	quand	quand	SCONJ	_	_	5	mod	_	EXTPOS=ADV
 7	même	même	ADV	_	_	6	unk@fixed	_	_
 8	quelque	quelque	DET	_	_	9	det	_	_
 9	chose	chose	NOUN	_	_	5	comp:pred	_	_
@@ -739,7 +739,7 @@
 3	à	à	ADP	_	_	2	comp:obl@x	_	_
 4	à	à	ADP	_	_	3	conj:dicto	_	_
 5	découvrir	découvrir	VERB	_	_	4	comp:obj	_	_
-6	d'	de	DET	_	_	8	det	_	SpaceAfter=No
+6	d'	UN	DET	_	_	8	det	_	SpaceAfter=No
 7	autres	autre	ADJ	_	_	8	mod	_	_
 8	personnes	personne	NOUN	_	_	5	comp:obj	_	_
 9	.	_	PUNCT	_	_	2	punct	_	_
@@ -766,7 +766,7 @@
 # text = j' ai bon souvent fréquenté les mêmes personnes ,
 1	j'	je	PRON	_	_	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	_	0	root	_	_
-3	bon	bon	ADJ	_	_	5	discourse	_	_
+3	bon	bon	INTJ	_	_	5	discourse	_	_
 4	souvent	souvent	ADV	_	_	5	mod	_	_
 5	fréquenté	fréquenter	VERB	_	_	2	comp:aux	_	_
 6	les	le	DET	_	_	8	det	_	_
@@ -791,9 +791,9 @@
 13	découvert	découvrir	VERB	_	_	12	comp:aux	_	_
 14	un	un	DET	_	_	15	det@fixed	_	_
 15	peu	peu	NOUN	_	_	13	mod	_	_
-16	d'	de	DET	_	_	17	det	_	SpaceAfter=No
+16	d'	UN	DET	_	_	17	det	_	SpaceAfter=No
 17	autres	autre	ADJ	_	_	13	comp:obj	_	_
-18	d'	de	DET	_	_	20	det	_	SpaceAfter=No
+18	d'	UN	DET	_	_	20	det	_	SpaceAfter=No
 19	autres	autre	ADJ	_	_	20	mod	_	_
 20	mondes	monde	NOUN	_	_	17	conj:dicto	_	_
 21	,	_	PUNCT	_	_	23	punct	_	_
@@ -810,7 +810,7 @@
 1	j'	je	PRON	_	_	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	_	0	root	_	_
 3	découvert	découvrir	VERB	_	_	2	comp:aux	_	_
-4	de	de	DET	_	_	6	det	_	_
+4	de	UN	DET	_	_	6	det	_	_
 5	nouvelles	Nouvelles	ADJ	_	_	6	mod	_	_
 6	cultures	culture	NOUN	_	_	3	comp:obj	_	_
 7	,	_	PUNCT	_	_	10	punct	_	_
@@ -850,7 +850,7 @@
 4	pense	penser	VERB	_	_	0	root	_	_
 5	que	que	SCONJ	_	_	4	comp:obj	_	_
 6	c'	ce	PRON	_	_	7	subj	_	SpaceAfter=No
-7	est	être	AUX	_	_	5	comp:obj	_	_
+7	est	être	VERB	_	_	5	comp:obj	_	_
 8	comme	comme	ADP	_	_	7	comp:obl	_	_
 9	ça	ça	PRON	_	_	8	comp:obj	_	_
 10	qu'	que	SCONJ	_	_	7	comp:cleft	_	SpaceAfter=No
@@ -924,7 +924,7 @@
 # sent_id = ParisStories_2019_experienceFac_58
 # text = même si euh bon bah voilà , c' est pas drôle faut travailler , y a les devoirs , tout ça c' est quand même quelque chose euh ouais d' hu~ d' humain .
 1	même	même	ADV	_	_	23	mod	_	_
-2	si	si	SCONJ	_	_	1	unk@fixed	_	_
+2	si	si	SCONJ	_	_	1	mod@fixed	_	_
 3	euh	euh	INTJ	_	_	9	discourse	_	_
 4	bon	bon	INTJ	_	_	9	discourse	_	_
 5	bah	bah	INTJ	_	_	9	discourse	_	_
@@ -946,7 +946,7 @@
 21	ça	ça	PRON	_	_	18	conj:dicto	_	_
 22	c'	ce	PRON	_	_	23	subj	_	SpaceAfter=No
 23	est	être	AUX	_	_	0	root	_	_
-24	quand	quand	ADV	_	_	23	mod	_	_
+24	quand	quand	SCONJ	_	_	23	mod	_	EXTPOS=ADV
 25	même	même	ADV	_	_	24	unk@fixed	_	_
 26	quelque	quelque	DET	_	_	27	det	_	_
 27	chose	chose	NOUN	_	_	23	comp:pred	_	_
@@ -978,8 +978,8 @@
 # sent_id = ParisStories_2019_experienceFac_61
 # text = et euh ouais j' ai fait des belles rencontres
 1	et	et	CCONJ	_	_	5	cc	_	_
-2	euh	euh	INTJ	_	_	1	discourse	_	_
-3	ouais	ouais	ADV	_	_	1	discourse	_	_
+2	euh	euh	INTJ	_	_	1	cc	_	_
+3	ouais	ouais	ADV	_	_	1	cc	_	_
 4	j'	je	PRON	_	_	5	subj	_	SpaceAfter=No
 5	ai	avoir	AUX	_	_	0	root	_	_
 6	fait	faire	VERB	_	_	5	comp:aux	_	_
@@ -1031,7 +1031,7 @@
 # sent_id = ParisStories_2019_experienceFac_64
 # text = et euh j' ai remarqué souvent les cours d' ailleurs euh en petit groupe ça permet de de plus discuter et parfois euh ça rend le cours encore plus intéressant .
 1	et	et	CCONJ	_	_	4	cc	_	_
-2	euh	euh	INTJ	_	_	1	discourse	_	_
+2	euh	euh	INTJ	_	_	1	cc	_	_
 3	j'	je	PRON	_	_	4	subj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	_	0	root	_	_
 5	remarqué	remarquer	VERB	_	_	4	comp:aux	_	_
@@ -1274,8 +1274,8 @@
 
 # text = et puis enfin c' était sympa .
 1	et	et	CCONJ	_	_	5	cc	_	_
-2	puis	puis	SCONJ	_	_	1	discourse	_	_
-3	enfin	enfin	ADV	_	_	1	discourse	_	_
+2	puis	puis	SCONJ	_	_	1	cc	_	_
+3	enfin	enfin	ADV	_	_	1	cc	_	_
 4	c'	ce	PRON	_	_	5	subj	_	SpaceAfter=No
 5	était	être	AUX	_	_	0	conj:coord	_	_
 6	sympa	sympa	ADJ	_	_	5	comp:pred	_	_
@@ -1308,7 +1308,7 @@
 7	j'	je	PRON	_	_	8	subj	_	SpaceAfter=No
 8	aime	aimer	VERB	_	_	5	mod@relcl	_	_
 9	,	_	PUNCT	_	_	11	punct	_	_
-10	d'	de	DET	_	_	11	det	_	SpaceAfter=No
+10	d'	UN	DET	_	_	11	det	_	SpaceAfter=No
 11	autres	autre	PRON	_	_	5	conj:coord	_	_
 12	que	que	PRON	_	_	14	comp:obj	_	_
 13	j'	je	PRON	_	_	14	subj	_	SpaceAfter=No
@@ -1331,7 +1331,7 @@
 
 # text = et euh et j' aime beaucoup la notion de de partage .
 1	et	et	CCONJ	_	_	5	cc	_	_
-2	euh	euh	INTJ	_	_	3	discourse	_	_
+2	euh	euh	INTJ	_	_	3	cc	_	_
 3	et	et	CCONJ	_	_	1	conj:dicto	_	_
 4	j'	je	PRON	_	_	5	subj	_	SpaceAfter=No
 5	aime	aimer	VERB	_	_	0	conj:coord	_	_

@@ -25,13 +25,13 @@
 2	sujet	sujet	NOUN	_	_	4	dislocated	_	_
 3	c'	ce	PRON	_	_	4	subj	_	SpaceAfter=No
 4	était	être	AUX	_	_	0	root	_	_
-5	peut-on	peut-on	ADV	_	_	4	comp:obj	_	_
+5	peut-on	peut-on	ADV	_	_	4	comp:pred	_	_
 6	se	se	PRON	_	_	7	comp:obj	_	_
 7	mettre	mettre	VERB	_	_	5	comp:obj@x	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
 9	la	le	DET	_	_	10	det	_	_
 10	place	place	NOUN	_	_	8	comp:obj	_	_
-11	d'	d'	ADP	_	_	10	mod	_	SpaceAfter=No
+11	d'	de	ADP	_	_	10	mod	_	SpaceAfter=No
 12	autrui	autrui	PROPN	_	_	11	comp:obj	_	_
 13	?	_	PUNCT	_	_	4	punct	_	_
 
@@ -74,13 +74,13 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_5
 # text = mais bon , le prof nous avait quand même euh , initiés à la dissertation , en nous expliquant euh , ce qu' était la thèse , l' antithèse et la synthèse .
 1	mais	mais	ADV	_	_	7	cc	_	_
-2	bon	bon	ADJ	_	_	1	discourse	_	_
+2	bon	bon	INTJ	_	_	1	discourse	_	_
 3	,	_	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	_	5	det	_	_
 5	prof	prof	NOUN	_	_	7	subj	_	_
 6	nous	nous	PRON	_	_	7	comp:obj	_	_
-7	avait	avoir	AUX	_	_	0	root	_	_
-8	quand	quand	ADV	_	_	7	mod	_	_
+7	avait	avoir	VERB	_	_	0	root	_	_
+8	quand	quand	SCONJ	_	_	7	mod	_	EXTPOS=ADV
 9	même	même	ADV	_	_	8	unk@fixed	_	_
 10	euh	euh	INTJ	_	_	12	discourse	_	_
 11	,	_	PUNCT	_	_	10	punct	_	_
@@ -143,7 +143,7 @@
 32	et	et	CCONJ	_	_	34	cc	_	_
 33	des	de+le	DET	_	_	34	det	_	_
 34	citations	citation	NOUN	_	_	31	conj:coord	_	_
-35	d'	d'	ADP	_	_	34	mod	_	SpaceAfter=No
+35	d'	de	ADP	_	_	34	mod	_	SpaceAfter=No
 36	auteurs	auteur	NOUN	_	_	35	comp:obj	_	_
 37	,	_	PUNCT	_	_	39	punct	_	_
 38	et	et	CCONJ	_	_	39	cc	_	_
@@ -182,7 +182,7 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_8
 # text = et euh , y avait quelques idées , mais pas euh , les idées atypiques que le prof recherchait .
 1	et	et	CCONJ	_	_	5	cc	_	_
-2	euh	euh	INTJ	_	_	1	discourse	_	_
+2	euh	euh	INTJ	_	_	1	cc	_	_
 3	,	_	PUNCT	_	_	1	punct	_	_
 4	y	y	PRON	_	_	5	mod	_	_
 5	avait	avoir	VERB	_	_	0	root	_	_
@@ -275,13 +275,13 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_13
 # text = et euh , j' écoutais le témoignage d' une euh bonne soeur , soeur Marie-Paul Ross qui était en train de présenter euh , son livre .
 1	et	et	CCONJ	_	_	5	cc	_	_
-2	euh	euh	INTJ	_	_	1	discourse	_	_
+2	euh	euh	INTJ	_	_	1	cc	_	_
 3	,	_	PUNCT	_	_	1	punct	_	_
 4	j'	je	PRON	_	_	5	subj	_	SpaceAfter=No
 5	écoutais	écouter	VERB	_	_	0	root	_	_
 6	le	le	DET	_	_	7	det	_	_
 7	témoignage	témoignage	NOUN	_	_	5	comp:obj	_	_
-8	d'	d'	ADP	_	_	7	mod	_	SpaceAfter=No
+8	d'	de	ADP	_	_	7	mod	_	SpaceAfter=No
 9	une	un	SCONJ	_	_	12	det	_	_
 10	euh	euh	INTJ	_	_	9	discourse	_	_
 11	bonne	bon	ADJ	_	_	12	mod	_	_
@@ -291,7 +291,7 @@
 15	Marie-Paul	marie-paul	PROPN	_	_	14	mod@appos	_	_
 16	Ross	ross	PROPN	_	_	15	flat	_	_
 17	qui	qui	PRON	_	_	18	subj	_	_
-18	était	être	AUX	_	_	14	mod	_	_
+18	était	être	VERB	_	_	14	mod@relcl	_	_
 19	en	en	ADP	_	_	18	comp:obl	_	_
 20	train	train	ADJ	_	_	19	comp:obj	_	_
 21	de	de	ADP	_	_	20	mod	_	_
@@ -335,7 +335,7 @@
 9	truc	truc	NOUN	_	_	16	dislocated	_	_
 10	qui	qui	PRON	_	_	12	subj	_	_
 11	m'	me	PRON	_	_	13	comp:obj	_	SpaceAfter=No
-12	a	avoir	AUX	_	_	9	mod	_	_
+12	a	avoir	AUX	_	_	9	mod@relcl	_	_
 13	interpellé	interpeller	VERB	_	_	12	comp:aux	_	_
 14	,	_	PUNCT	_	_	9	punct	_	_
 15	c'	ce	PRON	_	_	16	subj	_	SpaceAfter=No
@@ -361,7 +361,7 @@
 6	,	_	PUNCT	_	_	5	punct	_	_
 7	c'	ce	PRON	_	_	8	subj	_	SpaceAfter=No
 8	est	être	AUX	_	_	4	comp:obj	_	_
-9	quand	quand	SCONJ	_	_	8	mod	_	_
+9	quand	quand	SCONJ	_	_	8	mod	_	EXTPOS=ADV
 10	même	même	ADV	_	_	9	unk@fixed	_	_
 11	euh	euh	INTJ	_	_	13	discourse	_	_
 12	,	_	PUNCT	_	_	11	punct	_	_
@@ -394,7 +394,7 @@
 14	,	_	PUNCT	_	_	16	punct	_	_
 15	c'	ce	PRON	_	_	16	subj	_	SpaceAfter=No
 16	est	être	AUX	_	_	13	comp:obj	_	_
-17	quand	quand	DET	_	_	16	mod	_	_
+17	quand	quand	SCONJ	_	_	16	mod	_	EXTPOS=ADV
 18	même	même	ADV	_	_	17	unk@fixed	_	_
 19	euh	euh	INTJ	_	_	22	discourse	_	_
 20	,	_	PUNCT	_	_	19	punct	_	_
@@ -407,7 +407,7 @@
 1	tu	tu	PRON	_	_	2	subj	_	_
 2	vois	voir	VERB	_	_	9	discourse	_	_
 3	,	_	PUNCT	_	_	2	punct	_	_
-4	d'	d'	ADP	_	_	9	mod	_	SpaceAfter=No
+4	d'	de	ADP	_	_	9	mod	_	SpaceAfter=No
 5	un	un	DET	_	_	6	det	_	_
 6	côté	côté	NOUN	_	_	4	comp:obj	_	_
 7	,	_	PUNCT	_	_	4	punct	_	_
@@ -422,7 +422,7 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_20
 # text = et d' un autre côté , elle veut euh , donner des conseils euh , à ses patients euh , sur le sexe .
 1	et	et	CCONJ	_	_	8	cc	_	_
-2	d'	d'	ADP	_	_	8	mod	_	SpaceAfter=No
+2	d'	de	ADP	_	_	8	mod	_	SpaceAfter=No
 3	un	un	DET	_	_	5	det	_	_
 4	autre	autre	ADJ	_	_	5	mod	_	_
 5	côté	côté	NOUN	_	_	2	comp:obj	_	_
@@ -474,7 +474,7 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_23
 # text = et euh en gros , elle expliquait euh , comment est venue euh , sa vocation euh , pour devenir sexologue .
 1	et	et	CCONJ	_	_	7	cc	_	_
-2	euh	euh	INTJ	_	_	1	discourse	_	_
+2	euh	euh	INTJ	_	_	1	cc	_	_
 3	en	en	ADP	_	_	7	mod	_	_
 4	gros	gros	ADJ	_	_	3	comp:obj	_	_
 5	,	_	PUNCT	_	_	3	punct	_	_
@@ -512,10 +512,10 @@
 12	~fin	~fin	ADV	_	_	6	discourse	_	_
 13	,	_	PUNCT	_	_	6	punct	_	_
 14	elle	il	PRON	_	_	16	subj	_	_
-15	l'	le	PRON	_	_	16	comp:obj	_	SpaceAfter=No
+15	l'	le	PRON	_	_	16	comp:pred	_	SpaceAfter=No
 16	est	être	AUX	_	_	0	root	_	_
 17	toujours	toujours	ADV	_	_	16	mod	_	_
-18	d'	d'	ADP	_	_	16	mod	_	SpaceAfter=No
+18	d'	de	ADP	_	_	16	mod	_	SpaceAfter=No
 19	ailleurs	ailleurs	ADV	_	_	18	comp:obj	_	_
 20	,	_	PUNCT	_	_	22	punct	_	_
 21	euh	euh	INTJ	_	_	22	discourse	_	_
@@ -555,14 +555,14 @@
 7	qu'	que	SCONJ	_	_	3	conj:dicto	_	SpaceAfter=No
 8	elle	il	PRON	_	_	9	subj	_	_
 9	a	avoir	AUX	_	_	7	comp:obj	_	_
-10	eu	avoir	AUX	_	_	9	comp:aux	_	_
+10	eu	avoir	VERB	_	_	9	comp:aux	_	_
 11	vraiment	vraiment	ADV	_	_	10	mod	_	_
 12	un	un	DET	_	_	13	det	_	_
 13	choc	_	NOUN	_	_	10	comp:obj	_	_
 14	culturel	culturel	ADJ	_	_	13	mod	_	_
 15	,	_	PUNCT	_	_	18	punct	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
-17	euh	euh	INTJ	_	_	16	discourse	_	_
+17	euh	euh	INTJ	_	_	16	cc	_	_
 18	qu'	que	PRON	_	_	7	conj:coord	_	SpaceAfter=No
 19	elle	il	PRON	_	_	20	subj	_	_
 20	a	avoir	AUX	_	_	18	comp:obj	_	_
@@ -624,7 +624,7 @@
 7	elle	il	PRON	_	_	8	subj	_	_
 8	était	être	AUX	_	_	6	comp:obj	_	_
 9	,	_	PUNCT	_	_	10	punct	_	_
-10	quand	quand	ADV	_	_	8	mod	_	_
+10	quand	quand	SCONJ	_	_	8	mod	_	EXTPOS=ADV
 11	même	même	ADV	_	_	10	unk@fixed	_	_
 12	,	_	PUNCT	_	_	8	punct	_	_
 13	confronté	confronter	VERB	_	_	8	comp:aux@pass	_	_
@@ -636,7 +636,7 @@
 19	,	_	PUNCT	_	_	6	punct	_	_
 20	elle	il	PRON	_	_	22	subj	_	_
 21	s'	se	PRON	_	_	22	comp:obl	_	SpaceAfter=No
-22	est	être	AUX	_	_	0	root	_	_
+22	est	être	VERB	_	_	0	root	_	_
 23	dit	dire	VERB	_	_	22	comp:aux	_	_
 24	ben	ben	INTJ	_	_	31	discourse	_	_
 25	,	_	PUNCT	_	_	24	punct	_	_
@@ -651,7 +651,7 @@
 34	de	de	ADP	_	_	36	det	_	_
 35	les	le	DET	_	_	34	comp:obj	_	_
 36	cours	cours	NOUN	_	_	33	comp:obj	_	_
-37	d'	d'	ADP	_	_	36	mod	_	SpaceAfter=No
+37	d'	de	ADP	_	_	36	mod	_	SpaceAfter=No
 38	éducation	Éducation	NOUN	_	_	37	comp:obj	_	_
 39	sexuelle	sexuel	ADJ	_	_	38	mod	_	_
 40	,	_	PUNCT	_	_	41	punct	_	_
@@ -664,10 +664,10 @@
 47	essayer	essayer	VERB	_	_	41	comp:obj	_	_
 48	de	de	ADP	_	_	47	comp:obl@x	_	_
 49	changer	changer	VERB	_	_	48	comp:obj	_	_
-50	leurs	son	PRON	_	_	51	det	_	_
+50	leurs	son	DET	_	_	51	det	_	_
 51	comportements	comportement	NOUN	_	_	49	comp:obj	_	_
 52	et	et	CCONJ	_	_	54	cc	_	_
-53	leur	son	PRON	_	_	54	det	_	_
+53	leur	son	DET	_	_	54	det	_	_
 54	vision	_	NOUN	_	_	51	conj:coord	_	_
 55	quoi	quoi	PRON	_	_	22	discourse	_	_
 56	.	_	PUNCT	_	_	22	punct	_	_
@@ -722,7 +722,7 @@
 8	filles	fille	NOUN	_	_	5	comp:obj	_	_
 9	qui	qui	PRON	_	_	11	subj	_	_
 10	se	se	PRON	_	_	11	comp:obl	_	_
-11	faisaient	faire	VERB	_	_	8	mod	_	_
+11	faisaient	faire	VERB	_	_	8	mod@relcl	_	_
 12	euh	euh	INTJ	_	_	14	discourse	_	_
 13	,	_	PUNCT	_	_	12	punct	_	_
 14	avorter	avorter	VERB	_	_	11	comp:obj@x	_	_
@@ -735,7 +735,7 @@
 21	vois	voir	VERB	_	_	23	discourse	_	_
 22	,	_	PUNCT	_	_	21	punct	_	_
 23	sans	sans	ADP	_	_	14	mod	_	_
-24	leur	son	PRON	_	_	25	det	_	_
+24	leur	son	DET	_	_	25	det	_	_
 25	consentement	consentement	NOUN	_	_	23	comp:obj	_	_
 26	.	_	PUNCT	_	_	5	punct	_	_
 
@@ -765,7 +765,7 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_32
 # text = et euh , c' est pour ça qu' elle a voulu vraiment faire quelque chose , et euh , voilà .
 1	et	et	CCONJ	_	_	5	cc	_	_
-2	euh	euh	INTJ	_	_	1	discourse	_	_
+2	euh	euh	INTJ	_	_	1	cc	_	_
 3	,	_	PUNCT	_	_	1	punct	_	_
 4	c'	ce	PRON	_	_	5	subj	_	SpaceAfter=No
 5	est	être	PRON	_	_	0	root	_	_
@@ -803,7 +803,7 @@
 13	,	_	PUNCT	_	_	12	punct	_	_
 14	je	je	PRON	_	_	15	subj	_	_
 15	tiens	tenir	VERB	_	_	11	parataxis:obj	_	_
-16	quand	quand	ADV	_	_	15	mod	_	_
+16	quand	quand	SCONJ	_	_	15	mod	_	EXTPOS=ADV
 17	même	même	ADV	_	_	16	unk@fixed	_	_
 18	mon	son	DET	_	_	19	det	_	_
 19	idée	idée	NOUN	_	_	15	comp:obj	_	_
@@ -837,7 +837,7 @@
 15	doit	devoir	VERB	_	_	1	comp:obj	_	_
 16	faire	faire	VERB	_	_	15	comp:obj@x	_	_
 17	preuve	preuve	NOUN	_	_	16	comp:obj	_	_
-18	d'	d'	ADP	_	_	17	mod	_	SpaceAfter=No
+18	d'	de	ADP	_	_	17	mod	_	SpaceAfter=No
 19	empathie	empathie	NOUN	_	_	18	comp:obj	_	_
 20	,	_	PUNCT	_	_	21	punct	_	_
 21	pour	pour	ADP	_	_	16	mod	_	_
@@ -890,7 +890,7 @@
 13	doit	devoir	VERB	_	_	2	conj:coord	_	_
 14	faire	faire	VERB	_	_	13	comp:pred	_	_
 15	preuve	preuve	NOUN	_	_	14	comp:obj	_	_
-16	d'	d'	ADP	_	_	15	mod	_	SpaceAfter=No
+16	d'	de	ADP	_	_	15	mod	_	SpaceAfter=No
 17	empathie	empathie	NOUN	_	_	16	comp:obj	_	_
 18	,	_	PUNCT	_	_	19	punct	_	_
 19	pour	pour	ADP	_	_	14	mod	_	_

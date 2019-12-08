@@ -47,8 +47,8 @@
 # sent_id = ParisStories_2019_peripitiesVoiture_4
 # text = et donc euh après j' ai , une fois que j' ai eu mon code , on m' a donné des leçons de conduite .
 1	et	et	CCONJ	_	_	6	cc	_	_
-2	donc	donc	ADV	_	_	1	discourse	_	_
-3	euh	euh	INTJ	_	_	1	discourse	_	_
+2	donc	donc	ADV	_	_	1	cc	_	_
+3	euh	euh	INTJ	_	_	1	cc	_	_
 4	après	après	SCONJ	_	_	6	mod	_	_
 5	j'	je	PRON	_	_	6	subj	_	SpaceAfter=No
 6	ai	avoir	AUX	_	_	0	root	_	_
@@ -59,7 +59,7 @@
 11	j'	je	PRON	_	_	12	subj	_	SpaceAfter=No
 12	ai	avoir	AUX	_	_	9	comp:obj	_	_
 13	eu	avoir	VERB	_	_	12	comp:aux	_	_
-14	mon	son	PRON	_	_	15	det	_	_
+14	mon	son	DET	_	_	15	det	_	_
 15	code	code	NOUN	_	_	13	comp:obj	_	_
 16	,	_	PUNCT	_	_	9	punct	_	_
 17	on	on	PRON	_	_	19	subj	_	_
@@ -75,7 +75,7 @@
 # sent_id = ParisStories_2019_peripitiesVoiture_5
 # text = Après ces leçons de conduite euh , j' ai pu me lancer dans la conduite accompagnée avec ma mère ,
 1	Après	après	ADP	_	_	9	mod	_	_
-2	ces	ce	PRON	_	_	3	det	_	_
+2	ces	ce	DET	_	_	3	det	_	_
 3	leçons	leçon	NOUN	_	_	1	comp:obj	_	_
 4	de	de	ADP	_	_	3	mod	_	_
 5	conduite	conduite	NOUN	_	_	4	comp:obj	_	_
@@ -91,7 +91,7 @@
 15	conduite	conduite	NOUN	_	_	13	comp:obj	_	_
 16	accompagnée	accompagner	ADJ	_	_	15	mod	_	_
 17	avec	avec	ADP	_	_	12	mod	_	_
-18	ma	son	PRON	_	_	19	det	_	_
+18	ma	son	DET	_	_	19	det	_	_
 19	mère	mère	NOUN	_	_	17	comp:obj	_	_
 20	,	_	PROPN	_	_	9	punct	_	_
 
@@ -99,7 +99,7 @@
 # text = et j' avais donc euh trois milles kilomètres à faire , je crois , je suis plus très sûr .
 1	et	et	PUNCT	_	_	3	cc	_	_
 2	j'	je	PRON	_	_	3	subj	_	SpaceAfter=No
-3	avais	avoir	AUX	_	_	0	root	_	_
+3	avais	avoir	VERB	_	_	0	root	_	_
 4	donc	donc	ADV	_	_	3	mod	_	_
 5	euh	euh	INTJ	_	_	9	discourse	_	_
 6	trois	trois	NUM	_	_	7	mod	_	_
@@ -137,7 +137,7 @@
 # sent_id = ParisStories_2019_peripitiesVoiture_8
 # text = Euh ma mère elle m' a beaucoup aidé parce que c' est une bonne conductrice ,
 1	Euh	euh	INTJ	_	_	6	discourse	_	_
-2	ma	son	PRON	_	_	3	det	_	_
+2	ma	son	DET	_	_	3	det	_	_
 3	mère	mère	NOUN	_	_	6	dislocated	_	_
 4	elle	il	PRON	_	_	6	subj	_	_
 5	m'	me	PRON	_	_	8	comp:obj	_	SpaceAfter=No
@@ -156,7 +156,7 @@
 # sent_id = ParisStories_2019_peripitiesVoiture_9
 # text = et euh j' ai fait vraiment beaucoup de choses , XX de la ville , de la route ,
 1	et	et	CCONJ	_	_	4	cc	_	_
-2	euh	euh	INTJ	_	_	1	discourse	_	_
+2	euh	euh	INTJ	_	_	1	cc	_	_
 3	j'	je	PRON	_	_	4	subj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	_	0	root	_	_
 5	fait	faire	VERB	_	_	4	comp:aux	_	_
@@ -198,7 +198,7 @@
 19	mes	son	DET	_	_	20	det	_	_
 20	tantes	tant	NOUN	_	_	18	comp:obj	_	_
 21	qui	qui	PRON	_	_	22	subj	_	_
-22	habitent	habiter	VERB	_	_	20	mod	_	_
+22	habitent	habiter	VERB	_	_	20	mod@relcl	_	_
 23	euh	euh	INTJ	_	_	24	discourse	_	_
 24	sur	sur	ADP	_	_	22	comp:obl	_	_
 25	paris	Paris	PROPN	_	_	24	comp:obj	_	_
@@ -281,7 +281,7 @@
 26	que	que	SCONJ	_	_	25	comp:obj	_	_
 27	je	je	PRON	_	_	28	subj	_	_
 28	passe	passer	VERB	_	_	26	comp:obj	_	_
-29	mon	son	PRON	_	_	30	det	_	_
+29	mon	son	DET	_	_	30	det	_	_
 30	permis	_	NOUN	_	_	28	comp:obj	_	_
 31	donc	donc	ADV	_	_	25	mod	_	_
 32	.	_	PUNCT	_	_	7	punct	_	_
@@ -323,13 +323,13 @@
 9	conduite	conduite	NOUN	_	_	8	comp:obj	_	_
 10	que	que	PRON	_	_	13	comp:obj	_	_
 11	j'	je	PRON	_	_	12	subj	_	SpaceAfter=No
-12	ai	avoir	AUX	_	_	7	mod	_	_
+12	ai	avoir	AUX	_	_	7	mod@relcl	_	_
 13	eu	avoir	VERB	_	_	12	comp:aux	_	_
 14	la	le	DET	_	_	15	det	_	_
 15	veille	veille	NOUN	_	_	13	mod	_	_
 16	de	de	ADP	_	_	15	mod	_	_
 17	passer	passer	VERB	_	_	16	comp:obj	_	_
-18	mon	son	PRON	_	_	19	det	_	_
+18	mon	son	DET	_	_	19	det	_	_
 19	permis	_	NOUN	_	_	17	comp:obj	_	_
 20	,	_	PUNCT	_	_	3	punct	_	_
 
@@ -357,7 +357,7 @@
 20	me	me	PRON	_	_	21	comp:obj	_	_
 21	mettre	mettre	VERB	_	_	15	comp:obj@x	_	_
 22	sur	sur	ADP	_	_	21	comp:obl	_	_
-23	cette	ce	PRON	_	_	24	det	_	_
+23	cette	ce	DET	_	_	24	det	_	_
 24	voie	voie	NOUN	_	_	22	comp:obj	_	_
 25	.	_	PUNCT	_	_	3	punct	_	_
 
@@ -420,7 +420,7 @@
 22	la	le	DET	_	_	23	det	_	_
 23	veille	veille	NOUN	_	_	21	comp:pred	_	_
 24	de	de	ADP	_	_	23	mod	_	_
-25	mon	son	PRON	_	_	26	det	_	_
+25	mon	son	DET	_	_	26	det	_	_
 26	permis	_	NOUN	_	_	24	comp:obj	_	_
 27	,	_	PUNCT	_	_	28	punct	_	_
 28	bah	bah	INTJ	_	_	18	discourse	_	_
@@ -455,7 +455,7 @@
 3	donc	donc	ADV	_	_	2	discourse	_	_
 4	je	je	PRON	_	_	5	subj	_	_
 5	passais	passai	VERB	_	_	0	root	_	_
-6	mon	son	PRON	_	_	7	det	_	_
+6	mon	son	DET	_	_	7	det	_	_
 7	permis	_	NOUN	_	_	5	comp:obj	_	_
 8	.	_	PUNCT	_	_	5	punct	_	_
 
@@ -474,7 +474,7 @@
 11	jour	jour	NOUN	_	_	17	mod	_	_
 12	de	de	ADP	_	_	11	mod	_	_
 13	que	que	SCONJ	_	_	12	conj:dicto	_	_
-14	mon	son	PRON	_	_	15	det	_	_
+14	mon	son	DET	_	_	15	det	_	_
 15	permis	_	NOUN	_	_	13	comp:obj	_	_
 16	j'	je	PRON	_	_	17	subj	_	SpaceAfter=No
 17	avais	avoir	VERB	_	_	6	comp:obj	_	_
@@ -491,12 +491,12 @@
 # sent_id = ParisStories_2019_peripitiesVoiture_23
 # text = et euh , du coup , bah , j' ai réussi à faire les deux .
 1	et	et	CCONJ	_	_	10	cc	_	_
-2	euh	euh	INTJ	_	_	1	discourse	_	_
+2	euh	euh	INTJ	_	_	1	cc	_	_
 3	,	_	PUNCT	_	_	1	punct	_	_
-4	du	de+le	DET	_	_	1	discourse	_	_
+4	du	de+le	DET	_	_	1	cc	_	_
 5	coup	coup	NOUN	_	_	4	comp:obj	_	_
 6	,	_	PUNCT	_	_	1	punct	_	_
-7	bah	bah	INTJ	_	_	1	discourse	_	_
+7	bah	bah	INTJ	_	_	1	cc	_	_
 8	,	_	PUNCT	_	_	1	punct	_	_
 9	j'	je	PRON	_	_	10	subj	_	SpaceAfter=No
 10	ai	avoir	AUX	_	_	0	root	_	_
@@ -514,9 +514,9 @@
 3	j'	je	PRON	_	_	4	subj	_	SpaceAfter=No
 4	avais	avoir	AUX	_	_	0	root	_	_
 5	eu	avoir	VERB	_	_	4	comp:aux	_	_
-6	mon	son	PRON	_	_	7	det	_	_
+6	mon	son	DET	_	_	7	det	_	_
 7	partiel	partiel	NOUN	_	_	5	comp:obj	_	_
-8	d'	d'	ADP	_	_	7	mod	_	SpaceAfter=No
+8	d'	de	ADP	_	_	7	mod	_	SpaceAfter=No
 9	espagnol	_	ADJ	_	_	8	comp:obj	_	_
 10	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -524,10 +524,10 @@
 # text = Et , en fait , euh vu que j' habite sur euh la ... fin , dans le sud de seine et marne , j' ai du me déplacer sur Paris le matin , prendre le train et tout , et remonter après mon partiel .
 1	Et	et	CCONJ	_	_	26	cc	_	_
 2	,	_	PUNCT	_	_	3	punct	_	_
-3	en	en	PRON	_	_	1	discourse	_	_
+3	en	en	PRON	_	_	1	cc	_	_
 4	fait	faire	NOUN	_	_	3	comp:obj	_	_
 5	,	_	PUNCT	_	_	6	punct	_	_
-6	euh	euh	INTJ	_	_	1	discourse	_	_
+6	euh	euh	INTJ	_	_	1	cc	_	_
 7	vu	voir	ADP	_	_	26	mod	_	_
 8	que	que	SCONJ	_	_	7	comp:obj	_	_
 9	j'	je	PRON	_	_	10	subj	_	SpaceAfter=No
@@ -565,7 +565,7 @@
 41	et	et	CCONJ	_	_	42	cc	_	_
 42	remonter	remonter	VERB	_	_	29	conj:coord	_	_
 43	après	après	ADP	_	_	42	mod	_	_
-44	mon	son	PRON	_	_	45	det	_	_
+44	mon	son	DET	_	_	45	det	_	_
 45	partiel	partiel	NOUN	_	_	43	comp:obj	_	_
 46	.	_	PUNCT	_	_	26	punct	_	_
 
@@ -586,9 +586,9 @@
 4	de	de	ADP	_	_	3	comp:obj	_	_
 5	la	le	DET	_	_	6	det	_	_
 6	chance	chance	NOUN	_	_	4	comp:aux	_	_
-7	que	que	PRON	_	_	9	comp:obj	_	_
+7	que	que	PRON	_	_	9	comp:pred	_	_
 8	c'	ce	PRON	_	_	9	subj	_	SpaceAfter=No
-9	était	être	AUX	_	_	6	mod	_	_
+9	était	être	AUX	_	_	6	mod@relcl	_	_
 10	...	...	PUNCT	_	_	12	punct	_	_
 11	ça	ça	PRON	_	_	12	subj	_	_
 12	tombait	tomber	VERB	_	_	9	conj:dicto	_	_
@@ -712,7 +712,7 @@
 3	,	_	PUNCT	_	_	1	punct	_	_
 4	je	je	PRON	_	_	6	subj	_	_
 5	les	le	PRON	_	_	6	comp:obj	_	_
-6	ai	avoir	AUX	_	_	0	root	_	_
+6	ai	avoir	VERB	_	_	0	root	_	_
 7	XX	xx	X	_	_	6	comp:aux	_	_
 8	,	_	PUNCT	_	_	12	punct	_	_
 9	fin	fin	INTJ	_	_	12	discourse	_	_

@@ -42,11 +42,11 @@
 15	rappelle	rappeler	VERB	_	_	12	comp:obj	_	_
 16	que	que	SCONJ	_	_	15	comp:obj	_	_
 17	j'	je	PRON	_	_	18	subj	_	SpaceAfter=No
-18	ai	avoir	AUX	_	_	16	comp:obj	_	_
+18	ai	avoir	VERB	_	_	16	comp:obj	_	_
 19	pas	pas	ADV	_	_	18	mod	_	_
 20	le	le	DET	_	_	21	det	_	_
 21	droit	droit	NOUN	_	_	18	comp:obj	_	_
-22	d'	d'	ADP	_	_	21	mod	_	SpaceAfter=No
+22	d'	de	ADP	_	_	21	mod	_	SpaceAfter=No
 23	aller	aller	VERB	_	_	22	comp:obj	_	_
 24	chez	chez	ADP	_	_	23	comp:obl	_	_
 25	elle	il	PRON	_	_	24	comp:obj	_	_
@@ -62,7 +62,7 @@
 # sent_id = ParisStories_2019_mercrediSoir_5
 # text = et euh , de le coup euh , on s' est baladé , m' a emmené , euh , vers les quais de Seine .
 1	et	et	CCONJ	_	_	11	cc	_	_
-2	euh	euh	INTJ	_	_	1	discourse	_	_
+2	euh	euh	INTJ	_	_	1	cc	_	_
 3	,	_	PUNCT	_	_	1	punct	_	_
 4	de	de	ADP	_	_	11	discourse	_	_
 5	le	le	DET	_	_	6	det	_	_
@@ -200,11 +200,11 @@
 1	entre	entre	ADV	_	_	4	mod	_	_
 2	temps	temps	NOUN	_	_	1	comp:obj	_	_
 3	y	y	PRON	_	_	4	mod	_	_
-4	avait	avoir	AUX	_	_	0	root	_	_
+4	avait	avoir	VERB	_	_	0	root	_	_
 5	Adrien	adrien	PROPN	_	_	4	comp:obj	_	_
 6	qui	qui	PRON	_	_	8	subj	_	_
 7	nous	nous	PRON	_	_	9	comp:obj	_	_
-8	avait	avoir	AUX	_	_	5	mod	_	_
+8	avait	avoir	AUX	_	_	5	mod@relcl	_	_
 9	appelé	appeler	VERB	_	_	8	comp:aux	_	_
 10	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -286,7 +286,7 @@
 1	ce	ce	PRON	_	_	0	root	_	_
 2	qui	qui	PRON	_	_	4	subj	_	_
 3	s'	se	PRON	_	_	5	comp:obj	_	SpaceAfter=No
-4	est	être	AUX	_	_	1	mod	_	_
+4	est	être	AUX	_	_	1	mod@relcl	_	_
 5	passé	passer	VERB	_	_	4	comp:aux	_	_
 6	!	_	PUNCT	_	_	1	punct	_	_
 
@@ -356,7 +356,7 @@
 2	qu'	que	SCONJ	_	_	1	unk@fixed	_	SpaceAfter=No
 3	on	on	PRON	_	_	5	subj	_	_
 4	en	en	PRON	_	_	5	comp:obj	_	_
-5	avait	avoir	AUX	_	_	2	comp:obj	_	_
+5	avait	avoir	VERB	_	_	2	comp:obj	_	_
 6	eu	avoir	VERB	_	_	5	comp:aux	_	_
 7	pendant	pendant	ADP	_	_	6	mod	_	_
 8	une	un	DET	_	_	9	det	_	_
@@ -410,7 +410,7 @@
 # text = et , euh , juste en face de la tour Eiffel .
 1	et	et	CCONJ	_	_	6	cc	_	_
 2	,	_	PUNCT	_	_	3	punct	_	_
-3	euh	euh	INTJ	_	_	1	discourse	_	_
+3	euh	euh	INTJ	_	_	1	cc	_	_
 4	,	_	PUNCT	_	_	1	punct	_	_
 5	juste	juste	ADV	_	_	6	mod	_	_
 6	en	en	ADP	_	_	0	root	_	_
@@ -450,7 +450,7 @@
 10	euh	euh	INTJ	_	_	12	discourse	_	_
 11	,	_	PUNCT	_	_	10	punct	_	_
 12	qui	qui	PRON	_	_	7	conj:dicto	_	_
-13	arrêtaient	arrêter	VERB	_	_	4	mod	_	_
+13	arrêtaient	arrêter	VERB	_	_	4	mod@relcl	_	_
 14	pas	pas	ADV	_	_	13	mod	_	_
 15	de	de	ADP	_	_	13	comp:obl	_	_
 16	se	se	PRON	_	_	18	comp:obj	_	_
@@ -526,7 +526,7 @@
 33	"	"	PUNCT	_	_	31	punct	_	_
 34	et	et	CCONJ	_	_	41	cc	_	_
 35	,	_	PUNCT	_	_	36	punct	_	_
-36	euh	euh	INTJ	_	_	34	discourse	_	_
+36	euh	euh	INTJ	_	_	34	cc	_	_
 37	,	_	PUNCT	_	_	34	punct	_	_
 38	la	le	DET	_	_	39	det	_	_
 39	veille	veille	NOUN	_	_	19	mod	_	_
@@ -660,7 +660,7 @@
 5	arrivé	arriver	VERB	_	_	4	comp:aux	_	_
 6	,	_	PUNCT	_	_	8	punct	_	_
 7	y	y	PRON	_	_	8	mod	_	_
-8	avait	avoir	AUX	_	_	0	root	_	_
+8	avait	avoir	VERB	_	_	0	root	_	_
 9	un	un	DET	_	_	10	det	_	_
 10	drapeau	drapeau	NOUN	_	_	8	comp:obj	_	_
 11	de	de	ADP	_	_	10	mod	_	_
@@ -786,7 +786,7 @@
 4	aussi	aussi	ADV	_	_	3	mod	_	_
 5	qu'	que	SCONJ	_	_	3	comp:obj	_	SpaceAfter=No
 6	ils	il	PRON	_	_	7	subj	_	_
-7	avaient	avoir	AUX	_	_	5	comp:obj	_	_
+7	avaient	avoir	VERB	_	_	5	comp:obj	_	_
 8	des	de+le	DET	_	_	13	det	_	_
 9	,	_	PUNCT	_	_	12	punct	_	_
 10	euh	euh	INTJ	_	_	12	discourse	_	_
@@ -802,7 +802,7 @@
 # text = on s' est dit que , euh , ça serait cool d' y retourner quand même , parce que c' était pas très très cher et en plus , euh , bah , y a moyen de se faire plaisir quoi !
 1	on	on	PRON	_	_	3	subj	_	_
 2	s'	se	PRON	_	_	3	comp:obl	_	SpaceAfter=No
-3	est	être	AUX	_	_	0	root	_	_
+3	est	être	VERB	_	_	0	root	_	_
 4	dit	dire	VERB	_	_	3	comp:aux	_	_
 5	que	que	SCONJ	_	_	4	comp:obj	_	_
 6	,	_	PUNCT	_	_	10	punct	_	_
@@ -811,10 +811,10 @@
 9	ça	ça	PRON	_	_	10	subj	_	_
 10	serait	être	AUX	_	_	5	comp:obj	_	_
 11	cool	cool	ADJ	_	_	10	comp:pred	_	_
-12	d'	d'	ADP	_	_	11	mod	_	SpaceAfter=No
+12	d'	de	ADP	_	_	11	mod	_	SpaceAfter=No
 13	y	y	ADV	_	_	14	mod	_	_
 14	retourner	retourner	VERB	_	_	12	comp:obj	_	_
-15	quand	quand	ADV	_	_	14	mod	_	_
+15	quand	quand	SCONJ	_	_	14	mod	_	EXTPOS=ADV
 16	même	même	ADV	_	_	15	unk@fixed	_	_
 17	,	_	PUNCT	_	_	18	punct	_	_
 18	parce	parce	SCONJ	_	_	10	mod	_	_
@@ -834,7 +834,7 @@
 32	bah	bah	INTJ	_	_	27	discourse	_	_
 33	,	_	PUNCT	_	_	27	punct	_	_
 34	y	y	PRON	_	_	35	mod	_	_
-35	a	avoir	AUX	_	_	21	conj:coord	_	_
+35	a	avoir	VERB	_	_	21	conj:coord	_	_
 36	moyen	moyen	NOUN	_	_	35	comp:obj	_	_
 37	de	de	ADP	_	_	36	mod	_	_
 38	se	se	PRON	_	_	39	comp:obl	_	_
@@ -873,7 +873,7 @@
 11	euh	euh	INTJ	_	_	14	discourse	_	_
 12	,	_	PUNCT	_	_	11	punct	_	_
 13	elle	il	PRON	_	_	14	subj	_	_
-14	a	avoir	AUX	_	_	2	conj:appos	_	_
+14	a	avoir	VERB	_	_	2	conj:appos	_	_
 15	un	un	ADV	_	_	16	det@fixed	_	_
 16	peu	peu	ADV	_	_	14	comp:obj	_	_
 17	de	de	ADP	_	_	15	comp:obl	_	_
@@ -886,7 +886,7 @@
 # text = et , euh , et de le coup le match a commencé !
 1	et	et	CCONJ	_	_	11	cc	_	_
 2	,	_	PUNCT	_	_	5	punct	_	_
-3	euh	euh	INTJ	_	_	5	discourse	_	_
+3	euh	euh	INTJ	_	_	5	cc	_	_
 4	,	_	PUNCT	_	_	3	punct	_	_
 5	et	et	CCONJ	_	_	1	conj:dicto	_	_
 6	de	de	ADP	_	_	11	discourse	_	_
@@ -914,7 +914,7 @@
 1	tout	tout	ADJ	_	_	3	mod	_	_
 2	le	le	DET	_	_	3	det	_	_
 3	bar	bar	NOUN	_	_	4	subj	_	_
-4	était	être	AUX	_	_	0	root	_	_
+4	était	être	VERB	_	_	0	root	_	_
 5	comme	comme	ADP	_	_	4	comp:obl	_	_
 6	un	un	PRON	_	_	5	comp:obj	_	_
 7	en	en	ADP	_	_	6	conj:dicto	_	_
@@ -986,7 +986,7 @@
 
 # sent_id = ParisStories_2019_mercrediSoir_49
 # text = bon , c' était un , c' était pas un match extraordinaire , euh .
-1	bon	bon	CCONJ	_	_	4	discourse	_	_
+1	bon	bon	CCONJ	_	_	4	cc	_	_
 2	,	_	PUNCT	_	_	1	punct	_	_
 3	c'	ce	PRON	_	_	4	subj	_	SpaceAfter=No
 4	était	être	AUX	_	_	0	root	_	_
@@ -1027,7 +1027,7 @@
 21	victoire	victoire	NOUN	_	_	20	comp:obj	_	_
 22	trois	trois	NUM	_	_	21	mod	_	_
 23	zéro	zéro	NUM	_	_	22	mod	_	_
-24	quand	quand	ADV	_	_	19	mod	_	_
+24	quand	quand	SCONJ	_	_	19	mod	_	EXTPOS=ADV
 25	même	même	ADV	_	_	24	unk@fixed	_	_
 26	,	_	PUNCT	_	_	33	punct	_	_
 27	donc	donc	ADV	_	_	33	cc	_	_
