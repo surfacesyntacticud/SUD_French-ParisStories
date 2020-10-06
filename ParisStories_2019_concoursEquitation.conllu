@@ -9,7 +9,7 @@
 
 # sent_id = ParisStories_2019_concoursEquitation_2
 # text = Cette année là , je passais mon bac , et je devais me qualifier pour les championnats .
-1	Cette	ce	DET	_	_	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	année	année	NOUN	_	Gender=Fem|Number=Sing	6	mod	_	_
 3	là	là	ADV	_	_	2	mod	_	_
 4	,	,	PUNCT	_	_	2	punct	_	_
@@ -24,17 +24,17 @@
 13	me	me	PRON	_	_	14	comp:obj	_	_
 14	qualifier	qualifier	VERB	_	VerbForm=Inf	12	comp:obj@x	_	_
 15	pour	pour	ADP	_	_	14	comp:obl	_	_
-16	les	le	DET	_	_	17	det	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	championnats	championnat	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
 18	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_3
 # text = Faut savoir que c' est assez compliqué .
-1	Faut	falloir	VERB	_	_	0	root	_	_
+1	Faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	savoir	savoir	VERB	_	VerbForm=Inf	1	comp:obj@x	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	SpaceAfter=No
-5	est	être	AUX	_	_	3	comp:obj	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 6	assez	assez	ADV	_	_	7	mod	_	_
 7	compliqué	compliquer	ADJ	_	_	5	comp:pred	_	_
 8	.	.	PUNCT	_	_	1	punct	_	_
@@ -48,7 +48,7 @@
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
 7	passais	passer	VERB	_	_	0	root	_	_
-8	les	le	DET	_	_	10	det	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 9	trois	trois	NUM	_	_	10	mod	_	_
 10	quarts	quart	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
 11	de	de	ADP	_	_	10	mod	_	_
@@ -63,10 +63,10 @@
 1	Le	le	DET	_	_	2	det	_	_
 2	mercredi	_	NOUN	_	_	0	root	_	_
 3	,	,	PUNCT	_	_	5	punct	_	_
-4	le	le	DET	_	_	5	det	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	samedi	_	NOUN	_	_	2	conj:coord	_	_
 6	,	,	PUNCT	_	_	8	punct	_	_
-7	le	le	DET	_	_	8	det	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	dimanche	_	NOUN	_	_	5	conj:coord	_	_
 9	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -77,7 +77,7 @@
 3	côté	côté	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
 5	faisais	faire	VERB	_	_	0	root	_	_
-6	les	le	DET	_	_	7	det	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	cours	cours	NOUN	_	_	5	comp:obj	_	_
 8	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -85,7 +85,7 @@
 # text = Hum c' est en juillet .
 1	Hum	hum	INTJ	_	_	3	discourse	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	SpaceAfter=No
-3	est	être	AUX	_	_	0	root	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	en	en	ADP	_	_	3	comp:pred	_	_
 5	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 6	.	.	PUNCT	_	_	3	punct	_	_
@@ -102,7 +102,7 @@
 
 # sent_id = ParisStories_2019_concoursEquitation_9
 # text = C' était en dressage .
-1	C'	ce	PRON	_	_	2	subj	_	SpaceAfter=No
+1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	en	en	ADP	_	_	2	comp:pred	_	_
 4	dressage	dressage	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -110,7 +110,7 @@
 
 # sent_id = ParisStories_2019_concoursEquitation_10
 # text = Première année de dressage .
-1	Première	premier	ADJ	_	_	2	mod	_	_
+1	Première	premier	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 2	année	année	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	2	mod	_	_
 4	dressage	dressage	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -123,14 +123,14 @@
 3	de	de	ADP	_	_	2	comp:obl@x	_	_
 4	changer	changer	VERB	_	VerbForm=Inf	3	comp:obj	_	_
 5	de	de	ADP	_	_	4	comp:obl	_	_
-6	club	club	NOUN	_	_	5	comp:obj	_	_
+6	club	club	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_12
 # text = C' était la première année que je me mettais à le dressage .
-1	C'	ce	PRON	_	_	2	subj	_	SpaceAfter=No
+1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	la	le	DET	_	_	5	det	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	première	premier	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
 5	année	année	NOUN	_	Gender=Fem|Number=Sing	2	comp:pred	_	_
 6	que	que	SCONJ	_	_	5	mod	_	_
@@ -138,7 +138,7 @@
 8	me	me	PRON	_	_	9	comp:obj	_	_
 9	mettais	metter	VERB	_	_	6	comp:obj	_	_
 10	à	à	ADP	_	_	9	comp:obl:pred	_	_
-11	le	le	DET	_	_	12	det	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	dressage	dressage	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -150,7 +150,7 @@
 4	faisais	faire	VERB	_	_	0	root	_	_
 5	que	que	SCONJ	_	_	6	mod	_	_
 6	de	UN	DET	_	_	4	comp:obl:pred	_	_
-7	l'	le	DET	_	_	8	det	_	SpaceAfter=No
+7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	obstacle	obstacle	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -158,7 +158,7 @@
 # text = Je connaissais pas forcément ce domaine .
 1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	connaissais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	pas	pas	ADV	_	_	4	mod	_	_
+3	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 4	forcément	forcément	ADV	_	_	2	mod	_	_
 5	ce	ce	DET	_	_	6	det	_	_
 6	domaine	domaine	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
@@ -201,12 +201,12 @@
 # text = Donc de le coup , on s' est qualifié assez facilement pour ces championnats .
 1	Donc	donc	ADV	_	_	8	cc	_	_
 2	de	de	ADP	_	_	1	discourse	_	_
-3	le	le	DET	_	_	4	det	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
 7	s'	se	PRON	_	Person=3|PronType=Prs	9	comp:obj	_	SpaceAfter=No
-8	est	être	AUX	_	_	0	root	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	qualifié	_	VERB	_	_	8	comp:aux	_	_
 10	assez	assez	ADV	_	_	11	mod	_	_
 11	facilement	facilement	ADV	_	_	9	mod	_	_
@@ -229,7 +229,7 @@
 10	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	11	subj	_	_
 11	fais	faire	VERB	_	_	9	comp:obj	_	_
 12	de	de	ADP	_	_	14	det	_	_
-13	le	le	DET	_	_	12	comp:obj	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	comp:obj	_	_
 14	dressage	dressage	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
 15	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -237,7 +237,7 @@
 # text = Tu as une reprise imposée .
 1	Tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	subj	_	_
 2	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	une	un	DET	_	_	4	det	_	_
+3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	reprise	reprise	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 5	imposée	_	VERB	_	_	4	mod	_	_
 6	.	.	PUNCT	_	_	2	punct	_	_
@@ -248,7 +248,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	4	subj	_	_
 4	fais	faire	VERB	_	_	0	root	_	_
-5	une	un	DET	_	_	6	det	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	reprise	reprise	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	que	que	PRON	_	_	10	comp:obj	_	_
 8	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	9	subj	_	_
@@ -256,10 +256,10 @@
 10	fais	faire	VERB	_	_	9	comp:aux	_	_
 11	tout	tout	ADV	_	_	12	mod	_	_
 12	à	à	ADP	_	_	10	mod	_	_
-13	le	le	DET	_	_	14	det	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	long	long	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 15	de	de	ADP	_	_	14	mod	_	_
-16	l'	le	DET	_	_	17	det	_	SpaceAfter=No
+16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	année	année	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -274,7 +274,7 @@
 7	coeur	coeur	NOUN	_	_	6	comp:obj	_	_
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	sur	sur	ADP	_	_	5	mod	_	_
-10	le	le	DET	_	_	11	det	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	bout	bout	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	des	de+le	DET	_	_	11	mod	_	_
 13	doigts	doigt	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
@@ -285,7 +285,7 @@
 1	Et	et	CCONJ	_	_	3	cc	_	_
 2	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	subj	_	_
 3	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	une	un	DET	_	_	5	det	_	_
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	reprise	reprise	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	libre	Libre	ADJ	_	_	5	mod	_	_
 7	,	,	PUNCT	_	_	8	punct	_	_
@@ -301,13 +301,13 @@
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	choisisse	choisisser	VERB	_	_	4	comp:obj	_	_
-7	un	un	DET	_	_	8	det	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	thème	_	NOUN	_	_	6	comp:obj	_	_
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_25
 # text = Cette épreuve , tu la fais costumé à cheval .
-1	Cette	ce	DET	_	_	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	épreuve	épreuve	NOUN	_	Gender=Fem|Number=Sing	6	dislocated	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	6	subj	_	_
@@ -338,38 +338,38 @@
 1	Parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	déjà	déjà	ADV	_	_	11	discourse	_	_
-4	les	le	DET	_	_	7	det	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	les	le	DET	_	_	4	conj:dicto	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	conj:dicto	_	_
 7	musiques	musique	NOUN	_	Gender=Fem|Number=Plur	11	dislocated	_	_
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	enfin	enfin	ADV	_	_	7	discourse	_	_
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	SpaceAfter=No
-11	est	être	AUX	_	_	1	comp:obj	_	_
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 12	&	et	X	_	_	11	comp:pred	_	_
 13	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_28
 # text = Elles sont géniales .
-1	Elles	il	PRON	_	_	2	subj	_	_
-2	sont	être	AUX	_	_	0	root	_	_
+1	Elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
+2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	géniales	génial	ADJ	_	Gender=Fem|Number=Plur	2	comp:pred	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_29
 # text = Elles sont épiques .
-1	Elles	il	PRON	_	_	2	subj	_	_
-2	sont	être	AUX	_	_	0	root	_	_
+1	Elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
+2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	épiques	épique	ADJ	_	_	2	comp:pred	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_30
 # text = Tu & . C' est extraordinaire !
-1	Tu	il	PROPN	_	Number=Sing|Person=2|PronType=Prs	5	dislocated	_	_
+1	Tu	il	PROPN	_	Number=Sing|Person=2|PronType=Prs|Gender=Masc	5	dislocated	_	_
 2	&	et	X	_	_	1	mod	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
-4	C'	ce	PRON	_	_	5	subj	_	SpaceAfter=No
-5	est	être	AUX	_	_	0	root	_	_
+4	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	SpaceAfter=No
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	extraordinaire	extraordinaire	ADJ	_	Number=Sing	5	comp:pred	_	_
 7	!	!	PUNCT	_	_	5	punct	_	_
 
@@ -377,7 +377,7 @@
 # text = Donc de le coup j' ai fait sur Pirates de les caraïbes .
 1	Donc	donc	ADV	_	_	6	cc	_	_
 2	de	de	ADP	_	_	1	discourse	_	_
-3	le	le	DET	_	_	4	det	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	SpaceAfter=No
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -385,19 +385,19 @@
 8	sur	sur	ADP	_	_	7	comp:obl	_	_
 9	Pirates	pirate	NOUN	_	_	8	comp:obj	_	_
 10	de	de	ADP	_	_	9	mod	_	_
-11	les	le	DET	_	_	12	det	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	caraïbes	_	NOUN	_	_	10	comp:obj	_	_
 13	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_32
 # text = Il a fallu que je fasse les montages musicaux .
-1	Il	il	PRON	_	_	2	subj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	fallu	falloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	fasse	_	VERB	_	_	4	comp:obj	_	_
-7	les	le	DET	_	_	8	det	_	_
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	montages	montage	NOUN	_	_	6	comp:obj	_	_
 9	musicaux	musical	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
 10	.	.	PUNCT	_	_	2	punct	_	_
@@ -408,8 +408,8 @@
 2	qu'	que	SCONJ	_	_	1	unk@fixed	_	SpaceAfter=No
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
-5	pas	pas	ADV	_	_	4	mod	_	_
-6	le	le	DET	_	_	7	det	_	_
+5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	droit	droit	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 8	d'	de	ADP	_	_	7	mod	_	SpaceAfter=No
 9	avoir	avoir	VERB	_	VerbForm=Inf	8	comp:obj	_	_
@@ -418,7 +418,7 @@
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	de	de	ADP	_	_	8	conj:dicto	_	_
 14	prendre	prendre	VERB	_	VerbForm=Inf	13	comp:obj	_	_
-15	une	un	DET	_	_	16	det	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	musique	musique	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
 17	et	et	CCONJ	_	_	18	cc	_	_
 18	de	de	ADP	_	_	13	conj:coord	_	_
@@ -440,13 +440,13 @@
 34	reprise	reprise	NOUN	_	Gender=Fem|Number=Sing	29	conj:appos	_	_
 35	,	,	PUNCT	_	_	37	punct	_	_
 36	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	37	subj	_	SpaceAfter=No
-37	est	être	AUX	_	_	4	conj:appos	_	_
+37	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:appos	_	_
 38	interdit	_	ADJ	_	_	37	comp:pred	_	_
 39	!	!	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_34
 # text = Il faut que ça soit calé en fonction de tes allures , en fonction de tes mouvements dans la carrière , en fonction de tout ce que tu fais .
-1	Il	il	PRON	_	_	2	subj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
@@ -464,7 +464,7 @@
 16	tes	son	DET	_	Number=Plur|Person=3|PossNumber=Sing|PossPerson=2|PronType=Prs	17	det	_	_
 17	mouvements	mouvement	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
 18	dans	dans	ADP	_	_	17	mod	_	_
-19	la	le	DET	_	_	20	det	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	carrière	carrière	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	en	en	ADP	_	_	13	conj:coord	_	_
@@ -480,7 +480,7 @@
 # sent_id = ParisStories_2019_concoursEquitation_35
 # text = Et il faut que tu sois déguisé toi , et il faut que tu sois déguisé le cheval .
 1	Et	et	CCONJ	_	_	3	cc	_	_
-2	il	il	PRON	_	_	3	subj	_	_
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 3	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	6	subj	_	_
@@ -489,13 +489,13 @@
 8	toi	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	6	dislocated	_	_
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
-11	il	il	PRON	_	_	12	subj	_	_
+11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
 12	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
 13	que	que	SCONJ	_	_	12	comp:obj	_	_
 14	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	15	subj	_	_
 15	sois	être	AUX	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
 16	déguisé	déguiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@pass	_	_
-17	le	le	DET	_	_	18	det	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 19	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -503,29 +503,29 @@
 # text = Donc de le coup , il a fa~ & , et il faut trouver le costume adapté à le cheval .
 1	Donc	donc	ADV	_	_	7	cc	_	_
 2	de	de	ADP	_	_	1	discourse	_	_
-3	le	le	DET	_	_	4	det	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	,	,	PUNCT	_	_	1	punct	_	_
-6	il	il	PRON	_	_	7	subj	_	_
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	fa~	fa~	VERB	_	_	7	comp:aux	_	_
 9	&	et	SYM	_	_	8	comp:obj	_	_
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	et	et	CCONJ	_	_	13	cc	_	_
-12	il	il	PRON	_	_	13	subj	_	_
+12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
 13	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj:coord	_	_
 14	trouver	trouver	VERB	_	VerbForm=Inf	13	comp:obj	_	_
-15	le	le	DET	_	_	16	det	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	costume	costume	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
-17	adapté	adapter	VERB	_	_	16	mod	_	_
+17	adapté	adapter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	mod	_	_
 18	à	à	ADP	_	_	17	mod	_	_
-19	le	le	DET	_	_	20	det	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 21	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_37
 # text = C' est à dire que , te déguiser en pirate c' est bien , mais quand il faut que t' accompagnes , enfin , pour que tu mettes ton cheval avec ça , ça c' est assez compliqué .
-1	C'	ce	PRON	_	_	2	subj	_	SpaceAfter=No
+1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	2	comp:pred	_	_
 4	dire	dire	VERB	_	VerbForm=Inf	3	comp:obj	_	_
@@ -541,7 +541,7 @@
 14	,	,	PUNCT	_	_	36	punct	_	_
 15	mais	mais	CCONJ	_	_	36	cc	_	_
 16	quand	quand	SCONJ	_	_	36	mod	_	_
-17	il	il	PRON	_	_	18	subj	_	_
+17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	subj	_	_
 18	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
 19	que	que	SCONJ	_	_	18	comp:obj	_	_
 20	t'	te	PRON	_	_	21	subj	_	SpaceAfter=No
@@ -586,16 +586,16 @@
 17	acheté	_	VERB	_	_	16	comp:aux	_	_
 18	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	comp:obj	_	_
 19	,	,	PUNCT	_	_	22	punct	_	_
-20	il	il	PRON	_	_	22	subj	_	_
+20	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj	_	_
 21	y	y	PRON	_	Person=3|PronType=Prs	22	mod	_	_
 22	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj:dicto	_	_
-23	un	un	DET	_	_	24	det	_	_
+23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	genre	genre	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
 25	de	de	ADP	_	_	24	mod	_	_
 26	,	,	PUNCT	_	_	28	punct	_	_
 27	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	28	subj	_	SpaceAfter=No
 28	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj:dicto	_	_
-29	un	un	DET	_	_	30	det	_	_
+29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	chapeau	chapeau	NOUN	_	Gender=Masc|Number=Sing	28	comp:pred	_	_
 31	en	en	ADP	_	_	30	mod	_	_
 32	mousse	mousse	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	_
@@ -607,13 +607,13 @@
 38	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	mod	_	_
 39	collé	coller	VERB	_	_	38	comp:aux	_	_
 40	sur	sur	ADP	_	_	39	mod	_	_
-41	la	le	DET	_	_	42	det	_	_
+41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	tête	tête	NOUN	_	Gender=Fem|Number=Sing	40	comp:obj	_	_
 43	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_39
 # text = On lui avait fait plein , plein , plein , plein , plein de petites nattes avec des perles à le bout .
-1	On	on	PRON	_	_	3	subj	_	_
+1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obl	_	_
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	fait	faire	VERB	_	_	3	comp:aux	_	_
@@ -633,7 +633,7 @@
 18	des	de+le	DET	_	_	19	det	_	_
 19	perles	perle	NOUN	_	_	17	comp:obj	_	_
 20	à	à	ADP	_	_	19	mod	_	_
-21	le	le	DET	_	_	22	det	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	bout	bout	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
 23	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -642,7 +642,7 @@
 1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	2	comp:aux	_	_
-4	un	un	DET	_	_	5	det	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	collier	collier	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	de	de	ADP	_	_	5	mod	_	_
 7	chasse	chasse	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
@@ -653,8 +653,8 @@
 1	Donc	donc	ADV	_	_	4	cc	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	SpaceAfter=No
-4	est	être	AUX	_	_	0	root	_	_
-5	un	un	DET	_	_	6	det	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	truc	truc	NOUN	_	_	4	comp:pred	_	_
 7	qui	qui	PRON	_	_	8	subj	_	_
 8	relie	_	VERB	_	_	6	mod@relcl	_	_
@@ -664,14 +664,14 @@
 12	qui	qui	PRON	_	_	13	subj	_	_
 13	passe	passer	VERB	_	_	8	conj:coord	_	_
 14	sur	sur	ADP	_	_	13	mod	_	_
-15	son	son	DET	_	_	16	det	_	_
+15	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	16	det	_	_
 16	encôlure	encôlure	NOUN	_	_	14	comp:obj	_	_
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_42
 # text = On l' avait , euh , re~ , recouvert de tissu doré ,
-1	On	on	PRON	_	_	3	subj	_	_
-2	l'	le	PRON	_	_	3	comp:obj	_	SpaceAfter=No
+1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
+2	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	SpaceAfter=No
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	euh	euh	INTJ	_	_	7	discourse	_	_
@@ -696,7 +696,7 @@
 8	que	que	SCONJ	_	_	7	unk@fixed	_	_
 9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	_
 10	fasse	_	VERB	_	_	7	comp:obj	_	_
-11	un	un	DET	_	_	12	det@fixed	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det@fixed	_	_
 12	peu	peu	ADV	_	_	16	mod	_	_
 13	,	,	PUNCT	_	_	11	punct	_	_
 14	euh	euh	INTJ	_	_	16	discourse	_	_
@@ -711,7 +711,7 @@
 2	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	3	det	_	_
 3	queue	queue	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	il	il	PRON	_	_	6	subj	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	des	de+le	DET	_	_	9	det	_	_
 8	fausses	faux	ADJ	_	Gender=Fem|Number=Plur	9	mod	_	_
@@ -723,11 +723,11 @@
 
 # sent_id = ParisStories_2019_concoursEquitation_45
 # text = Moi , j' avais une immense ju~ jupe sur moi , qui lui couvrait toutes les fesses .
-1	Moi	lui	PRON	_	_	4	dislocated	_	_
+1	Moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	4	dislocated	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-5	une	un	DET	_	_	7	det	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	immense	_	ADJ	_	_	7	mod	_	_
 7	ju~	ju~	NOUN	_	_	4	comp:obj	_	_
 8	jupe	jupe	VERB	_	_	4	conj:dicto	_	_
@@ -737,8 +737,8 @@
 12	qui	qui	PRON	_	_	14	subj	_	_
 13	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	comp:obl	_	_
 14	couvrait	couvrir	VERB	_	_	8	mod	_	_
-15	toutes	tout	ADJ	_	_	17	mod	_	_
-16	les	le	DET	_	_	17	det	_	_
+15	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	17	mod	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	fesses	fesse	NOUN	_	_	14	comp:obj	_	_
 18	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -751,7 +751,7 @@
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	comp:obj	_	_
 6	pleins	plein	ADJ	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 7	de	de	ADP	_	_	6	comp:obl	_	_
-8	petits	petit	ADJ	_	_	9	mod	_	_
+8	petits	petit	ADJ	_	Gender=Masc|Number=Plur	9	mod	_	_
 9	ornements	ornement	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
 10	de	de	ADP	_	_	9	mod	_	_
 11	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	10	comp:obj	_	_
@@ -790,12 +790,12 @@
 1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	acheté	_	VERB	_	_	2	comp:aux	_	_
-4	un	un	DET	_	_	5	det	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	costume	costume	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	de	de	ADP	_	_	5	mod	_	_
 7	pirate	pirate	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 8	pour	pour	ADP	_	_	5	mod	_	_
-9	le	le	DET	_	_	10	det	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	haut	haut	NOUN	_	_	8	comp:obj	_	_
 11	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -805,7 +805,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-5	un	un	DET	_	_	6	det	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	haut	haut	NOUN	_	_	4	comp:obj	_	_
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	euh	euh	INTJ	_	_	10	discourse	_	_
@@ -820,11 +820,11 @@
 # sent_id = ParisStories_2019_concoursEquitation_50
 # text = Et le , bah , le petit , petit , euh , blazer coupé pirate .
 1	Et	et	CCONJ	_	_	13	cc	_	_
-2	le	le	DET	_	_	13	det	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	bah	bah	INTJ	_	_	6	discourse	_	_
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	le	le	DET	_	_	2	conj:dicto	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	conj:dicto	_	_
 7	petit	petit	ADJ	_	Gender=Masc|Number=Sing	13	mod	_	_
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	petit	petit	ADJ	_	Gender=Masc|Number=Sing	7	conj:dicto	_	_
@@ -841,12 +841,12 @@
 1	Et	et	CCONJ	_	_	3	cc	_	_
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
 3	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	un	un	DET	_	_	5	det	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	chapeau	chapeau	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	que	que	PRON	_	_	10	comp:pred	_	_
 7	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	SpaceAfter=No
 8	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	mod@relcl	_	_
-9	dû	devoir	VERB	_	_	8	comp:aux	_	_
+9	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux	_	_
 10	greffer	greffer	VERB	_	_	9	comp:obj@x	_	_
 11	sur	sur	ADP	_	_	10	mod	_	_
 12	,	,	PUNCT	_	_	16	punct	_	_
@@ -860,14 +860,14 @@
 # text = Donc de le coup , bah , cette reprise elle était magique .
 1	Donc	donc	ADV	_	_	11	cc	_	_
 2	de	de	ADP	_	_	1	discourse	_	_
-3	le	le	DET	_	_	4	det	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	bah	bah	INTJ	_	_	1	discourse	_	_
 7	,	,	PUNCT	_	_	1	punct	_	_
-8	cette	ce	DET	_	_	9	det	_	_
+8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 9	reprise	reprise	NOUN	_	Gender=Fem|Number=Sing	11	dislocated	_	_
-10	elle	il	PRON	_	_	11	subj	_	_
+10	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 12	magique	magique	ADJ	_	Number=Sing	11	comp:pred	_	_
 13	.	.	PUNCT	_	_	11	punct	_	_

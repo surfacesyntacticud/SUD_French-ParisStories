@@ -5,7 +5,7 @@
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	fini	finir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
-6	les	le	DET	_	_	7	det	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	cours	cours	NOUN	_	_	5	comp:obj	_	_
 8	à	à	ADP	_	_	5	mod	_	_
 9	19h	19h	NUM	_	_	8	comp:obj	_	_
@@ -18,7 +18,7 @@
 16	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	SpaceAfter=No
 17	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
 18	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	17	comp:aux	_	_
-19	le	le	DET	_	_	20	det	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	bus	bus	NOUN	_	Gender=Masc	18	comp:obj	_	_
 21	pour	pour	ADP	_	_	18	mod	_	_
 22	pouvoir	pouvoir	VERB	_	VerbForm=Inf	21	comp:obj	_	_
@@ -30,7 +30,7 @@
 # sent_id = ParisStories_2019_patisserieFine_2
 # text = alors le bus me dépose , et en marchant vers chez moi , dans la rue il y avait une très bonne odeur une odeur de pizza ,
 1	alors	alors	ADV	_	_	5	discourse	_	_
-2	le	le	DET	_	_	3	det	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	bus	bus	NOUN	_	Gender=Masc	5	subj	_	_
 4	me	me	PRON	_	_	5	comp:obl	_	_
 5	dépose	déposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -43,16 +43,16 @@
 12	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	11	comp:obj	_	_
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	dans	dans	ADP	_	_	9	mod	_	_
-15	la	le	DET	_	_	16	det	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	rue	rue	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
-17	il	il	PRON	_	_	19	subj	_	_
+17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj	_	_
 18	y	y	PRON	_	Person=3|PronType=Prs	19	mod	_	_
 19	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj:coord	_	_
-20	une	un	DET	_	_	23	det	_	_
+20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 21	très	très	ADV	_	_	22	mod	_	_
 22	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	23	mod	_	_
 23	odeur	odeur	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
-24	une	un	DET	_	_	25	det	_	_
+24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	odeur	odeur	NOUN	_	Gender=Fem|Number=Sing	23	conj:dicto	_	_
 26	de	de	ADP	_	_	25	mod	_	_
 27	pizza	pizza	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	_
@@ -67,7 +67,7 @@
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	conj:dicto	_	_
 7	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	_
-8	pas	pas	ADV	_	_	7	mod	_	_
+8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	ce	ce	PRON	_	_	7	comp:obj	_	_
 10	que	que	PRON	_	_	12	comp:pred	_	_
 11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	SpaceAfter=No
@@ -97,15 +97,15 @@
 9	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	que	que	SCONJ	_	_	9	comp:obj	_	_
 11	sur	sur	ADP	_	_	24	mod	_	_
-12	la	le	DET	_	_	13	det	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	façade	façade	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 14	de	de	ADP	_	_	13	mod	_	_
-15	le	le	DET	_	_	16	det	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 17	d'	d'	ADP	_	_	19	comp:obl	_	SpaceAfter=No
 18	où	où	PRON	_	_	17	comp:obj	_	_
 19	provenait	provenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	mod@relcl	_	_
-20	l'	le	DET	_	_	21	det	_	SpaceAfter=No
+20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	odeur	odeur	NOUN	_	Gender=Fem|Number=Sing	19	subj	_	_
 22	,	,	PUNCT	_	_	11	punct	_	_
 23	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	24	subj	_	SpaceAfter=No
@@ -123,7 +123,7 @@
 4	sentait	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	tout	tout	ADV	_	_	4	comp:obj	_	_
 6	sauf	sauf	ADP	_	_	5	mod	_	_
-7	la	le	DET	_	_	8	det	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	pâtisserie	pâtisserie	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 9	en	en	ADP	_	_	4	discourse	_	_
 10	fait	faire	NOUN	_	_	9	comp:obj	_	_
@@ -136,7 +136,7 @@
 3	curiosité	curiosité	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	et	et	CCONJ	_	_	8	cc	_	_
-6	pas	pas	ADV	_	_	7	mod	_	_
+6	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 7	forcément	forcément	ADV	_	_	8	mod	_	_
 8	pour	pour	ADP	_	_	2	conj:coord	_	_
 9	manger	manger	VERB	_	VerbForm=Inf	8	comp:obj	_	_
@@ -153,7 +153,7 @@
 20	me	me	PRON	_	_	21	comp:obl	_	_
 21	préparer	_	VERB	_	_	19	comp:pred	_	_
 22	pour	pour	ADP	_	_	21	mod	_	_
-23	le	le	DET	_	_	24	det	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	dîner	_	NOUN	_	_	22	comp:obj	_	_
 25	,	,	PUNCT	_	_	2	punct	_	_
 26	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	27	subj	_	_
@@ -165,7 +165,7 @@
 32	vraiment	vraiment	ADV	_	_	33	mod	_	_
 33	ce	ce	PRON	_	_	30	comp:obj	_	_
 34	qu'	que	PRON	_	_	36	comp:obj	_	SpaceAfter=No
-35	ils	il	PRON	_	_	36	subj	_	_
+35	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	36	subj	_	_
 36	proposaient	proposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	mod	_	_
 37	.	.	PUNCT	_	_	27	punct	_	_
 
@@ -177,7 +177,7 @@
 4	,	,	PUNCT	_	_	10	punct	_	_
 5	et	et	CCONJ	_	_	10	cc	_	_
 6	directement	directement	ADV	_	_	10	mod	_	_
-7	le	le	DET	_	_	8	det	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	serveur	serveur	NOUN	_	Gender=Masc|Number=Sing	10	subj	_	_
 9	m'	me	PRON	_	_	10	comp:obj	_	SpaceAfter=No
 10	accoste	accoster	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
@@ -201,9 +201,9 @@
 6	que	que	SCONJ	_	_	4	comp:obj	_	_
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
 8	viens	venir	VERB	_	_	6	comp:obj	_	_
-9	pas	pas	ADV	_	_	10	mod	_	_
+9	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
 10	dans	dans	ADP	_	_	8	mod	_	_
-11	le	le	DET	_	_	12	det	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	but	but	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	mod	_	_
 14	consommer	consommer	VERB	_	VerbForm=Inf	13	comp:obj	_	_
@@ -215,7 +215,7 @@
 20	parce	parce	SCONJ	_	_	8	mod	_	_
 21	que	que	SCONJ	_	_	20	unk@fixed	_	_
 22	de	de	ADP	_	_	26	mod	_	_
-23	l'	le	DET	_	_	24	det	_	SpaceAfter=No
+23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
 24	extérieur	_	NOUN	_	_	22	comp:obj	_	_
 25	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	subj	_	_
 26	sent	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
@@ -227,23 +227,23 @@
 # sent_id = ParisStories_2019_patisserieFine_9
 # text = là il me répond qu' effectivement ils sont euh spécialisés dans la pâtisserie fine libanaise mais qu' ils proposent aussi de quoi manger .
 1	là	là	ADV	_	_	4	mod	_	_
-2	il	il	PRON	_	_	4	subj	_	_
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 3	me	me	PRON	_	_	4	comp:obl	_	_
 4	répond	répondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	qu'	que	SCONJ	_	_	4	comp:obj	_	SpaceAfter=No
 6	effectivement	effectivement	ADV	_	_	8	mod	_	_
-7	ils	il	PRON	_	_	8	subj	_	_
-8	sont	être	AUX	_	_	5	comp:obj	_	_
+7	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	subj	_	_
+8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 9	euh	euh	INTJ	_	_	10	discourse	_	_
 10	spécialisés	spécialiser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	comp:aux@pass	_	_
 11	dans	dans	ADP	_	_	10	mod	_	_
-12	la	le	DET	_	_	13	det	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	pâtisserie	pâtisserie	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 14	fine	_	ADJ	_	_	13	mod	_	_
 15	libanaise	libanais	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	_
 16	mais	mais	CCONJ	_	_	17	cc	_	_
 17	qu'	que	SCONJ	_	_	5	conj:coord	_	SpaceAfter=No
-18	ils	il	PRON	_	_	19	subj	_	_
+18	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	subj	_	_
 19	proposent	proposer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
 20	aussi	aussi	ADV	_	_	19	mod	_	_
 21	de	de	ADP	_	_	19	comp:obl@x	_	_
@@ -254,27 +254,27 @@
 # sent_id = ParisStories_2019_patisserieFine_10
 # text = et il avait un plateau de frites à la main ,
 1	et	et	CCONJ	_	_	3	cc	_	_
-2	il	il	PRON	_	_	3	subj	_	_
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	un	un	DET	_	_	5	det	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	plateau	plateau	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	de	de	ADP	_	_	5	mod	_	_
 7	frites	frite	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
 8	à	à	ADP	_	_	3	mod	_	_
-9	la	le	DET	_	_	10	det	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	main	main	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	,	,	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_11
 # text = et il m' a proposé de goûter une frite .
 1	et	et	CCONJ	_	_	4	cc	_	_
-2	il	il	PRON	_	_	4	subj	_	_
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 3	m'	me	PRON	_	_	5	comp:obl	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	proposé	proposer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
 6	de	de	ADP	_	_	5	comp:obl@x	_	_
 7	goûter	goûter	VERB	_	VerbForm=Inf	6	comp:obj	_	_
-8	une	un	DET	_	_	9	det	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	frite	frite	NOUN	_	_	7	comp:obj	_	_
 10	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -293,25 +293,25 @@
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	goûté	goûter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
-5	les	le	DET	_	_	6	det	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	frites	frite	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	_
 7	,	,	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_14
 # text = elles étaient bonnes
-1	elles	il	PRON	_	_	2	subj	_	_
+1	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	bonnes	bon	ADJ	_	_	2	comp:pred	_	_
+3	bonnes	bon	ADJ	_	Gender=Fem|Number=Plur	2	comp:pred	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_15
 # text = et là il a insisté encore une fois pour que je puisse rester manger donc j' ai cédé et j' ai accepté ,
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	là	là	ADV	_	_	4	mod	_	_
-3	il	il	PRON	_	_	4	subj	_	_
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	insisté	insister	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
 6	encore	encore	ADV	_	_	8	mod	_	_
-7	une	un	DET	_	_	8	det	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	fois	fois	NOUN	_	_	5	mod	_	_
 9	pour	pour	ADP	_	_	5	mod	_	_
 10	que	que	SCONJ	_	_	9	comp:obj	_	_
@@ -332,12 +332,12 @@
 # sent_id = ParisStories_2019_patisserieFine_16
 # text = et il m' a orienté vers la caisse pour pouvoir passer commande .
 1	et	et	CCONJ	_	_	4	cc	_	_
-2	il	il	PRON	_	_	4	subj	_	_
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 3	m'	me	PRON	_	_	5	comp:obj	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	orienté	_	VERB	_	_	4	comp:aux	_	_
 6	vers	vers	ADP	_	_	5	mod	_	_
-7	la	le	DET	_	_	8	det	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	caisse	_	NOUN	_	_	6	comp:obj	_	_
 9	pour	pour	ADP	_	_	5	mod	_	_
 10	pouvoir	pouvoir	VERB	_	VerbForm=Inf	9	comp:obj	_	_
@@ -351,7 +351,7 @@
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
 3	arrive	arriver	VERB	_	_	0	root	_	_
 4	à	à	ADP	_	_	3	mod	_	_
-5	la	le	DET	_	_	6	det	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	caisse	_	NOUN	_	_	4	comp:obj	_	_
 7	,	,	PUNCT	_	_	3	punct	_	_
 
@@ -359,7 +359,7 @@
 # text = et euh le serveur qui réceptionne ma commande , me demande ce que je voudrais , ce que je voudrais manger ,
 1	et	et	CCONJ	_	_	11	cc	_	_
 2	euh	euh	INTJ	_	_	1	cc	_	_
-3	le	le	DET	_	_	4	det	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	serveur	serveur	NOUN	_	Gender=Masc|Number=Sing	11	subj	_	_
 5	qui	qui	PRON	_	_	6	subj	_	_
 6	réceptionne	réceptionner	VERB	_	_	4	mod@relcl	_	_
@@ -390,16 +390,16 @@
 6	de	de	ADP	_	_	5	comp:obl@x	_	_
 7	me	me	PRON	_	_	8	comp:obl	_	_
 8	faire	faire	VERB	_	VerbForm=Inf	6	comp:obj	_	_
-9	une	un	DET	_	_	10	det	_	_
+9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	suggestion	suggestion	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	parce	parce	SCONJ	_	_	5	mod	_	_
 13	que	que	SCONJ	_	_	12	unk@fixed	_	_
 14	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	subj	_	_
 15	connaissais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	12	comp:obj	_	_
-16	pas	pas	ADV	_	_	15	mod	_	_
+16	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_
 17	de	de	ADP	_	_	16	mod	_	_
-18	le	le	DET	_	_	19	det	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	comp:obj	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_20
@@ -407,13 +407,13 @@
 1	et	et	CCONJ	_	_	6	cc	_	_
 2	là	là	ADV	_	_	6	mod	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
-4	il	il	PRON	_	_	6	subj	_	_
+4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 5	me	me	PRON	_	_	6	comp:obl	_	_
 6	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	le	le	DET	_	_	8	det	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	plateau	plateau	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	d'	de	ADP	_	_	8	mod	_	SpaceAfter=No
-10	une	un	DET	_	_	11	det	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	dame	dame	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	en	en	ADP	_	_	6	mod	_	_
 13	me	me	PRON	_	_	14	comp:obl	_	_
@@ -425,12 +425,12 @@
 19	tente	tenter	VERB	_	_	16	comp:obj	_	_
 20	ce	ce	PRON	_	_	19	dislocated	_	_
 21	qu'	que	PRON	_	_	23	comp:obj	_	SpaceAfter=No
-22	elle	il	PRON	_	_	23	subj	_	_
+22	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	subj	_	_
 23	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	mod	_	_
 24	dans	dans	ADP	_	_	23	mod	_	_
-25	son	son	DET	_	_	26	det	_	_
+25	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	26	det	_	_
 26	plateau	plateau	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
-27	la	le	DET	_	_	28	det	_	_
+27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	dame	dame	NOUN	_	Gender=Fem|Number=Sing	23	dislocated	_	_
 29	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -448,7 +448,7 @@
 # text = et là il m' explique que euh , en fait c' est comme des nems mais pas vraiment euh pas des nems euh c' est comme euh un kebab mais sans vraiment être un kebab et que entre guillemet c' est euh c' est fait avec la peau de les nems .
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	là	là	ADV	_	_	5	mod	_	_
-3	il	il	PRON	_	_	5	subj	_	_
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 4	m'	me	PRON	_	_	5	comp:obl	_	SpaceAfter=No
 5	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	que	que	SCONJ	_	_	5	comp:obj	_	_
@@ -462,10 +462,10 @@
 14	des	de+le	DET	_	_	15	det	_	_
 15	nems	nem	NOUN	_	_	13	comp:obj	_	_
 16	mais	mais	CCONJ	_	_	22	cc	_	_
-17	pas	pas	ADV	_	_	22	mod	_	_
+17	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
 18	vraiment	vraiment	ADV	_	_	17	mod	_	_
 19	euh	euh	INTJ	_	_	20	discourse	_	_
-20	pas	pas	ADV	_	_	17	conj:dicto	_	_
+20	pas	pas	ADV	_	Polarity=Neg	17	conj:dicto	_	_
 21	des	de+le	DET	_	_	22	det	_	_
 22	nems	nem	NOUN	_	_	13	conj:coord	_	_
 23	euh	euh	INTJ	_	_	25	discourse	_	_
@@ -473,29 +473,29 @@
 25	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj:coord	_	_
 26	comme	comme	ADP	_	_	25	comp:pred	_	_
 27	euh	euh	INTJ	_	_	29	discourse	_	_
-28	un	un	DET	_	_	29	det	_	_
+28	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	kebab	kebab	NOUN	_	Gender=Masc|Number=Plur	26	comp:obj	_	_
 30	mais	mais	CCONJ	_	_	31	cc	_	_
 31	sans	sans	ADP	_	_	26	conj:coord	_	_
 32	vraiment	vraiment	ADV	_	_	33	mod	_	_
 33	être	être	VERB	_	VerbForm=Inf	31	comp:obj	_	_
-34	un	un	DET	_	_	35	det	_	_
+34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	kebab	kebab	NOUN	_	Gender=Masc|Number=Plur	33	comp:pred	_	_
 36	et	et	CCONJ	_	_	37	cc	_	_
 37	que	que	SCONJ	_	_	6	conj:coord	_	_
 38	entre	entre	ADP	_	_	41	mod	_	_
 39	guillemet	guillemet	NOUN	_	_	38	comp:obj	_	_
 40	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	41	subj	_	SpaceAfter=No
-41	est	être	AUX	_	_	37	comp:obj	_	_
+41	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	comp:obj	_	_
 42	euh	euh	INTJ	_	_	44	discourse	_	_
 43	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	44	subj	_	SpaceAfter=No
-44	est	être	AUX	_	_	41	conj:dicto	_	_
+44	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	conj:dicto	_	_
 45	fait	faire	VERB	_	_	44	comp:aux@pass	_	_
 46	avec	avec	ADP	_	_	45	comp:obl	_	_
-47	la	le	DET	_	_	48	det	_	_
+47	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
 48	peau	peau	NOUN	_	Gender=Fem|Number=Sing	46	comp:obj	_	_
 49	de	de	ADP	_	_	48	mod	_	_
-50	les	le	DET	_	_	51	det	_	_
+50	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	51	det	_	_
 51	nems	nem	NOUN	_	_	49	comp:obj	_	_
 52	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -508,7 +508,7 @@
 5	ce	ce	PRON	_	_	4	comp:obj	_	_
 6	qui	qui	PRON	_	_	7	subj	_	_
 7	à	à	ADP	_	_	5	mod	_	_
-8	l'	le	DET	_	_	9	det	_	SpaceAfter=No
+8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	intérieur	intérieur	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	,	,	PUNCT	_	_	4	punct	_	_
 
@@ -516,12 +516,12 @@
 # text = et là il m' explique que c' est composé essentiellement de légume , c' est à dire de euh tomate , laitue , avocat , champignon et je dois choisir entre poulet ou merguez .
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	là	là	ADV	_	_	5	mod	_	_
-3	il	il	PRON	_	_	5	subj	_	_
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 4	m'	me	PRON	_	_	5	comp:obl	_	SpaceAfter=No
 5	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	que	que	SCONJ	_	_	5	comp:obj	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	SpaceAfter=No
-8	est	être	AUX	_	_	6	comp:obj	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
 9	composé	_	VERB	_	_	8	comp:aux@pass	_	_
 10	essentiellement	_	ADV	_	_	9	mod	_	_
 11	de	de	ADP	_	_	9	comp:obl	_	_
@@ -562,7 +562,7 @@
 # sent_id = ParisStories_2019_patisserieFine_26
 # text = là il a balancé ma commande en cuisine et il m' invite à aller m' installer en attendant que ma commande soit prête .
 1	là	là	ADV	_	_	3	mod	_	_
-2	il	il	PRON	_	_	3	subj	_	_
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	balancé	balancer	VERB	_	_	3	comp:aux	_	_
 5	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	6	det	_	_
@@ -570,7 +570,7 @@
 7	en	en	ADP	_	_	4	mod	_	_
 8	cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 9	et	et	CCONJ	_	_	12	cc	_	_
-10	il	il	PRON	_	_	12	subj	_	_
+10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
 11	m'	me	PRON	_	_	12	comp:obj	_	SpaceAfter=No
 12	invite	inviter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
 13	à	à	ADP	_	_	12	mod	_	_
@@ -601,7 +601,7 @@
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	qu'	que	SCONJ	_	_	4	comp:obj	_	SpaceAfter=No
-6	il	il	PRON	_	_	7	subj	_	_
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 7	revient	revenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 8	vers	vers	ADP	_	_	7	comp:obl	_	_
 9	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	_
@@ -609,10 +609,10 @@
 
 # sent_id = ParisStories_2019_patisserieFine_29
 # text = il me fait un compliment en me disant que je suis jolie et de quelle origine je suis .
-1	il	il	PRON	_	_	3	subj	_	_
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 2	me	me	PRON	_	_	3	comp:obl	_	_
 3	fait	faire	VERB	_	_	0	root	_	_
-4	un	un	DET	_	_	5	det	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	compliment	compliment	NOUN	_	_	3	comp:obj	_	_
 6	en	en	ADP	_	_	3	mod	_	_
 7	me	me	PRON	_	_	8	comp:obl	_	_
@@ -644,7 +644,7 @@
 11	plus	plus	ADV	_	_	12	mod	_	_
 12	précisément	précisément	ADV	_	_	10	conj:dicto	_	_
 13	de	de	ADP	_	_	8	mod	_	_
-14	la	le	DET	_	_	15	det	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	guadeloupe	guadeloupe	PROPN	_	_	13	comp:obj	_	_
 16	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -653,13 +653,13 @@
 1	et	et	CCONJ	_	_	6	cc	_	_
 2	euh	euh	INTJ	_	_	1	cc	_	_
 3	là	là	ADV	_	_	6	mod	_	_
-4	il	il	PRON	_	_	6	subj	_	_
+4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 5	me	me	PRON	_	_	6	comp:obl	_	_
 6	fait	faire	VERB	_	_	0	root	_	_
 7	euh	euh	INTJ	_	_	11	discourse	_	_
 8	ah	ah	INTJ	_	_	11	discourse	_	_
 9	bon	bon	INTJ	_	_	8	discourse	_	_
-10	vous	vous	PRON	_	_	11	subj	_	_
+10	vous	vous	PRON	_	Person=3|PronType=Prs	11	subj	_	_
 11	êtes	être	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
 12	antillaise	antillais	ADJ	_	_	11	comp:pred	_	_
 
@@ -667,7 +667,7 @@
 # text = comment ça se fait ?
 1	comment	comment	ADV	_	_	4	mod	_	_
 2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	comp:obj	_	_
-3	se	se	PRON	_	_	4	subj	_	_
+3	se	se	PRON	_	Person=3|PronType=Prs	4	subj	_	_
 4	fait	faire	VERB	_	_	0	root	_	_
 5	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -686,12 +686,12 @@
 # text = et là il me dit ah mais vous êtes quand même claire de peau pour une antillaise ,
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	là	là	ADV	_	_	5	mod	_	_
-3	il	il	PRON	_	_	5	subj	_	_
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 4	me	me	PRON	_	_	5	comp:obl	_	_
 5	dit	dire	VERB	_	_	0	root	_	_
 6	ah	ah	INTJ	_	_	9	discourse	_	_
 7	mais	mais	CCONJ	_	_	9	discourse	_	_
-8	vous	vous	PRON	_	_	9	subj	_	_
+8	vous	vous	PRON	_	Person=3|PronType=Prs	9	subj	_	_
 9	êtes	être	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 10	quand	quand	SCONJ	_	_	12	mod	_	EXTPOS=ADV
 11	même	même	ADV	_	_	10	unk@fixed	_	_
@@ -699,7 +699,7 @@
 13	de	de	ADP	_	_	12	mod	_	_
 14	peau	peau	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 15	pour	pour	ADP	_	_	12	mod	_	_
-16	une	un	DET	_	_	17	det	_	_
+16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	antillaise	antillaise	NOUN	_	_	15	comp:obj	_	_
 18	,	,	PUNCT	_	_	5	punct	_	_
 
@@ -712,17 +712,17 @@
 5	réponds	répond	VERB	_	_	0	root	_	_
 6	monsieur	monsieur	NOUN	_	Gender=Masc|Number=Sing	11	vocative	_	_
 7	euh	euh	INTJ	_	_	6	discourse	_	_
-8	les	le	DET	_	_	9	det	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	antillais	antillais	NOUN	_	Gender=Masc	11	dislocated	_	_
-10	ils	il	PRON	_	_	11	subj	_	_
+10	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	subj	_	_
 11	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
-12	pas	pas	ADV	_	_	13	mod	_	_
+12	pas	pas	ADV	_	Polarity=Neg	13	mod	_	_
 13	forcément	forcément	ADV	_	_	11	mod	_	_
 14	foncés	foncer	ADJ	_	_	11	comp:aux	_	_
 15	de	de	ADP	_	_	14	mod	_	_
 16	peau	peau	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 17	,	,	PUNCT	_	_	20	punct	_	_
-18	il	il	PRON	_	_	20	subj	_	_
+18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj	_	_
 19	y	y	PRON	_	Person=3|PronType=Prs	20	mod	_	_
 20	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj:coord	_	_
 21	des	de+le	DET	_	_	22	det	_	_
@@ -732,14 +732,14 @@
 25	plus	plus	ADV	_	_	26	mod	_	_
 26	clairs	clair	ADJ	_	Gender=Masc|Number=Plur	24	comp:pred	_	_
 27	que	que	SCONJ	_	_	26	mod	_	_
-28	vous	vous	PRON	_	_	27	comp:obj	_	_
+28	vous	vous	PRON	_	Person=3|PronType=Prs	27	comp:obj	_	_
 29	et	et	CCONJ	_	_	30	cc	_	_
 30	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	28	conj:coord	_	_
 31	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_36
 # text = il me dit ah bon ça existe des antillais qui sont clairs de peau ?
-1	il	il	PRON	_	_	3	subj	_	_
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 2	me	me	PRON	_	_	3	comp:obl	_	_
 3	dit	dire	VERB	_	_	0	root	_	_
 4	ah	ah	INTJ	_	_	7	discourse	_	_
@@ -771,18 +771,18 @@
 12	qui	qui	PRON	_	_	15	subj	_	_
 13	euh	euh	INTJ	_	_	14	discourse	_	_
 14	qui	qui	PRON	_	_	12	conj:dicto	_	_
-15	est	être	AUX	_	_	11	mod@relcl	_	_
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
 16	plus	plus	ADV	_	_	17	mod	_	_
 17	claire	Claire	ADJ	_	_	15	comp:pred	_	_
 18	que	que	SCONJ	_	_	20	subj	_	_
 19	qui	qui	PRON	_	_	18	conj:dicto	_	_
-20	est	être	AUX	_	_	15	conj:dicto	_	_
+20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj:dicto	_	_
 21	plus	plus	ADV	_	_	22	mod	_	_
 22	claire	Claire	ADJ	_	_	20	comp:pred	_	_
 23	que	que	SCONJ	_	_	22	mod	_	_
 24	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	23	comp:obj	_	_
 25	qui	qui	PRON	_	_	26	subj	_	_
-26	est	être	AUX	_	_	20	conj:dicto	_	_
+26	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj:dicto	_	_
 27	claire	Claire	ADJ	_	_	26	comp:pred	_	_
 28	de	de	ADP	_	_	27	mod	_	_
 29	peau	peau	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
@@ -794,9 +794,9 @@
 2	là	là	ADV	_	_	6	mod	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
 4	limite	limite	NOUN	_	Gender=Fem|Number=Sing	6	mod	_	_
-5	il	il	PRON	_	_	6	subj	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-7	pas	pas	ADV	_	_	6	mod	_	_
+7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
 8	me	me	PRON	_	_	9	comp:obj	_	_
 9	croire	croire	VERB	_	VerbForm=Inf	6	comp:obj	_	_
 10	.	.	PUNCT	_	_	6	punct	_	_
@@ -804,8 +804,8 @@
 # text = mais qu' est -ce que c' est ?
 1	mais	mais	CCONJ	_	_	3	cc	_	_
 2	qu'	que	PRON	_	_	3	comp:pred	_	SpaceAfter=No
-3	est	être	AUX	_	_	0	root	_	_
-4	-ce	ce	PRON	_	_	3	subj@expl	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj@expl	_	_
 5	que	que	PRON	_	_	7	comp:pred	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	SpaceAfter=No
 7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:cleft	_	_
