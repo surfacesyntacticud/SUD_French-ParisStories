@@ -14,11 +14,11 @@
 12	,	,	PUNCT	_	_	5	punct	_	_
 13	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	subj	_	_
 14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
-15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det@fixed	_	_
+15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	InIdiom=Yes
 16	peu	peu	ADV	_	_	21	mod	_	_
 17	euh	euh	INTJ	_	_	19	discourse	_	_
 18	,	,	PUNCT	_	_	17	punct	_	_
-19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det@fixed	_	_
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	InIdiom=Yes
 20	peu	peu	ADV	_	_	15	conj:dicto	_	_
 21	choqués	choquer	VERB	_	_	14	comp:aux@pass	_	_
 22	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	23	subj	_	_
@@ -28,7 +28,7 @@
 # sent_id = ParisStories_2019_voyageEcosse_2
 # text = parce que c' est pas une destination euh commune ,
 1	parce	parce	SCONJ	_	_	0	root	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	_
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
@@ -85,7 +85,7 @@
 16	euh	euh	INTJ	_	_	14	discourse	_	_
 17	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
 18	peut-être	peut-être	ADV	_	_	17	mod	_	_
-19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det@fixed	_	_
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	InIdiom=Yes
 20	peu	peu	ADV	_	_	21	mod	_	_
 21	hautains	hautain	ADJ	_	_	17	comp:pred	_	_
 22	,	,	PUNCT	_	_	3	punct	_	_
@@ -153,7 +153,7 @@
 8	informations	_	NOUN	_	_	5	comp:obj	_	_
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	parce	parce	SCONJ	_	_	5	mod	_	_
-11	qu'	que	SCONJ	_	_	10	unk@fixed	_	SpaceAfter=No
+11	qu'	que	SCONJ	_	_	10	unk	_	InIdiom=Yes|SpaceAfter=No
 12	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
 13	nous	nous	PRON	_	_	16	comp:obj	_	_
 14	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	comp:obj	_	_
@@ -226,7 +226,7 @@
 # sent_id = ParisStories_2019_voyageEcosse_11
 # text = parce que de le coup , ça me permettait de d' aller dans un pays où j' avais toujours rêvé d' aller .
 1	parce	parce	SCONJ	_	_	0	root	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	_
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	de	de	ADP	_	_	9	discourse	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -273,7 +273,7 @@
 2	seul	seul	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
 3	point	point	NOUN	_	Gender=Masc|Number=Sing	12	dislocated	_	_
 4	négatif	négatif	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
-5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det@fixed	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	InIdiom=Yes
 6	peu	peu	ADV	_	_	4	mod	_	_
 7	de	de	ADP	_	_	3	mod	_	_
 8	ce	ce	DET	_	_	9	det	_	_
@@ -349,8 +349,8 @@
 17	ressenti	ressentir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	fatigue	fatigue	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
-20	quand	quand	SCONJ	_	_	17	mod	_	EXTPOS=ADV
-21	même	même	ADV	_	_	20	unk@fixed	_	_
+20	quand	quand	SCONJ	_	_	17	mod	_	ExtPos=ADV|PhraseType=Idiom
+21	même	même	ADV	_	_	20	unk	_	InIdiom=Yes
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	que	que	SCONJ	_	_	17	mod	_	_
 24	que	que	SCONJ	_	_	23	conj:dicto	_	_
@@ -469,7 +469,7 @@
 # sent_id = ParisStories_2019_voyageEcosse_20
 # text = parce que en fait on pouvait vraiment se balader dans la rue donc avec euh les écossais ,
 1	parce	parce	SCONJ	_	_	0	root	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	_
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	en	en	PRON	_	Person=3|PronType=Prs	6	discourse	_	_
 4	fait	faire	VERB	_	_	3	comp:obj	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
@@ -547,7 +547,7 @@
 35	touristiques	touristique	ADJ	_	Number=Plur	33	mod	_	_
 36	,	,	PUNCT	_	_	40	punct	_	_
 37	donc	donc	ADV	_	_	40	cc	_	_
-38	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det@fixed	_	_
+38	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	InIdiom=Yes
 39	peu	peu	ADV	_	_	40	mod	_	_
 40	sur	sur	ADP	_	_	35	conj:coord	_	_
 41	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
@@ -629,7 +629,7 @@
 20	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	subj	_	_
 21	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	conj:dicto	_	_
 22	choque	choquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod	_	_
-23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det@fixed	_	_
+23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	InIdiom=Yes
 24	peu	peu	ADV	_	_	22	mod	_	_
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	mais	mais	CCONJ	_	_	27	cc	_	_
@@ -699,7 +699,7 @@
 14	dans	dans	ADP	_	_	13	conj:dicto	_	_
 15	des	de+le	DET	_	_	16	det	_	_
 16	rues	rue	NOUN	_	Gender=Fem|Number=Plur	14	comp:obj	_	_
-17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det@fixed	_	_
+17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	InIdiom=Yes
 18	peu	peu	ADV	_	_	19	mod	_	_
 19	commerçantes	commerçant	ADJ	_	_	16	mod	_	_
 20	,	,	PUNCT	_	_	10	punct	_	_
@@ -798,7 +798,7 @@
 11	vision	_	NOUN	_	_	9	comp:obj	_	_
 12	euh	euh	INTJ	_	_	13	discourse	_	_
 13	idéale	idéal	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
-14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det@fixed	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	InIdiom=Yes
 15	peu	peu	ADV	_	_	16	mod	_	_
 16	de	de	ADP	_	_	11	mod	_	_
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
@@ -808,7 +808,7 @@
 # sent_id = ParisStories_2019_voyageEcosse_33
 # text = parce que la pers~ la personne chez qui on était euh hébergés , elle habitait dans un village vraiment euh magnifique ,
 1	parce	parce	SCONJ	_	_	0	root	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	_
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	pers~	pers~	NOUN	_	_	15	dislocated	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -867,7 +867,7 @@
 10	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 11	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
 12	vision	_	NOUN	_	_	10	comp:obj	_	_
-13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det@fixed	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	InIdiom=Yes
 14	peu	peu	ADV	_	_	15	mod	_	_
 15	parfaite	parfait	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
 16	de	de	ADP	_	_	12	mod	_	_

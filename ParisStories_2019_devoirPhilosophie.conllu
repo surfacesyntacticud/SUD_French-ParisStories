@@ -56,7 +56,7 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_4
 # text = parce que euh , je suis pas très douée en philosophie à la base .
 1	parce	parce	SCONJ	_	_	0	root	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	_
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	euh	euh	INTJ	_	_	6	discourse	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
@@ -80,8 +80,8 @@
 5	prof	prof	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
 6	nous	nous	PRON	_	_	7	comp:obj	_	_
 7	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-8	quand	quand	SCONJ	_	_	7	mod	_	EXTPOS=ADV
-9	même	même	ADV	_	_	8	unk@fixed	_	_
+8	quand	quand	SCONJ	_	_	7	mod	_	ExtPos=ADV|PhraseType=Idiom
+9	même	même	ADV	_	_	8	unk	_	InIdiom=Yes
 10	euh	euh	INTJ	_	_	12	discourse	_	_
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	initiés	_	VERB	_	_	7	comp:aux	_	_
@@ -122,7 +122,7 @@
 11	hum	hum	INTJ	_	_	14	discourse	_	_
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	plutôt	plutôt	ADV	_	_	14	mod	_	_
-14	atypiques	atypique	ADJ	_	Number=Plur|Gender=Masc	10	mod	_	_
+14	atypiques	atypique	ADJ	_	Gender=Masc|Number=Plur	10	mod	_	_
 15	pas	pas	ADV	_	Polarity=Neg	16	mod	_	_
 16	toujours	toujours	ADV	_	_	19	mod	_	_
 17	euh	euh	INTJ	_	_	16	discourse	_	_
@@ -173,7 +173,7 @@
 5	m'	me	PRON	_	_	7	comp:obj	_	SpaceAfter=No
 6	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	penchée	pencher	VERB	_	_	6	comp:aux@pass	_	_
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det@fixed	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
 9	peu	peu	NOUN	_	_	7	mod	_	_
 10	sur	sur	ADP	_	_	7	comp:obl	_	_
 11	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	12	det	_	_
@@ -195,7 +195,7 @@
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	idées	idée	NOUN	_	Gender=Fem|Number=Plur	7	conj:coord	_	_
-15	atypiques	atypique	ADJ	_	Number=Plur|Gender=Masc	14	mod	_	_
+15	atypiques	atypique	ADJ	_	Gender=Masc|Number=Plur	14	mod	_	_
 16	que	que	SCONJ	_	_	14	mod	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	prof	prof	NOUN	_	Gender=Masc|Number=Sing	19	subj	_	_
@@ -209,7 +209,7 @@
 3	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
-6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det@fixed	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	InIdiom=Yes
 7	peu	peu	ADV	_	_	5	mod	_	_
 8	de	de	ADP	_	_	5	mod	_	_
 9	côté	côté	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
@@ -267,7 +267,7 @@
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	SpaceAfter=No
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	comp:obj	_	_
 8	France	France	PROPN	_	_	7	comp:pred	_	_
-9	Inter	inter	PROPN	_	_	8	compound@fixed	_	_
+9	Inter	inter	PROPN	_	_	8	compound	_	InIdiom=Yes
 10	ou	ou	CCONJ	_	_	11	cc	_	_
 11	RMC	rmc	PROPN	_	_	8	conj:coord	_	_
 12	.	.	PUNCT	_	_	3	punct	_	_
@@ -361,8 +361,8 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
-9	quand	quand	SCONJ	_	_	8	mod	_	EXTPOS=ADV
-10	même	même	ADV	_	_	9	unk@fixed	_	_
+9	quand	quand	SCONJ	_	_	8	mod	_	ExtPos=ADV|PhraseType=Idiom
+10	même	même	ADV	_	_	9	unk	_	InIdiom=Yes
 11	euh	euh	INTJ	_	_	13	discourse	_	_
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	atypique	atypique	ADJ	_	_	8	comp:pred	_	_
@@ -379,7 +379,7 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_18
 # text = parce que j' ai dit euh , ~fin , je me suis dit , c' est quand même euh , deux visions antinomiques
 1	parce	parce	SCONJ	_	_	0	root	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	_
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 5	dit	dire	VERB	_	_	4	comp:aux	_	_
@@ -394,8 +394,8 @@
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	subj	_	SpaceAfter=No
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
-17	quand	quand	SCONJ	_	_	16	mod	_	EXTPOS=ADV
-18	même	même	ADV	_	_	17	unk@fixed	_	_
+17	quand	quand	SCONJ	_	_	16	mod	_	ExtPos=ADV|PhraseType=Idiom
+18	même	même	ADV	_	_	17	unk	_	InIdiom=Yes
 19	euh	euh	INTJ	_	_	22	discourse	_	_
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	deux	deux	NUM	_	Number=Plur	22	det	_	_
@@ -520,7 +520,7 @@
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	euh	euh	INTJ	_	_	22	discourse	_	_
 22	lors	lors	ADV	_	_	16	mod	_	_
-23	de	de	ADP	_	_	22	unk@fixed	_	_
+23	de	de	ADP	_	_	22	unk	_	InIdiom=Yes
 24	ses	son	DET	_	Number=Plur|PossNumber=Sing|PossPerson=3|PronType=Prs	25	det	_	_
 25	voyages	_	NOUN	_	_	22	comp:obj	_	_
 26	,	,	PUNCT	_	_	27	punct	_	_
@@ -541,7 +541,7 @@
 41	dix-huit	dix-huit	NUM	_	Number=Plur	42	det	_	_
 42	ans	an	NOUN	_	Gender=Masc|Number=Plur	34	comp:obj	_	_
 43	là	là	ADV	_	_	34	mod	_	_
-44	bas	bas	ADJ	_	Gender=Masc	43	mod@fixed	_	_
+44	bas	bas	ADJ	_	Gender=Masc	43	mod	_	InIdiom=Yes
 45	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = ParisStories_2019_devoirPhilosophie_25
@@ -624,8 +624,8 @@
 7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	comp:obj	_	_
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	quand	quand	SCONJ	_	_	8	mod	_	EXTPOS=ADV
-11	même	même	ADV	_	_	10	unk@fixed	_	_
+10	quand	quand	SCONJ	_	_	8	mod	_	ExtPos=ADV|PhraseType=Idiom
+11	même	même	ADV	_	_	10	unk	_	InIdiom=Yes
 12	,	,	PUNCT	_	_	8	punct	_	_
 13	confronté	confronter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@pass	_	_
 14	à	à	ADP	_	_	13	comp:obl	_	_
@@ -704,7 +704,7 @@
 5	violences	violence	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	_
 6	sexuelles	sexuel	ADJ	_	Gender=Fem|Number=Plur	5	mod	_	_
 7	là	là	ADV	_	_	2	mod	_	_
-8	bas	bas	ADJ	_	Gender=Masc	7	mod@fixed	_	_
+8	bas	bas	ADJ	_	Gender=Masc	7	mod	_	InIdiom=Yes
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	en	en	PRON	_	Person=3|PronType=Prs	2	discourse	_	_
 11	fait	faire	VERB	_	_	10	comp:obj	_	_
@@ -803,8 +803,8 @@
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	subj	_	_
 15	tiens	tenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	parataxis:obj	_	_
-16	quand	quand	SCONJ	_	_	15	mod	_	EXTPOS=ADV
-17	même	même	ADV	_	_	16	unk@fixed	_	_
+16	quand	quand	SCONJ	_	_	15	mod	_	ExtPos=ADV|PhraseType=Idiom
+17	même	même	ADV	_	_	16	unk	_	InIdiom=Yes
 18	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	19	det	_	_
 19	idée	idée	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 20	pour	pour	ADP	_	_	19	mod	_	_
@@ -821,7 +821,7 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_34
 # text = parce que , de le coup , cette femme , euh finalement , elle doit faire preuve d' empathie , pour pouvoir donner de les conseils en matière de sexe , à ses patients , puisque , en gros , elle elle a fait vœu de chasteté , elle est religieuse .
 1	parce	parce	SCONJ	_	_	0	root	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	_
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	,	,	PUNCT	_	_	15	punct	_	_
 4	de	de	ADP	_	_	15	discourse	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_

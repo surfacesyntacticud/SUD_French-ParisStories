@@ -7,7 +7,7 @@
 5	bon	bon	INTJ	_	_	10	discourse	_	_
 6	tout	tout	ADV	_	_	7	mod	_	_
 7	d'	de	ADP	_	_	10	mod	_	SpaceAfter=No
-8	abord	abord	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj@fixed	_	_
+8	abord	abord	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	InIdiom=Yes
 9	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	_
 10	voudrais	vouloir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	préciser	préciser	VERB	_	VerbForm=Inf	10	comp:obj@x	_	_
@@ -47,8 +47,8 @@
 4	me	me	PRON	_	_	5	comp:obl	_	_
 5	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	à	à	ADP	_	_	5	mod	_	_
-7	peu	peu	ADV	_	_	8	mod@fixed	_	_
-8	près	pret	ADV	_	_	6	comp:obj@fixed	_	_
+7	peu	peu	ADV	_	_	8	mod	_	InIdiom=Yes
+8	près	pret	ADV	_	_	6	comp:obj	_	InIdiom=Yes
 9	de	de	ADP	_	_	5	comp:obl	_	_
 10	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	11	det	_	_
 11	impression	impression	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
@@ -153,7 +153,7 @@
 3	fac	fac	NOUN	_	Gender=Fem|Number=Sing	5	dislocated	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	SpaceAfter=No
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det@fixed	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	InIdiom=Yes
 7	peu	peu	ADV	_	_	5	mod	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	même	même	ADJ	_	Number=Sing	10	mod	_	_
@@ -171,7 +171,7 @@
 7	y	y	PRON	_	Person=3|PronType=Prs	8	mod	_	_
 8	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	comp:obj	_	_
 9	d'	UN	DET	_	_	11	det	_	SpaceAfter=No
-10	énormes	énorme	ADJ	_	Number=Plur|Gender=Fem	11	mod	_	_
+10	énormes	énorme	ADJ	_	Gender=Fem|Number=Plur	11	mod	_	_
 11	bâtiments	_	NOUN	_	_	8	comp:obj	_	_
 12	avec	avec	ADP	_	_	11	mod	_	_
 13	des	de+le	DET	_	_	14	det	_	_
@@ -266,7 +266,7 @@
 6	fac	fac	NOUN	_	Gender=Fem|Number=Sing	8	dislocated	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	SpaceAfter=No
 8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
-9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det@fixed	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	InIdiom=Yes
 10	peu	peu	ADV	_	_	8	mod	_	_
 11	euh	euh	INTJ	_	_	13	discourse	_	_
 12	complétement	_	ADV	_	_	13	mod	_	_
@@ -282,7 +282,7 @@
 4	avoir	avoir	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 5	des	de+le	DET	_	_	6	det	_	_
 6	amphis	amphi	NOUN	_	_	4	comp:obj	_	_
-7	énormes	énorme	ADJ	_	Number=Plur|Gender=Fem	6	mod	_	_
+7	énormes	énorme	ADJ	_	Gender=Fem|Number=Plur	6	mod	_	_
 
 # sent_id = ParisStories_2019_experienceFac_18
 # text = c' est euh un monde complètement à part , euh complétement différent de le lycée .
@@ -293,7 +293,7 @@
 5	monde	monde	NOUN	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
 6	complètement	_	ADV	_	_	7	mod	_	_
 7	à	à	ADP	_	_	5	mod	_	_
-8	part	part	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj@fixed	_	_
+8	part	part	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	InIdiom=Yes
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	euh	euh	INTJ	_	_	12	discourse	_	_
 11	complétement	_	ADV	_	_	12	mod	_	_
@@ -343,14 +343,14 @@
 9	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	que	que	SCONJ	_	_	9	comp:pred	_	_
 11	du	de+le	ADP	_	_	13	discourse	_	_
-12	coup	coup	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj@fixed	_	_
+12	coup	coup	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	InIdiom=Yes
 13	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 14	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj:dicto	_	_
 15	réussir	réussir	VERB	_	VerbForm=Inf	14	comp:obj@x	_	_
 16	à	à	ADP	_	_	15	comp:obl@x	_	_
 17	se	se	PRON	_	Person=3|PronType=Prs	18	comp:obj	_	_
 18	mettre	mettre	VERB	_	VerbForm=Inf	16	comp:obj	_	_
-19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det@fixed	_	_
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	InIdiom=Yes
 20	peu	peu	ADV	_	_	18	mod	_	_
 21	à	à	ADP	_	_	18	comp:obl	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -369,7 +369,7 @@
 8	parfois	parfois	ADV	_	_	10	mod	_	_
 9	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	_
 10	fais	faire	VERB	_	_	3	comp:obj	_	_
-11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det@fixed	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	InIdiom=Yes
 12	peu	peu	ADV	_	_	10	mod	_	_
 13	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	14	det	_	_
 14	flemmarde	flemmard	NOUN	_	_	10	comp:pred	_	_
@@ -386,8 +386,8 @@
 6	essentiel	essentiel	NOUN	_	Gender=Masc|Number=Sing	8	dislocated	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	SpaceAfter=No
 8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	quand	quand	SCONJ	_	_	8	mod	_	EXTPOS=ADV
-10	même	même	ADV	_	_	9	unk@fixed	_	_
+9	quand	quand	SCONJ	_	_	8	mod	_	ExtPos=ADV|PhraseType=Idiom
+10	même	même	ADV	_	_	9	unk	_	InIdiom=Yes
 11	de	de	ADP	_	_	8	comp:pred	_	_
 12	réussir	réussir	VERB	_	VerbForm=Inf	11	comp:obj	_	_
 13	à	à	ADP	_	_	12	comp:obl@x	_	_
@@ -419,14 +419,14 @@
 8	fac	fac	NOUN	_	Gender=Fem|Number=Sing	10	dislocated	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	SpaceAfter=No
 10	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
-11	quand	quand	SCONJ	_	_	10	mod	_	EXTPOS=ADV
-12	même	même	ADV	_	_	11	unk@fixed	_	_
+11	quand	quand	SCONJ	_	_	10	mod	_	ExtPos=ADV|PhraseType=Idiom
+12	même	même	ADV	_	_	11	unk	_	InIdiom=Yes
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
 15	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	10	comp:pred	_	_
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	parce	parce	SCONJ	_	_	10	mod	_	_
-18	que	que	SCONJ	_	_	17	unk@fixed	_	_
+18	que	que	SCONJ	_	_	17	unk	_	InIdiom=Yes
 19	euh	euh	INTJ	_	_	23	discourse	_	_
 20	bah	bah	INTJ	_	_	23	discourse	_	_
 21	déjà	déjà	ADV	_	_	23	discourse	_	_
@@ -474,7 +474,7 @@
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 3	y	y	PRON	_	Person=3|PronType=Prs	4	mod	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	pas	pas	ADV	_	Polarity=Neg	6	mod@fixed	_	_
+5	pas	pas	ADV	_	Polarity=Neg	6	mod	_	InIdiom=Yes
 6	mal	mal	ADV	_	_	4	comp:obj	_	_
 7	de	de	ADP	_	_	6	comp:obl	_	_
 8	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
@@ -493,7 +493,7 @@
 2	euh	euh	INTJ	_	_	8	discourse	_	_
 3	pour	pour	ADP	_	_	8	mod	_	_
 4	être	être	VERB	_	VerbForm=Inf	3	comp:obj	_	_
-5	honnête	honnête	ADJ	_	Number=Sing|Gender=Masc	4	comp:pred	_	_
+5	honnête	honnête	ADJ	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	SpaceAfter=No
 7	en	en	PRON	_	Person=3|PronType=Prs	9	comp:obl	_	_
 8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -572,7 +572,7 @@
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 3	y	y	PRON	_	Person=3|PronType=Prs	4	mod	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	pas	pas	ADV	_	Polarity=Neg	6	mod@fixed	_	_
+5	pas	pas	ADV	_	Polarity=Neg	6	mod	_	InIdiom=Yes
 6	mal	mal	ADV	_	_	4	comp:obj	_	_
 7	de	UN	DET	_	_	6	comp:obl	_	_
 8	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
@@ -594,7 +594,7 @@
 10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	comp:obj	_	_
 11	euh	euh	INTJ	_	_	14	discourse	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
-13	tote	tote	VERB	_	_	14	mod@fixed	_	_
+13	tote	tote	VERB	_	_	14	mod	_	InIdiom=Yes
 14	bags	bag	NOUN	_	_	10	comp:obj	_	_
 15	euh	euh	INTJ	_	_	16	discourse	_	_
 16	avec	avec	ADP	_	_	14	mod	_	_
@@ -640,7 +640,7 @@
 # sent_id = ParisStories_2019_experienceFac_39
 # text = peut-être que je pouvais pas ,
 1	peut-être	peut-être	ADV	_	_	4	mod	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	_
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	pouvais	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
@@ -670,7 +670,7 @@
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
-4	pas	pas	ADV	_	Polarity=Neg	5	mod@fixed	_	_
+4	pas	pas	ADV	_	Polarity=Neg	5	mod	_	InIdiom=Yes
 5	mal	mal	ADV	_	_	3	comp:obj	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	photos	photo	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
@@ -702,7 +702,7 @@
 13	sympa	sympa	ADJ	_	_	12	mod	_	_
 14	à	à	ADP	_	_	12	mod	_	_
 15	à	à	ADP	_	_	14	conj:dicto	_	_
-16	côté	côté	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj@fixed	_	_
+16	côté	côté	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	InIdiom=Yes
 17	de	de	ADP	_	_	16	mod	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	enseignement	enseignement	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
@@ -714,8 +714,8 @@
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
-6	quand	quand	SCONJ	_	_	5	mod	_	EXTPOS=ADV
-7	même	même	ADV	_	_	6	unk@fixed	_	_
+6	quand	quand	SCONJ	_	_	5	mod	_	ExtPos=ADV|PhraseType=Idiom
+7	même	même	ADV	_	_	6	unk	_	InIdiom=Yes
 8	quelque	quelque	DET	_	Number=Sing|Person=3|PronType=Ind	9	det	_	_
 9	chose	chose	NOUN	_	Gender=Fem|Number=Sing	5	comp:pred	_	_
 10	de	de	ADP	_	_	9	mod	_	_
@@ -789,7 +789,7 @@
 11	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	SpaceAfter=No
 12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	découvert	découvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux	_	_
-14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det@fixed	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	InIdiom=Yes
 15	peu	peu	NOUN	_	_	13	mod	_	_
 16	d'	UN	DET	_	_	17	det	_	SpaceAfter=No
 17	autres	autre	ADJ	_	_	13	comp:obj	_	_
@@ -924,7 +924,7 @@
 # sent_id = ParisStories_2019_experienceFac_58
 # text = même si euh bon bah voilà , c' est pas drôle faut travailler , y a les devoirs , tout ça c' est quand même quelque chose euh ouais d' hu~ d' humain .
 1	même	même	ADV	_	_	23	mod	_	_
-2	si	si	SCONJ	_	_	1	mod@fixed	_	_
+2	si	si	SCONJ	_	_	1	mod	_	InIdiom=Yes
 3	euh	euh	INTJ	_	_	9	discourse	_	_
 4	bon	bon	INTJ	_	_	9	discourse	_	_
 5	bah	bah	INTJ	_	_	9	discourse	_	_
@@ -946,8 +946,8 @@
 21	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	conj:dicto	_	_
 22	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	subj	_	SpaceAfter=No
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-24	quand	quand	SCONJ	_	_	23	mod	_	EXTPOS=ADV
-25	même	même	ADV	_	_	24	unk@fixed	_	_
+24	quand	quand	SCONJ	_	_	23	mod	_	ExtPos=ADV|PhraseType=Idiom
+25	même	même	ADV	_	_	24	unk	_	InIdiom=Yes
 26	quelque	quelque	DET	_	Number=Sing|Person=3|PronType=Ind	27	det	_	_
 27	chose	chose	NOUN	_	Gender=Fem|Number=Sing	23	comp:pred	_	_
 28	euh	euh	INTJ	_	_	30	discourse	_	_
@@ -1039,7 +1039,7 @@
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	cours	cours	NOUN	_	_	16	dislocated	_	_
 9	d'	de	ADP	_	_	16	mod	_	SpaceAfter=No
-10	ailleurs	ailleurs	ADV	_	_	9	comp:obj@fixed	_	_
+10	ailleurs	ailleurs	ADV	_	_	9	comp:obj	_	InIdiom=Yes
 11	euh	euh	INTJ	_	_	12	discourse	_	_
 12	en	en	ADP	_	_	8	mod	_	_
 13	petit	petit	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
@@ -1081,7 +1081,7 @@
 # sent_id = ParisStories_2019_experienceFac_66
 # text = d' où le fait que j' ai une magnifique voix de canard .
 1	d'	d'	ADP	_	_	0	root	_	SpaceAfter=No
-2	où	où	PRON	_	_	1	comp:obj@fixed	_	_
+2	où	où	PRON	_	_	1	comp:obj	_	InIdiom=Yes
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	fait	faire	NOUN	_	_	1	comp:obj	_	_
 5	que	que	SCONJ	_	_	4	mod	_	_
@@ -1203,7 +1203,7 @@
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 3	me	me	PRON	_	_	4	comp:obj	_	_
 4	retrouve	retrouver	VERB	_	_	0	root	_	_
-5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det@fixed	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	InIdiom=Yes
 6	peu	peu	ADV	_	_	7	mod	_	_
 7	débordée	débordé	ADJ	_	_	4	comp:pred	_	_
 8	à	à	ADP	_	_	4	mod	_	_

@@ -67,7 +67,7 @@
 # sent_id = ParisStories_2019_peripleCrous_5
 # text = aujourd' hui , euh , le but c' était d' aller à le Crous de Jussieu , parce que Thomas n' ayant pas de carte navigo on peut pas aller plus loin pour l' instant .
 1	aujourd'	aujourd'	NOUN	_	_	9	mod	_	SpaceAfter=No
-2	hui	hui	NOUN	_	_	1	unk@fixed	_	_
+2	hui	hui	NOUN	_	_	1	unk	_	InIdiom=Yes
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	euh	euh	INTJ	_	_	1	discourse	_	_
 5	,	,	PUNCT	_	_	1	punct	_	_
@@ -84,7 +84,7 @@
 16	Jussieu	jussieu	PROPN	_	_	15	comp:obj	_	_
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	parce	parce	SCONJ	_	_	11	mod	_	_
-19	que	que	SCONJ	_	_	18	unk@fixed	_	_
+19	que	que	SCONJ	_	_	18	unk	_	InIdiom=Yes
 20	Thomas	_	PROPN	_	_	22	subj	_	_
 21	n'	ne	ADV	_	Polarity=Neg	22	mod	_	SpaceAfter=No
 22	ayant	avoir	VERB	_	Tense=Pres|VerbForm=Part	28	mod	_	_
@@ -209,7 +209,7 @@
 27	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	parce	parce	SCONJ	_	_	10	mod	_	_
-30	qu'	que	SCONJ	_	_	29	unk@fixed	_	SpaceAfter=No
+30	qu'	que	SCONJ	_	_	29	unk	_	InIdiom=Yes|SpaceAfter=No
 31	avec	avec	ADP	_	_	36	mod	_	_
 32	Vigipirate	vigipirate	PROPN	_	_	31	comp:obj	_	_
 33	tout	tout	ADJ	_	Gender=Masc|Number=Sing	34	mod	_	_
@@ -353,8 +353,8 @@
 12	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	subj	_	SpaceAfter=No
 13	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux	_	_
-15	quand	quand	SCONJ	_	_	14	mod	_	EXTPOS=ADV
-16	même	même	ADV	_	_	15	unk@fixed	_	_
+15	quand	quand	SCONJ	_	_	14	mod	_	ExtPos=ADV|PhraseType=Idiom
+16	même	même	ADV	_	_	15	unk	_	InIdiom=Yes
 17	qu'	que	SCONJ	_	_	14	mod	_	SpaceAfter=No
 18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj	_	_
 19	y	y	PRON	_	Person=3|PronType=Prs	20	mod	_	_
@@ -383,8 +383,8 @@
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	t'	te	PRON	_	_	3	subj	_	SpaceAfter=No
 3	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	quand	quand	SCONJ	_	_	3	mod	_	EXTPOS=ADV
-5	même	même	ADV	_	_	4	unk@fixed	_	_
+4	quand	quand	SCONJ	_	_	3	mod	_	ExtPos=ADV|PhraseType=Idiom
+5	même	même	ADV	_	_	4	unk	_	InIdiom=Yes
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	couteau	couteau	NOUN	_	_	3	comp:obj	_	_
 8	et	et	CCONJ	_	_	10	cc	_	_
@@ -501,7 +501,7 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	assez	assez	ADV	_	_	3	mod	_	_
-5	futuriste	futuriste	ADJ	_	Number=Sing|Gender=Masc	3	comp:pred	_	_
+5	futuriste	futuriste	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	enfin	enfin	ADV	_	_	3	discourse	_	_
 8	.	.	PUNCT	_	_	3	punct	_	_
@@ -577,13 +577,13 @@
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det@fixed	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	InIdiom=Yes
 8	peu	peu	ADV	_	_	9	mod	_	_
 9	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	_
 10	,	,	PUNCT	_	_	19	punct	_	_
 11	mais	mais	CCONJ	_	_	19	cc	_	_
 12	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	mod	_	_
-13	qu'	que	SCONJ	_	_	12	unk@fixed	_	SpaceAfter=No
+13	qu'	que	SCONJ	_	_	12	unk	_	InIdiom=Yes|SpaceAfter=No
 14	y	y	PRON	_	Person=3|PronType=Prs	15	mod	_	_
 15	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	comp:obj	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -620,7 +620,7 @@
 6	euh	euh	INTJ	_	_	8	discourse	_	_
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	sauf	sauf	ADP	_	_	2	mod	_	_
-9	que	que	SCONJ	_	_	8	unk@fixed	_	_
+9	que	que	SCONJ	_	_	8	unk	_	InIdiom=Yes
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	nous	nous	PRON	_	_	12	subj	_	_
 12	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
@@ -632,7 +632,7 @@
 18	et	et	CCONJ	_	_	19	cc	_	_
 19	qu'	que	SCONJ	_	_	8	conj:coord	_	SpaceAfter=No
 20	aujourd'	aujourd'	NOUN	_	_	24	mod	_	SpaceAfter=No
-21	hui	hui	NOUN	_	_	20	unk@fixed	_	_
+21	hui	hui	NOUN	_	_	20	unk	_	InIdiom=Yes
 22	,	,	PUNCT	_	_	20	punct	_	_
 23	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	24	subj	_	SpaceAfter=No
 24	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
@@ -662,7 +662,7 @@
 8	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	grève	grever	NOUN	_	_	8	comp:obj	_	_
 10	aujourd'	aujourd'	NOUN	_	_	8	mod	_	SpaceAfter=No
-11	hui	hui	NOUN	_	_	10	unk@fixed	_	_
+11	hui	hui	NOUN	_	_	10	unk	_	InIdiom=Yes
 12	?	?	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_39
@@ -733,7 +733,7 @@
 4	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	contente	content	ADJ	_	Gender=Fem|Number=Sing	4	comp:pred	_	_
 6	parce	parce	SCONJ	_	_	4	mod	_	_
-7	qu'	que	SCONJ	_	_	6	unk@fixed	_	SpaceAfter=No
+7	qu'	que	SCONJ	_	_	6	unk	_	InIdiom=Yes|SpaceAfter=No
 8	y	y	PRON	_	Person=3|PronType=Prs	9	mod	_	_
 9	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	comp:obj	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	comp:obj	_	_
@@ -757,7 +757,7 @@
 28	fac	fac	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	_
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	parce	parce	SCONJ	_	_	23	mod	_	_
-31	que	que	SCONJ	_	_	30	unk@fixed	_	_
+31	que	que	SCONJ	_	_	30	unk	_	InIdiom=Yes
 32	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	33	subj	_	SpaceAfter=No
 33	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	comp:obj	_	_
 34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
@@ -779,7 +779,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	avec	avec	ADP	_	_	10	mod	_	_
 6	ReX	rex	PROPN	_	_	5	comp:obj	_	_
-7	Thomas	_	PROPN	_	_	6	compound@fixed	_	_
+7	Thomas	_	PROPN	_	_	6	compound	_	InIdiom=Yes
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -891,7 +891,7 @@
 10	deux	deux	NUM	_	Number=Plur	8	mod	_	_
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	parce	parce	SCONJ	_	_	7	mod	_	_
-13	que	que	SCONJ	_	_	12	unk@fixed	_	_
+13	que	que	SCONJ	_	_	12	unk	_	InIdiom=Yes
 14	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	16	dislocated	_	_
 15	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj	_	_
 16	voulais	vouloir	VERB	_	_	12	comp:obj	_	_

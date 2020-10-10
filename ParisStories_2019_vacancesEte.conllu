@@ -25,11 +25,11 @@
 9	euh	heu	INTJ	_	_	11	discourse	_	_
 10	bah	bah	INTJ	_	_	11	discourse	_	_
 11	pendant	pendant	ADP	_	_	6	mod	_	_
-12	pas	pas	ADV	_	Polarity=Neg	13	mod@fixed	_	_
+12	pas	pas	ADV	_	Polarity=Neg	13	mod	_	InIdiom=Yes
 13	mal	mal	ADV	_	_	14	mod	_	_
 14	longtemps	longtemps	ADV	_	_	11	comp:obj	_	_
-15	quand	quand	SCONJ	_	_	11	mod	_	EXTPOS=ADV
-16	même	même	ADV	_	_	15	unk@fixed	_	_
+15	quand	quand	SCONJ	_	_	11	mod	_	ExtPos=ADV|PhraseType=Idiom
+16	même	même	ADV	_	_	15	unk	_	InIdiom=Yes
 17	,	,	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_3
@@ -48,7 +48,7 @@
 12	quelques	quelque	DET	_	Number=Plur|PronType=Ind	13	det	_	_
 13	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 14	même	même	ADV	_	_	3	mod	_	_
-15	si	si	SCONJ	_	_	14	mod@fixed	_	_
+15	si	si	SCONJ	_	_	14	mod	_	InIdiom=Yes
 16	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	SpaceAfter=No
 17	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
 18	travaillé	travailler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux	_	_
@@ -152,7 +152,7 @@
 15	dans	dans	ADP	_	_	12	mod	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	Charentes	charentes	PROPN	_	_	15	comp:obj	_	_
-18	Maritimes	maritimes	PROPN	_	_	17	compound@fixed	_	_
+18	Maritimes	maritimes	PROPN	_	_	17	compound	_	InIdiom=Yes
 19	juste	juste	ADV	_	_	20	mod	_	_
 20	pendant	pendant	ADP	_	_	12	mod	_	_
 21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -272,7 +272,7 @@
 6	dans	dans	ADP	_	_	5	comp:pred	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	Charentes	charentes	PROPN	_	_	6	comp:obj	_	_
-9	Maritimes	maritimes	PROPN	_	_	8	compound@fixed	_	_
+9	Maritimes	maritimes	PROPN	_	_	8	compound	_	InIdiom=Yes
 10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_13
@@ -604,7 +604,7 @@
 5	vacances	vacance	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
 6	d'	de	ADP	_	_	5	mod	_	SpaceAfter=No
 7	été	être	NOUN	_	_	6	comp:obj	_	_
-8	pas	pas	ADV	_	Polarity=Neg	9	mod@fixed	_	_
+8	pas	pas	ADV	_	Polarity=Neg	9	mod	_	InIdiom=Yes
 9	mal	mal	ADV	_	_	5	mod	_	_
 10	quoi	quoi	INTJ	_	_	12	discourse	_	_
 11	,	,	PUNCT	_	_	10	punct	_	_
@@ -720,9 +720,9 @@
 2	oui	oui	ADV	_	_	4	discourse	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	SpaceAfter=No
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det@fixed	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	InIdiom=Yes
 6	peu	peu	ADV	_	_	7	mod	_	_
-7	bizarre	bizarre	ADJ	_	Number=Sing|Gender=Masc	4	comp:pred	_	_
+7	bizarre	bizarre	ADJ	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
 8	mais	mais	CCONJ	_	_	10	cc	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	SpaceAfter=No
 10	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj:coord	_	_
@@ -783,7 +783,7 @@
 8	beaucoup	beaucoup	ADV	_	_	3	mod	_	_
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	parce	parce	SCONJ	_	_	8	mod	_	_
-11	que	que	SCONJ	_	_	10	unk@fixed	_	_
+11	que	que	SCONJ	_	_	10	unk	_	InIdiom=Yes
 12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	subj	_	_
 13	aime	aimer	VERB	_	_	10	comp:obj	_	_
 14	bien	bien	ADV	_	_	13	mod	_	_
