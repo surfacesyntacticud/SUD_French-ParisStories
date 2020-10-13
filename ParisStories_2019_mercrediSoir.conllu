@@ -899,17 +899,20 @@
 13	!	!	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2019_mercrediSoir_44
-# text = deux minutes , but de Daniel Alves !
+# text = deux minutes ,
 1	deux	deux	NUM	_	Number=Plur	2	det	_	_
-2	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	4	conj:coord	_	_
+2	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	but	but	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-5	de	de	ADP	_	_	4	mod	_	_
-6	Daniel	daniel	PROPN	_	_	5	comp:obj	_	_
-7	Alves	alves	PRON	_	_	6	fixed	_	_
-8	!	!	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_mercrediSoir_45
+# text = but de Daniel Alves !
+1	but	but	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	1	mod	_	_
+3	Daniel	daniel	PROPN	_	_	2	comp:obj	_	_
+7	Alves	alves	PRON	_	_	3	fixed	_	_
+4	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = ParisStories_2019_mercrediSoir_46
 # text = tout le bar était comme un en feu etcétéra .
 1	tout	tout	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -922,7 +925,7 @@
 9	etcétéra	etcétéra	ADV	_	_	4	discourse	_	_
 10	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = ParisStories_2019_mercrediSoir_46
+# sent_id = ParisStories_2019_mercrediSoir_47
 # text = le barman il fait sonner la cloche , euh , euh , les , les gens debout etcétéra .
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	barman	barman	NOUN	_	Gender=Masc|Number=Sing	4	dislocated	_	_
@@ -944,7 +947,7 @@
 18	etcétéra	etcétéra	ADV	_	_	4	discourse	_	_
 19	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = ParisStories_2019_mercrediSoir_47
+# sent_id = ParisStories_2019_mercrediSoir_48
 # text = c' était vraiment un , un bar de supporters donc c' était sympa .
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -961,7 +964,7 @@
 13	sympa	sympa	ADJ	_	_	12	comp:pred	_	_
 14	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = ParisStories_2019_mercrediSoir_48
+# sent_id = ParisStories_2019_mercrediSoir_49
 # text = euh , après , Adrien , il nous a rejoint , euh , dans dans la foulée , euh .
 1	euh	euh	PRON	_	_	9	discourse	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -984,7 +987,7 @@
 19	euh	euh	INTJ	_	_	9	discourse	_	_
 20	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = ParisStories_2019_mercrediSoir_49
+# sent_id = ParisStories_2019_mercrediSoir_50
 # text = bon , c' était un , c' était pas un match extraordinaire , euh .
 1	bon	bon	CCONJ	_	_	4	cc	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -1002,7 +1005,7 @@
 14	euh	euh	INTJ	_	_	4	discourse	_	_
 15	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = ParisStories_2019_mercrediSoir_50
+# sent_id = ParisStories_2019_mercrediSoir_51
 # text = Paris Saint Germain a pas été , euh , pas été dingue , mais , euh , y a eu victoire trois zéro quand même , donc , euh , donc on était content .
 1	Paris	Paris	PROPN	_	_	4	subj	_	_
 2	Saint	Saint	PROPN	_	_	1	compound	_	InIdiom=Yes
@@ -1040,7 +1043,7 @@
 34	content	content	ADJ	_	Gender=Masc|Number=Sing	33	comp:pred	_	_
 35	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = ParisStories_2019_mercrediSoir_51
+# sent_id = ParisStories_2019_mercrediSoir_52
 # text = on a passé , euh , globalement une , euh , une bonne soirée !
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
