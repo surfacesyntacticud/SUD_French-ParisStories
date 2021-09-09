@@ -67,7 +67,7 @@
 1	en	en	ADP	_	_	4	discourse	_	ExtPos=ADV|Idiom=Yes
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-4	s~	s~	X	_	_	0	root	_	_
+4	s~	savoir	VERB	_	_	0	root	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	conj:dicto	_	_
 7	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	_
@@ -527,18 +527,21 @@
 52	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_23
-# text = et je lui demande ce qui à l'intérieur ,
+# text = et je lui demande ce qu'il y a  à l'intérieur ,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61b04e77cad8421a64e2531daae8e46efb6e0f37
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obl	_	_
 4	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	comp:obj	_	_
-6	qui	qui	PRON	_	PronType=Rel	7	subj	_	_
-7	à	à	ADP	_	_	5	mod	_	_
-8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
-9	intérieur	intérieur	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
-10	,	,	PUNCT	_	_	4	punct	_	_
+6	qu'	que	PRON	_	PronType=Rel	9	comp:obj	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj@expl	_	_
+8	y	y	PRON	_	Person=3|PronType=Prs	9	comp	_	InIdiom=Yes
+9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	ExtPos=VERB|Idiom=Yes
+10	à	à	ADP	_	_	5	mod	_	_
+11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+12	intérieur	intérieur	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
+13	,	,	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_24
 # text = et là il m'explique que c'est composé essentiellement de légumes , c'est à dire de euh tomate , laitue , avocat , champignon et je dois choisir entre poulet ou merguez .
