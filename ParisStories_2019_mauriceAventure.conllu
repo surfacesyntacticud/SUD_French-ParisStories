@@ -57,7 +57,7 @@
 3	euh	euh	INTJ	_	_	2	discourse	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
 5	s'	se	PRON	_	Person=3|PronType=Prs	6	comp	_	InIdiom=Yes|SpaceAfter=No
-6	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	ExtPos=VERB|PhraseType=Idiom
+6	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	ExtPos=VERB|Idiom=Yes
 7	Casela	casela	PROPN	_	_	6	comp:pred	_	_
 8	Aventures	aventures	PROPN	_	_	7	flat:name	_	_
 9	.	.	PUNCT	_	_	2	punct	_	_
@@ -103,7 +103,7 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	InIdiom=Yes
-5	peu	peu	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	ExtPos=ADV|PhraseType=Idiom
+5	peu	peu	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	ExtPos=ADV|Idiom=Yes
 6	genre	genre	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	mélange	mélange	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
@@ -230,7 +230,7 @@
 29	pour	pour	ADP	_	_	14	mod	_	_
 30	euh	euh	INTJ	_	_	32	discourse	_	_
 31	bah	bah	INTJ	_	_	32	discourse	_	_
-32	pour	pour	ADP	_	_	29	conj:dicto	_	ExtPos=ADV|PhraseType=Idiom
+32	pour	pour	ADP	_	_	29	conj:dicto	_	ExtPos=ADV|Idiom=Yes
 33	qu'	que	SCONJ	_	_	32	unk	_	InIdiom=Yes|SpaceAfter=No
 34	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	35	subj	_	_
 35	puisse	pouvoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	comp:obj	_	_
@@ -731,9 +731,9 @@
 # sent_id = ParisStories_2019_mauriceAventure_44
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	donc	donc	ADV	_	_	4	mod	_	_
-2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	mod	_	_
-4	a	avoir	SCONJ	_	_	0	root	_	_
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	InIdiom=Yes
+3	y	y	PRON	_	Person=3|PronType=Prs	4	comp	_	InIdiom=Yes
+4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	moitié	moitié	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	qui	qui	PRON	_	_	8	subj	_	_
@@ -854,7 +854,7 @@
 # text = parce que lui il a le vertige , mais il s'est lancé un défi .
 # sent_id = ParisStories_2019_mauriceAventure_52
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	dislocated	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
