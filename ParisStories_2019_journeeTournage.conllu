@@ -828,7 +828,7 @@
 15	assistantes	assistante	NOUN	_	Gender=Fem|Number=Plur	9	conj:appos	_	_
 16	.	.	PUNCT	_	_	2	punct	_	_
 
-# text = Y avait deux petits acteurs , euh , qui avaient chacun , euh , une assistante , euh , attitrée un peu comme leurs mamans qui venaient , euh , les faire des jeux avec eux pendant pendant qu'ils attendaient leur scène , euh , les recoiffer , les remaquiller , tout ça .
+# text = Y avait deux petits acteurs , euh , qui avaient chacun , euh , une assistante , euh , attitrée un peu comme leurs mamans qui venaient , euh , les , faire des jeux avec eux pendant pendant qu'ils attendaient leur scène , euh , les recoiffer , les remaquiller , tout ça .
 # sent_id = ParisStories_2019_journeeTournage_29
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/6453bfac9aacda11fad4c673deeeb074e93b512a
 1	Y	y	PRON	_	Person=3|PronType=Prs	2	mod	_	_
@@ -861,31 +861,32 @@
 28	,	,	PUNCT	_	_	32	punct	_	_
 29	euh	euh	INTJ	_	_	32	discourse	_	_
 30	,	,	PUNCT	_	_	29	punct	_	_
-31	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	32	comp:obj	_	_
-32	faire	faire	VERB	_	VerbForm=Inf	27	comp:obj@x	_	_
-33	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	34	det	_	_
-34	jeux	jeu	NOUN	_	Gender=Masc|Number=Plur	32	comp:obj	_	_
-35	avec	avec	ADP	_	_	32	mod	_	_
-36	eux	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	35	comp:obj	_	_
-37	pendant	pendant	ADP	_	_	32	mod	_	_
-38	pendant	pendant	ADP	_	_	37	conj:dicto	_	ExtPos=ADV|PhraseType=Idiom
-39	qu'	que	SCONJ	_	_	38	unk	_	InIdiom=Yes|SpaceAfter=No
-40	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	41	subj	_	_
-41	attendaient	attendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	38	comp:obj	_	_
-42	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	43	det	_	_
-43	scène	scène	NOUN	_	Gender=Fem|Number=Sing	41	comp:obj	_	_
-44	,	,	PUNCT	_	_	48	punct	_	_
-45	euh	euh	INTJ	_	_	48	discourse	_	_
-46	,	,	PUNCT	_	_	45	punct	_	_
-47	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	48	comp:obj	_	_
-48	recoiffer	recoiffer	VERB	_	VerbForm=Inf	32	conj:dicto	_	_
-49	,	,	PUNCT	_	_	51	punct	_	_
-50	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	51	comp:obj	_	_
-51	remaquiller	remaquiller	VERB	_	VerbForm=Inf	48	conj:coord	_	_
-52	,	,	PUNCT	_	_	54	punct	_	_
-53	tout	tout	ADJ	_	Gender=Masc|Number=Sing	54	mod	_	_
-54	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	51	conj:coord	_	_
-55	.	.	PUNCT	_	_	2	punct	_	_
+31	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	27	unk@scrap	_	_
+32	,	,	PUNCT	_	_	23	punct	_	_
+33	faire	faire	VERB	_	VerbForm=Inf	27	comp:obj@x	_	_
+34	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	35	det	_	_
+35	jeux	jeu	NOUN	_	Gender=Masc|Number=Plur	33	comp:obj	_	_
+36	avec	avec	ADP	_	_	33	mod	_	_
+37	eux	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	36	comp:obj	_	_
+38	pendant	pendant	ADP	_	_	33	mod	_	_
+39	pendant	pendant	ADP	_	_	38	conj:dicto	_	ExtPos=ADV|PhraseType=Idiom
+40	qu'	que	SCONJ	_	_	39	unk	_	InIdiom=Yes|SpaceAfter=No
+41	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	42	subj	_	_
+42	attendaient	attendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	39	comp:obj	_	_
+43	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	44	det	_	_
+44	scène	scène	NOUN	_	Gender=Fem|Number=Sing	42	comp:obj	_	_
+45	,	,	PUNCT	_	_	49	punct	_	_
+46	euh	euh	INTJ	_	_	49	discourse	_	_
+47	,	,	PUNCT	_	_	46	punct	_	_
+48	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	49	comp:obj	_	_
+49	recoiffer	recoiffer	VERB	_	VerbForm=Inf	33	conj:dicto	_	_
+50	,	,	PUNCT	_	_	52	punct	_	_
+51	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	52	comp:obj	_	_
+52	remaquiller	remaquiller	VERB	_	VerbForm=Inf	49	conj:coord	_	_
+53	,	,	PUNCT	_	_	55	punct	_	_
+54	tout	tout	ADJ	_	Gender=Masc|Number=Sing	55	mod	_	_
+55	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	52	conj:coord	_	_
+56	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Et euh , et voilà donc c'était cool .
 # sent_id = ParisStories_2019_journeeTournage_30
