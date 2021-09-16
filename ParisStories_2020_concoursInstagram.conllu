@@ -114,10 +114,10 @@
 27	personne	personne	NOUN	_	Gender=Fem|Number=Sing	28	subj	_	_
 28	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	mod@relcl	_	_
 29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	karaoké	karaoké	NOUN	_	Gender=Masc|Number=Sing	29	comp:obj	_	SpaceAfter=No
+30	karaoké	karaoké	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
-32	parce	parce	SCONJ	_	_	28	mod	_	_
-33	que	que	SCONJ	_	_	32	unk@fixed	_	_
+32	parce	parce	ADV	_	_	28	mod	_	ExtPos=SCONJ|Idiom=Yes
+33	que	que	SCONJ	_	_	32	unk	_	InIdiom=Yes
 34	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	35	det	_	_
 35	clip	clip	NOUN	_	Gender=Masc|Number=Sing	37	dislocated	_	_
 36	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	37	subj	_	SpaceAfter=No
@@ -215,7 +215,7 @@
 34	train	train	NOUN	_	Gender=Masc|Number=Sing	33	comp:obj	_	_
 35	de	de	ADP	_	_	34	mod	_	_
 36	danser	danser	VERB	_	VerbForm=Inf	35	comp:obj	_	_
-37	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det@fixed	_	InIdiom=Yes
+37	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	InIdiom=Yes
 38	peu	peu	NOUN	_	_	39	mod	_	ExtPos=ADV|Idiom=Yes
 39	active	actif	ADJ	_	Gender=Fem|Number=Sing	32	mod	_	_
 40	et	et	CCONJ	_	_	48	cc	_	SpaceAfter=No
@@ -247,8 +247,8 @@
 # text = sauf que tu voulais pas le mettre sur ton Insta.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 # timestamp = 1606929798625
-1	sauf	sauf	CCONJ	_	_	4	cc	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	_
+1	sauf	sauf	ADP	_	_	4	cc	_	ExtPos=SCONJ|Idiom=Yes
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	4	subj	_	_
 4	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	_	4	mod	_	_
@@ -268,8 +268,8 @@
 3	oui	oui	INTJ	_	_	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	évidemment	évidemment	ADV	_	_	6	discourse	_	_
-6	parce	parce	SCONJ	_	_	0	root	_	_
-7	que	que	SCONJ	_	_	6	unk@fixed	_	SpaceAfter=No
+6	parce	parce	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+7	que	que	SCONJ	_	_	6	unk	_	InIdiom=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	12	dislocated	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
@@ -322,8 +322,8 @@
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	soi-disant	soi-disant	ADV	_	_	4	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	parce	parce	SCONJ	_	_	0	root	_	_
-5	que	que	SCONJ	_	_	4	unk@fixed	_	_
+4	parce	parce	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+5	que	que	SCONJ	_	_	4	unk	_	InIdiom=Yes
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	SpaceAfter=No
 7	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 8	de	de	ADP	_	_	7	comp:obl	_	_
@@ -518,8 +518,8 @@
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	surprise	surprise	NOUN	_	Gender=Fem|Number=Sing	5	comp:pred	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	parce	parce	SCONJ	_	_	5	mod	_	_
-11	que	que	SCONJ	_	_	10	unk@fixed	_	_
+10	parce	parce	ADV	_	_	5	mod	_	ExtPos=SCONJ|Idiom=Yes
+11	que	que	SCONJ	_	_	10	unk	_	InIdiom=Yes
 12	tout	tout	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	monde	monde	NOUN	_	Gender=Masc|Number=Sing	21	subj	_	SpaceAfter=No
@@ -855,8 +855,8 @@
 # text = sauf que le clip, enfin, je suis désolée, mais il faisait pas très professionnel, hein.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 # timestamp = 1606932175535
-1	sauf	sauf	CCONJ	_	_	14	cc	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	_
+1	sauf	sauf	ADP	_	_	14	cc	_	ExtPos=SCONJ|Idiom=Yes
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	clip	clip	NOUN	_	Gender=Masc|Number=Sing	14	dislocated	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
@@ -939,8 +939,8 @@
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	Iphone	Iphone	PROPN	_	_	8	comp:obj	_	_
 11	mais	mais	CCONJ	_	_	12	cc	_	_
-12	parce	parce	SCONJ	_	_	7	mod	_	_
-13	que	que	SCONJ	_	_	12	unk@fixed	_	SpaceAfter=No
+12	parce	parce	ADV	_	_	7	mod	_	ExtPos=SCONJ|Idiom=Yes
+13	que	que	SCONJ	_	_	12	unk	_	InIdiom=Yes|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	euh~	euh~	ADV	_	_	12	discourse	_	SpaceAfter=No
 16	…	…	PUNCT	_	_	3	punct	_	_

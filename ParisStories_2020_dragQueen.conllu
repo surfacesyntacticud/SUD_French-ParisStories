@@ -45,11 +45,11 @@
 1	enfin	enfin	ADV	_	_	2	discourse	_	_
 2	de	de	ADP	_	_	0	root	_	_
 3	drag	drag	NOUN	_	_	2	comp:obj	_	InIdiom=Yes
-4	queen	queen	NOUN	_	Gender=Fem|Number=Sing	3	unk@fixed	_	ExtPos=NOUN|Idiom=Yes|SpaceAfter=No
+4	queen	queen	NOUN	_	Gender=Fem|Number=Sing	3	unk	_	ExtPos=NOUN|Idiom=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	qui	qui	PRON	_	PronType=Rel	8	subj	_	_
-7	s'	se	PRON	_	Person=3|PronType=Prs	8	comp@fixed	_	SpaceAfter=No
-8	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	@relcl	_	_
+7	s'	se	PRON	_	Person=3|PronType=Prs	8	comp	_	InIdiom=Yes|SpaceAfter=No
+8	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	ExtPos=VERB|Idiom=Yes
 9	RuPaul's	Rupaul's	PROPN	_	_	8	comp:obj	_	_
 10	Drag	Drag	PROPN	_	_	9	flat	_	_
 11	Race	Race	PROPN	_	_	10	flat	_	SpaceAfter=No
@@ -189,8 +189,8 @@
 # text = sauf que Maude finalement, euh, partait au Portugal et ça tombait pile, sur ce pile, sur la date, de ce spectacle.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
 # timestamp = 1606984997452
-1	sauf	sauf	CCONJ	_	_	8	cc	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	_
+1	sauf	sauf	ADP	_	_	8	cc	_	ExtPos=SCONJ|Idiom=Yes
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	Maude	Maude	PROPN	_	_	8	subj	_	_
 4	finalement	finalement	ADV	_	_	8	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
@@ -391,8 +391,8 @@
 1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
-4	s'	se	PRON	_	Person=3|PronType=Prs	6	comp@fixed	_	SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	s'	se	PRON	_	Person=3|PronType=Prs	6	comp	_	InIdiom=Yes|SpaceAfter=No
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 6	retrouvés	retrouver	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	comp:aux	_	_
 7	directement	directement	ADV	_	_	6	mod	_	_
 8	là-bas	là-bas	ADV	_	_	6	comp:obl	_	SpaceAfter=No
@@ -637,8 +637,8 @@
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:coord	_	_
 17	essayé	essayer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux	_	_
 18	de	de	ADP	_	_	17	comp:obl@x	_	_
-19	se	se	PRON	_	Person=3|PronType=Prs	20	comp@fixed	_	_
-20	mettre	mettre	VERB	_	VerbForm=Inf	18	comp:obj	_	_
+19	se	se	PRON	_	Person=3|PronType=Prs	20	comp	_	InIdiom=Yes
+20	mettre	mettre	VERB	_	VerbForm=Inf	18	comp:obj	_	ExtPos=VERB|Idiom=Yes
 21	sur	sur	ADP	_	_	20	comp:obl	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	côté	côté	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
@@ -649,7 +649,7 @@
 # text = un peu en hauteur pour bien voir la scène, même si il y avait un bon gros, une bonne grosse sono au milieu.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
 # timestamp = 1606947642539
-1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det@fixed	_	InIdiom=Yes
+1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	InIdiom=Yes
 2	peu	peu	NOUN	_	_	3	mod	_	ExtPos=ADV|Idiom=Yes
 3	en	en	ADP	_	_	0	root	_	_
 4	hauteur	hauteur	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
@@ -705,8 +705,8 @@
 # text = parce qu'au milieu on aurait été vraiment trop bas.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
 # timestamp = 1590096279056
-1	parce	parce	SCONJ	_	_	0	root	_	_
-2	qu'	que	SCONJ	_	_	1	unk@fixed	_	SpaceAfter=No
+1	parce	parce	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3-4	au	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	7	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_

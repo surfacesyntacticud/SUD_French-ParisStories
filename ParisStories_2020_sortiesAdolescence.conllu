@@ -15,7 +15,7 @@
 11	quelque	quelque	DET	_	Number=Sing|Person=3|PronType=Ind	12	det	_	_
 12	chose	chose	NOUN	_	Gender=Fem|Number=Sing	10	comp:pred	_	_
 13	quand	quand	SCONJ	_	_	10	mod	_	ExtPos=ADV|Idiom=Yes
-14	même	même	ADV	_	_	13	unk@fixed	_	InIdiom=Yes|SpaceAfter=No
+14	même	même	ADV	_	_	13	unk	_	InIdiom=Yes|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	de	de	ADP	_	_	12	mod	_	_
 17	bizarre	bizarre	ADJ	_	Gender=Masc|Number=Sing	16	comp:obj	_	SpaceAfter=No
@@ -38,8 +38,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1590096279258
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
-2	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	3	comp@fixed	_	_
-3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	3	comp	_	InIdiom=Yes
+3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 4	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	5	det	_	_
 5	adolescence	adolescence	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
@@ -83,16 +83,16 @@
 19	comme	comme	ADV	_	_	18	comp:pred	_	_
 20	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	parce	parce	SCONJ	_	_	14	mod	_	ExtPos=SCONJ|Idiom=Yes
-23	que	que	SCONJ	_	_	22	unk@fixed	_	InIdiom=Yes|SpaceAfter=No
+22	parce	parce	ADV	_	_	14	mod	_	ExtPos=SCONJ|Idiom=Yes
+23	que	que	SCONJ	_	_	22	unk	_	InIdiom=Yes|SpaceAfter=No
 24	,	,	PUNCT	_	_	29	punct	_	_
 25	de	de	ADP	_	_	29	mod	_	_
 26	base	base	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
 27	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	29	dislocated	_	_
 28	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	29	subj	_	SpaceAfter=No
 29	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	22	comp:obj	_	_
-30	quand	quand	SCONJ	_	_	29	mod	_	_
-31	même	même	ADV	_	_	30	unk@fixed	_	_
+30	quand	quand	SCONJ	_	_	29	mod	_	ExtPos=ADV|Idiom=Yes
+31	même	même	ADV	_	_	30	unk	_	InIdiom=Yes
 32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	enfant	enfant	NOUN	_	Gender=Masc|Number=Sing	29	comp:pred	_	_
 34	calme	calme	ADJ	_	Gender=Masc|Number=Sing	33	mod	_	_
@@ -154,9 +154,9 @@
 # text = parce ce qu'en fait il y avait ce qu'on appelait les concerts boom.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1590096279258
-1	parce	parce	SCONJ	_	_	8	mod	_	_
+1	parce	parce	ADV	_	_	8	mod	_	ExtPos=SCONJ|Idiom=Yes
 2	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	comp:obj	_	_
-3	qu'	que	SCONJ	_	_	1	unk@fixed	_	SpaceAfter=No
+3	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 4	en	en	ADP	_	_	3	discourse	_	ExtPos=ADV|Idiom=Yes
 5	fait	fait	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	InIdiom=Yes
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj@expl	_	_
@@ -233,7 +233,7 @@
 1	bah	bah	INTJ	_	_	3	discourse	_	_
 2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	connaissez	connaître	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det@fixed	_	InIdiom=Yes
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	InIdiom=Yes
 5	petit	petit	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	InIdiom=Yes
 6	peu	peu	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	ExtPos=ADV|Idiom=Yes
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -294,8 +294,8 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	et	et	CCONJ	_	_	1	cc	_	_
 4	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	8	dislocated	_	_
-5	bien	bien	ADV	_	_	8	mod	_	InIdiom=Yes
-6	sûr	sûr	ADV	_	_	5	unk@fixed	_	ExtPos=ADV|Idiom=Yes
+5	bien	bien	ADV	_	_	6	mod	_	InIdiom=Yes
+6	sûr	sûr	ADV	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes
 7	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	SpaceAfter=No
 8	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	pas	pas	ADV	_	_	8	mod	_	_
@@ -307,8 +307,8 @@
 # text = déjà que mes parents étaient assez pratiquants, assez à cheval au niveau de la religion.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1590096279258
-1	déjà	déjà	ADV	_	_	0	root	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	_
+1	déjà	déjà	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	4	det	_	_
 4	parents	parent	NOUN	_	Gender=Masc|Number=Plur	5	subj	_	_
 5	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	comp:obj	_	_
@@ -399,7 +399,7 @@
 11	cas	cas	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 12-13	au	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	16	mod	_	_
-13	le	le	ADP	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	moins	moins	ADV	_	_	12	comp:obj	_	_
 15	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj	_	SpaceAfter=No
 16	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj:coord	_	_
@@ -427,7 +427,7 @@
 10	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	Definite=Ind|Number=Plur|PronType=Art	10	mod	_	_
-12	les	le	ADP	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	relations	relation	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
 14	sociales	social	ADJ	_	Gender=Fem|Number=Plur	13	mod	_	_
 15	à	à	ADP	_	_	13	mod	_	_
@@ -584,8 +584,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1590096279258
 1	et	et	CCONJ	_	_	13	cc	_	_
-2	bien	bien	ADV	_	_	13	mod	_	InIdiom=Yes
-3	sûr	sûr	ADV	_	_	2	unk@fixed	_	ExtPos=ADV|Idiom=Yes
+2	bien	bien	ADV	_	_	3	mod	_	InIdiom=Yes
+3	sûr	sûr	ADV	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
 4	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	5	det	_	_
 5	parents	parent	NOUN	_	Gender=Masc|Number=Plur	13	dislocated	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
@@ -598,22 +598,22 @@
 13	disaient	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 14	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	oui	oui	INTJ	_	_	13	parataxis:obj	_	SpaceAfter=No
+16	oui	oui	INTJ	_	_	13	parataxis:obj	_	Reported=Yes|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	oui	oui	INTJ	_	_	16	conj:coord	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	oui	oui	INTJ	_	_	18	conj:coord	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	22	punct	_	_
-22	bien	bien	ADV	_	_	13	conj:coord	_	InIdiom=Yes
-23	sûr	sûr	ADV	_	_	22	unk@fixed	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	bien	bien	ADV	_	_	23	mod	_	InIdiom=Yes
+23	sûr	sûr	ADV	_	_	20	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
 24	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2020_sortiesAdolescence_24
 # text = alors qu'au fond, je suis sûr qu'ils avaient vraiment le seum.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1590096279258
-1	alors	alors	ADV	_	_	8	discourse	_	_
-2	qu'	que	SCONJ	_	_	1	unk@fixed	_	SpaceAfter=No
+1	alors	alors	ADV	_	_	8	discourse	_	ExtPos=SCONJ|Idiom=Yes
+2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3-4	au	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	8	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_

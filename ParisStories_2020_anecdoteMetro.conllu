@@ -213,8 +213,8 @@
 5	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	SpaceAfter=No
 7	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj:dicto	_	_
-8	pile	pile	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	_
-9	poil	poil	NOUN	_	Gender=Masc|Number=Sing	8	comp@fixed	_	_
+8	pile	pile	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	ExtPos=ADV|Idiom=Yes
+9	poil	poil	NOUN	_	Gender=Masc|Number=Sing	8	unk	_	InIdiom=Yes
 10	pour	pour	ADP	_	_	7	mod	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	comp:obj	_	_
 12	prendre	prendre	VERB	_	VerbForm=Inf	10	comp:obj	_	SpaceAfter=No
@@ -307,8 +307,8 @@
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj:coord	_	_
 14	assez	assez	ADV	_	_	15	mod	_	_
 15	serré	serrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:pred	_	_
-16	quand	quand	ADV	_	_	13	mod	_	_
-17	même	même	ADV	_	_	16	unk@fixed	_	SpaceAfter=No
+16	quand	quand	SCONJ	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
+17	même	même	ADV	_	_	16	unk	_	InIdiom=Yes|SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_anecdoteMetro_16
@@ -350,8 +350,8 @@
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
 25	matin	matin	NOUN	_	Gender=Masc|Number=Sing	24	mod	_	_
-26	quand	quand	ADV	_	_	19	discourse	_	_
-27	même	même	ADV	_	_	26	unk@fixed	_	_
+26	quand	quand	SCONJ	_	_	19	discourse	_	ExtPos=ADV|Idiom=Yes
+27	même	même	ADV	_	_	26	unk	_	InIdiom=Yes
 28	!	!	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_anecdoteMetro_18
@@ -400,8 +400,8 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	dislocated	_	_
 8	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
-9	s'	se	PRON	_	Person=3|PronType=Prs	11	comp@fixed	_	SpaceAfter=No
-10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod:relcl	_	_
+9	s'	se	PRON	_	Person=3|PronType=Prs	11	comp	_	InIdiom=Yes|SpaceAfter=No
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod:relcl	_	ExtPos=VERB|Idiom=Yes
 11	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	7	punct	_	_
 13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	subj	_	SpaceAfter=No
@@ -605,8 +605,8 @@
 9	ben	ben	INTJ	_	_	13	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
-12	s'	se	PRON	_	Person=3|PronType=Prs	14	comp@fixed	_	SpaceAfter=No
-13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	s'	se	PRON	_	Person=3|PronType=Prs	14	comp	_	InIdiom=Yes|SpaceAfter=No
+13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 14	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux	_	_
 15	quoi	quoi	PRON	_	PronType=Rel	14	comp:obj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	13	punct	_	_
@@ -643,7 +643,7 @@
 # timestamp = 1590096278830
 1	hein	hein	INTJ	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	hein	hein	INTJ	_	_	1	root	_	SpaceAfter=No
+3	hein	hein	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_anecdoteMetro_31

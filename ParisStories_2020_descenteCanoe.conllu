@@ -12,8 +12,8 @@
 8	y	y	PRON	_	Person=3|PronType=Prs	9	comp:obl	_	_
 9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod	_	_
 10	à	à	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
-11	peu	peu	ADV	_	_	10	comp:obj@fixed	_	InIdiom=Yes
-12	près	près	ADV	_	_	11	mod@fixed	_	InIdiom=Yes
+11	peu	peu	ADV	_	_	10	comp:obj	_	InIdiom=Yes
+12	près	près	ADV	_	_	11	mod	_	InIdiom=Yes
 13	huit	huit	NUM	_	Number=Plur	16	det	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	dix	dix	NUM	_	Number=Plur	13	conj:dicto	_	_
@@ -37,8 +37,8 @@
 11	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	12	det	_	_
 12	copines	copine	NOUN	_	Gender=Fem|Number=Plur	10	comp:obj	_	_
 13	qui	qui	PRON	_	PronType=Rel	15	subj	_	_
-14	s'	se	PRON	_	Person=3|PronType=Prs	15	comp@fixed	_	SpaceAfter=No
-15	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	mod@relcl	_	_
+14	s'	se	PRON	_	Person=3|PronType=Prs	15	comp	_	InIdiom=Yes|SpaceAfter=No
+15	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	mod@relcl	_	ExtPos=VERB|Idiom=Yes
 16	Juliette	Juliette	PROPN	_	_	15	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -218,8 +218,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 # timestamp = 1606945981469
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
-2	s'	se	PRON	_	Person=3|PronType=Prs	4	comp@fixed	_	SpaceAfter=No
-3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	s'	se	PRON	_	Person=3|PronType=Prs	4	comp	_	InIdiom=Yes|SpaceAfter=No
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	12	punct	_	_
 6	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
@@ -260,7 +260,7 @@
 11	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	que	que	ADV	_	_	8	conj:dicto	_	ExtPos=ADV|Idiom=Yes
-14	dalle	dalle	NOUN	_	_	13	unk@fixed	_	InIdiom=Yes|SpaceAfter=No
+14	dalle	dalle	NOUN	_	_	13	unk	_	InIdiom=Yes|SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_descenteCanoe_14
@@ -272,7 +272,7 @@
 3	lendemain	lendemain	NOUN	_	Gender=Masc|Number=Sing	8	mod	_	_
 4	matin	matin	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
-6	donc	donc	ADV	_	_	8	conj:dicto	_	_
+6	donc	donc	ADV	_	_	8	mod	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	prêts	prêt	ADJ	_	Gender=Masc|Number=Plur	8	comp:pred	_	SpaceAfter=No
@@ -442,8 +442,8 @@
 15	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	comp:obj	_	_
 16	faire	faire	VERB	_	VerbForm=Inf	13	comp:obj@x	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	parce	parce	SCONJ	_	_	13	mod	_	_
-19	que	que	SCONJ	_	_	18	unk@fixed	_	_
+18	parce	parce	ADV	_	_	13	mod	_	ExtPos=SCONJ|Idiom=Yes
+19	que	que	SCONJ	_	_	18	unk	_	InIdiom=Yes
 20	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	21	subj	_	_
 21	savais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	18	comp:obj	_	_
 22	qu'	que	SCONJ	_	_	21	comp:obj	_	SpaceAfter=No
@@ -493,8 +493,8 @@
 # text = sauf que, bah effectivement, il est parti sans elle.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 # timestamp = 1606946480159
-1	sauf	sauf	CCONJ	_	_	8	cc	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	SpaceAfter=No
+1	sauf	sauf	ADP	_	_	8	cc	_	ExtPos=SCONJ|Idiom=Yes
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	_
 4	bah	bah	INTJ	_	_	8	discourse	_	_
 5	effectivement	effectivement	ADV	_	_	8	discourse	_	SpaceAfter=No
@@ -628,8 +628,8 @@
 4	après	après	ADV	_	_	1	conj:dicto	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
-7	s'	se	PRON	_	Person=3|PronType=Prs	9	comp@fixed	_	SpaceAfter=No
-8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	s'	se	PRON	_	Person=3|PronType=Prs	9	comp	_	InIdiom=Yes|SpaceAfter=No
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 9	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux	_	_
 10	quoi	quoi	PRON	_	PronType=Rel	9	comp:obj	_	_
 11	?	?	PUNCT	_	_	8	punct	_	_
@@ -728,14 +728,14 @@
 # text = par contre mes parents, ils se sont carrément fait éjecter du du canoë.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 # timestamp = 1606946925760
-1	par	par	ADP	_	_	8	mod	_	_
-2	contre	contre	ADP	_	_	1	unk@fixed	_	_
+1	par	par	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes
+2	contre	contre	NOUN	_	_	1	comp:obj	_	InIdiom=Yes
 3	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	4	det	_	_
 4	parents	parent	NOUN	_	Gender=Masc|Number=Plur	8	dislocated	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	subj	_	_
-7	se	se	PRON	_	Person=3|PronType=Prs	10	comp@fixed	_	_
-8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	se	se	PRON	_	Person=3|PronType=Prs	10	comp	_	InIdiom=Yes
+8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 9	carrément	carrément	ADV	_	_	8	mod	_	_
 10	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@pass	_	_
 11	éjecter	éjecter	VERB	_	VerbForm=Inf	10	comp:aux	_	_
@@ -755,8 +755,8 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	3	det	_	_
 3	père	père	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
-4	s'	se	PRON	_	Person=3|PronType=Prs	5	comp@fixed	_	SpaceAfter=No
-5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	s'	se	PRON	_	Person=3|PronType=Prs	5	comp	_	InIdiom=Yes|SpaceAfter=No
+5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
@@ -805,13 +805,13 @@
 # text = sauf que ça glissait énormément parce qu'il y avait de la mousse dessus.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 # timestamp = 1606946986880
-1	sauf	sauf	ADP	_	_	4	cc	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	_
+1	sauf	sauf	ADP	_	_	4	cc	_	ExtPos=SCONJ|Idiom=Yes
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
 4	glissait	glisser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	énormément	énormément	ADV	_	_	4	mod	_	_
-6	parce	parce	SCONJ	_	_	4	mod	_	_
-7	qu'	que	SCONJ	_	_	6	unk@fixed	_	SpaceAfter=No
+6	parce	parce	ADV	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
+7	qu'	que	SCONJ	_	_	6	unk	_	InIdiom=Yes|SpaceAfter=No
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj@expl	_	_
 9	y	y	PRON	_	Person=3|PronType=Prs	10	comp:obl	_	_
 10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	comp:obj	_	_
@@ -865,15 +865,15 @@
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	qu'	que	PRON	_	Person=3|PronType=Int	6	comp:pred	_	SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	root	_	SpaceAfter=No
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj@expl	_	_
 8	qu'	que	PRON	_	PronType=Rel	11	comp:obj	_	SpaceAfter=No
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj@expl	_	_
 10	y	y	PRON	_	Person=3|PronType=Prs	11	mod	_	_
-11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	comp:cleft	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	euh	euh	INTJ	_	_	11	discourse	_	_
-14	?	?	PUNCT	_	_	11	punct	_	_
+14	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_descenteCanoe_43
 # text = on a échangé de de binôme, je me suis retrouvée avec ma mère.
@@ -916,7 +916,7 @@
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	rocher	rocher	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
-18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det@fixed	_	InIdiom=Yes
+18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	InIdiom=Yes
 19	peu	peu	NOUN	_	_	20	mod	_	ExtPos=ADV|Idiom=Yes
 20	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	17	mod	_	_
 21	qui	qui	PRON	_	PronType=Rel	22	subj	_	_

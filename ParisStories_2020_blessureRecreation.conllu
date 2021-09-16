@@ -91,13 +91,13 @@
 6	gamine	gamin	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	euh	euh	INTJ	_	_	10	discourse	_	_
 8	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
-9	s'	se	PRON	_	Person=3|PronType=Prs	10	comp@fixed	_	SpaceAfter=No
-10	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
+9	s'	se	PRON	_	Person=3|PronType=Prs	10	comp	_	InIdiom=Yes|SpaceAfter=No
+10	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	ExtPos=VERB|Idiom=Yes
 11	euh	euh	INTJ	_	_	10	discourse	_	_
 12	Céc~	Céc~	PROPN	_	_	10	comp:obj	_	_
 13	qui	qui	PRON	_	PronType=Rel	15	subj	_	_
-14	s'	se	PRON	_	Person=3|PronType=Prs	15	comp@fixed	_	SpaceAfter=No
-15	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj:dicto	_	_
+14	s'	se	PRON	_	Person=3|PronType=Prs	15	comp	_	InIdiom=Yes|SpaceAfter=No
+15	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj:dicto	_	ExtPos=VERB|Idiom=Yes
 16	Cécilia	Cécilia	PROPN	_	_	15	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	22	subj	_	_
@@ -196,8 +196,8 @@
 20	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj:dicto	_	_
 21	relous	relou	ADJ	_	Gender=Masc|Number=Plur	20	comp:pred	_	_
 22	à	à	ADP	_	_	21	comp:obl@x	_	_
-23	se	se	PRON	_	Person=3|PronType=Prs	24	comp@fixed	_	_
-24	taper	taper	VERB	_	VerbForm=Inf	22	comp:obj	_	_
+23	se	se	PRON	_	Person=3|PronType=Prs	24	comp	_	InIdiom=Yes
+24	taper	taper	VERB	_	VerbForm=Inf	22	comp:obj	_	ExtPos=VERB|Idiom=Yes
 25	tout	tout	ADJ	_	Gender=Masc|Number=Sing	27	mod	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	temps	temps	NOUN	_	Gender=Masc|Number=Sing	24	mod	_	_
@@ -230,7 +230,7 @@
 17	genou	genou	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 18	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	subj	_	_
 19	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:coord	_	_
-20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det@fixed	_	InIdiom=Yes
+20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	InIdiom=Yes
 21	peu	peu	NOUN	_	_	22	mod	_	ExtPos=ADV|Idiom=Yes
 22	doucement	doucement	ADV	_	_	19	mod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	6	punct	_	_
@@ -256,7 +256,7 @@
 15	cercle	cercle	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	15	mod	_	_
-17	les	le	ADP	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 18	cinq	cinq	NUM	_	Number=Plur	20	mod	_	_
 19	cents	cent	NUM	_	Number=Plur	18	flat	_	_
 20	collégiens	collégien	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
@@ -489,9 +489,9 @@
 16	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj:dicto	_	_
 17	aller	aller	VERB	_	VerbForm=Inf	16	comp:obj@x	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	alors	alors	ADV	_	_	4	mod	_	_
-20	que	que	SCONJ	_	_	19	unk@fixed	_	_
-21	moi-même	moi-même	ADV	_	_	23	dislocated	_	_
+19	alors	alors	ADV	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
+20	que	que	SCONJ	_	_	19	unk	_	InIdiom=Yes
+21	moi-même	moi-même	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	23	dislocated	_	_
 22	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	23	subj	_	SpaceAfter=No
 23	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	19	comp:obj	_	_
 24	vraiment	vraiment	ADV	_	_	23	mod	_	_
@@ -521,8 +521,8 @@
 12	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	subj	_	_
 13	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	parce	parce	SCONJ	_	_	3	mod	_	_
-16	que	que	SCONJ	_	_	15	unk@fixed	_	_
+15	parce	parce	ADV	_	_	3	mod	_	ExtPos=SCONJ|Idiom=Yes
+16	que	que	SCONJ	_	_	15	unk	_	InIdiom=Yes
 17	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	18	subj	_	_
 18	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	comp:obj	_	_
 19	que	que	SCONJ	_	_	18	comp:obj	_	_
@@ -706,8 +706,8 @@
 # text = parce que les procédures du collège sont ce qu'elles sont, elles sont complètement débiles, il faut que ce soit l'infirmière qui appelle les pompiers.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
 # timestamp = 1605805596192
-1	parce	parce	SCONJ	_	_	0	root	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	_
+1	parce	parce	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	procédures	procédure	NOUN	_	Gender=Fem|Number=Plur	8	subj	_	_
 5-6	du	_	_	_	_	_	_	_	_

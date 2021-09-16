@@ -144,7 +144,7 @@
 47	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	48	det	_	SpaceAfter=No
 48	avion	avion	NOUN	_	Gender=Masc|Number=Sing	46	comp:obj	_	_
 49	plutôt	plutôt	ADV	_	_	46	mod	_	_
-50	que	que	SCONJ	_	_	49	unk@fixed	_	_
+50	que	que	SCONJ	_	_	49	comp:obj	_	_
 51	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
 52	train	train	NOUN	_	Gender=Masc|Number=Sing	50	comp:obj	_	SpaceAfter=No
 53	.	.	PUNCT	_	_	10	punct	_	_
@@ -157,7 +157,7 @@
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	SpaceAfter=No
 4	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det@fixed	_	InIdiom=Yes
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	InIdiom=Yes
 6	peu	peu	NOUN	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes
 7	plus	plus	ADV	_	_	11	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
@@ -268,8 +268,8 @@
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	_
-6	se	se	PRON	_	Person=3|PronType=Prs	7	comp@fixed	_	_
-7	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	se	se	PRON	_	Person=3|PronType=Prs	7	comp	_	InIdiom=Yes
+7	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 8	bien	bien	ADV	_	_	7	mod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -306,8 +306,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 # timestamp = 1590096252913
 1	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
-2	se	se	PRON	_	Person=3|PronType=Prs	3	comp@fixed	_	_
-3	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Person=3|PronType=Prs	3	comp	_	InIdiom=Yes
+3	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 4	bien	bien	ADV	_	_	3	mod	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -331,8 +331,8 @@
 4	livre	livre	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	et	et	CCONJ	_	_	8	cc	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
-7	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp@fixed	_	_
-8	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:coord	_	_
+7	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp	_	InIdiom=Yes
+8	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:coord	_	ExtPos=VERB|Idiom=Yes
 9	même	même	ADV	_	_	8	mod	_	_
 10-11	du	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	8	comp:obl	_	_
@@ -448,7 +448,7 @@
 34	à	à	ADP	_	_	33	mod	_	_
 35	hélices	hélice	NOUN	_	Gender=Fem|Number=Plur	34	comp:obj	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	37	punct	_	_
-37	des	un	ADP	_	_	38	det	_	_
+37	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	38	det	_	_
 38	ATR	ATR	PROPN	_	_	33	comp:obj	_	_
 39	quarante-deux	quarante-deux	NUM	_	Number=Plur	38	mod	_	_
 40	exactement	exactement	ADV	_	_	38	mod	_	SpaceAfter=No
@@ -654,8 +654,8 @@
 26	à	à	ADP	_	_	25	comp:obl	_	_
 27	Agen	Agen	PROPN	_	_	26	comp:obj	_	_
 28	plutôt	plutôt	ADV	_	_	25	mod	_	_
-29	que	que	SCONJ	_	_	28	unk@fixed	_	_
-30	de	de	ADP	_	_	28	comp:obl	_	_
+29	que	que	SCONJ	_	_	28	comp:obj	_	_
+30	de	de	ADP	_	_	29	comp:obj	_	_
 31	finir	finir	VERB	_	VerbForm=Inf	30	comp:obj	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	route	route	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	_
@@ -695,7 +695,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	SpaceAfter=No
 6	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det@fixed	_	InIdiom=Yes
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	InIdiom=Yes
 8	peu	peu	NOUN	_	_	9	mod	_	ExtPos=ADV|Idiom=Yes
 9	agacée	agacer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	_
 10	puisque	puisque	SCONJ	_	_	6	mod	_	_
@@ -712,12 +712,12 @@
 # text = et que aussi je me suis dit, bah, mince, euh, je vais être toute seule à l'aéroport, euh.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 # timestamp = 1590096252914
-1	et	et	CCONJ	_	_	6	cc	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	_
+1	et	et	CCONJ	_	_	2	cc	_	_
+2	que	que	SCONJ	_	_	0	root	_	_
 3	aussi	aussi	ADV	_	_	6	mod	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 5	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp:obl	_	_
-6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 7	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	bah	bah	INTJ	_	_	11	discourse	_	SpaceAfter=No
@@ -780,8 +780,8 @@
 2	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	être	être	AUX	_	VerbForm=Inf	2	comp:obj@x	_	_
 4	horrible	horrible	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
-5	parce	parce	SCONJ	_	_	3	mod	_	_
-6	que	que	SCONJ	_	_	5	unk@fixed	_	_
+5	parce	parce	ADV	_	_	3	mod	_	ExtPos=SCONJ|Idiom=Yes
+6	que	que	SCONJ	_	_	5	unk	_	InIdiom=Yes
 7	en	en	ADP	_	_	28	mod	_	_
 8	plus	plus	ADV	_	_	7	comp:obj	_	_
 9	là-bas	là-bas	ADV	_	_	28	mod	_	SpaceAfter=No
@@ -877,8 +877,8 @@
 19	quatorze	quatorze	NUM	_	Number=Plur	20	det	_	_
 20	ans	an	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	_
 21	qui	qui	PRON	_	PronType=Rel	23	subj	_	_
-22	se	se	PRON	_	Person=3|PronType=Prs	23	comp@fixed	_	_
-23	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	mod@relcl	_	_
+22	se	se	PRON	_	Person=3|PronType=Prs	23	comp	_	InIdiom=Yes
+23	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	mod@relcl	_	ExtPos=VERB|Idiom=Yes
 24	tout	tout	ADV	_	_	26	mod	_	_
 25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	sang	sang	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
@@ -921,7 +921,7 @@
 8	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	pas	pas	ADV	_	_	8	mod	_	_
 10	peur	peur	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
-11	qu'	que	SCONJ	_	_	10	det	_	SpaceAfter=No
+11	qu'	que	SCONJ	_	_	10	comp:obl	_	SpaceAfter=No
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	alarme	alarme	NOUN	_	Gender=Fem|Number=Sing	14	subj	_	_
 14	sonne	sonner	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
@@ -929,8 +929,8 @@
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	cockpit	cockpit	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	parce	parce	SCONJ	_	_	8	mod	_	_
-20	que	que	SCONJ	_	_	19	unk@fixed	_	_
+19	parce	parce	ADV	_	_	8	mod	_	ExtPos=SCONJ|Idiom=Yes
+20	que	que	SCONJ	_	_	19	unk	_	InIdiom=Yes
 21	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	22	subj	_	SpaceAfter=No
 22	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
 23	totalement	totalement	ADV	_	_	22	mod	_	_
@@ -1036,7 +1036,7 @@
 32	Sud-Ouest	Sud-Ouest	PROPN	_	_	30	comp:obj	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	35	punct	_	_
 34	mais	mais	CCONJ	_	_	35	cc	_	_
-35	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	47	conj:coord	_	_
+35	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	28	conj:coord	_	_
 36-37	du	_	_	_	_	_	_	_	_
 36	de	de	ADP	_	_	35	mod	_	ExtPos=ADV|Idiom=Yes
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	InIdiom=Yes
@@ -1225,8 +1225,8 @@
 15	plus	plus	ADV	_	_	16	mod	_	_
 16	tard	tard	ADV	_	_	14	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	parce	parce	SCONJ	_	_	16	mod	_	_
-19	que	que	SCONJ	_	_	18	unk@fixed	_	_
+18	parce	parce	ADV	_	_	16	mod	_	ExtPos=SCONJ|Idiom=Yes
+19	que	que	SCONJ	_	_	18	unk	_	InIdiom=Yes
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	temps	temps	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 22	de	de	ADP	_	_	21	mod	_	_
@@ -1258,7 +1258,7 @@
 8	tout	tout	ADV	_	_	10	mod	_	_
 9	s'	se	PRON	_	Person=3|PronType=Prs	10	comp	_	SpaceAfter=No
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det@fixed	_	InIdiom=Yes
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	InIdiom=Yes
 12	peu	peu	NOUN	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
 13	enragé	enrager	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
@@ -1307,9 +1307,9 @@
 # text = et, puis aussi, autre chose la réaction de ma mère en sachant ça, en sachant que à l'heure que j'arrivais à Paris, je n'arrivais pas à Paris.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 # timestamp = 1590096252914
-1	et	et	CCONJ	_	_	7	cc	_	SpaceAfter=No
+1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|Idiom=Yes|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	puis	puis	ADV	_	_	1	unk@fixed	_	_
+3	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 4	aussi	aussi	ADV	_	_	7	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	autre	autre	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
@@ -1347,14 +1347,14 @@
 # text = et que justement, euh, j'étais repartie sur l'avion.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 # timestamp = 1590096252914
-1	et	et	CCONJ	_	_	8	cc	_	_
-2	que	que	SCONJ	_	_	1	unk@fixed	_	_
+1	et	et	CCONJ	_	_	1	cc	_	_
+2	que	que	SCONJ	_	_	0	root	_	_
 3	justement	justement	ADV	_	_	8	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	SpaceAfter=No
-8	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	comp:obj	_	_
 9	repartie	repartir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux	_	_
 10	sur	sur	ADP	_	_	9	comp:obl	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
@@ -1423,8 +1423,8 @@
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	gens	gens	NOUN	_	Gender=Masc|Number=Plur	13	subj	_	_
 13	rigolent	rigoler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj:dicto	_	_
-14	parce	parce	SCONJ	_	_	13	mod	_	_
-15	que	que	SCONJ	_	_	14	unk@fixed	_	_
+14	parce	parce	ADV	_	_	13	mod	_	ExtPos=SCONJ|Idiom=Yes
+15	que	que	SCONJ	_	_	14	unk	_	InIdiom=Yes
 16	oui	oui	ADV	_	_	19	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	subj	_	SpaceAfter=No
@@ -1512,16 +1512,16 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	case	case	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 10	départ	départ	NOUN	_	Gender=Masc|Number=Sing	9	mod	_	_
-11	sauf	sauf	ADP	_	_	1	cc	_	_
-12	que	que	SCONJ	_	_	11	unk@fixed	_	_
+11	sauf	sauf	ADP	_	_	1	cc	_	ExtPos=SCONJ|Idiom=Yes
+12	que	que	SCONJ	_	_	11	unk	_	InIdiom=Yes
 13	oui	oui	INTJ	_	_	19	discourse	_	_
-14	si	si	SCONJ	_	_	19	conj:dicto	_	_
+14	si	si	INTJ	_	_	13	conj:dicto	_	_
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	19	discourse	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	coup	coup	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 18	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	subj	_	_
-19	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
+19	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
 20	à	à	ADP	_	_	19	comp:obl	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	case	case	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
@@ -1586,7 +1586,7 @@
 # timestamp = 1590096252914
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	InIdiom=Yes
-3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det@fixed	_	InIdiom=Yes
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	InIdiom=Yes
 4	peu	peu	NOUN	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes
 5	peur	peur	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj@lvc	_	_
 6	de	de	ADP	_	_	5	mod	_	_
@@ -1655,8 +1655,8 @@
 15	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
 16	sangliers	sanglier	NOUN	_	Gender=Masc|Number=Plur	13	conj:coord	_	_
 17	plutôt	plutôt	ADV	_	_	16	mod	_	_
-18	parce	parce	SCONJ	_	_	10	mod	_	_
-19	que	que	SCONJ	_	_	18	unk@fixed	_	_
+18	parce	parce	ADV	_	_	10	mod	_	ExtPos=SCONJ|Idiom=Yes
+19	que	que	SCONJ	_	_	18	unk	_	InIdiom=Yes
 20	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	subj	_	SpaceAfter=No
 21	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	comp:obj	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -1690,7 +1690,7 @@
 21	dans	dans	ADP	_	_	15	mod	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	village	village	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
-24	pommé	pommer	ADJ	_	Gender=Masc|Number=Sing	23	mod	_	_
+24	pommé	pommé	ADJ	_	Gender=Masc|Number=Sing	23	mod	_	_
 25	de	de	ADP	_	_	24	comp:obl	_	_
 26	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	27	det	_	_
 27	grands-parents	grand-parent	NOUN	_	Gender=Masc|Number=Plur	25	comp:obj	_	_
