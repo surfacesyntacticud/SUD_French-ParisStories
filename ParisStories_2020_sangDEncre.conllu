@@ -31,7 +31,7 @@
 # text = mon avion a fait demi-tour pour cause de problème technique, euh.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 # timestamp = 1590096252913
-1	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	2	det	_	_
+1	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	2	det	_	_
 2	avion	avion	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
@@ -379,7 +379,7 @@
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	lis	lire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	tranquillement	tranquillement	ADV	_	_	2	mod	_	_
-4	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	5	det	_	_
+4	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	5	det	_	_
 5	livre	livre	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -416,7 +416,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	SpaceAfter=No
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	conj:dicto	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
@@ -640,9 +640,9 @@
 12	pas	pas	ADV	_	_	11	mod	_	_
 13	à	à	ADP	_	_	11	comp:obl	_	_
 14	trouver	trouver	VERB	_	VerbForm=Inf	13	comp:obj	_	_
-15	d'	de	ADP	_	_	14	mod	_	SpaceAfter=No
-16	où	où	ADV	_	PronType=Rel	17	comp:obj	_	_
-17	venait	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	comp:obj	_	_
+15	d'	de	ADP	_	_	17	comp:obl	_	SpaceAfter=No
+16	où	où	ADV	_	PronType=Rel	15	comp:obj	_	_
+17	venait	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	comp:obj	_	_
 18	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
 19	problème	problème	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
@@ -832,7 +832,7 @@
 3	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obl	_	_
 4	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
-6	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	7	det	_	_
+6	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	7	det	_	_
 7	dieu	dieu	NOUN	_	Gender=Masc|Number=Sing	9	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	pour	pour	ADP	_	_	5	mod	_	Reported=Yes
@@ -1066,9 +1066,9 @@
 9	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	10	comp:obj	_	_
 10	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:coord	_	_
 11	six	six	NUM	_	Number=Plur	12	det	_	_
-12	fois	fois	NOUN	_	Gender=Fem|Number=Sing	10	mod	_	_
+12	fois	fois	NOUN	_	Gender=Fem|Number=Plur	10	mod	_	_
 13	sept	sept	NUM	_	Number=Plur	14	det	_	_
-14	fois	fois	NOUN	_	Gender=Fem|Number=Sing	12	conj:coord	_	SpaceAfter=No
+14	fois	fois	NOUN	_	Gender=Fem|Number=Plur	12	conj:coord	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	impossible	impossible	ADJ	_	Gender=Masc|Number=Sing	10	conj:appos	_	_
 17	de	de	ADP	_	_	16	mod	_	_
@@ -1317,7 +1317,7 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	7	conj:appos	_	_
 10	de	de	ADP	_	_	9	mod	_	_
-11	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	12	det	_	_
+11	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	12	det	_	_
 12	mère	mère	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13	en	en	ADP	_	_	9	mod	_	_
 14	sachant	savoir	VERB	_	Tense=Pres|VerbForm=Part	13	comp:obj	_	_
@@ -1347,7 +1347,7 @@
 # text = et que justement, euh, j'étais repartie sur l'avion.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 # timestamp = 1590096252914
-1	et	et	CCONJ	_	_	1	cc	_	_
+1	et	et	CCONJ	_	_	2	cc	_	_
 2	que	que	SCONJ	_	_	0	root	_	_
 3	justement	justement	ADV	_	_	8	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
@@ -1382,9 +1382,9 @@
 2	qu'	que	SCONJ	_	_	0	root	_	SpaceAfter=No
 3	en	en	ADP	_	_	8	discourse	_	ExtPos=ADV|Idiom=Yes
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	InIdiom=Yes
-5	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=3|PronType=Prs	6	det	_	_
+5	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	6	det	_	_
 6	fille	fille	NOUN	_	Gender=Fem|Number=Sing	8	subj	_	_
-7	n'	ne	ADV	_	Polarity=Neg	2	comp:obj	_	SpaceAfter=No
+7	n'	ne	ADV	_	Polarity=Neg	8	mod	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 9	rentrée	rentrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux	_	_
 10	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
