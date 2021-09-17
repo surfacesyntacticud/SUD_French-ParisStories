@@ -226,8 +226,8 @@
 3	premier	premier	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
 4	jour	jour	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
-6	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	_
-7	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp	_	InIdiom=Yes
+7	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
 10	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux	_	_
@@ -307,7 +307,7 @@
 32	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	conj:coord	_	_
 33	ramené	ramener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	comp:aux	_	_
 34	du	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	café	café	NOUN	_	Gender=Masc|Number=Sing	34	comp:obj	_	_
+35	café	café	NOUN	_	Gender=Masc|Number=Sing	33	comp:obj	_	_
 36	!	!	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_campBedouin_14
@@ -378,9 +378,9 @@
 15	enfin	enfin	ADV	_	_	18	discourse	_	_
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	subj	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs	20	comp	_	InIdiom=Yes|SpaceAfter=No
-18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:coord	_	ExtPos=VERB|Idiom=Yes
+18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:coord	_	_
 19	bien	bien	ADV	_	_	20	mod	_	_
-20	tapé	taper	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux	_	_
+20	tapé	taper	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux	_	ExtPos=VERB|Idiom=Yes
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
 22	barres	barre	NOUN	_	Gender=Fem|Number=Plur	20	comp:obj	_	_
 23	parce	parce	ADV	_	_	20	mod	_	ExtPos=SCONJ|Idiom=Yes

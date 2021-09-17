@@ -139,7 +139,7 @@
 18	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2020_aideAuxEnfants_6
-# text = du coup, euh, pendant cette, cette construction, entre guillemets, on, euh, on a retapé les murs. c'est-à-dire qu'on a bouché les trous.
+# text = du coup, euh, pendant cette, cette construction, entre guillemets, on, euh, on a retapé les murs.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1605726453654
 1-2	du	_	_	_	_	_	_	_	_
@@ -168,16 +168,21 @@
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	murs	mur	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	21	punct	_	_
-26	c'est-à-dire	c'est-à-dire	CCONJ	_	_	29	cc	_	ExtPos=CCONJ|Idiom=Yes
-27	qu'	que	SCONJ	_	_	26	unk	_	InIdiom=Yes|SpaceAfter=No
-28	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	29	subj	_	_
-29	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	comp:obj	_	_
-30	bouché	boucher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	comp:aux	_	_
-31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
-32	trous	trou	NOUN	_	Gender=Masc|Number=Plur	30	comp:obj	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	29	punct	_	_
 
 # sent_id = ParisStories_2020_aideAuxEnfants_7
+# text = c'est-à-dire qu'on a bouché les trous.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
+# timestamp = 1605726453654
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|Idiom=Yes
+2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	bouché	boucher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	trous	trou	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = ParisStories_2020_aideAuxEnfants_8
 # text = on a, euh, repeint les murs.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1590096279468
@@ -191,7 +196,7 @@
 8	murs	mur	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_8
+# sent_id = ParisStories_2020_aideAuxEnfants_9
 # text = on a essayé de rendre les classes un petit peu plus jolies que ce qu'elles n'étaient.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1590096279468
@@ -215,7 +220,7 @@
 18	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	mod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_9
+# sent_id = ParisStories_2020_aideAuxEnfants_10
 # text = et euh, et en plus de cela, nous avons, dans cette première partie du voyage, nous avons, euh, fait plusieurs activités, comme par exemple, créer du savon.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1590096279468
@@ -225,7 +230,7 @@
 4	et	et	CCONJ	_	_	1	conj:dicto	_	_
 5	en	en	ADP	_	_	11	mod	_	_
 6	plus	plus	ADV	_	_	5	comp:obj	_	_
-7	de	de	ADP	_	_	5	comp:obj	_	_
+7	de	de	ADP	_	_	6	comp:obl	_	_
 8	cela	cela	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	_
 10	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	11	subj	_	_
@@ -260,7 +265,7 @@
 37	savon	savon	NOUN	_	Gender=Masc|Number=Sing	36	comp:obj	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	11	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_10
+# sent_id = ParisStories_2020_aideAuxEnfants_11
 # text = parce que la plupart du temps ils créent eux-mêmes leur savon, et euh, et le dentifrice, à base d'argile.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1605640021301
@@ -291,7 +296,7 @@
 24	argile	argile	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_11
+# sent_id = ParisStories_2020_aideAuxEnfants_12
 # text = euh, et euh, et voilà, c'était très instructif.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1590096279468
@@ -309,7 +314,7 @@
 12	instructif	instructif	ADJ	_	Gender=Masc|Number=Sing	10	comp:pred	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_12
+# sent_id = ParisStories_2020_aideAuxEnfants_13
 # text = j'ai bien aimé faire ça.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1590096279468
@@ -321,7 +326,7 @@
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	comp:obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_13
+# sent_id = ParisStories_2020_aideAuxEnfants_14
 # text = après en ce qui concerne, euh, la nourriture, euh, en fait, on, c'est très restreint.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1605726795422
@@ -349,7 +354,7 @@
 22	restreint	restreindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:pred	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	20	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_14
+# sent_id = ParisStories_2020_aideAuxEnfants_15
 # text = on a mangé principalement du zébu.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1605726795422
@@ -363,7 +368,7 @@
 7	zébu	zébu	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_15
+# sent_id = ParisStories_2020_aideAuxEnfants_16
 # text = c'est le bœuf malgache.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1590096279468
@@ -374,7 +379,7 @@
 5	malgache	malgache	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_16
+# sent_id = ParisStories_2020_aideAuxEnfants_17
 # text = euh, on a mangé aussi, euh, beaucoup de riz, parce qu'il y a énormément de rizières à Madagascar.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1605639953638
@@ -403,7 +408,7 @@
 23	Madagascar	Madagascar	PROPN	_	_	22	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_17
+# sent_id = ParisStories_2020_aideAuxEnfants_18
 # text = et euh, et ils aiment beaucoup les bananes.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1590096279468
@@ -418,7 +423,7 @@
 9	bananes	banane	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_18
+# sent_id = ParisStories_2020_aideAuxEnfants_19
 # text = il y a beaucoup de bananes aussi, et de noix de coco.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1605639903624
@@ -437,7 +442,7 @@
 13	coco	coco	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_19
+# sent_id = ParisStories_2020_aideAuxEnfants_20
 # text = ah, de noix de coco.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1590096279468
@@ -449,7 +454,7 @@
 6	coco	coco	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_20
+# sent_id = ParisStories_2020_aideAuxEnfants_21
 # text = mais du coup, pour la nourriture, est-ce que, est-ce que, il faut que tu surveilles ce que tu manges, parce que tu peux rattraper des maladies, non ?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1605639846759
@@ -492,7 +497,7 @@
 36	non	non	ADV	_	_	19	discourse	_	_
 37	?	?	PUNCT	_	_	19	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_21
+# sent_id = ParisStories_2020_aideAuxEnfants_22
 # text = oui, on peut, euh, on peut attraper des maladies, mais en général, euh, il ne faut pas boire de l'eau du robinet.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1605639499123
@@ -507,7 +512,7 @@
 9	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	_
 10	attraper	attraper	VERB	_	VerbForm=Inf	9	comp:obj@x	_	_
 11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
-12	maladies	maladie	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	SpaceAfter=No
+12	maladies	maladie	NOUN	_	Gender=Fem|Number=Plur	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	4	punct	_	_
 14	mais	mais	CCONJ	_	_	22	cc	_	_
 15	en	en	ADP	_	_	22	mod	_	_
@@ -529,7 +534,7 @@
 30	robinet	robinet	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_22
+# sent_id = ParisStories_2020_aideAuxEnfants_23
 # text = ça c'est, c'est, euh, c'est la chose à ne pas faire.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1590096279468
@@ -552,7 +557,7 @@
 17	faire	faire	VERB	_	VerbForm=Inf	14	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_23
+# sent_id = ParisStories_2020_aideAuxEnfants_24
 # text = mais euh, euh, qu'est-ce que je voulais dire ?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1605639650356
@@ -570,7 +575,7 @@
 12	dire	dire	VERB	_	VerbForm=Inf	11	comp:obj@x	_	_
 13	?	?	PUNCT	_	_	7	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_24
+# sent_id = ParisStories_2020_aideAuxEnfants_25
 # text = euh, oui, mais la pour la viande, il faut qu'elle soit bien cuite aussi, parce que, sinon, ça peut être dangereux.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1605638921058
@@ -604,7 +609,7 @@
 28	dangereux	dangereux	ADJ	_	Gender=Masc|Number=Sing	27	comp:pred	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	12	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_25
+# sent_id = ParisStories_2020_aideAuxEnfants_26
 # text = il peut y avoir des choses à l'intérieur.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1605727330790
@@ -619,7 +624,7 @@
 9	intérieur	intérieur	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = ParisStories_2020_aideAuxEnfants_26
+# sent_id = ParisStories_2020_aideAuxEnfants_27
 # text = mais si elle est bien cuite, ça va, ça passe.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 # timestamp = 1605727330790
