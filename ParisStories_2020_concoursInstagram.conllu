@@ -1,5 +1,5 @@
 # sent_id = ParisStories_2020_concoursInstagram_1
-# text = ﻿je t'ai envoyé le lien de, d'Insta, où je t'ai dit, euh, il y a un concours d'Amir sur la chanson Les rues de ma peine.
+# text = je t'ai envoyé le lien de, d'Insta, où je t'ai dit, euh, il y a un concours d'Amir sur la chanson Les rues de ma peine.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 # timestamp = 1606929949282
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
@@ -30,7 +30,7 @@
 26	Amir	Amir	PROPN	_	_	25	comp:obj	_	_
 27	sur	sur	ADP	_	_	24	mod	_	_
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	chanson	chanson	NOUN	_	Gender=fEM|Number=Sing	27	comp:obj	_	_
+29	chanson	chanson	NOUN	_	Gender=Fem|Number=Sing	27	comp:obj	_	_
 30	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	InTitle=Yes
 31	rues	rue	NOUN	_	Gender=Fem|Number=Plur	29	mod	_	Title=Yes
 32	de	de	ADP	_	_	31	mod	_	InTitle=Yes
@@ -152,7 +152,7 @@
 4	karaoké	karaoké	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	SpaceAfter=No
-7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	parataxis:conj	_	_
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj:coord	_	_
 8	pas	pas	ADV	_	_	7	mod	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	truc	truc	NOUN	_	Gender=Masc|Number=Sing	7	comp:pred	_	SpaceAfter=No
@@ -187,9 +187,9 @@
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
 10	disait	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-11-12	aux	_	_	_	_	_	_	_	_
+11-12	aux	_	_	_	_	_	_	_	SpaceAfter=No
 11	à	à	ADP	_	_	10	comp:obl	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	unk	_	SpaceAfter=No
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	unk	_	_
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	à	à	ADP	_	_	11	conj:dicto	_	_
 15	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	16	det	_	_
@@ -433,7 +433,7 @@
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	gagnant	gagnant	NOUN	_	Gender=Masc|Number=Sing	2	parataxis:conj	_	_
+8	gagnant	gagnant	NOUN	_	Gender=Masc|Number=Sing	2	conj:coord	_	_
 9	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_22

@@ -201,8 +201,8 @@
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	5	comp	_	InIdiom=Yes|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	fait	faire	AUX	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Part	4	comp:aux	_	ExtPos=VERB|Idiom=Yes
-6	tuer	tuer	VERB	_	VerbForm=Inf	5	comp:aux	_	_
+5	fait	faire	AUX	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Part	4	comp:aux@tense	_	ExtPos=VERB|Idiom=Yes
+6	tuer	tuer	VERB	_	VerbForm=Inf	5	comp:aux@caus	_	_
 7	par	par	ADP	_	_	6	comp:obl	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	requin	requin	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
@@ -488,8 +488,8 @@
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	10	subj	_	_
 10	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
-11	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	_
-12	tentée	tenter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@passif	_	_
+11	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
+12	tentée	tenter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@pass	_	_
 13	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	par	par	ADP	_	_	12	comp:obl	_	_
