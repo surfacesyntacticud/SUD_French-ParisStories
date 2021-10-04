@@ -860,48 +860,52 @@
 7	,	,	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_37
-# text = le truc y'avait d'un côté y'avait une euh, une voie rapide, de l'autre côté y'avait une autre voie rapide, à côté d'un rond-point, et y'avait la station service.
+# text = le truc y'avait d'un côté il y avait une euh, une voie rapide, de l'autre côté il y avait une autre voie rapide, à côté d'un rond-point, et il y avait la station service.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	truc	truc	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
-3	y'	il y	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	mod	_	SpaceAfter=No
-4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-5	d'	de	ADP	_	_	4	mod	_	SpaceAfter=No
-6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	côté	côté	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
-8	y'	il y	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	subj	_	SpaceAfter=No
-9	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj:dicto	_	_
-10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-11	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	11	punct	_	_
-13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	conj:dicto	_	_
-14	voie	voie	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
-15	rapide	rapide	ADJ	_	Gender=Fem|Number=Sing	14	mod	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	22	punct	_	_
-17	de	de	ADP	_	_	22	mod	_	_
-18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
-19	autre	autre	ADJ	_	Number=Sing	20	mod	_	_
-20	côté	côté	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
-21	y'	il y	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	mod	_	SpaceAfter=No
-22	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj:coord	_	_
-23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-24	autre	autre	ADJ	_	Gender=Fem|Number=Sing	25	mod	_	_
-25	voie	voie	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
-26	rapide	rapide	ADJ	_	Gender=Fem|Number=Sing	25	mod	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	28	punct	_	_
-28	à	à	ADP	_	_	22	mod	_	_
-29	côté	côté	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
-30	d'	de	ADP	_	_	29	udep	_	SpaceAfter=No
-31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	rond-point	rond-point	NOUN	_	Gender=Masc|Number=Sing	30	comp:obj	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	36	punct	_	_
-34	et	et	CCONJ	_	_	36	cc	_	_
-35	y'	il y	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	36	mod	_	SpaceAfter=No
-36	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	conj:coord	_	_
-37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-38	station	station	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	_
-39	service	service	NOUN	_	Gender=Masc|Number=Sing	38	mod	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	4	punct	_	_
+2	truc	truc	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	InIdiom=Yes
+4	y	y	PRON	_	Person=3|PronType=Prs	5	comp	_	InIdiom=Yes
+5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
+6	d'	de	ADP	_	_	5	mod	_	SpaceAfter=No
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	côté	côté	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
+9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj@expl	_	InIdiom=Yes
+10	y	y	PRON	_	Person=3|PronType=Prs	11	comp	_	InIdiom=Yes
+11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj:dicto	_	ExtPos=VERB|Idiom=Yes
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+13	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	conj:dicto	_	_
+16	voie	voie	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
+17	rapide	rapide	ADJ	_	Gender=Fem|Number=Sing	16	mod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	24	punct	_	_
+19	de	de	ADP	_	_	25	mod	_	_
+20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+21	autre	autre	ADJ	_	Number=Sing	22	mod	_	_
+22	côté	côté	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
+23	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	subj@expl	_	InIdiom=Yes
+24	y	y	PRON	_	Person=3|PronType=Prs	25	comp	_	InIdiom=Yes
+25	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj:coord	_	ExtPos=VERB|Idiom=Yes
+26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	autre	autre	ADJ	_	Gender=Fem|Number=Sing	28	mod	_	_
+28	voie	voie	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
+29	rapide	rapide	ADJ	_	Gender=Fem|Number=Sing	28	mod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	à	à	ADP	_	_	22	mod	_	_
+32	côté	côté	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	_
+33	d'	de	ADP	_	_	32	udep	_	SpaceAfter=No
+34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	rond-point	rond-point	NOUN	_	Gender=Masc|Number=Sing	33	comp:obj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	40	punct	_	_
+37	et	et	CCONJ	_	_	40	cc	_	_
+38	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	subj@expl	_	InIdiom=Yes
+39	y	y	PRON	_	Person=3|PronType=Prs	40	comp	_	InIdiom=Yes
+40	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	conj:coord	_	ExtPos=VERB|Idiom=Yes
+41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	station	station	NOUN	_	Gender=Fem|Number=Sing	40	comp:obj	_	_
+43	service	service	NOUN	_	Gender=Masc|Number=Sing	42	compound	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_38
 # text = la station essence, qui était juste en face.
