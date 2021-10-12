@@ -64,7 +64,7 @@
 30	,	,	PUNCT	_	_	29	punct	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	train	train	NOUN	_	Gender=Masc|Number=Sing	33	subj@pass	_	_
-33	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	parataxis:obj	_	_
+33	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	Reported=Yes
 34	maintenu	maintenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	comp:aux@pass	_	_
 35	à	à	ADP	_	_	34	comp:obl	_	_
 36	quai	quai	NOUN	_	Gender=Masc|Number=Sing	35	comp:obj	_	SpaceAfter=No
@@ -134,7 +134,7 @@
 4	et	et	CCONJ	_	_	6	cc	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
-7	oui	oui	INTJ	_	_	6	parataxis:obj	_	SpaceAfter=No
+7	oui	oui	INTJ	_	_	6	comp:obj	_	Reported=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
@@ -183,7 +183,7 @@
 3	oui	oui	INTJ	_	_	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
-6	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis:obj	_	Reported=Yes
+6	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	Reported=Yes
 7	pourquoi	pourquoi	ADV	_	_	13	mod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	signal	signal	NOUN	_	Gender=Masc|Number=Sing	13	dislocated	_	_
@@ -314,7 +314,7 @@
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
 9	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	tiens	tenir	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	discourse	_	Reported=Yes
+10	tiens	tenir	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	comp:obj	_	Reported=Yes
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	conj:coord	_	_
 13	mais	mais	CCONJ	_	_	15	cc	_	_
@@ -443,7 +443,7 @@
 12	signal	signal	NOUN	_	Gender=Masc|Number=Sing	15	subj	_	_
 13	d'	de	ADP	_	_	12	mod	_	SpaceAfter=No
 14	alarme	alarme	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
-15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis:obj	_	_
+15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	Reported=Yes
 16	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@tense	_	_
 17	tiré	tirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@pass	_	_
 18	à	à	ADP	_	_	17	mod	_	_
@@ -463,7 +463,7 @@
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	ah	ah	INTJ	_	_	3	parataxis:obj	_	Reported=Yes|SpaceAfter=No
+5	ah	ah	INTJ	_	_	3	comp:obj	_	Reported=Yes|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_20
@@ -522,7 +522,7 @@
 14	oui	oui	INTJ	_	_	17	discourse	_	_
 15	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
-17	faites	faire	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	parataxis:obj	_	_
+17	faites	faire	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	comp:obj	_	Reported=Yes
 18	attention	attention	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
 20	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
