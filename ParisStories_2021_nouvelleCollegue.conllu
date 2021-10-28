@@ -1,6 +1,6 @@
 # sent_id = ParisStories_2021_nouvelleCollegue_1
-# text = alors , XXX , raconte - moi , euh , le jour où t' as rencontré Wendy pour la première fois ? 
-1	[	[	PUNCT	_	_	6	punct	_	_
+# text = [ alors , XXX , raconte - moi , euh , le jour où t' as rencontré Wendy pour la première fois ? 
+1	[	[	PUNCT	_	_	6	unk@scrap	_	Typo=Yes
 2	alors	alors	ADV	_	_	6	discourse	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	XXX	XXX	PROPN	_	_	6	vocative	_	_
@@ -25,8 +25,8 @@
 23	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2021_nouvelleCollegue_2
-# text = alors , euh , bah , le jour , où j' ai rencontré Wendy .
-1	]	]	PUNCT	_	_	2	punct	_	_
+# text = ] alors , euh , bah , le jour , où j' ai rencontré Wendy .
+1	]	]	PUNCT	_	_	2	unk@scrap	_	Typo=Yes
 2	alors	alors	ADV	_	_	9	discourse	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	euh	euh	INTJ	_	_	9	discourse	_	_
@@ -212,7 +212,7 @@
 5	finalement	finalement	ADV	_	_	11	mod	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	en	en	ADP	_	_	11	mod	_	_
-8	fait	faire	NOUN	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	comp:obj	_	_
+8	fait	fait	NOUN	_ Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj	_	_
 10	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	comp:obj	_	_
 11	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -224,19 +224,19 @@
 17	entendues	entendre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	comp:aux	_	_
 18	.	.	PUNCT	_	_	11	punct	_	_
 
-# status = todo
+# status = done
 # sent_id = ParisStories_2021_nouvelleCollegue_10
 # text = parce qu' on a le même âge . 
 1	parce	parce	SCONJ	_	_	0	root	_	_
 2	qu'	qu'	SCONJ	_	_	1	unk:fixed	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
-4	a	a	VERB	_	_	1	comp:obj	_	_
+4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	même	même	ADJ	_	_	7	mod	_	_
-7	âge	âge	NOUN	_	_	4	comp:obj	_	_
+6	même	même	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
+7	âge	âge	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 8	.	.	PUNCT	_	_	1	punct	_	_
 
-# status = todo
+# status = done
 # sent_id = ParisStories_2021_nouvelleCollegue_11
 # text = et , euh , c' est quelqu' un qui est pas loin de ma ville . 
 1	et	et	CCONJ	_	_	6	cc	_	_
@@ -244,47 +244,47 @@
 3	euh	euh	INTJ	_	_	6	discourse	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
-6	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	quelqu'	quelqu'	DET	_	_	8	det	_	_
-8	un	un	PRON	_	_	6	comp:pred	_	_
-9	qui	qui	PRON	_	_	10	subj	_	_
-10	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
-11	pas	pas	ADV	_	_	10	mod	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	quelqu'	quelqu'	DET	_	Number=Sing|PronType=Ind	8	det	_	_
+8	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	comp:pred	_	_
+9	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
+11	pas	pas	ADV	_	_	12	mod	_	_
 12	loin	loin	ADV	_	_	10	comp:pred	_	_
 13	de	de	ADP	_	_	12	comp:obl	_	_
-14	ma	ma	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	15	det	_	_
-15	ville	ville	NOUN	_	_	13	comp:obj	_	_
+14	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	15	det	_	_
+15	ville	ville	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 16	.	.	PUNCT	_	_	6	punct	_	_
 
-# status = todo
+# status = done
 # sent_id = ParisStories_2021_nouvelleCollegue_12
-# text = mais je l' avais jamais rencontré avant . 
+# text = mais je l' avais jamais rencontrée avant . 
 1	mais	mais	CCONJ	_	_	4	cc	_	_
-2	je	je	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-3	l'	l'	PRON	_	_	6	comp:obj	_	_
-4	avais	avais	AUX	_	_	0	root	_	_
+2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+3	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	_
+4	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	jamais	jamais	ADV	_	_	4	mod	_	_
-6	rencontré	rencontré	VERB	_	_	4	comp:aux	_	_
+6	rencontrée	rencontrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
 7	avant	avant	ADV	_	_	4	mod	_	_
 8	.	.	PUNCT	_	_	4	punct	_	_
 
-# status = todo
+# status = done
 # sent_id = ParisStories_2021_nouvelleCollegue_13
 # text = et , c' est quelqu' un , elle est , elle est trop gentille . 
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
-4	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	quelqu'	quelqu'	DET	_	_	6	det	_	_
-6	un	un	PRON	_	_	4	comp:pred	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	quelqu'	quelqu'	DET	_	Number=Sing|PronType=Ind	6	det	_	_
+6	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	comp:pred	_	_
 7	,	,	PUNCT	_	_	9	punct	_	_
-8	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
-9	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	_
+8	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	dislocated	_	_
 10	,	,	PUNCT	_	_	12	punct	_	_
-11	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
-12	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj:dicto	_	_
+11	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj:dicto	_	_
 13	trop	trop	ADV	_	_	14	mod	_	_
-14	gentille	gentille	ADJ	_	_	12	comp:pred	_	_
+14	gentille	gentil	ADJ	_	Gender=Fem|Number=Sing	12	comp:pred	_	_
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # status = todo
@@ -300,53 +300,53 @@
 8	maintenant	maintenant	ADV	_	_	11	mod	_	_
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	_
-11	fait	fait	VERB	_	_	0	root	_	_
+11	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	deux	deux	NUM	_	_	13	det	_	_
-13	ans	ans	NOUN	_	_	11	comp:obj	_	_
-14	que	que	SCONJ	_	_	13	mod	_	_
-15	je	je	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	_
-16	la	la	PRON	_	_	17	comp:obj	_	_
-17	connais	connais	VERB	_	_	14	comp:obj	_	_
+13	ans	an	NOUN	_	Gender=Masc|Number=Plur	11	mod	_	_
+14	que	que	SCONJ	_	_	11	comp:obj	_	_
+15	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	_
+16	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	comp:obj	_	_
+17	connais	connais	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	comp:obj	_	_
 18	,	,	PUNCT	_	_	29	punct	_	_
 19	et	et	CCONJ	_	_	29	cc	_	_
-20	euh	euh	INTJ	_	_	29	discourse	_	_
+20	euh	euh	INTJ	_	_	21	discourse	_	_
 21	en	en	ADP	_	_	29	mod	_	_
 22	plus	plus	ADV	_	_	21	comp:obj	_	_
 23	d'	d'	ADP	_	_	21	comp:obl	_	_
-24	être	être	AUX	_	_	23	comp:obj	_	_
-25	ma	ma	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	26	det	_	_
-26	collègue	collègue	NOUN	_	_	24	comp:pred	_	_
+24	être	être	AUX	_	VerbForm=Inf	23	comp:obj	_	_
+25	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	26	det	_	_
+26	collègue	collègue	NOUN	_	Number=Sing	24	comp:pred	_	_
 27	,	,	PUNCT	_	_	21	punct	_	_
 28	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	29	subj	_	_
-29	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj:coord	_	_
-30	plus	plus	ADJ	_	_	29	mod	_	_
-31	mon	mon	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	32	det	_	_
-32	amie	amie	NOUN	_	_	29	comp:pred	_	_
+29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj:coord	_	_
+30	plus	plaire	ADJ	_	Gender=Masc	29	mod	_	_
+31	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	32	det	_	_
+32	amie	amie	NOUN	_	Gender=Fem|Number=Sing	29	comp:pred	_	_
 33	.	.	PUNCT	_	_	11	punct	_	_
 
-# status = todo
+# status = done
 # sent_id = ParisStories_2021_nouvelleCollegue_15
 # text = et , on a vraiment forgé , euh , une relation d' amitié , avec le temps . 
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
-4	a	a	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	vraiment	vraiment	ADV	_	_	4	mod	_	_
-6	forgé	forgé	VERB	_	_	4	comp:aux	_	_
+6	forgé	forger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	euh	euh	INTJ	_	_	11	discourse	_	_
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	une	une	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	relation	relation	NOUN	_	_	6	comp:obj	_	_
-12	d'	d'	ADP	_	_	11	mod	_	_
-13	amitié	amitié	NOUN	_	_	12	comp:obj	_	_
+11	relation	relation	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
+12	d'	d'	ADP	_	_	11	comp	_	_
+13	amitié	amitié	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	avec	avec	ADP	_	_	6	mod	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	temps	temps	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 18	.	.	PUNCT	_	_	4	punct	_	_
 
-# status = todo
+# status = done
 # sent_id = ParisStories_2021_nouvelleCollegue_16
 # text = et , euh , du coup , bah , c' est vraiment agréable d' avoir , euh , de travailler , avec quelqu' un , qui est pas seulement ma collègue , mais aussi mon amie . 
 1	et	et	CCONJ	_	_	11	cc	_	_
@@ -359,52 +359,52 @@
 8	bah	bah	INTJ	_	_	11	discourse	_	_
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	_
-11	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	vraiment	vraiment	ADV	_	_	13	mod	_	_
-13	agréable	agréable	ADJ	_	_	11	comp:pred	_	_
+13	agréable	agréable	ADJ	_	Gender=Masc|Number=Sing	11	comp:pred	_	_
 14	d'	d'	ADP	_	_	11	comp:obj@agent	_	_
-15	avoir	avoir	VERB	_	_	14	comp:obj	_	_
+15	avoir	avoir	VERB	_	VerbForm=Inf	14	comp:obj	_	_
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	euh	euh	INTJ	_	_	19	discourse	_	_
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	de	de	ADP	_	_	14	conj:dicto	_	_
-20	travailler	travailler	VERB	_	_	19	comp:obj	_	_
+20	travailler	travailler	VERB	_	VerbForm=Inf	19	comp:obj	_	_
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	avec	avec	ADP	_	_	20	comp:obl	_	_
-23	quelqu'	quelqu'	DET	_	_	24	det	_	_
-24	un	un	PRON	_	_	22	comp:obj	_	_
+23	quelqu'	quelqu'	DET	_	Number=Sing|PronType=Ind	24	det	_	_
+24	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	comp:obj	_	_
 25	,	,	PUNCT	_	_	27	punct	_	_
-26	qui	qui	PRON	_	_	27	subj	_	_
-27	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	mod@relcl	_	_
-28	pas	pas	ADV	_	_	27	mod	_	_
+26	qui	qui	PRON	_	PronType=Rel	27	subj	_	_
+27	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	mod@relcl	_	_
+28	pas	pas	ADV	_	_	29	mod	_	_
 29	seulement	seulement	ADV	_	_	27	mod	_	_
-30	ma	ma	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	31	det	_	_
-31	collègue	collègue	NOUN	_	_	27	comp:pred	_	_
+30	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	31	det	_	_
+31	collègue	collègue	NOUN	_	Number=Sing	27	comp:pred	_	_
 32	,	,	PUNCT	_	_	36	punct	_	_
 33	mais	mais	CCONJ	_	_	36	cc	_	_
 34	aussi	aussi	ADV	_	_	36	mod	_	_
-35	mon	mon	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	36	det	_	_
-36	amie	amie	NOUN	_	_	31	conj:coord	_	_
+35	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	36	det	_	_
+36	amie	amie	NOUN	_	Gender=Fem|Number=Sing	31	conj:coord	_	_
 37	.	.	PUNCT	_	_	11	punct	_	_
 
-# status = todo
+# status = done
 # sent_id = ParisStories_2021_nouvelleCollegue_17
 # text = après , c' est pas forcément représentatif , vu que c' est mon premier travail . 
 1	après	après	ADV	_	_	4	discourse	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
-4	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	pas	pas	ADV	_	_	4	mod	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	pas	pas	ADV	_	_	6	mod	_	_
 6	forcément	forcément	ADV	_	_	7	mod	_	_
-7	représentatif	représentatif	ADJ	_	_	4	comp:pred	_	_
+7	représentatif	représentatif	ADJ	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	vu	vu	ADP	_	_	4	mod	_	_
 10	que	que	SCONJ	_	_	9	comp:obj	_	_
 11	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	_
-12	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
-13	mon	mon	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	15	det	_	_
-14	premier	premier	ADJ	_	_	15	mod	_	_
-15	travail	travail	NOUN	_	_	12	comp:pred	_	_
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
+13	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	15	det	_	_
+14	premier	premier	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	_
+15	travail	travail	NOUN	_	Gender=Masc|Number=Sing	12	comp:pred	_	_
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_nouvelleCollegue_18
@@ -419,7 +419,7 @@
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	subj	_	_
 9	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	unk	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	monde	monder	NOUN	_	Gender=Masc|Number=Sing	9	dislocated	_	_
+11	monde	monde	NOUN	_	Gender=Masc|Number=Sing	9	dislocated	_	_
 12	du	du	ADP	_	_	11	mod	_	_
 13	travail	travail	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 14	.	.	PUNCT	_	_	3	punct	_	_
