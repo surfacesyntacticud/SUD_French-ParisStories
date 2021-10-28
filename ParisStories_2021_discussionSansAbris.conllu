@@ -3,7 +3,7 @@
 1	alors	alors	ADV	_	_	19	mod	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	en	en	PRON	_	Person=3|PronType=Prs	19	discourse	_	_
-4	fait	faire	NOUN	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	comp:obj	_	_
+4	fait	faire	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	en	en	ADP	_	_	19	obl	_	_
 7	deux	deux	NUM	_	Number=Plur	6	comp:obj	_	_
@@ -201,48 +201,48 @@
 10	campagne	campagne	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	.	.	PUNCT	_	_	2	punct	_	_
 
-# status = todo
+# status = done
 # sent_id = ParisStories_2021_discussionSansAbris_10
 # text = donc ça a fait pas mal de changements d' un coup , donc , passer du lycée à la fac . 
 1	donc	donc	ADV	_	_	3	mod	_	_
 2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
-3	a	a	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	fait	fait	VERB	_	_	3	comp:aux	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
 5	pas	pas	ADV	_	_	6	mod	_	_
 6	mal	mal	ADV	_	_	4	comp:obj	_	_
-7	de	de	ADP	_	_	6	comp:obl	_	_
-8	changements	changements	NOUN	_	_	7	comp:obj	_	_
-9	d'	d'	ADP	_	_	8	mod	_	_
+7	de	de	ADP	_	_	6	comp:obj	_	_
+8	changements	changement	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
+9	d'	d'	ADP	_	_	3	mod	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	coup	coup	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
-12	,	,	PUNCT	_	_	13	punct	_	_
+12	,	,	PUNCT	_	_	15	punct	_	_
 13	donc	donc	ADV	_	_	15	discourse	_	_
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	passer	passer	VERB	_	_	8	conj:appos	_	_
+15	passer	passer	VERB	_	VerbForm=Inf	8	conj:appos	_	_
 16	du	du	ADP	_	_	15	comp:obl	_	_
-17	lycée	lycée	NOUN	_	_	16	comp:obj	_	_
+17	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 18	à	à	ADP	_	_	15	comp:obl	_	_
-19	la	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	fac	fac	NOUN	_	_	18	comp:obj	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	fac	fac	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 21	.	.	PUNCT	_	_	3	punct	_	_
 
-# status = todo
+# status = done
 # sent_id = ParisStories_2021_discussionSansAbris_11
 # text = et passer de la campagne , euh , à la ville . 
 1	et	et	CCONJ	_	_	2	cc	_	_
-2	passer	passer	VERB	_	_	0	root	_	_
+2	passer	passer	VERB	_	VerbForm=Inf	0	root	_	_
 3	de	de	ADP	_	_	2	comp:obl	_	_
-4	la	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	campagne	campagne	NOUN	_	_	3	comp:obj	_	_
-6	,	,	PUNCT	_	_	7	punct	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	campagne	campagne	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	,	,	PUNCT	_	_	9	punct	_	_
 7	euh	euh	INTJ	_	_	9	discourse	_	_
-8	,	,	PUNCT	_	_	9	punct	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
 9	à	à	ADP	_	_	2	comp:obl	_	_
-10	la	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	ville	ville	NOUN	_	_	9	comp:obj	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	ville	ville	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	.	.	PUNCT	_	_	2	punct	_	_
 
-# status = todo
+# status = done
 # sent_id = ParisStories_2021_discussionSansAbris_12
 # text = et du coup , en première année de licence , il y avait pas mal de , de travail , pas mal de cours , surtout que je venais d' un bac S . 
 1	et	et	CCONJ	_	_	13	cc	_	_
@@ -250,187 +250,194 @@
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	en	en	ADP	_	_	13	mod	_	_
-6	première	première	ADJ	_	_	7	mod	_	_
-7	année	année	NOUN	_	_	5	comp:obj	_	_
-8	de	de	ADP	_	_	7	mod	_	_
-9	licence	licence	NOUN	_	_	8	comp:obj	_	_
-10	,	,	PUNCT	_	_	7	punct	_	_
+6	première	premier	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
+7	année	année	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	de	de	ADP	_	_	7	comp	_	_
+9	licence	licence	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
+10	,	,	PUNCT	_	_	5	punct	_	_
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj@expl	_	_
-12	y	y	PRON	_	Person=3|PronType=Prs	13	comp:obl	_	_
-13	avait	avait	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	y	y	PRON	_	Person=3|PronType=Prs	13	comp:obj@expl	_	_
+13	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 14	pas	pas	ADV	_	_	15	mod	_	_
 15	mal	mal	ADV	_	_	13	comp:obj	_	_
 16	de	de	ADP	_	_	15	comp:obl	_	_
-17	,	,	PUNCT	_	_	19	punct	_	_
+17	,	,	PUNCT	_	_	18	punct	_	_
 18	de	de	ADP	_	_	16	conj:dicto	_	_
-19	travail	travail	NOUN	_	_	18	comp:obj	_	_
+19	travail	travail	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	pas	pas	ADV	_	_	22	mod	_	_
 22	mal	mal	ADV	_	_	15	conj:coord	_	_
 23	de	de	ADP	_	_	22	comp:obl	_	_
-24	cours	cours	NOUN	_	_	23	comp:obj	_	_
+24	cours	cours	NOUN	_	Gender=Masc|Number=Plur	23	comp:obj	_	_
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	surtout	surtout	ADV	_	_	13	mod	_	_
 27	que	que	SCONJ	_	_	26	unk	_	_
-28	je	je	PRON	_	Number=Sing|Person=1|PronType=Prs	29	subj	_	_
-29	venais	venais	VERB	_	_	27	comp:obj	_	_
-30	d'	d'	ADP	_	_	29	mod	_	_
+28	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	29	subj	_	_
+29	venais	venir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	27	comp:obj	_	_
+30	d'	d'	ADP	_	_	29	comp:obl	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	bac	bac	NOUN	_	_	30	comp:obj	_	_
-33	S	S	PROPN	_	_	32	unk@fixed	_	_
+32	bac	bac	NOUN	_	Gender=Masc|Number=Sing	30	comp:obj	_	_
+33	S	S	PROPN	_	_	32	mod@fixed	_	_
 34	.	.	PUNCT	_	_	13	punct	_	_
 
-# status = todo
+# status = done
 # sent_id = ParisStories_2021_discussionSansAbris_13
-# text = donc j' avais énormément de , [ ah , oui , d' accord ] de lacunes , dans pas mal de matières littéraires . 
+# macrosyntax = donc j' avais énormément de , [ ah , oui , d' accord ] de lacunes , dans pas mal de matières littéraires .
+# speaker = L1
+# text = donc j' avais énormément de , de lacunes , dans pas mal de matières littéraires . 
 1	donc	donc	ADV	_	_	3	mod	_	_
-2	j'	j'	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
-3	avais	avais	VERB	_	_	0	root	_	_
-4	énormément	énormément	ADV	_	_	3	mod	_	_
-5	de	de	ADP	_	_	3	comp:obl	_	_
-6	,	,	PUNCT	_	_	_	_	_	_
-7	[	[	PUNCT	_	_	_	_	_	_
-8	ah	ah	INTJ	_	_	_	_	_	_
-9	,	,	PUNCT	_	_	8	punct	_	_
-10	oui	oui	INTJ	_	_	_	_	_	_
-11	,	,	PUNCT	_	_	_	_	_	_
-12	d'	d'	ADP	_	_	_	_	_	_
-13	accord	accord	NOUN	_	_	12	comp:obj	_	_
-14	]	]	PUNCT	_	_	_	_	_	_
-15	de	de	ADP	_	_	5	conj:dicto	_	_
-16	lacunes	lacunes	NOUN	_	_	15	comp:obj	_	_
-17	,	,	PUNCT	_	_	18	punct	_	_
-18	dans	dans	ADP	_	_	3	mod	_	_
-19	pas	pas	ADV	_	_	20	mod	_	_
-20	mal	mal	ADV	_	_	18	comp:obj	_	_
-21	de	de	ADP	_	_	20	comp:obl	_	_
-22	matières	matières	NOUN	_	_	21	comp:obj	_	_
-23	littéraires	littéraires	ADJ	_	_	22	mod	_	_
+2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	énormément	énormément	ADV	_	_	3	comp:obj	_	_
+5	de	de	ADP	_	_	4	comp:obl	_	_
+6	,	,	PUNCT	_	_	15	punct	_	_
+7	de	de	ADP	_	_	5	conj:dicto	_	_
+8	lacunes	lacune	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	dans	dans	ADP	_	_	8	mod	_	_
+11	pas	pas	ADV	_	_	12	mod	_	_
+12	mal	mal	ADV	_	_	10	comp:obj	_	_
+13	de	de	ADP	_	_	12	comp:obl	_	_
+14	matières	matières	NOUN	_	Gender=Fem|Number=Plur	13	comp:obj	_	_
+15	littéraires	littéraires	ADJ	_	Number=Plur	14	mod	_	_
 24	.	.	PUNCT	_	_	3	punct	_	_
 
-# status = todo
+# status = done
+# sent_id = ParisStories_2021_discussionSansAbris_13bis
+# macrosyntax = donc j' avais énormément de , [ ah , oui , d' accord ] de lacunes , dans pas mal de matières littéraires .
+# speaker = L2
+# text = ah , oui , d' accord . 
+1	ah	ah	INTJ	_	_	3	discourse	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	oui	oui	INTJ	_	_	0	root	_	AttachTo=3@ParisStories_2021_discussionSansAbris_13|Rel=discourse
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	d'	d'	ADP	_	_	3	conj:dicto	_	_
+6	accord	accord	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# status = done
 # sent_id = ParisStories_2021_discussionSansAbris_14
 # text = donc , j' avais pas mal de difficultés . 
 1	donc	donc	ADV	_	_	4	mod	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	j'	j'	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-4	avais	avais	VERB	_	_	0	root	_	_
+3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+4	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	_	6	mod	_	_
 6	mal	mal	ADV	_	_	4	comp:obj	_	_
 7	de	de	ADP	_	_	6	comp:obl	_	_
-8	difficultés	difficultés	NOUN	_	_	7	comp:obj	_	_
+8	difficultés	difficultés	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
 9	.	.	PUNCT	_	_	4	punct	_	_
 
-# status = todo
+# status = done
 # sent_id = ParisStories_2021_discussionSansAbris_15
 # text = mais j' avais réussi , en fait , à organiser mon emploi du temps , pour pouvoir aller à la salle de sport tous les aprems . 
 1	mais	mais	CCONJ	_	_	3	cc	_	_
-2	j'	j'	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
-3	avais	avais	AUX	_	_	0	root	_	_
-4	réussi	réussi	VERB	_	_	3	comp:aux	_	_
+2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	réussi	réussir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	en	en	ADP	_	_	3	discourse	_	_
 7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 8	,	,	PUNCT	_	_	6	punct	_	_
-9	à	à	ADP	_	_	4	comp:obl	_	_
-10	organiser	organiser	VERB	_	_	9	comp:obj	_	_
-11	mon	mon	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	12	det	_	_
-12	emploi	emploi	NOUN	_	_	10	comp:obj	_	_
-13	du	du	ADP	_	_	12	mod	_	_
-14	temps	temps	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
+9	à	à	ADP	_	_	4	comp:obl@x	_	_
+10	organiser	organiser	VERB	_	VerbForm=Inf	9	comp:obj	_	_
+11	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	12	det	_	_
+12	emploi	emploi	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
+13	du	du	ADP	_	_	12	compound	_	_
+14	temps	temps	NOUN	_	Gender=Masc	13	compound	_	_
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	pour	pour	ADP	_	_	14	mod	_	_
-17	pouvoir	pouvoir	AUX	_	_	16	comp:obj	_	_
-18	aller	aller	VERB	_	_	17	comp:aux	_	_
+16	pour	pour	ADP	_	_	10	mod	_	_
+17	pouvoir	pouvoir	VERB	_	VerbForm=Inf	16	comp:obj	_	_
+18	aller	aller	VERB	_	VerbForm=Inf	17	comp:obj@x	_	_
 19	à	à	ADP	_	_	18	comp:obl	_	_
-20	la	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	salle	salle	NOUN	_	_	19	comp:obj	_	_
-22	de	de	ADP	_	_	21	mod	_	_
-23	sport	sport	NOUN	_	_	22	comp:obj	_	_
-24	tous	tous	ADJ	_	_	26	mod	_	_
-25	les	les	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
-26	aprems	aprems	NOUN	_	_	18	mod	_	_
+20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	salle	salle	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
+22	de	de	ADP	_	_	21	compound	_	_
+23	sport	sport	NOUN	_	Gender=Masc|Number=Sing	22	compound	_	_
+24	tous	tout	ADJ	_	Gender=Masc|Number=Plur	26	mod	_	_
+25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+26	aprems	aprem	NOUN	_	Gender=Masc|Number=Plur	18	mod	_	_
 27	.	.	PUNCT	_	_	3	punct	_	_
 
-# status = todo
+# status = done
 # sent_id = ParisStories_2021_discussionSansAbris_16
 # text = et donc , les deux premières semaines , je commence à aller à la salle de sport , donc , à prendre mes marques etcétéra . 
 1	et	et	CCONJ	_	_	10	cc	_	_
-2	donc	donc	ADV	_	_	10	mod	_	_
+2	donc	donc	ADV	_	_	10	discourse	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	les	les	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-5	deux	deux	NUM	_	_	7	mod	_	_
-6	premières	premières	ADJ	_	_	7	mod	_	_
-7	semaines	semaines	NOUN	_	_	10	dislocated	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+5	deux	deux	NUM	_	_	6	mod	_	_
+6	premières	premier	ADJ	_	Gender=Fem|Number=Plur	7	mod	_	_
+7	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	10	mod	_	_
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	je	je	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	_
-10	commence	commence	VERB	_	_	0	root	_	_
+9	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	_
+10	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	à	à	ADP	_	_	10	comp:obl@x	_	_
-12	aller	aller	VERB	_	_	11	comp:obj	_	_
+12	aller	aller	VERB	_	VerbForm=Inf	11	comp:obj	_	_
 13	à	à	ADP	_	_	12	comp:obl	_	_
-14	la	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	salle	salle	NOUN	_	_	13	comp:obj	_	_
-16	de	de	ADP	_	_	15	mod	_	_
-17	sport	sport	NOUN	_	_	16	comp:obj	_	_
-18	,	,	PUNCT	_	_	10	punct	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	salle	salle	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
+16	de	de	ADP	_	_	15	compound	_	_
+17	sport	sport	NOUN	_	Gender=Masc|Number=Sing	16	compound	_	_
+18	,	,	PUNCT	_	_	21	punct	_	_
 19	donc	donc	ADV	_	_	21	discourse	_	_
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	à	à	ADP	_	_	11	conj:coord	_	_
-22	prendre	prendre	VERB	_	_	21	comp:obj	_	_
-23	mes	mes	DET	_	Number[psor]=Plur|Person[psor]=1|PronType=Prs	24	det	_	_
-24	marques	marques	NOUN	_	_	22	comp:obj	_	_
+22	prendre	prendre	VERB	_	VerbForm=Inf	21	comp:obj	_	_
+23	mes	son	DET	_	Number[psor]=Plur|Person[psor]=1|PronType=Prs	24	det	_	_
+24	marques	marque	NOUN	_	Gender=Fem|Number=Plur	22	comp:obj	_	_
 25	etcétéra	etcétéra	ADV	_	_	24	discourse	_	_
 26	.	.	PUNCT	_	_	10	punct	_	_
 
 # status = todo
 # sent_id = ParisStories_2021_discussionSansAbris_17
 # text = je fais mes séances de sport , et en sortant de la salle , je me rends compte que , devant la salle , je me rends compte qu' il y a un sans-abri qui est là , tous les jours , à la même heure . 
-1	je	je	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
-2	fais	fais	VERB	_	_	0	root	_	_
-3	mes	mes	DET	_	Number[psor]=Plur|Person[psor]=1|PronType=Prs	4	det	_	_
-4	séances	séances	NOUN	_	_	2	comp:obj	_	_
-5	de	de	ADP	_	_	4	mod	_	_
-6	sport	sport	NOUN	_	_	5	comp:obj	_	_
-7	,	,	PUNCT	_	_	8	punct	_	_
+1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mes	son	DET	_	Number[psor]=Plur|Person[psor]=1|PronType=Prs	4	det	_	_
+4	séances	séance	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
+5	de	de	ADP	_	_	4	comp	_	_
+6	sport	sport	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
+7	,	,	PUNCT	_	_	17	punct	_	_
 8	et	et	CCONJ	_	_	17	cc	_	_
 9	en	en	ADP	_	_	17	mod	_	_
-10	sortant	sortant	VERB	_	_	9	comp:obj	_	_
+10	sortant	sortir	VERB	_	Tense=Pres|VerbForm=Part	9	comp:obj	_	_
 11	de	de	ADP	_	_	10	comp:obl	_	_
-12	la	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	salle	salle	NOUN	_	_	11	comp:obj	_	_
-14	,	,	PUNCT	_	_	10	punct	_	_
-15	je	je	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	_
-16	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	17	comp:obj	_	_
-17	rends	rends	VERB	_	_	2	conj:coord	_	_
-18	compte	compte	NOUN	_	_	17	comp:obj@lvc	_	_
-19	que	que	SCONJ	_	_	17	comp:obj	_	_
-20	,	,	PUNCT	_	_	21	punct	_	_
-21	devant	devant	ADP	_	_	27	mod	_	_
-22	la	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	salle	salle	NOUN	_	_	21	comp:obj	_	_
-24	,	,	PUNCT	_	_	27	discourse	_	_
-25	je	je	PRON	_	Number=Sing|Person=1|PronType=Prs	27	subj	_	_
-26	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	27	comp:obj	_	_
-27	rends	rends	VERB	_	_	17	conj:dicto	_	_
-28	compte	compte	NOUN	_	_	27	comp:obj@lvc	_	_
-29	qu'	qu'	SCONJ	_	_	27	comp:obj	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	salle	salle	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
+14	,	,	PUNCT	_	_	9	punct	_	_
+15	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	_
+16	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	17	comp:obj	_	_
+17	rends	rendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:coord	_	_
+18	compte	compte	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj@lvc	_	_
+19	que	que	SCONJ	_	_	17	comp:obl	_	_
+20	,	,	PUNCT	_	_	27	punct	_	_
+21	devant	devant	ADP	_	_	32	mod	_	_
+22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	salle	salle	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
+24	,	,	PUNCT	_	_	21	punct	_	_
+25	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	27	subj	_	_
+26	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	27	comp:obj	_	_
+27	rends	rendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	conj:dicto	_	_
+28	compte	compte	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj@lvc	_	_
+29	qu'	qu'	SCONJ	_	_	27	comp:obl	_	_
 30	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	subj@expl	_	_
-31	y	y	PRON	_	Person=3|PronType=Prs	32	comp:obl	_	_
-32	a	a	VERB	_	_	29	comp:obj	_	_
+31	y	y	PRON	_	Person=3|PronType=Prs	32	comp@expl	_	_
+32	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	comp:obj	_	_
 33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	sans-abri	sans-abri	NOUN	_	_	32	comp:obj	_	_
-35	qui	qui	PRON	_	_	36	subj	_	_
-36	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	mod@relcl	_	_
+34	sans-abri	sans-abri	NOUN	_	Gender=Masc	32	comp:obj	_	_
+35	qui	qui	PRON	_	PronType=Rel	36	subj	_	_
+36	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	mod@relcl	_	_
 37	là	là	ADV	_	_	36	comp:pred	_	_
 38	,	,	PUNCT	_	_	41	punct	_	_
-39	tous	tous	ADJ	_	_	41	mod	_	_
-40	les	les	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
-41	jours	jours	NOUN	_	_	36	mod	_	_
-42	,	,	PUNCT	_	_	46	punct	_	_
+39	tous	tout	ADJ	_	Gender=Masc|Number=Plur	41	mod	_	_
+40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
+41	jours	jours	NOUN	_	Gender=Masc|Number=Plur	36	mod	_	_
+42	,	,	PUNCT	_	_	43	punct	_	_
 43	à	à	ADP	_	_	36	mod	_	_
-44	la	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
-45	même	même	ADJ	_	_	46	mod	_	_
-46	heure	heure	NOUN	_	_	43	comp:obj	_	_
+44	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+45	même	même	ADJ	_	Gender=Masc|Number=Sing	46	mod	_	_
+46	heure	heure	NOUN	_	Gender=Fem|Number=Sing	43	comp:obj	_	_
 47	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_discussionSansAbris_18
@@ -449,13 +456,13 @@
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 3	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	4	unk:iobj	_	_
 4	rends	rendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	compte	compter	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
+5	compte	compte	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 6	qu'	qu'	SCONJ	_	_	4	comp:obj	_	_
 7	en	en	ADP	_	_	13	discourse	_	_
-8	fait	faire	NOUN	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	comp:obj	_	_
+8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	tout	tout	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	monde	monder	NOUN	_	Gender=Masc|Number=Sing	13	subj	_	_
+11	monde	monde	NOUN	_	Gender=Masc|Number=Sing	13	subj	_	_
 12	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	_
 13	ignore	ignorer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
 14	.	.	PUNCT	_	_	4	punct	_	_
