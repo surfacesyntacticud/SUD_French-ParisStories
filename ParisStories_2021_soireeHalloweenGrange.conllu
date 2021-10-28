@@ -211,9 +211,9 @@
 12	cimetière	cimetière	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	.	.	PUNCT	_	_	5	punct	_	_
 
-# status = todo
+# status = done
 # sent_id = ParisStories_2021_soireeHalloweenGrange_10
-# text = et , euh , là dans un cimetière , y avait , euh , y avait , euh , une , mh , un trou , euh , pour où , là où on met les cercueils et cetera , où , où il y avait pas encore , euh , de cercueil de mis . 
+# text = et , euh , là dans un cimetière , y avait , euh , y avait , euh , une , mh , un trou , euh , pour où , là où on met les cercueils et cetera , où , où il y avait pas encore , euh , de cercueil de mis .
 1	et	et	CCONJ	_	_	11	cc	_	_
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	11	discourse	_	_
@@ -221,15 +221,15 @@
 5	là	là	ADV	_	_	11	mod	_	_
 6	dans	dans	ADP	_	_	11	comp:obl	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	cimetière	cimetière	NOUN	_	_	6	comp:obj	_	_
+8	cimetière	cimetière	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	y	y	PRON	_	Person=3|PronType=Prs	11	comp:obl	_	_
-11	avait	avait	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	euh	euh	INTJ	_	_	11	discourse	_	_
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	y	y	PRON	_	Person=3|PronType=Prs	16	comp:obl	_	_
-16	avait	avait	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj:dicto	_	_
+16	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj:dicto	_	_
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	euh	euh	INTJ	_	_	16	discourse	_	_
 19	,	,	PUNCT	_	_	20	punct	_	_
@@ -238,38 +238,38 @@
 22	mh	mh	INTJ	_	_	20	discourse	_	_
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	trou	trou	NOUN	_	_	20	conj:dicto	_	_
+25	trou	trou	NOUN	_	Gender=Masc|Number=Sing	20	conj:dicto	_	_
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	euh	euh	INTJ	_	_	25	discourse	_	_
 28	,	,	PUNCT	_	_	29	punct	_	_
-29	pour	pour	ADP	_	_	_	_	_	_
-30	où	où	PRON	_	_	29	comp:obj	_	_
+29	pour	pour	ADP	_	_	25	mod	_	_
+30	où	où	PRON	_	PronType=Rel	29	comp:obj	_	_
 31	,	,	PUNCT	_	_	32	punct	_	_
-32	là	là	PRON	_	_	30	conj:dicto	_	_
-33	où	où	PRON	_	_	35	mod	_	_
+32	là	là	ADV	_	_	30	conj:dicto	_	_
+33	où	où	PRON	_	PronType=Rel	35	mod	_	_
 34	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	35	subj	_	_
-35	met	met	VERB	_	_	_	_	_	_
+35	met	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	mod@relcl	_	_
 36	les	les	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
-37	cercueils	cercueils	NOUN	_	_	35	comp:obj	_	_
-38	et	et	CCONJ	_	_	37	conj:dicto	_	_
+37	cercueils	cercueil	NOUN	_	Gender=Masc|Number=Plur	35	comp:obj	_	_
+38	et	et	CCONJ	_	_	37	discourse	_	_
 39	cetera	cetera	ADV	_	_	38	comp:obj	_	_
-40	,	,	PUNCT	_	_	41	punct	_	_
-41	où	où	PRON	_	_	30	conj:dicto	_	_
+40	,	,	PUNCT	_	_	46	punct	_	_
+41	où	où	PRON	_	PronType=Rel	46	mod	_	_
 42	,	,	PUNCT	_	_	43	punct	_	_
-43	où	où	PRON	_	_	41	conj:dicto	_	_
-44	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	comp:obj@expl	_	_
-45	y	y	PRON	_	Person=3|PronType=Prs	46	comp:obl	_	_
-46	avait	avait	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	_	_	_	_
-47	pas	pas	ADJ	_	_	46	mod	_	_
+43	où	où	PRON	_	PronType=Rel	41	conj:dicto	_	_
+44	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	subj@expl	_	_
+45	y	y	PRON	_	Person=3|PronType=Prs	46	comp@x	_	_
+46	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	mod@relcl	_	_
+47	pas	pas	ADV	_	_	48	mod	_	_
 48	encore	encore	ADV	_	_	46	mod	_	_
 49	,	,	PUNCT	_	_	50	punct	_	_
 50	euh	euh	INTJ	_	_	48	discourse	_	_
 51	,	,	PUNCT	_	_	52	punct	_	_
 52	de	de	ADP	_	_	46	comp:obj	_	_
-53	cercueil	cercueil	NOUN	_	_	52	comp:obj	_	_
-54	de	de	ADP	_	_	53	comp:obj	_	_
-55	mis	mis	VERB	_	_	54	comp:obj	_	_
-56	.	.	PUNCT	_	_	55	punct	_	_
+53	cercueil	cercueil	NOUN	_	Gender=Masc|Number=Sing	52	comp:obj	_	_
+54	de	de	ADP	_	_	53	comp	_	_
+55	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	54	comp:obj	_	_
+56	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_11
 # text = et y avait un ~ un homme , qui racontait que , que sa fille avait été tuée , euh , et , euh , voilà , qu' elle avait été , euh , assassinée et cetera . 
