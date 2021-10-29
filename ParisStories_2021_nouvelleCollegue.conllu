@@ -118,7 +118,7 @@
 16	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	comp:obj	_	_
 17	prendre	prendre	VERB	_	VerbForm=Inf	16	comp:obj@x	_	_
 18	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	19	det	_	_
-19	poste	poster	NOUN	_	Number=Sing	17	comp:obj	_	_
+19	poste	poste	NOUN	_	Number=Sing	17	comp:obj	_	_
 20	et	et	CCONJ	_	_	21	cc	_	_
 21	qu'	qu'	SCONJ	_	_	16	conj:coord	_	_
 22	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	subj	_	_
@@ -588,7 +588,7 @@
 18	même	même	ADV	_	_	29	mod	_	_
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	en	en	PRON	_	Person=3|PronType=Prs	29	mod	_	_
-21	fait	faire	NOUN	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	comp:obj	_	_
+21	fait	fait	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	quand	quand	SCONJ	_	_	34	mod	_	_
 24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	25	subj	_	_
@@ -608,7 +608,7 @@
 38	parler	parler	VERB	_	VerbForm=Inf	36	comp:obj	_	_
 39	,	,	PUNCT	_	_	40	punct	_	_
 40	à	à	ADP	_	_	34	mod	_	_
-41	cause	causer	NOUN	_	Gender=Fem|Number=Sing	40	comp:obj	_	_
+41	cause	cause	NOUN	_	Gender=Fem|Number=Sing	40	comp:obj	_	_
 42	,	,	PUNCT	_	_	45	punct	_	_
 43	enfin	enfin	ADV	_	_	45	discourse	_	_
 44	,	,	PUNCT	_	_	43	punct	_	_
@@ -742,8 +742,8 @@
 17	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
 18	foules	foule	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
 19	,	,	PUNCT	_	_	20	punct	_	_
-20	parce	parce	SCONJ	_	_	11	mod	_	_
-21	que	que	SCONJ	_	_	20	unk@fixed	_	_
+20	parce	parce	SCONJ	_	_	11	mod	_	ExtPos=SCONJ|Idiom=Yes
+21	que	que	SCONJ	_	_	20	unk	_	InIdiom=Yes
 22	du	du	ADP	_	_	26	discourse	_	_
 23	coup	coup	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
 24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	26	subj	_	_
@@ -768,7 +768,7 @@
 7	confiserie	confiserie	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	et	et	CCONJ	_	_	10	cc	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
-10	autre	autre	NOUN	_	Number=Sing	3	conj:coord	_	_
+10	autre	autre	PRON	_	Number=Sing	3	conj:coord	_	_
 11	qui	qui	PRON	_	PronType=Rel	12	subj	_	_
 12	gère	gère	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
