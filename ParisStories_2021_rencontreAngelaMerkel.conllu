@@ -3,7 +3,7 @@
 1	et	et	CCONJ	_	_	12	cc	_	_
 2	avec	avec	ADP	_	_	12	mod	_	_
 3	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	4	det	_	_
-4	classe	classer	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
+4	classe	classe	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 5	de	de	ADP	_	_	4	mod	_	_
 6	quatrième	quatrième	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 7	,	,	PUNCT	_	_	2	punct	_	_
@@ -43,7 +43,7 @@
 41	euh	euh	INTJ	_	_	44	discourse	_	_
 42	,	,	PUNCT	_	_	41	punct	_	_
 43	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
-44	tour	tour	NOUN	_	Number=Sing	39	conj:dicto	_	_
+44	tour	tour	NOUN	_	Gender=Fem|Number=Sing	39	conj:dicto	_	_
 45	de	de	ADP	_	_	44	mod	_	_
 46	Brandenburg	Brandenburg	PROPN	_	_	45	comp:obj	_	_
 47	.	.	PUNCT	_	_	12	punct	_	_
@@ -132,8 +132,8 @@
 7	par	par	ADP	_	_	31	mod	_	_
 8	hasard	hasard	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	,	,	PUNCT	_	_	7	punct	_	_
-10	alors	alors	ADV	_	_	31	mod	_	_
-11	qu'	qu'	SCONJ	_	_	10	unk@fixed	_	_
+10	alors	alors	ADV	_	_	31	mod	_	ExtPos=SCONJ|Idiom=Yes
+11	qu'	qu'	SCONJ	_	_	10	unk	_	InIdiom=Yes
 12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	subj	_	_
 13	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	comp:obj	_	_
 14	sur	sur	ADP	_	_	13	comp:obl	_	_
@@ -150,7 +150,7 @@
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 26	toute	toute	ADV	_	_	27	mod	_	_
 27	petite	petit	ADJ	_	Gender=Fem|Number=Sing	28	mod	_	_
-28	porte	porter	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
+28	porte	porte	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
 29	,	,	PUNCT	_	_	24	punct	_	_
 30	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	31	subj	_	_
 31	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -178,13 +178,13 @@
 53	,	,	PUNCT	_	_	54	punct	_	_
 54	d'	d'	ADP	_	_	52	conj:dicto	_	_
 55	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
-56	sorte	sortir	NOUN	_	Gender=Fem|Number=Sing	54	comp:obj	_	_
+56	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	54	comp:obj	_	_
 57	de	de	ADP	_	_	56	mod	_	_
 58	,	,	PUNCT	_	_	59	punct	_	_
 59	de	de	ADP	_	_	57	conj:dicto	_	_
 60	,	,	PUNCT	_	_	59	punct	_	_
 61	de	de	ADP	_	_	59	conj:dicto	_	_
-62	garde	garder	NOUN	_	Gender=Masc|Number=Sing	61	comp:obj	_	_
+62	garde	garde	NOUN	_	Gender=Masc|Number=Sing	61	comp:obj	_	_
 63	du	du	ADP	_	_	62	mod	_	_
 64	corps	corps	NOUN	_	Gender=Masc|Number=Sing	63	comp:obj	_	_
 65	,	,	PUNCT	_	_	70	punct	_	_
@@ -388,9 +388,9 @@
 1	euh	euh	INTJ	_	_	5	discourse	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
-4	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp@fixed	_	_
+4	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp	_	InIdiom=Yes
 5	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	adressée	adresser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+6	adressée	adresser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	ExtPos=VERB|Idiom=Yes
 7	à	à	ADP	_	_	6	comp:obl	_	_
 8	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	_
 9	en	en	ADP	_	_	6	mod	_	_
@@ -409,7 +409,7 @@
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	_
 7	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	classe	classer	NOUN	_	Gender=Fem|Number=Sing	7	comp:pred	_	_
+9	classe	classe	NOUN	_	Gender=Fem|Number=Sing	7	comp:pred	_	_
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	euh	euh	INTJ	_	_	13	discourse	_	_
 12	,	,	PUNCT	_	_	11	punct	_	_
