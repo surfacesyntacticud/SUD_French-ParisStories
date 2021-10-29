@@ -78,8 +78,8 @@
 21	pas	pas	ADV	_	_	23	mod	_	_
 22	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	comp:obj	_	_
 23	rencontrer	rencontrer	VERB	_	VerbForm=Inf	20	comp:obj	_	_
-24	parce	parce	SCONJ	_	_	7	mod	_	_
-25	que	que	SCONJ	_	_	24	unk@fixed	_	_
+24	parce	parce	SCONJ	_	_	7	mod	_	ExtPos=SCONJ|Idiom=Yes
+25	que	que	SCONJ	_	_	24	unk	_	InIdiom=Yes
 26	,	,	PUNCT	_	_	30	punct	_	_
 27	euh	euh	INTJ	_	_	30	discourse	_	_
 28	,	,	PUNCT	_	_	27	punct	_	_
@@ -110,15 +110,15 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	et	et	CCONJ	_	_	1	conj:dicto	_	_
 6	au	au	ADP	_	_	12	mod	_	_
-7	bout	bouillir	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
+7	bout	bout	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 8	d'	d'	ADP	_	_	7	mod	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	moment	moment	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	_
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	craqué	craquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux	_	_
-14	parce	parce	SCONJ	_	_	12	mod	_	_
-15	que	que	SCONJ	_	_	14	unk@fixed	_	_
+14	parce	parce	SCONJ	_	_	12	mod	_	ExtPos=SCONJ|Idiom=Yes
+15	que	que	SCONJ	_	_	14	unk	_	InIdiom=Yes
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	bah	bah	INTJ	_	_	20	discourse	_	_
 18	,	,	PUNCT	_	_	17	punct	_	_
@@ -487,7 +487,7 @@
 16	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	mod	_	_
 17	sur	sur	ADP	_	_	16	mod	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
-19	autre	autre	NOUN	_	Number=Sing	17	comp:obj	_	_
+19	autre	autre	PRON	_	Number=Sing	17	comp:obj	_	_
 20	et	et	CCONJ	_	_	21	cc	_	_
 21	tout	tout	ADV	_	Gender=Masc|Number=Sing	14	conj:coord	_	_
 22	.	.	PUNCT	_	_	9	punct	_	_
@@ -553,8 +553,8 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	bowling	bowling	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
-6	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp@fixed	_	_
-7	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp	_	InIdiom=Yes
+7	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_38
@@ -573,7 +573,7 @@
 3	faire	faire	VERB	_	VerbForm=Inf	2	comp:obl@x	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	deuxième	deuxième	ADJ	_	Number=Sing	6	mod	_	_
-6	partie	partir	NOUN	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:obj	_	_
+6	partie	partie	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_40
@@ -583,7 +583,7 @@
 3	pas	pas	CCONJ	_	_	0	root	_	_
 4	de	de	ADP	_	_	3	mod	_	_
 5	deuxième	deuxième	ADJ	_	Number=Sing	6	mod	_	_
-6	partie	partir	NOUN	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:obj	_	_
+6	partie	partie	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_41
@@ -739,8 +739,8 @@
 # sent_id = ParisStories_2021_pireSoireeHorrible_50
 # text = il se levait . 
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
-2	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	comp@fixed	_	_
-3	levait	lever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	comp	_	InIdiom=Yes
+3	levait	lever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_51
@@ -751,7 +751,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	préparait	préparait	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	bouffe	bouffer	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
+7	bouffe	bouffe	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	euh	euh	INTJ	_	_	5	discourse	_	_
 10	.	.	PUNCT	_	_	5	punct	_	_
