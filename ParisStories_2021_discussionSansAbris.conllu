@@ -276,8 +276,8 @@
 29	venais	venir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	27	comp:obj	_	_
 30	d'	d'	ADP	_	_	29	comp:obl	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	bac	bac	NOUN	_	Gender=Masc|Number=Sing	30	comp:obj	_	_
-33	S	S	PROPN	_	_	32	mod@fixed	_	_
+32	bac	bac	NOUN	_	Gender=Masc|Number=Sing	30	comp:obj	_	ExtPos=NOUN|Idiom=Yes
+33	S	S	PROPN	_	_	32	mod	_	InIdiom=Yes
 34	.	.	PUNCT	_	_	13	punct	_	_
 
 # status = done
@@ -758,9 +758,9 @@
 # text = et il s' est retrouvé à la rue . 
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
-3	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp@fixed	_	_
+3	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp:obj	_	InIdiom=Yes
 4	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	retrouvé	retrouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+5	retrouvé	retrouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	ExtPos=VERB|Idiom=Yes
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	rue	ruer	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
@@ -773,8 +773,8 @@
 3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	qu'	qu'	SCONJ	_	_	3	comp:obj	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
-6	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp@fixed	_	_
-7	appelait	appelait	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	comp:obj	_	_
+6	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp	_	InIdiom=Yes
+7	appelait	appelait	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	comp:obj	_	ExtPos=VERB|Idiom=Yes
 8	XXX	XXX	PROPN	_	_	7	comp:obj	_	_
 9	.	.	PUNCT	_	_	3	punct	_	_
 
