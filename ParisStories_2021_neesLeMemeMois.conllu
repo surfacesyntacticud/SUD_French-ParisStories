@@ -43,47 +43,52 @@
 18	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_3
-# text = [ ah ] du coup , euh , bah avec Maud on s' est rencontrée en deux mille dix , parce que , moi , du coup , je suis arrivée dans ma maison en février deux mille dix . 
-1	[	[	PUNCT	_	_	2	punct	_	_
-2	ah	ah	INTJ	_	_	0	root	_	_
-3	]	]	PUNCT	_	_	2	punct	_	_
-4	du	du	ADP	_	_	14	discourse	_	_
-5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
-6	,	,	PUNCT	_	_	4	punct	_	_
-7	euh	euh	INTJ	_	_	4	discourse	_	_
-8	,	,	PUNCT	_	_	4	punct	_	_
-9	bah	bah	INTJ	_	_	14	discourse	_	_
-10	avec	avec	ADP	_	_	15	obl	_	_
-11	Maud	Maud	PROPN	_	_	10	comp:obj	_	_
-12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	subj@pass	_	_
-13	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	15	comp@fixed	_	_
-14	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-15	rencontrée	rencontrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux	_	_
-16	en	en	ADP	_	_	15	mod	_	_
-17	deux	deux	NUM	_	Number=Plur	16	comp:obj	_	_
-18	mille	mille	NUM	_	_	17	mod	_	_
-19	dix	dix	NUM	_	Number=Plur	18	mod	_	_
-20	,	,	PUNCT	_	_	21	punct	_	_
-21	parce	parce	SCONJ	_	_	14	mod	_	_
-22	que	que	SCONJ	_	_	21	unk@fixed	_	_
-23	,	,	PUNCT	_	_	30	punct	_	_
-24	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	30	dislocated	_	_
-25	,	,	PUNCT	_	_	24	punct	_	_
-26	du	du	ADP	_	_	30	discourse	_	_
-27	coup	coup	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
-28	,	,	PUNCT	_	_	26	punct	_	_
-29	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	30	subj@pass	_	_
-30	suis	suivre	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
-31	arrivée	arriver	VERB	_	Gender=Fem|Number=Sing	30	comp:aux	_	_
-32	dans	dans	ADP	_	_	31	mod	_	_
-33	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	34	det	_	_
-34	maison	maison	NOUN	_	Gender=Fem|Number=Sing	32	comp:obj	_	_
-35	en	en	ADP	_	_	31	mod	_	_
-36	février	février	NOUN	_	Gender=Masc|Number=Sing	35	comp:obj	_	_
-37	deux	deux	NUM	_	Number=Plur	36	mod	_	_
-38	mille	mille	NUM	_	_	37	mod	_	_
-39	dix	dix	NUM	_	Number=Plur	38	mod	_	_
-40	.	.	PUNCT	_	_	30	punct	_	_
+# macrosyntax = [ ah ] du coup , euh , bah avec Maud on s' est rencontrée en deux mille dix , parce que , moi , du coup , je suis arrivée dans ma maison en février deux mille dix .
+# speaker = L2
+# text = ah .
+1	ah	ah	INTJ	_	_	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = ParisStories_2021_neesLeMemeMois_3bis
+# macrosyntax = [ ah ] du coup , euh , bah avec Maud on s' est rencontrées en deux mille dix , parce que , moi , du coup , je suis arrivée dans ma maison en février deux mille dix .
+# text = du coup , euh , bah avec Maud on s' est rencontrées en deux mille dix , parce que , moi , du coup , je suis arrivée dans ma maison en février deux mille dix .
+1	du	du	ADP	_	_	11	discourse	_	_
+2	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	euh	euh	INTJ	_	_	1	discourse	_	_
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	bah	bah	INTJ	_	_	11	discourse	_	_
+7	avec	avec	ADP	_	_	12	obl	_	_
+8	Maud	Maud	PROPN	_	_	7	comp:obj	_	_
+9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj@pass	_	_
+10	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	comp@fixed	_	_
+11	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	rencontrées	rencontrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	comp:aux	_	_
+13	en	en	ADP	_	_	12	mod	_	_
+14	deux	deux	NUM	_	Number=Plur	13	comp:obj	_	_
+15	mille	mille	NUM	_	_	14	mod	_	_
+16	dix	dix	NUM	_	Number=Plur	15	mod	_	_
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	parce	parce	SCONJ	_	_	11	mod	_	_
+19	que	que	SCONJ	_	_	18	unk@fixed	_	_
+20	,	,	PUNCT	_	_	27	punct	_	_
+21	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	27	dislocated	_	_
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	du	du	ADP	_	_	27	discourse	_	_
+24	coup	coup	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
+25	,	,	PUNCT	_	_	23	punct	_	_
+26	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	27	subj@pass	_	_
+27	suis	suivre	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	comp:obj	_	_
+28	arrivée	arriver	VERB	_	Gender=Fem|Number=Sing	27	comp:aux	_	_
+29	dans	dans	ADP	_	_	28	mod	_	_
+30	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	31	det	_	_
+31	maison	maison	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
+32	en	en	ADP	_	_	28	mod	_	_
+33	février	février	NOUN	_	Gender=Masc|Number=Sing	32	comp:obj	_	_
+34	deux	deux	NUM	_	Number=Plur	33	mod	_	_
+35	mille	mille	NUM	_	_	34	mod	_	_
+36	dix	dix	NUM	_	Number=Plur	35	mod	_	_
+37	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_4
 # text = euh , j' ai rencontré Maud euh , mai deux mille dix du coup , où elle faisait euh , une visite de sa maison . 
@@ -187,14 +192,14 @@
 20	euh	euh	INTJ	_	_	23	discourse	_	_
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	23	subj	_	_
-23	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
 24	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux	_	_
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 26	petite	petit	ADJ	_	Gender=Fem|Number=Sing	27	mod	_	_
 27	tête	tête	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
 28	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	29	comp:obj	_	_
 29	ramener	ramener	VERB	_	VerbForm=Inf	24	comp:obj@x	_	_
-30	.	.	PUNCT	_	_	23	punct	_	_
+30	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_7
 # text = [ parce que je cherchais de la compagnie .
