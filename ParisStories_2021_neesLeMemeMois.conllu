@@ -60,17 +60,17 @@
 6	bah	bah	INTJ	_	_	11	discourse	_	_
 7	avec	avec	ADP	_	_	12	comp:obl	_	_
 8	Maud	Maud	PROPN	_	_	7	comp:obj	_	_
-9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj@pass	_	_
-10	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	comp@fixed	_	_
+9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj@pass	_	
+10	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	comp:obj	_	InIdiom=Yes
 11	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	rencontrées	rencontrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	comp:aux	_	_
+12	rencontrées	rencontrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	comp:aux	_	ExtPos=VERB|Idiom=Yes
 13	en	en	ADP	_	_	12	mod	_	_
 14	deux	deux	NUM	_	Number=Plur	13	comp:obj	_	_
 15	mille	mille	NUM	_	_	14	mod	_	_
 16	dix	dix	NUM	_	Number=Plur	15	mod	_	_
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	parce	parce	SCONJ	_	_	11	mod	_	_
-19	que	que	SCONJ	_	_	18	unk@fixed	_	_
+18	parce	parce	SCONJ	_	_	11	mod	_	ExtPos=SCONJ|Idiom=Yes
+19	que	que	SCONJ	_	_	18	unk	_	InIdiom=Yes
 20	,	,	PUNCT	_	_	27	punct	_	_
 21	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	27	dislocated	_	_
 22	,	,	PUNCT	_	_	21	punct	_	_
@@ -152,8 +152,8 @@
 29	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 30	là-bas	là-bas	ADV	_	_	29	comp:pred	_	_
 31	,	,	PUNCT	_	_	29	punct	_	_
-32	parce	parce	SCONJ	_	_	29	mod	_	_
-33	que	que	SCONJ	_	_	32	unk@fixed	_	_
+32	parce	parce	SCONJ	_	_	29	mod	_	ExtPos=SCONJ|Idiom=Yes
+33	que	que	SCONJ	_	_	32	unk	_	InIdiom=Yes
 34	y	y	PRON	_	Person=3|PronType=Prs	35	comp:obl	_	_
 35	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	comp:obj	_	_
 36	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
@@ -163,8 +163,8 @@
 40	autre	autre	ADJ	_	Number=Sing	41	mod	_	_
 41	voisine	voisiner	NOUN	_	Gender=Fem|Number=Sing	38	comp:obj	_	_
 42	qui	qui	PRON	_	PronType=Rel	44	subj	_	_
-43	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	44	comp@fixed	_	_
-44	appelle	appelle	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	mod@relcl	_	_
+43	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	44	comp	_	InIdiom=Yes
+44	appelle	appelle	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	mod@relcl	_	ExtPos=VERB|Idiom=Yes
 45	Laurine	Laurine	PROPN	_	_	44	comp:obj	_	_
 46	.	.	PUNCT	_	_	29	punct	_	_
 
@@ -204,8 +204,8 @@
 # sent_id = ParisStories_2021_neesLeMemeMois_7
 # text = [ parce que je cherchais de la compagnie .
 1	[	[	PUNCT	_	_	2	punct	_	_
-2	parce	parce	SCONJ	_	_	0	root	_	_
-3	que	que	SCONJ	_	_	2	unk@fixed	_	_
+2	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+3	que	que	SCONJ	_	_	2	unk	_	InIdiom=Yes
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
 5	cherchais	chercher	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	comp:obj	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
@@ -523,8 +523,8 @@
 7	en	en	ADP	_	_	0	root	_	_
 8	mars	mars	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 9	[	[	PUNCT	_	_	10	unk@scrap	_	Typo=Yes
-10	parce	parce	SCONJ	_	_	6	mod	_	_
-11	qu'	qu'	SCONJ	_	_	10	unk@fixed	_	_
+10	parce	parce	SCONJ	_	_	6	mod	_	ExtPos=SCONJ|Idiom=Yes
+11	qu'	qu'	SCONJ	_	_	10	unk	_	InIdiom=Yes
 12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	subj	_	_
 13	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 14	nées	nées	VERB	_	Gender=Fem|Number=Plur	13	comp:aux	_	_
