@@ -31,8 +31,8 @@
 29	actuelle	actuel	ADJ	_	Gender=Fem|Number=Sing	28	mod	_	_
 30	,	,	PUNCT	_	_	33	punct	_	_
 31	qui	qui	PRON	_	PronType=Rel	33	subj	_	_
-32	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	33	comp@fixed	_	_
-33	appelle	appelle	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	mod@relcl	_	_
+32	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	33	comp	_	InIdiom=Yes
+33	appelle	appelle	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	mod@relcl	_	ExtPos=VERB|Idiom=Yes
 34	Cynthia	Cynthia	PROPN	_	_	33	comp:obj	_	_
 35	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -141,13 +141,13 @@
 # sent_id = ParisStories_2021_prenomDeVieille_5
 # text = je m' en souviens très bien parce que son petit frère , euh , il était dans la poussette . 
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-2	m'	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	comp@fixed	_	_
+2	m'	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	comp	_	InIdiom=Yes
 3	en	en	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	_
-4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 5	très	très	ADV	_	_	6	mod	_	_
 6	bien	bien	ADV	_	_	4	mod	_	_
-7	parce	parce	SCONJ	_	_	4	mod	_	_
-8	que	que	SCONJ	_	_	7	unk@fixed	_	_
+7	parce	parce	SCONJ	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
+8	que	que	SCONJ	_	_	7	unk	_	InIdiom=Yes
 9	son	son	DET	_	Gender=Masc|Number=Sing	11	det	_	_
 10	petit	petit	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
 11	frère	frère	NOUN	_	Gender=Masc|Number=Sing	16	dislocated	_	_
@@ -279,11 +279,11 @@
 16	et	et	CCONJ	_	_	23	cc	_	_
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	en	en	ADP	_	_	23	discourse	_	_
-19	fait	faire	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
+19	fait	fait	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 20	,	,	PUNCT	_	_	18	punct	_	_
 21	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	23	subj	_	_
-22	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	23	comp@fixed	_	_
-23	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
+22	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	23	comp	_	InIdiom=Yes
+23	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:coord	_	ExtPos=VERB|Idiom=Yes
 24	que	que	SCONJ	_	_	23	comp:obj	_	_
 25	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	26	subj	_	_
 26	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	24	comp:obj	_	_
@@ -603,8 +603,8 @@
 5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	_
 7	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis:obj	_	_
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	mod	_	_
-9	peu	peu	NOUN	_	Gender=Masc|Number=Sing	8	unk@fixed	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
+9	peu	peu	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	ExtPos=ADV|Idiom=Yes
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	prénom	prénom	NOUN	_	Gender=Masc|Number=Sing	7	comp:pred	_	_
 12	de	de	ADP	_	_	11	mod	_	_
@@ -669,11 +669,11 @@
 
 # sent_id = ParisStories_2021_prenomDeVieille_33
 # text = et puis , en fait , euh , finalement , ben , on s' est rapprochées . 
-1	et	et	CCONJ	_	_	15	cc	_	_
-2	puis	puis	ADV	_	_	1	unk@fixed	_	_
+1	et	et	CCONJ	_	_	15	cc	_	ExtPos=CCONJ|Idiom=Yes
+2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	en	en	PRON	_	Person=3|PronType=Prs	15	discourse	_	_
-5	fait	faire	NOUN	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	unk@fixed	_	_
+4	en	en	ADP	_	Person=3|PronType=Prs	15	discourse	_	ExtPos=ADV|Idiom=Yes
+5	fait	fait	NOUN	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	comp:obj	_	InIdiom=Yes
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	euh	euh	INTJ	_	_	15	discourse	_	_
 8	,	,	PUNCT	_	_	7	punct	_	_
@@ -689,15 +689,15 @@
 
 # sent_id = ParisStories_2021_prenomDeVieille_34
 # text = et puis on est devenues amies , même si ça partait sur une mauvaise note . 
-1	et	et	CCONJ	_	_	4	cc	_	_
-2	puis	puis	ADV	_	_	1	unk@fixed	_	_
+1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|Idiom=Yes
+2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	devenues	devenir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	comp:aux	_	_
 6	amies	amie	NOUN	_	Gender=Masc|Number=Plur	5	comp:pred	_	_
 7	,	,	PUNCT	_	_	9	punct	_	_
-8	même	même	ADV	_	_	9	mod	_	_
-9	si	si	SCONJ	_	_	4	unk@fixed	_	_
+8	même	même	ADV	_	_	9	mod	_	InIdiom=Yes
+9	si	si	SCONJ	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
 10	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	_
 11	partait	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	comp:obj	_	_
 12	sur	sur	ADP	_	_	11	comp:obl	_	_
@@ -771,8 +771,8 @@
 1	donc	donc	ADV	_	_	3	mod	_	_
 2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
 3	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	mod	_	_
-5	peu	peu	NOUN	_	Gender=Masc|Number=Sing	4	unk@fixed	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	InIdiom=Yes
+5	peu	peu	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	ExtPos=ADV|Idiom=Yes
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_40
@@ -783,8 +783,8 @@
 4	comme	comme	ADP	_	_	13	mod	_	_
 5	quoi	quoi	PRON	_	Person=3|PronType=Ind	4	comp:obj	_	_
 6	,	,	PUNCT	_	_	4	punct	_	_
-7	en	en	PRON	_	Person=3|PronType=Prs	13	discourse	_	_
-8	fait	faire	NOUN	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	unk@fixed	_	_
+7	en	en	ADP	_	Person=3|PronType=Prs	13	discourse	_	ExtPos=ADV|Idiom=Yes
+8	fait	fait	NOUN	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	comp:obj	_	InIdiom=Yes
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	rencontre	rencontrer	NOUN	_	Gender=Fem|Number=Sing	13	subj	_	_
@@ -814,8 +814,8 @@
 35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	personne	personne	NOUN	_	Gender=Fem|Number=Sing	34	comp:obj	_	_
 37	,	,	PUNCT	_	_	38	punct	_	_
-38	en	en	PRON	_	Person=3|PronType=Prs	32	discourse	_	_
-39	fait	faire	NOUN	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	unk@fixed	_	_
+38	en	en	ADP	_	_	32	discourse	_	ExtPos=ADV|Idiom=Yes
+39	fait	fait	NOUN	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	comp:obj	_	InIdiom=Yes
 40	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_41
