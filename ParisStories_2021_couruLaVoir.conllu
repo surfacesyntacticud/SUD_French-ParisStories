@@ -39,8 +39,8 @@
 12	section	section	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 13	de	de	ADP	_	_	12	mod	_	_
 14	maternelle	maternelle	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
-15	parce	parce	SCONJ	_	_	8	mod	_	_
-16	qu'	qu'	SCONJ	_	_	15	unk@fixed	_	_
+15	parce	parce	SCONJ	_	_	8	mod	_	ExtPos=SCONJ|Idiom=Yes
+16	qu'	qu'	SCONJ	_	_	15	unk	_	InIdiom=Yes
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	subj	_	_
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	conj:dicto	_	_
@@ -94,7 +94,7 @@
 5	dans	dans	ADP	_	_	3	comp:obl	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 7	même	même	ADJ	_	Number=Sing	8	mod	_	_
-8	classe	classer	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	classe	classe	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_couruLaVoir_6
@@ -124,7 +124,7 @@
 15	y	y	PRON	_	Person=3|PronType=Prs	16	comp:obl	_	_
 16	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	comp:obj	_	_
 17	deux	deux	NUM	_	Number=Plur	18	det	_	_
-18	groupes	grouper	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
+18	groupes	groupe	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_couruLaVoir_8
@@ -141,13 +141,13 @@
 10	dans	dans	ADP	_	_	7	conj:dicto	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 12	deux	deux	NUM	_	Number=Plur	13	mod	_	_
-13	groupes	grouper	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
+13	groupes	groupe	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 14	différents	différents	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	dans	dans	ADP	_	_	10	conj:dicto	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 18	deux	deux	NUM	_	Number=Plur	19	mod	_	_
-19	classes	classer	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
+19	classes	classe	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
 20	différentes	différentes	ADJ	_	Gender=Fem|Number=Plur	19	mod	_	_
 21	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -196,8 +196,8 @@
 21	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	comp:obj	_	_
 22	en	en	ADP	_	_	21	comp:obl	_	_
 23	CM1	CM1	PROPN	_	_	22	comp:obj	_	_
-24	parce	parce	SCONJ	_	_	9	mod	_	_
-25	que	que	SCONJ	_	_	24	unk@fixed	_	_
+24	parce	parce	SCONJ	_	_	9	mod	_	ExtPos=SCONJ|Idiom=Yes
+25	que	que	SCONJ	_	_	24	unk	_	InIdiom=Yes
 26	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	subj@expl	_	_
 27	y	y	PRON	_	Person=3|PronType=Prs	28	comp@expl	_	_
 28	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	comp:obj	_	_
@@ -255,10 +255,10 @@
 9	de	de	ADP	_	_	8	mod	_	_
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	de	de	ADP	_	_	9	conj:dicto	_	_
-12	rhume	rhumer	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
+12	rhume	rhume	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
 13	ou	ou	CCONJ	_	_	14	cc	_	_
 14	de	de	ADP	_	_	12	conj:coord	_	_
-15	grippe	gripper	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
+15	grippe	grippe	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	je	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	subj	_	_
 18	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
@@ -301,8 +301,8 @@
 6	toutes	tout	ADV	_	_	7	mod	_	_
 7	seules	seul	ADJ	_	Gender=Fem|Number=Plur	2	comp:pred	_	_
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	parce	parce	SCONJ	_	_	2	mod	_	_
-10	que	que	SCONJ	_	_	9	unk@fixed	_	_
+9	parce	parce	SCONJ	_	_	2	mod	_	ExtPos=SCONJ|Idiom=Yes
+10	que	que	SCONJ	_	_	9	unk	_	InIdiom=Yes
 11	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	13	det	_	_
 12	meilleures	meilleur	ADJ	_	Gender=Fem|Number=Plur	13	mod	_	_
 13	amies	amie	NOUN	_	Gender=Fem|Number=Plur	19	subj	_	_
@@ -340,8 +340,8 @@
 19	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obl	_	_
 20	parler	parler	VERB	_	VerbForm=Inf	18	comp:obj@x	_	_
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	parce	parce	SCONJ	_	_	18	mod	_	_
-23	qu'	que	SCONJ	_	_	22	unk@fixed	_	_
+22	parce	parce	SCONJ	_	_	18	mod	_	ExtPos=SCONJ|Idiom=Yes
+23	qu'	que	SCONJ	_	_	22	unk	_	InIdiom=Yes
 24	elle	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	subj	_	_
 25	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
 26	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -379,8 +379,8 @@
 16	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
 17	très	très	ADV	_	_	18	mod	_	_
 18	bien	bien	ADV	_	_	16	mod	_	_
-19	parce	parce	SCONJ	_	_	16	mod	_	_
-20	que	que	SCONJ	_	_	19	unk@fixed	_	_
+19	parce	parce	SCONJ	_	_	16	mod	_	ExtPos=SCONJ|Idiom=Yes
+20	que	que	SCONJ	_	_	19	unk	_	InIdiom=Yes
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	subj	_	_
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
@@ -420,7 +420,7 @@
 57	,	,	PUNCT	_	_	56	punct	_	_
 58	juste	juste	ADV	_	_	59	mod	_	_
 59	de	de	ADP	_	_	52	conj:coord	_	_
-60	vue	voir	NOUN	_	Gender=Fem|Number=Sing	59	comp:obj	_	_
+60	vue	vue	NOUN	_	Gender=Fem|Number=Sing	59	comp:obj	_	_
 61	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2021_couruLaVoir_17
@@ -658,7 +658,7 @@
 5	dans	dans	ADP	_	_	3	comp:pred	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 7	même	même	ADJ	_	Number=Sing	8	mod	_	_
-8	classe	classer	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	classe	classe	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_couruLaVoir_28
@@ -682,7 +682,7 @@
 17	euh	euh	INTJ	_	_	19	discourse	_	_
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	en	en	ADP	_	_	16	comp:obl	_	_
-20	cours	courir	NOUN	_	Gender=Masc	19	comp:obj	_	_
+20	cours	cours	NOUN	_	Gender=Masc	19	comp:obj	_	_
 21	quand	quand	SCONJ	_	_	16	mod	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	récréation	récréation	NOUN	_	Gender=Fem|Number=Sing	24	subj	_	_
@@ -731,7 +731,7 @@
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj@pass	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	comp:obj	_	_
 3	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	vue	voir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
+4	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	euh	euh	INTJ	_	_	4	discourse	_	_
 7	,	,	PUNCT	_	_	8	punct	_	_
