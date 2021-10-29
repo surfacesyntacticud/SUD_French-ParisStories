@@ -102,8 +102,8 @@
 
 # sent_id = ParisStories_2021_nouveauxEleves_5
 # text = et puis euh , souvent , bah voilà les nouveaux on reste un peu euh , isolés entre nous . 
-1	et	et	CCONJ	_	_	12	cc	_	_
-2	puis	puis	ADV	_	_	1	unk@fixed	_	_
+1	et	et	CCONJ	_	_	12	cc	_	ExtPos=CCONJ|Idiom=Yes
+2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	euh	euh	INTJ	_	_	12	discourse	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	souvent	souvent	ADV	_	_	12	mod	_	_
@@ -114,8 +114,8 @@
 10	nouveaux	nouveau	NOUN	_	Gender=Masc|Number=Plur	12	dislocated	_	_
 11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	_
 12	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	peu	peu	NOUN	_	Gender=Masc|Number=Sing	17	mod@fixed	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	InIdiom=Yes
+14	peu	peu	NOUN	_	Gender=Masc|Number=Sing	17	mod	_	ExtPos=ADV|Idiom=Yes
 15	euh	euh	INTJ	_	_	14	discourse	_	_
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	isolés	isoler	ADJ	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
@@ -125,8 +125,8 @@
 
 # sent_id = ParisStories_2021_nouveauxEleves_6
 # text = et puis , bah , on apprend à se connaître . 
-1	et	et	CCONJ	_	_	7	cc	_	_
-2	puis	puis	ADV	_	_	1	unk@fixed	_	_
+1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|Idiom=Yes
+2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	bah	bah	INTJ	_	_	7	discourse	_	_
 5	,	,	PUNCT	_	_	4	punct	_	_
@@ -252,7 +252,7 @@
 41	,	,	PUNCT	_	_	44	punct	_	_
 42	euh	euh	INTJ	_	_	44	discourse	_	_
 43	,	,	PUNCT	_	_	44	punct	_	_
-44	parce	parce	SCONJ	_	_	37	mod	_	Idiom=Yes
+44	parce	parce	SCONJ	_	_	37	mod	_	ExtPos=SCONJ|Idiom=Yes
 45	qu'	qu'	SCONJ	_	_	44	unk	_	InIdiom=Yes
 46	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	47	subj	_	_
 47	habitait	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	comp:obj	_	_
