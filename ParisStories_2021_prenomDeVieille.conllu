@@ -455,7 +455,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	retourne	retourner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	en	en	ADP	_	_	6	obl:comp	_	_
+7	en	en	ADP	_	_	6	comp:obl	_	_
 8	classe	classer	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 9	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -480,14 +480,14 @@
 # text = je retourne en classe .
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	retourne	retourner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	en	en	ADP	_	_	2	obl:comp	_	_
+3	en	en	ADP	_	_	2	comp:obl	_	_
 4	classe	classer	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_24
 # text = et devant la salle , ( je me souviens , on avait physique ) et devant la salle , je vois cette fille , que j' avais vue hier . 
 1	et	et	CCONJ	_	_	21	cc	_	_
-2	devant	devant	ADP	_	_	21	obl	_	_
+2	devant	devant	ADP	_	_	21	mod	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	salle	salle	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -656,7 +656,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	restais	rester	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-5	avec	avec	ADP	_	_	4	obl:comp	_	_
+5	avec	avec	ADP	_	_	4	comp:obl	_	_
 6	d'	d'	ADP	_	_	5	comp:obj	_	_
 7	autres	autre	ADJ	_	Number=Plur	8	mod	_	_
 8	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
@@ -700,7 +700,7 @@
 9	si	si	SCONJ	_	_	4	unk@fixed	_	_
 10	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	_
 11	partait	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	comp:obj	_	_
-12	sur	sur	ADP	_	_	11	obl:comp	_	_
+12	sur	sur	ADP	_	_	11	comp:obl	_	_
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	mauvaise	mauvais	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
 15	note	noter	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
@@ -780,7 +780,7 @@
 1	et	et	CCONJ	_	_	13	cc	_	_
 2	euh	euh	INTJ	_	_	13	discourse	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	comme	comme	ADP	_	_	13	obl	_	_
+4	comme	comme	ADP	_	_	13	mod	_	_
 5	quoi	quoi	PRON	_	Person=3|PronType=Ind	4	comp:obj	_	_
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	en	en	PRON	_	Person=3|PronType=Prs	13	discourse	_	_
