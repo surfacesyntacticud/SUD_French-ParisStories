@@ -208,7 +208,7 @@
 
 # status = done
 # sent_id = ParisStories_2021_nouveauxEleves_11
-# text = et , il m' a dit que , lui , non , euh , au contraire il n' était pas du tout de , de la région parisienne , qu' il avait déménagé et qu' il était tout nouveau ici , euh , parce qu' il habitait , en fait , dans une petite ville , euh , de Rhônes - Alpes euh quelques euh , y ' a , y ' a même pas euh , quelques semaines . 
+# text = et , il m' a dit que , lui , non , euh , au contraire il n' était pas du tout de , de la région parisienne , qu' il avait déménagé et qu' il était tout nouveau ici , euh , parce qu' il habitait , en fait , dans une petite ville , euh , de Rhônes -Alpes euh quelques euh , y ' a , y ' a même pas euh , quelques semaines . 
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
@@ -222,7 +222,7 @@
 11	non	non	INTJ	_	_	9	discourse	_	_
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	euh	euh	INTJ	_	_	9	discourse	_	_
-14	,	,	PUNCT	_	_	_	_	_	_
+14	,	,	PUNCT	_	_	9	punct	_	_
 15	au	au	ADP	_	_	19	mod	_	_
 16	contraire	contraire	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj	_	_
@@ -251,40 +251,40 @@
 40	ici	ici	ADV	_	_	37	mod	_	_
 41	,	,	PUNCT	_	_	_	_	_	_
 42	euh	euh	INTJ	_	_	44	discourse	_	_
-43	,	,	PUNCT	_	_	_	_	_	_
-44	parce	parce	SCONJ	_	_	37	mod	_	_
-45	qu'	qu'	SCONJ	_	_	_	_	_	_
+43	,	,	PUNCT	_	_	44	punct	_	_
+44	parce	parce	SCONJ	_	_	37	mod	_	Idiom=Yes
+45	qu'	qu'	SCONJ	_	_	44	unk	_	InIdion=Yes
 46	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	47	subj	_	_
 47	habitait	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	comp:obj	_	_
-48	,	,	PUNCT	_	_	_	_	_	_
+48	,	,	PUNCT	_	_	49	punct	_	_
 49	en	en	ADP	_	_	47	discourse	_	_
 50	fait	faire	ADJ	_	Gender=Masc|Number=Sing	49	comp:obj	_	_
-51	,	,	PUNCT	_	_	_	_	_	_
+51	,	,	PUNCT	_	_	52	punct	_	_
 52	dans	dans	ADP	_	_	47	mod	_	_
 53	une	une	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
-54	petite	petit	ADJ	_	Gender=Fem|Number=Sing	_	_	_	_
+54	petite	petit	ADJ	_	Gender=Fem|Number=Sing	55	mod	_	_
 55	ville	ville	NOUN	_	Gender=Fem|Number=Sing	44	comp:obj	_	_
-56	,	,	PUNCT	_	_	_	_	_	_
+56	,	,	PUNCT	_	_	57	punct	_	_
 57	euh	euh	INTJ	_	_	55	discourse	_	_
-58	,	,	PUNCT	_	_	_	_	_	_
+58	,	,	PUNCT	_	_	59	punct	_	_
 59	de	de	ADP	_	_	55	mod	_	_
 60	Rhônes	Rhônes	PROPN	_	_	59	comp:obj	_	_
-61	-	-	PUNCT	_	_	_	_	_	_
-62	Alpes	Alpes	PROPN	_	_	60	flat	_	_
+61-62	-	-	PUNCT	_	_	_	_	_	_
+62	-Alpes	Alpes	PROPN	_	_	60	flat	_	_
 63	euh	euh	INTJ	_	_	62	discourse	_	_
 64	quelques	quelque	DET	_	Number=Plur	60	conj:dicto	_	_
 65	euh	euh	INTJ	_	_	64	discourse	_	_
-66	,	,	PUNCT	_	_	_	_	_	_
-67	y	y	PRON	_	Person=3|PronType=Prs	69	comp:obl	_	_
-68	'	'	PUNCT	_	_	_	_	_	_
+66	,	,	PUNCT	_	_	69	punct	_	_
+67	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	69	subj@expl	_	_
+68	y	y	PRON	_	Person=3|PronType=Prs	69	comp@expl	_	_
 69	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	parataxis:discourse	_	_
-70	,	,	PUNCT	_	_	_	_	_	_
-71	y	y	PRON	_	Person=3|PronType=Prs	73	comp:obl	_	_
-72	'	'	PUNCT	_	_	_	_	_	_
+70	,	,	PUNCT	_	_	47	punct	_	_
+71	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	73	subj@expl	_	_
+72	y	y	PRON	_	Person=3|PronType=Prs	73	comp@expl	_	_
 73	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	conj:dicto	_	_
-74	même	même	ADV	_	_	_	_	_	_
+74	même	même	ADV	_	_	75	mod	_	_
 75	pas	pas	ADV	_	_	73	mod	_	_
-76	euh	euh	INTJ	_	_	73	discourse	_	_
+76	euh	euh	INTJ	_	_	79	discourse	_	_
 77	,	,	PUNCT	_	_	76	punct	_	_
 78	quelques	quelque	DET	_	Number=Plur	79	mod	_	_
 79	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	73	comp:obj	_	_
