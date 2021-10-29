@@ -15,8 +15,8 @@
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
-6	quand	quand	ADV	_	_	5	mod	_	_
-7	même	même	ADV	_	Number=Sing	6	unk@fixed	_	_
+6	quand	quand	ADV	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes
+7	même	même	ADV	_	Number=Sing	6	unk	_	InIdiom=Yes
 8	peut-être	peut-être	ADV	_	_	10	mod	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	heure	heure	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -60,8 +60,8 @@
 
 # sent_id = ParisStories_2021_adoptionMouts_6
 # text = et puis , il y en avait une toute seule qui était un beagle . 
-1	et	et	CCONJ	_	_	7	cc	_	_
-2	puis	puis	ADV	_	_	1	unk@fixed	_	_
+1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|Idiom=Yes
+2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
 5	y	y	PRON	_	Person=3|PronType=Prs	7	comp:obl	_	_
@@ -132,10 +132,10 @@
 4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	prise	prendre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	parce	parce	SCONJ	_	_	4	mod	_	_
-8	qu'	qu'	SCONJ	_	_	7	unk@fixed	_	_
+7	parce	parce	SCONJ	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
+8	qu'	qu'	SCONJ	_	_	7	unk	_	InIdiom=Yes
 9	en	en	ADP	_	_	12	discourse	_	_
-10	fait	faire	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
+10	fait	fait	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 11	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
 12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	comp:obj	_	_
 13	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
@@ -290,7 +290,7 @@
 14	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj:dicto	_	_
 15	tout	tout	ADJ	_	Gender=Masc|Number=Sing	17	mod	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	cercle	cercler	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
+17	cercle	cercle	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 18	noir	noir	ADJ	_	Gender=Masc|Number=Sing	17	mod	_	_
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	comme	comme	SCONJ	_	_	14	mod	_	_
@@ -571,7 +571,7 @@
 # text = et au bout de quelques heures , elle a enfin aboyé . 
 1	et	et	CCONJ	_	_	9	cc	_	_
 2	au	au	ADP	_	_	9	mod	_	_
-3	bout	bouillir	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
+3	bout	bout	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 4	de	de	ADP	_	_	3	mod	_	_
 5	quelques	quelques	DET	_	Number=Plur|PronType=Ind	6	mod	_	_
 6	heures	heure	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	_
