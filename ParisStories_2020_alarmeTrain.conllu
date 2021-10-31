@@ -360,7 +360,7 @@
 14	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_17
-# text = en gros, hum, j'entends, euh, à la voix de l'haut-parleur qu'ils disent oui, euh, en fait, nous sur place, on savait même pas alors qu'on était là, c'est l'haut-parleur qui nous l'a dit, enfin, qu'on a su grâce à l'haut-parleur.
+# text = en gros, hum, j'entends, euh, à la voix de l'haut-parleur qu'ils disent oui, euh.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8970b764f6e6a69f0aa9b79c868c9ac5e23d1941
 # timestamp = 1605647708281
 1	en	en	ADP	_	_	7	mod	_	_
@@ -382,48 +382,52 @@
 17	qu'	que	SCONJ	_	_	7	comp:obj	_	SpaceAfter=No
 18	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	subj	_	_
 19	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
-20	oui	oui	INTJ	_	_	19	discourse	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	20	punct	_	_
-22	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	22	punct	_	_
-24	en	en	ADP	_	_	32	discourse	_	ExtPos=ADV|Idiom=Yes
-25	fait	faire	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	InIdiom=Yes|SpaceAfter=No
-26	,	,	PUNCT	_	_	24	punct	_	_
-27	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	32	dislocated	_	_
-28	sur	sur	ADP	_	_	32	mod	_	_
-29	place	place	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	28	punct	_	_
+20	oui	oui	INTJ	_	_	19	comp:obj	_	Reported=Yes|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ParisStories_2020_alarmeTrain_17bis
+# text = en fait, nous sur place, on savait même pas alors qu'on était là, c'est l'haut-parleur qui nous l'a dit, enfin, qu'on a su grâce à l'haut-parleur.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8970b764f6e6a69f0aa9b79c868c9ac5e23d1941
+1	en	en	ADP	_	_	9	discourse	_	ExtPos=ADV|Idiom=Yes
+2	fait	faire	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	9	dislocated	_	_
+5	sur	sur	ADP	_	_	9	mod	_	_
+6	place	place	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
+9	savait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	même	même	ADV	_	_	11	mod	_	_
+11	pas	pas	ADV	_	_	9	mod	_	_
+12	alors	alors	ADV	_	_	9	mod	_	ExtPos=SCONJ|Idiom=Yes
+13	qu'	que	SCONJ	_	_	12	unk	_	InIdiom=Yes|SpaceAfter=No
+14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	_
+15	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	comp:obj	_	_
+16	là	là	ADV	_	_	15	comp:pred	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	9	punct	_	_
+18	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	subj@expl	_	SpaceAfter=No
+19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	haut-parleur	haut-parleur	NOUN	_	Gender=Masc|Number=Sing	19	comp:pred	_	_
+22	qui	qui	PRON	_	PronType=Rel	25	subj	_	_
+23	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	26	comp:obl	_	_
+24	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	26	comp:obj	_	SpaceAfter=No
+25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:cleft	_	_
+26	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	comp:aux	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	enfin	enfin	ADV	_	_	30	discourse	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	qu'	que	SCONJ	_	_	13	conj:dicto	_	SpaceAfter=No
 31	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	32	subj	_	_
-32	savait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	comp:obj	_	Reported=Yes
-33	même	même	ADV	_	_	34	mod	_	_
-34	pas	pas	ADV	_	_	32	mod	_	_
-35	alors	alors	ADV	_	_	32	mod	_	ExtPos=SCONJ|Idiom=Yes
-36	qu'	que	SCONJ	_	_	35	unk	_	InIdiom=Yes|SpaceAfter=No
-37	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	38	subj	_	_
-38	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	comp:obj	_	_
-39	là	là	ADV	_	_	38	comp:pred	_	SpaceAfter=No
-40	,	,	PUNCT	_	_	32	punct	_	_
-41	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	42	subj@expl	_	SpaceAfter=No
-42	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	parataxis	_	_
-43	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
-44	haut-parleur	haut-parleur	NOUN	_	Gender=Masc|Number=Sing	42	comp:pred	_	_
-45	qui	qui	PRON	_	PronType=Rel	48	subj	_	_
-46	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	49	comp:obl	_	_
-47	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	49	comp:obj	_	SpaceAfter=No
-48	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	comp:cleft	_	_
-49	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	comp:aux	_	SpaceAfter=No
-50	,	,	PUNCT	_	_	51	punct	_	_
-51	enfin	enfin	ADV	_	_	53	discourse	_	SpaceAfter=No
-52	,	,	PUNCT	_	_	53	punct	_	_
-53	qu'	que	SCONJ	_	_	48	comp:obj	_	SpaceAfter=No
-54	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	55	subj	_	_
-55	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	comp:obj	_	_
-56	su	savoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	55	comp:aux	_	_
-57	grâce	grâce	ADV	_	_	56	mod	_	_
-58	à	à	ADP	_	_	57	comp:obj	_	_
-59	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	60	det	_	SpaceAfter=No
-60	haut-parleur	haut-parleur	NOUN	_	Gender=Masc|Number=Sing	58	comp:obj	_	SpaceAfter=No
-61	.	.	PUNCT	_	_	7	punct	_	_
+32	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	comp:obj	_	_
+33	su	savoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	comp:aux	_	_
+34	grâce	grâce	ADV	_	_	33	mod	_	_
+35	à	à	ADP	_	_	34	comp:obj	_	_
+36	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	haut-parleur	haut-parleur	NOUN	_	Gender=Masc|Number=Sing	35	comp:obj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_18
 # text = et euh, et ils nous disent, oui euh le signal d'alarme a été tiré à cause, pour cause de pickpocket.
