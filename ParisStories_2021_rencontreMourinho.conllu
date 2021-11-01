@@ -94,7 +94,7 @@
 # text = on a pu tous prendre une photo avec lui.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	pu	pouvoir	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+3	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
 4	tous	tous	PRON	_	Gender=Masc|Number=Plur	5	mod	_	_
 5	prendre	prendre	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -315,17 +315,17 @@
 24	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	Mourinho	Mourinho	PROPN	_	_	20	conj:appos	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	30	punct	_	_
+27	,	,	PUNCT	_	_	28	punct	_	_
 28	où	où	PRON	_	PronType=Rel	18	conj:dicto	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	20	conj:dicto	_	_
 31	du	du	ADP	_	_	30	udep	_	_
 32	Portugal	Portugal	PROPN	_	_	31	comp:obj	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	20	punct	_	_
+33	,	,	PUNCT	_	_	35	punct	_	_
 34	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	subj	_	_
 35	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	mod@relcl	_	_
 36	et	et	CCONJ	_	_	37	cc	_	_
-37	tout	tout	ADV	_	_	35	conj:coord	_	SpaceAfter=No
+37	tout	tout	ADV	_	_	35	discourse	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	2	punct	_	_
 
 # status = done
@@ -465,7 +465,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 4	répondu	répondre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	3	punct	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
 
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_30
@@ -597,7 +597,7 @@
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	bah	bah	INTJ	_	_	11	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	signez	signer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Reported=Yes
+11	signez	signer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Reported=Yes|SpaceAfter=No
 12	!	!	PUNCT	_	_	5	punct	_	_
 
 # status = done
@@ -641,7 +641,7 @@
 5	mode	mode	NOUN	_	Number=Sing	4	comp:obj	_	_
 6	mais	mais	CCONJ	_	_	8	cc	_	_
 7	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	8	subj	_	_
-8	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	parataxis:discourse	_	_
+8	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Reported=Yes
 9	sûre	sûr	ADJ	_	Gender=Fem|Number=Sing	8	comp:pred	_	_
 10	madame	madame	NOUN	_	Gender=Fem|Number=Sing	8	vocative	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
@@ -666,11 +666,11 @@
 # sent_id = ParisStories_2021_rencontreMourinho_42
 # text = euh, ensuite, qu'est - ce qu'on a fait?
 1	euh	euh	INTJ	_	_	6	discourse	_	_
-2	,	,	PUNCT	_	_	1	mod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
 3	ensuite	ensuite	ADV	_	_	11	mod	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	1	punct	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
 5	qu'	qu'	PRON	_	Person=3|PronType=Int	6	comp:pred	_	SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	-	-	PUNCT	_	_	8	punct	_	_
 8	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
 9	qu'	qu'	SCONJ	_	_	12	comp:obj	_	SpaceAfter=No
@@ -698,7 +698,7 @@
 14	dégoutés	dégouter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	comp:pred	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	parce	parce	SCONJ	_	_	11	mod	_	ExtPos=SCONJ|Idiom=Yes
-17	que	que	SCONJ	_	_	16	unk	_	InIdiom=Yes
+17	que	que	SCONJ	_	_	16	unk	_	InIdiom=Yes|SpaceAfter=No
 18	,	,	PUNCT	_	_	25	punct	_	_
 19	du	du	ADP	_	_	25	discourse	_	_
 20	coup	coup	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	SpaceAfter=No
