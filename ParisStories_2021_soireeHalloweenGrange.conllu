@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2021_soireeHalloweenGrange_1
 # text = on est arrivé, euh, on est arrivé, euh, dans, dans la campagne près d'un champ, de ce que je me souviens.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
@@ -277,7 +278,7 @@
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp:obl	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-5	~	~	X	_	_	4	unk@scrap	_	Typo=Yes
+5	~	~	X	_	Typo=Yes	4	unk@scrap	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	conj:dicto	_	_
 7	homme	homme	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
@@ -314,10 +315,10 @@
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_12
 # text = ~ fin d ~, de ce que j'ai compris, vu que, je suis pas une experte en anglais.
-1	~	~	X	_	_	2	unk@scrap	_	Typo=Yes
+1	~	~	X	_	Typo=Yes	2	unk@scrap	_	_
 2	fin	fin	ADV	_	_	3	discourse	_	_
 3	d	d	ADP	_	_	0	root	_	_
-4	~	~	X	_	_	3	unk@scrap	_	Typo=Yes|SpaceAfter=No
+4	~	~	X	_	Typo=Yes	3	unk@scrap	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	de	de	ADP	_	_	3	conj:dicto	_	_
 7	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	comp:obj	_	_
@@ -495,3 +496,4 @@
 25	et	et	CCONJ	_	_	24	conj:coord	_	_
 26	cetera	cetera	ADV	_	_	25	flat	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	13	punct	_	_
+

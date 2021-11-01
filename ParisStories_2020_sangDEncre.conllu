@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2020_sangDEncre_1
 # text = alors, euh, je vais vous parler aujourd'hui de, euh, du jour où quand j'avais quatorze ans.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
@@ -79,7 +80,7 @@
 21	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	22	subj	_	SpaceAfter=No
 22	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	conj:coord	_	_
 23	chez	chez	ADP	_	_	22	comp:obl	_	_
-24	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	25	det	_	_
+24	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	25	det	_	_
 25	grands-parents	grands-parent	NOUN	_	Gender=Masc|Number=Plur	23	comp:obj	_	_
 26	près	près	ADV	_	_	23	mod	_	_
 27	d'	de	ADP	_	_	26	mod	_	SpaceAfter=No
@@ -273,7 +274,7 @@
 6	d'	de	ADP	_	_	5	mod	_	SpaceAfter=No
 7	Agen	Agen	PROPN	_	_	6	comp:obj	_	_
 8	avec	avec	ADP	_	_	2	mod	_	_
-9	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	10	det	_	_
+9	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	10	det	_	_
 10	grands-parents	grand-parent	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 11	tranquillement	tranquillement	ADV	_	_	2	mod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
@@ -407,7 +408,7 @@
 14	petite	petit	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
 15	anecdote	anecdote	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
-17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	|SpaceAfter=No
+17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	SpaceAfter=No
 18	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj:coord	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
@@ -711,10 +712,10 @@
 # sent_id = ParisStories_2020_sangDEncre_31
 # text = mes parents, mes grands-parents sont partis, euh.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
-1	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	2	det	_	_
+1	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	2	det	_	_
 2	parents	parent	NOUN	_	Gender=Masc|Number=Plur	6	subj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	5	det	_	_
+4	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	5	det	_	_
 5	grands-parents	grand-parent	NOUN	_	Gender=Masc|Number=Plur	2	conj:coord	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	partis	partir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	comp:aux	_	SpaceAfter=No
@@ -784,7 +785,7 @@
 39	jusqu'	jusque	ADP	_	_	38	comp:obl	_	SpaceAfter=No
 40	à	à	ADP	_	_	39	comp:obl	_	_
 41	chez	chez	ADP	_	_	40	comp:obj	_	_
-42	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	43	det	_	_
+42	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	43	det	_	_
 43	grands-parents	grand-parent	NOUN	_	Gender=Masc|Number=Plur	41	comp:obj	_	_
 44	en	en	ADP	_	_	38	mod	_	_
 45	voiture	voiture	NOUN	_	Gender=Fem|Number=Sing	44	comp:obj	_	SpaceAfter=No
@@ -1150,7 +1151,7 @@
 3	enfin	enfin	ADV	_	_	2	discourse	_	_
 4	à	à	ADP	_	_	2	comp:obl@x	_	_
 5	avoir	avoir	VERB	_	VerbForm=Inf	4	comp:obj	_	_
-6	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	7	det	_	_
+6	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	7	det	_	_
 7	grands-parents	grand-parent	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
@@ -1526,7 +1527,7 @@
 7	ne	ne	ADV	_	_	9	mod	_	_
 8	jamais	jamais	ADV	_	_	9	mod	_	_
 9	revoir	revoir	VERB	_	VerbForm=Inf	6	comp:obj	_	_
-10	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	11	det	_	_
+10	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	11	det	_	_
 11	grands-parents	grand-parent	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
@@ -1622,11 +1623,11 @@
 23	village	village	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
 24	pommé	pommé	ADJ	_	Gender=Masc|Number=Sing	23	mod	_	_
 25	de	de	ADP	_	_	24	comp:obl	_	_
-26	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	27	det	_	_
+26	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	27	det	_	_
 27	grands-parents	grand-parent	NOUN	_	Gender=Masc|Number=Plur	25	comp:obj	_	_
 28	et	et	CCONJ	_	_	29	cc	_	_
 29	que	que	SCONJ	_	_	8	conj:coord	_	_
-30	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	31	det	_	_
+30	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	31	det	_	_
 31	grands-parents	grands-parent	NOUN	_	Gender=Masc|Number=Plur	32	subj	_	_
 32	doivent	devoir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	comp:obj	_	_
 33	payer	payer	VERB	_	VerbForm=Inf	32	comp:obj@x	_	_
@@ -1677,3 +1678,4 @@
 12	bon	bon	ADJ	_	Gender=Masc|Number=Sing	13	mod	_	_
 13	souvenir	souvenir	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	10	punct	_	_
+

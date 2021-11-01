@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2021_couruLaVoir_1
 # text = euh, je l'ai rencontrée, oh ça fait super super longtemps.
 1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
@@ -223,7 +224,7 @@
 # sent_id = ParisStories_2021_couruLaVoir_11
 # text = pl~ ~, plein d'enfants de nos classes respectives, nos amis, étaient tombés malades.
 1	pl~	pl~	X	_	_	15	subj	_	_
-2	~	~	X	_	_	1	unk@scrap	_	Typo=Yes|SpaceAfter=No
+2	~	~	X	_	Typo=Yes	1	unk@scrap	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	plein	plein	ADV	_	_	1	conj:dicto	_	_
 5	d'	de	ADP	_	_	4	comp:obl	_	SpaceAfter=No
@@ -612,7 +613,7 @@
 4	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	j~	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	_
-7	~	~	X	_	_	6	conj:dicto	_	Typo=Yes|SpaceAfter=No
+7	~	~	X	_	Typo=Yes	6	conj:dicto	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	conj:dicto	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -743,3 +744,4 @@
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	sorties	sortie	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
+
