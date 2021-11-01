@@ -82,7 +82,7 @@
 22	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	comp:obj	_	_
 23	rencontrer	rencontrer	VERB	_	VerbForm=Inf	20	comp:obj	_	_
 24	parce	parce	SCONJ	_	_	7	mod	_	ExtPos=SCONJ|Idiom=Yes
-25	que	que	SCONJ	_	_	24	unk	_	InIdiom=Yes
+25	que	que	SCONJ	_	_	24	unk	_	InIdiom=Yes|SpaceAfter=No
 26	,	,	PUNCT	_	_	30	punct	_	_
 27	euh	euh	INTJ	_	_	30	discourse	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
@@ -108,7 +108,7 @@
 # sent_id = ParisStories_2021_pireSoireeHorrible_9
 # text = et, euh, et au bout d'un moment on a craqué parce que, bah, elle est, elle forçait, elle forçait, puis, elle était plus jamais à la maison et tout.
 1	et	et	CCONJ	_	_	12	cc	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	5	punct	_	_
 3	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	et	et	CCONJ	_	_	1	conj:dicto	_	_
@@ -121,7 +121,7 @@
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	craqué	craquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux	_	_
 14	parce	parce	SCONJ	_	_	12	mod	_	ExtPos=SCONJ|Idiom=Yes
-15	que	que	SCONJ	_	_	14	unk	_	InIdiom=Yes
+15	que	que	SCONJ	_	_	14	unk	_	InIdiom=Yes|SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	bah	bah	INTJ	_	_	20	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
@@ -256,10 +256,10 @@
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
 8	trop	trop	ADV	_	_	9	mod	_	_
-9	cool	cool	ADJ	_	Number=Sing	6	comp:obj	_	Reported=Yes
+9	cool	cool	ADJ	_	Number=Sing	6	comp:obj	_	Reported=Yes|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	_
-12	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj:coord	_	Reported=Yes
+12	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj:appos	_	_
 13	aller	aller	VERB	_	VerbForm=Inf	12	comp:obj@x	_	_
 14	faire	faire	VERB	_	VerbForm=Inf	13	comp:obj@x	_	_
 15	une	une	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -365,7 +365,7 @@
 4	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obl	_	_
 5	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
-7	ok	ok	INTJ	_	_	6	comp:obj	_	Reported=Yes
+7	ok	ok	INTJ	_	_	6	comp:obj	_	Reported=Yes|SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # status = done
@@ -421,7 +421,7 @@
 
 # status = done
 # sent_id = ParisStories_2021_pireSoireeHorrible_29
-# text = Ce qui fait que s'il était pas premier, il était à se plaindre à…
+# text = ce qui fait que s'il était pas premier, il était à se plaindre à…
 1	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
 2	qui	qui	PRON	_	PronType=Rel	3	subj	_	_
 3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	_
@@ -441,7 +441,7 @@
 17	…	…	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_30
-# text = ah, et moi, je me, j' étais là, mon dieu mais c'est quoi ce gars.
+# text = ah, et moi, je me, j'étais là, mon dieu mais c'est quoi ce gars.
 1	ah	ah	INTJ	_	_	11	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	et	et	CCONJ	_	_	10	cc	_	_
@@ -449,7 +449,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	_
 7	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	6	unk@scrap	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	10	punct	_	_
+8	,	,	PUNCT	_	_	6	punct	_	_
 9	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	conj:dicto	_	SpaceAfter=No
 10	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	là	là	ADV	_	_	10	comp:pred	_	SpaceAfter=No
@@ -558,7 +558,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	bowling	bowling	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
 6	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp	_	_
-7	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_38
