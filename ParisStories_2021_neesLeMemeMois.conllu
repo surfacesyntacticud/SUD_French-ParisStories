@@ -11,7 +11,7 @@
 9	d'	d'	ADP	_	_	8	mod	_	SpaceAfter=No
 10	aujourd'hui	aujourd'hui	ADV	_	_	9	comp:obj	_	_
 11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	SpaceAfter=No
-12	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	jour	jour	NOUN	_	Gender=Masc|Number=Sing	12	comp:pred	_	_
 15	où	où	PRON	_	PronType=Rel	18	mod	_	_
@@ -29,7 +29,7 @@
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 5	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	SpaceAfter=No
 6	ai	avoir	AUX	_	_	0	root	_	_
-7	décidé	décidé	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
+7	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
 8	de	de	ADP	_	_	7	comp:obj@x	_	_
 9	parler	parler	VERB	_	VerbForm=Inf	8	comp:obj	_	_
 10	de	de	ADP	_	_	9	comp:obl	_	_
@@ -61,9 +61,9 @@
 7	avec	avec	ADP	_	_	12	comp:obl	_	_
 8	Maud	Maud	PROPN	_	_	7	comp:obj	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj@pass	_	_
-10	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	comp:obj	_	InIdiom=Yes|SpaceAfter=No
-11	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	rencontrées	rencontrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	comp:aux	_	ExtPos=VERB|Idiom=Yes
+10	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	comp:obj	_	SpaceAfter=No
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	rencontrées	rencontrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	comp:aux	_	_
 13	en	en	ADP	_	_	12	mod	_	_
 14	deux	deux	NUM	_	Number=Plur	13	comp:obj	_	_
 15	mille	mille	NUM	_	_	14	mod	_	_
@@ -114,7 +114,7 @@
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	visite	visite	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
-23	de	de	ADP	_	_	22	mod	_	_
+23	de	de	ADP	_	_	22	udep	_	_
 24	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	25	det	_	_
 25	maison	maison	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	18	punct	_	_
@@ -132,7 +132,7 @@
 9	d'	d'	ADP	_	_	8	mod	_	SpaceAfter=No
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	carrière	carrière	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
-12	de	de	ADP	_	_	11	mod	_	SpaceAfter=No
+12	de	de	ADP	_	_	11	udep	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
@@ -140,7 +140,7 @@
 17	saut	saut	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 18	d'	d'	ADP	_	_	17	mod	_	SpaceAfter=No
 19	obstacles	obstacle	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	_
-20	de	de	ADP	_	_	19	mod	_	_
+20	de	de	ADP	_	_	19	udep	_	_
 21	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
 22	heu	heu	INTJ	_	_	21	discourse	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	4	punct	_	_
@@ -163,8 +163,8 @@
 40	autre	autre	ADJ	_	Number=Sing	41	mod	_	_
 41	voisine	voisine	NOUN	_	Gender=Fem|Number=Sing	38	comp:obj	_	_
 42	qui	qui	PRON	_	PronType=Rel	44	subj	_	_
-43	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	44	comp	_	InIdiom=Yes|SpaceAfter=No
-44	appelle	appelle	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	mod@relcl	_	ExtPos=VERB|Idiom=Yes
+43	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	44	comp	_	SpaceAfter=No
+44	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	mod@relcl	_	_
 45	Laurine	Laurine	PROPN	_	_	44	comp:obj	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	29	punct	_	_
 
@@ -192,7 +192,7 @@
 20	euh	euh	INTJ	_	_	23	discourse	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	23	subj	_	_
-23	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+23	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj:coord	_	_
 24	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux	_	_
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 26	petite	petit	ADJ	_	Gender=Fem|Number=Sing	27	mod	_	_
@@ -357,7 +357,7 @@
 # sent_id = ParisStories_2021_neesLeMemeMois_17
 # text = qu'est - ce qu'on faisait?
 1	qu'	qu'	PRON	_	Person=3|PronType=Int	2	comp:pred	_	SpaceAfter=No
-2	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	-	-	PUNCT	_	_	4	punct	_	_
 4	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	subj	_	_
 5	qu'	qu'	SCONJ	_	_	7	comp:obj	_	SpaceAfter=No
@@ -408,7 +408,7 @@
 13	,	,	PUNCT	_	_	11	punct	_	_
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	subj@pass	_	_
 15	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	unk:obj	_	SpaceAfter=No
-16	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
+16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
 17	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@pass	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	tête	tête	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
@@ -416,7 +416,7 @@
 21	et	et	CCONJ	_	_	24	cc	_	_
 22	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	subj	_	_
 23	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	24	unk:iobj	_	_
-24	rappelle	rappelle	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj:coord	_	_
+24	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj:coord	_	_
 25	plus	plus	ADV	_	_	24	mod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	euh	euh	INTJ	_	_	24	discourse	_	SpaceAfter=No
@@ -428,7 +428,7 @@
 33	comment	comment	ADV	_	_	36	mod	_	_
 34	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	36	subj@pass	_	_
 35	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	36	comp:aux	_	SpaceAfter=No
-36	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	conj:coord	_	_
+36	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	conj:coord	_	_
 37	reparlé	reparler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	comp:aux@pass	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -535,8 +535,8 @@
 1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes|AttachTo=2@ParisStories_2021_neesLeMemeMois_25|Rel=mod
 2	qu'	qu'	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
-4	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
-5	nées	nées	VERB	_	Gender=Fem|Number=Plur	4	comp:aux	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
+5	nées	naître	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	comp:aux	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	même	même	ADJ	_	Number=Sing	8	mod	_	_
 8	mois	mois	NOUN	_	Gender=Masc	4	mod	_	_
@@ -565,7 +565,7 @@
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
-11	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	comp:aux	_	_
+11	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	_
 12	du	du	ADP	_	_	11	comp:obl	_	_
 13	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 14	ensemble	ensemble	ADV	_	_	10	mod	_	_
@@ -574,20 +574,18 @@
 17	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_29
-# text = et on s'est retrouvé au club du O 'takey, euh, après.
+# text = et on s'est retrouvé au club du O'Takey, euh, après.
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj@pass	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	unk:obj	_	SpaceAfter=No
-4	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	retrouvé	retrouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
 6	au	au	ADP	_	_	5	comp:obl	_	_
 7	club	club	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
-8	du	du	ADP	_	_	7	mod	_	_
-9	O	O	X	_	_	8	comp:obj	_	SpaceAfter=No
-10	'	'	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	takey	takey	X	_	_	9	unk	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	8	punct	_	_
-13	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	15	punct	_	_
-15	après	après	ADV	_	_	4	mod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	4	punct	_	_
+8	du	du	ADP	_	_	7	udep	_	_
+9	O'Takey	O'Takey	PROPN	_	_	8	comp:obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	après	après	ADV	_	_	4	mod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
