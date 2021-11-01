@@ -107,7 +107,7 @@
 17	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_5
-# text = il me semble dans mon souvenir, il m'a ~ .
+# text = il me semble dans mon souvenir, il m'a ~.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 2	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	3	comp:obl	_	_
 3	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -277,7 +277,7 @@
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp:obl	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-5	~	~	PUNCT	_	_	4	goeswith	_	_
+5	~	~	PUNCT	_	_	4	unk@scrap	_	Typo=Yes
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	conj:dicto	_	_
 7	homme	homme	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
@@ -314,10 +314,10 @@
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_12
 # text = ~ fin d ~, de ce que j'ai compris, vu que, je suis pas une experte en anglais.
-1	~	~	X	_	_	2	goeswith	_	_
+1	~	~	X	_	_	2	unk@scrap	_	Typo=Yes
 2	fin	fin	ADV	_	_	3	discourse	_	_
 3	d	d	ADP	_	_	0	root	_	_
-4	~	~	X	_	_	3	goeswith	_	SpaceAfter=No
+4	~	~	X	_	_	3	unk@scrap	_	Typo=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	de	de	ADP	_	_	3	conj:dicto	_	_
 7	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	comp:obj	_	_
@@ -327,10 +327,10 @@
 11	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	mod	_	ExtPos=SCONJ|Idiom=Yes
-14	que	que	SCONJ	_	_	13	comp:obj	_	InIdiom=Yes
+14	que	que	SCONJ	_	_	13	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	_
-17	suis	suivre	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
+17	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
 18	pas	pas	ADV	_	_	17	mod	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	experte	expert	NOUN	_	Gender=Fem|Number=Sing	17	comp:pred	_	_
@@ -404,7 +404,7 @@
 45	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_15
-# text = et on est tombé aussi sur, euh, Lady Gaga, euh, version vieille, euh, qui, qui tremblait qui, qui était apeurée et, euh, qui avait l'air d' être un peu une sorcière, et tout, qui nous balançait des, des, des choses, euh, dessus.
+# text = et on est tombé aussi sur, euh, Lady Gaga, euh, version vieille, euh, qui, qui tremblait qui, qui était apeurée et, euh, qui avait l'air d'être un peu une sorcière, et tout, qui nous balançait des, des, des choses, euh, dessus.
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -425,7 +425,7 @@
 18	euh	euh	INTJ	_	_	23	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	qui	qui	PRON	_	PronType=Rel	23	subj	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	23	punct	_	_
+21	,	,	PUNCT	_	_	22	punct	_	_
 22	qui	qui	PRON	_	PronType=Rel	20	conj:dicto	_	_
 23	tremblait	trembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	mod@relcl	_	_
 24	qui	qui	PRON	_	PronType=Rel	27	subj	_	SpaceAfter=No
@@ -449,7 +449,7 @@
 42	sorcière	sorcière	NOUN	_	Gender=Fem|Number=Sing	38	comp:pred	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	45	punct	_	_
 44	et	et	CCONJ	_	_	45	cc	_	_
-45	tout	tout	PRON	_	Gender=Masc|Number=Sing	42	conj:conj	_	SpaceAfter=No
+45	tout	tout	PRON	_	Gender=Masc|Number=Sing	42	discourse	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	49	punct	_	_
 47	qui	qui	PRON	_	PronType=Rel	49	subj	_	_
 48	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	49	comp:obl	_	_
@@ -467,7 +467,7 @@
 60	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_16
-# text = et, euh, et, euh, ouais, qui nous disait d' être effrayés, et qu'il fallait qu'on fuie et cetera.
+# text = et, euh, et, euh, ouais, qui nous disait d'être effrayés, et qu'il fallait qu'on fuie et cetera.
 1	et	Et	CCONJ	_	_	13	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	5	punct	_	_
 3	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
@@ -493,5 +493,5 @@
 23	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	subj	_	_
 24	fuie	fuir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
 25	et	et	CCONJ	_	_	24	conj:coord	_	_
-26	cetera	cetera	ADV	_	_	25	goeswith:coord	_	SpaceAfter=No
+26	cetera	cetera	ADV	_	_	25	flat	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	13	punct	_	_
