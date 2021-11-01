@@ -20,7 +20,7 @@
 7	petite	petit	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
 8	main	main	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 9	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
-10	dépassait	dépassait	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	mod@relcl	_	_
+10	dépassait	dépasser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	mod@relcl	_	_
 11	du	du	ADP	_	_	10	comp:obl	_	_
 12	du	du	ADP	_	_	11	conj:dicto	_	_
 13	berceau	berceau	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	SpaceAfter=No
@@ -67,7 +67,7 @@
 # sent_id = ParisStories_2021_maintenantJeSais_6
 # text = elles sont belles, ses mains!
 1	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
-2	sont	sont	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	belles	beau	ADJ	_	Gender=Fem|Number=Plur	2	comp:pred	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	ses	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Prs	6	det	_	_
@@ -87,7 +87,7 @@
 9	voir	voir	VERB	_	VerbForm=Inf	8	comp:obj	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	reste	reste	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
-12	de	de	ADP	_	_	11	mod	_	_
+12	de	de	ADP	_	_	11	udep	_	_
 13	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
 14	petite	petit	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
 15	main	main	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
@@ -151,21 +151,25 @@
 
 # status = done
 # sent_id = ParisStories_2021_maintenantJeSais_11
-# text = et moi je faisais pareil, je disais tiens, elle m'observe. 
+# text = et moi je faisais pareil. 
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	4	dislocated	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	faisais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	pareil	pareil	ADV	_	_	4	mod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	8	punct	_	_
-7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
-8	disais	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	parataxis	_	_
-9	tiens	tiens	INTJ	_	_	13	discourse	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	9	punct	_	_
-11	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
-12	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	13	comp:obj	_	SpaceAfter=No
-13	observe	observer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	Reported=Yes
-14	.	.	PUNCT	_	_	4	punct	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_maintenantJeSais_11bis
+# text = je disais tiens, elle m'observe. 
+1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	disais	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	tiens	tiens	INTJ	_	_	7	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
+6	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	SpaceAfter=No
+7	observe	observer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	Reported=Yes
+8	.	.	PUNCT	_	_	2	punct	_	_
 
 # status = done
 # sent_id = ParisStories_2021_maintenantJeSais_12
@@ -262,7 +266,7 @@
 13	tien	tien	PRON	_	Person=3|PronType=Prs	11	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	1	punct	_	_
 15	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	subj	_	SpaceAfter=No
-16	était	était	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 17	quelque	quelque	DET	_	Number=Sing|PronType=Ind	18	det	_	_
 18	chose	chose	NOUN	_	Gender=Fem|Number=Sing	16	comp:pred	_	_
 19	de	de	ADP	_	_	18	mod	_	_
@@ -282,7 +286,7 @@
 33	ouais	ouais	INTJ	_	_	36	discourse	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	33	punct	_	_
 35	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	36	subj	_	SpaceAfter=No
-36	est	est	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	parataxis:parenth	_	_
+36	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	parataxis:parenth	_	_
 37	vraiment	vraiment	ADV	_	_	36	mod	_	_
 38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	mot	mot	NOUN	_	Gender=Masc|Number=Sing	36	comp:pred	_	_
@@ -313,7 +317,7 @@
 15	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	17	det	_	_
 16	deux	deux	NUM	_	Number=Plur	17	mod	_	_
 17	vies	vie	NOUN	_	Gender=Fem|Number=Plur	18	subj	_	_
-18	seraient	seraient	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
+18	seraient	être	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
 19	plus	plus	ADV	_	_	20	mod	_	_
 20	jamais	jamais	ADV	_	_	18	mod	_	_
 21	pareilles	pareille	ADJ	_	Gender=Fem|Number=Plur	18	comp:pred	_	SpaceAfter=No
@@ -342,7 +346,7 @@
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_maintenantJeSais_22
-# text = j'ai compris que tu étais, euh, Marina, et que, moi, j' étais Vanessa, et que, euh, nos vies allaient être complètement atypiques, uniques, et qu'elles ne ressembleraient à aucune autre vie, euh, de relation mère fille, tu vois? 
+# text = j'ai compris que tu étais, euh, XXX, et que, moi, j' étais XXX, et que, euh, nos vies allaient être complètement atypiques, uniques, et qu'elles ne ressembleraient à aucune autre vie, euh, de relation mère fille, tu vois? 
 1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	_	0	root	_	_
 3	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
@@ -352,7 +356,7 @@
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	Marina	Marina	PROPN	_	_	6	comp:pred	_	SpaceAfter=No
+10	XXX	XXX	PROPN	_	_	6	comp:pred	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	que	que	SCONJ	_	_	4	conj:coord	_	SpaceAfter=No
@@ -361,7 +365,7 @@
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	18	subj	_	SpaceAfter=No
 18	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	comp:obj	_	_
-19	Vanessa	Vanessa	PROPN	_	_	18	comp:pred	_	SpaceAfter=No
+19	XXX	XXX	PROPN	_	_	18	comp:pred	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	que	que	SCONJ	_	_	13	conj:coord	_	SpaceAfter=No
@@ -450,7 +454,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	conj:dicto	_	_
 6	qui	qui	PRON	_	PronType=Rel	7	subj	_	_
-7	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
 8	affreux	affreux	ADJ	_	Gender=Masc	7	comp:pred	_	_
 9	quand	quand	ADV	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes
 10	même	même	ADV	_	Number=Sing	9	unk	_	InIdiom=Yes
@@ -501,6 +505,6 @@
 4	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 6	doigts	doigt	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
-7	de	de	ADP	_	_	6	mod	_	_
+7	de	de	ADP	_	_	6	udep	_	_
 8	pianiste	pianiste	NOUN	_	Number=Sing	7	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
