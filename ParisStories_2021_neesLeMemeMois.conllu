@@ -70,7 +70,7 @@
 16	dix	dix	NUM	_	Number=Plur	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	parce	parce	SCONJ	_	_	11	mod	_	ExtPos=SCONJ|Idiom=Yes
-19	que	que	SCONJ	_	_	18	unk	_	InIdiom=Yes
+19	que	que	SCONJ	_	_	18	unk	_	InIdiom=Yes|SpaceAfter=No
 20	,	,	PUNCT	_	_	27	punct	_	_
 21	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	27	dislocated	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
@@ -78,7 +78,7 @@
 24	coup	coup	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	23	punct	_	_
 26	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	27	subj@pass	_	_
-27	suis	suivre	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	comp:obj	_	_
+27	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	comp:obj	_	_
 28	arrivée	arriver	VERB	_	Gender=Fem|Number=Sing	27	comp:aux	_	_
 29	dans	dans	ADP	_	_	28	mod	_	_
 30	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	31	det	_	_
@@ -351,13 +351,13 @@
 # speaker = L2
 # text = on goûtait.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
-2	goûtait	goûter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AttachTo=2@ParisStories_2021_neesLeMemeMois_16|Rel=mod@relcl
+2	goûtait	goûter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AttachTo=2@ParisStories_2021_neesLeMemeMois_16|Rel=mod@relcl|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_17
 # text = qu'est - ce qu'on faisait?
 1	qu'	qu'	PRON	_	Person=3|PronType=Int	2	comp:pred	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	-	-	PUNCT	_	_	4	punct	_	_
 4	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	subj	_	_
 5	qu'	qu'	SCONJ	_	_	7	comp:obj	_	SpaceAfter=No
@@ -383,14 +383,14 @@
 3	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
 4	shootings	shootings	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
 5	photos	photo	NOUN	_	Gender=Fem|Number=Plur	4	compound	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	9	punct	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
 7	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	voilà	voilà	VERB	_	_	5	parataxis:discourse	_	SpaceAfter=No
+9	voilà	voilà	VERB	_	_	5	discourse	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_20
-# macrosyntax = on s'entendait très bien, jusqu' à un moment où euh, on s'est pris la tête, et on se rappelle plus, euh, [ pourquoi ] ni pourquoi, ni comment on s'est reparlé.
+# macrosyntax = on s'entendait très bien, jusqu'à un moment où euh, on s'est pris la tête, et on se rappelle plus, euh, [ pourquoi ] ni pourquoi, ni comment on s'est reparlé.
 # speaker = L1
 # text = on s'entendait très bien, jusqu' à un moment où euh, on s'est pris la tête, et on se rappelle plus, euh, ni pourquoi, ni comment on s'est reparlé.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
@@ -427,7 +427,7 @@
 32	ni	ni	CCONJ	_	_	36	cc	_	_
 33	comment	comment	ADV	_	_	36	mod	_	_
 34	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	36	subj@pass	_	_
-35	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	36	comp:aux	_	SpaceAfter=No
+35	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	36	comp	_	SpaceAfter=No
 36	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	conj:coord	_	_
 37	reparlé	reparler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	comp:aux@pass	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	3	punct	_	_
@@ -436,7 +436,7 @@
 # macrosyntax = on s'entendait très bien, jusqu' à un moment où euh, on s'est pris la tête, et on se rappelle plus, euh, [ pourquoi ] ni pourquoi, ni comment on s'est reparlé.
 # speaker = L2
 # text = pourquoi.
-1	pourquoi	pourquoi	ADV	_	_	0	root	_	AttachTo=24@ParisStories_2021_neesLeMemeMois_20|Rel=comp:obj
+1	pourquoi	pourquoi	ADV	_	_	0	root	_	AttachTo=24@ParisStories_2021_neesLeMemeMois_20|Rel=comp:obj|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_21
@@ -464,7 +464,7 @@
 2	voilà	voilà	VERB	_	_	5	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
-5	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	faire	faire	VERB	_	VerbForm=Inf	5	comp:aux	_	_
 7	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
@@ -497,7 +497,7 @@
 # text = on a, euh, bientôt vingt, et, euh, bientôt vingt - et - un.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	7	punct	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
 4	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	bientôt	bientôt	ADV	_	_	7	mod	_	_
@@ -508,9 +508,9 @@
 11	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	9	punct	_	_
 13	bientôt	bientôt	ADV	_	_	14	mod	_	_
-14	vingt	vingt	NUM	_	Number=Plur	9	mod	_	SpaceAfter=No
+14	vingt	vingt	NUM	_	Number=Plur	9	mod	_	_
 15	-	-	PUNCT	_	_	16	punct	_	_
-16	et	et	CCONJ	_	_	18	unk	_	SpaceAfter=No
+16	et	et	CCONJ	_	_	18	unk	_	_
 17	-	-	PUNCT	_	_	16	punct	_	_
 18	un	un	NUM	_	_	14	conj:dicto	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
