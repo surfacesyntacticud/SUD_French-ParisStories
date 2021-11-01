@@ -5,7 +5,7 @@
 3	enfin	enfin	ADV	_	_	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	SpaceAfter=No
-6	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	ouf	ouf	ADJ	_	Gender=Masc|Number=Sing	6	comp:pred	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	genre	genre	NOUN	_	Gender=Masc|Number=Sing	12	discourse	_	SpaceAfter=No
@@ -85,7 +85,7 @@
 13	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
-16	pétait	pétait	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj:coord	_	_
+16	pétait	péter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj:coord	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	plomb	plomb	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	_	_
@@ -317,8 +317,8 @@
 4	ouais	ouais	INTJ	_	_	8	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
-7	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	comp:obj	_	InIdiom=Yes
-8	méfie	méfier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AttachTo=3@ParisStories_2021_loulouLeChat_18bis|Rel=conj:dicto|ExtPos=VERB|Idiom=Yes
+7	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	comp:obj	_	_
+8	méfie	méfier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AttachTo=3@ParisStories_2021_loulouLeChat_18bis|Rel=conj:dicto
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # status = done
@@ -327,8 +327,8 @@
 # macrosyntax =donc euh, [ il se méfie ] ouais, il se méfie.
 # text = il se méfie.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
-2	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	comp	_	InIdiom=Yes
-3	méfie	méfier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
+2	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	comp	_	_
+3	méfie	méfier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # status = done
@@ -409,10 +409,10 @@
 # sent_id = ParisStories_2021_loulouLeChat_25
 # text = il est, il est tout mignon.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
-2	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
-5	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
 6	tout	tout	ADV	_	_	7	mod	_	_
 7	mignon	mignon	ADJ	_	Gender=Masc|Number=Sing	5	comp:pred	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
@@ -463,11 +463,11 @@
 10	dans	dans	ADP	_	_	9	comp:obl	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	salle	salle	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
-13	de	de	ADP	_	_	12	mod	_	_
+13	de	de	ADP	_	_	12	udep	_	_
 14	bain	bain	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj	_	_
-17	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	à	à	ADP	_	_	17	comp:pred	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	porte	porte	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
@@ -485,7 +485,7 @@
 # sent_id = ParisStories_2021_loulouLeChat_30
 # text = il est grave mignon. 
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
-2	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	grave	grave	ADV	_	_	4	mod	_	_
 4	mignon	mignon	ADJ	_	Gender=Masc|Number=Sing	2	conj:pred	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
@@ -515,10 +515,10 @@
 # sent_id = ParisStories_2021_loulouLeChat_32
 # text = c'est un truc de ouf, insupportable.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
-2	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	truc	truc	NOUN	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
-5	de	de	ADP	_	_	4	mod	_	_
+5	de	de	ADP	_	_	4	udep	_	_
 6	ouf	ouf	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	insupportable	insupportable	ADJ	_	Number=Sing	4	mod	_	SpaceAfter=No
@@ -527,7 +527,7 @@
 # sent_id = ParisStories_2021_loulouLeChat_33
 # text = on est sans arrêt en train de nettoyer derrière lui, euh. 
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
-2	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sans	sans	ADP	_	_	2	mod	_	_
 4	arrêt	arrêt	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 5	en	en	ADP	_	_	2	comp:pred	_	_
@@ -545,7 +545,7 @@
 1	Fabrice	Fabrice	PROPN	_	_	4	dislocated	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
-4	pète	pète	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	pète	péter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 6	câble	câble	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
@@ -561,7 +561,7 @@
 3	enfin	enfin	ADV	_	_	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	SpaceAfter=No
-6	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	ouf	ouf	ADJ	_	Gender=Masc|Number=Sing	6	comp:pred	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	SpaceAfter=No
@@ -656,11 +656,11 @@
 3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	SpaceAfter=No
-6	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	petit	petit	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
 9	bébé	bébé	NOUN	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
-10	de	de	ADP	_	_	9	mod	_	_
+10	de	de	ADP	_	_	9	udep	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	maison	maison	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
@@ -686,9 +686,9 @@
 3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	SpaceAfter=No
-6	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	subj	_	SpaceAfter=No
-9	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	_
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	_
 10	dingue	dingue	ADJ	_	Number=Sing	9	comp:pred	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
