@@ -75,7 +75,7 @@
 11	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	5	punct	_	_
 13	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	subj	_	_
-14	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	16	comp:obj	_	_
+14	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	16	comp	_	_
 15	suis	suivre	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	inscrit	inscrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux	_	_
 17	en	en	ADP	_	_	16	comp:obl	_	_
@@ -135,7 +135,7 @@
 4	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
-7	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp:obj	_	_
+7	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	9	comp	_	_
 8	suis	suivre	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	inscrit	inscrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux	_	_
 10	en	en	ADP	_	_	9	comp:obl	_	_
@@ -407,7 +407,7 @@
 13	salle	salle	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	9	punct	_	_
 15	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	_
-16	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	17	comp:obj	_	_
+16	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	17	comp	_	_
 17	rends	rendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:coord	_	_
 18	compte	compte	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj@lvc	_	_
 19	que	que	SCONJ	_	_	17	comp:obl	_	SpaceAfter=No
@@ -417,7 +417,7 @@
 23	salle	salle	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	21	punct	_	_
 25	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	27	subj	_	_
-26	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	27	comp:obj	_	_
+26	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	27	comp	_	_
 27	rends	rendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	conj:dicto	_	_
 28	compte	compte	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj@lvc	_	_
 29	qu'	qu'	SCONJ	_	_	27	comp:obl	_	SpaceAfter=No
@@ -454,7 +454,7 @@
 # text = et je me rends compte qu'en fait tout le monde l'ignore.
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-3	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	4	unk:iobj	_	_
+3	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	comp	_	_
 4	rends	rendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	compte	compte	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 6	qu'	qu'	SCONJ	_	_	4	comp:obj	_	SpaceAfter=No
@@ -498,7 +498,7 @@
 9	quelqu'	quelqu'	DET	_	Number=Sing	10	det	_	SpaceAfter=No
 10	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	comp:obj	_	_
 11	qui	qui	PRON	_	PronType=Rel	13	subj	_	_
-12	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	unk:obj	_	SpaceAfter=No
+12	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	comp	_	SpaceAfter=No
 13	arrête	arrête	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
 14	pour	pour	ADP	_	_	13	mod	_	_
 15	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	comp:obl	_	_
@@ -758,9 +758,9 @@
 # text = et il s'est retrouvé à la rue. 
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
-3	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+3	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp	_	SpaceAfter=No
 4	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	retrouvé	retrouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	ExtPos=VERB|Idiom=Yes
+5	retrouvé	retrouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	rue	rue	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	SpaceAfter=No
@@ -773,8 +773,8 @@
 3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	qu'	qu'	SCONJ	_	_	3	comp:obj	_	SpaceAfter=No
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
-6	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp	_	InIdiom=Yes|SpaceAfter=No
-7	appelait	appelait	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	comp:obj	_	ExtPos=VERB|Idiom=Yes
+6	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp	_ SpaceAfter=No
+7	appelait	appelait	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	comp:obj	_	_
 8	XXX	XXX	PROPN	_	_	7	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
