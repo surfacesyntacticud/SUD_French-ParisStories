@@ -9,7 +9,7 @@
 7	savoir	savoir	VERB	_	VerbForm=Inf	6	comp:pred	_	_
 8	que	que	SCONJ	_	_	7	comp:obj	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	SpaceAfter=No
-10	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	10	comp:pred	_	_
 13	qui	qui	PRON	_	PronType=Rel	14	subj	_	_
@@ -35,7 +35,7 @@
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	16	comp:obj	_	_
-16	connaissait	connaissait	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj:coord	_	_
+16	connaissait	connaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj:coord	_	_
 17	relativement	relativement	ADV	_	_	18	mod	_	_
 18	bien	bien	ADV	_	_	16	mod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	_	_
@@ -153,7 +153,7 @@
 12	comment	comment	ADV	_	_	15	mod	_	_
 13	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	15	subj	_	_
 14	t'	se	PRON	_	Number=Sing|Person=2|PronType=Prs|Reflex=Yes	15	comp:obj	_	SpaceAfter=No
-15	appelles	appelles	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+15	appelles	appeler	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	conj:appos	_	SpaceAfter=No
 16	?	?	PUNCT	_	_	15	punct	_	_
 
 # sent_id = ParisStories_2021_nouveauxEleves_8
@@ -170,7 +170,7 @@
 2	cetera	cetera	ADV	_	_	1	flat	_	_
 3	et	et	CCONJ	_	_	5	cc	_	_
 4	Sélim	Sélim	PROPN	_	_	5	subj	_	_
-5	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	venu	venir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
 7	vers	vers	ADP	_	_	6	comp:obl	_	_
 8	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	SpaceAfter=No
@@ -189,7 +189,7 @@
 21	auxquelles	auxquelles	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	24	comp:obj	_	_
 22	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	23	subj	_	SpaceAfter=No
 23	ai	avoir	AUX	_	_	19	mod@relcl	_	_
-24	répondu	répondu	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux	_	SpaceAfter=No
+24	répondu	répondre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	5	punct	_	_
 
 # status = done
@@ -240,7 +240,7 @@
 30	qu'	qu'	SCONJ	_	_	19	conj:coord	_	SpaceAfter=No
 31	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	subj	_	_
 32	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	comp:obj	_	_
-33	déménagé	déménagé	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	comp:aux	_	_
+33	déménagé	déménager	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	comp:aux	_	_
 34	et	et	CCONJ	_	_	35	cc	_	_
 35	qu'	qu'	SCONJ	_	_	33	conj:coord	_	SpaceAfter=No
 36	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	subj	_	_
@@ -266,7 +266,7 @@
 56	,	,	PUNCT	_	_	57	punct	_	_
 57	euh	euh	INTJ	_	_	55	discourse	_	SpaceAfter=No
 58	,	,	PUNCT	_	_	59	punct	_	_
-59	de	de	ADP	_	_	55	mod	_	_
+59	de	de	ADP	_	_	55	udep	_	_
 60	Rhônes	Rhônes	PROPN	_	_	59	comp:obj	_	_
 61-62	-	-	PUNCT	_	_	_	_	_	_
 62	-Alpes	Alpes	PROPN	_	_	60	flat	_	_
@@ -363,7 +363,7 @@
 27	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	comp:obj	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	nom	nom	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
-30	de	de	ADP	_	_	29	mod	_	_
+30	de	de	ADP	_	_	29	udep	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	ville	ville	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	10	punct	_	_
@@ -379,7 +379,7 @@
 # sent_id = ParisStories_2021_nouveauxEleves_16
 # text = c'est vraiment une petite ville perdue.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
-2	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	vraiment	vraiment	ADV	_	_	2	mod	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	petite	petit	ADJ	_	Gender=Fem|Number=Sing	6	mod	_	_
@@ -390,7 +390,7 @@
 # sent_id = ParisStories_2021_nouveauxEleves_17
 # text = c'est entre Lyon et Grenoble.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
-2	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	entre	entre	ADP	_	_	2	comp:pred	_	_
 4	Lyon	Lyon	PROPN	_	_	3	comp:obj	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
@@ -404,10 +404,10 @@
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	SpaceAfter=No
-6	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	subj	_	SpaceAfter=No
-9	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	_
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	_
 10	pas	pas	ADV	_	_	9	mod	_	_
 11	possible	possible	ADJ	_	Number=Sing	9	comp:pred	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
@@ -433,14 +433,14 @@
 12	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	subj	_	SpaceAfter=No
-15	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	Reported=Yes
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	Reported=Yes
 16	pas	pas	ADV	_	_	15	mod	_	_
 17	grave	grave	ADJ	_	Number=Sing	15	comp:pred	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	22	punct	_	_
 19	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	subj	_	SpaceAfter=No
-22	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj:coord	_	_
+22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj:coord	_	_
 23	juste	juste	ADV	_	_	24	mod	_	_
 24	comme	comme	ADP	_	_	22	comp:pred	_	_
 25	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	24	comp:obj	_	SpaceAfter=No
@@ -610,7 +610,7 @@
 20	,	,	PUNCT	_	_	23	punct	_	_
 21	pourquoi	pourquoi	ADV	_	_	23	mod	_	_
 22	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	23	subj	_	_
-23	connais	connais	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
+23	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
 24	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
 25	ville	ville	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	19	punct	_	_
