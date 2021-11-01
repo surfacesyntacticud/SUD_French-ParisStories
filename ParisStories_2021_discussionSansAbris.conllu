@@ -7,8 +7,8 @@
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	en	en	ADP	_	_	19	mod	_	_
 7	deux	deux	NUM	_	Number=Plur	6	comp:obj	_	_
-8	mille	mille	NUM	_	_	7	flat@num	_	_
-9	seize	seize	NUM	_	_	8	flat@num	_	SpaceAfter=No
+8	mille	mille	NUM	_	_	7	flat	_	_
+9	seize	seize	NUM	_	_	8	flat	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	6	punct	_	_
 11	quand	quand	SCONJ	_	_	19	mod	_	_
 12	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	subj	_	SpaceAfter=No
@@ -24,7 +24,7 @@
 22	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	19	comp:obj	_	_
 23	que	que	PRON	_	PronType=Rel	26	comp:obj	_	_
 24	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	25	subj	_	_
-25	voulais	vouloir	AUX	_	_	22	mod@relcl	_	_
+25	voulais	vouloir	VERB	_	_	22	mod@relcl	_	_
 26	faire	faire	VERB	_	VerbForm=Inf	25	comp:aux	_	_
 27	comme	comme	ADP	_	_	26	mod	_	_
 28	études	étude	NOUN	_	Gender=Fem|Number=Plur	27	comp:obj	_	SpaceAfter=No
@@ -38,7 +38,7 @@
 4	savais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	que	que	SCONJ	_	_	4	comp:obj	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
-7	voulais	vouloir	AUX	_	_	5	comp:obj	_	_
+7	voulais	vouloir	VERB	_	_	5	comp:obj	_	_
 8	faire	faire	VERB	_	VerbForm=Inf	7	comp:aux	_	_
 9	professeur	professeur	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	des	des	ADP	_	_	9	mod	_	_
@@ -55,7 +55,7 @@
 21	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	18	comp:obj	_	_
 22	que	que	PRON	_	PronType=Rel	25	comp:obj	_	_
 23	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	24	subj	_	_
-24	voulais	vouloir	AUX	_	_	21	mod@relcl	_	_
+24	voulais	vouloir	VERB	_	_	21	mod@relcl	_	_
 25	faire	faire	VERB	_	VerbForm=Inf	24	comp:aux	_	_
 26	avant	avant	ADV	_	_	24	mod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	4	punct	_	_
@@ -76,7 +76,7 @@
 12	,	,	PUNCT	_	_	5	punct	_	_
 13	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	subj	_	_
 14	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	16	comp	_	_
-15	suis	suivre	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	inscrit	inscrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux	_	_
 17	en	en	ADP	_	_	16	comp:obl	_	_
 18	licence	licence	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
@@ -91,7 +91,7 @@
 27	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = ParisStories_2021_discussionSansAbris_4
-# text = donc, c' était pas forcément, enfin, j'avais pas forcément une attirance spéciale pour l'espagnol.
+# text = donc, c'était pas forcément, enfin, j'avais pas forcément une attirance spéciale pour l'espagnol.
 1	donc	donc	ADV	_	_	4	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	SpaceAfter=No
@@ -136,7 +136,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
 7	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	9	comp	_	_
-8	suis	suivre	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	inscrit	inscrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux	_	_
 10	en	en	ADP	_	_	9	comp:obl	_	_
 11	espagnol	espagnol	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
@@ -149,14 +149,14 @@
 3	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
-6	suis	suivre	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
 9	Paris	Paris	PROPN	_	_	8	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2021_discussionSansAbris_8
-# text = donc, c' était la première fois, pas la première fois, mais peut être l'une des premières fois où, où j'arrivais à Paris.
+# text = donc, c'était la première fois, pas la première fois, mais peut être l'une des premières fois où, où j'arrivais à Paris.
 1	donc	donc	ADV	_	_	4	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	SpaceAfter=No
@@ -277,7 +277,7 @@
 30	d'	d'	ADP	_	_	29	comp:obl	_	SpaceAfter=No
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	bac	bac	NOUN	_	Gender=Masc|Number=Sing	30	comp:obj	_	ExtPos=NOUN|Idiom=Yes
-33	S	S	PROPN	_	_	32	mod	_	InIdiom=Yes
+33	S	S	PROPN	_	_	32	mod	_	InIdiom=Yes|SpaceAfter=No
 34	.	.	PUNCT	_	_	13	punct	_	_
 
 # status = done
@@ -290,7 +290,7 @@
 3	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	énormément	énormément	ADV	_	_	3	comp:obj	_	_
 5	de	de	ADP	_	_	4	comp:obl	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	15	punct	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
 7	de	de	ADP	_	_	5	conj:dicto	_	_
 8	lacunes	lacune	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
@@ -309,7 +309,7 @@
 # text = ah, oui, d'accord.
 1	ah	ah	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	oui	oui	INTJ	_	_	0	root	_	AttachTo=3@ParisStories_2021_discussionSansAbris_13|Rel=discourse
+3	oui	oui	INTJ	_	_	0	root	_	AttachTo=3@ParisStories_2021_discussionSansAbris_13|Rel=discourse|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	d'	d'	ADP	_	_	3	conj:dicto	_	SpaceAfter=No
 6	accord	accord	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
