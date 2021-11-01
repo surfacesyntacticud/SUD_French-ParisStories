@@ -11,7 +11,7 @@
 9	te	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	10	comp:obl	_	_
 10	raconter	raconter	VERB	_	VerbForm=Inf	8	comp:obj@x	_	_
 11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	SpaceAfter=No
-12	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
@@ -31,8 +31,8 @@
 29	actuelle	actuel	ADJ	_	Gender=Fem|Number=Sing	28	mod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	33	punct	_	_
 31	qui	qui	PRON	_	PronType=Rel	33	subj	_	_
-32	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	33	comp	_	InIdiom=Yes|SpaceAfter=No
-33	appelle	appelle	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	mod@relcl	_	ExtPos=VERB|Idiom=Yes
+32	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	33	comp	_	SpaceAfter=No
+33	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	mod@relcl	_	_
 34	Cynthia	Cynthia	PROPN	_	_	33	comp:obj	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -201,7 +201,7 @@
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	que	que	SCONJ	_	_	11	mod	_	_
 21	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	22	subj	_	_
-22	soit	soit	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
+22	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
 23	dans	dans	ADP	_	_	22	comp:pred	_	_
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
 25	avion	avion	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
@@ -297,7 +297,7 @@
 32	trois	trois	NUM	_	_	33	mod	_	_
 33	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	34	mod	_	_
 34	jours	jours	NOUN	_	Gender=Masc|Number=Plur	27	comp:obj	_	_
-35	de	de	ADP	_	_	34	comp	_	_
+35	de	de	ADP	_	_	34	udep	_	_
 36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	rentrée	rentrée	NOUN	_	Gender=Fem|Number=Sing	35	comp:obj	_	_
 38	parce	parce	SCONJ	_	_	26	mod	_	_
@@ -323,7 +323,7 @@
 58	affecter	affecter	VERB	_	VerbForm=Inf	56	comp:obj	_	_
 59	au	au	ADP	_	_	58	comp:obl	_	_
 60	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	59	comp:obj	_	_
-61	du	du	ADP	_	_	60	comp	_	_
+61	du	du	ADP	_	_	60	udep	_	_
 62	quartier	quartier	NOUN	_	Gender=Masc|Number=Sing	61	comp:obj	_	SpaceAfter=No
 63	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -346,7 +346,7 @@
 4	raté	rater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
 5	déjà	déjà	ADV	_	_	3	mod	_	_
 6	trop	trop	ADV	_	_	4	comp:obj	_	_
-7	de	de	ADP	_	_	6	comp	_	_
+7	de	de	ADP	_	_	6	udep	_	_
 8	cours	cours	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	donc	donc	ADV	_	_	13	cc	_	_
@@ -363,23 +363,27 @@
 
 # status = done
 # sent_id = ParisStories_2021_prenomDeVieille_15
-# text = donc j'étais la nouvelle, euh, tout le monde me posait des questions. 
+# text = donc j'étais la nouvelle, euh. 
 1	donc	donc	ADV	_	_	3	discourse	_	_
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
 3	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	nouvelle	nouvelle	NOUN	_	Gender=Fem|Number=Sing	3	comp:pred	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	13	punct	_	_
-7	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
-9	tout	tout	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	monde	monde	NOUN	_	Gender=Masc|Number=Sing	13	subj	_	_
-12	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	13	comp:obl	_	_
-13	posait	poser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	parataxis	_	_
-14	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
-15	questions	question	NOUN	_	Gender=Fem|Number=Plur	13	comp:obj	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	3	punct	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_prenomDeVieille_15bis
+# text = tout le monde me posait des questions.
+1	tout	tout	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	monde	monde	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
+4	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obl	_	_
+5	posait	poser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+7	questions	question	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
 
 # status = done
 # sent_id = ParisStories_2021_prenomDeVieille_16
@@ -495,7 +499,7 @@
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
 7	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	_
-8	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
+8	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj	_	_
 11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	parataxis:parenth	_	_
@@ -602,12 +606,12 @@
 4	ai	avoir	AUX	_	_	0	root	_	_
 5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	SpaceAfter=No
-7	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Reported=Yes
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Reported=Yes
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
 9	peu	peu	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	ExtPos=ADV|Idiom=Yes
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	prénom	prénom	NOUN	_	Gender=Masc|Number=Sing	7	comp:pred	_	_
-12	de	de	ADP	_	_	11	mod	_	_
+12	de	de	ADP	_	_	11	udep	_	_
 13	vieille	vieux	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
 14	!	!	PUNCT	_	_	4	punct	_	_
 
@@ -618,7 +622,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 5	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	comp:obj	_	SpaceAfter=No
-6	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	vraiment	vraiment	ADV	_	_	6	mod	_	_
 8	vexée	vexer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
@@ -630,7 +634,7 @@
 3	n'	n'	ADV	_	_	4	mod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	_	4	mod	_	_
-6	été	été	AUX	_	_	4	comp:aux	_	_
+6	été	être	AUX	_	_	4	comp:aux	_	_
 7	amies	amie	ADJ	_	Gender=Masc|Number=Plur	6	comp:pred	_	_
 8	tout	tout	ADV	_	_	9	mod	_	_
 9	de	de	ADP	_	_	4	mod	_	_
@@ -683,7 +687,7 @@
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj@pass	_	_
 14	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	16	comp:obj	_	SpaceAfter=No
-15	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	rapprochées	rapprocher	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	comp:aux@pass	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -692,7 +696,7 @@
 1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|Idiom=Yes
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
-4	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	devenues	devenir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	comp:aux	_	_
 6	amies	amie	NOUN	_	Gender=Masc|Number=Plur	5	comp:pred	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
@@ -716,7 +720,7 @@
 6	actuelle	actuel	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
-9	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	toujours	toujours	ADV	_	_	9	mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
@@ -732,7 +736,7 @@
 22	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	prénom	prénom	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
-25	de	de	ADP	_	_	24	mod	_	_
+25	de	de	ADP	_	_	24	udep	_	_
 26	vieille	vieux	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -788,7 +792,7 @@
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	13	subj	_	_
 12	ne	ne	ADV	_	_	13	mod	_	_
-13	détermine	détermine	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	détermine	déterminer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	pas	pas	ADV	_	_	13	mod	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	façon	façon	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
@@ -819,9 +823,9 @@
 
 # sent_id = ParisStories_2021_prenomDeVieille_41
 # text = voilà, c'est tout.
-1	voilà	voilà	VERB	_	_	4	parataxis:discourse	_	SpaceAfter=No
+1	voilà	voilà	VERB	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	SpaceAfter=No
-4	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	tout	tout	PRON	_	Gender=Masc|Number=Sing	4	comp:pred	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
