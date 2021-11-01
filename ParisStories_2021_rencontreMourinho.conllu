@@ -22,7 +22,7 @@
 # text = donc ils sont sortis avec leurs voitures. 
 1	donc	donc	ADV	_	_	3	mod	_	_
 2	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
-3	sont	sont	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	sortis	sortir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	comp:aux	_	_
 5	avec	avec	ADP	_	_	4	mod	_	_
 6	leurs	son	DET	_	Gender=Masc|Number=Plur	7	det	_	_
@@ -32,7 +32,7 @@
 # sent_id = ParisStories_2021_rencontreMourinho_3
 # text = ils sont sortis avec leurs voitures. 
 1	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
-2	sont	sont	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sortis	sortir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux	_	_
 4	avec	avec	ADP	_	_	3	mod	_	_
 5	leurs	son	DET	_	Gender=Masc|Number=Plur	6	det	_	_
@@ -46,7 +46,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	subj	_	_
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	été	été	AUX	_	_	5	comp:aux	_	_
+6	été	être	AUX	_	_	5	comp:aux	_	_
 7	super	super	ADV	_	_	8	mod	_	_
 8	sympas	sympas	ADV	_	Number=Plur	6	comp:pred	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
@@ -55,9 +55,9 @@
 # text = ils se sont tous arrêtés. 
 1	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
 2	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp	_	_
-3	sont	sont	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	tous	tous	PRON	_	Gender=Masc|Number=Plur	3	mod	_	_
-5	arrêtés	arrêtés	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	comp:aux	_	SpaceAfter=No
+5	arrêtés	arrêter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	comp:aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_6
@@ -68,8 +68,8 @@
 4	premier	premier	ADJ	_	Gender=Masc|Number=Sing	13	dislocated	_	_
 5	qui	qui	PRON	_	PronType=Rel	7	subj@pass	_	_
 6	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	unk:obj	_	SpaceAfter=No
-7	est	est	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
-8	arrêté	arrêté	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	SpaceAfter=No
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
+8	arrêté	arrêter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	4	punct	_	_
@@ -222,7 +222,7 @@
 9	pour	pour	ADP	_	_	7	conj:dicto	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	fans	fan	NOUN	_	Number=Plur	9	comp:obj	_	_
-12	du	du	ADP	_	_	11	comp	_	_
+12	du	du	ADP	_	_	11	udep	_	_
 13	début	début	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	donc	donc	ADV	_	_	16	cc	_	_
@@ -309,7 +309,7 @@
 18	où	où	PRON	_	PronType=Rel	35	mod	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	35	dislocated	_	_
-21	du	du	ADP	_	_	20	comp	_	_
+21	du	du	ADP	_	_	20	udep	_	_
 22	Portugal	Portugal	PROPN	_	_	21	comp:obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
@@ -319,7 +319,7 @@
 28	où	où	PRON	_	PronType=Rel	18	conj:dicto	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	20	conj:dicto	_	_
-31	du	du	ADP	_	_	30	comp	_	_
+31	du	du	ADP	_	_	30	udep	_	_
 32	Portugal	Portugal	PROPN	_	_	31	comp:obj	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	20	punct	_	_
 34	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	subj	_	_
@@ -532,7 +532,7 @@
 11	s'	s'	SCONJ	_	_	4	discourse	_	SpaceAfter=No
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj@expl	_	_
 13	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	14	comp:obl	_	_
-14	plaît	plaît	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	SpaceAfter=No
+14	plaît	plaire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	SpaceAfter=No
 15	?	?	PUNCT	_	_	4	punct	_	_
 
 # status = done
@@ -610,7 +610,7 @@
 5	sur	sur	ADP	_	_	3	mod	_	_
 6	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	7	det	_	_
 7	coque	coque	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
-8	de	de	ADP	_	_	7	comp	_	_
+8	de	de	ADP	_	_	7	udep	_	_
 9	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	et	et	CCONJ	_	_	11	cc	_	_
 11	sur	sur	ADP	_	_	7	conj:coord	_	_
@@ -695,7 +695,7 @@
 11	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	peu	peu	NOUN	_	Gender=Masc|Number=Sing	14	mod	_	_
-14	dégoutés	dégoutés	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	comp:pred	_	SpaceAfter=No
+14	dégoutés	dégouter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	comp:pred	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	parce	parce	SCONJ	_	_	11	mod	_	ExtPos=SCONJ|Idiom=Yes
 17	que	que	SCONJ	_	_	16	unk	_	InIdiom=Yes
@@ -712,7 +712,7 @@
 28	et	et	CCONJ	_	_	54	cc	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	temps	temps	NOUN	_	Gender=Masc	54	mod	_	_
-31	de	de	ADP	_	_	30	comp	_	_
+31	de	de	ADP	_	_	30	udep	_	_
 32	faire	faire	VERB	_	VerbForm=Inf	31	comp:obj	_	_
 33	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	35	det	_	_
 34	cinq	cinq	NUM	_	_	35	det	_	_
