@@ -237,13 +237,14 @@
 9	pour	pour	ADP	_	_	7	conj:dicto	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	fans	fan	NOUN	_	Number=Plur	9	comp:obj	_	_
-12	du	du	ADP	_	_	11	udep	_	_
-13	début	début	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	16	punct	_	_
-15	donc	donc	ADV	_	_	16	cc	_	_
-16	pour	pour	ADP	_	_	9	conj:dicto	_	_
-17	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	16	comp:obj	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	5	punct	_	_
+12	de	de	ADP	_	_	11	udep	_	wordform=du
+13	le	le	DET	_	_	14	det	_	_
+14	début	début	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	donc	donc	ADV	_	_	17	cc	_	_
+17	pour	pour	ADP	_	_	9	conj:dicto	_	_
+18	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	17	comp:obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
 
 # status = todo
 # sent_id = ParisStories_2021_rencontreMourinho_16
@@ -304,8 +305,8 @@
 16	faim	faim	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = ParisStories_2021_rencontreMourinho_19_0
 # status = done
-# sent_id = ParisStories_2021_rencontreMourinho_19
 # text = il devait être épuisé de l'entraînement, et cetera et donc là, arrive le moment où le joueur du Portugal, euh, Mourinho, où le joueur du Portugal, il arrive et tout.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	_
@@ -324,27 +325,73 @@
 14	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	moment	moment	NOUN	_	Gender=Masc|Number=Sing	14	subj	_	_
-17	où	où	PRON	_	PronType=Rel	34	mod	_	_
+17	où	où	PRON	_	PronType=Rel	36	mod	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	34	dislocated	_	_
-20	du	du	ADP	_	_	19	udep	_	_
-21	Portugal	Portugal	PROPN	_	_	20	comp:obj	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	25	punct	_	_
-23	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	23	punct	_	_
-25	Mourinho	Mourinho	PROPN	_	_	19	conj:appos	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	27	punct	_	_
-27	où	où	PRON	_	PronType=Rel	17	conj:dicto	_	_
-28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	19	conj:dicto	_	_
-30	du	du	ADP	_	_	29	udep	_	_
-31	Portugal	Portugal	PROPN	_	_	30	comp:obj	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	34	punct	_	_
-33	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	subj	_	_
-34	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
-35	et	et	CCONJ	_	_	36	cc	_	_
-36	tout	tout	ADV	_	_	34	discourse	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	2	punct	_	_
+19	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	36	dislocated	_	_
+20	de	de	ADP	_	_	19	udep	_	wordform=du
+21	le	le	DET	_	_	22	det	_	_
+22	Portugal	Portugal	PROPN	_	_	20	comp:obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
+24	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	Mourinho	Mourinho	PROPN	_	_	19	conj:appos	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	où	où	PRON	_	PronType=Rel	17	conj:dicto	_	_
+29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	19	conj:dicto	_	_
+31	de	de	ADP	_	_	30	udep	_	wordform=du
+32	le	le	DET	_	_	33	det	_	_
+33	Portugal	Portugal	PROPN	_	_	31	comp:obj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	36	punct	_	_
+35	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	subj	_	_
+36	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
+37	et	et	CCONJ	_	_	38	cc	_	_
+38	tout	tout	ADV	_	_	36	discourse	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_rencontreMourinho_19_1
+# status = done
+# text = il devait être épuisé de l'entraînement, et cetera et donc là, arrive le moment où le joueur du Portugal, euh, Mourinho, où le joueur du Portugal, il arrive et tout.
+# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	_
+2	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	être	être	AUX	_	VerbForm=Inf	2	comp:obj@x	_	_
+4	épuisé	épuiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
+5	de	de	ADP	_	_	4	comp:obl	_	_
+6	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	entraînement	entraînement	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	etc	et	ADV	_	_	7	discourse	_	wordform=et
+10	et	et	CCONJ	_	_	14	cc	_	_
+11	donc	donc	ADV	_	_	14	mod	_	_
+12	là	là	ADV	_	_	14	mod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	moment	moment	NOUN	_	Gender=Masc|Number=Sing	14	subj	_	_
+17	où	où	PRON	_	PronType=Rel	36	mod	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	36	dislocated	_	_
+20	de	de	ADP	_	_	19	udep	_	wordform=du
+21	le	le	DET	_	_	22	det	_	_
+22	Portugal	Portugal	PROPN	_	_	20	comp:obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
+24	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	Mourinho	Mourinho	PROPN	_	_	19	conj:appos	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	où	où	PRON	_	PronType=Rel	17	conj:dicto	_	_
+29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	19	conj:dicto	_	_
+31	de	de	ADP	_	_	30	udep	_	wordform=du
+32	le	le	DET	_	_	33	det	_	_
+33	Portugal	Portugal	PROPN	_	_	31	comp:obj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	36	punct	_	_
+35	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	subj	_	_
+36	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
+37	et	et	CCONJ	_	_	38	cc	_	_
+38	tout	tout	ADV	_	_	36	discourse	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	2	punct	_	_
 
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_20
@@ -568,27 +615,53 @@
 14	plaît	plaire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	SpaceAfter=No
 15	?	?	PUNCT	_	_	4	punct	_	_
 
+# sent_id = ParisStories_2021_rencontreMourinho_35_0
 # status = done
-# sent_id = ParisStories_2021_rencontreMourinho_35
 # text = et donc, du coup, euh, du coup, elle a donné son téléphone.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
-1	et	et	CCONJ	_	_	13	cc	_	_
-2	donc	donc	ADV	_	_	13	discourse	_	SpaceAfter=No
+1	et	et	CCONJ	_	_	15	cc	_	_
+2	donc	donc	ADV	_	_	15	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	du	du	ADP	_	_	12	discourse	_	_
-5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	4	punct	_	_
-7	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
-9	du	du	ADP	_	_	4	conj:dicto	_	_
-10	coup	coup	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	4	punct	_	_
-12	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
-13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux	_	_
-15	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	16	det	_	_
-16	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	13	punct	_	_
+4	de	de	ADP	_	_	14	discourse	_	wordform=du
+5	le	le	DET	_	_	6	det	_	_
+6	coup	coup	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	de	de	ADP	_	_	4	conj:dicto	_	wordform=du
+11	le	le	DET	_	_	12	det	_	_
+12	coup	coup	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	4	punct	_	_
+14	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	subj	_	_
+15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux	_	_
+17	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	18	det	_	_
+18	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = ParisStories_2021_rencontreMourinho_35_1
+# status = done
+# text = et donc, du coup, euh, du coup, elle a donné son téléphone.
+# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+1	et	et	CCONJ	_	_	15	cc	_	_
+2	donc	donc	ADV	_	_	15	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	de	de	ADP	_	_	14	discourse	_	wordform=du
+5	le	le	DET	_	_	6	det	_	_
+6	coup	coup	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	de	de	ADP	_	_	4	conj:dicto	_	wordform=du
+11	le	le	DET	_	_	12	det	_	_
+12	coup	coup	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	4	punct	_	_
+14	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	subj	_	_
+15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux	_	_
+17	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	18	det	_	_
+18	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	15	punct	_	_
 
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_36
@@ -741,58 +814,59 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	parce	parce	SCONJ	_	_	11	mod	_	ExtPos=SCONJ|Idiom=Yes
 17	que	que	SCONJ	_	_	16	unk	_	InIdiom=Yes|SpaceAfter=No
-18	,	,	PUNCT	_	_	25	punct	_	_
-19	du	du	ADP	_	_	25	discourse	_	_
-20	coup	coup	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	19	punct	_	_
-22	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	25	dislocated	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	22	punct	_	_
-24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	25	subj	_	_
-25	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
-26	cinq	cinq	NUM	_	_	25	comp:pred	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	54	punct	_	_
-28	et	et	CCONJ	_	_	54	cc	_	_
-29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	temps	temps	NOUN	_	Gender=Masc	54	mod	_	_
-31	de	de	ADP	_	_	30	udep	_	_
-32	faire	faire	VERB	_	VerbForm=Inf	31	comp:obj	_	_
-33	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	35	det	_	_
-34	cinq	cinq	NUM	_	_	35	det	_	_
-35	photos	photo	NOUN	_	Gender=Fem|Number=Plur	32	comp:obj	_	SpaceAfter=No
-36	,	,	PUNCT	_	_	37	punct	_	_
-37	de	de	ADP	_	_	31	conj:coord	_	_
-38	parler	parler	VERB	_	VerbForm=Inf	37	comp:obj	_	_
-39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	peu	peu	NOUN	_	Gender=Masc|Number=Sing	38	mod	_	_
-41	avec	avec	ADP	_	_	38	comp:obl	_	_
-42	eux	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	41	comp:obj	_	_
-43	et	et	CCONJ	_	_	44	cc	_	_
-44	tout	tout	ADV	_	_	37	discourse	_	SpaceAfter=No
-45	,	,	PUNCT	_	_	30	punct	_	_
-46	euh	euh	INTJ	_	_	51	discourse	_	SpaceAfter=No
-47	,	,	PUNCT	_	_	46	punct	_	_
-48	bah	bah	INTJ	_	_	51	discourse	_	SpaceAfter=No
-49	,	,	PUNCT	_	_	48	punct	_	_
-50	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	51	det	_	_
-51	autres	autre	NOUN	_	Number=Plur	54	dislocated	_	SpaceAfter=No
-52	,	,	PUNCT	_	_	51	punct	_	_
-53	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	54	subj	_	_
-54	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	conj:coord	_	_
-55	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
-56	peu	peu	NOUN	_	Gender=Masc|Number=Sing	54	mod	_	_
-57	en	en	ADP	_	_	54	comp:pred	_	ExtPos=ADP|Idiom=Yes
-58	mode	mode	NOUN	_	Number=Sing	57	comp:obj	_	InIdiom=Yes
-59	bah	bah	INTJ	_	_	61	discourse	_	_
-60	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	61	subj	_	SpaceAfter=No
-61	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	comp:obj	_	_
-62	quand	quand	ADV	_	_	61	comp:pred	_	_
-63	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|PronType=Prs	64	det	_	_
-64	tour	tour	NOUN	_	Gender=Masc|Number=Sing	62	dislocated	_	_
-65	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	66	subj	_	SpaceAfter=No
-66	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	conj:dicto	_	_
-67	quand	quand	ADV	_	_	66	comp:pred	_	_
-68	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|PronType=Prs	69	det	_	_
-69	tour	tour	NOUN	_	Gender=Masc|Number=Sing	67	dislocated	_	_
-70	etc	et	ADV	_	_	69	discourse	_	wordform=et
-71	.	.	PUNCT	_	_	11	punct	_	_
+18	,	,	PUNCT	_	_	26	punct	_	_
+19	de	de	ADP	_	_	26	discourse	_	wordform=du
+20	le	le	DET	_	_	21	det	_	_
+21	coup	coup	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	19	punct	_	_
+23	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	26	dislocated	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	26	subj	_	_
+26	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
+27	cinq	cinq	NUM	_	_	26	comp:pred	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	55	punct	_	_
+29	et	et	CCONJ	_	_	55	cc	_	_
+30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	temps	temps	NOUN	_	Gender=Masc	55	mod	_	_
+32	de	de	ADP	_	_	31	udep	_	_
+33	faire	faire	VERB	_	VerbForm=Inf	32	comp:obj	_	_
+34	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	det	_	_
+35	cinq	cinq	NUM	_	_	36	det	_	_
+36	photos	photo	NOUN	_	Gender=Fem|Number=Plur	33	comp:obj	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	de	de	ADP	_	_	32	conj:coord	_	_
+39	parler	parler	VERB	_	VerbForm=Inf	38	comp:obj	_	_
+40	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	peu	peu	NOUN	_	Gender=Masc|Number=Sing	39	mod	_	_
+42	avec	avec	ADP	_	_	39	comp:obl	_	_
+43	eux	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	42	comp:obj	_	_
+44	et	et	CCONJ	_	_	45	cc	_	_
+45	tout	tout	ADV	_	_	38	discourse	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	31	punct	_	_
+47	euh	euh	INTJ	_	_	52	discourse	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	47	punct	_	_
+49	bah	bah	INTJ	_	_	52	discourse	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	49	punct	_	_
+51	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	52	det	_	_
+52	autres	autre	NOUN	_	Number=Plur	55	dislocated	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	52	punct	_	_
+54	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	55	subj	_	_
+55	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	26	conj:coord	_	_
+56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	peu	peu	NOUN	_	Gender=Masc|Number=Sing	55	mod	_	_
+58	en	en	ADP	_	_	55	comp:pred	_	ExtPos=ADP|Idiom=Yes
+59	mode	mode	NOUN	_	Number=Sing	58	comp:obj	_	InIdiom=Yes
+60	bah	bah	INTJ	_	_	62	discourse	_	_
+61	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	62	subj	_	SpaceAfter=No
+62	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	59	comp:obj	_	_
+63	quand	quand	ADV	_	_	62	comp:pred	_	_
+64	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|PronType=Prs	65	det	_	_
+65	tour	tour	NOUN	_	Gender=Masc|Number=Sing	63	dislocated	_	_
+66	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	67	subj	_	SpaceAfter=No
+67	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	62	conj:dicto	_	_
+68	quand	quand	ADV	_	_	67	comp:pred	_	_
+69	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|PronType=Prs	70	det	_	_
+70	tour	tour	NOUN	_	Gender=Masc|Number=Sing	68	dislocated	_	_
+71	etc	et	ADV	_	_	70	discourse	_	wordform=et
+72	.	.	PUNCT	_	_	11	punct	_	_
 
