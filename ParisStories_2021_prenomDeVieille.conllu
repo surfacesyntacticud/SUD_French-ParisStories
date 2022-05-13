@@ -231,11 +231,11 @@
 37	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_9
-# macrosyntax = et personne [ mh ouais ] n'aime les bébés, qui pleurent, entendre les bébés pleurer, euh, euh, que ce soit dans l'avion, euh, dans la salle d'attente du docteur.
+# macrosyntax = et personne [ hum ouais ] n'aime les bébés, qui pleurent, entendre les bébés pleurer, euh, euh, que ce soit dans l'avion, euh, dans la salle d'attente du docteur.
 # speaker = L2
-# text = mh ouais.
+# text = hum ouais.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/d9654f1d82c0f77838097a6696be9fb96ed46120
-1	mh	mh	INTJ	_	_	2	discourse	_	_
+1	hum	hum	INTJ	_	_	2	discourse	_	wordform=mh
 2	ouais	ouais	INTJ	_	_	0	root	_	AttachTo=2@ParisStories_2021_prenomDeVieille_8|Rel=discourse|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -451,7 +451,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	donc	donc	ADV	_	_	11	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	voilà	voilà	VERB	_	_	11	discourse	_	SpaceAfter=No
+7	voilà	voilà	VERB	_	_	11	discourse	_	ExtPos=INTJ|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj@pass	_	_
 10	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	12	comp:obl	_	_
@@ -878,7 +878,7 @@
 # sent_id = ParisStories_2021_prenomDeVieille_41
 # text = voilà, c'est tout.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/d9654f1d82c0f77838097a6696be9fb96ed46120
-1	voilà	voilà	VERB	_	_	4	discourse	_	SpaceAfter=No
+1	voilà	voilà	VERB	_	_	4	discourse	_	ExtPos=INTJ|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
