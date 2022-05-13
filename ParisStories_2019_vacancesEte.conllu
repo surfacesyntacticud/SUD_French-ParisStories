@@ -36,7 +36,7 @@
 17	,	,	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_3
-# text = euh j'étais en vacances dès le mois de mai en quelque sorte même si j'ai travaillé euh en mai et en juin en temps que baby sitter.
+# text = euh j'étais en vacances dès le mois de mai en quelque sorte même si j'ai travaillé euh en mai et en juin en tant que baby sitter.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	euh	euh	INTJ	_	_	3	discourse	_	_
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
@@ -62,11 +62,11 @@
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	en	en	ADP	_	_	20	conj:coord	_	_
 24	juin	juin	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
-25	en	en	ADP	_	_	18	mod	_	_
-26	temps	temps	NOUN	_	Gender=Masc	25	comp:obj	_	_
-27	que	que	SCONJ	_	_	26	comp:obj	_	_
+25	en	en	ADP	_	_	18	mod	_	ExtPos=ADP|Idiom=Yes
+26	tant	tant	ADV	_	_	25	unk	_	InIdiom=Yes
+27	que	que	SCONJ	_	_	26	unk	_	InIdiom=Yes
 28	baby	baby	NOUN	_	Gender=Masc|Number=Sing	29	mod	_	_
-29	sitter	sitter	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	SpaceAfter=No
+29	sitter	sitter	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_4
