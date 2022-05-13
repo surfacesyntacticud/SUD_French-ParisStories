@@ -528,9 +528,11 @@
 # text = arrivée au collège.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
 1	arrivée	arrivée	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	au	au	ADP	_	_	1	mod	_	_
-3	collège	collège	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	2	punct	_	_
+2-3	au	_	_	_	_	_	_	_	_
+2	à	à	ADP	_	_	1	mod	_	wordform=au
+3	le	le	DET	_	_	4	det	_	_
+4	collège	collège	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_22
 # speaker = L2
@@ -666,9 +668,11 @@
 13	le	le	DET	_	_	14	det	_	_
 14	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 15	ensemble	ensemble	ADV	_	_	10	mod	_	_
-16	aux	aux	ADP	_	_	10	mod	_	_
-17	Césardières	Césardières	PROPN	_	_	16	comp:obj	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	10	punct	_	_
+16-17	aux	_	_	_	_	_	_	_	_
+16	à	aux	ADP	_	_	10	mod	_	wordform=aux
+17	les	les	DET	_	_	18	det	_	_
+18	Césardières	Césardières	PROPN	_	_	16	comp:obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_29
 # text = et on s'est retrouvé au club du O'Takey, euh, après.
@@ -678,15 +682,17 @@
 3	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	unk:obj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	retrouvé	retrouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
-6	au	au	ADP	_	_	5	comp:obl	_	_
-7	club	club	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
-8-9	du	_	_	_	_	_	_	_	_
-8	de	de	ADP	_	_	7	udep	_	wordform=du
-9	le	le	DET	_	_	10	det	_	_
-10	O'Takey	O'Takey	PROPN	_	_	8	comp:obj	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	12	punct	_	_
-12	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	14	punct	_	_
-14	après	après	ADV	_	_	4	mod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	4	punct	_	_
+6-7	au	_	_	_	_	_	_	_	_
+6	à	à	ADP	_	_	5	comp:obl	_	wordform=au
+7	le	le	DET	_	_	8	det	_	_
+8	club	club	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
+9-10	du	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	8	udep	_	wordform=du
+10	le	le	DET	_	_	11	det	_	_
+11	O'Takey	O'Takey	PROPN	_	_	9	comp:obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	après	après	ADV	_	_	4	mod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
 
