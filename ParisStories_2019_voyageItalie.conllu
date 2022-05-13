@@ -416,7 +416,7 @@
 31	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_17
-# text = et euh, et là je commence clairement à beuguer, et je lui demande euh, si, si y'a pas un petit souci.
+# text = et euh, et là je commence clairement à beuguer, et je lui demande euh, si, si il y a pas un petit souci.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
@@ -438,13 +438,14 @@
 18	si	si	SCONJ	_	_	15	comp:obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	si	si	SCONJ	_	_	18	conj:dicto	_	_
-21	y'	y	PRON	_	Person=3|PronType=Prs	22	mod	_	SpaceAfter=No
-22	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
-23	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
-24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-25	petit	petit	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	_
-26	souci	souci	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	7	punct	_	_
+21	il	_	PRON	_	_	23	subj@expl	_	_
+22	y	y	PRON	_	Person=3|PronType=Prs	23	comp@expl	_	_
+23	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
+24	pas	pas	ADV	_	Polarity=Neg	23	mod	_	_
+25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	petit	petit	ADJ	_	Gender=Masc|Number=Sing	27	mod	_	_
+27	souci	souci	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_18
 # text = et il fait, non non mais en fait c'est le même prix,
@@ -654,50 +655,99 @@
 11	beau	beau	ADJ	_	Gender=Masc|Number=Sing	8	comp:pred	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	8	punct	_	_
 
-# sent_id = ParisStories_2019_voyageItalie_29
-# text = mais euh, mais y'a plein de, y'a plein de musées qu'on n'a pas pu faire, parce que les trucs, c'était complet jusqu'au, pendant trois jours genre euh.
+# sent_id = ParisStories_2019_voyageItalie_29_0
+# text = mais euh, mais il y a plein de, il y a plein de musées qu'on n'a pas pu faire, parce que les trucs, c'était complet jusqu'au, pendant trois jours genre euh.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
-1	mais	mais	CCONJ	_	_	6	cc	_	_
+1	mais	mais	CCONJ	_	_	7	cc	_	_
 2	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	mais	mais	CCONJ	_	_	1	conj:dicto	_	_
-5	y'	y	PRON	_	Person=3|PronType=Prs	6	mod	_	SpaceAfter=No
-6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	plein	plein	ADV	_	_	6	comp:obj	_	_
-8	de	de	ADP	_	_	7	comp:obl	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	11	punct	_	_
-10	y'	y	PRON	_	Person=3|PronType=Prs	11	mod	_	SpaceAfter=No
-11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	_
-12	plein	plein	ADV	_	_	14	mod	_	_
-13	de	de	ADP	_	_	12	comp:obl	_	_
-14	musées	musée	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
-15	qu'	que	PRON	_	PronType=Rel	21	comp:obj	_	SpaceAfter=No
-16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	subj	_	_
-17	n'	ne	ADV	_	Polarity=Neg	18	mod	_	SpaceAfter=No
-18	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	mod	_	_
-19	pas	pas	ADV	_	Polarity=Neg	18	mod	_	_
-20	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux	_	_
-21	faire	faire	VERB	_	VerbForm=Inf	20	comp:obj@x	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	_
-23	parce	parce	SCONJ	_	_	21	mod	_	ExtPos=SCONJ|Idiom=Yes
-24	que	que	SCONJ	_	_	23	unk	_	InIdiom=Yes
-25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
-26	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	29	dislocated	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	26	punct	_	_
-28	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	29	subj	_	SpaceAfter=No
-29	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	comp:obj	_	_
-30	complet	complet	ADJ	_	Gender=Masc|Number=Sing	29	comp:pred	_	_
-31	jusqu'	jusque	ADV	_	_	32	mod	_	SpaceAfter=No
-32-33	au	_	_	_	_	_	_	_	SpaceAfter=No
-32	à	à	ADP	_	_	30	mod	_	_
-33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	unk	_	_
-34	,	,	PUNCT	_	_	35	punct	_	_
-35	pendant	pendant	ADP	_	_	32	conj:dicto	_	_
-36	trois	trois	NUM	_	Number=Plur	37	det	_	_
-37	jours	jour	NOUN	_	Gender=Masc|Number=Plur	35	comp:obj	_	_
-38	genre	genre	ADV	_	_	6	discourse	_	_
-39	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	6	punct	_	_
+5	il	_	PRON	_	_	7	subj@expl	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	comp@expl	_	_
+7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	plein	plein	ADV	_	_	7	comp:obj	_	_
+9	de	de	ADP	_	_	8	comp:obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	il	_	PRON	_	_	13	subj@expl	_	_
+12	y	y	PRON	_	Person=3|PronType=Prs	13	comp@expl	_	_
+13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj:dicto	_	_
+14	plein	plein	ADV	_	_	16	mod	_	_
+15	de	de	ADP	_	_	14	comp:obl	_	_
+16	musées	musée	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
+17	qu'	que	PRON	_	PronType=Rel	23	comp:obj	_	SpaceAfter=No
+18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	subj	_	_
+19	n'	ne	ADV	_	Polarity=Neg	20	mod	_	SpaceAfter=No
+20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod	_	_
+21	pas	pas	ADV	_	Polarity=Neg	20	mod	_	_
+22	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux	_	_
+23	faire	faire	VERB	_	VerbForm=Inf	22	comp:obj@x	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	parce	parce	SCONJ	_	_	23	mod	_	ExtPos=SCONJ|Idiom=Yes
+26	que	que	SCONJ	_	_	25	unk	_	InIdiom=Yes
+27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
+28	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	31	dislocated	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	31	subj	_	SpaceAfter=No
+31	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	comp:obj	_	_
+32	complet	complet	ADJ	_	Gender=Masc|Number=Sing	31	comp:pred	_	_
+33	jusqu'	jusque	ADV	_	_	34	mod	_	SpaceAfter=No
+34-35	au	_	_	_	_	_	_	_	SpaceAfter=No
+34	à	à	ADP	_	_	32	mod	_	_
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	unk	_	_
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	pendant	pendant	ADP	_	_	34	conj:dicto	_	_
+38	trois	trois	NUM	_	Number=Plur	39	det	_	_
+39	jours	jour	NOUN	_	Gender=Masc|Number=Plur	37	comp:obj	_	_
+40	genre	genre	ADV	_	_	7	discourse	_	_
+41	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ParisStories_2019_voyageItalie_29_1
+# text = mais euh, mais il y a plein de, il y a plein de musées qu'on n'a pas pu faire, parce que les trucs, c'était complet jusqu'au, pendant trois jours genre euh.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
+1	mais	mais	CCONJ	_	_	7	cc	_	_
+2	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	mais	mais	CCONJ	_	_	1	conj:dicto	_	_
+5	il	_	PRON	_	_	7	subj@expl	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	comp@expl	_	_
+7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	plein	plein	ADV	_	_	7	comp:obj	_	_
+9	de	de	ADP	_	_	8	comp:obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	il	_	PRON	_	_	13	subj@expl	_	_
+12	y	y	PRON	_	Person=3|PronType=Prs	13	comp@expl	_	_
+13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj:dicto	_	_
+14	plein	plein	ADV	_	_	16	mod	_	_
+15	de	de	ADP	_	_	14	comp:obl	_	_
+16	musées	musée	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
+17	qu'	que	PRON	_	PronType=Rel	23	comp:obj	_	SpaceAfter=No
+18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	subj	_	_
+19	n'	ne	ADV	_	Polarity=Neg	20	mod	_	SpaceAfter=No
+20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod	_	_
+21	pas	pas	ADV	_	Polarity=Neg	20	mod	_	_
+22	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux	_	_
+23	faire	faire	VERB	_	VerbForm=Inf	22	comp:obj@x	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	parce	parce	SCONJ	_	_	23	mod	_	ExtPos=SCONJ|Idiom=Yes
+26	que	que	SCONJ	_	_	25	unk	_	InIdiom=Yes
+27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
+28	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	31	dislocated	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	31	subj	_	SpaceAfter=No
+31	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	comp:obj	_	_
+32	complet	complet	ADJ	_	Gender=Masc|Number=Sing	31	comp:pred	_	_
+33	jusqu'	jusque	ADV	_	_	34	mod	_	SpaceAfter=No
+34-35	au	_	_	_	_	_	_	_	SpaceAfter=No
+34	à	à	ADP	_	_	32	mod	_	_
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	unk	_	_
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	pendant	pendant	ADP	_	_	34	conj:dicto	_	_
+38	trois	trois	NUM	_	Number=Plur	39	det	_	_
+39	jours	jour	NOUN	_	Gender=Masc|Number=Plur	37	comp:obj	_	_
+40	genre	genre	ADV	_	_	7	discourse	_	_
+41	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_30
 # text = on devait être quand, on était jeudi, vendredi, et c'était complet jusqu'à le lundi.
@@ -724,22 +774,23 @@
 20	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_31
-# text = donc y'a plein de trucs qu'on n'a pas pu faire.
+# text = donc il y a plein de trucs qu'on n'a pas pu faire.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
-1	donc	donc	ADV	_	_	3	cc	_	_
-2	y'	y	PRON	_	Person=3|PronType=Prs	3	mod	_	SpaceAfter=No
-3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	plein	plein	ADV	_	_	6	mod	_	_
-5	de	de	ADP	_	_	4	comp:obl	_	_
-6	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
-7	qu'	que	PRON	_	PronType=Rel	13	comp:obj	_	SpaceAfter=No
-8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
-9	n'	ne	ADV	_	Polarity=Neg	10	mod	_	SpaceAfter=No
-10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod	_	_
-11	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
-12	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	_
-13	faire	faire	VERB	_	VerbForm=Inf	12	comp:obj@x	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	3	punct	_	_
+1	donc	donc	ADV	_	_	4	cc	_	_
+2	il	_	PRON	_	_	4	subj@expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	comp@expl	_	_
+4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	plein	plein	ADV	_	_	7	mod	_	_
+6	de	de	ADP	_	_	5	comp:obl	_	_
+7	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
+8	qu'	que	PRON	_	PronType=Rel	14	comp:obj	_	SpaceAfter=No
+9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj	_	_
+10	n'	ne	ADV	_	Polarity=Neg	11	mod	_	SpaceAfter=No
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod	_	_
+12	pas	pas	ADV	_	Polarity=Neg	13	mod	_	_
+13	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux	_	_
+14	faire	faire	VERB	_	VerbForm=Inf	13	comp:obj@x	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_32
 # text = mais quand même, enfin genre deux jours, ça suffit euh largement.
