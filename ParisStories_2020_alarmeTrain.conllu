@@ -52,10 +52,10 @@
 21	,	,	PUNCT	_	_	32	punct	_	_
 22	hum	hum	INTJ	_	_	32	discourse	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
-24	oui	oui	INTJ	_	_	32	discourse	_	_
+24	oui	oui	ADV	_	_	32	discourse	_	ExtPos=INTJ
 25	du~	du~	DET	_	_	24	unk@scrap	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	31	punct	_	_
-27	oui	oui	INTJ	_	_	31	discourse	_	SpaceAfter=No
+27	oui	oui	ADV	_	_	31	discourse	_	ExtPos=INTJ|SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
@@ -129,7 +129,7 @@
 4	et	et	CCONJ	_	_	6	cc	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
-7	oui	oui	INTJ	_	_	6	comp:obj	_	Reported=Yes|SpaceAfter=No
+7	oui	oui	ADV	_	_	6	comp:obj	_	Reported=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
@@ -173,7 +173,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8970b764f6e6a69f0aa9b79c868c9ac5e23d1941
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	oui	oui	INTJ	_	_	6	discourse	_	SpaceAfter=No
+3	oui	oui	ADV	_	_	2	comp:obj	_	Reported=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
 6	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	Reported=Yes
@@ -366,7 +366,7 @@
 17	qu'	que	SCONJ	_	_	7	comp:obj	_	SpaceAfter=No
 18	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	subj	_	_
 19	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
-20	oui	oui	INTJ	_	_	19	comp:obj	_	Reported=Yes|SpaceAfter=No
+20	oui	oui	ADV	_	_	19	comp:obj	_	Reported=Yes|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	7	punct	_	_
@@ -424,7 +424,7 @@
 6	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	7	comp:obl	_	_
 7	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	15	punct	_	_
-9	oui	oui	INTJ	_	_	15	discourse	_	_
+9	oui	oui	ADV	_	_	15	discourse	_	ExtPos=INTJ
 10	euh	euh	INTJ	_	_	15	discourse	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	signal	signal	NOUN	_	Gender=Masc|Number=Sing	15	subj	_	_
@@ -502,7 +502,7 @@
 11	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	12	comp:obl	_	_
 12	disaient	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
-14	oui	oui	INTJ	_	_	17	discourse	_	_
+14	oui	oui	ADV	_	_	17	discourse	_	ExtPos=INTJ
 15	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	faites	faire	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	comp:obj	_	Reported=Yes
