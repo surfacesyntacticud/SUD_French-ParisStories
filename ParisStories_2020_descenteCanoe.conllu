@@ -8,9 +8,9 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	SpaceAfter=No
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
-8	y	y	PRON	_	Person=3|PronType=Prs	9	comp	_	_
-9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	InIdiom=Yes
+8	y	y	PRON	_	Person=3|PronType=Prs	9	comp	_	InIdiom=Yes
+9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod	_	ExtPos=ADP|Idiom=Yes
 10	à	à	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
 11	peu	peu	ADV	_	_	10	comp:obj	_	InIdiom=Yes
 12	près	près	ADV	_	_	11	mod	_	InIdiom=Yes
@@ -97,7 +97,7 @@
 # text = il y avait soit les horaires, du coup, euh, deux heures, quatre heures ou huit heures.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	comp:obl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	soit	être	CCONJ	_	_	6	cc	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
@@ -332,7 +332,7 @@
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
-6	y	y	PRON	_	Person=3|PronType=Prs	7	comp:obl	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	comp@expl	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	moment	moment	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
@@ -380,7 +380,7 @@
 6	savais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	qu'	que	SCONJ	_	_	6	comp:obj	_	SpaceAfter=No
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj@expl	_	_
-9	y	y	PRON	_	Person=3|PronType=Prs	11	comp:obl	_	_
+9	y	y	PRON	_	Person=3|PronType=Prs	11	comp@expl	_	_
 10	en	en	PRON	_	Person=3|PronType=Prs	11	comp:obl	_	_
 11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	comp:obj	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	comp:obj	_	_
@@ -532,7 +532,7 @@
 4	final	final	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj@expl	_	_
-7	y	y	PRON	_	Person=3|PronType=Prs	8	comp:obl	_	_
+7	y	y	PRON	_	Person=3|PronType=Prs	8	comp@expl	_	_
 8	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	cascade	cascade	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
@@ -607,7 +607,7 @@
 # text = il y avait, euh, je crois que c'était en début d'après-midi.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	comp:obl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
@@ -637,7 +637,7 @@
 9	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj@expl	_	_
-12	y	y	PRON	_	Person=3|PronType=Prs	13	comp:obl	_	_
+12	y	y	PRON	_	Person=3|PronType=Prs	13	comp@expl	_	_
 13	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 14	plein	plein	ADV	_	_	13	comp:obj	_	_
 15	de	de	ADP	_	_	14	comp:obl	_	_
@@ -649,7 +649,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	5	comp:obl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	_
 4	en	en	PRON	_	Person=3|PronType=Prs	6	mod	_	_
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	5	comp:obj	_	SpaceAfter=No
@@ -774,7 +774,7 @@
 6	parce	parce	ADV	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
 7	qu'	que	SCONJ	_	_	6	unk	_	InIdiom=Yes|SpaceAfter=No
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj@expl	_	_
-9	y	y	PRON	_	Person=3|PronType=Prs	10	comp:obl	_	_
+9	y	y	PRON	_	Person=3|PronType=Prs	10	comp@expl	_	_
 10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	comp:obj	_	_
 11	de	de	ADP	_	_	10	comp:obl	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -828,7 +828,7 @@
 7	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj@expl	_	_
 8	qu'	que	PRON	_	PronType=Rel	11	comp:obj	_	SpaceAfter=No
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj@expl	_	_
-10	y	y	PRON	_	Person=3|PronType=Prs	11	mod	_	_
+10	y	y	PRON	_	Person=3|PronType=Prs	11	comp@expl	_	_
 11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	comp:cleft	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	euh	euh	INTJ	_	_	11	discourse	_	_
