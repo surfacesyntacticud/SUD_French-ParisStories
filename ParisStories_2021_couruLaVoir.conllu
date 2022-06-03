@@ -169,7 +169,7 @@
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
 5	n'	n'	ADV	_	_	6	mod	_	SpaceAfter=No
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	vraim~	vraiment	ADV	_	_	6	mod	_	SpaceAfter=No
+7	vraim~	vraiment	X	_	_	6	mod	_	ExtPos=ADV|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj	_	_
 10	n'	n'	ADV	_	_	11	mod	_	SpaceAfter=No
@@ -233,8 +233,8 @@
 # sent_id = ParisStories_2021_couruLaVoir_11
 # text = pl~ ~, plein d'enfants de nos classes respectives, nos amis, étaient tombés malades.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
-1	pl~	pl~	X	_	_	15	subj	_	_
-2	~	~	X	_	Typo=Yes	1	unk@scrap	_	SpaceAfter=No
+1	pl~	pl~	X	_	_	15	subj	_	ExtPos=X
+2	~	~	X	_	Typo=Yes	1	unk@scrap	_	ExtPos=X|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	plein	plein	ADV	_	_	1	conj:dicto	_	_
 5	d'	de	ADP	_	_	4	comp:obl	_	SpaceAfter=No
@@ -524,7 +524,7 @@
 6	ai	avoir	AUX	_	_	0	root	_	_
 7	vue	voir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
 8	de	de	ADP	_	_	7	mod	_	_
-9	d~	de	ADP	_	_	8	conj:dicto	_	SpaceAfter=No
+9	d~	de	X	_	_	8	conj:dicto	_	ExtPos=ADP|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	toute	tout	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
 12	de	de	ADP	_	_	8	conj:dicto	_	SpaceAfter=No
@@ -635,8 +635,8 @@
 3	après	après	ADV	_	_	10	mod	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	j~	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	_
-7	~	~	X	_	Typo=Yes	6	conj:dicto	_	SpaceAfter=No
+6	j~	il	X	_	_	10	subj	_	ExtPos=PRON
+7	~	~	X	_	Typo=Yes	6	conj:dicto	_	ExtPos=X|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	conj:dicto	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
