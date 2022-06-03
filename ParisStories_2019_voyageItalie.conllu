@@ -73,7 +73,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	SpaceAfter=No
+6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
@@ -98,7 +98,7 @@
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	30	subj	_	_
 30	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj:coord	_	_
-31	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	comp:aux	_	_
+31	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	comp:aux@tense	_	_
 32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
 33	Cinq	cinq	PROPN	_	Number=Plur	34	mod	_	_
 34	Terres	terre	PROPN	_	Gender=Fem|Number=Plur	31	comp:obj	_	SpaceAfter=No
@@ -148,7 +148,7 @@
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	subj	_	_
 14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:dicto	_	_
-15	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	14	comp:aux	_	_
+15	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 16	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	17	det	_	_
 17	avion	avion	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 18	à	à	ADP	_	_	15	mod	_	_
@@ -518,7 +518,7 @@
 1	donc	donc	ADV	_	_	3	cc	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+4	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	15	det	_	_
@@ -679,7 +679,7 @@
 19	n'	ne	ADV	_	Polarity=Neg	20	mod	_	SpaceAfter=No
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod	_	_
 21	pas	pas	ADV	_	Polarity=Neg	20	mod	_	_
-22	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux	_	_
+22	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux@tense	_	_
 23	faire	faire	VERB	_	VerbForm=Inf	22	comp:obj@x	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	parce	parce	SCONJ	_	_	23	mod	_	ExtPos=SCONJ|Idiom=Yes
@@ -726,7 +726,7 @@
 19	n'	ne	ADV	_	Polarity=Neg	20	mod	_	SpaceAfter=No
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod	_	_
 21	pas	pas	ADV	_	Polarity=Neg	20	mod	_	_
-22	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux	_	_
+22	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux@tense	_	_
 23	faire	faire	VERB	_	VerbForm=Inf	22	comp:obj@x	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	parce	parce	SCONJ	_	_	23	mod	_	ExtPos=SCONJ|Idiom=Yes
@@ -788,7 +788,7 @@
 10	n'	ne	ADV	_	Polarity=Neg	11	mod	_	SpaceAfter=No
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod	_	_
 12	pas	pas	ADV	_	Polarity=Neg	13	mod	_	_
-13	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux	_	_
+13	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 14	faire	faire	VERB	_	VerbForm=Inf	13	comp:obj@x	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -849,7 +849,7 @@
 34	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	conj:dicto	_	_
 35	pas	pas	ADV	_	Polarity=Neg	34	mod	_	_
 36	vraiment	vraiment	ADV	_	_	37	mod	_	_
-37	regardé	regarder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	comp:aux	_	_
+37	regardé	regarder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	comp:aux@tense	_	_
 38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	40	punct	_	_
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	conj:dicto	_	_
@@ -862,7 +862,7 @@
 47	qu'	que	PRON	_	PronType=Rel	50	comp:obj	_	SpaceAfter=No
 48	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	49	subj	_	_
 49	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	46	mod	_	_
-50	loué	louer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	49	comp:aux	_	SpaceAfter=No
+50	loué	louer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	49	comp:aux@tense	_	SpaceAfter=No
 51	.	.	PUNCT	_	_	25	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_34
@@ -1010,7 +1010,7 @@
 3	n'	ne	ADV	_	Polarity=Neg	4	mod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
-6	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+6	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 7	dormir	dormir	VERB	_	VerbForm=Inf	6	comp:obj@x	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1098,7 +1098,7 @@
 8	euh	euh	INTJ	_	_	5	discourse	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	_
+11	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	14	det	_	_
 13	petite	petit	ADJ	_	Gender=Fem|Number=Sing	14	mod	_	_
 14	réclamation	réclamation	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
@@ -1110,7 +1110,7 @@
 20	et	et	CCONJ	_	_	18	conj:dicto	_	_
 21	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	subj	_	_
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj:coord	_	_
-23	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux	_	_
+23	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux@tense	_	_
 24	remboursé	rembourser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux@pass	_	_
 25	de	de	ADP	_	_	24	comp:obl	_	_
 26	euh	euh	INTJ	_	_	32	discourse	_	SpaceAfter=No
@@ -1164,7 +1164,7 @@
 10	quand	quand	SCONJ	_	_	9	mod	_	ExtPos=ADV|Idiom=Yes
 11	même	même	ADV	_	_	10	unk	_	InIdiom=Yes
 12	bien	bien	ADV	_	_	13	mod	_	_
-13	profité	profiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux	_	_
+13	profité	profiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 14	donc	donc	ADV	_	_	19	cc	_	_
 15	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_

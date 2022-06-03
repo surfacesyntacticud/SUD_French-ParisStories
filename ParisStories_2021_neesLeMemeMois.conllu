@@ -22,7 +22,7 @@
 17	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	subj	_	_
 18	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	SpaceAfter=No
 19	ai	avoir	AUX	_	_	15	mod@relcl	_	_
-20	rencontrée	rencontrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux	_	SpaceAfter=No
+20	rencontrée	rencontrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux@tense	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_2
@@ -36,7 +36,7 @@
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	SpaceAfter=No
 7	ai	avoir	AUX	_	_	0	root	_	_
-8	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	_
+8	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	de	de	ADP	_	_	8	comp:obj@x	_	_
 10	parler	parler	VERB	_	VerbForm=Inf	9	comp:obj	_	_
 11	de	de	ADP	_	_	10	comp:obl	_	_
@@ -156,7 +156,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	_	0	root	_	_
-5	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+5	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	Maud	Maud	PROPN	_	_	5	comp:obj	_	_
 7	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
@@ -259,7 +259,7 @@
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	subj	_	_
 24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj:coord	_	_
-25	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux	_	_
+25	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	_
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 27	petite	petit	ADJ	_	Gender=Fem|Number=Sing	28	mod	_	_
 28	tête	tête	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
@@ -294,7 +294,7 @@
 2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 3	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	5	comp:obl	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+5	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	rester	rester	VERB	_	VerbForm=Inf	6	comp:obj	_	_
 8	avec	avec	ADP	_	_	7	mod	_	_
@@ -317,7 +317,7 @@
 1	donc	donc	CCONJ	_	_	3	discourse	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+4	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	après-midi	après-midi	NOUN	_	Number=Sing	4	comp:obj	_	_
 7	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	9	mod	_	_
@@ -657,7 +657,7 @@
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
-11	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	_
+11	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	wordform=du
 13	le	le	DET	_	_	14	det	_	_

@@ -29,7 +29,7 @@
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	SpaceAfter=No
 7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
-8	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	7	comp:aux	_	_
+8	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	pizza	pizza	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	encore	encore	ADV	_	_	8	mod	_	SpaceAfter=No
@@ -200,7 +200,7 @@
 7	qu'	que	SCONJ	_	_	6	comp:obj	_	SpaceAfter=No
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
-10	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux	_	_
+10	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 11	genre	genre	NOUN	_	Gender=Masc|Number=Sing	12	discourse	_	ExtPos=INTJ
 12	à	à	ADP	_	_	10	mod	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -256,7 +256,7 @@
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	tout	tout	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	tour	tour	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
@@ -275,7 +275,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	fouillé	fouiller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+3	fouillé	fouiller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	5	det	_	_
 5	sacs	sac	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
@@ -287,7 +287,7 @@
 2	après	après	ADV	_	_	4	mod	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	fallu	falloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+5	fallu	falloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	qu'	que	SCONJ	_	_	5	comp:obj	_	SpaceAfter=No
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
 8	cherche	chercher	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
@@ -372,7 +372,7 @@
 11	moment	moment	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	subj	_	SpaceAfter=No
 13	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux	_	_
+14	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 15	quand	quand	SCONJ	_	_	14	mod	_	ExtPos=ADV|Idiom=Yes
 16	même	même	ADV	_	_	15	unk	_	InIdiom=Yes
 17	qu'	que	SCONJ	_	_	14	mod	_	SpaceAfter=No
@@ -629,7 +629,7 @@
 18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	subj	_	_
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:coord	_	_
 20	juste	juste	ADV	_	_	21	mod	_	_
-21	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux	_	_
+21	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux@tense	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	gars	gars	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	6	punct	_	_
@@ -644,7 +644,7 @@
 5	là	là	ADV	_	_	7	mod	_	_
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	_
+8	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	CROUS	CROUS	PROPN	_	_	8	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	_
@@ -724,7 +724,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
+7	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 8	à	à	ADP	_	_	12	udep	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	moins	moins	ADV	_	_	8	comp:obj	_	_
@@ -792,7 +792,7 @@
 21	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	23	dislocated	_	_
 22	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	23	subj	_	SpaceAfter=No
 23	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
-24	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	23	comp:aux	_	_
+24	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	23	comp:aux@tense	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 26	escalator	escalator	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
 27	dans	dans	ADV	_	_	24	mod	_	_
@@ -829,7 +829,7 @@
 9	,	,	PUNCT	_	_	5	punct	_	_
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux	_	_
+12	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 13	d'	d'	ADP	_	_	12	comp:obj	_	SpaceAfter=No
 14	aller	aller	VERB	_	VerbForm=Inf	13	comp:obj	_	_
 15-16	au	_	_	_	_	_	_	_	_

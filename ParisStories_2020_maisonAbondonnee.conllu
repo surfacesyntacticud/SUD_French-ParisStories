@@ -112,7 +112,7 @@
 28	qui	qui	PRON	_	PronType=Rel	24	conj:dicto	_	_
 29	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	31	comp:obj	_	_
 30	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj:coord	_	_
-31	amenées	amener	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	30	comp:aux	_	_
+31	amenées	amener	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	30	comp:aux@tense	_	_
 32	dans	dans	ADP	_	_	31	mod	_	_
 33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	32	comp:obj	_	SpaceAfter=No
@@ -123,7 +123,7 @@
 1	donc	donc	ADV	_	_	3	mod	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+4	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	à	à	ADP	_	_	4	mod	_	_
 6	vélo	vélo	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
@@ -311,7 +311,7 @@
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj@expl	_	_
 8	y	y	PRON	_	Person=3|PronType=Prs	9	comp:obl	_	_
 9	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	mod@relcl	_	_
-10	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux	_	_
+10	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 11	parce	parce	ADV	_	_	10	mod	_	ExtPos=SCONJ|Idiom=Yes
 12	que	que	SCONJ	_	_	11	unk	_	InIdiom=Yes
 13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	subj	_	SpaceAfter=No
@@ -332,7 +332,7 @@
 # text = on avait trouvé des vieilles pièces.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+3	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 5	vieilles	vieux	ADJ	_	Gender=Fem|Number=Plur	6	mod	_	_
 6	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	SpaceAfter=No
@@ -345,7 +345,7 @@
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
 4	en	en	PRON	_	Person=3|PronType=Prs	6	comp:obj	_	_
 5	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-6	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+6	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	même	même	ADV	_	_	6	mod	_	_
 8	pour	pour	ADP	_	_	6	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
@@ -378,7 +378,7 @@
 14	,	,	PUNCT	_	_	10	punct	_	_
 15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	subj	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-17	raconté	raconter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux	_	_
+17	raconté	raconter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 18	à	à	ADP	_	_	17	comp:obl	_	_
 19	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	20	det	_	_
 20	parents	parent	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	SpaceAfter=No
@@ -418,7 +418,7 @@
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
 9	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	11	comp:obl	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	_
+11	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12	que	que	SCONJ	_	_	11	comp:obj	_	_
 13	dans	dans	ADP	_	_	21	mod	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -503,7 +503,7 @@
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
 11	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-12	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux	_	_
+12	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
 13	abandonnée	abandonner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@pass	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	11	punct	_	_
 
