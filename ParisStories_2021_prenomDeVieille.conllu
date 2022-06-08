@@ -33,7 +33,7 @@
 29	actuelle	actuel	ADJ	_	Gender=Fem|Number=Sing	28	mod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	33	punct	_	_
 31	qui	qui	PRON	_	PronType=Rel	33	subj	_	_
-32	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	33	comp	_	SpaceAfter=No
+32	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	33	comp@expl	_	SpaceAfter=No
 33	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	mod@relcl	_	_
 34	Cynthia	Cynthia	PROPN	_	_	33	comp:obj	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	12	punct	_	_
@@ -151,7 +151,7 @@
 # text = je m'en souviens très bien parce que son petit frère, euh, il était dans la poussette.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/d9654f1d82c0f77838097a6696be9fb96ed46120
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-2	m'	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	comp	_	SpaceAfter=No
+2	m'	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	comp@expl	_	SpaceAfter=No
 3	en	en	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	_
 4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	très	très	ADV	_	_	6	mod	_	_
@@ -304,7 +304,7 @@
 19	fait	fait	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	18	punct	_	_
 21	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	23	subj	_	_
-22	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	23	comp	_	InIdiom=Yes
+22	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	23	comp@expl	_	InIdiom=Yes
 23	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:coord	_	ExtPos=VERB|Idiom=Yes
 24	que	que	SCONJ	_	_	23	comp:obj	_	_
 25	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	26	subj	_	SpaceAfter=No
@@ -476,11 +476,11 @@
 2	euh	euh	INTJ	_	_	6	discourse	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	journée	journée	NOUN	_	Gender=Fem|Number=Sing	6	subj	_	_
-5	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp	_	_
+5	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp@expl	_	_
 6	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	_
-9	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	comp	_	_
+9	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	comp@expl	_	_
 10	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	_
 11	très	très	ADV	_	_	12	mod	_	_
 12	bien	bien	ADV	_	_	10	mod	_	SpaceAfter=No
@@ -537,7 +537,7 @@
 4	salle	salle	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
-7	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	_
+7	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp@expl	_	_
 8	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj	_	_
@@ -630,7 +630,7 @@
 5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	qu'	qu'	SCONJ	_	_	5	comp:obj	_	SpaceAfter=No
 7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
-8	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	9	comp	_	SpaceAfter=No
+8	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	9	comp@expl	_	SpaceAfter=No
 9	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	comp:obj	_	_
 10	Cynthia	Cynthia	PROPN	_	_	9	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	_
@@ -858,7 +858,7 @@
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	amitié	amitié	NOUN	_	Gender=Fem|Number=Sing	20	subj	_	_
 20	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
-21	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	22	comp	_	_
+21	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	22	comp@expl	_	_
 22	passer	passer	VERB	_	VerbForm=Inf	20	comp:pred	_	_
 23	et	et	CCONJ	_	_	29	cc	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_

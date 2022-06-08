@@ -258,7 +258,7 @@
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	_
-6	se	se	PRON	_	Person=3|PronType=Prs	7	comp	_	InIdiom=Yes
+6	se	se	PRON	_	Person=3|PronType=Prs	7	comp@expl	_	InIdiom=Yes
 7	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 8	bien	bien	ADV	_	_	7	mod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
@@ -293,7 +293,7 @@
 # text = tout se passe bien.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 1	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
-2	se	se	PRON	_	Person=3|PronType=Prs	3	comp	_	InIdiom=Yes
+2	se	se	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	InIdiom=Yes
 3	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
 4	bien	bien	ADV	_	_	3	mod	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
@@ -316,7 +316,7 @@
 4	livre	livre	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	et	et	CCONJ	_	_	8	cc	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
-7	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp	_	InIdiom=Yes
+7	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp@expl	_	InIdiom=Yes
 8	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:coord	_	ExtPos=VERB|Idiom=Yes
 9	même	même	ADV	_	_	8	mod	_	_
 10-11	du	_	_	_	_	_	_	_	_
@@ -350,7 +350,7 @@
 # text = tout se passe bien.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 1	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
-2	se	se	PRON	_	Person=3|PronType=Prs	3	comp:obj	_	_
+2	se	se	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	bien	bien	ADV	_	_	3	mod	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
@@ -1139,7 +1139,7 @@
 4	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	conj:dicto	_	_
 5	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
 6	bien	bien	ADV	_	_	5	mod	_	_
-7	se	se	PRON	_	Person=3|PronType=Prs	8	comp:obj	_	_
+7	se	se	PRON	_	Person=3|PronType=Prs	8	comp@expl	_	_
 8	passer	passer	VERB	_	VerbForm=Inf	5	comp:obj@x	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -1609,8 +1609,8 @@
 9	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	subj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	conj:dicto	_	_
-12	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	13	comp:obj	_	_
-13	voyais	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	comp@expl	_	_
+12	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	13	comp@expl	_	_
+13	voyais	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	comp:obj	_	_
 14	déjà	déjà	ADV	_	_	13	mod	_	_
 15	rentrer	rentrer	VERB	_	VerbForm=Inf	13	comp:obj@x	_	_
 16	en	en	ADP	_	_	15	mod	_	_
