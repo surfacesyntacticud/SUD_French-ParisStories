@@ -568,8 +568,8 @@
 32	,	,	PUNCT	_	_	31	punct	_	_
 33	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	34	subj	_	_
 34	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	comp:obj	_	_
-35	devoir	devoir	VERB	_	VerbForm=Inf	34	comp:obj@x	_	_
-36	faire	faire	VERB	_	VerbForm=Inf	35	comp:obj@x	_	_
+35	devoir	devoir	VERB	_	VerbForm=Inf	34	comp:obj	_	Subject=Raising
+36	faire	faire	VERB	_	VerbForm=Inf	35	comp:obj	_	Subject=Raising
 37	demi-tour	demi-tour	NOUN	_	Gender=Masc|Number=Sing	36	comp:obj	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
 39	euh	euh	INTJ	_	_	37	discourse	_	_
@@ -699,7 +699,7 @@
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj	_	_
 16	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	comp:obj	_	Reported=Yes
-17	être	être	AUX	_	VerbForm=Inf	16	comp:obj@x	_	_
+17	être	être	AUX	_	VerbForm=Inf	16	comp:obj	_	Subject=Raising
 18	toute	tout	ADV	_	_	19	mod	_	_
 19	seule	seul	ADJ	_	Gender=Fem|Number=Sing	17	comp:pred	_	_
 20	à	à	ADP	_	_	17	mod	_	_
@@ -728,7 +728,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	rester	rester	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No
+3	rester	rester	VERB	_	VerbForm=Inf	2	comp:obj	_	SpaceAfter=No|Subject=Raising
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
@@ -746,7 +746,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	être	être	AUX	_	VerbForm=Inf	2	comp:obj@x	_	_
+3	être	être	AUX	_	VerbForm=Inf	2	comp:obj	_	Subject=Raising
 4	horrible	horrible	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 5	parce	parce	ADV	_	_	3	mod	_	ExtPos=SCONJ|Idiom=Yes
 6	que	que	SCONJ	_	_	5	unk	_	InIdiom=Yes
@@ -814,7 +814,7 @@
 18	,	,	PUNCT	_	_	9	punct	_	_
 19	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	subj	_	_
 20	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Reported=Yes
-21	être	être	AUX	_	VerbForm=Inf	20	comp:obj@x	_	_
+21	être	être	AUX	_	VerbForm=Inf	20	comp:obj	_	Subject=Raising
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	cauchemar	cauchemar	NOUN	_	Gender=Masc|Number=Sing	21	comp:pred	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	_
@@ -1125,7 +1125,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 1	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	vont	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
-3	venir	venir	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
+3	venir	venir	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=Raising
 4	te	le	PRON	_	Number=Sing|Person=2|PronType=Prs	5	comp:obj	_	_
 5	chercher	chercher	VERB	_	VerbForm=Inf	3	comp:obj@x	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
@@ -1630,7 +1630,7 @@
 30	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	31	det	_	_
 31	grands-parents	grands-parent	NOUN	_	Gender=Masc|Number=Plur	32	subj	_	_
 32	doivent	devoir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	comp:obj	_	_
-33	payer	payer	VERB	_	VerbForm=Inf	32	comp:obj@x	_	_
+33	payer	payer	VERB	_	VerbForm=Inf	32	comp:obj	_	Subject=Raising
 34	cent	cent	NUM	_	Number=Plur	36	comp:obj	_	_
 35	soixante	soixante	NUM	_	Number=Plur	34	flat	_	_
 36	euros	euro	NOUN	_	Gender=Masc|Number=Plur	33	comp:obj	_	_
