@@ -242,7 +242,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
-5	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	9	comp:obl	_	_
+5	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	9	comp:obj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	InIdiom=Yes
 8	peu	peu	NOUN	_	_	9	mod	_	ExtPos=ADV|Idiom=Yes
@@ -416,7 +416,7 @@
 # text = je me suis tordu la cheville.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/35931c521095ff436db20d6625bfa67a6fdde6f7
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
-2	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp:obl	_	_
+2	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp:obl	_	_
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	tordu	tordre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -438,7 +438,7 @@
 10	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	galère	galère	NOUN	_	Gender=Fem|Number=Sing	8	comp:pred	_	_
-13	pour	pour	ADP	_	_	8	mod	_	_
+13	pour	pour	ADP	_	_	8	comp:obj@agent	_	_
 14	redescendre	redescendre	VERB	_	VerbForm=Inf	13	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -452,12 +452,12 @@
 5	port~	port~	X	_	_	0	root	_	ExtPos=VERB
 6	enfin	enfin	ADV	_	_	5	discourse	_	ExtPos=INTJ
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
-8	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp@expl	_	_
+8	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp@expl	_	_
 9	tenait	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj:dicto	_	_
 10	s~	s~	X	_	_	9	unk@scrap	_	ExtPos=X
 11	enfin	enfin	ADV	_	_	10	discourse	_	ExtPos=INTJ
 12	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	subj	_	_
-13	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	14	comp:obj	_	_
+13	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	14	comp:obj	_	_
 14	tenais	tenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	conj:dicto	_	_
 15	à	à	ADP	_	_	14	mod	_	_
 16	l~	l~	X	_	_	15	unk@scrap	_	ExtPos=X

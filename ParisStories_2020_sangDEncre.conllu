@@ -674,8 +674,8 @@
 11	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	SpaceAfter=No
 12	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	comp:obj	_	_
 13	envie	envie	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj@lvc	_	_
-14	de	de	ADP	_	_	13	mod	_	_
-15	rentrer	rentrer	VERB	_	VerbForm=Inf	14	comp:obj	_	_
+14	de	de	ADP	_	_	13	comp:obl	_	_
+15	rentrer	rentrer	VERB	_	VerbForm=Inf	14	comp:obj@x	_	_
 16	chez	chez	ADP	_	_	15	mod	_	_
 17	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	16	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	6	punct	_	_
@@ -687,7 +687,7 @@
 2	que	que	SCONJ	_	_	0	root	_	_
 3	aussi	aussi	ADV	_	_	6	mod	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
-5	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp:obl	_	_
+5	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp:obl	_	_
 6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 7	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
@@ -796,7 +796,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-3	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obl	_	_
+3	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obl	_	_
 4	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
 6	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	7	det	_	_
@@ -807,7 +807,7 @@
 11	joindre	joindre	VERB	_	VerbForm=Inf	9	comp:obj	_	_
 12	après	après	ADV	_	_	11	mod	_	_
 13	pour	pour	ADP	_	_	9	conj:dicto	_	_
-14	qu'	que	SCONJ	_	_	13	comp:obj	_	SpaceAfter=No
+14	qu'	que	SCONJ	_	_	13	comp:obj@agent	_	SpaceAfter=No
 15	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	subj	_	_
 16	fassent	fasser	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
 17	demi-tour	demi-tour	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	SpaceAfter=No
@@ -934,7 +934,7 @@
 21	Agen	Agen	PROPN	_	_	20	comp:obj	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	de	de	ADP	_	_	15	conj:coord	_	_
-24	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	25	comp:obl	_	_
+24	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	25	comp:obl	_	_
 25	dire	dire	VERB	_	VerbForm=Inf	23	comp:obj	_	_
 26	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	27	det	_	_
 27	grands-parents	grand-parent	NOUN	_	Gender=Masc|Number=Plur	28	subj	_	_
@@ -1217,7 +1217,7 @@
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	puisqu'	puisque	SCONJ	_	_	12	mod	_	SpaceAfter=No
 18	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	subj	_	_
-19	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	20	comp:obl	_	_
+19	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	20	comp:obj	_	_
 20	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
 21	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux@tense	_	_
 22	dans	dans	ADP	_	_	21	comp:obl	_	_
@@ -1523,10 +1523,10 @@
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	InIdiom=Yes
 4	peu	peu	NOUN	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes
 5	peur	peur	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj@lvc	_	_
-6	de	de	ADP	_	_	5	mod	_	_
+6	de	de	ADP	_	_	5	comp:obl	_	_
 7	ne	ne	ADV	_	_	9	mod	_	_
 8	jamais	jamais	ADV	_	_	9	mod	_	_
-9	revoir	revoir	VERB	_	VerbForm=Inf	6	comp:obj	_	_
+9	revoir	revoir	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
 10	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	11	det	_	_
 11	grands-parents	grand-parent	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
