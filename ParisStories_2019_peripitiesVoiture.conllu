@@ -8,7 +8,7 @@
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
-7	raconter	raconter	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
+7	raconter	raconter	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=Raising
 8	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	9	det	_	_
 9	péripéties	péripétie	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
 10	en	en	ADP	_	_	9	udep	_	_
@@ -91,7 +91,7 @@
 9	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 11	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	12	comp:obj	_	_
-12	lancer	lancer	VERB	_	VerbForm=Inf	10	comp:obj@x	_	_
+12	lancer	lancer	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=Raising
 13	dans	dans	ADP	_	_	12	comp:obl	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	conduite	conduite	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
@@ -222,7 +222,7 @@
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-5	passer	passer	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
+5	passer	passer	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=Raising
 6	par	par	ADP	_	_	5	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	périph	périph	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
@@ -245,9 +245,9 @@
 11	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	12	comp:obj	_	SpaceAfter=No
 12	aider	aider	VERB	_	VerbForm=Inf	9	comp:obj	_	_
 13	à	à	ADP	_	_	12	comp:obl	_	_
-14	apprendre	apprendre	VERB	_	VerbForm=Inf	13	comp:obj@x	_	_
+14	apprendre	apprendre	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=Raising
 15	à	à	ADP	_	_	14	comp:obl	_	_
-16	conduire	conduire	VERB	_	VerbForm=Inf	15	comp:obj@x	_	SpaceAfter=No
+16	conduire	conduire	VERB	_	VerbForm=Inf	15	comp:obj	_	SpaceAfter=No|Subject=Raising
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	parce	parce	SCONJ	_	_	3	mod	_	ExtPos=SCONJ|Idiom=Yes
 19	que	que	SCONJ	_	_	18	unk	_	InIdiom=Yes
@@ -526,7 +526,7 @@
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	réussi	réussir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12	à	à	ADP	_	_	11	comp:obl	_	_
-13	faire	faire	VERB	_	VerbForm=Inf	12	comp:obj@x	_	_
+13	faire	faire	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=Raising
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	deux	deux	NUM	_	Number=Plur	13	comp:obj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	10	punct	_	_
@@ -576,7 +576,7 @@
 26	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 27	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	comp:aux@tense	_	_
 28	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	29	comp@expl	_	_
-29	déplacer	déplacer	VERB	_	VerbForm=Inf	27	comp:obj@x	_	_
+29	déplacer	déplacer	VERB	_	VerbForm=Inf	27	comp:obj	_	Subject=Raising
 30	sur	sur	ADP	_	_	29	mod	_	_
 31	Paris	Paris	PROPN	_	_	30	comp:obj	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
@@ -711,7 +711,7 @@
 15	beaucoup	beaucoup	ADV	_	_	16	mod	_	_
 16	aidée	aider	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 17	à	à	ADP	_	_	16	comp:obl	_	_
-18	réviser	réviser	VERB	_	VerbForm=Inf	17	comp:obj@x	_	SpaceAfter=No
+18	réviser	réviser	VERB	_	VerbForm=Inf	17	comp:obj	_	SpaceAfter=No|Subject=Raising
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	à	à	ADP	_	_	17	conj:appos	_	_
 21	travailler	travailler	VERB	_	VerbForm=Inf	20	comp:obj	_	SpaceAfter=No
@@ -762,7 +762,7 @@
 14	essayé	essayer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 15	de	de	ADP	_	_	14	comp:obl	_	_
 16	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	_
-17	voir	voir	VERB	_	VerbForm=Inf	15	comp:obj@x	_	_
+17	voir	voir	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=Raising
 18	pour	pour	ADP	_	_	17	mod	_	_
 19	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	20	comp:obj	_	_
 20	retenir	retenir	VERB	_	VerbForm=Inf	18	comp:obj	_	_
