@@ -187,7 +187,7 @@
 7	ne	ne	ADV	_	_	9	mod	_	_
 8	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	11	comp:obl	_	SpaceAfter=No
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	jamais	jamais	ADV	_	_	9	mod	_	_
+10	jamais	jamais	ADV	_	PronType=Neg	9	mod	_	_
 11	posé	poser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	soucis	souci	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
@@ -222,7 +222,7 @@
 42	que	que	SCONJ	_	_	31	conj:coord	_	_
 43	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	44	subj	_	SpaceAfter=No
 44	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	42	comp:obj	_	_
-45	jamais	jamais	ADV	_	_	44	mod	_	_
+45	jamais	jamais	ADV	_	PronType=Neg	44	mod	_	_
 46	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	comp:aux@tense	_	_
 47	peur	peur	NOUN	_	Gender=Fem|Number=Sing	46	comp:obj@lvc	_	_
 48	en	en	ADP	_	_	47	mod	_	_
@@ -239,7 +239,7 @@
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	_
 6	n'	ne	ADV	_	_	7	mod	_	SpaceAfter=No
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	jamais	jamais	ADV	_	_	7	mod	_	SpaceAfter=No
+8	jamais	jamais	ADV	_	PronType=Neg	7	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
@@ -880,10 +880,10 @@
 3	très	très	ADV	_	_	4	mod	_	_
 4	clairement	clairement	ADV	_	_	8	mod	_	_
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	_
-6	ne	ne	ADV	_	_	8	mod	_	_
+6	ne	ne	ADV	_	Polarity=Neg	8	mod	_	_
 7	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp:obl	_	_
 8	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-9	pas	pas	ADV	_	_	8	mod	_	_
+9	pas	pas	ADV	_	Polarity=Neg	8	mod	_	_
 10	peur	peur	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	qu'	que	SCONJ	_	_	10	comp:obl	_	SpaceAfter=No
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -949,12 +949,12 @@
 36	ne	ne	ADV	_	_	38	mod	_	_
 37	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	38	comp:obj	_	_
 38	reverrai	revoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	33	conj:coord	_	_
-39	jamais	jamais	ADV	_	_	38	mod	_	SpaceAfter=No
+39	jamais	jamais	ADV	_	PronType=Neg	38	mod	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	43	punct	_	_
 41	et	et	CCONJ	_	_	43	cc	_	_
 42	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	43	subj	_	_
 43	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	38	conj:coord	_	_
-44	jamais	jamais	ADV	_	_	43	mod	_	_
+44	jamais	jamais	ADV	_	PronType=Neg	43	mod	_	_
 45	rentrer	rentrer	VERB	_	VerbForm=Inf	43	comp:obj	_	Subject=Raising
 46	chez	chez	ADP	_	_	45	mod	_	_
 47	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	46	comp:obj	_	SpaceAfter=No
@@ -978,9 +978,9 @@
 12	,	,	PUNCT	_	_	16	punct	_	_
 13	et	et	CCONJ	_	_	16	cc	_	_
 14	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj	_	_
-15	n'	ne	ADV	_	_	16	mod	_	SpaceAfter=No
+15	n'	ne	ADV	_	Polarity=Neg	16	mod	_	SpaceAfter=No
 16	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj:coord	_	_
-17	pas	pas	ADV	_	_	16	mod	_	_
+17	pas	pas	ADV	_	Polarity=Neg	16	mod	_	_
 18	à	à	ADP	_	_	16	comp:obl	_	_
 19	joindre	joindre	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=Raising
 20	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	21	det	_	_
@@ -1067,9 +1067,9 @@
 7	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj	_	_
-10	ne	ne	ADV	_	_	11	mod	_	_
+10	ne	ne	ADV	_	Polarity=Neg	11	mod	_	_
 11	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	discourse	_	_
-12	pas	pas	ADV	_	_	11	mod	_	SpaceAfter=No
+12	pas	pas	ADV	_	Polarity=Neg	11	mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	11	punct	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	taille	taille	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -1109,9 +1109,9 @@
 11	tout	tout	ADV	_	_	10	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj	_	_
-14	ne	ne	ADV	_	_	15	mod	_	_
+14	ne	ne	ADV	_	Polarity=Neg	15	mod	_	_
 15	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	Reported=Yes
-16	pas	pas	ADV	_	_	15	mod	_	_
+16	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_
 17	paniquer	paniquer	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=Raising
 18	t'	se	PRON	_	Number=Sing|Person=2|PronType=Prs	19	comp	_	SpaceAfter=No
 19	inquiète	inquiéter	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	conj:coord	_	_
@@ -1286,7 +1286,7 @@
 28	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	30	subj	_	_
 29	n'	ne	ADV	_	Polarity=Neg	30	mod	_	SpaceAfter=No
 30	arrivais	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	18	comp:obj	_	_
-31	pas	pas	ADV	_	_	30	mod	_	_
+31	pas	pas	ADV	_	Polarity=Neg	30	mod	_	_
 32	à	à	ADP	_	_	30	comp:obl	_	_
 33	Paris	Paris	PROPN	_	_	32	comp:obj	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	6	punct	_	_
@@ -1525,7 +1525,7 @@
 5	peur	peur	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj@lvc	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	ne	ne	ADV	_	_	9	mod	_	_
-8	jamais	jamais	ADV	_	_	9	mod	_	_
+8	jamais	jamais	ADV	_	PronType=Neg	9	mod	_	_
 9	revoir	revoir	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=Raising
 10	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	11	det	_	_
 11	grands-parents	grand-parent	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	SpaceAfter=No
@@ -1551,7 +1551,7 @@
 13	ne	ne	ADV	_	Polarity=Neg	15	mod	_	_
 14	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	15	comp:obl	_	_
 15	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-16	pas	pas	ADV	_	_	15	mod	_	_
+16	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_
 17	peur	peur	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	mais	mais	CCONJ	_	_	19	cc	_	_
 19	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	subj	_	SpaceAfter=No
