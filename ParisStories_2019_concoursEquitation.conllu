@@ -166,8 +166,8 @@
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	faisais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	que	que	ADV	_	_	6	mod	_	_
-6	de	de	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+6	de	de	ADP	_	_	8	det	_	ExtPos=DET|Idiom=Yes
+7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	unk	_	InIdiom=Yes|SpaceAfter=No
 8	obstacle	obstacle	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -242,7 +242,7 @@
 # text = et en fait, il y a deux épreuves quand tu fais du dressage.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
 1	et	et	CCONJ	_	_	7	cc	_	_
-2	en	en	PRON	_	Person=3|PronType=Prs	1	discourse	_	_
+2	en	en	ADP	_	_	1	discourse	_	_
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	il	_	PRON	_	_	7	subj@expl	_	_
@@ -520,9 +520,9 @@
 24	de	de	ADP	_	_	23	udep	_	_
 25	tout	tout	ADJ	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	26	mod	_	_
 26	ce	ce	PRON	_	_	24	comp:obj	_	_
-27	que	que	PRON	_	_	26	mod	_	_
+27	que	que	PRON	_	_	29	mod	_	_
 28	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	29	subj	_	_
-29	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	27	comp:obj	_	SpaceAfter=No
+29	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	26	mod@relcl	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_35
@@ -622,16 +622,16 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
 1	donc	donc	ADV	_	_	8	cc	_	_
 2	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	8	dislocated	_	_
-3	en	en	PRON	_	Person=3|PronType=Prs	6	discourse	_	_
+3	en	en	ADP	_	_	6	discourse	_	_
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	2	conj:dicto	_	_
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
 8	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	ce	ce	PRON	_	_	8	comp:obj	_	_
-10	que	que	PRON	_	_	9	mod	_	_
+10	que	que	PRON	_	_	12	comp:obj	_	_
 11	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	SpaceAfter=No
-12	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	comp:obj	_	_
+12	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	mod@relcl	_	_
 13	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj	_	SpaceAfter=No

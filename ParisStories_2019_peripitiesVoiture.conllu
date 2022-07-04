@@ -60,9 +60,9 @@
 7	,	,	PUNCT	_	_	19	punct	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
 9	fois	fois	NOUN	_	Gender=Fem|Number=Sing	19	mod	_	ExtPos=ADV|Idiom=Yes
-10	que	que	SCONJ	_	_	9	unk	_	_
+10	que	que	SCONJ	_	_	9	comp:obj	_	_
 11	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	SpaceAfter=No
-12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
+12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 13	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
 14	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	15	det	_	_
 15	code	code	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
@@ -176,13 +176,13 @@
 9	choses	chose	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	XXX	XXX	X	_	_	9	conj:dicto	_	ExtPos=X|wordform=XX
-12	de	de	ADP	_	_	11	mod	_	_
-13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	ville	ville	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
+12	de	de	ADP	_	_	14	det	_	ExtPos=DET|Idiom=Yes
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	unk	_	InIdiom=Yes
+14	ville	ville	NOUN	_	Gender=Fem|Number=Sing	9	mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
-16	de	de	ADP	_	_	18	comp:obj	_	_
-17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	route	route	NOUN	_	Gender=Fem|Number=Sing	11	conj:appos	_	SpaceAfter=No
+16	de	de	ADP	_	_	18	det	_	ExtPos=DET|Idiom=Yes
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	unk	_	InIdiom=Yes
+18	route	route	NOUN	_	Gender=Fem|Number=Sing	14	conj:appos	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_10
@@ -461,13 +461,15 @@
 # sent_id = ParisStories_2019_peripitiesVoiture_20
 # text = du coup euh, donc voilà.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/96fdf0c3c0929c7ff3aac3518300fab62602949b
-1	du	de+le	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	discourse	_	_
-2	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
-3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	donc	donc	ADV	_	_	6	discourse	_	_
-6	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	_
+1-2	du	_	_	_	_	_	_	_	_
+1	de	de	ADP	_	_	7	discourse	_	wordform=du
+2	le	le	DET	_	_	3	det	_	_
+3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
+4	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	donc	donc	ADV	_	_	7	discourse	_	_
+7	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_21
 # text = le lendemain donc je passais mon permis.
@@ -514,22 +516,24 @@
 # sent_id = ParisStories_2019_peripitiesVoiture_23
 # text = et euh, du coup, bah, j'ai réussi à faire les deux.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/96fdf0c3c0929c7ff3aac3518300fab62602949b
-1	et	et	CCONJ	_	_	10	cc	_	_
+1	et	et	CCONJ	_	_	11	cc	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	du	de+le	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	discourse	_	_
-5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
-7	bah	bah	INTJ	_	_	10	discourse	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
-9	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	SpaceAfter=No
-10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	réussi	réussir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
-12	à	à	ADP	_	_	11	comp:obl	_	_
-13	faire	faire	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=Raising
-14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	deux	deux	NUM	_	Number=Plur	13	comp:obj	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	10	punct	_	_
+4-5	du	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	1	discourse	_	wordform=du
+5	le	le	DET	_	_	6	det	_	_
+6	coup	coup	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	bah	bah	INTJ	_	_	11	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj	_	SpaceAfter=No
+11	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	réussi	réussir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
+13	à	à	ADP	_	_	12	comp:obl	_	_
+14	faire	faire	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=Raising
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+16	deux	deux	NUM	_	Number=Plur	14	comp:obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_24
 # text = le matin j'avais eu mon partiel d'espagnol.
