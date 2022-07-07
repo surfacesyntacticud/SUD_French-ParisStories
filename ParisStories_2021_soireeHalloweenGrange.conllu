@@ -114,7 +114,7 @@
 17	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_5
-# text = il me semble dans mon souvenir, il m'a ~.
+# text = il me semble dans mon souvenir, il m'a ...
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/efe7d359b1d6c0f6ae6015f4dfec20c8c44c7423
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	3	comp:obl	_	_
@@ -126,8 +126,7 @@
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
 9	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	10	comp:obj	_	SpaceAfter=No
 10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
-11	~	~	X	_	_	10	mod	_	ExtPos=X|SpaceAfter=No
-12	.	.	PUNCT	_	_	3	punct	_	_
+11	...	...	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_6
 # text = et on est rentré dedans.
@@ -325,31 +324,29 @@
 37	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_12
-# text = ~ enfin d ~, de ce que j'ai compris, vu que, je suis pas une experte en anglais.
+# text = enfin d~, de ce que j'ai compris, vu que, je suis pas une experte en anglais.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/efe7d359b1d6c0f6ae6015f4dfec20c8c44c7423
-1	~	~	X	_	Typo=Yes	2	unk@scrap	_	ExtPos=X
-2	enfin	enfin	ADV	_	_	3	discourse	_	ExtPos=INTJ|wordform=fin
-3	d	d	ADP	_	_	0	root	_	_
-4	~	~	X	_	Typo=Yes	3	unk@scrap	_	ExtPos=X|SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	_
-6	de	de	ADP	_	_	3	conj:dicto	_	_
-7	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	comp:obj	_	_
-8	que	que	PRON	_	PronType=Rel	11	comp:obj	_	_
-9	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	SpaceAfter=No
-10	ai	avoir	AUX	_	_	7	mod@relcl	_	_
-11	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	_
-13	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	mod	_	ExtPos=SCONJ|Idiom=Yes
-14	que	que	SCONJ	_	_	13	comp:obj	_	InIdiom=Yes|SpaceAfter=No
-15	,	,	PUNCT	_	_	17	punct	_	_
-16	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	_
-17	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
-18	pas	pas	ADV	_	_	17	mod	_	_
-19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	experte	expert	NOUN	_	Gender=Fem|Number=Sing	17	comp:pred	_	_
-21	en	en	ADP	_	_	17	mod	_	_
-22	anglais	anglais	NOUN	_	Gender=Masc	21	comp:obj	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	3	punct	_	_
+1	enfin	enfin	ADV	_	_	2	discourse	_	ExtPos=INTJ|wordform=fin
+2	d~	de	X	_	_	0	root	_	ExtPos=ADP|SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	de	de	ADP	_	_	2	conj:dicto	_	_
+5	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	comp:obj	_	_
+6	que	que	PRON	_	PronType=Rel	9	comp:obj	_	_
+7	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	SpaceAfter=No
+8	ai	avoir	AUX	_	_	5	mod@relcl	_	_
+9	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	ExtPos=SCONJ|Idiom=Yes
+12	que	que	SCONJ	_	_	11	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	subj	_	_
+15	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
+16	pas	pas	ADV	_	_	15	mod	_	_
+17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	experte	expert	NOUN	_	Gender=Fem|Number=Sing	15	comp:pred	_	_
+19	en	en	ADP	_	_	15	mod	_	_
+20	anglais	anglais	NOUN	_	Gender=Masc	19	comp:obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_13
 # text = mais du coup, hum, voilà, il nous a expliqué ça.
