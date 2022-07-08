@@ -29,7 +29,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=3964|AlignEnd=3964
 7	ça	ça	PRON	_	_	8	subj	_	AlignBegin=4238|AlignEnd=4385
 8	a	avoir	AUX	_	_	0	root	_	AlignBegin=4385|AlignEnd=4531
-9	été	rir	AUX	_	_	8	comp:aux	_	AlignBegin=4531|AlignEnd=4678
+9	été	être	AUX	_	_	8	comp:aux	_	AlignBegin=4531|AlignEnd=4678
 10	très	très	ADV	_	_	11	mod	_	AlignBegin=4678|AlignEnd=4825
 11	compliqué	compliquer	VERB	_	_	9	comp:pred	_	AlignBegin=4825|AlignEnd=4971
 12	entre	entre	ADP	_	_	8	mod	_	AlignBegin=4971|AlignEnd=5118
@@ -85,7 +85,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=11966|AlignEnd=11966
 3	ça	ça	PRON	_	_	4	subj	_	AlignBegin=11966|AlignEnd=12238
 4	a	avoir	AUX	_	_	0	root	_	AlignBegin=12238|AlignEnd=12509
-5	été	ét	AUX	_	_	4	comp:aux	_	AlignBegin=12509|AlignEnd=12781
+5	été	être	AUX	_	_	4	comp:aux	_	AlignBegin=12509|AlignEnd=12781
 6	compliqué	compliquer	VERB	_	_	5	comp:pred	_	AlignBegin=12781|AlignEnd=13053|SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	AlignBegin=13053|AlignEnd=13053
 
@@ -310,10 +310,10 @@
 6	an	an	NOUN	_	_	11	mod	_	AlignBegin=45122|AlignEnd=45292
 7	et	et	CCONJ	_	_	8	cc	_	AlignBegin=45292|AlignEnd=45461
 8	demi	demi	ADJ	_	_	6	conj:coord	_	AlignBegin=45461|AlignEnd=45630|SpaceAfter=No
-9	,	,	PUNCT	_	_	4	punct	_	AlignBegin=45630|AlignEnd=45630
+9	,	,	PUNCT	_	_	11	punct	_	AlignBegin=45630|AlignEnd=45630
 10	ça	ça	PRON	_	_	11	subj	_	AlignBegin=45630|AlignEnd=45799
 11	a	avoir	AUX	_	_	0	root	_	AlignBegin=45799|AlignEnd=45968
-12	été	été	AUX	_	_	11	comp:aux	_	AlignBegin=45968|AlignEnd=46137|SpaceAfter=No
+12	été	être	AUX	_	_	11	comp:aux	_	AlignBegin=45968|AlignEnd=46137|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=46137|AlignEnd=46137
 14	parce	parce	SCONJ	_	_	11	comp:pred	_	AlignBegin=46137|AlignEnd=46394
 15	qu'	que	SCONJ	_	_	14	unk	_	AlignBegin=46394|AlignEnd=46650|SpaceAfter=No
@@ -351,12 +351,12 @@
 19	moi	loi	PRON	_	_	18	comp:obj	_	AlignBegin=51328|AlignEnd=51496
 20	?	?	PUNCT	_	_	16	punct	_	AlignBegin=51496|AlignEnd=51496
 21	"	"	PUNCT	_	_	16	punct	_	AlignBegin=51496|AlignEnd=51496|SpaceAfter=No
-22	,	,	PUNCT	_	_	5	punct	_	AlignBegin=51496|AlignEnd=51496
+22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=51496|AlignEnd=51496
 23	là	là	ADV	_	_	26	mod	_	AlignBegin=51496|AlignEnd=51663|SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	AlignBegin=51663|AlignEnd=51663
 25	ça	ça	PRON	_	_	26	subj	_	AlignBegin=51663|AlignEnd=51830
 26	a	avoir	AUX	_	_	0	root	_	AlignBegin=51830|AlignEnd=51998
-27	été	ét	AUX	_	_	26	comp:aux	_	AlignBegin=51998|AlignEnd=52165
+27	été	être	AUX	_	_	26	comp:aux	_	AlignBegin=51998|AlignEnd=52165
 28	la	le	DET	_	_	29	det	_	AlignBegin=52165|AlignEnd=52333
 29	catastrophe	catastrophe	NOUN	_	_	27	comp:pred	_	AlignBegin=52333|AlignEnd=52500|SpaceAfter=No
 30	.	.	PUNCT	_	_	26	punct	_	AlignBegin=52500|AlignEnd=52500
@@ -965,7 +965,7 @@
 19	César	César	PROPN	_	_	18	comp:obj	_	AlignBegin=113101|AlignEnd=113346
 20	sans	sans	ADP	_	_	18	mod	_	AlignBegin=113346|AlignEnd=113591
 21	moi	loi	PRON	_	_	20	comp:obj	_	AlignBegin=113591|AlignEnd=113836|SpaceAfter=No
-22	.	.	PUNCT	_	_	6	punct	_	AlignBegin=113836|AlignEnd=113836
+22	.	.	PUNCT	_	_	16	punct	_	AlignBegin=113836|AlignEnd=113836
 23	"	"	PUNCT	_	_	16	punct	_	AlignBegin=113836|AlignEnd=113836
 24	?	?	PUNCT	_	_	1	punct	_	AlignBegin=113836|AlignEnd=113836
 
@@ -979,35 +979,33 @@
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=114571|AlignEnd=114571
 
 # sent_id = PS_2022_11_copineEnCarton__56
-# text = si t'as envie de voir tes potes sans moi, mais vraiment,vas-y !
+# text = si tu as envie de voir tes potes sans moi, mais vraiment,vas-y !
 # sound_url = PS_2022_11_copineEnCarton.mp3
 # speaker = L1
-1			SCONJ	_	_	0	mod	_	AlignBegin=114571|AlignEnd=114571
-2	si	il	PRON	_	_	6	subj	_	AlignBegin=114571|AlignEnd=114717
-3	t'	t'	PUNCT	_	_	6	punct	_	AlignBegin=114717|AlignEnd=114862|SpaceAfter=No
-4	as	as	VERB	_	_	6	comp:obj@x	_	AlignBegin=114862|AlignEnd=115008
-5	envie	envie	ADP	_	_	6	comp:obl@x	_	AlignBegin=115008|AlignEnd=115153
-6	de	de	VERB	_	_	1	comp:obj	_	AlignBegin=115153|AlignEnd=115299
-7	voir	iron	DET	_	_	8	det	_	AlignBegin=115299|AlignEnd=115445
-8	tes	te	NOUN	_	_	6	comp:obj	_	AlignBegin=115445|AlignEnd=115590
-9	potes	potes	ADP	_	_	6	udep	_	AlignBegin=115590|AlignEnd=115736
-10	sans	lans	PRON	_	_	9	comp:obj	_	AlignBegin=115736|AlignEnd=115881
-11	moi	moi	PUNCT	_	_	13	punct	_	AlignBegin=115881|AlignEnd=116027|SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=116027|AlignEnd=116027
-13	mais	mais	ADV	_	_	6	conj:dicto	_	AlignBegin=116027|AlignEnd=116498
-14	vraiment	vraiment	PUNCT	_	_	1	punct	_	AlignBegin=116498|AlignEnd=116968|SpaceAfter=No
-15	,	,	PUNCT	_	_	1	punct	_	AlignBegin=116968|AlignEnd=116968|SpaceAfter=No
-16	vas-y	vas-re	PRON	_	_	1	subj	_	AlignBegin=116968|AlignEnd=117439
-17	!	êre	PUNCT	_	_	1	root	_	AlignBegin=117439|AlignEnd=117439
+1	si	si	SCONJ	_	_	15	mod	_	AlignBegin=114571|AlignEnd=114717
+2	tu	il	PRON	_	_	3	subj	_	AlignBegin=114717|AlignEnd=114862
+3	as	avoir	VERB	_	_	1	comp:obj	_	AlignBegin=114862|AlignEnd=115008
+4	envie	envie	NOUN	_	_	3	comp:obj@lvc	_	AlignBegin=115008|AlignEnd=115153
+5	de	de	ADP	_	_	4	udep	_	AlignBegin=115153|AlignEnd=115299
+6	voir	voir	VERB	_	_	5	comp:obj	_	AlignBegin=115299|AlignEnd=115445
+7	tes	son	DET	_	_	8	det	_	AlignBegin=115445|AlignEnd=115590
+8	potes	potes	NOUN	_	_	6	comp:obj	_	AlignBegin=115590|AlignEnd=115736
+9	sans	sans	ADP	_	_	6	mod	_	AlignBegin=115736|AlignEnd=115881
+10	moi	moi	PRON	_	_	9	comp:obj	_	AlignBegin=115881|AlignEnd=116027|SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	AlignBegin=116027|AlignEnd=116027
+12	mais	mais	CCONJ	_	_	15	cc	_	AlignBegin=116027|AlignEnd=116498
+13	vraiment	vraiment	ADV	_	_	15	discourse	_	AlignBegin=116498|AlignEnd=116968|SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=116968|AlignEnd=116968|SpaceAfter=No
+15	vas-y	vas-y	PRON	_	_	0	root	_	AlignBegin=116968|AlignEnd=117439
+16	!	!	PUNCT	_	_	15	punct	_	AlignBegin=117439|AlignEnd=117439
 
 # sent_id = PS_2022_11_copineEnCarton__57
 # text = mh mh.
 # sound_url = PS_2022_11_copineEnCarton.mp3
 # speaker = L2
-1			ADJ	_	_	0	conj:dicto	_	AlignBegin=114571|AlignEnd=114571
-2	mh	mh	ADJ	_	_	1	root	_	AlignBegin=114571|AlignEnd=114698
-3	mh	mh	PUNCT	_	_	1	punct	_	AlignBegin=114698|AlignEnd=114824|SpaceAfter=No
-4	.	êre	PUNCT	_	_	1	root	_	AlignBegin=114824|AlignEnd=114824
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=114571|AlignEnd=114698
+2	mh	mh	INTJ	_	_	1	conj:coord	_	AlignBegin=114698|AlignEnd=114824|SpaceAfter=No
+3	.	êre	PUNCT	_	_	1	punct	_	AlignBegin=114824|AlignEnd=114824
 
 # sent_id = PS_2022_11_copineEnCarton__58
 # text = vas-y !

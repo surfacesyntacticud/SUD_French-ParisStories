@@ -93,9 +93,9 @@
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=15406|AlignEnd=15406
 8	on	on	PRON	_	_	9	subj	_	AlignBegin=15406|AlignEnd=15631
 9	est	être	AUX	_	_	0	root	_	AlignBegin=15631|AlignEnd=15857|SpaceAfter=No
-10	,	,	PUNCT	_	_	22	punct	_	AlignBegin=15857|AlignEnd=15857
+10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=15857|AlignEnd=15857
 11	bah	bah	VERB	_	_	22	discourse	_	AlignBegin=15857|AlignEnd=16082|SpaceAfter=No
-12	,	,	PUNCT	_	_	22	punct	_	AlignBegin=16082|AlignEnd=16082
+12	,	,	PUNCT	_	_	11	punct	_	AlignBegin=16082|AlignEnd=16082
 13	ce	ce	PRON	_	_	9	dislocated	_	AlignBegin=16082|AlignEnd=16307
 14	qui	qui	PRON	_	_	16	subj	_	AlignBegin=16307|AlignEnd=16532
 15	nous	le	PRON	_	_	18	comp:obj	_	AlignBegin=16532|AlignEnd=16757
@@ -116,7 +116,7 @@
 30	y	y	PRON	_	_	32	comp:obl	_	AlignBegin=20834|AlignEnd=21294
 31	a	avoir	AUX	_	_	27	comp:obj	_	AlignBegin=21294|AlignEnd=21754
 32	eu	eoir	VERB	_	_	31	comp:aux	_	AlignBegin=21754|AlignEnd=22215|SpaceAfter=No
-33	,	,	PUNCT	_	_	38	punct	_	AlignBegin=22215|AlignEnd=22215
+33	,	,	PUNCT	_	_	31	punct	_	AlignBegin=22215|AlignEnd=22215
 34	euh	euh	ADJ	_	_	32	discourse	_	AlignBegin=22215|AlignEnd=22675|SpaceAfter=No
 35	,	,	PUNCT	_	_	34	punct	_	AlignBegin=22675|AlignEnd=22675
 36	il	il	PRON	_	_	38	subj@expl	_	AlignBegin=22675|AlignEnd=23095
@@ -238,27 +238,26 @@
 15	.	.	PUNCT	_	_	8	punct	_	AlignBegin=41125|AlignEnd=41125
 
 # sent_id = PS_2022_17_manifSorbRock__13
-# text = euh bah, après on était déjà,  on était déjà proche à ce moment-là.
+# text = euh bah, après on était déjà, on était déjà proche à ce moment-là.
 # sound_url = PS_2022_17_manifSorbRock.mp3
 # speaker = L1
-1	euh	euh	ADJ	_	_	6	discourse	_	AlignBegin=41125|AlignEnd=41481
-2	bah	bah	ADJ	_	_	6	discourse	_	AlignBegin=41481|AlignEnd=41837|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=41837|AlignEnd=41837
+1	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=41125|AlignEnd=41481
+2	bah	bah	INTJ	_	_	6	discourse	_	AlignBegin=41481|AlignEnd=41837|SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	AlignBegin=41837|AlignEnd=41837
 4	après	après	ADP	_	_	6	mod	_	AlignBegin=41837|AlignEnd=42193
 5	on	on	PRON	_	_	6	subj	_	AlignBegin=42193|AlignEnd=42549
 6	était	être	AUX	_	_	0	root	_	AlignBegin=42549|AlignEnd=42905
 7	déjà	déjà	ADV	_	_	6	mod	_	AlignBegin=42905|AlignEnd=43261|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	AlignBegin=43261|AlignEnd=43261
-9			PRON	_	_	10	subj	_	AlignBegin=41125|AlignEnd=41125
-10	on	êre	AUX	_	_	6	conj:dicto	_	AlignBegin=43261|AlignEnd=43537
-11	était	était	ADV	_	_	10	mod	_	AlignBegin=43537|AlignEnd=43812
-12	déjà	déjà	ADJ	_	_	10	mod	_	AlignBegin=43812|AlignEnd=44088
-13	proche	proche	ADP	_	_	10	mod	_	AlignBegin=44088|AlignEnd=44363
-14	à	à	DET	_	_	15	det	_	AlignBegin=44363|AlignEnd=44363
-15	ce	ce	NOUN	_	_	13	comp:obj	_	AlignBegin=44363|AlignEnd=44639
-16	moment	momen	ADV	_	_	15	mod	_	AlignBegin=44639|AlignEnd=44914|SpaceAfter=No
-17	-là	-là	ADV	_	_	15	mod	_	AlignBegin=44914|AlignEnd=45190|SpaceAfter=No
-18	.	êre	PUNCT	_	_	1	root	_	AlignBegin=45190|AlignEnd=45190
+9	on	il	PRON	_	_	10	subj	_	AlignBegin=43261|AlignEnd=43537
+10	était	était	ADV	_	_	6	conj:dicto	_	AlignBegin=43537|AlignEnd=43812
+11	déjà	déjà	ADJ	_	_	10	mod	_	AlignBegin=43812|AlignEnd=44088
+12	proche	proche	ADJ	_	_	10	comp:pred	_	AlignBegin=44088|AlignEnd=44363
+13	à	à	ADP	_	_	10	mod	_	AlignBegin=44363|AlignEnd=44363
+14	ce	ce	DET	_	_	15	det	_	AlignBegin=44363|AlignEnd=44639
+15	moment	momen	ADV	_	_	13	comp:obj	_	AlignBegin=44639|AlignEnd=44914|SpaceAfter=No
+16	-là	-là	ADV	_	_	15	mod	_	AlignBegin=44914|AlignEnd=45190|SpaceAfter=No
+17	.	.	PUNCT	_	_	6	punct	_	AlignBegin=45190|AlignEnd=45190
 
 # sent_id = PS_2022_17_manifSorbRock__14
 # text = tu te souviens ?
@@ -268,14 +267,13 @@
 2	te	se	PRON	_	_	3	comp	_	AlignBegin=41342|AlignEnd=41560
 3	souviens	souviens	VERB	_	_	0	root	_	AlignBegin=41560|AlignEnd=41777
 4	?	?	PUNCT	_	_	3	punct	_	AlignBegin=41777|AlignEnd=41777
-5		êre	PUNCT	_	_	3	subj	_	AlignBegin=41125|AlignEnd=41125
 
 # sent_id = PS_2022_17_manifSorbRock__15
 # text = mh mh.
 # sound_url = PS_2022_17_manifSorbRock.mp3
 # speaker = L2
-1	mh	mh	ADJ	_	_	0	root	_	AlignBegin=44856|AlignEnd=45035
-2	mh	mh	ADJ	_	_	1	conj:dicto	_	AlignBegin=45035|AlignEnd=45214|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=44856|AlignEnd=45035
+2	mh	mh	INTJ	_	_	1	conj:coord	_	AlignBegin=45035|AlignEnd=45214|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=45214|AlignEnd=45214
 
 # sent_id = PS_2022_17_manifSorbRock__16
@@ -469,9 +467,9 @@
 2	ne	ne	ADV	_	_	3	mod	_	AlignBegin=69411|AlignEnd=69600
 3	sais	savoir	VERB	_	_	0	root	_	AlignBegin=69600|AlignEnd=69789
 4	pas	pas	ADV	_	_	3	mod	_	AlignBegin=69789|AlignEnd=69978
-5	où	où	ADV	_	_	7	comp:pred	_	AlignBegin=69978|AlignEnd=70167
+5	où	où	ADV	_	_	7	mod	_	AlignBegin=69978|AlignEnd=70167
 6	elle	il	PRON	_	_	7	subj	_	AlignBegin=70167|AlignEnd=70356
-7	était	être	AUX	_	_	3	comp:obj	_	AlignBegin=70356|AlignEnd=70544
+7	était	être	AUX	_	_	3	mod@relcl	_	AlignBegin=70356|AlignEnd=70544
 8	en	en	ADP	_	_	7	mod	_	AlignBegin=70544|AlignEnd=70733
 9	L1	l1	PROPN	_	_	8	comp:obj	_	AlignBegin=70733|AlignEnd=70922|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=70922|AlignEnd=70922
@@ -960,9 +958,8 @@
 # text = oh, triste.
 # sound_url = PS_2022_17_manifSorbRock.mp3
 # speaker = L2
-1			ADJ	_	_	5	discourse	_	AlignBegin=135064|AlignEnd=135064
-2	oh	oh	PUNCT	_	_	1	punct	_	AlignBegin=136363|AlignEnd=136784|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=136784|AlignEnd=136784
-4	triste	triste	PUNCT	_	_	1	root	_	AlignBegin=136784|AlignEnd=137204|SpaceAfter=No
-5	.	êre	PUNCT	_	_	0	root	_	AlignBegin=137204|AlignEnd=137204
+1	oh	oh	INTJ	_	_	3	discourse	_	AlignBegin=136363|AlignEnd=136784|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=136784|AlignEnd=136784
+3	triste	triste	ADJ	_	_	0	root	_	AlignBegin=136784|AlignEnd=137204|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=137204|AlignEnd=137204
 
