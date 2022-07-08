@@ -264,15 +264,15 @@
 # speaker = L1
 1	j'	il	PRON	_	_	2	subj	_	AlignBegin=31907|AlignEnd=32051|SpaceAfter=No
 2	ai	avoir	AUX	_	_	0	root	_	AlignBegin=32051|AlignEnd=32194
-3	d~	d~	X	_	_	2	comp:obj@x	_	AlignBegin=32194|AlignEnd=32338
+3	d~	d~	X	_	_	2	comp:aux@tense	_	AlignBegin=32194|AlignEnd=32338
 4	:	:	PUNCT	_	_	10	punct	_	AlignBegin=32338|AlignEnd=32338
 5	"	"	PUNCT	_	_	10	punct	_	AlignBegin=32338|AlignEnd=32338
 6	euh	euh	ADJ	_	_	10	discourse	_	AlignBegin=32338|AlignEnd=32505|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=32505|AlignEnd=32505
 8	bah	bah	ADJ	_	_	10	discourse	_	AlignBegin=32505|AlignEnd=32672
 9	tu	il	PRON	_	_	10	subj	_	AlignBegin=32672|AlignEnd=32839
-10	as	avoir	AUX	_	_	3	comp:obj	_	AlignBegin=32839|AlignEnd=33005
-11	fait	faire	VERB	_	_	10	comp:aux	_	AlignBegin=33005|AlignEnd=33172
+10	as	avoir	AUX	_	_	3	comp:obj	_	Reported=Yes|AlignBegin=32839|AlignEnd=33005
+11	fait	faire	VERB	_	_	10	comp:aux@tense	_	AlignBegin=33005|AlignEnd=33172
 12	quoi	quoi	PRON	_	_	11	comp:obj	_	AlignBegin=33172|AlignEnd=33339
 13	?	?	PUNCT	_	_	2	punct	_	AlignBegin=33339|AlignEnd=33339
 14	"	"	PUNCT	_	_	10	punct	_	AlignBegin=33339|AlignEnd=33339|SpaceAfter=No
@@ -471,8 +471,8 @@
 2	moi	il	PRON	_	_	4	dislocated	_	AlignBegin=52861|AlignEnd=53041
 3	je	il	PRON	_	_	4	subj	_	AlignBegin=53041|AlignEnd=53222
 4	faisais	faire	VERB	_	_	0	root	_	AlignBegin=53222|AlignEnd=53403
-5	du	du	ADP	_	_	4	comp:obl	_	AlignBegin=53403|AlignEnd=53583
-6	violon	violon	NOUN	_	_	5	comp:obj	_	AlignBegin=53583|AlignEnd=53764|SpaceAfter=No
+5	du	du	DET	_	_	6	det	_	AlignBegin=53403|AlignEnd=53583
+6	violon	violon	NOUN	_	_	4	comp:obj	_	AlignBegin=53583|AlignEnd=53764|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	AlignBegin=53764|AlignEnd=53764
 8	mais	mais	CCONJ	_	_	9	cc	_	AlignBegin=53764|AlignEnd=53937
 9	quand	quand	SCONJ	_	_	4	mod	_	AlignBegin=53937|AlignEnd=54110
@@ -497,9 +497,9 @@
 10	tu	il	PRON	_	_	11	subj	_	AlignBegin=57322|AlignEnd=57478
 11	as	avoir	AUX	_	_	3	comp:obj	_	AlignBegin=57478|AlignEnd=57634
 12	fait	faire	VERB	_	_	11	comp:aux	_	AlignBegin=57634|AlignEnd=57789
-13	où	où	ADV	_	_	12	comp:obl	_	AlignBegin=57789|AlignEnd=57945
-14	du	du	ADP	_	_	12	comp:obl	_	AlignBegin=57945|AlignEnd=58101
-15	violon	violon	NOUN	_	_	14	comp:obj	_	AlignBegin=58101|AlignEnd=58257
+13	où	où	ADV	_	_	12	mod	_	AlignBegin=57789|AlignEnd=57945
+14	du	du	DET	_	_	15	det	_	AlignBegin=57945|AlignEnd=58101
+15	violon	violon	NOUN	_	_	12	comp:obj	_	AlignBegin=58101|AlignEnd=58257
 16	?	?	PUNCT	_	_	11	punct	_	AlignBegin=58257|AlignEnd=58257
 17	"	"	PUNCT	_	_	11	punct	_	AlignBegin=58257|AlignEnd=58257|SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	AlignBegin=58257|AlignEnd=58257
@@ -1068,8 +1068,8 @@
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=136424|AlignEnd=136424
 8	donc	donc	ADV	_	_	4	discourse	_	AlignBegin=136424|AlignEnd=136654|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=136654|AlignEnd=136654
-10	du	du	ADP	_	_	4	comp:obj	_	AlignBegin=136654|AlignEnd=136883
-11	violon	violon	NOUN	_	_	10	comp:obj	_	AlignBegin=136883|AlignEnd=137113
+10	du	du	DET	_	_	11	det	_	AlignBegin=136654|AlignEnd=136883
+11	violon	violon	NOUN	_	_	4	comp:obj	_	AlignBegin=136883|AlignEnd=137113
 12	et	et	CCONJ	_	_	14	cc	_	AlignBegin=137113|AlignEnd=137330
 13	elle	il	PRON	_	_	14	subj	_	AlignBegin=137330|AlignEnd=137547
 14	faisait	faire	VERB	_	_	4	conj:coord	_	AlignBegin=137547|AlignEnd=137764
