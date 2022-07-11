@@ -339,9 +339,11 @@
 17	à	à	ADP	_	_	16	udep	_	AlignBegin=52616|AlignEnd=52616
 18	l'	le	DET	_	_	19	det	_	AlignBegin=52616|AlignEnd=53010|SpaceAfter=No
 19	avance	avance	NOUN	_	_	17	comp:obj	_	AlignBegin=53010|AlignEnd=53404
-20	au	au	ADP	_	_	16	mod	_	AlignBegin=53404|AlignEnd=53798
-21	moins	moins	ADV	_	_	20	comp:obj	_	AlignBegin=53798|AlignEnd=54192|SpaceAfter=No
-22	.	.	PUNCT	_	_	3	punct	_	AlignBegin=54192|AlignEnd=54192
+20-21	au	_	_	_	_	_	_	_	_
+20	à	à	ADP	_	_	16	mod	_	AlignBegin=53404|AlignEnd=53798|wordform=au
+21	le	le	DET	_	_	22	det	_	_
+22	moins	moins	ADV	_	_	20	comp:obj	_	AlignBegin=53798|AlignEnd=54192|SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	AlignBegin=54192|AlignEnd=54192
 
 # sent_id = PS_2022_15_onEnParleAPersonne__20
 # text = et j'avais fais exprès de rentrer le plus vite possible.
@@ -427,7 +429,7 @@
 17	.	.	PUNCT	_	_	2	punct	_	AlignBegin=66717|AlignEnd=66717
 
 # sent_id = PS_2022_15_onEnParleAPersonne__25
-# text = et je me souviens que j'étais montée au grenier, parce que toutes mes affaires étaient au grenier à ce moment-là, quand j'étais chez magrand-mère.
+# text = et je me souviens que j'étais montée au grenier, parce que toutes mes affaires étaient au grenier à ce moment-là, quand j'étais chez ma grand-mère.
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=66717|AlignEnd=67032
@@ -438,29 +440,33 @@
 6	j'	il	PRON	_	_	7	subj	_	AlignBegin=68142|AlignEnd=68308|SpaceAfter=No
 7	étais	être	AUX	_	_	5	comp:obj	_	AlignBegin=68308|AlignEnd=68473
 8	montée	monter	VERB	_	_	7	comp:aux	_	AlignBegin=68473|AlignEnd=68639
-9	au	au	ADP	_	_	8	comp:obl	_	AlignBegin=68639|AlignEnd=68805
-10	grenier	grenier	NOUN	_	_	9	comp:obj	_	AlignBegin=68805|AlignEnd=68971|SpaceAfter=No
-11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=68971|AlignEnd=68971
-12	parce	parce	SCONJ	_	_	7	mod	_	AlignBegin=68971|AlignEnd=69136
-13	que	que	SCONJ	_	_	12	unk	_	AlignBegin=69136|AlignEnd=69302
-14	toutes	tout	ADJ	_	_	16	mod	_	AlignBegin=69302|AlignEnd=69476
-15	mes	son	DET	_	_	16	det	_	AlignBegin=69476|AlignEnd=69649
-16	affaires	affaire	NOUN	_	_	17	subj	_	AlignBegin=69649|AlignEnd=69823
-17	étaient	être	VERB	_	_	12	comp:obj	_	AlignBegin=69823|AlignEnd=69997
-18	au	au	ADP	_	_	17	comp:obl	_	AlignBegin=69997|AlignEnd=70170
-19	grenier	grenier	NOUN	_	_	18	comp:obj	_	AlignBegin=70170|AlignEnd=70344
-20	à	à	ADP	_	_	17	mod	_	AlignBegin=70344|AlignEnd=70344
-21	ce	ce	DET	_	_	22	det	_	AlignBegin=70344|AlignEnd=70504
-22	moment	moment	NOUN	_	_	20	comp:obj	_	AlignBegin=70504|AlignEnd=70665|SpaceAfter=No
-23	-là	-l	ADV	_	_	22	mod	_	AlignBegin=70665|AlignEnd=70825|SpaceAfter=No
-24	,	,	PUNCT	_	_	25	punct	_	AlignBegin=70825|AlignEnd=70825
-25	quand	quand	SCONJ	_	_	17	mod	_	AlignBegin=70825|AlignEnd=71098
-26	j'	il	PRON	_	_	27	subj	_	AlignBegin=71098|AlignEnd=71371|SpaceAfter=No
-27	étais	être	VERB	_	_	25	comp:obj	_	AlignBegin=71371|AlignEnd=71645
-28	chez	chez	ADP	_	_	27	comp:obl	_	AlignBegin=71645|AlignEnd=71918
-29	ma	son	DET	_	_	30	det	_	AlignBegin=71918|AlignEnd=72191|SpaceAfter=No
-30	grand-mère	grand-mère	NOUN	_	_	28	comp:obj	_	AlignBegin=72191|AlignEnd=72464|SpaceAfter=No
-31	.	.	PUNCT	_	_	4	punct	_	AlignBegin=72464|AlignEnd=72464
+9-10	au	_	_	_	_	_	_	_	_
+9	à	à	ADP	_	_	8	comp:obl	_	AlignBegin=68639|AlignEnd=68805|wordform=au
+10	le	le	DET	_	_	11	det	_	_
+11	grenier	grenier	NOUN	_	_	9	comp:obj	_	AlignBegin=68805|AlignEnd=68971|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=68971|AlignEnd=68971
+13	parce	parce	SCONJ	_	_	7	mod	_	AlignBegin=68971|AlignEnd=69136
+14	que	que	SCONJ	_	_	13	unk	_	AlignBegin=69136|AlignEnd=69302
+15	toutes	tout	ADJ	_	_	17	mod	_	AlignBegin=69302|AlignEnd=69476
+16	mes	son	DET	_	_	17	det	_	AlignBegin=69476|AlignEnd=69649
+17	affaires	affaire	NOUN	_	_	18	subj	_	AlignBegin=69649|AlignEnd=69823
+18	étaient	être	VERB	_	_	13	comp:obj	_	AlignBegin=69823|AlignEnd=69997
+19-20	au	_	_	_	_	_	_	_	_
+19	à	à	ADP	_	_	18	comp:obl	_	AlignBegin=69997|AlignEnd=70170|wordform=au
+20	le	le	DET	_	_	21	det	_	_
+21	grenier	grenier	NOUN	_	_	19	comp:obj	_	AlignBegin=70170|AlignEnd=70344
+22	à	à	ADP	_	_	18	mod	_	AlignBegin=70344|AlignEnd=70344
+23	ce	ce	DET	_	_	24	det	_	AlignBegin=70344|AlignEnd=70504
+24	moment	moment	NOUN	_	_	22	comp:obj	_	AlignBegin=70504|AlignEnd=70665|SpaceAfter=No
+25	-là	-l	ADV	_	_	24	mod	_	AlignBegin=70665|AlignEnd=70825|SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	AlignBegin=70825|AlignEnd=70825
+27	quand	quand	SCONJ	_	_	18	mod	_	AlignBegin=70825|AlignEnd=71098
+28	j'	il	PRON	_	_	29	subj	_	AlignBegin=71098|AlignEnd=71371|SpaceAfter=No
+29	étais	être	VERB	_	_	27	comp:obj	_	AlignBegin=71371|AlignEnd=71645
+30	chez	chez	ADP	_	_	29	comp:obl	_	AlignBegin=71645|AlignEnd=71918
+31	ma	son	DET	_	_	32	det	_	AlignBegin=71918|AlignEnd=72191
+32	grand-mère	grand-mère	NOUN	_	_	30	comp:obj	_	AlignBegin=72191|AlignEnd=72464|SpaceAfter=No
+33	.	.	PUNCT	_	_	4	punct	_	AlignBegin=72464|AlignEnd=72464
 
 # sent_id = PS_2022_15_onEnParleAPersonne__26
 # text = et j'étais montée au grenier.
@@ -470,9 +476,11 @@
 2	j'	il	PRON	_	_	3	subj	_	AlignBegin=72650|AlignEnd=72836|SpaceAfter=No
 3	étais	être	AUX	_	_	0	root	_	AlignBegin=72836|AlignEnd=73022
 4	montée	monter	VERB	_	_	3	comp:aux	_	AlignBegin=73022|AlignEnd=73208
-5	au	au	ADP	_	_	4	comp:obl	_	AlignBegin=73208|AlignEnd=73394
-6	grenier	grenier	NOUN	_	_	5	comp:obj	_	AlignBegin=73394|AlignEnd=73580|SpaceAfter=No
-7	.	.	PUNCT	_	_	3	punct	_	AlignBegin=73580|AlignEnd=73580
+5-6	au	_	_	_	_	_	_	_	_
+5	à	à	ADP	_	_	4	comp:obl	_	AlignBegin=73208|AlignEnd=73394|wordform=au
+6	le	le	DET	_	_	7	det	_	_
+7	grenier	grenier	NOUN	_	_	5	comp:obj	_	AlignBegin=73394|AlignEnd=73580|SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	AlignBegin=73580|AlignEnd=73580
 
 # sent_id = PS_2022_15_onEnParleAPersonne__27
 # text = et j'ai défait tous les sacs, mais genre, tous mes sacs de déménagement.
@@ -560,17 +568,19 @@
 # text = et au final je me suis retrouvée avec le d~ …
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
-1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=85271|AlignEnd=85419
-2	au	au	ADP	_	_	6	mod	_	AlignBegin=85419|AlignEnd=85567
-3	final	final	NOUN	_	_	2	comp:obj	_	AlignBegin=85567|AlignEnd=85714
-4	je	il	PRON	_	_	6	subj	_	AlignBegin=85714|AlignEnd=85862
-5	me	se	PRON	_	_	7	comp	_	AlignBegin=85862|AlignEnd=86010
-6	suis	être	AUX	_	_	0	root	_	AlignBegin=86010|AlignEnd=86158
-7	retrouvée	retrouver	VERB	_	_	6	comp:aux	_	AlignBegin=86158|AlignEnd=86306
-8	avec	avec	ADP	_	_	7	comp:obl	_	AlignBegin=86306|AlignEnd=86453
-9	le	le	DET	_	_	10	det	_	AlignBegin=86453|AlignEnd=86601
-10	d~	d~	NOUN	_	_	8	comp:obj	_	AlignBegin=86601|AlignEnd=86749
-11	…	…	PUNCT	_	_	6	punct	_	AlignBegin=86749|AlignEnd=86749
+1	et	et	CCONJ	_	_	7	cc	_	AlignBegin=85271|AlignEnd=85419
+2-3	au	_	_	_	_	_	_	_	_
+2	à	à	ADP	_	_	7	mod	_	AlignBegin=85419|AlignEnd=85567|wordform=au
+3	le	le	DET	_	_	4	det	_	_
+4	final	final	NOUN	_	_	2	comp:obj	_	AlignBegin=85567|AlignEnd=85714
+5	je	il	PRON	_	_	7	subj	_	AlignBegin=85714|AlignEnd=85862
+6	me	se	PRON	_	_	8	comp	_	AlignBegin=85862|AlignEnd=86010
+7	suis	être	AUX	_	_	0	root	_	AlignBegin=86010|AlignEnd=86158
+8	retrouvée	retrouver	VERB	_	_	7	comp:aux	_	AlignBegin=86158|AlignEnd=86306
+9	avec	avec	ADP	_	_	8	comp:obl	_	AlignBegin=86306|AlignEnd=86453
+10	le	le	DET	_	_	11	det	_	AlignBegin=86453|AlignEnd=86601
+11	d~	d~	NOUN	_	_	9	comp:obj	_	AlignBegin=86601|AlignEnd=86749
+12	…	…	PUNCT	_	_	7	punct	_	AlignBegin=86749|AlignEnd=86749
 
 # sent_id = PS_2022_15_onEnParleAPersonne__33
 # text = en fait, let-shirt vert que j'ai mis, c'est juste parce que, si je partais pas maintenant, j'étais en retard, hein.
@@ -688,32 +698,38 @@
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=102842|AlignEnd=102842
 3	sauf	sauf	CCONJ	_	_	1	cc	_	AlignBegin=102842|AlignEnd=103044
 4	que	que	SCONJ	_	_	3	unk	_	AlignBegin=103044|AlignEnd=103246|SpaceAfter=No
-5	,	,	PUNCT	_	_	10	punct	_	AlignBegin=103246|AlignEnd=103246
-6	du	du	ADP	_	_	10	discourse	_	AlignBegin=103246|AlignEnd=103447
-7	coup	coup	NOUN	_	_	6	comp:obj	_	AlignBegin=103447|AlignEnd=103649|SpaceAfter=No
-8	,	,	PUNCT	_	_	6	punct	_	AlignBegin=103649|AlignEnd=103649
-9	ça	ça	PRON	_	_	10	subj	_	AlignBegin=103649|AlignEnd=103851
-10	va	aller	VERB	_	_	3	comp:obj	_	AlignBegin=103851|AlignEnd=104053
-11	pas	pas	ADV	_	_	10	mod	_	AlignBegin=104053|AlignEnd=104255
-12	du	du	ADP	_	_	11	mod	_	AlignBegin=104255|AlignEnd=104457
-13	tout	tout	NOUN	_	_	12	comp:obj	_	AlignBegin=104457|AlignEnd=104658
-14	avec	avec	ADP	_	_	10	mod	_	AlignBegin=104658|AlignEnd=104860
-15	le	le	DET	_	_	19	det	_	AlignBegin=104860|AlignEnd=105062
-16	"	"	PUNCT	_	_	19	punct	_	AlignBegin=105062|AlignEnd=105062
-17	on	on	PRON	_	_	19	subj	_	AlignBegin=105062|AlignEnd=105325
-18	en	en	PRON	_	_	19	comp:obj	_	AlignBegin=105325|AlignEnd=105588
-19	parle	parler	VERB	_	_	14	comp:obj	_	AlignBegin=105588|AlignEnd=105851
-20	à	à	ADP	_	_	19	comp:obl	_	AlignBegin=105851|AlignEnd=105851
-21	personne	personne	PRON	_	_	20	comp:obj	_	AlignBegin=105851|AlignEnd=106114|SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=106114|AlignEnd=106114
-23	hein	hein	ADJ	_	_	21	discourse	_	AlignBegin=106114|AlignEnd=106377
-24	"	"	PUNCT	_	_	19	punct	_	AlignBegin=106377|AlignEnd=106377
-25	qu'	que	PRON	_	_	27	comp:obj	_	AlignBegin=106377|AlignEnd=106647|SpaceAfter=No
-26	on	on	PRON	_	_	27	subj	_	AlignBegin=106647|AlignEnd=106917
-27	disait	dire	VERB	_	_	19	mod@relcl	_	AlignBegin=106917|AlignEnd=107188
-28	au	au	ADP	_	_	27	mod	_	AlignBegin=107188|AlignEnd=107458
-29	début	début	NOUN	_	_	28	comp:obj	_	AlignBegin=107458|AlignEnd=107728|SpaceAfter=No
-30	.	.	PUNCT	_	_	1	punct	_	AlignBegin=107728|AlignEnd=107728
+5	,	,	PUNCT	_	_	11	punct	_	AlignBegin=103246|AlignEnd=103246
+6-7	du	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	11	discourse	_	AlignBegin=103246|AlignEnd=103447|wordform=du
+7	le	le	DET	_	_	8	det	_	_
+8	coup	coup	NOUN	_	_	6	comp:obj	_	AlignBegin=103447|AlignEnd=103649|SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	AlignBegin=103649|AlignEnd=103649
+10	ça	ça	PRON	_	_	11	subj	_	AlignBegin=103649|AlignEnd=103851
+11	va	aller	VERB	_	_	3	comp:obj	_	AlignBegin=103851|AlignEnd=104053
+12	pas	pas	ADV	_	_	11	mod	_	AlignBegin=104053|AlignEnd=104255
+13-14	du	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	12	mod	_	AlignBegin=104255|AlignEnd=104457|wordform=du
+14	le	le	DET	_	_	15	det	_	_
+15	tout	tout	NOUN	_	_	13	comp:obj	_	AlignBegin=104457|AlignEnd=104658
+16	avec	avec	ADP	_	_	11	mod	_	AlignBegin=104658|AlignEnd=104860
+17	le	le	DET	_	_	21	det	_	AlignBegin=104860|AlignEnd=105062
+18	"	"	PUNCT	_	_	21	punct	_	AlignBegin=105062|AlignEnd=105062
+19	on	on	PRON	_	_	21	subj	_	AlignBegin=105062|AlignEnd=105325
+20	en	en	PRON	_	_	21	comp:obj	_	AlignBegin=105325|AlignEnd=105588
+21	parle	parler	VERB	_	_	16	comp:obj	_	AlignBegin=105588|AlignEnd=105851
+22	à	à	ADP	_	_	21	comp:obl	_	AlignBegin=105851|AlignEnd=105851
+23	personne	personne	PRON	_	_	22	comp:obj	_	AlignBegin=105851|AlignEnd=106114|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	AlignBegin=106114|AlignEnd=106114
+25	hein	hein	ADJ	_	_	23	discourse	_	AlignBegin=106114|AlignEnd=106377
+26	"	"	PUNCT	_	_	21	punct	_	AlignBegin=106377|AlignEnd=106377
+27	qu'	que	PRON	_	_	29	comp:obj	_	AlignBegin=106377|AlignEnd=106647|SpaceAfter=No
+28	on	on	PRON	_	_	29	subj	_	AlignBegin=106647|AlignEnd=106917
+29	disait	dire	VERB	_	_	21	mod@relcl	_	AlignBegin=106917|AlignEnd=107188
+30-31	au	_	_	_	_	_	_	_	_
+30	à	à	ADP	_	_	29	mod	_	AlignBegin=107188|AlignEnd=107458|wordform=au
+31	le	le	DET	_	_	32	det	_	_
+32	début	début	NOUN	_	_	30	comp:obj	_	AlignBegin=107458|AlignEnd=107728|SpaceAfter=No
+33	.	.	PUNCT	_	_	1	punct	_	AlignBegin=107728|AlignEnd=107728
 
 # sent_id = PS_2022_15_onEnParleAPersonne__40
 # text = mais j'avoue quand tu m'as dit euh …
@@ -820,12 +836,14 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=124097|AlignEnd=124097
 3	j'	il	PRON	_	_	4	subj	_	AlignBegin=124097|AlignEnd=124270|SpaceAfter=No
 4	étais	être	VERB	_	_	0	root	_	AlignBegin=124270|AlignEnd=124444
-5	au	au	ADP	_	_	4	comp:obl	_	AlignBegin=124444|AlignEnd=124618
-6	bout	bout	NOUN	_	_	5	comp:obj	_	AlignBegin=124618|AlignEnd=124791
-7	de	de	ADP	_	_	6	udep	_	AlignBegin=124791|AlignEnd=124965
-8	la	le	DET	_	_	9	det	_	AlignBegin=124965|AlignEnd=125138
-9	rue	rue	NOUN	_	_	7	comp:obj	_	AlignBegin=125138|AlignEnd=125312|SpaceAfter=No
-10	.	.	PUNCT	_	_	4	punct	_	AlignBegin=125312|AlignEnd=125312
+5-6	au	_	_	_	_	_	_	_	_
+5	à	à	ADP	_	_	4	comp:obl	_	AlignBegin=124444|AlignEnd=124618|wordform=au
+6	le	le	DET	_	_	7	det	_	_
+7	bout	bout	NOUN	_	_	5	comp:obj	_	AlignBegin=124618|AlignEnd=124791
+8	de	de	ADP	_	_	7	udep	_	AlignBegin=124791|AlignEnd=124965
+9	la	le	DET	_	_	10	det	_	AlignBegin=124965|AlignEnd=125138
+10	rue	rue	NOUN	_	_	8	comp:obj	_	AlignBegin=125138|AlignEnd=125312|SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=125312|AlignEnd=125312
 
 # sent_id = PS_2022_15_onEnParleAPersonne__47
 # text = et dès que je me suis dit : " on est pas loin de la mairie, il va me voir ", j'ai ralenti.
