@@ -30,7 +30,7 @@
 23	,	,	PUNCT	_	_	22	punct	_	AlignBegin=4124|AlignEnd=4124
 24	euh	euh	INTJ	_	_	26	discourse	_	AlignBegin=4124|AlignEnd=4354|SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	AlignBegin=4354|AlignEnd=4354
-26	comment	comment	ADV	_	_	12	mod	_	AlignBegin=5365|AlignEnd=5687
+26	comment	comment	ADV	_	_	12	mod	_	Reported=Yes|AlignBegin=5365|AlignEnd=5687
 27	je	il	PRON	_	_	26	conj:dicto	_	AlignBegin=5687|AlignEnd=6008
 28	te	se	PRON	_	_	12	comp:obl	_	AlignBegin=6008|AlignEnd=6330
 29	?	?	PUNCT	_	_	11	punct	_	AlignBegin=6330|AlignEnd=6330
@@ -69,7 +69,7 @@
 9	"	"	PUNCT	_	_	7	punct	_	AlignBegin=10293|AlignEnd=10293
 10	bah	bah	INTJ	_	_	7	discourse	_	AlignBegin=10293|AlignEnd=10549|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=10549|AlignEnd=10549
-12	ah	ah	INTJ	_	_	7	discourse	_	AlignBegin=10549|AlignEnd=10804
+12	ah	ah	INTJ	_	_	7	discourse	_	Reported=Yes|AlignBegin=10549|AlignEnd=10804
 13	bon	bon	INTJ	_	_	12	unk	_	AlignBegin=10804|AlignEnd=11060|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=11060|AlignEnd=11060
 15	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=11060|AlignEnd=11315
@@ -136,7 +136,7 @@
 2	fait	faire	VERB	_	_	0	root	_	AlignBegin=16030|AlignEnd=16206
 3	:	:	PUNCT	_	_	5	punct	_	AlignBegin=16206|AlignEnd=16206
 4	"	"	PUNCT	_	_	5	punct	_	AlignBegin=16206|AlignEnd=16206
-5	non	non	ADV	_	_	2	conj:dicto	_	AlignBegin=16206|AlignEnd=16381
+5	non	non	ADV	_	_	2	comp:obj	_	Reported=Yes|AlignBegin=16206|AlignEnd=16381
 6	non	non	ADV	_	_	5	conj:dicto	_	AlignBegin=16381|AlignEnd=16557|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=16557|AlignEnd=16557
 
@@ -166,7 +166,7 @@
 2	fais	faire	VERB	_	_	0	root	_	AlignBegin=18709|AlignEnd=19004
 3	:	:	PUNCT	_	_	5	punct	_	AlignBegin=19004|AlignEnd=19004
 4	"	"	PUNCT	_	_	5	punct	_	AlignBegin=19004|AlignEnd=19004
-5	d'	de	ADP	_	_	2	comp:obj	_	AlignBegin=19004|AlignEnd=19300|SpaceAfter=No
+5	d'	de	ADP	_	_	2	comp:obj	_	Reported=Yes|AlignBegin=19004|AlignEnd=19300|SpaceAfter=No
 6	accord	accord	NOUN	_	_	5	comp:obj	_	AlignBegin=19300|AlignEnd=19595|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=19595|AlignEnd=19595
 
@@ -198,7 +198,7 @@
 22	.	.	PUNCT	_	_	8	punct	_	AlignBegin=24672|AlignEnd=24672
 
 # sent_id = PS_2022_1_rencontreSolfège__12
-# text = et euh, elle me d~, euh : " extrascolaires ?"
+# text = et euh, elle me d~, euh : " extrascolaires ?" .
 # sound_url = PS_2022_1_rencontreSolfège.mp3
 # speaker = L1
 1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=25536|AlignEnd=25705
@@ -211,8 +211,9 @@
 8	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=26381|AlignEnd=26550
 9	:	:	PUNCT	_	_	11	punct	_	AlignBegin=26550|AlignEnd=26550
 10	"	"	PUNCT	_	_	11	punct	_	AlignBegin=26550|AlignEnd=26550
-11	extrascolaires	extrascolaire	NOUN	_	_	6	comp:obj	_	AlignBegin=26550|AlignEnd=27282
+11	extrascolaires	extrascolaire	NOUN	_	_	6	comp:obj	_	Reported=Yes|AlignBegin=26550|AlignEnd=27282
 12	?"	?"	PUNCT	_	_	11	punct	_	AlignBegin=27282|AlignEnd=27282
+13	.	.	PUNCT	_	_	6	punct	_	AlignBegin=27282|AlignEnd=27282
 
 # sent_id = PS_2022_1_rencontreSolfège__13
 # text = .
@@ -291,7 +292,7 @@
 2	fait	faire	VERB	_	_	0	root	_	AlignBegin=33574|AlignEnd=33808
 3	:	:	PUNCT	_	_	5	punct	_	AlignBegin=33808|AlignEnd=33808
 4	"	"	PUNCT	_	_	5	punct	_	AlignBegin=33808|AlignEnd=33808
-5	tennis	tennis	NOUN	_	_	2	comp:obj	_	AlignBegin=33808|AlignEnd=34043|SpaceAfter=No
+5	tennis	tennis	NOUN	_	_	2	comp:obj	_	Reported=Yes|AlignBegin=33808|AlignEnd=34043|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=34043|AlignEnd=34043
 7	"	"	PUNCT	_	_	5	punct	_	AlignBegin=34043|AlignEnd=34043|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=34043|AlignEnd=34043
@@ -844,7 +845,7 @@
 24	.	.	PUNCT	_	_	8	punct	_	AlignBegin=104930|AlignEnd=104930
 
 # sent_id = PS_2022_1_rencontreSolfège__50
-# text = mais j'avais, euh, moins de huit ans !"
+# text = mais j'avais, euh, moins de huit ans !" .
 # sound_url = PS_2022_1_rencontreSolfège.mp3
 # speaker = L1
 1	mais	mais	CCONJ	_	_	3	cc	_	AlignBegin=104930|AlignEnd=105102
@@ -858,6 +859,7 @@
 9	huit	huit	NUM	_	_	10	det	_	AlignBegin=105962|AlignEnd=106134
 10	ans	an	NOUN	_	_	8	comp:obj	_	AlignBegin=106134|AlignEnd=106306
 11	!"	!"	PUNCT	_	_	3	punct	_	AlignBegin=106306|AlignEnd=106306
+12	.	.	PUNCT	_	_	3	punct	_	AlignBegin=106306|AlignEnd=106306
 
 # sent_id = PS_2022_1_rencontreSolfège__51
 # text = .
@@ -1005,7 +1007,7 @@
 17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=124890|AlignEnd=124890
 18	je	il	PRON	_	_	15	conj:dicto	_	AlignBegin=124890|AlignEnd=125061
 19	t'	le	PRON	_	_	21	comp:obj	_	AlignBegin=125061|AlignEnd=125233|SpaceAfter=No
-20	ai	avoir	AUX	_	_	9	comp:obj	_	AlignBegin=125233|AlignEnd=125404
+20	ai	avoir	AUX	_	_	9	comp:obj	_	Reported=Yes|AlignBegin=125233|AlignEnd=125404
 21	reconnue	reconnaître	VERB	_	_	20	comp:aux@tense	_	AlignBegin=125404|AlignEnd=125575
 22	de	de	ADP	_	_	21	mod	_	AlignBegin=125575|AlignEnd=125747
 23	suite	suite	NOUN	_	_	22	comp:obj	_	AlignBegin=125747|AlignEnd=125918
