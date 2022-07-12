@@ -184,7 +184,7 @@
 34	.	.	PUNCT	_	_	4	punct	_	AlignBegin=38858|AlignEnd=38858
 
 # sent_id = PS_2022_3_petitDuCentre__8
-# text = il m'a dit non, je veux maman.
+# text = il m'a dit non, je veux maman, je veux papa.
 # sound_url = PS_2022_3_petitDuCentre.mp3
 # speaker = 0
 1	il	il	PRON	_	_	3	subj	_	AlignBegin=38858|AlignEnd=39159
@@ -195,13 +195,18 @@
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=40365|AlignEnd=40365
 7	je	il	PRON	_	_	8	subj	_	AlignBegin=40365|AlignEnd=40667
 8	veux	vouloir	VERB	_	_	4	comp:obj	_	AlignBegin=40667|AlignEnd=40968|Reported=Yes
-9	maman	maman	NOUN	_	_	8	comp:obj@x	_	AlignBegin=40968|AlignEnd=41270|SpaceAfter=No
-10	.	.	PUNCT	_	_	3	punct	_	AlignBegin=41270|AlignEnd=41270
+9	maman	maman	NOUN	_	_	8	comp:obj	_	AlignBegin=40968|AlignEnd=41270|SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	AlignBegin=41270|AlignEnd=41270
+11	je	il	PRON	_	_	12	subj	_	AlignBegin=41270|AlignEnd=41571
+12	veux	vouloir	VERB	_	_	8	conj:coord	_	AlignBegin=41571|AlignEnd=41873
+13	papa	papa	NOUN	_	_	12	comp:obj	_	AlignBegin=41873|AlignEnd=42174|SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	AlignBegin=42174|AlignEnd=42174
 
 # sent_id = PS_2022_3_petitDuCentre__9
 # text = je veux papa. ".
 # sound_url = PS_2022_3_petitDuCentre.mp3
 # speaker = 0
+# statu = à supprimer
 1	je	il	PRON	_	_	2	subj	_	AlignBegin=41270|AlignEnd=41571
 2	veux	vouloir	VERB	_	_	0	root	_	AlignBegin=41571|AlignEnd=41873
 3	papa	papa	NOUN	_	_	2	comp:obj@x	_	AlignBegin=41873|AlignEnd=42174|SpaceAfter=No
