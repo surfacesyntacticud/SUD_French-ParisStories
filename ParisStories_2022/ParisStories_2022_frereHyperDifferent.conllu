@@ -34,10 +34,10 @@
 3	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=3291|AlignEnd=3519|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=3519|AlignEnd=3519
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=3519|AlignEnd=3746
-6	pense	penser	VERB	_	Number=Sing|Person=1	0	root	_	AlignBegin=3746|AlignEnd=3973
+6	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=3746|AlignEnd=3973
 7	que	que	SCONJ	_	_	6	comp:obj	_	AlignBegin=3973|AlignEnd=4201
 8	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	AlignBegin=4201|AlignEnd=4428
-9	vais	aller	VERB	_	Number=Sing|Person=1	7	comp:obj	_	AlignBegin=4428|AlignEnd=4655
+9	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	comp:obj	_	AlignBegin=4428|AlignEnd=4655
 10	te	li	PRON	_	_	11	comp:obl	_	AlignBegin=4655|AlignEnd=4883
 11	raconter	raconter	VERB	_	VerbForm=Inf	9	comp:obj@x	_	AlignBegin=4883|AlignEnd=5110|Subject=Raising
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	AlignBegin=5110|AlignEnd=5337
@@ -83,7 +83,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=10291|AlignEnd=10291
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	AlignBegin=10291|AlignEnd=10474
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=10474|AlignEnd=10656
-7	né	naître	VERB	_	_	6	comp:aux@tense	_	AlignBegin=10656|AlignEnd=10839
+7	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	AlignBegin=10656|AlignEnd=10839
 8	quand	quand	SCONJ	_	_	6	mod	_	AlignBegin=10839|AlignEnd=11022|SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	AlignBegin=11022|AlignEnd=11022
 10	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	dislocated	_	AlignBegin=11022|AlignEnd=11204|SpaceAfter=No
@@ -172,7 +172,7 @@
 5	moi	li	PRON	_	Number=Sing|Person=1|PronType=Prs	8	dislocated	_	AlignBegin=23821|AlignEnd=23975|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=23975|AlignEnd=23975
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	AlignBegin=23975|AlignEnd=24128
-8	voulais	vouloir	VERB	_	Number=Sing|Person=1	0	root	_	AlignBegin=24128|AlignEnd=24282
+8	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=24128|AlignEnd=24282
 9	une	un	DET	_	_	10	det	_	AlignBegin=24282|AlignEnd=24435
 10	soeur	soeur	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	AlignBegin=24435|AlignEnd=24589|SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	AlignBegin=24589|AlignEnd=24589
@@ -362,7 +362,7 @@
 2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	AlignBegin=51028|AlignEnd=51186
 3	s'	se	PRON	_	_	5	comp@pass	_	AlignBegin=51186|AlignEnd=51345|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=51345|AlignEnd=51504
-5	amélioré	améliorer	VERB	_	_	4	comp:aux@pass	_	AlignBegin=51504|AlignEnd=51662
+5	amélioré	améliorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	AlignBegin=51504|AlignEnd=51662
 6	depuis	depuis	ADV	_	_	4	mod	_	AlignBegin=51662|AlignEnd=51821
 7	?	?	PUNCT	_	_	4	punct	_	AlignBegin=51821|AlignEnd=51821
 
@@ -374,7 +374,7 @@
 2	s'	se	PRON	_	_	5	comp@pass	_	AlignBegin=52364|AlignEnd=52572|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=52572|AlignEnd=52781
 4	clairement	clairement	ADV	_	_	5	mod	_	AlignBegin=52781|AlignEnd=52989
-5	amélioré	améliorer	VERB	_	_	3	comp:aux@pass	_	AlignBegin=52989|AlignEnd=53198
+5	amélioré	améliorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	AlignBegin=52989|AlignEnd=53198
 6	depuis	depuis	ADV	_	_	3	mod	_	AlignBegin=53198|AlignEnd=53406|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	AlignBegin=53406|AlignEnd=53406
 
@@ -517,7 +517,7 @@
 4	là	là	ADV	_	_	7	mod	_	AlignBegin=71109|AlignEnd=71340|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=71340|AlignEnd=71340
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	AlignBegin=71340|AlignEnd=71572
-7	va	aller	VERB	_	Number=Sing|Person=3	0	root	_	AlignBegin=71572|AlignEnd=71804
+7	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=71572|AlignEnd=71804
 8	avoir	avoir	VERB	_	VerbForm=Inf	7	comp:obj@x	_	AlignBegin=71804|AlignEnd=72036|SpaceAfter=No
 9	dix-huit	dix-huit	NUM	_	Number=Plur	10	det	_	AlignBegin=72036|AlignEnd=72268
 10	ans	an	NOUN	_	Number=Plur	8	comp:obj	_	AlignBegin=72268|AlignEnd=72499
@@ -578,11 +578,11 @@
 10	-là	-re	ADV	_	_	9	mod	_	AlignBegin=82373|AlignEnd=82732|SpaceAfter=No
 11	,	,	PUNCT	_	_	7	punct	_	AlignBegin=82732|AlignEnd=82732
 12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	subj	_	AlignBegin=82732|AlignEnd=83090
-13	habitait	habiter	VERB	_	Number=Sing|Person=3	0	root	_	AlignBegin=83090|AlignEnd=83449
+13	habitait	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=83090|AlignEnd=83449
 14	euh	euh	INTJ	_	_	17	discourse	_	AlignBegin=83449|AlignEnd=83808|SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	AlignBegin=83808|AlignEnd=83808
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	subj	_	AlignBegin=83808|AlignEnd=84016
-17	habitait	habiter	VERB	_	Number=Sing|Person=3	13	conj:dicto	_	AlignBegin=84016|AlignEnd=84223
+17	habitait	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj:dicto	_	AlignBegin=84016|AlignEnd=84223
 18	dans	dans	ADP	_	_	17	mod	_	AlignBegin=84223|AlignEnd=84431
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	AlignBegin=84431|AlignEnd=84639
 20	Bouches	Bouches	PROPN	_	_	18	comp:obj	_	AlignBegin=84639|AlignEnd=84846
@@ -695,14 +695,14 @@
 28	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	comp:obj	_	AlignBegin=98423|AlignEnd=98549
 29	quand	quand	SCONJ	_	_	28	mod	_	AlignBegin=98549|AlignEnd=98675
 30	même	même	ADV	_	_	29	unk	_	AlignBegin=98675|AlignEnd=98801
-31	vécu	vécoir	VERB	_	_	28	comp:aux@tense	_	AlignBegin=98801|AlignEnd=98927
+31	vécu	vécoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	comp:aux@tense	_	AlignBegin=98801|AlignEnd=98927
 32	ensemble	ensemble	ADV	_	_	31	mod	_	AlignBegin=98927|AlignEnd=99053|SpaceAfter=No
 33	,	,	PUNCT	_	_	35	punct	_	AlignBegin=99053|AlignEnd=99053
 34	même	même	ADV	_	_	35	mod	_	AlignBegin=99053|AlignEnd=99179
 35	si	si	SCONJ	_	_	28	mod	_	AlignBegin=99179|AlignEnd=99305
 36	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	38	subj	_	AlignBegin=99305|AlignEnd=99431
 37	n'	ne	ADV	_	_	38	mod	_	AlignBegin=99431|AlignEnd=99558|SpaceAfter=No
-38	avait	avoir	VERB	_	Number=Sing|Person=3	35	comp:obj	_	AlignBegin=99558|AlignEnd=99684
+38	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	comp:obj	_	AlignBegin=99558|AlignEnd=99684
 39	pas	pas	ADV	_	_	38	mod	_	AlignBegin=99684|AlignEnd=99810
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	AlignBegin=99810|AlignEnd=99936
 41	mêmes	même	ADJ	_	Gender=Fem|Number=Plur	42	mod	_	AlignBegin=99936|AlignEnd=100062
@@ -753,7 +753,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=106366|AlignEnd=106366
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	AlignBegin=106366|AlignEnd=106629
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=106629|AlignEnd=106892
-6	commencé	commencer	VERB	_	_	5	comp:aux@tense	_	AlignBegin=106892|AlignEnd=107154
+6	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	AlignBegin=106892|AlignEnd=107154
 7	à	à	ADP	_	_	6	comp:obl@x	_	AlignBegin=107154|AlignEnd=107154
 8	marcher	marcher	VERB	_	VerbForm=Inf	7	comp:obj	_	AlignBegin=107154|AlignEnd=107417|Subject=SubjRaising
 9	bien	bien	ADV	_	_	10	mod	_	AlignBegin=107417|AlignEnd=107719
@@ -772,7 +772,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=109360|AlignEnd=109360
 4	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=109360|AlignEnd=109576|SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=109576|AlignEnd=109793
-6	commencé	commencer	VERB	_	_	5	comp:aux@tense	_	AlignBegin=109793|AlignEnd=110010
+6	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	AlignBegin=109793|AlignEnd=110010
 7	à	à	ADP	_	_	6	comp:obl@x	_	AlignBegin=110010|AlignEnd=110010
 8	parler	parler	VERB	_	_	7	comp:obj	_	AlignBegin=110010|AlignEnd=110227
 9	bien	bien	ADV	_	_	10	mod	_	AlignBegin=110227|AlignEnd=110444
@@ -832,7 +832,7 @@
 19	bah	bah	INTJ	_	_	22	discourse	_	AlignBegin=117436|AlignEnd=117758|SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	AlignBegin=117758|AlignEnd=117758
 21	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj	_	AlignBegin=117758|AlignEnd=118080
-22	va	aller	VERB	_	Number=Sing|Person=3	15	conj:dicto	_	AlignBegin=118080|AlignEnd=118401
+22	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj:dicto	_	AlignBegin=118080|AlignEnd=118401
 23	plus	plus	ADV	_	_	22	mod	_	AlignBegin=118401|AlignEnd=118723
 24	bouger	bouger	VERB	_	_	22	comp:obj@x	_	AlignBegin=118723|AlignEnd=119045
 25	partout	partout	ADV	_	_	24	mod	_	AlignBegin=119045|AlignEnd=119367
@@ -947,7 +947,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=134810|AlignEnd=134810
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=134810|AlignEnd=134964
 4	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	comp:obl	_	AlignBegin=134964|AlignEnd=135119
-5	prenais	prere	VERB	_	Number=Sing|Person=1	0	root	_	AlignBegin=135119|AlignEnd=135273
+5	prenais	prere	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=135119|AlignEnd=135273
 6	tous	tout	ADJ	_	_	8	mod	_	AlignBegin=135273|AlignEnd=135428
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	AlignBegin=135428|AlignEnd=135582
 8	murs	mur	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	AlignBegin=135582|AlignEnd=135737|SpaceAfter=No
@@ -1071,10 +1071,10 @@
 # speaker = L1
 # text = il faut qu'il sache que c'était un bout-en-train.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=146619|AlignEnd=146758
-2	faut	falloir	VERB	_	Number=Sing|Person=3	0	root	_	AlignBegin=146758|AlignEnd=146896
+2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=146758|AlignEnd=146896
 3	qu'	que	SCONJ	_	_	2	comp:obj	_	AlignBegin=146896|AlignEnd=147035|SpaceAfter=No
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	AlignBegin=147035|AlignEnd=147173
-5	sache	voir	VERB	_	Number=Sing|Person=3	3	comp:obj	_	AlignBegin=147173|AlignEnd=147312
+5	sache	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=147173|AlignEnd=147312
 6	que	que	SCONJ	_	_	5	comp:obj	_	AlignBegin=147312|AlignEnd=147450
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	AlignBegin=147450|AlignEnd=147589|SpaceAfter=No
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	comp:obj	_	AlignBegin=147589|AlignEnd=147727
@@ -1103,6 +1103,6 @@
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=148817|AlignEnd=148817
 10	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	12	subj	_	AlignBegin=148817|AlignEnd=148952
 11	m'	le	PRON	_	_	12	comp:obj	_	AlignBegin=148952|AlignEnd=149088|SpaceAfter=No
-12	étonnes	étonner	VERB	_	Number=Sing|Person=2	4	discourse	_	AlignBegin=149088|AlignEnd=149223|SpaceAfter=No
+12	étonnes	étonner	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	discourse	_	AlignBegin=149088|AlignEnd=149223|SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	AlignBegin=149223|AlignEnd=149223
 
