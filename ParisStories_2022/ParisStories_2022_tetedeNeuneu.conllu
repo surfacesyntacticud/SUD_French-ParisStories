@@ -15,7 +15,7 @@
 10	dit	dire	VERB	_	_	9	comp:aux@tense	_	AlignBegin=2865|AlignEnd=3043
 11	qu'	qu'	SCONJ	_	_	10	comp:obj	_	AlignBegin=3043|AlignEnd=3220|SpaceAfter=No
 12	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	subj	_	AlignBegin=3220|AlignEnd=3398
-13	avait	avoir	VERB	_	_	11	comp:obj	_	AlignBegin=3398|AlignEnd=3576
+13	avait	avoir	VERB	_	Number=Sing|Person=3	11	comp:obj	_	AlignBegin=3398|AlignEnd=3576
 14	un	un	DET	_	_	15	det	_	AlignBegin=3576|AlignEnd=3753
 15	mec	mec	NOUN	_	_	13	comp:obj	_	AlignBegin=3753|AlignEnd=3931|SpaceAfter=No
 16	.	.	PUNCT	_	_	9	punct	_	AlignBegin=3931|AlignEnd=3931
@@ -77,9 +77,9 @@
 # speaker = L1
 # text = je pense ça doit faire 2 ans.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=10689|AlignEnd=10896
-2	pense	penser	VERB	_	_	0	root	_	AlignBegin=10896|AlignEnd=11103
+2	pense	penser	VERB	_	Number=Sing|Person=1	0	root	_	AlignBegin=10896|AlignEnd=11103
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	AlignBegin=11103|AlignEnd=11310
-4	doit	doievoir	VERB	_	_	2	discourse	_	AlignBegin=11310|AlignEnd=11518
+4	doit	doievoir	VERB	_	Number=Sing|Person=3	2	discourse	_	AlignBegin=11310|AlignEnd=11518
 5	faire	faire	VERB	_	_	4	comp:pred	_	AlignBegin=11518|AlignEnd=11725
 6	2	2	NUM	_	_	7	det	_	AlignBegin=11725|AlignEnd=11932
 7	ans	an	NOUN	_	_	5	comp:obj	_	AlignBegin=11932|AlignEnd=12139|SpaceAfter=No
@@ -325,7 +325,7 @@
 14	mieux	mieux	ADV	_	_	17	mod	_	AlignBegin=39177|AlignEnd=39443
 15	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	AlignBegin=39443|AlignEnd=39708
 16	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	17	comp:obj	_	AlignBegin=39708|AlignEnd=39973
-17	sens	senr	VERB	_	_	3	comp:obj	_	AlignBegin=39973|AlignEnd=40238|SpaceAfter=No
+17	sens	senr	VERB	_	Number=Sing|Person=1	3	comp:obj	_	AlignBegin=39973|AlignEnd=40238|SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	AlignBegin=40238|AlignEnd=40238
 19	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	20	subj	_	AlignBegin=40238|AlignEnd=40504
 20	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	discourse	_	AlignBegin=40504|AlignEnd=40769
@@ -360,12 +360,12 @@
 14	là	là	ADV	_	_	13	mod	_	AlignBegin=43344|AlignEnd=43570|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=43570|AlignEnd=43570
 16	pour	pour	ADP	_	_	11	conj:dicto	_	AlignBegin=43570|AlignEnd=43796
-17	ses	son	DET	_	Number=Plur|Poss=Yes|PronType=Prs	19	det	_	AlignBegin=43796|AlignEnd=44023|Number[psor]=Sing|Person[psor]=3
+17	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	AlignBegin=43796|AlignEnd=44023
 18	20	20	NUM	_	_	19	mod	_	AlignBegin=44023|AlignEnd=44249
-19	ans	an	NOUN	_	_	16	comp:obj	_	AlignBegin=44249|AlignEnd=44475|SpaceAfter=No
+19	ans	an	NOUN	_	Number=Plur	16	comp:obj	_	AlignBegin=44249|AlignEnd=44475|SpaceAfter=No
 20	,	,	PUNCT	_	_	16	punct	_	AlignBegin=44475|AlignEnd=44475
 21	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	22	det	_	AlignBegin=44475|AlignEnd=44653
-22	mère	mère	NOUN	_	_	26	dislocated	_	AlignBegin=44653|AlignEnd=44830|SpaceAfter=No
+22	mère	mère	NOUN	_	Gender=Fem|Number=Sing	26	dislocated	_	AlignBegin=44653|AlignEnd=44830|SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	AlignBegin=44830|AlignEnd=44830
 24	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	subj	_	AlignBegin=44830|AlignEnd=45008
 25	m'	li	PRON	_	_	27	comp:obl	_	AlignBegin=45008|AlignEnd=45185|SpaceAfter=No
@@ -376,7 +376,7 @@
 30	en	en	ADP	_	_	29	udep	_	AlignBegin=45895|AlignEnd=46073
 31	mode	mode	NOUN	_	_	30	comp:obj	_	AlignBegin=46073|AlignEnd=46250
 32	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	33	subj	_	AlignBegin=46250|AlignEnd=46428
-33	va	aller	VERB	_	_	31	comp:obj	_	AlignBegin=46428|AlignEnd=46605|Reported=Yes
+33	va	aller	VERB	_	Number=Sing|Person=3	31	comp:obj	_	AlignBegin=46428|AlignEnd=46605|Reported=Yes
 34	faire	faire	VERB	_	_	33	comp:obj@x	_	AlignBegin=46605|AlignEnd=46783
 35	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	AlignBegin=46783|AlignEnd=46960|SpaceAfter=No
 36	anniversaire	anniversaire	NOUN	_	Gender=Masc|Number=Sing	34	comp:obj	_	AlignBegin=46960|AlignEnd=47138
@@ -393,7 +393,7 @@
 4	si	si	SCONJ	_	_	2	comp:obj	_	AlignBegin=47705|AlignEnd=47835
 5	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	7	subj	_	AlignBegin=47835|AlignEnd=47965
 6	te	se	PRON	_	Number=Sing|Person=2|PronType=Prs|Reflex=Yes	7	comp:obj	_	AlignBegin=47965|AlignEnd=48095
-7	rappelles	rappeller	VERB	_	_	4	comp:obj	_	AlignBegin=48095|AlignEnd=48225|SpaceAfter=No
+7	rappelles	rappeller	VERB	_	Number=Sing|Person=2	4	comp:obj	_	AlignBegin=48095|AlignEnd=48225|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=48225|AlignEnd=48225
 
 # sent_id = PS_2022_6_tetedeNeuneu__32
@@ -438,7 +438,7 @@
 23	dé~	dé~	X	_	_	19	comp:obj	_	AlignBegin=52723|AlignEnd=53060|ExtPos=VERB
 24	comment	comment	ADV	_	_	26	mod	_	AlignBegin=53060|AlignEnd=53606
 25	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	26	subj	_	AlignBegin=53606|AlignEnd=54151
-26	dit	dire	VERB	_	_	23	discourse	_	AlignBegin=54151|AlignEnd=54697|SpaceAfter=No
+26	dit	dire	VERB	_	Number=Sing|Person=3	23	discourse	_	AlignBegin=54151|AlignEnd=54697|SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	AlignBegin=54697|AlignEnd=54697
 28	euh	euh	INTJ	_	_	26	discourse	_	AlignBegin=54697|AlignEnd=55242|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	AlignBegin=55242|AlignEnd=55242
@@ -476,7 +476,7 @@
 4	venue	venir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	AlignBegin=58461|AlignEnd=58889
 5	à	à	ADP	_	_	4	comp:obl	_	AlignBegin=58889|AlignEnd=58889
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=58889|AlignEnd=59317
-7	maison	maison	NOUN	_	_	5	comp:obj	_	AlignBegin=59317|AlignEnd=59745|SpaceAfter=No
+7	maison	maison	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	AlignBegin=59317|AlignEnd=59745|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	AlignBegin=59745|AlignEnd=59745
 
 # sent_id = PS_2022_6_tetedeNeuneu__36
@@ -485,7 +485,7 @@
 # text = toute la journée, elle était venue ?
 1	toute	tout	ADJ	_	_	3	mod	_	AlignBegin=59684|AlignEnd=59919
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	AlignBegin=59919|AlignEnd=60153
-3	journée	journée	NOUN	_	_	6	mod	_	AlignBegin=60153|AlignEnd=60388|SpaceAfter=No
+3	journée	journée	NOUN	_	Gender=Fem|Number=Sing	6	mod	_	AlignBegin=60153|AlignEnd=60388|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=60388|AlignEnd=60388
 5	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	subj	_	AlignBegin=60388|AlignEnd=60622
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=60622|AlignEnd=60857
@@ -519,7 +519,7 @@
 2	après	après	ADV	_	_	6	mod	_	AlignBegin=61611|AlignEnd=61774|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=61774|AlignEnd=61774
 4	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	5	det	_	AlignBegin=61774|AlignEnd=61938
-5	mère	mère	NOUN	_	_	6	subj	_	AlignBegin=61938|AlignEnd=62102
+5	mère	mère	NOUN	_	Gender=Fem|Number=Sing	6	subj	_	AlignBegin=61938|AlignEnd=62102
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=62102|AlignEnd=62266
 7	venue	venir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	AlignBegin=62266|AlignEnd=62429
 8	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	9	comp:obj	_	AlignBegin=62429|AlignEnd=62593
@@ -533,7 +533,7 @@
 1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=62757|AlignEnd=62921
 2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=62921|AlignEnd=63084
 3	m'	le	PRON	_	_	5	comp:obl	_	AlignBegin=63084|AlignEnd=63248|SpaceAfter=No
-4	avait	avoir	AUX	_	_	0	root	_	AlignBegin=63248|AlignEnd=63412
+4	avait	avoir	AUX	_	Number=Sing|Person=3	0	root	_	AlignBegin=63248|AlignEnd=63412
 5	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:aux@tense	_	AlignBegin=63412|AlignEnd=63576
 6	en	en	ADP	_	_	5	mod	_	AlignBegin=63576|AlignEnd=63739
 7	mode	mode	NOUN	_	_	6	comp:obj	_	AlignBegin=63739|AlignEnd=63903
@@ -612,8 +612,8 @@
 11	y	y	PRON	_	_	12	comp@expl	_	AlignBegin=72410|AlignEnd=72611
 12	avait	avoir	VERB	_	_	9	comp:obj	_	AlignBegin=72611|AlignEnd=72812
 13	tout	tout	ADJ	_	_	15	mod	_	AlignBegin=72812|AlignEnd=73013
-14	ses	son	DET	_	Number=Plur|Poss=Yes|PronType=Prs	15	det	_	AlignBegin=73013|AlignEnd=73214|Number[psor]=Sing|Person[psor]=3
-15	potes	pote	NOUN	_	_	12	comp:obj	_	AlignBegin=73214|AlignEnd=73415
+14	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	AlignBegin=73013|AlignEnd=73214
+15	potes	pote	NOUN	_	Number=Plur	12	comp:obj	_	AlignBegin=73214|AlignEnd=73415
 16	qui	qui	PRON	_	_	17	subj	_	AlignBegin=73415|AlignEnd=73616
 17	attendaient	attendaire	VERB	_	_	15	mod@relcl	_	AlignBegin=73616|AlignEnd=73817|SpaceAfter=No
 18	.	.	PUNCT	_	_	1	punct	_	AlignBegin=73817|AlignEnd=73817
@@ -635,7 +635,7 @@
 10	ben	ben	INTJ	_	_	13	discourse	_	AlignBegin=75926|AlignEnd=76157|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=76157|AlignEnd=76157
 12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	subj	_	AlignBegin=76157|AlignEnd=76389
-13	arrive	arriver	VERB	_	_	0	root	_	AlignBegin=76389|AlignEnd=76620
+13	arrive	arriver	VERB	_	Number=Sing|Person=3	0	root	_	AlignBegin=76389|AlignEnd=76620
 14	à	à	ADP	_	_	13	comp:obl	_	AlignBegin=76620|AlignEnd=76620
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	AlignBegin=76620|AlignEnd=76852|SpaceAfter=No
 16	anniversaire	anniversaire	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	AlignBegin=76852|AlignEnd=77083|SpaceAfter=No
@@ -663,7 +663,7 @@
 6	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	AlignBegin=79399|AlignEnd=79748
 7	ouvre	ouvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=79748|AlignEnd=80097
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=80097|AlignEnd=80446
-9	porte	porte	NOUN	_	_	7	comp:obj	_	AlignBegin=80446|AlignEnd=80795|SpaceAfter=No
+9	porte	porte	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	AlignBegin=80446|AlignEnd=80795|SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	AlignBegin=80795|AlignEnd=80795
 
 # sent_id = PS_2022_6_tetedeNeuneu__48
@@ -682,7 +682,7 @@
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	AlignBegin=82381|AlignEnd=82607|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=82607|AlignEnd=82607
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	conj:dicto	_	AlignBegin=82607|AlignEnd=82834
-13	porte	porte	NOUN	_	_	9	comp:obj	_	AlignBegin=82834|AlignEnd=83060
+13	porte	porte	NOUN	_	Number=Plur	9	comp:obj	_	AlignBegin=82834|AlignEnd=83060
 14	avec	avec	ADP	_	_	9	mod	_	AlignBegin=83060|AlignEnd=83287
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	AlignBegin=83287|AlignEnd=83513
 16	clés	clé	NOUN	_	Gender=Fem|Number=Plur	14	comp:obj	_	AlignBegin=83513|AlignEnd=83740|SpaceAfter=No
@@ -697,7 +697,7 @@
 3	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=84151|AlignEnd=84356
 4	ouvre	ouvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=84356|AlignEnd=84561
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=84561|AlignEnd=84766
-6	porte	porte	NOUN	_	_	4	comp:obj	_	AlignBegin=84766|AlignEnd=84972|SpaceAfter=No
+6	porte	porte	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	AlignBegin=84766|AlignEnd=84972|SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	AlignBegin=84972|AlignEnd=84972
 
 # sent_id = PS_2022_6_tetedeNeuneu__50
@@ -744,7 +744,7 @@
 # text = allume la lumière.
 1	allume	allumer	VERB	_	_	0	root	_	AlignBegin=89139|AlignEnd=89328
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	AlignBegin=89328|AlignEnd=89517
-3	lumière	lumière	NOUN	_	_	1	comp:obj	_	AlignBegin=89517|AlignEnd=89707|SpaceAfter=No
+3	lumière	lumière	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	AlignBegin=89517|AlignEnd=89707|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=89707|AlignEnd=89707
 
 # sent_id = PS_2022_6_tetedeNeuneu__53
@@ -754,7 +754,7 @@
 1	si	si	SCONJ	_	_	7	mod	_	AlignBegin=89707|AlignEnd=89896
 2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	AlignBegin=89896|AlignEnd=90085
 3	se	se	PRON	_	_	4	comp@pass	_	AlignBegin=90085|AlignEnd=90274
-4	trouve	trouver	VERB	_	_	1	comp:obj	_	AlignBegin=90274|AlignEnd=90463|SpaceAfter=No
+4	trouve	trouver	VERB	_	Number=Sing|Person=3	1	comp:obj	_	AlignBegin=90274|AlignEnd=90463|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	AlignBegin=90463|AlignEnd=90463
 6	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	AlignBegin=90463|AlignEnd=90652
 7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=90652|AlignEnd=90841
@@ -770,9 +770,9 @@
 2	là	là	ADV	_	_	5	mod	_	AlignBegin=91460|AlignEnd=91700|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=91700|AlignEnd=91700
 4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	subj	_	AlignBegin=91700|AlignEnd=91941
-5	allume	allumer	VERB	_	_	0	root	_	AlignBegin=91941|AlignEnd=92181
+5	allume	allumer	VERB	_	Number=Sing|Person=3	0	root	_	AlignBegin=91941|AlignEnd=92181
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=92181|AlignEnd=92422
-7	lumière	lumière	NOUN	_	_	5	comp:obj	_	AlignBegin=92422|AlignEnd=92662|SpaceAfter=No
+7	lumière	lumière	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	AlignBegin=92422|AlignEnd=92662|SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	AlignBegin=92662|AlignEnd=92662
 
 # sent_id = PS_2022_6_tetedeNeuneu__55
@@ -785,8 +785,8 @@
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	AlignBegin=93080|AlignEnd=93289
 5	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=93289|AlignEnd=93498
 6	tout	tout	ADJ	_	_	8	mod	_	AlignBegin=93498|AlignEnd=93707
-7	ses	son	DET	_	Number=Plur|Poss=Yes|PronType=Prs	8	det	_	AlignBegin=93707|AlignEnd=93916|Number[psor]=Sing|Person[psor]=3
-8	potes	pote	NOUN	_	_	5	comp:obj	_	AlignBegin=93916|AlignEnd=94125
+7	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	8	det	_	AlignBegin=93707|AlignEnd=93916
+8	potes	pote	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=93916|AlignEnd=94125
 9	qui	qui	PRON	_	_	10	subj	_	AlignBegin=94125|AlignEnd=94573
 10	surgissent	surgissir	VERB	_	_	8	mod@relcl	_	AlignBegin=94573|AlignEnd=95021
 11	genre	genre	NOUN	_	_	10	discourse	_	AlignBegin=95021|AlignEnd=95469|ExtPos=INTJ
@@ -821,7 +821,7 @@
 4	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	5	subj	_	AlignBegin=97977|AlignEnd=98170
 5	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=98170|AlignEnd=98363
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=98363|AlignEnd=98555
-7	tête	tête	NOUN	_	_	5	comp:obj	_	AlignBegin=98555|AlignEnd=98748
+7	tête	tête	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	AlignBegin=98555|AlignEnd=98748
 8	de	de	ADP	_	_	7	udep	_	AlignBegin=98748|AlignEnd=98941
 9	Kévin	Kévin	PROPN	_	_	8	comp:obj	_	AlignBegin=98941|AlignEnd=99133
 10	qui	qui	PRON	_	_	11	subj	_	AlignBegin=99133|AlignEnd=99326
@@ -829,7 +829,7 @@
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	AlignBegin=99519|AlignEnd=99711|wordform=du
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	mur	mur	NOUN	_	_	12	comp:obj	_	AlignBegin=99711|AlignEnd=99904
+14	mur	mur	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	AlignBegin=99711|AlignEnd=99904
 15	bon	bon	ADJ	_	_	16	mod	_	AlignBegin=99904|AlignEnd=100838
 16	anniversaire	anniversaire	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	AlignBegin=100838|AlignEnd=101772|Reported=Yes
 17	!	!	PUNCT	_	_	5	punct	_	AlignBegin=101772|AlignEnd=101772
@@ -853,7 +853,7 @@
 # speaker = L1
 # text = il avait l'air trop débile.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=103855|AlignEnd=104107
-2	avait	avoir	VERB	_	_	0	root	_	AlignBegin=104107|AlignEnd=104358
+2	avait	avoir	VERB	_	Number=Sing|Person=3	0	root	_	AlignBegin=104107|AlignEnd=104358
 3	l'	l'	DET	_	_	4	det	_	AlignBegin=104358|AlignEnd=104610|SpaceAfter=No
 4	air	air	NOUN	_	_	2	comp:obj@lvc	_	AlignBegin=104610|AlignEnd=104861
 5	trop	trop	ADV	_	_	6	mod	_	AlignBegin=104861|AlignEnd=105113
@@ -881,8 +881,8 @@
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	AlignBegin=109120|AlignEnd=109418
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=109418|AlignEnd=109715
 16	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@tense	_	AlignBegin=109715|AlignEnd=110013
-17	ses	son	DET	_	Number=Plur|Poss=Yes|PronType=Prs	18	det	_	AlignBegin=110013|AlignEnd=110310|Number[psor]=Sing|Person[psor]=3
-18	potes	pote	NOUN	_	_	16	comp:obj	_	AlignBegin=110310|AlignEnd=110608|SpaceAfter=No
+17	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	18	det	_	AlignBegin=110013|AlignEnd=110310
+18	potes	pote	NOUN	_	Number=Plur	16	comp:obj	_	AlignBegin=110310|AlignEnd=110608|SpaceAfter=No
 19	.	.	PUNCT	_	_	15	punct	_	AlignBegin=110608|AlignEnd=110608
 
 # sent_id = PS_2022_6_tetedeNeuneu__62
@@ -987,7 +987,7 @@
 1	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	dislocated	_	AlignBegin=119696|AlignEnd=119960|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=119960|AlignEnd=119960
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=119960|AlignEnd=120223
-4	voulais	vouloir	VERB	_	_	0	root	_	AlignBegin=120223|AlignEnd=120487
+4	voulais	vouloir	VERB	_	Number=Sing|Person=1	0	root	_	AlignBegin=120223|AlignEnd=120487
 5	juste	juste	ADV	_	_	4	mod	_	AlignBegin=120487|AlignEnd=120751
 6	qu'	qu'	SCONJ	_	_	4	comp:obj	_	AlignBegin=120751|AlignEnd=121015|SpaceAfter=No
 7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=121015|AlignEnd=121278
@@ -996,7 +996,7 @@
 10	qu'	que	SCONJ	_	_	6	conj:dicto	_	AlignBegin=121542|AlignEnd=121727|SpaceAfter=No
 11	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	subj	_	AlignBegin=121727|AlignEnd=121911
 12	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=121911|AlignEnd=122096
-13	tej	tej	VERB	_	_	10	comp:obj	_	AlignBegin=122096|AlignEnd=122280|SpaceAfter=No
+13	tej	tej	VERB	_	Number=Sing|Person=3	10	comp:obj	_	AlignBegin=122096|AlignEnd=122280|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=122280|AlignEnd=122280
 15	quoi	quoi	ADJ	_	_	4	discourse	_	AlignBegin=122280|AlignEnd=122465|SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	AlignBegin=122465|AlignEnd=122465

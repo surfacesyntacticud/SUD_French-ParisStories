@@ -6,11 +6,11 @@
 1	et	et	CCONJ	_	_	11	cc	_	AlignBegin=0|AlignEnd=206
 2	à	à	ADP	_	_	11	mod	_	AlignBegin=206|AlignEnd=206
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=206|AlignEnd=412
-4	fin	fin	NOUN	_	_	2	comp:obj	_	AlignBegin=412|AlignEnd=618
+4	fin	fin	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	AlignBegin=412|AlignEnd=618
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	udep	_	AlignBegin=618|AlignEnd=824|wordform=du
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	cours	cours	NOUN	_	_	5	comp:obj	_	AlignBegin=824|AlignEnd=1030|SpaceAfter=No
+7	cours	cours	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	AlignBegin=824|AlignEnd=1030|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	AlignBegin=1030|AlignEnd=1030
 9	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=1030|AlignEnd=1236
 10	lui	lui	PRON	_	_	12	comp:obl	_	AlignBegin=1236|AlignEnd=1442
@@ -92,7 +92,7 @@
 # speaker = L1
 # text = je fais oui, oui, j'ai l'impression de t'avoir déjà vue !
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=11315|AlignEnd=11458
-2	fais	faire	VERB	_	_	0	root	_	AlignBegin=11458|AlignEnd=11601
+2	fais	faire	VERB	_	Number=Sing|Person=1	0	root	_	AlignBegin=11458|AlignEnd=11601
 3	oui	oui	ADJ	_	_	8	discourse	_	AlignBegin=11601|AlignEnd=11743|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=11743|AlignEnd=11743
 5	oui	oui	CCONJ	_	_	3	conj:coord	_	AlignBegin=11743|AlignEnd=11886|SpaceAfter=No
@@ -159,7 +159,7 @@
 # speaker = L1
 # text = je fais d'accord.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=18414|AlignEnd=18709
-2	fais	faire	VERB	_	_	0	root	_	AlignBegin=18709|AlignEnd=19004
+2	fais	faire	VERB	_	Number=Sing|Person=1	0	root	_	AlignBegin=18709|AlignEnd=19004
 3	d'	de	ADP	_	_	2	comp:obj	_	AlignBegin=19004|AlignEnd=19300|Reported=Yes|SpaceAfter=No
 4	accord	accord	NOUN	_	_	3	comp:obj	_	AlignBegin=19300|AlignEnd=19595|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=19595|AlignEnd=19595
@@ -198,7 +198,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=25874|AlignEnd=25874
 4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	subj	_	AlignBegin=25874|AlignEnd=26043
 5	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	6	comp:obl	_	AlignBegin=26043|AlignEnd=26212
-6	d~	d~	X	_	_	0	root	_	AlignBegin=26212|AlignEnd=26381|ExtPos=VERB|SpaceAfter=No
+6	d~	d~	X	_	Number=Sing|Person=3	0	root	_	AlignBegin=26212|AlignEnd=26381|ExtPos=VERB|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=26381|AlignEnd=26381
 8	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=26381|AlignEnd=26550
 9	extrascolaires	extrascolaire	NOUN	_	_	6	comp:obj	_	AlignBegin=26550|AlignEnd=27282|Reported=Yes
@@ -311,7 +311,7 @@
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	AlignBegin=37102|AlignEnd=37279|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=37279|AlignEnd=37279
 7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	subj	_	AlignBegin=37279|AlignEnd=37455
-8	habite	habiter	VERB	_	_	0	root	_	AlignBegin=37455|AlignEnd=37632
+8	habite	habiter	VERB	_	Number=Sing|Person=3	0	root	_	AlignBegin=37455|AlignEnd=37632
 9	à	à	ADP	_	_	8	comp:obl	_	AlignBegin=37632|AlignEnd=37632
 10	Athis	Athis	PROPN	_	_	9	comp:obj	_	AlignBegin=37632|AlignEnd=37808
 11	?	?	PUNCT	_	_	8	punct	_	AlignBegin=37808|AlignEnd=37808
@@ -325,7 +325,7 @@
 3	oui	oui	ADJ	_	_	6	discourse	_	AlignBegin=38492|AlignEnd=38660|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=38660|AlignEnd=38660
 5	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	subj	_	AlignBegin=38660|AlignEnd=38827
-6	habite	habiter	VERB	_	_	0	root	_	AlignBegin=38827|AlignEnd=38995
+6	habite	habiter	VERB	_	Number=Sing|Person=3	0	root	_	AlignBegin=38827|AlignEnd=38995
 7	à	à	ADP	_	_	6	comp:obl	_	AlignBegin=38995|AlignEnd=38995
 8	Athis	Athis	PROPN	_	_	7	comp:obj	_	AlignBegin=38995|AlignEnd=39163|SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	AlignBegin=39163|AlignEnd=39163
@@ -344,7 +344,7 @@
 # speaker = L1
 # text = elle habitait Athis.
 1	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=40243|AlignEnd=40602
-2	habitait	habiter	VERB	_	_	0	root	_	AlignBegin=40602|AlignEnd=40960
+2	habitait	habiter	VERB	_	Number=Sing|Person=3	0	root	_	AlignBegin=40602|AlignEnd=40960
 3	Athis	Athis	PROPN	_	_	2	comp:obj	_	AlignBegin=40960|AlignEnd=41319|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	AlignBegin=41319|AlignEnd=41319
 
@@ -425,7 +425,7 @@
 6	venu	venir	VERB	_	_	5	comp:aux@tense	_	AlignBegin=50147|AlignEnd=50446
 7	à	à	ADP	_	_	6	comp:obl	_	AlignBegin=50446|AlignEnd=50446
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	AlignBegin=50446|AlignEnd=50746|SpaceAfter=No
-9	instrument	instrument	NOUN	_	_	7	comp:obj	_	AlignBegin=50746|AlignEnd=51045|SpaceAfter=No
+9	instrument	instrument	NOUN	_	Number=Sing	7	comp:obj	_	AlignBegin=50746|AlignEnd=51045|SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	AlignBegin=51045|AlignEnd=51045
 
 # sent_id = PS_2022_1_rencontreSolfège__30
@@ -441,7 +441,7 @@
 7	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	comp:obj	_	AlignBegin=51989|AlignEnd=52162
 8	de	de	ADP	_	_	7	comp:obl	_	AlignBegin=52162|AlignEnd=52335
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	AlignBegin=52335|AlignEnd=52507|SpaceAfter=No
-10	alto	alto	NOUN	_	_	7	comp:obj	_	AlignBegin=52507|AlignEnd=52680|SpaceAfter=No
+10	alto	alto	NOUN	_	Number=Sing	7	comp:obj	_	AlignBegin=52507|AlignEnd=52680|SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=52680|AlignEnd=52680
 
 # sent_id = PS_2022_1_rencontreSolfège__31
@@ -636,7 +636,7 @@
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=73868|AlignEnd=73868
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=74460|AlignEnd=74688
 11	première	premier	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	AlignBegin=74688|AlignEnd=74917
-12	fois	fois	NOUN	_	_	19	mod	_	AlignBegin=74917|AlignEnd=75145
+12	fois	fois	NOUN	_	Gender=Fem|Number=Sing	19	mod	_	AlignBegin=74917|AlignEnd=75145
 13	que	que	SCONJ	_	_	12	mod	_	AlignBegin=75145|AlignEnd=75373
 14	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj	_	AlignBegin=75373|AlignEnd=75601
 15	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	17	comp:obj	_	AlignBegin=75601|AlignEnd=75830|SpaceAfter=No
@@ -669,7 +669,7 @@
 42	comment	comment	ADV	_	_	45	mod	_	AlignBegin=82787|AlignEnd=82982
 43	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	45	subj	_	AlignBegin=82982|AlignEnd=83178
 44	s'	se	PRON	_	_	45	comp@expl	_	AlignBegin=83178|AlignEnd=83373|SpaceAfter=No
-45	appelle	appeler	VERB	_	_	39	comp:obj	_	AlignBegin=83373|AlignEnd=83568
+45	appelle	appeler	VERB	_	Number=Sing|Person=3	39	comp:obj	_	AlignBegin=83373|AlignEnd=83568
 46	…	…	PUNCT	_	_	19	punct	_	AlignBegin=83568|AlignEnd=83568
 
 # sent_id = PS_2022_1_rencontreSolfège__44
@@ -684,7 +684,7 @@
 # speaker = L2
 # text = dans ses albums.
 1	dans	dans	ADP	_	_	0	root	_	AlignBegin=83615|AlignEnd=83827
-2	ses	son	DET	_	Number=Plur|Poss=Yes|PronType=Prs	3	det	_	AlignBegin=83827|AlignEnd=84038|Number[psor]=Sing|Person[psor]=3
+2	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	3	det	_	AlignBegin=83827|AlignEnd=84038
 3	albums	album	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	AlignBegin=84038|AlignEnd=84250|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=84250|AlignEnd=84250
 
@@ -693,7 +693,7 @@
 # speaker = L1
 # text = dans ses albums photos.
 1	dans	dans	ADP	_	_	0	root	_	AlignBegin=84155|AlignEnd=84447
-2	ses	son	DET	_	Number=Plur|Poss=Yes|PronType=Prs	3	det	_	AlignBegin=84447|AlignEnd=84739|Number[psor]=Sing|Person[psor]=3
+2	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	3	det	_	AlignBegin=84447|AlignEnd=84739
 3	albums	album	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	AlignBegin=84739|AlignEnd=85032
 4	photos	photo	NOUN	_	Gender=Fem|Number=Plur	3	compound	_	AlignBegin=85032|AlignEnd=85324|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	AlignBegin=84250|AlignEnd=84250
@@ -745,14 +745,14 @@
 40	conservatoire	conservatoire	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	AlignBegin=94226|AlignEnd=94430|SpaceAfter=No
 41	,	,	PUNCT	_	_	43	punct	_	AlignBegin=94430|AlignEnd=94430
 42	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	43	subj	_	AlignBegin=94430|AlignEnd=94704
-43	avait	avoir	VERB	_	_	10	comp:obj	_	AlignBegin=94704|AlignEnd=94979
+43	avait	avoir	VERB	_	Number=Sing|Person=3	10	comp:obj	_	AlignBegin=94704|AlignEnd=94979
 44	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	AlignBegin=94979|AlignEnd=95253
-45	chance	chance	NOUN	_	_	43	comp:obj	_	AlignBegin=95253|AlignEnd=95528|SpaceAfter=No
+45	chance	chance	NOUN	_	Gender=Fem|Number=Sing	43	comp:obj	_	AlignBegin=95253|AlignEnd=95528|SpaceAfter=No
 46	,	,	PUNCT	_	_	45	punct	_	AlignBegin=95528|AlignEnd=95528
 47	comme	comme	SCONJ	_	_	45	mod	_	AlignBegin=95528|AlignEnd=95802
 48	à	à	ADP	_	_	47	comp:obl	_	AlignBegin=95802|AlignEnd=95802
 49	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	50	det	_	AlignBegin=95802|AlignEnd=96077|SpaceAfter=No
-50	école	école	NOUN	_	_	48	comp:obj	_	AlignBegin=96077|AlignEnd=96351|SpaceAfter=No
+50	école	école	NOUN	_	Number=Sing	48	comp:obj	_	AlignBegin=96077|AlignEnd=96351|SpaceAfter=No
 51	,	,	PUNCT	_	_	50	punct	_	AlignBegin=96351|AlignEnd=96351
 52	d'	de	ADP	_	_	50	comp:obj	_	AlignBegin=96900|AlignEnd=97153|SpaceAfter=No
 53	avoir	avoir	VERB	_	VerbForm=Inf	52	comp:obj	_	AlignBegin=97153|AlignEnd=97407
@@ -772,14 +772,14 @@
 3	conservatoire	conservatoire	NOUN	_	Gender=Masc|Number=Sing	6	dislocated	_	AlignBegin=94226|AlignEnd=94430|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=94430|AlignEnd=94430
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	AlignBegin=94430|AlignEnd=94704
-6	avait	avoir	VERB	_	_	0	root	_	AlignBegin=94704|AlignEnd=94979
+6	avait	avoir	VERB	_	Number=Sing|Person=3	0	root	_	AlignBegin=94704|AlignEnd=94979
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=94979|AlignEnd=95253
-8	chance	chance	NOUN	_	_	6	comp:obj	_	AlignBegin=95253|AlignEnd=95528|SpaceAfter=No
+8	chance	chance	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	AlignBegin=95253|AlignEnd=95528|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=95528|AlignEnd=95528
 10	comme	comme	SCONJ	_	_	6	mod	_	AlignBegin=95528|AlignEnd=95802
 11	à	à	ADP	_	_	10	comp:obj	_	AlignBegin=95802|AlignEnd=95802
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	AlignBegin=95802|AlignEnd=96077|SpaceAfter=No
-13	école	école	NOUN	_	_	11	comp:obj	_	AlignBegin=96077|AlignEnd=96351|SpaceAfter=No
+13	école	école	NOUN	_	Number=Sing	11	comp:obj	_	AlignBegin=96077|AlignEnd=96351|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=96351|AlignEnd=96351
 15	d'	de	ADP	_	_	8	udep	_	AlignBegin=96900|AlignEnd=97153|SpaceAfter=No
 16	avoir	avoir	VERB	_	VerbForm=Inf	15	comp:obj	_	AlignBegin=97153|AlignEnd=97407
@@ -825,7 +825,7 @@
 14	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	conj:dicto	_	AlignBegin=103535|AlignEnd=103701|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=103701|AlignEnd=103701
 16	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	conj:dicto	_	AlignBegin=103999|AlignEnd=104154
-17	crois	croire	VERB	_	_	8	comp:obj	_	AlignBegin=104154|AlignEnd=104309|Reported=Yes
+17	crois	croire	VERB	_	Number=Sing|Person=1	8	comp:obj	_	AlignBegin=104154|AlignEnd=104309|Reported=Yes
 18	que	que	SCONJ	_	_	17	comp:obj	_	AlignBegin=104309|AlignEnd=104465
 19	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	20	subj	_	AlignBegin=104465|AlignEnd=104620|SpaceAfter=No
 20	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	18	comp:obj	_	AlignBegin=104620|AlignEnd=104775
@@ -938,7 +938,7 @@
 20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=118837|AlignEnd=118837
 21	de	de	ADP	_	_	13	conj:dicto	_	AlignBegin=118837|AlignEnd=118992
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	AlignBegin=118992|AlignEnd=119148
-23	date	date	NOUN	_	_	21	comp:obj	_	AlignBegin=119148|AlignEnd=119303|SpaceAfter=No
+23	date	date	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	AlignBegin=119148|AlignEnd=119303|SpaceAfter=No
 24	,	,	PUNCT	_	_	27	punct	_	AlignBegin=119303|AlignEnd=119303
 25	mais	mais	CCONJ	_	_	27	cc	_	AlignBegin=119303|AlignEnd=119499
 26	plus	plus	ADV	_	_	27	mod	_	AlignBegin=119499|AlignEnd=119696
@@ -1021,7 +1021,7 @@
 11	,	,	PUNCT	_	_	14	punct	_	AlignBegin=128321|AlignEnd=128321
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	AlignBegin=128321|AlignEnd=128485
 13	première	premier	ADJ	_	Gender=Fem|Number=Sing	14	mod	_	AlignBegin=128485|AlignEnd=128650
-14	fois	fois	NOUN	_	_	7	mod	_	AlignBegin=128650|AlignEnd=128814
+14	fois	fois	NOUN	_	Gender=Fem|Number=Sing	7	mod	_	AlignBegin=128650|AlignEnd=128814
 15	que	que	SCONJ	_	_	7	comp:cleft	_	AlignBegin=128814|AlignEnd=128978
 16	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	18	subj	_	AlignBegin=128978|AlignEnd=129142
 17	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	AlignBegin=129142|AlignEnd=129307|SpaceAfter=No
@@ -1036,7 +1036,7 @@
 1	mais	mais	CCONJ	_	_	14	cc	_	AlignBegin=130189|AlignEnd=130329
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=130329|AlignEnd=130468
 3	première	premier	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	AlignBegin=130468|AlignEnd=130608
-4	fois	fois	NOUN	_	_	14	mod	_	AlignBegin=130608|AlignEnd=130748
+4	fois	fois	NOUN	_	Gender=Fem|Number=Sing	14	mod	_	AlignBegin=130608|AlignEnd=130748
 5	que	que	SCONJ	_	_	4	mod	_	AlignBegin=130748|AlignEnd=130887
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	AlignBegin=130887|AlignEnd=131027
 7	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=131027|AlignEnd=131167|SpaceAfter=No

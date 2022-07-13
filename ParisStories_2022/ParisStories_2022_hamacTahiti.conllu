@@ -44,7 +44,7 @@
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = ton premier souvenir de nous en fait.
-1	ton	ton	DET	_	Number=Sing|PronType=Prs	3	det	_	AlignBegin=9839|AlignEnd=10059|Number[psor]=Sing|Person[psor]=2
+1	ton	ton	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=2|PronType=Prs	3	det	_	AlignBegin=9839|AlignEnd=10059
 2	premier	premier	ADJ	_	_	3	mod	_	AlignBegin=10059|AlignEnd=10280
 3	souvenir	souvenir	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=10280|AlignEnd=10500
 4	de	de	ADP	_	_	3	udep	_	AlignBegin=10500|AlignEnd=10721
@@ -72,7 +72,7 @@
 13	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=15357|AlignEnd=15655|SpaceAfter=No
 14	,	,	PUNCT	_	_	3	punct	_	AlignBegin=15655|AlignEnd=15655
 15	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj	_	AlignBegin=15655|AlignEnd=15953
-16	pense	penser	VERB	_	_	0	root	_	AlignBegin=15953|AlignEnd=16251
+16	pense	penser	VERB	_	Number=Sing|Person=1	0	root	_	AlignBegin=15953|AlignEnd=16251
 17	que	que	SCONJ	_	_	16	comp:obj	_	AlignBegin=16251|AlignEnd=16549
 18	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	subj	_	AlignBegin=16549|AlignEnd=16847|SpaceAfter=No
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	AlignBegin=16847|AlignEnd=17145
@@ -85,7 +85,7 @@
 # speaker = L2
 # text = je crois que c'est en Algérie.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=17741|AlignEnd=18039
-2	crois	croire	VERB	_	_	0	root	_	AlignBegin=18039|AlignEnd=18337
+2	crois	croire	VERB	_	Number=Sing|Person=1	0	root	_	AlignBegin=18039|AlignEnd=18337
 3	que	que	SCONJ	_	_	2	comp:obj	_	AlignBegin=18337|AlignEnd=18635
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	AlignBegin=18635|AlignEnd=18933|SpaceAfter=No
 5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=18933|AlignEnd=19231
@@ -116,7 +116,7 @@
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=21896|AlignEnd=22126
 3	sur	sur	ADP	_	_	2	comp:pred	_	AlignBegin=22126|AlignEnd=22356
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=22356|AlignEnd=22586
-5	place	place	NOUN	_	_	3	comp:obj	_	AlignBegin=22586|AlignEnd=22816|SpaceAfter=No
+5	place	place	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	AlignBegin=22586|AlignEnd=22816|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	AlignBegin=22816|AlignEnd=22816
 
 # sent_id = PS_2022_16_hamacTahiti__8
@@ -129,7 +129,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=23513|AlignEnd=23513
 5	et	et	CCONJ	_	_	1	conj:dicto	_	AlignBegin=23513|AlignEnd=23861
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	AlignBegin=23861|AlignEnd=24209
-7	courait	courer	VERB	_	_	0	root	_	AlignBegin=24209|AlignEnd=24558|SpaceAfter=No
+7	courait	courer	VERB	_	Number=Sing|Person=3	0	root	_	AlignBegin=24209|AlignEnd=24558|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	AlignBegin=24558|AlignEnd=24558
 
 # sent_id = PS_2022_16_hamacTahiti__9
@@ -166,11 +166,11 @@
 6	sur	sur	ADP	_	_	5	mod	_	AlignBegin=26680|AlignEnd=27045
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=27045|AlignEnd=27410
 8	grande	grand	ADJ	_	Gender=Fem|Number=Sing	9	mod	_	AlignBegin=27410|AlignEnd=27774
-9	place	place	NOUN	_	_	6	comp:obj	_	AlignBegin=27774|AlignEnd=28139|SpaceAfter=No
+9	place	place	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	AlignBegin=27774|AlignEnd=28139|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=28139|AlignEnd=28139
 11	avec	avec	ADP	_	_	4	conj:dicto	_	AlignBegin=28139|AlignEnd=28434
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=28434|AlignEnd=28728
-13	tour	tour	NOUN	_	_	11	comp:obj	_	AlignBegin=28728|AlignEnd=29023
+13	tour	tour	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	AlignBegin=28728|AlignEnd=29023
 14	là	là	ADV	_	_	13	mod	_	AlignBegin=29023|AlignEnd=29317
 15	comme	comme	ADP	_	_	14	mod	_	AlignBegin=29317|AlignEnd=29612
 16	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	comp:obj	_	AlignBegin=29612|AlignEnd=29906|SpaceAfter=No
@@ -208,7 +208,7 @@
 4	,	,	PUNCT	_	_	7	punct	_	AlignBegin=30991|AlignEnd=30991
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	AlignBegin=30991|AlignEnd=31291
 6	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	AlignBegin=31291|AlignEnd=31592
-7	semble	sembler	VERB	_	_	2	discourse	_	AlignBegin=31592|AlignEnd=31892|SpaceAfter=No
+7	semble	sembler	VERB	_	Number=Sing|Person=3	2	discourse	_	AlignBegin=31592|AlignEnd=31892|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=31892|AlignEnd=31892
 
 # sent_id = PS_2022_16_hamacTahiti__16
@@ -311,7 +311,7 @@
 10	sur	sur	ADP	_	_	6	mod	_	AlignBegin=44695|AlignEnd=45101
 11	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	AlignBegin=45101|AlignEnd=45507
 12	grande	grand	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	AlignBegin=45507|AlignEnd=45913
-13	place	place	NOUN	_	_	10	comp:obj	_	AlignBegin=45913|AlignEnd=46320|SpaceAfter=No
+13	place	place	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	AlignBegin=45913|AlignEnd=46320|SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	AlignBegin=46320|AlignEnd=46320
 
 # sent_id = PS_2022_16_hamacTahiti__22
@@ -334,7 +334,7 @@
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	conj:dicto	_	AlignBegin=48217|AlignEnd=48557|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=48557|AlignEnd=48557
 7	dans	dans	ADP	_	_	14	mod	_	AlignBegin=48557|AlignEnd=48897
-8	mes	son	DET	_	Number=Plur|Poss=Yes|PronType=Prs	9	det	_	AlignBegin=48897|AlignEnd=49237|Number[psor]=Sing|Person[psor]=1
+8	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	AlignBegin=48897|AlignEnd=49237
 9	souvenirs	souvenir	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	AlignBegin=49237|AlignEnd=49576|SpaceAfter=No
 10	,	,	PUNCT	_	_	7	punct	_	AlignBegin=49576|AlignEnd=49576
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj@expl	_	AlignBegin=49576|AlignEnd=49916
@@ -375,7 +375,7 @@
 # speaker = L2
 # text = c'est quoi ton souvenir à toi ?
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=57154|AlignEnd=57454|SpaceAfter=No
-2	est	est	VERB	_	_	0	root	_	AlignBegin=57454|AlignEnd=57754
+2	est	est	VERB	_	Number=Sing|Person=3	0	root	_	AlignBegin=57454|AlignEnd=57754
 3	quoi	quoi	PRON	_	_	2	comp:pred	_	AlignBegin=57754|AlignEnd=58054
 4	ton	son	DET	_	_	5	det	_	AlignBegin=58054|AlignEnd=58353
 5	souvenir	souvenir	NOUN	_	Gender=Masc|Number=Sing	3	dislocated	_	AlignBegin=58353|AlignEnd=58653
@@ -408,7 +408,7 @@
 10	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	comp:obj	_	AlignBegin=64258|AlignEnd=64616
 11	peur	peur	NOUN	_	_	10	comp:obj@lvc	_	AlignBegin=64616|AlignEnd=64973
 12	que	que	SCONJ	_	_	11	comp:obl	_	AlignBegin=64973|AlignEnd=65331
-13	mes	son	DET	_	Number=Plur|Poss=Yes|PronType=Prs	14	det	_	AlignBegin=65331|AlignEnd=65689|Number[psor]=Sing|Person[psor]=1
+13	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	AlignBegin=65331|AlignEnd=65689
 14	souvenirs	souvenir	NOUN	_	Gender=Masc|Number=Plur	18	subj	_	AlignBegin=65689|AlignEnd=66047
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	AlignBegin=66047|AlignEnd=66405
 16	plus	plus	ADV	_	_	17	mod	_	AlignBegin=66405|AlignEnd=66763
@@ -421,7 +421,7 @@
 23	euh	euh	INTJ	_	_	25	discourse	_	AlignBegin=68758|AlignEnd=69680|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	AlignBegin=69680|AlignEnd=69680
 25	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	conj:dicto	_	AlignBegin=69680|AlignEnd=70601
-26	créations	création	NOUN	_	_	18	comp:pred	_	AlignBegin=70601|AlignEnd=71523
+26	créations	création	NOUN	_	Number=Plur	18	comp:pred	_	AlignBegin=70601|AlignEnd=71523
 27	de	de	ADP	_	_	26	udep	_	AlignBegin=71523|AlignEnd=72445|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	AlignBegin=72445|AlignEnd=72445
 29	de	de	ADP	_	_	27	conj:dicto	_	AlignBegin=72445|AlignEnd=72837
@@ -501,7 +501,7 @@
 13	vidéos	vidéo	NOUN	_	_	12	comp:obj	_	AlignBegin=81222|AlignEnd=81485
 14	de	de	ADP	_	_	13	udep	_	AlignBegin=81485|AlignEnd=81748
 15	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	AlignBegin=81748|AlignEnd=82012
-16	voyage	voyage	NOUN	_	_	14	comp:obj	_	AlignBegin=82012|AlignEnd=82275|SpaceAfter=No
+16	voyage	voyage	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	AlignBegin=82012|AlignEnd=82275|SpaceAfter=No
 17	,	,	PUNCT	_	_	2	punct	_	AlignBegin=82275|AlignEnd=82275
 18	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	subj	_	AlignBegin=82275|AlignEnd=82538|SpaceAfter=No
 19	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=82538|AlignEnd=82802
@@ -562,7 +562,7 @@
 7	coup	coup	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	AlignBegin=91541|AlignEnd=91986|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	AlignBegin=91986|AlignEnd=91986
 9	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	AlignBegin=91986|AlignEnd=92430
-10	serait	être	AUX	_	_	0	root	_	AlignBegin=92430|AlignEnd=92874
+10	serait	être	AUX	_	Number=Sing|Person=3	0	root	_	AlignBegin=92430|AlignEnd=92874
 11	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	comp:pred	_	AlignBegin=92874|AlignEnd=93318|SpaceAfter=No
 12	.	.	PUNCT	_	_	10	punct	_	AlignBegin=93318|AlignEnd=93318
 
@@ -572,7 +572,7 @@
 # text = et ce serait, euh, moi qui suis dans le, le hamac et toi qui m'aides à essayer de sortir.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=93318|AlignEnd=93763
 2	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	AlignBegin=93763|AlignEnd=94207
-3	serait	être	AUX	_	_	0	root	_	AlignBegin=94207|AlignEnd=94651|SpaceAfter=No
+3	serait	être	AUX	_	Number=Sing|Person=3	0	root	_	AlignBegin=94207|AlignEnd=94651|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	AlignBegin=94651|AlignEnd=94651
 5	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=94651|AlignEnd=95422|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=95422|AlignEnd=95422
@@ -633,7 +633,7 @@
 1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=107447|AlignEnd=107666
 2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	AlignBegin=107666|AlignEnd=107884
 3	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=107884|AlignEnd=108103
-4	regardiez	regaer	VERB	_	_	0	root	_	AlignBegin=108103|AlignEnd=108321|SpaceAfter=No
+4	regardiez	regaer	VERB	_	Number=Plur|Person=2	0	root	_	AlignBegin=108103|AlignEnd=108321|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=108321|AlignEnd=108321
 
 # sent_id = PS_2022_16_hamacTahiti__41
@@ -642,7 +642,7 @@
 # text = et je galérais à sortir de ce putain de hamac.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=108321|AlignEnd=108666
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=108666|AlignEnd=109011
-3	galérais	galérer	VERB	_	_	0	root	_	AlignBegin=109011|AlignEnd=109356
+3	galérais	galérer	VERB	_	Number=Sing|Person=1	0	root	_	AlignBegin=109011|AlignEnd=109356
 4	à	à	ADP	_	_	3	comp:obl@x	_	AlignBegin=109356|AlignEnd=109356
 5	sortir	sortir	VERB	_	VerbForm=Inf	4	comp:obj	_	AlignBegin=109356|AlignEnd=109701
 6	de	de	ADP	_	_	9	mod	_	AlignBegin=109701|AlignEnd=110046
@@ -725,7 +725,7 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	3	mod	_	AlignBegin=119507|AlignEnd=119706|wordform=du
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	tout	tout	NOUN	_	_	4	comp:obj	_	AlignBegin=119706|AlignEnd=119905
+6	tout	tout	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	AlignBegin=119706|AlignEnd=119905
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=119905|AlignEnd=120104
 8	même	même	ADJ	_	_	2	comp:pred	_	AlignBegin=120104|AlignEnd=120303|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	AlignBegin=120303|AlignEnd=120303
@@ -740,7 +740,7 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	15	mod	_	AlignBegin=120901|AlignEnd=121100|wordform=du
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	tout	tout	NOUN	_	_	4	comp:obj	_	AlignBegin=121100|AlignEnd=121299
+6	tout	tout	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	AlignBegin=121100|AlignEnd=121299
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=121299|AlignEnd=121499
 8	même	même	ADJ	_	_	2	comp:pred	_	AlignBegin=121499|AlignEnd=121698|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=121698|AlignEnd=121698
@@ -762,7 +762,7 @@
 25	euh	euh	INTJ	_	_	34	discourse	_	AlignBegin=124187|AlignEnd=124446|SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	AlignBegin=124446|AlignEnd=124446
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	AlignBegin=124446|AlignEnd=124705
-28	scène	scène	NOUN	_	_	34	dislocated	_	AlignBegin=124705|AlignEnd=124964
+28	scène	scène	NOUN	_	Gender=Fem|Number=Sing	34	dislocated	_	AlignBegin=124705|AlignEnd=124964
 29-30	du	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	28	udep	_	AlignBegin=124964|AlignEnd=125223|wordform=du
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
