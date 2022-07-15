@@ -49,7 +49,7 @@
 # text = parce que moi non plus, j'étais pas au courant.
 1	parce	parce	SCONJ	_	_	0	root	_	AlignBegin=7594|AlignEnd=7725
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=7725|AlignEnd=7855
-3	moi	li	PRON	_	Number=Sing|Person=1|PronType=Prs	8	dislocated	_	AlignBegin=7855|AlignEnd=7986
+3	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	8	dislocated	_	AlignBegin=7855|AlignEnd=7986
 4	non	non	ADV	_	_	3	mod	_	AlignBegin=7986|AlignEnd=8116
 5	plus	plus	ADV	_	_	3	mod	_	AlignBegin=8116|AlignEnd=8247|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=8247|AlignEnd=8247
@@ -150,7 +150,7 @@
 8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=15508|AlignEnd=15508
 9	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	10	subj	_	AlignBegin=15508|AlignEnd=15696
 10	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=15696|AlignEnd=15884
-11	reconnu	recorir	VERB	_	_	10	comp:aux@tense	_	AlignBegin=15884|AlignEnd=16072|SpaceAfter=No
+11	reconnu	reconnaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	AlignBegin=15884|AlignEnd=16072|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=16072|AlignEnd=16072
 13	parce	parce	SCONJ	_	_	10	mod	_	AlignBegin=16072|AlignEnd=16239
 14	que	que	SCONJ	_	_	13	unk	_	AlignBegin=16239|AlignEnd=16406|SpaceAfter=No
@@ -164,7 +164,7 @@
 22	,	,	PUNCT	_	_	16	punct	_	AlignBegin=17408|AlignEnd=17408
 23	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	24	subj	_	AlignBegin=17408|AlignEnd=17575
 24	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	comp:obj	_	AlignBegin=17575|AlignEnd=17742
-25	reconnu	reconnir	VERB	_	_	24	comp:aux@tense	_	AlignBegin=17742|AlignEnd=17909
+25	reconnu	reconnaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	AlignBegin=17742|AlignEnd=17909
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	AlignBegin=17909|AlignEnd=18076
 27	chemin	chemin	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	AlignBegin=18076|AlignEnd=18243|SpaceAfter=No
 28	.	.	PUNCT	_	_	10	punct	_	AlignBegin=18243|AlignEnd=18243
@@ -286,7 +286,7 @@
 # sound_url = PS_2022_12_anniversairePetitChat.mp3
 # speaker = L1
 # text = mh, ouais, c'est vrai.
-1	mh	mh	ADJ	_	_	6	discourse	_	AlignBegin=30719|AlignEnd=31023|SpaceAfter=No
+1	mh	mh	INTJ	_	_	6	discourse	_	AlignBegin=30719|AlignEnd=31023|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=31023|AlignEnd=31023
 3	ouais	ouais	INTJ	_	_	6	discourse	_	AlignBegin=31023|AlignEnd=31327|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=31327|AlignEnd=31327
@@ -478,7 +478,7 @@
 # text = c'est toi qui as la plus grande chambre, hein ?
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	AlignBegin=50666|AlignEnd=50833|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=50833|AlignEnd=51001
-3	toi	Toi	PRON	_	_	2	comp:pred	_	AlignBegin=51001|AlignEnd=51168
+3	toi	lui	PRON	_	_	2	comp:pred	_	AlignBegin=51001|AlignEnd=51168
 4	qui	qui	PRON	_	_	5	subj	_	AlignBegin=51168|AlignEnd=51336
 5	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	comp:cleft	_	AlignBegin=51336|AlignEnd=51503
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=51503|AlignEnd=51670
@@ -527,7 +527,7 @@
 22	chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	AlignBegin=57276|AlignEnd=57511
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	AlignBegin=57511|AlignEnd=57668
 24	temps	temps	NOUN	_	Gender=Masc|Number=Sing	19	mod	_	AlignBegin=57668|AlignEnd=57826
-25	qu'	qu'	SCONJ	_	_	24	mod	_	AlignBegin=57826|AlignEnd=57983|SpaceAfter=No
+25	qu'	que	SCONJ	_	_	24	mod	_	AlignBegin=57826|AlignEnd=57983|SpaceAfter=No
 26	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	subj	_	AlignBegin=57983|AlignEnd=58140
 27	s'	se	PRON	_	_	28	comp:obj	_	AlignBegin=58140|AlignEnd=58298|SpaceAfter=No
 28	habitue	habituer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	comp:obj	_	AlignBegin=58298|AlignEnd=58455
@@ -551,7 +551,7 @@
 6	peur	peur	NOUN	_	_	5	comp:obj@lvc	_	AlignBegin=59998|AlignEnd=60186
 7	qu'	que	SCONJ	_	_	6	comp:obj	_	AlignBegin=60186|AlignEnd=60375|SpaceAfter=No
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	AlignBegin=60375|AlignEnd=60564
-9	sorte	sorter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	AlignBegin=60564|AlignEnd=60753
+9	sorte	sortir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	AlignBegin=60564|AlignEnd=60753
 10	dehors	dehors	ADV	_	_	9	mod	_	AlignBegin=60753|AlignEnd=60942|SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	AlignBegin=60942|AlignEnd=60942
 
@@ -566,7 +566,7 @@
 5	peur	peur	NOUN	_	_	4	comp:obj@lvc	_	AlignBegin=61500|AlignEnd=61697
 6	avec	avec	ADP	_	_	4	mod	_	AlignBegin=61697|AlignEnd=61894
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	AlignBegin=61894|AlignEnd=62091
-8	chiens	chiel	NOUN	_	Number=Plur	6	comp:obj	_	AlignBegin=62091|AlignEnd=62287
+8	chiens	chien	NOUN	_	Number=Plur	6	comp:obj	_	AlignBegin=62091|AlignEnd=62287
 9	surtout	surtout	ADV	_	_	4	mod	_	AlignBegin=62287|AlignEnd=62484|SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	AlignBegin=62484|AlignEnd=62484
 
@@ -601,7 +601,7 @@
 13	,	,	PUNCT	_	_	16	punct	_	AlignBegin=65945|AlignEnd=65945
 14	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	16	subj	_	AlignBegin=65945|AlignEnd=66323
 15	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	16	comp:obj	_	AlignBegin=66323|AlignEnd=66700|SpaceAfter=No
-16	a~	a~voir	X	_	_	6	conj:dicto	_	AlignBegin=66700|AlignEnd=67078|ExtPos=VERB|SpaceAfter=No
+16	a~	avoir	X	_	_	6	conj:dicto	_	AlignBegin=66700|AlignEnd=67078|ExtPos=VERB|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	AlignBegin=67078|AlignEnd=67078
 18	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	20	subj	_	AlignBegin=67078|AlignEnd=67456
 19	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	21	comp:obj	_	AlignBegin=67456|AlignEnd=67833|SpaceAfter=No
@@ -639,7 +639,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=69494|AlignEnd=69494
 14	oui	oui	ADJ	_	_	12	discourse	_	AlignBegin=69494|AlignEnd=69670|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=69670|AlignEnd=69670
-16	mh	mh	ADJ	_	_	12	discourse	_	AlignBegin=69670|AlignEnd=69847|SpaceAfter=No
+16	mh	mh	INTJ	_	_	12	discourse	_	AlignBegin=69670|AlignEnd=69847|SpaceAfter=No
 17	.	.	PUNCT	_	_	5	punct	_	AlignBegin=69847|AlignEnd=69847
 
 # sent_id = PS_2022_12_anniversairePetitChat__39
@@ -754,7 +754,7 @@
 1	même	même	ADV	_	_	8	mod	_	AlignBegin=83291|AlignEnd=83455
 2	avec	avec	ADP	_	_	8	mod	_	AlignBegin=83455|AlignEnd=83619
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	AlignBegin=83619|AlignEnd=83783
-4	chiens	chiel	NOUN	_	Number=Plur	2	comp:obj	_	AlignBegin=83783|AlignEnd=83948|SpaceAfter=No
+4	chiens	chien	NOUN	_	Number=Plur	2	comp:obj	_	AlignBegin=83783|AlignEnd=83948|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	AlignBegin=83948|AlignEnd=83948
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	AlignBegin=83948|AlignEnd=84112
 7	se	se	PRON	_	_	8	comp@expl	_	AlignBegin=84112|AlignEnd=84276
@@ -814,7 +814,7 @@
 4	maintenant	maintenant	ADV	_	_	7	mod	_	AlignBegin=87690|AlignEnd=87974|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=87974|AlignEnd=87974
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	AlignBegin=87974|AlignEnd=88259
-7	dort	dortir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=88259|AlignEnd=88544
+7	dort	dormir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=88259|AlignEnd=88544
 8	avec	avec	ADP	_	_	7	mod	_	AlignBegin=88544|AlignEnd=88829
 9	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	8	comp:obj	_	AlignBegin=88829|AlignEnd=89113
 10	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=89113|AlignEnd=89398|SpaceAfter=No
@@ -1087,7 +1087,7 @@
 6	ouais	ouais	INTJ	_	_	4	discourse	_	AlignBegin=116509|AlignEnd=116702|SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	AlignBegin=116702|AlignEnd=116702
 8	comme	comme	ADP	_	_	13	mod	_	AlignBegin=116702|AlignEnd=116896
-9	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	AlignBegin=116896|AlignEnd=117089
+9	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	AlignBegin=116896|AlignEnd=117089
 10	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=117089|AlignEnd=117283|SpaceAfter=No
 11	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=117283|AlignEnd=117476
 12	jamais	jamais	ADV	_	_	11	mod	_	AlignBegin=117476|AlignEnd=117670
