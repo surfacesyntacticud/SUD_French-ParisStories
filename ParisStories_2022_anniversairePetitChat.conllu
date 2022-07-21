@@ -173,7 +173,7 @@
 # sound_url = PS_2022_12_anniversairePetitChat.mp3
 # speaker = L2
 # text = oui, j'étais déjà allée.
-1	oui	oui	ADJ	_	_	4	discourse	_	AlignBegin=18243|AlignEnd=18387|SpaceAfter=No
+1	oui	oui	INTJ	_	_	4	discourse	_	AlignBegin=18243|AlignEnd=18387|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=18387|AlignEnd=18387
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=18387|AlignEnd=18530|SpaceAfter=No
 4	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=18530|AlignEnd=18674
@@ -637,7 +637,7 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=69140|AlignEnd=69317
 12	monde	monde	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	AlignBegin=69317|AlignEnd=69494|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=69494|AlignEnd=69494
-14	oui	oui	ADJ	_	_	12	discourse	_	AlignBegin=69494|AlignEnd=69670|SpaceAfter=No
+14	oui	oui	INTJ	_	_	12	discourse	_	AlignBegin=69494|AlignEnd=69670|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=69670|AlignEnd=69670
 16	mh	mh	INTJ	_	_	12	discourse	_	AlignBegin=69670|AlignEnd=69847|SpaceAfter=No
 17	.	.	PUNCT	_	_	5	punct	_	AlignBegin=69847|AlignEnd=69847
@@ -841,16 +841,16 @@
 # text = ça fait plus, il fait plus chien que chat des fois.
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=91813|AlignEnd=92064
 2	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=92064|AlignEnd=92314
-3	plus	plus	ADV	_	_	2	mod	_	AlignBegin=92314|AlignEnd=92565|SpaceAfter=No
+3	plus	plus	ADV	_	_	2	mod@scrap	_	AlignBegin=92314|AlignEnd=92565|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	AlignBegin=92565|AlignEnd=92565
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	AlignBegin=92565|AlignEnd=92815
 6	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	AlignBegin=92815|AlignEnd=93066
-7	plus	plus	ADV	_	_	6	mod	_	AlignBegin=93066|AlignEnd=93316
+7	plus	plus	ADV	_	_	8	mod	_	AlignBegin=93066|AlignEnd=93316
 8	chien	chien	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	AlignBegin=93316|AlignEnd=93567
 9	que	que	SCONJ	_	_	7	comp:obj	_	AlignBegin=93567|AlignEnd=93817
 10	chat	chat	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	AlignBegin=93817|AlignEnd=94068
-11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	AlignBegin=94068|AlignEnd=94318
-12	fois	fois	NOUN	_	_	6	discourse	_	AlignBegin=94318|AlignEnd=94569|SpaceAfter=No
+11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	InIdiom=Yes|AlignBegin=94068|AlignEnd=94318
+12	fois	fois	NOUN	_	Number=Plur	6	mod	_	ExtPos=ADV|Idiom=Yes|AlignBegin=94318|AlignEnd=94569|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	AlignBegin=94569|AlignEnd=94569
 
 # sent_id = PS_2022_12_anniversairePetitChat__52
