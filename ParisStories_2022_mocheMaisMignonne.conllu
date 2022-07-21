@@ -34,8 +34,8 @@
 29	quand	quand	SCONJ	_	_	28	mod	_	AlignBegin=6302|AlignEnd=6523
 30	même	même	ADV	_	_	29	unk	_	AlignBegin=6523|AlignEnd=6743|SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	AlignBegin=6743|AlignEnd=6743
-32	parce	parce	SCONJ	_	_	18	mod	_	AlignBegin=6743|AlignEnd=6903
-33	que	que	SCONJ	_	_	32	unk	_	AlignBegin=6903|AlignEnd=7062
+32	parce	parce	ADV	_	_	18	mod	_	AlignBegin=6743|AlignEnd=6903|ExtPos=SCONJ|Idiom=Yes
+33	que	que	SCONJ	_	_	32	unk	_	AlignBegin=6903|AlignEnd=7062|InIdiom=Yes
 34	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	36	subj	_	AlignBegin=7062|AlignEnd=7222
 35	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	37	comp:obj	_	AlignBegin=7222|AlignEnd=7382|SpaceAfter=No
 36	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	32	comp:obj	_	AlignBegin=7382|AlignEnd=7542
@@ -61,8 +61,8 @@
 12	jour	jour	NOUN	_	Gender=Masc|Number=Sing	10	mod	_	AlignBegin=9556|AlignEnd=9788
 13	même	même	ADV	_	_	12	mod	_	AlignBegin=9788|AlignEnd=10021|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=10021|AlignEnd=10021
-15	parce	parce	SCONJ	_	_	4	mod	_	AlignBegin=10021|AlignEnd=10311
-16	qu'	que	SCONJ	_	_	15	unk	_	AlignBegin=10311|AlignEnd=10601|SpaceAfter=No
+15	parce	parce	ADV	_	_	4	mod	_	AlignBegin=10021|AlignEnd=10311|ExtPos=SCONJ|Idiom=Yes
+16	qu'	que	SCONJ	_	_	15	unk	_	AlignBegin=10311|AlignEnd=10601|InIdiom=Yes|SpaceAfter=No
 17	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	subj	_	AlignBegin=10601|AlignEnd=10891
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	AlignBegin=10891|AlignEnd=11180
 19	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	AlignBegin=11180|AlignEnd=11470
@@ -568,8 +568,8 @@
 5	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=73330|AlignEnd=73600
 6	contente	content	ADJ	_	_	5	comp:pred	_	AlignBegin=73600|AlignEnd=73869|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=73869|AlignEnd=73869
-8	parce	parce	SCONJ	_	_	5	mod	_	AlignBegin=73869|AlignEnd=74041
-9	que	que	SCONJ	_	_	8	unk	_	AlignBegin=74041|AlignEnd=74214
+8	parce	parce	ADV	_	_	5	mod	_	AlignBegin=73869|AlignEnd=74041|ExtPos=SCONJ|Idiom=Yes
+9	que	que	SCONJ	_	_	8	unk	_	AlignBegin=74041|AlignEnd=74214|InIdiom=Yes
 10	c'	ce	PRON	_	_	11	subj	_	AlignBegin=74214|AlignEnd=74386|SpaceAfter=No
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	comp:obj	_	AlignBegin=74386|AlignEnd=74558
 12	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	AlignBegin=74558|AlignEnd=74730
@@ -778,8 +778,8 @@
 7	jalouse	jaloux	ADJ	_	_	6	comp:pred	_	AlignBegin=101598|AlignEnd=101832
 8	aussi	aussi	ADV	_	_	6	mod	_	AlignBegin=101832|AlignEnd=102065|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=102065|AlignEnd=102065
-10	parce	parce	SCONJ	_	_	6	mod	_	AlignBegin=102065|AlignEnd=102402
-11	que	que	SCONJ	_	_	10	unk	_	AlignBegin=102402|AlignEnd=102738
+10	parce	parce	ADV	_	_	6	mod	_	AlignBegin=102065|AlignEnd=102402|ExtPos=SCONJ|Idiom=Yes
+11	que	que	SCONJ	_	_	10	unk	_	AlignBegin=102402|AlignEnd=102738|InIdiom=Yes
 12	mon	son	DET	_	_	13	det	_	AlignBegin=102738|AlignEnd=103075
 13	cousin	cousin	NOUN	_	Gender=Masc|Number=Sing	22	dislocated	_	AlignBegin=103075|AlignEnd=103411|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=103411|AlignEnd=103411
@@ -852,7 +852,7 @@
 14	photos	photo	NOUN	_	Gender=Fem|Number=Plur	12	comp:obj	_	AlignBegin=112816|AlignEnd=113061|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=113061|AlignEnd=113061
 16	parce	parce	ADV	_	_	8	mod	_	AlignBegin=113061|AlignEnd=113212|ExtPos=SCONJ|Idiom=Yes
-17	que	que	SCONJ	_	_	16	unk	_	AlignBegin=113212|AlignEnd=113364|SpaceAfter=No
+17	que	que	SCONJ	_	_	16	unk	_	AlignBegin=113212|AlignEnd=113364|InIdiom=Yes|SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	AlignBegin=113364|AlignEnd=113364
 19	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	subj	_	AlignBegin=113364|AlignEnd=113515
 20	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	AlignBegin=113515|AlignEnd=113667
@@ -879,8 +879,8 @@
 13	,	,	PUNCT	_	_	6	punct	_	AlignBegin=115313|AlignEnd=115313
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	subj	_	AlignBegin=115313|AlignEnd=115470|SpaceAfter=No
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=115470|AlignEnd=115627
-16	parce	parce	SCONJ	_	_	15	comp:pred	_	AlignBegin=115627|AlignEnd=115784
-17	que	que	SCONJ	_	_	16	unk	_	AlignBegin=115784|AlignEnd=115941
+16	parce	parce	ADV	_	_	15	comp:pred	_	AlignBegin=115627|AlignEnd=115784|ExtPos=SCONJ|Idiom=Yes
+17	que	que	SCONJ	_	_	16	unk	_	AlignBegin=115784|AlignEnd=115941|InIdiom=Yes
 18	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	subj	_	AlignBegin=115941|AlignEnd=116097
 19	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	comp:obj	_	AlignBegin=116097|AlignEnd=116254
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	AlignBegin=116254|AlignEnd=116411
