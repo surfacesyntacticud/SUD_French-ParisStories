@@ -16,7 +16,7 @@
 11	devoir	devoir	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	maison	maison	NOUN	_	Gender=Fem|Number=Sing	11	mod	_	_
 13	à	à	ADP	_	_	11	mod	_	_
-14	rendre	rendre	VERB	_	VerbForm=Inf	13	comp:obj	_	SpaceAfter=No
+14	rendre	rendre	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=SubjRaising|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	en	en	ADP	_	_	11	mod	_	_
 17	philosophie	philosophie	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	SpaceAfter=No
@@ -31,7 +31,7 @@
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	peut-on	peut-on	ADV	_	_	4	comp:pred	_	_
 6	se	le	PRON	_	Person=3|PronType=Prs	7	comp:obj	_	_
-7	mettre	mettre	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=Raising
+7	mettre	mettre	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
 8	à	à	ADP	_	_	7	comp:obl	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	place	place	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
@@ -51,9 +51,9 @@
 7	comment	comment	ADV	_	_	9	mod	_	_
 8	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
 9	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
-10	faire	faire	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=Raising
+10	faire	faire	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
 11	pour	pour	ADP	_	_	10	mod	_	_
-12	rendre	rendre	VERB	_	VerbForm=Inf	11	comp:obj	_	_
+12	rendre	rendre	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=NoRaising
 13	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
 14	devoir	devoir	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 15	?	?	PUNCT	_	_	4	punct	_	_
@@ -122,7 +122,7 @@
 3	dit	dire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	aussi	aussi	ADV	_	_	3	mod	_	_
 5	d'	d'	ADP	_	_	3	comp:obl	_	SpaceAfter=No
-6	utiliser	utiliser	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=Raising
+6	utiliser	utiliser	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=OblRaising
 7	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
 8	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
@@ -143,7 +143,7 @@
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	et	et	CCONJ	_	_	25	cc	_	_
 25	d'	d'	ADP	_	_	5	conj:coord	_	SpaceAfter=No
-26	utiliser	utiliser	VERB	_	VerbForm=Inf	25	comp:obj	_	_
+26	utiliser	utiliser	VERB	_	VerbForm=Inf	25	comp:obj	_	Subject=OblRaising
 27	aussi	aussi	ADV	_	_	26	mod	_	_
 28	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	28	punct	_	_
@@ -157,14 +157,14 @@
 37	,	,	PUNCT	_	_	39	punct	_	_
 38	et	et	CCONJ	_	_	39	cc	_	_
 39	de	de	ADP	_	_	25	conj:coord	_	_
-40	savoir	savoir	VERB	_	VerbForm=Inf	39	comp:obj	_	_
+40	savoir	savoir	VERB	_	VerbForm=Inf	39	comp:obj	_	Subject=OblRaising
 41	les	le	PRON	_	Number=Plur	42	comp:obj	_	_
-42	expliquer	expliquer	VERB	_	VerbForm=Inf	40	comp:obj	_	Subject=Raising
+42	expliquer	expliquer	VERB	_	VerbForm=Inf	40	comp:obj	_	Subject=NoRaising
 43	et	et	CCONJ	_	_	44	cc	_	_
 44	de	de	ADP	_	_	39	conj:coord	_	_
 45	pas	pas	ADV	_	Polarity=Neg	47	mod	_	_
 46	les	le	PRON	_	Number=Plur	47	comp:obj	_	_
-47	balancer	balancer	VERB	_	VerbForm=Inf	44	comp:obj	_	_
+47	balancer	balancer	VERB	_	VerbForm=Inf	44	comp:obj	_	Subject=OblRaising
 48	que	que	ADV	_	_	49	mod	_	_
 49	dans	dans	ADP	_	_	47	udep	_	_
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
