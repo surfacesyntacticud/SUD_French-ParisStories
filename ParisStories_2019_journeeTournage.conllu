@@ -174,7 +174,7 @@
 54	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	55	det	_	_
 55	cheveux	_	NOUN	_	Gender=Masc|Number=Plur	50	comp:obj	_	_
 56	pour	pour	ADP	_	_	55	udep	_	_
-57	voir	voir	VERB	_	VerbForm=Inf	56	comp:obj	_	SpaceAfter=No
+57	voir	voir	VERB	_	VerbForm=Inf	56	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 58	,	,	PUNCT	_	_	62	punct	_	_
 59	euh	euh	INTJ	_	_	62	discourse	_	SpaceAfter=No
 60	,	,	PUNCT	_	_	59	punct	_	_
@@ -293,13 +293,13 @@
 30	,	,	PUNCT	_	_	34	punct	_	_
 31	euh	euh	INTJ	_	_	34	discourse	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	31	punct	_	_
-33	se	le	PRON	_	Person=3|PronType=Prs	35	comp:obj	_	_
-34	faire	faire	AUX	_	VerbForm=Inf	24	conj:appos	_	_
-35	maquiller	maquiller	VERB	_	VerbForm=Inf	34	comp:aux@caus	_	SpaceAfter=No
+33	se	le	PRON	_	Person=3|PronType=Prs	34	comp@pass	_	_
+34	faire	faire	AUX	_	VerbForm=Inf	24	conj:appos	_	Subject=NoRaising
+35	maquiller	maquiller	VERB	_	VerbForm=Inf	34	comp:aux@caus	_	SpaceAfter=No|Subject=NoRaising
 36	,	,	PUNCT	_	_	38	punct	_	_
-37	se	le	PRON	_	Person=3|PronType=Prs	39	comp:obj	_	_
-38	faire	faire	AUX	_	VerbForm=Inf	34	conj:appos	_	_
-39	coiffer	coiffer	VERB	_	VerbForm=Inf	38	comp:aux@caus	_	SpaceAfter=No
+37	se	le	PRON	_	Person=3|PronType=Prs	38	comp@pass	_	_
+38	faire	faire	AUX	_	VerbForm=Inf	34	conj:appos	_	Subject=NoRaising
+39	coiffer	coiffer	VERB	_	VerbForm=Inf	38	comp:aux@caus	_	SpaceAfter=No|Subject=NoRaising
 40	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = puis ensuite on partait tous en car, euh, bah jusqu'au lieu de tournage sur la Promenade des Anglais.
@@ -882,10 +882,10 @@
 46	euh	euh	INTJ	_	_	49	discourse	_	SpaceAfter=No
 47	,	,	PUNCT	_	_	46	punct	_	_
 48	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	49	comp:obj	_	_
-49	recoiffer	recoiffer	VERB	_	VerbForm=Inf	33	conj:dicto	_	SpaceAfter=No
+49	recoiffer	recoiffer	VERB	_	VerbForm=Inf	33	conj:dicto	_	SpaceAfter=No|Subject=Raising
 50	,	,	PUNCT	_	_	52	punct	_	_
 51	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	52	comp:obj	_	_
-52	remaquiller	remaquiller	VERB	_	VerbForm=Inf	49	conj:coord	_	SpaceAfter=No
+52	remaquiller	remaquiller	VERB	_	VerbForm=Inf	49	conj:coord	_	SpaceAfter=No|Subject=Raising
 53	,	,	PUNCT	_	_	55	punct	_	_
 54	tout	tout	ADJ	_	Gender=Masc|Number=Sing	55	mod	_	_
 55	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	52	conj:coord	_	SpaceAfter=No
