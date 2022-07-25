@@ -23,7 +23,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=3706|AlignEnd=3706
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	AlignBegin=3706|AlignEnd=4056
 6	y	y	PRON	_	_	7	comp@expl	_	AlignBegin=4056|AlignEnd=4406
-7	avait	avoir	VERB	_	_	0	root	_	AlignBegin=4406|AlignEnd=4756|SpaceAfter=No
+7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=4406|AlignEnd=4756|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	AlignBegin=4756|AlignEnd=4756
 9	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=4756|AlignEnd=5106|SpaceAfter=No
 10	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	conj:dicto	_	AlignBegin=5106|AlignEnd=5455
@@ -140,7 +140,7 @@
 19	pas	pas	ADV	_	_	18	mod	_	AlignBegin=22111|AlignEnd=22378|SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	AlignBegin=22378|AlignEnd=22378
 21	qui	qui	PRON	_	_	22	subj	_	AlignBegin=22378|AlignEnd=22646
-22	avait	avoir	VERB	_	_	18	conj:dicto	_	AlignBegin=22646|AlignEnd=22913
+22	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	conj:dicto	_	AlignBegin=22646|AlignEnd=22913
 23	deux	deux	NUM	_	_	24	det	_	AlignBegin=22913|AlignEnd=23180
 24	potes	pote	NOUN	_	_	22	comp:obj	_	AlignBegin=23180|AlignEnd=23447
 25	qu'	que	PRON	_	PronType=Rel	27	comp:obj	_	AlignBegin=24249|AlignEnd=24516|SpaceAfter=No
@@ -270,7 +270,7 @@
 6	toujours	toujours	ADV	_	_	5	mod	_	AlignBegin=43100|AlignEnd=43353
 7	là	là	ADV	_	_	5	comp:pred	_	AlignBegin=43353|AlignEnd=43605
 8	à	à	ADP	_	_	5	comp:obl@x	_	AlignBegin=43605|AlignEnd=43605
-9	faire	faire	VERB	_	_	8	comp:obj	_	AlignBegin=43605|AlignEnd=43857
+9	faire	faire	VERB	_	VerbForm=Inf	8	comp:obj	_	AlignBegin=43605|AlignEnd=43857
 10	mais	mais	CCONJ	_	_	11	cc	_	AlignBegin=43857|AlignEnd=44109
 11	gnagnagna	gnagnagna	INTJ	_	_	9	comp:obj	_	AlignBegin=44109|AlignEnd=44361|Reported=Yes|SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	AlignBegin=44361|AlignEnd=44361
@@ -285,7 +285,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=45117|AlignEnd=45369
 5	droit	droit	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	AlignBegin=45369|AlignEnd=45621
 6	de	de	ADP	_	_	5	udep	_	AlignBegin=45621|AlignEnd=45873
-7	faire	faire	VERB	_	_	6	comp:obj	_	AlignBegin=45873|AlignEnd=46126
+7	faire	faire	VERB	_	VerbForm=Inf	6	comp:obj	_	AlignBegin=45873|AlignEnd=46126
 8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	comp:obj	_	AlignBegin=46126|AlignEnd=46378|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	AlignBegin=46378|AlignEnd=46378
 10	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	11	subj	_	AlignBegin=46378|AlignEnd=46630
@@ -294,7 +294,7 @@
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=47134|AlignEnd=47386
 14	droit	droit	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	AlignBegin=47386|AlignEnd=47638
 15	de	de	ADP	_	_	14	udep	_	AlignBegin=47638|AlignEnd=47890
-16	faire	faire	VERB	_	_	15	comp:obj	_	AlignBegin=47890|AlignEnd=48142
+16	faire	faire	VERB	_	VerbForm=Inf	15	comp:obj	_	AlignBegin=47890|AlignEnd=48142
 17	ci	ci	ADV	_	_	16	comp:obj	_	AlignBegin=48142|AlignEnd=48394|SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	AlignBegin=48394|AlignEnd=48394
 
@@ -346,7 +346,7 @@
 20	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=53895|AlignEnd=54206
 21	aller	aller	VERB	_	VerbForm=Inf	20	comp:obj@x	_	AlignBegin=54206|AlignEnd=54517|Subject=SubjRaising
 22	leur	son	PRON	_	_	23	comp:obl	_	AlignBegin=54517|AlignEnd=54829
-23	parler	parler	VERB	_	_	21	comp:obj@x	_	AlignBegin=54829|AlignEnd=55140|Subject=SubjRaising
+23	parler	parler	VERB	_	VerbForm=Inf	21	comp:obj@x	_	AlignBegin=54829|AlignEnd=55140|Subject=SubjRaising
 24	et	et	CCONJ	_	_	26	cc	_	AlignBegin=55140|AlignEnd=55451
 25	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	26	comp:obl	_	AlignBegin=55451|AlignEnd=55763
 26	dire	dire	VERB	_	VerbForm=Inf	23	conj:coord	_	AlignBegin=55763|AlignEnd=56074|Subject=SubjRaising
@@ -442,7 +442,7 @@
 17	droit	droit	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	AlignBegin=68464|AlignEnd=68713
 18	de	de	ADP	_	_	17	udep	_	AlignBegin=68713|AlignEnd=68963
 19	leur	son	PRON	_	_	20	comp:obl	_	AlignBegin=68963|AlignEnd=69212
-20	parler	parler	VERB	_	_	18	comp:obj	_	AlignBegin=69212|AlignEnd=69461|SpaceAfter=No
+20	parler	parler	VERB	_	VerbForm=Inf	18	comp:obj	_	AlignBegin=69212|AlignEnd=69461|SpaceAfter=No
 21	.	.	PUNCT	_	_	9	punct	_	AlignBegin=69461|AlignEnd=69461
 
 # sent_id = PS_2022_4_pesteDeMaternelle__28
@@ -540,7 +540,7 @@
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=80381|AlignEnd=80665
 4	lui	lui	PRON	_	_	6	comp:obl	_	AlignBegin=80665|AlignEnd=80950
 5	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=80950|AlignEnd=81234
-6	dit	dire	VERB	_	_	5	comp:aux@tense	_	AlignBegin=81234|AlignEnd=81518|SpaceAfter=No
+6	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:aux@tense	_	AlignBegin=81234|AlignEnd=81518|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=81518|AlignEnd=81518
 8	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=81518|AlignEnd=81802
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	AlignBegin=81802|AlignEnd=82086|Reported=Yes|SpaceAfter=No
@@ -592,7 +592,7 @@
 6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=87543|AlignEnd=87770
 7	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	AlignBegin=87770|AlignEnd=87997
 8	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=87997|AlignEnd=88225
-9	revoir	revoir	VERB	_	_	7	comp:obj@x	_	AlignBegin=88225|AlignEnd=88452|SpaceAfter=No
+9	revoir	revoir	VERB	_	VerbForm=Inf	7	comp:obj@x	_	AlignBegin=88225|AlignEnd=88452|SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	AlignBegin=88452|AlignEnd=88452
 
 # sent_id = PS_2022_4_pesteDeMaternelle__38
@@ -625,7 +625,7 @@
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=91383|AlignEnd=91586
 3	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	5	comp:obl	_	AlignBegin=91586|AlignEnd=91789
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=91789|AlignEnd=91992
-5	dit	dire	VERB	_	_	4	comp:aux@tense	_	AlignBegin=91992|AlignEnd=92195
+5	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:aux@tense	_	AlignBegin=91992|AlignEnd=92195
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=92195|AlignEnd=92398|Reported=Yes|SpaceAfter=No
 7	-ce	ce	PRON	_	_	6	subj@expl	_	AlignBegin=92398|AlignEnd=92602
 8	que	que	SCONJ	_	_	6	comp:pred	_	AlignBegin=92602|AlignEnd=92805
@@ -643,7 +643,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=93820|AlignEnd=94160
 2	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=94160|AlignEnd=94500
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=94500|AlignEnd=94840
-4	dit	dire	VERB	_	_	3	comp:aux@tense	_	AlignBegin=94840|AlignEnd=95180
+4	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:aux@tense	_	AlignBegin=94840|AlignEnd=95180
 5	oui	oui	ADV	_	_	4	comp:obj	_	AlignBegin=95180|AlignEnd=95520|Reported=Yes|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	AlignBegin=95520|AlignEnd=95520
 
@@ -693,7 +693,7 @@
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	AlignBegin=102489|AlignEnd=102727
 11	lui	lui	PRON	_	_	13	comp:obl	_	AlignBegin=102727|AlignEnd=102964
 12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj:dicto	_	AlignBegin=102964|AlignEnd=103202
-13	dit	dire	VERB	_	_	12	comp:aux@tense	_	AlignBegin=103202|AlignEnd=103439
+13	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:aux@tense	_	AlignBegin=103202|AlignEnd=103439
 14	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	comp:obj	_	AlignBegin=103439|AlignEnd=103677|SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	AlignBegin=103677|AlignEnd=103677
 
@@ -788,7 +788,7 @@
 4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	subj	_	AlignBegin=116394|AlignEnd=116732
 5	revenait	revenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	comp:obj	_	AlignBegin=116732|AlignEnd=117070
 6	après	après	ADP	_	_	5	mod	_	AlignBegin=117070|AlignEnd=117408
-7	manger	manger	VERB	_	_	6	comp:obj	_	AlignBegin=117408|AlignEnd=117746|SpaceAfter=No
+7	manger	manger	VERB	_	VerbForm=Inf	6	comp:obj	_	AlignBegin=117408|AlignEnd=117746|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=117746|AlignEnd=117746
 9	oh	oh	INTJ	_	_	5	discourse	_	AlignBegin=117746|AlignEnd=118084|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=118084|AlignEnd=118084

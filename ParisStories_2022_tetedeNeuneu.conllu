@@ -12,7 +12,7 @@
 7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	subj	_	AlignBegin=2332|AlignEnd=2509
 8	m'	lui	PRON	_	_	10	comp:obl	_	AlignBegin=2509|AlignEnd=2687|SpaceAfter=No
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=2687|AlignEnd=2865
-10	dit	dire	VERB	_	_	9	comp:aux@tense	_	AlignBegin=2865|AlignEnd=3043
+10	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:aux@tense	_	AlignBegin=2865|AlignEnd=3043
 11	qu'	qu'	SCONJ	_	_	10	comp:obj	_	AlignBegin=3043|AlignEnd=3220|SpaceAfter=No
 12	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	subj	_	AlignBegin=3220|AlignEnd=3398
 13	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	comp:obj	_	AlignBegin=3398|AlignEnd=3576
@@ -80,7 +80,7 @@
 2	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=10896|AlignEnd=11103
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	AlignBegin=11103|AlignEnd=11310
 4	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	discourse	_	AlignBegin=11310|AlignEnd=11518
-5	faire	faire	VERB	_	_	4	comp:pred	_	AlignBegin=11518|AlignEnd=11725
+5	faire	faire	VERB	_	VerbForm=Inf	4	comp:pred	_	AlignBegin=11518|AlignEnd=11725
 6	2	2	NUM	_	_	7	det	_	AlignBegin=11725|AlignEnd=11932
 7	ans	an	NOUN	_	_	5	comp:obj	_	AlignBegin=11932|AlignEnd=12139|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=12139|AlignEnd=12139
@@ -377,7 +377,7 @@
 31	mode	mode	NOUN	_	_	30	comp:obj	_	AlignBegin=46073|AlignEnd=46250
 32	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	33	subj	_	AlignBegin=46250|AlignEnd=46428
 33	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	comp:obj	_	AlignBegin=46428|AlignEnd=46605|Reported=Yes
-34	faire	faire	VERB	_	_	33	comp:obj@x	_	AlignBegin=46605|AlignEnd=46783
+34	faire	faire	VERB	_	VerbForm=Inf	33	comp:obj@x	_	AlignBegin=46605|AlignEnd=46783
 35	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	AlignBegin=46783|AlignEnd=46960|SpaceAfter=No
 36	anniversaire	anniversaire	NOUN	_	Gender=Masc|Number=Sing	34	comp:obj	_	AlignBegin=46960|AlignEnd=47138
 37	surprise	surprise	NOUN	_	Gender=Fem|Number=Sing	36	mod	_	AlignBegin=47138|AlignEnd=47315|SpaceAfter=No
@@ -523,7 +523,7 @@
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=62102|AlignEnd=62266
 7	venue	venir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	AlignBegin=62266|AlignEnd=62429
 8	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	9	comp:obj	_	AlignBegin=62429|AlignEnd=62593
-9	chercher	chercher	VERB	_	_	7	comp:obj@x	_	AlignBegin=62593|AlignEnd=62757|SpaceAfter=No
+9	chercher	chercher	VERB	_	VerbForm=Inf	7	comp:obj@x	_	AlignBegin=62593|AlignEnd=62757|SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	AlignBegin=62757|AlignEnd=62757
 
 # sent_id = PS_2022_6_tetedeNeuneu__40
@@ -549,7 +549,7 @@
 17	inviter	inviter	VERB	_	VerbForm=Inf	16	comp:obj	_	AlignBegin=65638|AlignEnd=65927|Subject=SubjRaising
 18	XXX	XXX	X	_	_	17	comp:obj	_	AlignBegin=65927|AlignEnd=66216|ExtPos=PROPN
 19	à	à	ADP	_	_	17	comp:obl@x	_	AlignBegin=66216|AlignEnd=66216
-20	manger	manger	VERB	_	_	19	comp:obj	_	AlignBegin=66216|AlignEnd=66505
+20	manger	manger	VERB	_	VerbForm=Inf	19	comp:obj	_	AlignBegin=66216|AlignEnd=66505
 21	!	!	PUNCT	_	_	4	punct	_	AlignBegin=66505|AlignEnd=66505
 
 # sent_id = PS_2022_6_tetedeNeuneu__41
@@ -610,7 +610,7 @@
 9	qu'	que	SCONJ	_	_	6	comp:obj	_	AlignBegin=72007|AlignEnd=72209|SpaceAfter=No
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	AlignBegin=72209|AlignEnd=72410
 11	y	y	PRON	_	_	12	comp@expl	_	AlignBegin=72410|AlignEnd=72611
-12	avait	avoir	VERB	_	_	9	comp:obj	_	AlignBegin=72611|AlignEnd=72812
+12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	comp:obj	_	AlignBegin=72611|AlignEnd=72812
 13	tout	tout	ADJ	_	_	15	mod	_	AlignBegin=72812|AlignEnd=73013
 14	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	AlignBegin=73013|AlignEnd=73214
 15	potes	pote	NOUN	_	Number=Plur	12	comp:obj	_	AlignBegin=73214|AlignEnd=73415
@@ -678,7 +678,7 @@
 6	huit	huit	NUM	_	_	7	det	_	AlignBegin=81701|AlignEnd=81928
 7	ans	an	NOUN	_	_	5	comp:obj	_	AlignBegin=81928|AlignEnd=82154
 8	à	à	ADP	_	_	5	comp:obl@x	_	AlignBegin=82154|AlignEnd=82154
-9	ouvrir	ouvrir	VERB	_	_	8	comp:obj	_	AlignBegin=82154|AlignEnd=82381
+9	ouvrir	ouvrir	VERB	_	VerbForm=Inf	8	comp:obj	_	AlignBegin=82154|AlignEnd=82381
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	AlignBegin=82381|AlignEnd=82607|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=82607|AlignEnd=82607
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	conj:dicto	_	AlignBegin=82607|AlignEnd=82834
@@ -924,7 +924,7 @@
 6	même	même	ADV	_	_	5	mod	_	AlignBegin=114890|AlignEnd=115049
 7	de	de	ADP	_	_	5	comp:obj	_	AlignBegin=115049|AlignEnd=115209
 8	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=115209|AlignEnd=115368
-9	connaître	connaître	VERB	_	_	7	comp:obj	_	AlignBegin=115368|AlignEnd=115528
+9	connaître	connaître	VERB	_	VerbForm=Inf	7	comp:obj	_	AlignBegin=115368|AlignEnd=115528
 10	?	?	PUNCT	_	_	3	punct	_	AlignBegin=115528|AlignEnd=115528
 
 # sent_id = PS_2022_6_tetedeNeuneu__65
@@ -969,7 +969,7 @@
 7	envie	envie	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj@lvc	_	AlignBegin=118849|AlignEnd=119061
 8	de	de	ADP	_	_	7	udep	_	AlignBegin=119061|AlignEnd=119273
 9	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=119273|AlignEnd=119484
-10	connaître	connaître	VERB	_	_	8	comp:obj	_	AlignBegin=119484|AlignEnd=119696|SpaceAfter=No
+10	connaître	connaître	VERB	_	VerbForm=Inf	8	comp:obj	_	AlignBegin=119484|AlignEnd=119696|SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	AlignBegin=119696|AlignEnd=119696
 
 # sent_id = PS_2022_6_tetedeNeuneu__69
