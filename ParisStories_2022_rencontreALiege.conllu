@@ -79,7 +79,7 @@
 3	jeudi	jeudi	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	AlignBegin=11895|AlignEnd=12236|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=12236|AlignEnd=12236
 5	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	subj	_	AlignBegin=12531|AlignEnd=12829
-6	avaient	avoir	AUX	_	Number=Plur|Person=3	0	root	_	AlignBegin=12829|AlignEnd=13126
+6	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=12829|AlignEnd=13126
 7	organisé	organiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	AlignBegin=13126|AlignEnd=13424
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=13424|AlignEnd=13721|SpaceAfter=No
 9	pré-rentrée	pré-rentrée	NOUN	_	_	7	comp:obj	_	AlignBegin=13721|AlignEnd=14019
@@ -249,7 +249,7 @@
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	AlignBegin=52134|AlignEnd=52322
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=52322|AlignEnd=52510
 5	toutes	tout	PRON	_	_	6	mod	_	AlignBegin=52510|AlignEnd=52697
-6	parties	partir	VERB	_	_	4	comp:aux@tense	_	AlignBegin=52697|AlignEnd=52885
+6	parties	partir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	AlignBegin=52697|AlignEnd=52885
 7	en	en	ADP	_	_	6	mod	_	AlignBegin=52885|AlignEnd=53073
 8	groupe	groupe	NOUN	_	_	7	comp:obj	_	AlignBegin=53073|AlignEnd=53261|SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	AlignBegin=53261|AlignEnd=53261
@@ -314,13 +314,13 @@
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=62469|AlignEnd=62684
 12	fille	fille	NOUN	_	_	10	comp:obj	_	AlignBegin=62684|AlignEnd=62899
 13	qui	qui	PRON	_	_	14	subj	_	AlignBegin=62899|AlignEnd=63114
-14	parlait	parler	VERB	_	_	12	mod@relcl	_	AlignBegin=63114|AlignEnd=63329
+14	parlait	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	mod@relcl	_	AlignBegin=63114|AlignEnd=63329
 15	assez	assez	ADV	_	_	16	mod	_	AlignBegin=63329|AlignEnd=63544
 16	fort	fort	ADV	_	_	14	mod	_	AlignBegin=63544|AlignEnd=63759|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	AlignBegin=63759|AlignEnd=63759
 18	et	et	CCONJ	_	_	20	cc	_	AlignBegin=64290|AlignEnd=64479
 19	qui	qui	PRON	_	_	20	subj	_	AlignBegin=64479|AlignEnd=64669
-20	parlait	parler	VERB	_	_	14	conj:coord	_	AlignBegin=64669|AlignEnd=64858
+20	parlait	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	conj:coord	_	AlignBegin=64669|AlignEnd=64858
 21	de	de	ADP	_	_	20	comp:obl	_	AlignBegin=64858|AlignEnd=65048
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	AlignBegin=65048|AlignEnd=65237
 23	ville	ville	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	AlignBegin=65237|AlignEnd=65426
@@ -376,7 +376,7 @@
 # speaker = 0
 # text = elle avait pris euh, euh, la voiture euh, le train, pour venir euh, de Monaco à Liège.
 1	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=73143|AlignEnd=73482
-2	avait	avoir	AUX	_	Number=Sing|Person=3	0	root	_	AlignBegin=73482|AlignEnd=73822
+2	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=73482|AlignEnd=73822
 3	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	AlignBegin=73822|AlignEnd=74161
 4	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=74161|AlignEnd=74500|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=74500|AlignEnd=74500
@@ -619,7 +619,7 @@
 17	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	comp:obj	_	AlignBegin=111396|AlignEnd=111529
 18	pas	pas	ADV	_	_	19	mod	_	AlignBegin=111529|AlignEnd=111662
 19	trop	trop	ADV	_	_	20	mod	_	AlignBegin=111662|AlignEnd=111796
-20	vue	voir	VERB	_	_	17	comp:aux@tense	_	AlignBegin=111796|AlignEnd=111929|SpaceAfter=No
+20	vue	voir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	AlignBegin=111796|AlignEnd=111929|SpaceAfter=No
 21	.	.	PUNCT	_	_	13	punct	_	AlignBegin=111929|AlignEnd=111929
 
 # sent_id = PS_2022_8_rencontreALiège__31

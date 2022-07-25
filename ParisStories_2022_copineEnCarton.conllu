@@ -211,7 +211,7 @@
 7	,	,	PUNCT	_	_	9	punct	_	AlignBegin=34368|AlignEnd=34368
 8	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	AlignBegin=34368|AlignEnd=34603|SpaceAfter=No
 9	aurais	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	AlignBegin=34603|AlignEnd=34837
-10	dû	devoir	VERB	_	_	9	comp:aux@tense	_	AlignBegin=34837|AlignEnd=35072
+10	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	AlignBegin=34837|AlignEnd=35072
 11	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=35072|AlignEnd=35306
 12	laisser	laisser	VERB	_	VerbForm=Inf	10	comp:obj@x	_	AlignBegin=35306|AlignEnd=35541|Subject=SubjRaising
 13	à	à	ADP	_	_	12	comp:obl	_	AlignBegin=35541|AlignEnd=35541
@@ -437,7 +437,7 @@
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=59710|AlignEnd=59979
 2	pouvais	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=59979|AlignEnd=60248
 3	pas	pas	ADV	_	_	2	mod	_	AlignBegin=60248|AlignEnd=60517
-4	vivre	vivre	VERB	_	_	2	comp:obj@x	_	AlignBegin=60517|AlignEnd=60786
+4	vivre	vivre	VERB	_	VerbForm=Inf	2	comp:obj@x	_	AlignBegin=60517|AlignEnd=60786
 5	sans	sans	ADP	_	_	4	mod	_	AlignBegin=60786|AlignEnd=61056
 6	lui	lui	PRON	_	_	5	comp:obj	_	AlignBegin=61056|AlignEnd=61325|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=61325|AlignEnd=61325
@@ -529,7 +529,7 @@
 3	quand	quand	SCONJ	_	_	12	mod	_	AlignBegin=71320|AlignEnd=71476
 4	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=71476|AlignEnd=71631|SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=71631|AlignEnd=71787
-6	connu	connaître	VERB	_	_	5	comp:aux@tense	_	AlignBegin=71787|AlignEnd=71943
+6	connu	connaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	AlignBegin=71787|AlignEnd=71943
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=71943|AlignEnd=72099
 8	personnage	personnage	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	AlignBegin=72099|AlignEnd=72255|SpaceAfter=No
 9	,	,	PUNCT	_	_	3	punct	_	AlignBegin=72255|AlignEnd=72255
@@ -701,9 +701,9 @@
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=89968|AlignEnd=90116|SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=90116|AlignEnd=90263
 3	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:aux@tense	_	AlignBegin=90263|AlignEnd=90411
-4	écoute	écouter	VERB	_	_	6	discourse	_	AlignBegin=90411|AlignEnd=90559|SpaceAfter=No
+4	écoute	écouter	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	discourse	_	AlignBegin=90411|AlignEnd=90559|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=90559|AlignEnd=90559
-6	faut	falloir	VERB	_	_	3	comp:obj	_	AlignBegin=90559|AlignEnd=90706|Reported=Yes
+6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=90559|AlignEnd=90706|Reported=Yes
 7	qu'	que	SCONJ	_	_	6	comp:obj	_	AlignBegin=90706|AlignEnd=90854|SpaceAfter=No
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	AlignBegin=90854|AlignEnd=91002
 9	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	AlignBegin=91002|AlignEnd=91149|SpaceAfter=No
@@ -946,7 +946,7 @@
 8	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:aux@tense	_	AlignBegin=111478|AlignEnd=111630
 9	euh	euh	INTJ	_	_	14	discourse	_	AlignBegin=111630|AlignEnd=111875|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=111875|AlignEnd=111875
-11	écoute	écouter	VERB	_	_	14	discourse	_	AlignBegin=111875|AlignEnd=112120|SpaceAfter=No
+11	écoute	écouter	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	discourse	_	AlignBegin=111875|AlignEnd=112120|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	AlignBegin=112120|AlignEnd=112120
 13	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	14	subj	_	AlignBegin=112120|AlignEnd=112365
 14	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	comp:obj	_	AlignBegin=112365|AlignEnd=112610|Reported=Yes
@@ -1023,7 +1023,7 @@
 # sent_id = PS_2022_11_copineEnCarton__61
 # sound_url = PS_2022_11_copineEnCarton.mp3
 # speaker = L1
-# text = j'ai besoin d'un peu, de voila, de, de mon, mon espace, quoi.
+# text = j'ai besoin d'un peu, de voilà, de, de mon, mon espace, quoi.
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=120574|AlignEnd=120822|SpaceAfter=No
 2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=120822|AlignEnd=121070
 3	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj@lvc	_	AlignBegin=121070|AlignEnd=121318
@@ -1032,7 +1032,7 @@
 6	peu	peu	NOUN	_	_	4	comp:obj	_	AlignBegin=121814|AlignEnd=122062|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=122062|AlignEnd=122062
 8	de	de	ADP	_	_	4	conj:dicto	_	AlignBegin=122062|AlignEnd=122310
-9	voila	voila	VERB	_	_	8	discourse	_	AlignBegin=122310|AlignEnd=122557|SpaceAfter=No
+9	voilà	voilà	VERB	_	_	8	discourse	_	AlignBegin=122310|AlignEnd=122557|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=122557|AlignEnd=122557
 11	de	de	ADP	_	_	8	conj:dicto	_	AlignBegin=122557|AlignEnd=122805|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=122805|AlignEnd=122805

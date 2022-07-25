@@ -13,7 +13,7 @@
 8	que	que	SCONJ	_	_	6	comp:obj	_	AlignBegin=1975|AlignEnd=2266
 9	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	10	subj	_	AlignBegin=2266|AlignEnd=2558
 10	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	8	comp:obj	_	AlignBegin=2558|AlignEnd=2849
-11	sorti	sortir	VERB	_	_	10	comp:aux@tense	_	AlignBegin=2849|AlignEnd=3140|SpaceAfter=No
+11	sorti	sortir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	AlignBegin=2849|AlignEnd=3140|SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	AlignBegin=3140|AlignEnd=3140
 13	un	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	AlignBegin=3140|AlignEnd=3290
 14	peu	peu	NOUN	_	_	15	mod	_	AlignBegin=3290|AlignEnd=3441
@@ -47,7 +47,7 @@
 5	que	que	SCONJ	_	_	4	comp:obj	_	AlignBegin=7127|AlignEnd=7409
 6	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	7	subj	_	AlignBegin=7409|AlignEnd=7691
 7	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	5	comp:obj	_	AlignBegin=7691|AlignEnd=7973
-8	sorti	sortir	VERB	_	_	7	comp:aux@tense	_	AlignBegin=7973|AlignEnd=8255
+8	sorti	sortir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	AlignBegin=7973|AlignEnd=8255
 9	avant	avant	ADP	_	_	8	mod	_	AlignBegin=8255|AlignEnd=8537
 10	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp:obj	_	AlignBegin=8537|AlignEnd=8819|SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=8819|AlignEnd=8819
@@ -98,7 +98,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=13806|AlignEnd=14031
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=14031|AlignEnd=14256|SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=14256|AlignEnd=14481
-4	fais	faire	VERB	_	_	3	comp:aux@tense	_	AlignBegin=14481|AlignEnd=14706
+4	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	comp:aux@tense	_	AlignBegin=14481|AlignEnd=14706
 5	exprès	exprès	ADV	_	_	4	comp:obj	_	AlignBegin=14706|AlignEnd=14931
 6	de	de	ADP	_	_	5	comp:obl@x	_	AlignBegin=14931|AlignEnd=15156
 7	sortir	sortir	VERB	_	VerbForm=Inf	6	comp:obj	_	AlignBegin=15156|AlignEnd=15381|Subject=SubjRaising
@@ -350,7 +350,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=54192|AlignEnd=54506
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=54506|AlignEnd=54820|SpaceAfter=No
 3	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=54820|AlignEnd=55135
-4	fais	faire	VERB	_	_	3	comp:aux@tense	_	AlignBegin=55135|AlignEnd=55449
+4	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	comp:aux@tense	_	AlignBegin=55135|AlignEnd=55449
 5	exprès	exprès	NOUN	_	_	4	comp:obj	_	AlignBegin=55449|AlignEnd=55763
 6	de	de	ADP	_	_	5	comp:obl@x	_	AlignBegin=55763|AlignEnd=56008
 7	rentrer	rentrer	VERB	_	VerbForm=Inf	6	comp:obj	_	AlignBegin=56008|AlignEnd=56252
@@ -401,7 +401,7 @@
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L2
 # text = han !
-1	han	han	VERB	_	_	0	root	_	AlignBegin=59716|AlignEnd=59979
+1	han	han	INTJ	_	_	0	root	_	AlignBegin=59716|AlignEnd=59979
 2	!	!	PUNCT	_	_	1	punct	_	AlignBegin=59979|AlignEnd=59979
 
 # sent_id = PS_2022_15_onEnParleAPersonne__24
@@ -763,7 +763,7 @@
 8	comment	comment	ADV	_	_	6	comp:obj	_	AlignBegin=112125|AlignEnd=112339|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=112339|AlignEnd=112339
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	conj:dicto	_	AlignBegin=112339|AlignEnd=112553
-11	avait	avoir	AUX	_	Number=Sing|Person=3	0	root	_	AlignBegin=112553|AlignEnd=112767
+11	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=112553|AlignEnd=112767
 12	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	AlignBegin=112767|AlignEnd=112981
 13	qu'	que	SCONJ	_	_	12	comp:obj	_	AlignBegin=112981|AlignEnd=113239|SpaceAfter=No
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	AlignBegin=113239|AlignEnd=113496
@@ -809,7 +809,7 @@
 9	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=122464|AlignEnd=122756
 10	arrivée	arriver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	AlignBegin=122756|AlignEnd=123048
 11	en	en	ADP	_	_	10	mod	_	AlignBegin=123048|AlignEnd=123340
-12	courant	courer	VERB	_	_	11	comp:obj	_	AlignBegin=123340|AlignEnd=123631|SpaceAfter=No
+12	courant	courer	VERB	_	Tense=Pres|VerbForm=Part	11	comp:obj	_	AlignBegin=123340|AlignEnd=123631|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=123631|AlignEnd=123631
 14	hein	hein	INTJ	_	_	10	discourse	_	AlignBegin=123631|AlignEnd=123923
 15	?	?	PUNCT	_	_	4	punct	_	AlignBegin=123923|AlignEnd=123923
@@ -864,7 +864,7 @@
 20	,	,	PUNCT	_	_	2	punct	_	AlignBegin=128192|AlignEnd=128192
 21	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	22	subj	_	AlignBegin=128192|AlignEnd=128473|SpaceAfter=No
 22	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=128473|AlignEnd=128754
-23	ralenti	ralentre	VERB	_	_	22	comp:aux@tense	_	AlignBegin=128754|AlignEnd=129036|SpaceAfter=No
+23	ralenti	ralentre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux@tense	_	AlignBegin=128754|AlignEnd=129036|SpaceAfter=No
 24	.	.	PUNCT	_	_	22	punct	_	AlignBegin=129036|AlignEnd=129036
 
 # sent_id = PS_2022_15_onEnParleAPersonne__48
