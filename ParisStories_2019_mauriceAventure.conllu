@@ -286,7 +286,7 @@
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	matin	matin	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	_
 11	pour	pour	ADP	_	_	6	mod	_	_
-12	arriver	arriver	VERB	_	VerbForm=Inf	11	comp:obj	_	_
+12	arriver	arriver	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=NoRaising
 13	à	à	ADP	_	_	12	mod	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	aube	aube	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
@@ -435,7 +435,7 @@
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	buggy	buggy	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	pour	pour	ADP	_	_	7	mod	_	_
-11	être	être	VERB	_	VerbForm=Inf	10	comp:obj	_	_
+11	être	être	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=NoRaising
 12	avec	avec	ADP	_	_	11	comp:pred	_	_
 13	nous	nous	PRON	_	_	12	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	_
@@ -636,7 +636,7 @@
 5	que	que	PRON	_	_	7	comp:obj	_	_
 6	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	7	subj	_	_
 7	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
-8	faire	faire	VERB	_	VerbForm=Inf	7	comp:obj	_	SpaceAfter=No|Subject=Raising
+8	faire	faire	VERB	_	VerbForm=Inf	7	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 9	,	,	PUNCT	_	_	2	punct	_	_
 
 # text = tu achètes des petits trucs et tu leur donnes.
@@ -756,9 +756,9 @@
 13	très	très	ADV	_	_	14	mod	_	_
 14	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	11	comp:pred	_	_
 15	à	à	ADP	_	_	14	mod	_	_
-16	rester	rester	VERB	_	VerbForm=Inf	15	comp:obj	_	_
+16	rester	rester	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 17	pour	pour	ADP	_	_	16	mod	_	_
-18	faire	faire	VERB	_	VerbForm=Inf	17	comp:obj	_	_
+18	faire	faire	VERB	_	VerbForm=Inf	17	comp:obj	_	Subject=NoRaising
 19	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -906,7 +906,7 @@
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
 10	bus	bus	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 11	pour	pour	ADP	_	_	8	mod	_	_
-12	aller	aller	VERB	_	VerbForm=Inf	11	comp:obj	_	_
+12	aller	aller	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
 13	d'	de	ADP	_	_	12	mod	_	SpaceAfter=No
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
@@ -955,7 +955,7 @@
 5	organisé	organiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:pred	_	_
 6	pour	pour	ADP	_	_	3	mod	_	_
 7	pour	pour	ADP	_	_	6	conj:dicto	_	_
-8	être	être	AUX	_	VerbForm=Inf	7	comp:obj	_	_
+8	être	être	AUX	_	VerbForm=Inf	7	comp:obj	_	Subject=NoRaising
 9	là	là	ADV	_	_	8	mod	_	_
 10	dedans	dedans	ADV	_	_	8	mod	_	_
 11	sinon	sinon	CCONJ	_	_	13	cc	_	_
