@@ -376,7 +376,7 @@
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	AlignBegin=42012|AlignEnd=42182
 12	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	AlignBegin=42182|AlignEnd=42351|Reported=Yes
 13	pas	pas	ADV	_	_	12	mod	_	AlignBegin=42351|AlignEnd=42521
-14	quitter	quitter	VERB	_	VerbForm=Inf	12	comp:obj@x	_	AlignBegin=42521|AlignEnd=42691
+14	quitter	quitter	VERB	_	VerbForm=Inf	12	comp:obj@x	_	AlignBegin=42521|AlignEnd=42691|Subject=SubjRaising
 15	un	un	PRON	_	_	14	comp:obj	_	AlignBegin=42691|AlignEnd=42860
 16	pour	pour	ADP	_	_	14	mod	_	AlignBegin=42860|AlignEnd=43030
 17	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=43030|AlignEnd=43199|SpaceAfter=No
@@ -384,7 +384,7 @@
 19	re~	re~	X	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:obj	_	AlignBegin=43199|AlignEnd=43369|ExtPos=VERB|SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	AlignBegin=43369|AlignEnd=43369
 21	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	22	comp:obj	_	AlignBegin=43369|AlignEnd=43630
-22	remettre	remettre	VERB	_	VerbForm=Inf	19	conj:dicto	_	AlignBegin=43630|AlignEnd=43890
+22	remettre	remettre	VERB	_	VerbForm=Inf	19	conj:dicto	_	AlignBegin=43630|AlignEnd=43890|Subject=SubjRaising
 23	avec	avec	ADP	_	_	22	mod	_	AlignBegin=43890|AlignEnd=44151
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	AlignBegin=44151|AlignEnd=44412
 25	même	même	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	AlignBegin=44412|AlignEnd=44673|SpaceAfter=No
@@ -502,9 +502,9 @@
 15	bisou	bisou	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	AlignBegin=55303|AlignEnd=55415
 16	d'	de	ADP	_	_	15	udep	_	AlignBegin=55415|AlignEnd=55526|SpaceAfter=No
 17-18	au	_	_	_	_	_	_	_	_
-17	à	à	ADP	_	_	16	comp:obj	_	AlignBegin=55526|AlignEnd=55638|wordform=au
-18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	revoir	revoir	VERB	_	VerbForm=Inf	17	comp:obj	_	AlignBegin=55638|AlignEnd=55750|SpaceAfter=No
+17	à	à	ADP	_	_	16	comp:obj	_	AlignBegin=55526|AlignEnd=55638|ExtPos=NOUN|Indiom=Yes|wordform=au
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	InIdiom=Yes
+19	revoir	revoir	VERB	_	VerbForm=Inf	17	comp:obj	_	AlignBegin=55638|AlignEnd=55750|InIdiom=Yes|SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	AlignBegin=55750|AlignEnd=55750
 
 # sent_id = PS_2022_14_râteauAuTravail__32_bis
@@ -766,9 +766,9 @@
 14	carrément	carrément	ADV	_	_	10	mod	_	AlignBegin=86226|AlignEnd=86558|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=86558|AlignEnd=86558
 16	de	de	ADP	_	_	10	comp:obl@x	_	AlignBegin=86647|AlignEnd=86928
-17	venir	venir	VERB	_	VerbForm=Inf	16	comp:obj	_	AlignBegin=86928|AlignEnd=87209
+17	venir	venir	VERB	_	VerbForm=Inf	16	comp:obj	_	AlignBegin=86928|AlignEnd=87209|Subject=OblRaising
 18	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	19	comp:obl	_	AlignBegin=87209|AlignEnd=87489
-19	parler	parler	VERB	_	VerbForm=Inf	17	comp:obj@x	_	AlignBegin=87489|AlignEnd=87770|SpaceAfter=No
+19	parler	parler	VERB	_	VerbForm=Inf	17	comp:obj@x	_	AlignBegin=87489|AlignEnd=87770|SpaceAfter=No|Subject=OblRaising
 20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=87770|AlignEnd=87770
 21	pour	pour	ADP	_	_	17	mod	_	AlignBegin=87770|AlignEnd=88051
 22	savoir	savoir	VERB	_	VerbForm=Inf	21	comp:obj	_	AlignBegin=88051|AlignEnd=88332|Subject=NoRaising
@@ -998,7 +998,7 @@
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=117509|AlignEnd=117730
 4	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	AlignBegin=117730|AlignEnd=117951
 5	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=117951|AlignEnd=118172
-6	voir	voir	VERB	_	VerbForm=Inf	4	comp:obj@x	_	AlignBegin=118172|AlignEnd=118394|SpaceAfter=No
+6	voir	voir	VERB	_	VerbForm=Inf	4	comp:obj@x	_	AlignBegin=118172|AlignEnd=118394|SpaceAfter=No|Subject=SubjRaising
 7	.	.	PUNCT	_	_	3	punct	_	AlignBegin=118394|AlignEnd=118394
 
 # sent_id = PS_2022_14_râteauAuTravail__65
@@ -1016,7 +1016,7 @@
 9	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=119104|AlignEnd=119193
 10	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	AlignBegin=119193|AlignEnd=119282
 11	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=119282|AlignEnd=119372
-12	voir	voir	VERB	_	VerbForm=Inf	10	comp:obj@x	_	AlignBegin=119372|AlignEnd=119461|SpaceAfter=No
+12	voir	voir	VERB	_	VerbForm=Inf	10	comp:obj@x	_	AlignBegin=119372|AlignEnd=119461|SpaceAfter=No|Subject=SubjRaising
 13	.	.	PUNCT	_	_	9	punct	_	AlignBegin=119461|AlignEnd=119461
 
 # sent_id = PS_2022_14_râteauAuTravail__66

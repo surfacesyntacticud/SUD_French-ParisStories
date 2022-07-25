@@ -17,7 +17,7 @@
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=1476|AlignEnd=1663
 2	venais	venir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=1663|AlignEnd=1850
 3	d'	de	ADP	_	_	2	comp:obl@x	_	AlignBegin=1850|AlignEnd=2037|SpaceAfter=No
-4	arriver	arriver	VERB	_	VerbForm=Inf	3	comp:obj	_	AlignBegin=2037|AlignEnd=2223
+4	arriver	arriver	VERB	_	VerbForm=Inf	3	comp:obj	_	AlignBegin=2037|AlignEnd=2223|Subject=SubjRaising
 5	en	en	ADP	_	_	4	comp:obl	_	AlignBegin=2223|AlignEnd=2410
 6	Belgique	Belgique	PROPN	_	_	5	comp:obj	_	AlignBegin=2410|AlignEnd=2597|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=2597|AlignEnd=2597
@@ -50,7 +50,7 @@
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=6547|AlignEnd=6831
 5	venais	venir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=6831|AlignEnd=7114
 6	d'	de	ADP	_	_	5	comp:obl@x	_	AlignBegin=7114|AlignEnd=7397|SpaceAfter=No
-7	arriver	arriver	VERB	_	VerbForm=Inf	6	comp:obj	_	AlignBegin=7397|AlignEnd=7680|SpaceAfter=No
+7	arriver	arriver	VERB	_	VerbForm=Inf	6	comp:obj	_	AlignBegin=7397|AlignEnd=7680|SpaceAfter=No|Subject=SubjRaising
 8	.	.	PUNCT	_	_	5	punct	_	AlignBegin=7680|AlignEnd=7680
 
 # sent_id = PS_2022_8_rencontreALiège__5
@@ -151,14 +151,14 @@
 20	s'	se	PRON	_	_	21	comp:obj	_	AlignBegin=29062|AlignEnd=29416|SpaceAfter=No
 21	installer	installer	VERB	_	VerbForm=Inf	18	comp:obj	_	AlignBegin=29416|AlignEnd=29770|SpaceAfter=No|Subject=NoRaising
 22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=29770|AlignEnd=29770
-23	trouver	trouver	VERB	_	VerbForm=Inf	21	conj:coord	_	AlignBegin=30163|AlignEnd=30596
+23	trouver	trouver	VERB	_	VerbForm=Inf	21	conj:coord	_	AlignBegin=30163|AlignEnd=30596|Subject=NoRaising
 24	un	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	25	det	_	AlignBegin=30596|AlignEnd=31029
 25	appartement	appartement	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	AlignBegin=31029|AlignEnd=31462|SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	AlignBegin=31462|AlignEnd=31462
 27	euh	euh	INTJ	_	_	25	discourse	_	AlignBegin=32091|AlignEnd=32461|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	AlignBegin=32461|AlignEnd=32461
 29	à	à	ADP	_	_	23	conj:coord	_	AlignBegin=32461|AlignEnd=32461
-30	faire	faire	VERB	_	VerbForm=Inf	29	comp:obj	_	AlignBegin=32461|AlignEnd=32831
+30	faire	faire	VERB	_	VerbForm=Inf	29	comp:obj	_	AlignBegin=32461|AlignEnd=32831|Subject=NoRaising
 31	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	32	det	_	AlignBegin=32831|AlignEnd=33200
 32	courses	course	NOUN	_	Gender=Fem|Number=Plur	30	comp:obj	_	AlignBegin=33200|AlignEnd=33570
 33	à	à	ADP	_	_	32	mod	_	AlignBegin=33570|AlignEnd=33570
@@ -182,7 +182,7 @@
 51	,	,	PUNCT	_	_	52	punct	_	AlignBegin=37560|AlignEnd=37560
 52	à	à	ADP	_	_	50	conj:dicto	_	AlignBegin=37993|AlignEnd=37993
 53	mieux	mieux	ADV	_	_	54	mod	_	AlignBegin=37993|AlignEnd=38331
-54	intégrer	intégrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	52	comp:obj	_	AlignBegin=38331|AlignEnd=38668
+54	intégrer	intégrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	52	comp:obj	_	AlignBegin=38331|AlignEnd=38668|Subject=NoRaising
 55	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	AlignBegin=38668|AlignEnd=39006
 56	ville	ville	NOUN	_	Gender=Fem|Number=Sing	54	comp:obj	_	AlignBegin=39006|AlignEnd=39344
 57	en	en	ADP	_	_	54	discourse	_	AlignBegin=39344|AlignEnd=39681
@@ -191,7 +191,7 @@
 60	et	et	CCONJ	_	_	63	cc	_	AlignBegin=40274|AlignEnd=40565
 61	mieux	mieux	ADV	_	_	63	mod	_	AlignBegin=40565|AlignEnd=40856
 62	s'	se	PRON	_	_	63	comp:obj	_	AlignBegin=40856|AlignEnd=41148|SpaceAfter=No
-63	intégrer	intégrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	54	conj:coord	_	AlignBegin=41148|AlignEnd=41439
+63	intégrer	intégrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	54	conj:coord	_	AlignBegin=41148|AlignEnd=41439|Subject=NoRaising
 64	surtout	surtout	ADV	_	_	63	mod	_	AlignBegin=41439|AlignEnd=41730|SpaceAfter=No
 65	.	.	PUNCT	_	_	4	punct	_	AlignBegin=41730|AlignEnd=41730
 
@@ -422,7 +422,7 @@
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=81976|AlignEnd=82169
 6	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=82169|AlignEnd=82362|SpaceAfter=No
 7	entendais	entendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=82362|AlignEnd=82555
-8	parler	parler	VERB	_	VerbForm=Inf	7	comp:obj@x	_	AlignBegin=82555|AlignEnd=82748
+8	parler	parler	VERB	_	VerbForm=Inf	7	comp:obj@x	_	AlignBegin=82555|AlignEnd=82748|Subject=ObjRaising
 9	derrière	derrière	ADP	_	_	8	mod	_	AlignBegin=82748|AlignEnd=82940
 10	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp:obj	_	AlignBegin=82940|AlignEnd=83133|SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	AlignBegin=83133|AlignEnd=83133
@@ -483,7 +483,7 @@
 8	envie	envie	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj@lvc	_	AlignBegin=91082|AlignEnd=91237
 9	de	de	ADP	_	_	8	comp:obl@x	_	AlignBegin=91237|AlignEnd=91393
 10	lui	lui	PRON	_	_	11	comp:obl	_	AlignBegin=91393|AlignEnd=91548
-11	parler	parler	VERB	_	VerbForm=Inf	9	comp:obj	_	AlignBegin=91548|AlignEnd=91703|SpaceAfter=No
+11	parler	parler	VERB	_	VerbForm=Inf	9	comp:obj	_	AlignBegin=91548|AlignEnd=91703|SpaceAfter=No|Subject=SubjRaising
 12	.	.	PUNCT	_	_	6	punct	_	AlignBegin=91703|AlignEnd=91703
 
 # sent_id = PS_2022_8_rencontreALiège__24
@@ -546,7 +546,7 @@
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=99920|AlignEnd=100085
 3	t'	le	PRON	_	Number=Sing|Person=2|PronType=Prs	4	comp:obj	_	AlignBegin=100085|AlignEnd=100249|SpaceAfter=No
 4	entends	entendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=100249|AlignEnd=100414
-5	parler	parler	VERB	_	VerbForm=Inf	4	comp:obj@x	_	AlignBegin=100414|AlignEnd=100578
+5	parler	parler	VERB	_	VerbForm=Inf	4	comp:obj@x	_	AlignBegin=100414|AlignEnd=100578|Subject=ObjRaising
 6	depuis	depuis	ADP	_	_	4	mod	_	AlignBegin=100578|AlignEnd=100743
 7	tout	tout	ADV	_	_	6	comp:obj	_	AlignBegin=100743|AlignEnd=100907
 8	à	à	ADP	_	_	7	comp:obl	_	AlignBegin=100907|AlignEnd=100907
@@ -593,7 +593,7 @@
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	AlignBegin=107823|AlignEnd=108113
 12	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	AlignBegin=108113|AlignEnd=108402
 13	à	à	ADP	_	_	12	comp:obl@x	_	AlignBegin=108402|AlignEnd=108402
-14	parler	parler	VERB	_	VerbForm=Inf	13	comp:obj	_	AlignBegin=108402|AlignEnd=108691|SpaceAfter=No
+14	parler	parler	VERB	_	VerbForm=Inf	13	comp:obj	_	AlignBegin=108402|AlignEnd=108691|SpaceAfter=No|Subject=SubjRaising
 15	.	.	PUNCT	_	_	5	punct	_	AlignBegin=108691|AlignEnd=108691
 
 # sent_id = PS_2022_8_rencontreALiège__30
