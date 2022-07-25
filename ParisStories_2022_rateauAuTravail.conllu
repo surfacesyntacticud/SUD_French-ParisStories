@@ -242,7 +242,7 @@
 # sent_id = PS_2022_14_râteauAuTravail__17
 # sound_url = PS_2022_14_râteauAuTravail.mp3
 # speaker = L1
-# text = et un jour, j'avais la flemme de rentrer, euh, toute seule, je lui fais bon,vas-y,raccompagne-moi !
+# text = et un jour, j'avais la flemme de rentrer, euh, toute seule, je lui fais bon, vas-y, raccompagne-moi !
 1	et	et	CCONJ	_	_	19	cc	_	AlignBegin=26370|AlignEnd=26588
 2	un	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	3	det	_	AlignBegin=26588|AlignEnd=26806
 3	jour	jour	NOUN	_	_	6	mod	_	AlignBegin=26806|AlignEnd=27023|SpaceAfter=No
@@ -263,11 +263,13 @@
 18	lui	lui	PRON	_	_	19	comp:obl	_	AlignBegin=29188|AlignEnd=29401
 19	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=29401|AlignEnd=29614
 20	bon	bon	INTJ	_	_	22	discourse	_	AlignBegin=29614|AlignEnd=29828|SpaceAfter=No
-21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=29828|AlignEnd=29828|SpaceAfter=No
-22	vas-y	vas-y	VERB	_	_	24	discourse	_	AlignBegin=29828|AlignEnd=30041|SpaceAfter=No
-23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=30041|AlignEnd=30041|SpaceAfter=No
-24	raccompagne-moi	raccompagne-moir	VERB	_	_	19	comp:obj	_	AlignBegin=30041|AlignEnd=30254|Reported=Yes
-25	!	!	PUNCT	_	_	19	punct	_	AlignBegin=30254|AlignEnd=30254
+21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=29828|AlignEnd=29828
+22	vas	aller	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	25	discourse	_	AlignBegin=29828|AlignEnd=30041|SpaceAfter=No|wordform=vas-y
+23	-y	y	PRON	_	Person=3|PronType=Prs	22	comp:obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	AlignBegin=30041|AlignEnd=30041
+25	raccompagne	raccompagner	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	comp:obj	_	AlignBegin=30041|AlignEnd=30254|Reported=Yes|SpaceAfter=No
+26	-moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	25	comp:obj	_	AlignBegin=30041|AlignEnd=30041
+27	!	!	PUNCT	_	_	19	punct	_	AlignBegin=30254|AlignEnd=30254
 
 # sent_id = PS_2022_14_râteauAuTravail__18
 # sound_url = PS_2022_14_râteauAuTravail.mp3
@@ -1043,13 +1045,14 @@
 8	XXX	XXX	X	_	_	11	vocative	_	AlignBegin=120967|AlignEnd=121163|ExtPos=PROPN|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=121163|AlignEnd=121163
 10	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=121163|AlignEnd=121359
-11	dis-moi	dis-moi	VERB	_	_	5	comp:obj	_	AlignBegin=121359|AlignEnd=121555|Reported=Yes
-12	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	comp:obj	_	AlignBegin=121555|AlignEnd=121752
-13	que	que	PRON	_	_	18	comp:obj	_	AlignBegin=121752|AlignEnd=121948
-14	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	15	subj	_	AlignBegin=121948|AlignEnd=122144
-15	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	AlignBegin=122144|AlignEnd=122340
-16	à	à	ADP	_	_	15	comp:obl@x	_	AlignBegin=122340|AlignEnd=122340
-17	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	18	comp:obl	_	AlignBegin=122340|AlignEnd=122536
-18	dire	dire	VERB	_	VerbForm=Inf	16	comp:obj	_	AlignBegin=122536|AlignEnd=122732|SpaceAfter=No|Subject=SubjRaising
-19	.	.	PUNCT	_	_	4	punct	_	AlignBegin=122732|AlignEnd=122732
+11	dis	dire	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=121359|AlignEnd=121555|Reported=Yes|SpaceAfter=No
+12	-moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=121359|AlignEnd=121555|Reported=Yes
+13	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	comp:obj	_	AlignBegin=121555|AlignEnd=121752
+14	que	que	PRON	_	_	19	comp:obj	_	AlignBegin=121752|AlignEnd=121948
+15	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	16	subj	_	AlignBegin=121948|AlignEnd=122144
+16	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	AlignBegin=122144|AlignEnd=122340
+17	à	à	ADP	_	_	16	comp:obl@x	_	AlignBegin=122340|AlignEnd=122340
+18	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	19	comp:obl	_	AlignBegin=122340|AlignEnd=122536
+19	dire	dire	VERB	_	VerbForm=Inf	17	comp:obj	_	AlignBegin=122536|AlignEnd=122732|SpaceAfter=No|Subject=SubjRaising
+20	.	.	PUNCT	_	_	4	punct	_	AlignBegin=122732|AlignEnd=122732
 
