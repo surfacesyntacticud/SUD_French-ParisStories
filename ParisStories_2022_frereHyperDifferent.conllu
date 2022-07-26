@@ -88,12 +88,12 @@
 9	,	,	PUNCT	_	_	13	punct	_	AlignBegin=11022|AlignEnd=11022
 10	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	13	dislocated	_	AlignBegin=11022|AlignEnd=11204|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=11204|AlignEnd=11204
-12	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	subj	_	AlignBegin=11204|AlignEnd=11387|SpaceAfter=No
+12	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	13	subj	_	AlignBegin=11204|AlignEnd=11387|SpaceAfter=No
 13	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	comp:obj	_	AlignBegin=11387|AlignEnd=11570|SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	AlignBegin=11570|AlignEnd=11570
 15	euh	euh	INTJ	_	_	18	discourse	_	AlignBegin=11570|AlignEnd=11752|SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=11752|AlignEnd=11752
-17	trois	trois	NUM	_	_	18	det	_	AlignBegin=11752|AlignEnd=11935
+17	trois	trois	NUM	_	Shared=No	18	det	_	AlignBegin=11752|AlignEnd=11935
 18	ans	an	NOUN	_	_	13	comp:obj	_	AlignBegin=11935|AlignEnd=12117
 19	et	et	CCONJ	_	_	20	cc	_	AlignBegin=12117|AlignEnd=12300
 20	demi	demi	ADJ	_	Gender=Masc|Number=Sing	18	conj:coord	_	AlignBegin=12300|AlignEnd=12483|SpaceAfter=No
@@ -529,7 +529,7 @@
 # sound_url = PS_2022_10_frèreHyperDifférent.mp3
 # speaker = L2
 # text = ça fait, ça, ça change, hein ?
-1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=73424|AlignEnd=73639
+1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=No	2	subj	_	AlignBegin=73424|AlignEnd=73639
 2	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=73639|AlignEnd=73854|SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	AlignBegin=73854|AlignEnd=73854
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	dislocated	_	AlignBegin=73854|AlignEnd=74069|SpaceAfter=No
@@ -615,7 +615,7 @@
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=87338|AlignEnd=87615
 13	chacun	chacun	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	mod	_	AlignBegin=87615|AlignEnd=87891
 14	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	AlignBegin=87891|AlignEnd=88168
-15	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	16	det	_	AlignBegin=88168|AlignEnd=88445
+15	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	16	det	_	AlignBegin=88168|AlignEnd=88445
 16	chambres	chambre	NOUN	_	Gender=Fem|Number=Plur	14	comp:obj	_	AlignBegin=88445|AlignEnd=88722
 17	et	et	CCONJ	_	_	18	cc	_	AlignBegin=88722|AlignEnd=88998
 18	tout	tout	ADV	_	_	16	conj:coord	_	AlignBegin=88998|AlignEnd=89275|SpaceAfter=No
@@ -888,7 +888,7 @@
 8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=126660|AlignEnd=126809
 9	marché	marcher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	AlignBegin=126809|AlignEnd=126959
 10	à	à	ADP	_	_	9	mod	_	AlignBegin=126959|AlignEnd=126959
-11	neuf	neuf	NUM	_	Gender=Masc|Number=Plur	12	det	_	AlignBegin=126959|AlignEnd=127108
+11	neuf	neuf	NUM	_	Gender=Masc|Number=Plur|Shared=No	12	det	_	AlignBegin=126959|AlignEnd=127108
 12	mois	mois	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	AlignBegin=127108|AlignEnd=127257
 13	et	et	CCONJ	_	_	14	cc	_	AlignBegin=127257|AlignEnd=127407
 14	demi	demi	ADJ	_	Gender=Masc|Number=Sing	12	conj:coord	_	AlignBegin=127407|AlignEnd=127556

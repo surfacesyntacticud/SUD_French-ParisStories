@@ -221,7 +221,7 @@
 # text = les gens crient, euh se poussent même parfois s'insultent.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/7fd8e2485c6f0ac8a57ee9edde90ab97c3e3fe8c
 1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	gens	gens	NOUN	_	Gender=Masc|Number=Plur	3	subj	_	_
+2	gens	gens	NOUN	_	Gender=Masc|Number=Plur|Shared=Yes	3	subj	_	_
 3	crient	crier	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	euh	euh	INTJ	_	_	7	discourse	_	_
@@ -1092,7 +1092,7 @@
 13	découvert	découvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	InIdiom=Yes
 15	peu	peu	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	ExtPos=ADV|Idiom=Yes
-16	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	SpaceAfter=No
+16	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	17	det	_	SpaceAfter=No
 17	autres	autre	ADJ	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
 18	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	SpaceAfter=No
 19	autres	autre	ADJ	_	Gender=Masc|Number=Plur	20	mod	_	_
@@ -1124,7 +1124,7 @@
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	découvert	découvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
-4	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+4	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	6	det	_	_
 5	nouvelles	nouveau	ADJ	_	Gender=Fem|Number=Plur	6	mod	_	_
 6	cultures	culture	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
@@ -1194,7 +1194,7 @@
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	5	det	_	_
 5	cours	cours	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 6	que	que	PRON	_	_	8	comp:obj	_	_
 7	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	SpaceAfter=No
@@ -1301,7 +1301,7 @@
 5	bah	bah	INTJ	_	_	9	discourse	_	_
 6	voilà	voilà	VERB	_	_	9	discourse	_	ExtPos=INTJ|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
-8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	subj	_	SpaceAfter=No
+8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=No	9	subj	_	SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 10	pas	pas	ADV	_	Polarity=Neg	11	mod	_	_
 11	drôle	drôle	ADJ	_	Gender=Masc|Number=Sing	9	comp:pred	_	_
@@ -1311,7 +1311,7 @@
 15	il	il	PRON	_	_	17	subj@expl	_	_
 16	y	y	PRON	_	Person=3|PronType=Prs	17	comp@expl	_	_
 17	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj:coord	_	_
-18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	19	det	_	_
 19	devoirs	devoir	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	tout	tout	ADJ	_	Gender=Masc|Number=Sing	22	mod	_	_
@@ -1403,7 +1403,7 @@
 8	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	que	que	SCONJ	_	_	8	comp:obj	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	relation	relation	NOUN	_	Gender=Fem|Number=Sing	12	subj	_	_
+11	relation	relation	NOUN	_	Gender=Fem|Number=Sing|Shared=No	12	subj	_	_
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj:dicto	_	_
 14	différente	différent	ADJ	_	Gender=Fem|Number=Sing	13	comp:pred	_	SpaceAfter=No

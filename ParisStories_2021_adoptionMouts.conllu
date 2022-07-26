@@ -58,7 +58,7 @@
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	peu	peu	NOUN	_	Gender=Masc|Number=Sing	6	mod	_	_
 6	tous	tout	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
-7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	8	det	_	_
 8	chiens	chiens	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 9	tout	tout	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	_
 10	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	conj:coord	_	SpaceAfter=No
@@ -100,7 +100,7 @@
 # text = tous ses frères et sœurs étaient partis.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
 1	tous	tout	ADJ	_	Gender=Masc|Number=Plur	3	mod	_	_
-2	ses	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Prs	3	det	_	_
+2	ses	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Prs|Shared=Yes	3	det	_	_
 3	frères	frères	NOUN	_	Gender=Masc|Number=Plur	6	subj	_	_
 4	et	et	CCONJ	_	_	5	cc	_	_
 5	sœurs	sœur	NOUN	_	Gender=Fem|Number=Plur	3	conj:coord	_	_
@@ -320,7 +320,7 @@
 20	si	si	SCONJ	_	_	19	comp:obj	_	_
 21	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	subj	_	_
 22	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	comp:obj	_	_
-23	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	24	det	_	_
 24	mascara	mascara	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
 26	de	un	ADP	_	_	28	det	_	ExtPos=DET|Idiom=Yes
@@ -513,7 +513,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	attendre	attendre	VERB	_	VerbForm=Inf	3	comp:pred	_	Subject=NoRaising
-5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	6	det	_	_
 6	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -539,7 +539,7 @@
 8	après	après	ADV	_	_	7	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	avec	avec	ADP	_	_	4	mod	_	_
-11	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	12	det	_	_
+11	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs|Shared=No	12	det	_	_
 12	frère	frère	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	15	det	_	_
@@ -607,7 +607,7 @@
 # sent_id = ParisStories_2021_adoptionMouts_38
 # text = elle osait pas marcher tout ça.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
-1	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+1	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Shared=No	2	subj	_	_
 2	osait	oser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 4	marcher	marcher	VERB	_	VerbForm=Inf	2	comp:obl@x	_	Subject=SubjRaising

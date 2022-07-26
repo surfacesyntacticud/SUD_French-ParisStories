@@ -53,7 +53,7 @@
 36	plus	plus	ADV	_	_	34	mod	_	_
 37	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	38	subj	_	SpaceAfter=No
 38	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	40	det	_	_
+39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	40	det	_	_
 40	sciences	science	NOUN	_	Gender=Fem|Number=Plur	38	comp:pred	_	SpaceAfter=No
 41	,	,	PUNCT	_	_	45	punct	_	_
 42	et	et	CCONJ	_	_	45	cc	_	_
@@ -67,7 +67,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	5	det	_	_
+3	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs|Shared=No	5	det	_	_
 4	grande	grand	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
 5	passion	passion	NOUN	_	Gender=Fem|Number=Sing	2	comp:pred	_	_
 6	et	et	CCONJ	_	_	7	cc	_	InIdiom=Yes
@@ -130,7 +130,7 @@
 6	conseillé	conseiller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 7	de	de	ADP	_	_	6	comp:obl	_	_
 8	faire	faire	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
-9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	10	det	_	_
 10	prépa	prépa	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -474,7 +474,7 @@
 6	et	et	CCONJ	_	_	10	cc	_	_
 7	ben	ben	INTJ	_	_	10	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
-9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj@expl	_	_
+9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	10	subj@expl	_	_
 10	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	donc	donc	ADV	_	_	10	mod	_	_
 12	classer	classer	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=NoRaising
@@ -519,7 +519,7 @@
 15	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	avec	avec	ADP	_	_	11	mod	_	_
-18	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	19	det	_	_
+18	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs|Shared=No	19	det	_	_
 19	parents	parent	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
@@ -542,7 +542,7 @@
 # text = et rien ne me plaisait, ni les écoles de robotique, ni les trucs d'environnement, ni les XXX voitures, enfin bref, euh, rien là,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	et	et	CCONJ	_	_	5	cc	_	_
-2	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	5	subj	_	_
+2	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg|Shared=No	5	subj	_	_
 3	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
 4	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obl	_	_
 5	plaisait	plaire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -656,7 +656,7 @@
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
-6	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+6	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem|Shared=No	7	det	_	_
 7	école	école	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
@@ -698,7 +698,7 @@
 1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	4	det	_	_
-4	famille	famille	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	_
+4	famille	famille	NOUN	_	Gender=Fem|Number=Sing|Shared=No	5	subj	_	_
 5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	en	en	ADP	_	_	5	comp:pred	_	_
 7	Bretagne	Bretagne	PROPN	_	_	6	comp:obj	_	SpaceAfter=No
@@ -783,7 +783,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	voilà	voilà	VERB	_	_	4	discourse	_	ExtPos=INTJ|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	4	subj	_	_
 4	refait	refaire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 6	mêmes	même	ADJ	_	Gender=Fem|Number=Plur	7	mod	_	_
@@ -1028,7 +1028,7 @@
 # text = ni la théorie, ni les projets, euh, sur ordis machin, euh, ni, euh, les, les projets en mer en fait.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	ni	ni	CCONJ	_	_	3	cc	_	_
-2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	3	det	_	_
 3	théorie	théorie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	ni	ni	CCONJ	_	_	7	cc	_	_

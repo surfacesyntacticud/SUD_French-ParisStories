@@ -56,7 +56,7 @@
 19	,	,	PUNCT	_	_	24	punct	_	_
 20	euh	euh	INTJ	_	_	24	discourse	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
-22	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
+22	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	24	det	_	_
 23	fausses	faux	ADJ	_	Gender=Fem|Number=Plur	24	mod	_	_
 24	tronçonneuses	tronçonneuses	NOUN	_	Gender=Fem|Number=Plur	18	comp:obj	_	_
 25	et	et	CCONJ	_	_	27	cc	_	_
@@ -87,7 +87,7 @@
 11	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	tout	tout	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	_
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	15	det	_	_
 15	chemin	chemin	NOUN	_	Gender=Masc|Number=Sing	9	mod	_	_
 16	et	et	CCONJ	_	_	17	cc	_	InIdiom=Yes
 17	tout	tout	ADV	_	Gender=Masc|Number=Sing	15	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
@@ -178,7 +178,7 @@
 1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ensuite	ensuite	ADV	_	_	5	mod	_	_
-4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
+4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	ressorti	ressortir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
@@ -264,7 +264,7 @@
 35	où	où	PRON	_	PronType=Rel	37	mod	_	_
 36	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	37	subj	_	_
 37	met	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	mod@relcl	_	_
-38	les	les	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	_
+38	les	les	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	39	det	_	_
 39	cercueils	cercueil	NOUN	_	Gender=Masc|Number=Plur	37	comp:obj	_	_
 40	etc	etc	ADV	_	_	39	conj:coord	_	SpaceAfter=No|wordform=et
 41	,	,	PUNCT	_	_	47	punct	_	_
@@ -303,7 +303,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	que	que	SCONJ	_	_	12	conj:dicto	_	_
 15	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	16	det	_	_
-16	fille	fille	NOUN	_	Gender=Fem|Number=Sing	17	subj	_	_
+16	fille	fille	NOUN	_	Gender=Fem|Number=Sing|Shared=No	17	subj	_	_
 17	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	comp:obj	_	_
 18	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
 19	tuée	tuer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux@pass	_	SpaceAfter=No
@@ -394,7 +394,7 @@
 17	euh	euh	INTJ	_	_	19	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	où	où	PRON	_	PronType=Rel	15	conj:dicto	_	_
-20	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	subj	_	_
+20	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	21	subj	_	_
 21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	_
 22	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	comp:aux@tense	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
@@ -465,7 +465,7 @@
 38	être	être	AUX	_	VerbForm=Inf	37	comp:obj	_	Subject=SubjRaising
 39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	peu	peu	NOUN	_	Gender=Masc|Number=Sing	42	mod	_	_
-41	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	42	det	_	_
 42	sorcière	sorcière	NOUN	_	Gender=Fem|Number=Sing	38	comp:pred	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	45	punct	_	_
 44	et	et	CCONJ	_	_	45	cc	_	InIdiom=Yes
@@ -511,7 +511,7 @@
 20	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	subj@expl	_	_
 21	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	comp:obj	_	_
 22	qu'	qu'	SCONJ	_	_	21	comp:obj	_	SpaceAfter=No
-23	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	subj	_	_
+23	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	24	subj	_	_
 24	fuie	fuir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
 25	etc	etc	ADV	_	_	24	conj:coord	_	SpaceAfter=No|wordform=et
 26	.	.	PUNCT	_	_	13	punct	_	_

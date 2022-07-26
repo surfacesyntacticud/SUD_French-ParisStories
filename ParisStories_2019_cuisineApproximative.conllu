@@ -18,7 +18,7 @@
 3	abord	abord	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	enfin	enfin	ADV	_	_	7	discourse	_	ExtPos=INTJ
-6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
+6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	7	subj	_	_
 7	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	quelqu'un	quelqueun	PRON	_	_	7	comp:pred	_	_
@@ -108,7 +108,7 @@
 9	,	,	PUNCT	_	_	6	punct	_	_
 10	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	11	subj	_	_
 11	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	13	det	_	_
 13	beurre	beurre	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	genre	genre	NOUN	_	Gender=Masc|Number=Sing	17	discourse	_	ExtPos=INTJ
@@ -174,8 +174,8 @@
 13	ouais	ouais	INTJ	_	_	15	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	que	que	SCONJ	_	_	4	conj:dicto	_	_
-16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
-17	eau	eau	NOUN	_	Gender=Fem|Number=Sing	21	subj	_	_
+16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	17	det	_	SpaceAfter=No
+17	eau	eau	NOUN	_	Gender=Fem|Number=Sing|Shared=No	21	subj	_	_
 18	et	et	CCONJ	_	_	20	cc	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	beurre	beurre	NOUN	_	Gender=Masc|Number=Sing	17	conj:coord	_	_
@@ -247,7 +247,7 @@
 17	reste	reste	NOUN	_	Gender=Masc|Number=Sing	19	dislocated	_	_
 18	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	subj	_	SpaceAfter=No
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
-20	soixante-quinze	soixante-quinze	NUM	_	Number=Plur	21	det	_	_
+20	soixante-quinze	soixante-quinze	NUM	_	Number=Plur|Shared=No	21	det	_	_
 21	grammes	gramme	NOUN	_	Gender=Masc|Number=Plur	19	comp:pred	_	_
 22	ou	ou	CCONJ	_	_	26	cc	_	_
 23	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
@@ -440,7 +440,7 @@
 8	capte	capter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 9	vachement	vachement	ADV	_	_	10	mod	_	_
 10	bien	bien	ADV	_	_	8	mod	_	_
-11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	12	det	_	_
 12	saveurs	saveur	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
 13	et	et	CCONJ	_	_	14	cc	_	InIdiom=Yes
 14	tout	tout	ADV	_	_	12	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
@@ -573,7 +573,7 @@
 1	genre	genre	NOUN	_	Gender=Masc|Number=Sing	3	discourse	_	ExtPos=INTJ
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	5	det	_	_
 5	œufs	œuf	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 6	etc	etc	ADV	_	_	5	conj:coord	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	17	punct	_	_
@@ -733,7 +733,7 @@
 9	de	de	ADP	_	_	8	comp:obl	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	feu	feu	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
-12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	InIdiom=Yes
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	13	det	_	InIdiom=Yes
 13	fois	fois	NOUN	_	Gender=Fem|Number=Sing	8	mod	_	ExtPos=ADV|Idiom=Yes
 14	que	que	SCONJ	_	_	13	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
@@ -822,7 +822,7 @@
 9	ton	ton	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=2|PronType=Prs	10	det	_	_
 10	fromage	fromage	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	fromage	fromage	NOUN	_	Gender=Masc|Number=Sing	10	conj:dicto	_	_
+12	fromage	fromage	NOUN	_	Gender=Masc|Number=Sing	10	conj:appos	_	_
 13	râpé	râper	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	mod	_	_
 14	ou	ou	CCONJ	_	_	15	cc	_	_
 15	Neufchâtel	Neufchâtel	PROPN	_	_	12	conj:coord	_	_

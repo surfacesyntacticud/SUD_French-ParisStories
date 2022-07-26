@@ -123,14 +123,14 @@
 # text = euh, j'étais partie dans le sud avec mes parents, mes grand-parents, tout ça.
 1	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=21918|AlignEnd=22201|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=22201|AlignEnd=22201
-3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=22201|AlignEnd=22484|SpaceAfter=No
+3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	4	subj	_	AlignBegin=22201|AlignEnd=22484|SpaceAfter=No
 4	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=22484|AlignEnd=22768
 5	partie	partir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	AlignBegin=22768|AlignEnd=23051
 6	dans	dans	ADP	_	_	5	comp:obl	_	AlignBegin=23051|AlignEnd=23334
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=23334|AlignEnd=23617
 8	sud	sud	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	AlignBegin=23617|AlignEnd=23900
 9	avec	avec	ADP	_	_	4	mod	_	AlignBegin=23900|AlignEnd=24184
-10	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	AlignBegin=24184|AlignEnd=24467
+10	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	11	det	_	AlignBegin=24184|AlignEnd=24467
 11	parents	parent	NOUN	_	Number=Plur	9	comp:obj	_	AlignBegin=24467|AlignEnd=24750|SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	AlignBegin=24750|AlignEnd=24750
 13	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	AlignBegin=24753|AlignEnd=25049
@@ -398,7 +398,7 @@
 7	lien	lien	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	AlignBegin=80431|AlignEnd=80585
 8	que	que	PRON	_	_	11	comp:obj	_	AlignBegin=80613|AlignEnd=80912
 9	mon	son	DET	_	_	10	det	_	AlignBegin=80912|AlignEnd=81212
-10	père	père	NOUN	_	_	11	subj	_	AlignBegin=81212|AlignEnd=81511
+10	père	père	NOUN	_	Shared=Yes	11	subj	_	AlignBegin=81212|AlignEnd=81511
 11	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	AlignBegin=81511|AlignEnd=81811|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=81811|AlignEnd=81811
 13	enfin	enfin	ADV	_	_	15	discourse	_	AlignBegin=81811|AlignEnd=82110|ExtPos=INTJ|SpaceAfter=No
@@ -439,7 +439,7 @@
 18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=89179|AlignEnd=89410
 19	quand	quand	SCONJ	_	_	18	mod	_	AlignBegin=89410|AlignEnd=89642
 20	même	même	ADV	_	_	19	unk	_	AlignBegin=89642|AlignEnd=89873
-21	un	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	AlignBegin=89873|AlignEnd=90104
+21	un	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	22	det	_	AlignBegin=89873|AlignEnd=90104
 22	peu	peu	NOUN	_	_	28	mod	_	AlignBegin=90104|AlignEnd=90335|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=90335|AlignEnd=90335
 24	euh	euh	INTJ	_	_	22	discourse	_	AlignBegin=90335|AlignEnd=90567|SpaceAfter=No

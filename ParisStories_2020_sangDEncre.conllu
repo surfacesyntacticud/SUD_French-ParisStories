@@ -410,7 +410,7 @@
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	SpaceAfter=No
 18	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj:coord	_	_
-19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	SpaceAfter=No
+19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	25	det	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	conj:dicto	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
@@ -714,7 +714,7 @@
 # sent_id = ParisStories_2020_sangDEncre_31
 # text = mes parents, mes grands-parents sont partis, euh.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
-1	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	2	det	_	_
+1	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs|Shared=No	2	det	_	_
 2	parents	parent	NOUN	_	Gender=Masc|Number=Plur	6	subj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	5	det	_	_
@@ -775,7 +775,7 @@
 27	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	subj@expl	_	_
 28	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	comp:obj	_	_
 29	faire	faire	VERB	_	VerbForm=Inf	28	comp:obj	_	Subject=SubjRaising
-30	une	un	NUM	_	Number=Sing	31	det	_	_
+30	une	un	NUM	_	Number=Sing|Shared=No	31	det	_	_
 31	heure	heure	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
 32	de	de	ADP	_	_	31	mod	_	_
 33	deux	deux	NUM	_	Number=Plur	34	det	_	_
@@ -824,7 +824,7 @@
 # sent_id = ParisStories_2020_sangDEncre_35
 # text = vous voyez très bien, euh, visualisez l'esprit de, euh, d'une ado de quatorze ans qui se fait tout un sang d'encre.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
-1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs|Shared=Yes	2	subj	_	_
 2	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	très	très	ADV	_	_	4	mod	_	_
 4	bien	bien	ADV	_	_	2	mod	_	SpaceAfter=No
@@ -992,7 +992,7 @@
 24	n'	ne	ADV	_	_	26	mod	_	SpaceAfter=No
 25	y	y	PRON	_	Person=3|PronType=Prs	26	comp@expl	_	_
 26	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
-27	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	28	det	_	_
+27	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg|Shared=No	28	det	_	_
 28	réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
 29	réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	28	conj:dicto	_	_
 30	dans	dans	ADP	_	_	28	mod	_	_
@@ -1028,7 +1028,7 @@
 8	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	_
 9	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	10	comp:obj	_	_
 10	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:coord	_	_
-11	six	six	NUM	_	Number=Plur	12	det	_	_
+11	six	six	NUM	_	Number=Plur|Shared=No	12	det	_	_
 12	fois	fois	NOUN	_	Gender=Fem|Number=Plur	10	mod	_	_
 13	sept	sept	NUM	_	Number=Plur	14	det	_	_
 14	fois	fois	NOUN	_	Gender=Fem|Number=Plur	12	conj:coord	_	SpaceAfter=No
@@ -1173,7 +1173,7 @@
 8	de	de	ADP	_	_	4	discourse	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
-11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	12	det	_	_
 12	heure	heure	NOUN	_	Gender=Fem|Number=Sing	8	mod	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	demie	demi	ADJ	_	Gender=Fem|Number=Sing	12	conj:coord	_	_
@@ -1186,7 +1186,7 @@
 21	temps	temps	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 22	de	de	ADP	_	_	21	mod	_	_
 23	faire	faire	VERB	_	VerbForm=Inf	22	comp:obj	_	Subject=NoRaising
-24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	25	det	_	_
 25	retour	retour	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
 26	etc	etc	ADV	_	_	25	conj:coord	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	2	punct	_	_
@@ -1334,7 +1334,7 @@
 7	n'	ne	ADV	_	Polarity=Neg	8	mod	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 9	rentrée	rentrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
-10	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+10	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem|Shared=No	11	det	_	_
 11	soir	soir	NOUN	_	Gender=Masc|Number=Sing	9	mod	_	SpaceAfter=No
 12	-là	là	ADV	_	_	9	mod	_	_
 13	mais	mais	CCONJ	_	_	16	cc	_	_
@@ -1583,7 +1583,7 @@
 9	faire	faire	AUX	_	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
 10	bouffer	bouffer	VERB	_	VerbForm=Inf	9	comp:aux@caus	_	Subject=SubjRaising
 11	par	par	ADP	_	_	10	comp:obl	_	_
-12	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+12	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	13	det	_	_
 13	hyènes	hyène	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
 14	ou	ou	CCONJ	_	_	16	cc	_	_
 15	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
