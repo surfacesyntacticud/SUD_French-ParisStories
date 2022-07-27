@@ -104,7 +104,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=16383|AlignEnd=16383
 7	XXX	XXX	X	_	_	9	unk@scrap	_	AlignBegin=16383|AlignEnd=16743|ExtPos=PROPN|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=16743|AlignEnd=16743
-9	truc	truc	NOUN	_	_	0	root	_	AlignBegin=16743|AlignEnd=17103
+9	truc	truc	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=16743|AlignEnd=17103
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=17103|AlignEnd=17463
 11	plus	plus	ADV	_	_	12	mod	_	AlignBegin=17463|AlignEnd=17823
 12	ridicule	ridicule	ADJ	_	_	9	mod	_	AlignBegin=17823|AlignEnd=18184
@@ -142,7 +142,7 @@
 21	qui	qui	PRON	_	_	22	subj	_	AlignBegin=22378|AlignEnd=22646
 22	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	conj:dicto	_	AlignBegin=22646|AlignEnd=22913
 23	deux	deux	NUM	_	_	24	det	_	AlignBegin=22913|AlignEnd=23180
-24	potes	pote	NOUN	_	_	22	comp:obj	_	AlignBegin=23180|AlignEnd=23447
+24	potes	pote	NOUN	_	Number=Plur	22	comp:obj	_	AlignBegin=23180|AlignEnd=23447
 25	qu'	que	PRON	_	PronType=Rel	27	comp:obj	_	AlignBegin=24249|AlignEnd=24516|SpaceAfter=No
 26	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	27	subj	_	AlignBegin=24516|AlignEnd=24784
 27	aimait	aimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	mod@relcl	_	AlignBegin=24784|AlignEnd=25051
@@ -188,7 +188,7 @@
 3	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=31328|AlignEnd=31659
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=31659|AlignEnd=31990
 5	deux	deux	NUM	_	_	6	det	_	AlignBegin=31990|AlignEnd=32321
-6	potes	pote	NOUN	_	_	4	comp:obj	_	AlignBegin=32321|AlignEnd=32651
+6	potes	pote	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=32321|AlignEnd=32651
 7	là	là	ADV	_	_	4	mod	_	AlignBegin=32651|AlignEnd=32982|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=32982|AlignEnd=32982
 9	d~	d~	X	_	_	4	discourse	_	AlignBegin=32982|AlignEnd=33313|ExtPos=X|SpaceAfter=No
@@ -200,7 +200,7 @@
 # text = enfin, potes.
 1	enfin	enfin	ADV	_	_	3	discourse	_	AlignBegin=33313|AlignEnd=33644|ExtPos=INTJ|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=33644|AlignEnd=33644
-3	potes	pote	NOUN	_	_	0	root	_	AlignBegin=33644|AlignEnd=33975|SpaceAfter=No
+3	potes	pote	NOUN	_	Number=Plur	0	root	_	AlignBegin=33644|AlignEnd=33975|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=33975|AlignEnd=33975
 
 # sent_id = PS_2022_4_pesteDeMaternelle__14
@@ -211,7 +211,7 @@
 2	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=34276|AlignEnd=34577
 3	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	5	det	_	AlignBegin=34577|AlignEnd=34877
 4	petits	petit	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	AlignBegin=34877|AlignEnd=35178
-5	toutous	toutou	NOUN	_	Number=Plur	2	comp:pred	_	AlignBegin=35178|AlignEnd=35479
+5	toutous	toutou	NOUN	_	Gender=Masc|Number=Plur	2	comp:pred	_	AlignBegin=35178|AlignEnd=35479
 6	qui	qui	PRON	_	_	7	subj	_	AlignBegin=35479|AlignEnd=35780
 7	faisaient	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	mod@relcl	_	AlignBegin=35780|AlignEnd=36081
 8	tout	tout	ADV	_	_	7	comp:obj	_	AlignBegin=36081|AlignEnd=36382
@@ -752,7 +752,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=111348|AlignEnd=111348
 7	tous	tout	ADJ	_	_	9	mod	_	AlignBegin=111348|AlignEnd=111617
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	AlignBegin=111617|AlignEnd=111885
-9	midis	midi	NOUN	_	Number=Plur	12	mod	_	AlignBegin=111885|AlignEnd=112154|SpaceAfter=No
+9	midis	midi	NOUN	_	Gender=Masc|Number=Plur	12	mod	_	AlignBegin=111885|AlignEnd=112154|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=112154|AlignEnd=112154
 11	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	subj	_	AlignBegin=112154|AlignEnd=112423
 12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=112423|AlignEnd=112692
