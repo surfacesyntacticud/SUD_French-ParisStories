@@ -396,7 +396,7 @@
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	bah	bah	INTJ	_	_	12	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	SpaceAfter=No
+11	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj@expl	_	SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	vraiment	vraiment	ADV	_	_	14	mod	_	_
 14	agréable	agréable	ADJ	_	Gender=Masc|Number=Sing	12	comp:pred	_	_
@@ -458,7 +458,7 @@
 5	vraiment	vraiment	ADV	_	_	3	mod	_	_
 6	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	comp:obj	_	_
 7	que	que	PRON	_	PronType=Rel	9	comp:pred	_	_
-8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	subj	_	SpaceAfter=No
+8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	subj@expl	_	SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	monde	monde	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj@agent	_	_
@@ -739,7 +739,7 @@
 # text = c'est que, la caisse où on travaille, c'est vraiment un endroit minuscule.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/8d7bc99b2323de73beb60da784ce02fbcac8525a
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:pred	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	12	punct	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
