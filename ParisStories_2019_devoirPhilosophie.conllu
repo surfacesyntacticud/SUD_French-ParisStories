@@ -44,7 +44,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61d5227a42c58525ddcd3fa82738bebdb33859b5
 1	donc	donc	ADV	_	_	4	mod	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-3	me	lui	PRON	_	_	5	comp:obl	_	_
+3	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obl	_	_
 4	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
@@ -85,7 +85,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	prof	prof	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
-6	nous	le	PRON	_	_	7	comp:obj	_	_
+6	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	7	comp:obj	_	_
 7	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	quand	quand	SCONJ	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes
 9	même	même	ADV	_	_	8	unk	_	InIdiom=Yes
@@ -97,7 +97,7 @@
 15	dissertation	dissertation	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	en	en	ADP	_	_	12	mod	_	_
-18	nous	il	PRON	_	_	19	subj	_	_
+18	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	19	subj	_	_
 19	expliquant	expliquer	VERB	_	Number=Plur|Person=1|Tense=Pres|VerbForm=Part	17	comp:obj	_	_
 20	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
@@ -117,7 +117,7 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_6
 # text = nous avait dit aussi d'utiliser des euh, arguments hum, plutôt atypiques pas toujours euh, ceux du cours, et d'utiliser aussi euh, des exemples et des citations d'auteurs, et de savoir les expliquer et de pas les balancer que dans le vent comme ça.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61d5227a42c58525ddcd3fa82738bebdb33859b5
-1	nous	lui	PRON	_	_	2	comp:obl	_	_
+1	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	2	comp:obl	_	_
 2	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	dit	dire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	aussi	aussi	ADV	_	_	3	mod	_	_
@@ -181,7 +181,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
-5	m'	le	PRON	_	_	7	comp:obj	_	SpaceAfter=No
+5	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	SpaceAfter=No
 6	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	penchée	pencher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
@@ -196,7 +196,7 @@
 1	et	et	CCONJ	_	_	6	cc	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	il	il	PRON	_	_	6	subj@expl	_	_
+4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	_
 5	y	y	PRON	_	Person=3|PronType=Prs	6	comp@expl	_	_
 6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	quelques	quelque	DET	_	Number=Plur|PronType=Ind|Shared=No	8	det	_	_
@@ -308,7 +308,7 @@
 14	sœur	sœur	NOUN	_	Gender=Fem|Number=Sing	12	conj:appos	_	_
 15	Marie-Paul	Marie-Paul	PROPN	_	_	14	mod@appos	_	_
 16	Ross	Ross	PROPN	_	_	15	flat@name	_	_
-17	qui	qui	PRON	_	_	18	subj	_	_
+17	qui	qui	PRON	_	PronType=Rel	18	subj	_	_
 18	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	mod@relcl	_	_
 19	en	en	ADP	_	_	18	comp:obl	_	_
 20	train	train	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
@@ -354,8 +354,8 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	conj:dicto	_	_
 9	truc	truc	NOUN	_	Gender=Masc|Number=Sing	16	dislocated	_	_
-10	qui	qui	PRON	_	_	12	subj	_	_
-11	m'	le	PRON	_	_	13	comp:obj	_	SpaceAfter=No
+10	qui	qui	PRON	_	PronType=Rel	12	subj	_	_
+11	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	13	comp:obj	_	SpaceAfter=No
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 13	interpellé	interpeller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	9	punct	_	_
@@ -411,7 +411,7 @@
 8	~enfin	enfin	ADV	_	_	12	discourse	_	ExtPos=INTJ|SpaceAfter=No|wordform=~fin
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	_
-11	me	lui	PRON	_	_	13	comp:obl	_	_
+11	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	13	comp:obl	_	_
 12	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	_
 13	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@pass	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
@@ -479,7 +479,7 @@
 3	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	2	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
-6	me	lui	PRON	_	_	8	comp:obl	_	_
+6	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp:obl	_	_
 7	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@pass	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
@@ -731,7 +731,7 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_29
 # text = il y avait beaucoup de violences sexuelles là-bas, en fait.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61d5227a42c58525ddcd3fa82738bebdb33859b5
-1	il	_	PRON	_	_	3	subj@expl	_	_
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	beaucoup	beaucoup	ADV	_	_	3	comp:obj	_	_
@@ -750,12 +750,12 @@
 1	si	si	SCONJ	_	_	6	mod	_	_
 2	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	subj	_	_
 3	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
-4	il	il	PRON	_	_	6	subj@expl	_	_
+4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	_
 5	y	y	PRON	_	Person=3|PronType=Prs	6	comp@expl	_	_
 6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	des	un	DET	_	Definite=Ind|Number=Plur	8	det	_	_
 8	filles	fille	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
-9	qui	qui	PRON	_	_	11	subj	_	_
+9	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
 10	se	se	PRON	_	Person=3|PronType=Prs	11	comp@pass	_	_
 11	faisaient	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	mod@relcl	_	_
 12	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
@@ -778,7 +778,7 @@
 # text = euh il y avait des viols, des, ~enfin voilà, on respectait pas la femme, etc.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61d5227a42c58525ddcd3fa82738bebdb33859b5
 1	euh	euh	INTJ	_	_	4	discourse	_	_
-2	il	il	PRON	_	_	4	subj@expl	_	_
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
 3	y	y	PRON	_	Person=3|PronType=Prs	4	comp@expl	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|Shared=No	6	det	_	_

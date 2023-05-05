@@ -24,7 +24,7 @@
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	_
 12	devais	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	conj:coord	_	_
-13	me	le	PRON	_	_	14	comp:obj	_	_
+13	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	14	comp:obj	_	_
 14	qualifier	qualifier	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
 15	pour	pour	ADP	_	_	14	comp:obl	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
@@ -150,7 +150,7 @@
 5	année	année	NOUN	_	Gender=Fem|Number=Sing	2	comp:pred	_	_
 6	que	que	SCONJ	_	_	2	comp:cleft	_	_
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
-8	me	le	PRON	_	_	9	comp:obj	_	_
+8	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp:obj	_	_
 9	mettais	metter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	comp:obj	_	_
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	9	comp:obl	_	_
@@ -245,7 +245,7 @@
 2	en	en	ADP	_	_	1	discourse	_	_
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	il	_	PRON	_	_	7	subj@expl	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
 6	y	y	PRON	_	Person=3|PronType=Prs	7	comp@expl	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	deux	deux	NUM	_	Number=Plur	9	det	_	_
@@ -520,7 +520,7 @@
 24	de	de	ADP	_	_	23	udep	_	_
 25	tout	tout	ADJ	_	Gender=Masc|Number=Sing|PronType=Ind	26	mod	_	_
 26	ce	ce	PRON	_	_	24	comp:obj	_	_
-27	que	que	PRON	_	_	29	mod	_	_
+27	que	que	PRON	_	PronType=Rel	29	mod	_	_
 28	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	29	subj	_	_
 29	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	26	mod@relcl	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	2	punct	_	_
@@ -629,7 +629,7 @@
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
 8	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	ce	ce	PRON	_	_	8	comp:obj	_	_
-10	que	que	PRON	_	_	12	comp:obj	_	_
+10	que	que	PRON	_	PronType=Rel	12	comp:obj	_	_
 11	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	SpaceAfter=No
 12	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	mod@relcl	_	_
 13	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	SpaceAfter=No
@@ -713,7 +713,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	truc	truc	NOUN	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
-7	qui	qui	PRON	_	_	8	subj	_	_
+7	qui	qui	PRON	_	PronType=Rel	8	subj	_	_
 8	relie	relier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
 9	ta	son	DET	_	Gender=Fem|Number=Sing	10	det	_	_
 10	selle	selle	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
@@ -795,7 +795,7 @@
 9	sur	sur	ADP	_	_	8	mod	_	_
 10	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
-12	qui	qui	PRON	_	_	14	subj	_	_
+12	qui	qui	PRON	_	PronType=Rel	14	subj	_	_
 13	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	comp:obl	_	_
 14	couvrait	couvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	mod@relcl	_	_
 15	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	17	mod	_	_
@@ -809,7 +809,7 @@
 1	pareil	pareil	ADV	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	qu'	que	SCONJ	_	_	1	comp:obj	_	SpaceAfter=No
-4	il	il	PRON	_	_	6	subj@expl	_	_
+4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	_
 5	y	y	PRON	_	Person=3|PronType=Prs	6	comp@expl	_	_
 6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	comp:obj	_	_
 7	pleins	plein	ADJ	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
@@ -826,7 +826,7 @@
 18	,	,	PUNCT	_	_	20	punct	_	_
 19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
 20	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	17	conj:dicto	_	_
-21	qui	qui	PRON	_	_	22	subj	_	_
+21	qui	qui	PRON	_	PronType=Rel	22	subj	_	_
 22	brillent	briller	VERB	_	Mood=Ind|Number=Plur|Person=3|Shared=Yes|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	26	det	_	_
@@ -877,7 +877,7 @@
 8	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	dentelé	dentelé	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	_
-11	qui	qui	PRON	_	_	12	subj	_	_
+11	qui	qui	PRON	_	PronType=Rel	12	subj	_	_
 12	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	mod@relcl	_	_
 13	assez	assez	ADV	_	_	14	mod	_	_
 14	pirate	pirate	NOUN	_	Gender=Masc|Number=Sing	12	comp:pred	_	SpaceAfter=No

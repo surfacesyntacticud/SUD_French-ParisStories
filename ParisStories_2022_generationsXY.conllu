@@ -5,7 +5,7 @@
 # text = Nicolas peut-être qui regardait.
 1	Nicolas	Nicolas	PROPN	_	_	0	root	_	AlignBegin=32|AlignEnd=306
 2	peut-être	peut-être	ADV	_	_	1	mod	_	AlignBegin=306|AlignEnd=580
-3	qui	qui	PRON	_	_	4	subj	_	AlignBegin=580|AlignEnd=853
+3	qui	qui	PRON	_	PronType=Rel	4	subj	_	AlignBegin=580|AlignEnd=853
 4	regardait	regarder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	mod@relcl	_	AlignBegin=853|AlignEnd=1127|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	AlignBegin=1127|AlignEnd=1127
 
@@ -54,7 +54,7 @@
 3	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=5087|AlignEnd=5293|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=5293|AlignEnd=5293
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	AlignBegin=5293|AlignEnd=5499
-6	y	y	PRON	_	_	7	comp@expl	_	AlignBegin=5499|AlignEnd=5706
+6	y	y	PRON	_	Person=3|PronType=Prs	7	comp@expl	_	AlignBegin=5499|AlignEnd=5706
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=5706|AlignEnd=5912
 8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	comp:obj	_	AlignBegin=5912|AlignEnd=6118
 9	à	à	ADP	_	_	7	mod	_	AlignBegin=6118|AlignEnd=6118
@@ -135,7 +135,7 @@
 1	genre	genre	NOUN	_	_	5	discourse	_	AlignBegin=12309|AlignEnd=12438|ExtPos=INTJ|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=12438|AlignEnd=12438
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	AlignBegin=12438|AlignEnd=12567
-4	y	y	PRON	_	_	5	comp@expl	_	AlignBegin=12567|AlignEnd=12696
+4	y	y	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	AlignBegin=12567|AlignEnd=12696
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=12696|AlignEnd=12826|SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	AlignBegin=12826|AlignEnd=12826
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj	_	AlignBegin=12826|AlignEnd=12955|SpaceAfter=No
@@ -243,7 +243,7 @@
 # speaker = L2
 # text = ça m'étonnerait.
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	AlignBegin=22325|AlignEnd=22755
-2	m'	le	PRON	_	_	3	comp:obj	_	AlignBegin=22755|AlignEnd=23186|SpaceAfter=No
+2	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	3	comp:obj	_	AlignBegin=22755|AlignEnd=23186|SpaceAfter=No
 3	étonnerait	étonner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=23186|AlignEnd=23616|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=23616|AlignEnd=23616
 
@@ -268,7 +268,7 @@
 8	et	et	CCONJ	_	_	9	cc	_	AlignBegin=24940|AlignEnd=25094
 9	qu'	que	SCONJ	_	_	4	conj:coord	_	AlignBegin=25094|AlignEnd=25248|SpaceAfter=No
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	AlignBegin=25248|AlignEnd=25402
-11	y	y	PRON	_	_	12	comp@expl	_	AlignBegin=25402|AlignEnd=25556
+11	y	y	PRON	_	Person=3|PronType=Prs	12	comp@expl	_	AlignBegin=25402|AlignEnd=25556
 12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	comp:obj	_	AlignBegin=25556|AlignEnd=25710
 13	Nicolas	Nicolas	PROPN	_	_	12	comp:obj	_	AlignBegin=25710|AlignEnd=25863
 14	et	et	CCONJ	_	_	15	cc	_	AlignBegin=25863|AlignEnd=26017
@@ -286,7 +286,7 @@
 3	sûr	sûr	ADJ	_	_	2	comp:pred	_	AlignBegin=26612|AlignEnd=26736
 4	qu'	que	SCONJ	_	_	3	mod	_	AlignBegin=26736|AlignEnd=26859|SpaceAfter=No
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	AlignBegin=26859|AlignEnd=26983
-6	y	y	PRON	_	_	7	comp@expl	_	AlignBegin=26983|AlignEnd=27106
+6	y	y	PRON	_	Person=3|PronType=Prs	7	comp@expl	_	AlignBegin=26983|AlignEnd=27106
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	comp:obj	_	AlignBegin=27106|AlignEnd=27230
 8	Nicolas	Nicolas	PROPN	_	_	7	comp:obj	_	AlignBegin=27230|AlignEnd=27353|SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	AlignBegin=27353|AlignEnd=27353
@@ -817,7 +817,7 @@
 7	à	au	ADP	_	_	6	comp:obl	_	AlignBegin=81059|AlignEnd=81184|wordform=aux
 8	les	les	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	filles	fille	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	AlignBegin=81184|AlignEnd=81309
-10	que	que	PRON	_	_	12	comp:obj	_	AlignBegin=81309|AlignEnd=81434
+10	que	que	PRON	_	PronType=Rel	12	comp:obj	_	AlignBegin=81309|AlignEnd=81434
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	AlignBegin=81434|AlignEnd=81559
 12	garde	garder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	AlignBegin=81559|AlignEnd=81684
 13	quand	quand	SCONJ	_	_	12	mod	_	AlignBegin=81684|AlignEnd=81869
@@ -888,7 +888,7 @@
 # text = mais il y a, euh, tu sais ce que c'est, une génération.
 1	mais	mais	CCONJ	_	_	4	cc	_	AlignBegin=88171|AlignEnd=88323
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	AlignBegin=88323|AlignEnd=88474
-3	y	y	PRON	_	_	4	comp@expl	_	AlignBegin=88474|AlignEnd=88625
+3	y	y	PRON	_	Person=3|PronType=Prs	4	comp@expl	_	AlignBegin=88474|AlignEnd=88625
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=88625|AlignEnd=88776|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=88776|AlignEnd=88776
 6	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=88776|AlignEnd=88927|SpaceAfter=No
@@ -896,7 +896,7 @@
 8	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	9	subj	_	AlignBegin=88927|AlignEnd=89068
 9	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	parataxis:parenth	_	AlignBegin=89068|AlignEnd=89210
 10	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	comp:obj	_	AlignBegin=89210|AlignEnd=89351
-11	que	que	PRON	_	_	13	comp:pred	_	AlignBegin=89351|AlignEnd=89492
+11	que	que	PRON	_	PronType=Rel	13	comp:pred	_	AlignBegin=89351|AlignEnd=89492
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	subj	_	AlignBegin=89492|AlignEnd=89634|SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	AlignBegin=89634|AlignEnd=89775|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	AlignBegin=89775|AlignEnd=89775
@@ -956,7 +956,7 @@
 16	à	à	ADP	_	_	15	comp:obj	_	AlignBegin=95819|AlignEnd=96206|wordform=aux
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	AlignBegin=96206|AlignEnd=96594
-19	qui	qui	PRON	_	_	20	subj	_	AlignBegin=96594|AlignEnd=96808
+19	qui	qui	PRON	_	PronType=Rel	20	subj	_	AlignBegin=96594|AlignEnd=96808
 20	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	AlignBegin=96808|AlignEnd=97023|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=97023|AlignEnd=97023
 22	genre	genre	NOUN	_	_	20	discourse	_	AlignBegin=97023|AlignEnd=97237|ExtPos=INTJ|SpaceAfter=No
@@ -990,7 +990,7 @@
 8	,	,	PUNCT	_	_	6	punct	_	AlignBegin=100979|AlignEnd=100979
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=100979|AlignEnd=101158
 10	truc	truc	NOUN	_	Gender=Masc|Number=Sing	17	dislocated	_	AlignBegin=101158|AlignEnd=101337
-11	qui	qui	PRON	_	_	12	subj	_	AlignBegin=101337|AlignEnd=101517
+11	qui	qui	PRON	_	PronType=Rel	12	subj	_	AlignBegin=101337|AlignEnd=101517
 12	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	AlignBegin=101517|AlignEnd=101696
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	AlignBegin=101696|AlignEnd=101875
 14	génération	génération	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	AlignBegin=101875|AlignEnd=102054|SpaceAfter=No
@@ -1038,7 +1038,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=104701|AlignEnd=104701
 3	tout	tout	DET	_	Gender=Masc|Number=Sing|PronType=Ind	4	mod	_	AlignBegin=104701|AlignEnd=104881
 4	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	AlignBegin=104881|AlignEnd=105061
-5	qui	qui	PRON	_	_	7	subj	_	AlignBegin=105061|AlignEnd=105212
+5	qui	qui	PRON	_	PronType=Rel	7	subj	_	AlignBegin=105061|AlignEnd=105212
 6	t'	le	PRON	_	Number=Sing|Person=2|PronType=Prs	8	comp:obj	_	AlignBegin=105212|AlignEnd=105364|SpaceAfter=No
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	AlignBegin=105364|AlignEnd=105515
 8	marqué	marquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	AlignBegin=105515|AlignEnd=105667
@@ -1062,13 +1062,13 @@
 9	avec	avec	ADP	_	_	19	mod	_	AlignBegin=106997|AlignEnd=107205
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	AlignBegin=107205|AlignEnd=107412
 11	gens	gens	NOUN	_	Number=Plur	9	comp:obj	_	AlignBegin=107412|AlignEnd=107619
-12	qui	qui	PRON	_	_	13	subj	_	AlignBegin=107619|AlignEnd=107826
+12	qui	qui	PRON	_	PronType=Rel	13	subj	_	AlignBegin=107619|AlignEnd=107826
 13	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	AlignBegin=107826|AlignEnd=108034|SpaceAfter=No
 14	vingt-six	vingt-six	NUM	_	Number=Plur	15	det	_	AlignBegin=108034|AlignEnd=108241
 15	ans	an	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	AlignBegin=108241|AlignEnd=108448|SpaceAfter=No
 16	,	,	PUNCT	_	_	9	punct	_	AlignBegin=108448|AlignEnd=108448
 17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj@expl	_	AlignBegin=108448|AlignEnd=108696
-18	y	y	PRON	_	_	19	comp@expl	_	AlignBegin=108696|AlignEnd=108944
+18	y	y	PRON	_	Person=3|PronType=Prs	19	comp@expl	_	AlignBegin=108696|AlignEnd=108944
 19	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	AlignBegin=108944|AlignEnd=109193
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	AlignBegin=109193|AlignEnd=109441
 21	truc	truc	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	AlignBegin=109441|AlignEnd=109689
@@ -1085,7 +1085,7 @@
 4	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=110713|AlignEnd=110870
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	AlignBegin=110870|AlignEnd=111027
 6	références	référence	NOUN	_	Gender=Fem|Number=Plur	4	comp:obl	_	AlignBegin=111027|AlignEnd=111184
-7	que	que	PRON	_	_	11	comp:obj	_	AlignBegin=111184|AlignEnd=111341
+7	que	que	PRON	_	PronType=Rel	11	comp:obj	_	AlignBegin=111184|AlignEnd=111341
 8	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	11	dislocated	_	AlignBegin=111341|AlignEnd=111498|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=111498|AlignEnd=111498
 10	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=111498|AlignEnd=111655|SpaceAfter=No

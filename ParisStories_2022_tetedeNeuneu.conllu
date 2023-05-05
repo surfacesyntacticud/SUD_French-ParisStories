@@ -10,7 +10,7 @@
 5	Eva	Eva	PROPN	_	_	9	dislocated	_	AlignBegin=2154|AlignEnd=2332|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=2332|AlignEnd=2332
 7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	subj	_	AlignBegin=2332|AlignEnd=2509
-8	m'	lui	PRON	_	_	10	comp:obl	_	AlignBegin=2509|AlignEnd=2687|SpaceAfter=No
+8	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	10	comp:obl	_	AlignBegin=2509|AlignEnd=2687|SpaceAfter=No
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=2687|AlignEnd=2865
 10	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:aux@tense	_	AlignBegin=2865|AlignEnd=3043
 11	qu'	qu'	SCONJ	_	_	10	comp:obj	_	AlignBegin=3043|AlignEnd=3220|SpaceAfter=No
@@ -59,7 +59,7 @@
 # speaker = L2
 # text = il y a combien de temps ?
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=8275|AlignEnd=8499|InIdiom=Yes
-2	y	y	PRON	_	_	3	comp	_	AlignBegin=8499|AlignEnd=8724|InIdiom=Yes
+2	y	y	PRON	_	Person=3|PronType=Prs	3	comp	_	AlignBegin=8499|AlignEnd=8724|InIdiom=Yes
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=8724|AlignEnd=8948|ExtPos=ADP|Idiom=Yes
 4	combien	combien	ADV	_	_	3	comp:obj	_	AlignBegin=8948|AlignEnd=9172
 5	de	de	ADP	_	_	4	comp:obl	_	AlignBegin=9172|AlignEnd=9397
@@ -245,7 +245,7 @@
 # text = pourquoi tu lui demandes pas ?
 1	pourquoi	pourquoi	ADV	_	_	4	mod	_	AlignBegin=29609|AlignEnd=29828
 2	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	4	subj	_	AlignBegin=29828|AlignEnd=30047
-3	lui	lui	PRON	_	_	4	comp:obl	_	AlignBegin=30047|AlignEnd=30267
+3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obl	_	AlignBegin=30047|AlignEnd=30267
 4	demandes	demander	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=30267|AlignEnd=30486
 5	pas	pas	ADV	_	_	4	mod	_	AlignBegin=30486|AlignEnd=30705
 6	?	?	PUNCT	_	_	4	punct	_	AlignBegin=30705|AlignEnd=30705
@@ -257,7 +257,7 @@
 1	parce	parce	ADV	_	_	0	root	_	AlignBegin=31058|AlignEnd=31256|ExtPos=SCONJ|Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=31256|AlignEnd=31454|InIdiom=Yes
 3	ça	ça	PRON	_	_	5	subj	_	AlignBegin=31454|AlignEnd=31652
-4	m'	le	PRON	_	_	5	comp:obj	_	AlignBegin=31652|AlignEnd=31850|SpaceAfter=No
+4	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=31652|AlignEnd=31850|SpaceAfter=No
 5	intéresse	intéresser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	AlignBegin=31850|AlignEnd=32048
 6	pas	pas	ADV	_	_	5	mod	_	AlignBegin=32048|AlignEnd=32246
 7	!	!	PUNCT	_	_	1	punct	_	AlignBegin=32246|AlignEnd=32246
@@ -316,7 +316,7 @@
 4	d'	de	ADP	_	_	3	comp:obl	_	AlignBegin=36562|AlignEnd=36808|SpaceAfter=No
 5	infos	info	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	AlignBegin=36808|AlignEnd=37055
 6	sur	sur	ADP	_	_	5	udep	_	AlignBegin=37055|AlignEnd=37301
-7	lui	lui	PRON	_	_	6	comp:obj	_	AlignBegin=37301|AlignEnd=37548|SpaceAfter=No
+7	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=37301|AlignEnd=37548|SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	AlignBegin=37548|AlignEnd=37548
 9	moins	moins	ADV	_	_	3	mod	_	AlignBegin=37548|AlignEnd=38230
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	AlignBegin=38230|AlignEnd=38912|SpaceAfter=No
@@ -369,7 +369,7 @@
 22	mère	mère	NOUN	_	Gender=Fem|Number=Sing	26	dislocated	_	AlignBegin=44653|AlignEnd=44830|SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	AlignBegin=44830|AlignEnd=44830
 24	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	subj	_	AlignBegin=44830|AlignEnd=45008
-25	m'	lui	PRON	_	_	27	comp:obl	_	AlignBegin=45008|AlignEnd=45185|SpaceAfter=No
+25	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	27	comp:obl	_	AlignBegin=45008|AlignEnd=45185|SpaceAfter=No
 26	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=45185|AlignEnd=45363
 27	envoyé	envoyer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	comp:aux@tense	_	AlignBegin=45363|AlignEnd=45540
 28	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	AlignBegin=45540|AlignEnd=45718
@@ -404,7 +404,7 @@
 1	ouais	ouais	INTJ	_	_	6	discourse	_	AlignBegin=47872|AlignEnd=48080|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=48080|AlignEnd=48080
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=48080|AlignEnd=48288
-4	m'	le	PRON	_	_	6	comp:obj	_	AlignBegin=48288|AlignEnd=48496|SpaceAfter=No
+4	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	6	comp:obj	_	AlignBegin=48288|AlignEnd=48496|SpaceAfter=No
 5	en	en	PRON	_	Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=48496|AlignEnd=48704
 6	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=48704|AlignEnd=48912|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	AlignBegin=48912|AlignEnd=48912
@@ -518,7 +518,7 @@
 # text = et elle m'avait fait en mode ah, bah tiens, on a qu'à inviter XXX à manger !
 1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=62757|AlignEnd=62921
 2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=62921|AlignEnd=63084
-3	m'	le	PRON	_	_	5	comp:obl	_	AlignBegin=63084|AlignEnd=63248|SpaceAfter=No
+3	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obl	_	AlignBegin=63084|AlignEnd=63248|SpaceAfter=No
 4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=63248|AlignEnd=63412
 5	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:aux@tense	_	AlignBegin=63412|AlignEnd=63576
 6	en	en	ADP	_	_	5	mod	_	AlignBegin=63576|AlignEnd=63739
@@ -595,12 +595,12 @@
 8	bien	bien	ADV	_	_	6	mod	_	AlignBegin=71806|AlignEnd=72007
 9	qu'	que	SCONJ	_	_	6	comp:obj	_	AlignBegin=72007|AlignEnd=72209|SpaceAfter=No
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	AlignBegin=72209|AlignEnd=72410
-11	y	y	PRON	_	_	12	comp@expl	_	AlignBegin=72410|AlignEnd=72611
+11	y	y	PRON	_	Person=3|PronType=Prs	12	comp@expl	_	AlignBegin=72410|AlignEnd=72611
 12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	comp:obj	_	AlignBegin=72611|AlignEnd=72812
 13	tout	tout	ADJ	_	_	15	mod	_	AlignBegin=72812|AlignEnd=73013
 14	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	AlignBegin=73013|AlignEnd=73214
 15	potes	pote	NOUN	_	Number=Plur	12	comp:obj	_	AlignBegin=73214|AlignEnd=73415
-16	qui	qui	PRON	_	_	17	subj	_	AlignBegin=73415|AlignEnd=73616
+16	qui	qui	PRON	_	PronType=Rel	17	subj	_	AlignBegin=73415|AlignEnd=73616
 17	attendaient	attendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	mod@relcl	_	AlignBegin=73616|AlignEnd=73817|SpaceAfter=No
 18	.	.	PUNCT	_	_	1	punct	_	AlignBegin=73817|AlignEnd=73817
 
@@ -695,7 +695,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=85382|AlignEnd=85382
 4	bah	bah	INTJ	_	_	1	discourse	_	AlignBegin=85382|AlignEnd=85588
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	AlignBegin=85588|AlignEnd=85793
-6	y	y	PRON	_	_	7	comp@expl	_	AlignBegin=85793|AlignEnd=85998
+6	y	y	PRON	_	Person=3|PronType=Prs	7	comp@expl	_	AlignBegin=85793|AlignEnd=85998
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=85998|AlignEnd=86203
 8	pas	pas	ADV	_	_	7	mod	_	AlignBegin=86203|AlignEnd=86409
 9	Ilana	Ilana	PROPN	_	_	7	comp:obj	_	AlignBegin=86409|AlignEnd=86614|SpaceAfter=No
@@ -706,7 +706,7 @@
 # speaker = L1
 # text = il y a pas machin.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	AlignBegin=86614|AlignEnd=86930
-2	y	y	PRON	_	_	3	comp@expl	_	AlignBegin=86930|AlignEnd=87246
+2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	AlignBegin=86930|AlignEnd=87246
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=87246|AlignEnd=87562
 4	pas	pas	ADV	_	_	3	mod	_	AlignBegin=87562|AlignEnd=87878
 5	machin	machin	NOUN	_	_	3	vocative	_	AlignBegin=87878|AlignEnd=88194|SpaceAfter=No
@@ -773,7 +773,7 @@
 6	tout	tout	ADJ	_	_	8	mod	_	AlignBegin=93498|AlignEnd=93707
 7	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	8	det	_	AlignBegin=93707|AlignEnd=93916
 8	potes	pote	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=93916|AlignEnd=94125
-9	qui	qui	PRON	_	_	10	subj	_	AlignBegin=94125|AlignEnd=94573
+9	qui	qui	PRON	_	PronType=Rel	10	subj	_	AlignBegin=94125|AlignEnd=94573
 10	surgissent	surgir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	AlignBegin=94573|AlignEnd=95021
 11	genre	genre	NOUN	_	_	10	discourse	_	AlignBegin=95021|AlignEnd=95469|ExtPos=INTJ
 12	ah	ah	INTJ	_	_	15	discourse	_	AlignBegin=95469|AlignEnd=95917|SpaceAfter=No
@@ -810,7 +810,7 @@
 7	tête	tête	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	AlignBegin=98555|AlignEnd=98748
 8	de	de	ADP	_	_	7	udep	_	AlignBegin=98748|AlignEnd=98941
 9	Kévin	Kévin	PROPN	_	_	8	comp:obj	_	AlignBegin=98941|AlignEnd=99133
-10	qui	qui	PRON	_	_	11	subj	_	AlignBegin=99133|AlignEnd=99326
+10	qui	qui	PRON	_	PronType=Rel	11	subj	_	AlignBegin=99133|AlignEnd=99326
 11	dépasse	dépasser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	AlignBegin=99326|AlignEnd=99519
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	AlignBegin=99519|AlignEnd=99711|wordform=du

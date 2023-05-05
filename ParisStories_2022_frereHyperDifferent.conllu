@@ -120,7 +120,7 @@
 # speaker = L1
 # text = je m'en souviens.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=14667|AlignEnd=14939
-2	m'	me	PRON	_	_	4	comp@expl	_	AlignBegin=14939|AlignEnd=15212|SpaceAfter=No
+2	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp@expl	_	AlignBegin=14939|AlignEnd=15212|SpaceAfter=No
 3	en	en	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=15212|AlignEnd=15484
 4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=15484|AlignEnd=15756|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=15756|AlignEnd=15756
@@ -130,7 +130,7 @@
 # speaker = L1
 # text = je m'en souviens parce que je sais que j'étais pas contente d'avoir un petit frère, parce que je trouvais que ça allait tout changer ma vie.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=15756|AlignEnd=15920
-2	m'	me	PRON	_	_	4	comp@expl	_	AlignBegin=15920|AlignEnd=16084|SpaceAfter=No
+2	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp@expl	_	AlignBegin=15920|AlignEnd=16084|SpaceAfter=No
 3	en	en	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=16084|AlignEnd=16248
 4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16248|AlignEnd=16412
 5	parce	parce	ADV	_	_	4	mod	_	AlignBegin=16412|AlignEnd=16576|ExtPos=SCONJ|Idiom=Yes
@@ -271,7 +271,7 @@
 5	aller	aller	VERB	_	VerbForm=Inf	4	comp:obj	_	AlignBegin=37115|AlignEnd=37272|Subject=SubjRaising
 6	voir	voir	VERB	_	VerbForm=Inf	5	comp:obj	_	AlignBegin=37272|AlignEnd=37428|Subject=SubjRaising
 7	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	comp:obj	_	AlignBegin=37428|AlignEnd=37584
-8	qui	qui	PRON	_	_	10	subj	_	AlignBegin=37584|AlignEnd=37740
+8	qui	qui	PRON	_	PronType=Rel	10	subj	_	AlignBegin=37584|AlignEnd=37740
 9	se	se	PRON	_	_	10	comp@expl	_	AlignBegin=37740|AlignEnd=37896
 10	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	mod@relcl	_	AlignBegin=37896|AlignEnd=38052|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	AlignBegin=38052|AlignEnd=38052
@@ -430,7 +430,7 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	AlignBegin=59624|AlignEnd=59752|SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=59752|AlignEnd=59880
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	AlignBegin=59880|AlignEnd=60009|InIdiom=Yes
-5	y	y	PRON	_	_	6	comp	_	AlignBegin=60009|AlignEnd=60137|InIdiom=Yes
+5	y	y	PRON	_	Person=3|PronType=Prs	6	comp	_	AlignBegin=60009|AlignEnd=60137|InIdiom=Yes
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod	_	AlignBegin=60137|AlignEnd=60265|ExtPos=ADP|Idiom=Yes
 7	longtemps	longtemps	ADV	_	_	6	mod	_	AlignBegin=60265|AlignEnd=60393|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=60393|AlignEnd=60393
@@ -461,7 +461,7 @@
 18	,	,	PUNCT	_	_	17	punct	_	AlignBegin=63842|AlignEnd=63842
 19	moi	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	comp:obj	_	AlignBegin=63842|AlignEnd=64017
 20	avec	avec	ADP	_	_	19	conj:dicto	_	AlignBegin=64017|AlignEnd=64192
-21	lui	lui	PRON	_	_	20	comp:obj	_	AlignBegin=64192|AlignEnd=64367
+21	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	AlignBegin=64192|AlignEnd=64367
 22	dans	dans	ADP	_	_	21	mod	_	AlignBegin=64367|AlignEnd=64542
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	AlignBegin=64542|AlignEnd=64717
 24	bras	bras	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	AlignBegin=64717|AlignEnd=64892|SpaceAfter=No
@@ -677,7 +677,7 @@
 10	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	AlignBegin=96365|AlignEnd=96533
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=96533|AlignEnd=96701
 12	enfance	enfance	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	AlignBegin=96701|AlignEnd=96869
-13	qui	qui	PRON	_	_	14	subj	_	AlignBegin=96869|AlignEnd=97036
+13	qui	qui	PRON	_	PronType=Rel	14	subj	_	AlignBegin=96869|AlignEnd=97036
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	AlignBegin=97036|AlignEnd=97204
 15	assez	assez	ADV	_	_	16	mod	_	AlignBegin=97204|AlignEnd=97372
 16	similaire	similaire	ADJ	_	_	14	comp:pred	_	AlignBegin=97372|AlignEnd=97540|SpaceAfter=No
@@ -749,7 +749,7 @@
 # speaker = L1
 # text = mais lui, il a commencé à marcher bien plus tôt que moi.
 1	mais	mais	CCONJ	_	_	5	cc	_	AlignBegin=105841|AlignEnd=106104
-2	lui	lui	PRON	_	_	5	dislocated	_	AlignBegin=106104|AlignEnd=106366|SpaceAfter=No
+2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	dislocated	_	AlignBegin=106104|AlignEnd=106366|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=106366|AlignEnd=106366
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	AlignBegin=106366|AlignEnd=106629
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=106629|AlignEnd=106892
@@ -779,7 +779,7 @@
 10	plus	plus	ADV	_	_	11	mod	_	AlignBegin=110444|AlignEnd=110661
 11	tôt	tôt	ADV	_	_	6	mod	_	AlignBegin=110661|AlignEnd=110877
 12	que	que	SCONJ	_	_	11	comp:obj	_	AlignBegin=110877|AlignEnd=111094
-13	lui	lui	PRON	_	_	12	comp:obj	_	AlignBegin=111094|AlignEnd=111311|SpaceAfter=No
+13	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=111094|AlignEnd=111311|SpaceAfter=No
 14	.	.	PUNCT	_	_	5	punct	_	AlignBegin=111311|AlignEnd=111311
 
 # sent_id = ParisStories_2022_10_frèreHyperDifférent__40
@@ -820,7 +820,7 @@
 7	personnalités	personnalité	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	AlignBegin=114718|AlignEnd=114967
 8	que	que	SCONJ	_	_	3	mod	_	AlignBegin=114967|AlignEnd=115217|SpaceAfter=No
 9	,	,	PUNCT	_	_	15	punct	_	AlignBegin=115217|AlignEnd=115217
-10	lui	lui	PRON	_	_	15	dislocated	_	AlignBegin=115217|AlignEnd=115534|SpaceAfter=No
+10	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	dislocated	_	AlignBegin=115217|AlignEnd=115534|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=115534|AlignEnd=115534
 12	bah	bah	INTJ	_	_	15	discourse	_	AlignBegin=115534|AlignEnd=115851
 13	maintenant	maintenant	ADV	_	_	15	mod	_	AlignBegin=115851|AlignEnd=116168
@@ -882,7 +882,7 @@
 2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=126062|AlignEnd=126212
 3	que	que	SCONJ	_	_	2	comp:obj	_	AlignBegin=126212|AlignEnd=126361|SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	AlignBegin=126361|AlignEnd=126361
-5	moi	Moi	PRON	_	_	8	dislocated	_	AlignBegin=126361|AlignEnd=126510|SpaceAfter=No
+5	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	dislocated	_	AlignBegin=126361|AlignEnd=126510|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=126510|AlignEnd=126510
 7	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	AlignBegin=126510|AlignEnd=126660|SpaceAfter=No
 8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=126660|AlignEnd=126809
@@ -1020,7 +1020,7 @@
 # speaker = L2
 # text = ils m'ont pas dit.
 1	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=142459|AlignEnd=142596
-2	m'	le	PRON	_	_	5	comp:obj	_	AlignBegin=142596|AlignEnd=142732|SpaceAfter=No
+2	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=142596|AlignEnd=142732|SpaceAfter=No
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=142732|AlignEnd=142869
 4	pas	pas	ADV	_	_	5	mod	_	AlignBegin=142869|AlignEnd=143005
 5	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:aux@tense	_	AlignBegin=143005|AlignEnd=143142|SpaceAfter=No
@@ -1096,7 +1096,7 @@
 8	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	discourse	_	AlignBegin=148681|AlignEnd=148817|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=148817|AlignEnd=148817
 10	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	12	subj	_	AlignBegin=148817|AlignEnd=148952
-11	m'	le	PRON	_	_	12	comp:obj	_	AlignBegin=148952|AlignEnd=149088|SpaceAfter=No
+11	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	12	comp:obj	_	AlignBegin=148952|AlignEnd=149088|SpaceAfter=No
 12	étonnes	étonner	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	discourse	_	AlignBegin=149088|AlignEnd=149223|SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	AlignBegin=149223|AlignEnd=149223
 

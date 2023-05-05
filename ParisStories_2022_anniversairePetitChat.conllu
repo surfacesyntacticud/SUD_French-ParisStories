@@ -67,7 +67,7 @@
 # speaker = L1
 # text = il y avait que Jessica et, et Papa.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	AlignBegin=8900|AlignEnd=9209
-2	y	y	PRON	_	_	3	comp@expl	_	AlignBegin=9209|AlignEnd=9519
+2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	AlignBegin=9209|AlignEnd=9519
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=9519|AlignEnd=9828
 4	que	que	ADV	_	_	5	mod	_	AlignBegin=9828|AlignEnd=10137
 5	Jessica	Jessica	PROPN	_	_	3	comp:obj	_	AlignBegin=10137|AlignEnd=10446
@@ -85,8 +85,8 @@
 2	bah	bah	INTJ	_	_	7	discourse	_	AlignBegin=11555|AlignEnd=11744|SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	AlignBegin=11744|AlignEnd=11744
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=11744|AlignEnd=11932
-5	m'	le	PRON	_	_	7	comp:obj	_	AlignBegin=11932|AlignEnd=12120|SpaceAfter=No
-6	y	y	PRON	_	_	7	comp:obj	_	AlignBegin=12120|AlignEnd=12309
+5	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	AlignBegin=11932|AlignEnd=12120|SpaceAfter=No
+6	y	y	PRON	_	Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=12120|AlignEnd=12309
 7	attendais	attendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=12309|AlignEnd=12497
 8	pas	pas	ADV	_	_	7	mod	_	AlignBegin=12497|AlignEnd=12685|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=12685|AlignEnd=12685
@@ -417,7 +417,7 @@
 # speaker = L1
 # text = on m'avait pas dit.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	AlignBegin=45583|AlignEnd=45893
-2	m'	le	PRON	_	_	5	comp:obj	_	AlignBegin=45893|AlignEnd=46203|SpaceAfter=No
+2	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=45893|AlignEnd=46203|SpaceAfter=No
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=46203|AlignEnd=46513
 4	pas	pas	ADV	_	_	5	mod	_	AlignBegin=46513|AlignEnd=46823
 5	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:aux@tense	_	AlignBegin=46823|AlignEnd=47133|SpaceAfter=No
@@ -463,7 +463,7 @@
 4	juste	juste	ADV	_	_	3	mod	_	AlignBegin=49806|AlignEnd=49968
 5	qu'	que	SCONJ	_	_	3	comp:obj	_	AlignBegin=49968|AlignEnd=50129|SpaceAfter=No
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj@expl	_	AlignBegin=50129|AlignEnd=50291
-7	y	y	PRON	_	_	8	comp:obl	_	AlignBegin=50291|AlignEnd=50452
+7	y	y	PRON	_	Person=3|PronType=Prs	8	comp:obl	_	AlignBegin=50291|AlignEnd=50452
 8	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	comp:obj	_	AlignBegin=50452|AlignEnd=50614
 9	pas	pas	ADV	_	_	8	mod	_	AlignBegin=50614|AlignEnd=50775
 10	avoir	avoir	VERB	_	VerbForm=Inf	8	comp:obj	_	AlignBegin=50775|AlignEnd=50937|Subject=NoRaising
@@ -479,7 +479,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	AlignBegin=50666|AlignEnd=50833|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=50833|AlignEnd=51001
 3	toi	lui	PRON	_	_	2	comp:pred	_	AlignBegin=51001|AlignEnd=51168
-4	qui	qui	PRON	_	_	5	subj	_	AlignBegin=51168|AlignEnd=51336
+4	qui	qui	PRON	_	PronType=Rel	5	subj	_	AlignBegin=51168|AlignEnd=51336
 5	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	comp:cleft	_	AlignBegin=51336|AlignEnd=51503
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=51503|AlignEnd=51670
 7	plus	plus	ADV	_	_	8	mod	_	AlignBegin=51670|AlignEnd=51838
@@ -627,7 +627,7 @@
 1	ah	ah	INTJ	_	_	5	discourse	_	AlignBegin=67550|AlignEnd=67727|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=67727|AlignEnd=67727
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	AlignBegin=67727|AlignEnd=67903
-4	y	y	PRON	_	_	5	comp@expl	_	AlignBegin=67903|AlignEnd=68080
+4	y	y	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	AlignBegin=67903|AlignEnd=68080
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=68080|AlignEnd=68257
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=68257|AlignEnd=68433
 7	grande	grand	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	AlignBegin=68433|AlignEnd=68610

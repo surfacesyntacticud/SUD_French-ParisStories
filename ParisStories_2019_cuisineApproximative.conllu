@@ -22,7 +22,7 @@
 7	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	quelqu'un	quelqueun	PRON	_	_	7	comp:pred	_	_
-10	qui	qui	PRON	_	_	11	subj	_	_
+10	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
 11	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 12	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
@@ -80,14 +80,14 @@
 # text = je me suis aperçue que c'était ça qui les empêchait de gonfler.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
-2	me	se	PRON	_	_	4	comp@expl	_	_
+2	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp@expl	_	_
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	aperçue	apercevoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 5	que	que	SCONJ	_	_	4	comp:obj	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	SpaceAfter=No
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	comp:obj	_	_
 8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	comp:pred	_	_
-9	qui	qui	PRON	_	_	11	subj	_	_
+9	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
 10	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	11	comp:obj	_	_
 11	empêchait	empêcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	comp:cleft	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	_
@@ -215,8 +215,8 @@
 54	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	55	subj	_	SpaceAfter=No
 55	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	mod	_	_
 56	ce	ce	PRON	_	_	55	comp:pred	_	_
-57	qu'	que	PRON	_	_	60	subj	_	SpaceAfter=No
-58	il	il	PRON	_	_	60	subj@expl	_	_
+57	qu'	que	PRON	_	PronType=Rel	60	subj	_	SpaceAfter=No
+58	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	60	subj@expl	_	_
 59	y	y	PRON	_	Person=3|PronType=Prs	60	comp@expl	_	_
 60	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	mod@relcl	_	_
 61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
@@ -399,7 +399,7 @@
 5	question	question	NOUN	_	Gender=Fem|Number=Sing	14	dislocated	_	_
 6	que	que	PRON	_	_	11	comp:obj	_	_
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
-8	me	lui	PRON	_	_	11	comp:obl	_	_
+8	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	11	comp:obl	_	_
 9	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
 10	toujours	toujours	ADV	_	_	11	mod	_	_
 11	posée	poser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@pass	_	SpaceAfter=No
@@ -475,7 +475,7 @@
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
-6	me	lui	PRON	_	_	7	comp:obl	_	_
+6	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp:obl	_	_
 7	pose	poser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 9	quest~	quest~	X	_	Gender=Fem|Number=Sing	7	comp:obj	_	ExtPos=NOUN

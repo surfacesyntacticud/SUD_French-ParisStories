@@ -80,7 +80,7 @@
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	baladé	balader	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
-14	m'	le	PRON	_	_	16	comp:obj	_	SpaceAfter=No
+14	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	16	comp:obj	_	SpaceAfter=No
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj:dicto	_	_
 16	emmené	emmener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@tense	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
@@ -211,12 +211,12 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
 1	entre	entre	ADV	_	_	5	mod	_	_
 2	temps	temps	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
-3	il	il	PRON	_	_	5	subj@expl	_	_
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	_
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	Adrien	Adrien	PROPN	_	_	5	comp:obj	_	_
-7	qui	qui	PRON	_	_	9	subj	_	_
-8	nous	le	PRON	_	_	10	comp:obj	_	_
+7	qui	qui	PRON	_	PronType=Rel	9	subj	_	_
+8	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	10	comp:obj	_	_
 9	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	mod@relcl	_	_
 10	appelés	appeler	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	_
@@ -225,7 +225,7 @@
 # sent_id = ParisStories_2019_mercrediSoir_12
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
-2	nous	lui	PRON	_	_	4	comp:obl	_	_
+2	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	4	comp:obl	_	_
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
@@ -270,7 +270,7 @@
 12	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	_
 13	et	et	CCONJ	_	_	16	cc	_	_
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
-15	nous	le	PRON	_	_	16	comp:obj	_	_
+15	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	16	comp:obj	_	_
 16	rejoindrait	rejinir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj:coord	_	_
 17	après	après	ADV	_	_	16	mod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	_
@@ -301,7 +301,7 @@
 # sent_id = ParisStories_2019_mercrediSoir_15
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
 1	ce	ce	PRON	_	_	0	root	_	_
-2	qui	qui	PRON	_	_	4	subj	_	_
+2	qui	qui	PRON	_	PronType=Rel	4	subj	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	_
 5	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
@@ -361,7 +361,7 @@
 12	te	le	PRON	_	_	13	comp:obj	_	_
 13	poser	poser	VERB	_	VerbForm=Inf	11	comp:obj	_	SpaceAfter=No|Subject=NoRaising
 14	,	,	PUNCT	_	_	13	punct	_	_
-15	il	il	PRON	_	_	17	subj@expl	_	_
+15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@expl	_	_
 16	y	y	PRON	_	Person=3|PronType=Prs	17	comp@expl	_	_
 17	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	plus	plus	ADV	_	_	20	mod	_	_
@@ -466,13 +466,13 @@
 # text = il y avait des mariés chinois que qui se, euh, qui arrêtaient pas de se faire prendre en photo.
 # sent_id = ParisStories_2019_mercrediSoir_25
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
-1	il	il	PRON	_	_	3	subj@expl	_	_
-2	y	y	PRON	_	_	3	comp@expl	_	_
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
 5	mariés	marié	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 6	chinois	chinois	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	_
-7	que	que	PRON	_	_	14	subj	_	_
+7	que	que	PRON	_	PronType=Rel	14	subj	_	_
 8	qui	qui	PRON	_	_	7	conj:dicto	_	_
 9	se	se	PRON	_	Person=3|PronType=Prs	8	unk@scrap	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
@@ -531,7 +531,7 @@
 6	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
-9	m'	lui	PRON	_	_	11	comp:obl	_	SpaceAfter=No
+9	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	11	comp:obl	_	SpaceAfter=No
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	expliqué	expliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12	que	que	SCONJ	_	_	11	comp:obj	_	SpaceAfter=No
@@ -679,7 +679,7 @@
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	qu'	que	SCONJ	_	_	15	mod	_	SpaceAfter=No
 20	Adrien	Adrien	PROPN	_	_	22	subj	_	_
-21	nous	lui	PRON	_	_	26	comp:obl	_	_
+21	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	26	comp:obl	_	_
 22	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	comp:obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
@@ -698,7 +698,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod	_	_
 5	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
-7	il	il	PRON	_	_	9	subj@expl	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj@expl	_	_
 8	y	y	PRON	_	Person=3|PronType=Prs	9	comp@expl	_	_
 9	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -761,7 +761,7 @@
 # text = il y avait une bonne ambiance.
 # sent_id = ParisStories_2019_mercrediSoir_35
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
-1	il	il	PRON	_	_	3	subj@expl	_	_
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -882,7 +882,7 @@
 31	,	,	PUNCT	_	_	32	punct	_	_
 32	bah	bah	INTJ	_	_	27	discourse	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	27	punct	_	_
-34	il	il	PRON	_	_	36	subj@expl	_	_
+34	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	subj@expl	_	_
 35	y	y	PRON	_	Person=3|PronType=Prs	36	comp@expl	_	_
 36	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj:coord	_	_
 37	moyen	moyen	NOUN	_	Gender=Masc|Number=Sing	36	comp:obj	_	_
@@ -1032,7 +1032,7 @@
 5	Adrien	Adrien	PROPN	_	_	9	dislocated	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
-8	nous	le	PRON	_	_	10	comp:obj	_	_
+8	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	10	comp:obj	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	rejoints	rejoindre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
@@ -1085,7 +1085,7 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	14	punct	_	_
-18	il	il	PRON	_	_	20	subj@expl	_	_
+18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	_
 19	y	y	PRON	_	Person=3|PronType=Prs	20	comp@expl	_	_
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
 21	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux@tense	_	_
