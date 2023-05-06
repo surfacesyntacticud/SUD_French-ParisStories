@@ -27,7 +27,7 @@
 23	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	24	subj	_	SpaceAfter=No
 24	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	mod@relcl	_	_
 25	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	_
-26	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	28	det	_	_
+26	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	28	det	_	_
 27	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	28	mod	_	_
 28	copine	copine	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
 29	actuelle	actuel	ADJ	_	Gender=Fem|Number=Sing	28	mod	_	SpaceAfter=No
@@ -72,7 +72,7 @@
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
 3	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	avec	avec	ADP	_	_	3	comp:pred	_	_
-5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	6	det	_	_
+5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	_
 6	maman	maman	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
@@ -94,7 +94,7 @@
 23	attendait	attendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj:coord	_	_
 24	de	de	ADP	_	_	23	unk@scrap	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
-26	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|PronType=Prs	27	det	_	_
+26	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	27	det	_	_
 27	tour	tour	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	pour	pour	ADP	_	_	27	mod	_	SpaceAfter=No
@@ -139,10 +139,10 @@
 20	Cynthia	Cynthia	PROPN	_	_	18	conj:appos	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	avec	avec	ADP	_	_	18	mod	_	_
-23	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs|Shared=No	24	det	_	_
+23	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=No	24	det	_	_
 24	mère	mère	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
 25	et	et	CCONJ	_	_	28	cc	_	_
-26	son	son	DET	_	Gender=Masc|Number=Sing	28	det	_	_
+26	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	28	det	_	_
 27	petit	petit	ADJ	_	Gender=Masc|Number=Sing	28	mod	_	_
 28	frère	frère	NOUN	_	Gender=Masc|Number=Sing	24	conj:coord	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	12	punct	_	_
@@ -158,7 +158,7 @@
 6	bien	bien	ADV	_	_	4	mod	_	_
 7	parce	parce	ADV	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
 8	que	que	SCONJ	_	_	7	unk	_	InIdiom=Yes
-9	son	son	DET	_	Gender=Masc|Number=Sing	11	det	_	_
+9	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	11	det	_	_
 10	petit	petit	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
 11	frère	frère	NOUN	_	Gender=Masc|Number=Sing	16	dislocated	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
