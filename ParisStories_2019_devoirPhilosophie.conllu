@@ -61,7 +61,7 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_4
 # text = parce que euh, je suis pas très douée en philosophie à la base.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61d5227a42c58525ddcd3fa82738bebdb33859b5
-1	parce	parce	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -87,7 +87,7 @@
 5	prof	prof	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
 6	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	7	comp:obj	_	_
 7	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-8	quand	quand	SCONJ	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes
+8	quand	quand	SCONJ	_	ExtPos=ADV	7	mod	_	Idiom=Yes
 9	même	même	ADV	_	_	8	unk	_	InIdiom=Yes
 10	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
@@ -185,7 +185,7 @@
 6	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	penchée	pencher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
-9	peu	peu	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	ExtPos=ADV|Idiom=Yes
+9	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	7	mod	_	Idiom=Yes
 10	sur	sur	ADP	_	_	7	comp:obl	_	_
 11	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	det	_	_
 12	devoir	devoir	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
@@ -224,7 +224,7 @@
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	InIdiom=Yes
-7	peu	peu	NOUN	_	Gender=Masc|Number=Sing	5	mod	_	ExtPos=ADV|Idiom=Yes
+7	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	5	mod	_	Idiom=Yes
 8	de	de	ADP	_	_	5	mod	_	_
 9	côté	côté	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	11	subj	_	_
@@ -268,7 +268,7 @@
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	15	subj	_	SpaceAfter=No
 15	écoutais	écouter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	12	conj:dicto	_	_
-16	pardon	pardon	NOUN	_	Gender=Masc|Number=Sing	18	discourse	_	ExtPos=INTJ
+16	pardon	pardon	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	18	discourse	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	radio	radio	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	8	punct	_	_
@@ -339,7 +339,7 @@
 # text = bah oui !
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61d5227a42c58525ddcd3fa82738bebdb33859b5
 1	bah	bah	INTJ	_	_	2	discourse	_	_
-2	oui	oui	ADV	_	_	0	root	_	ExtPos=INTJ
+2	oui	oui	ADV	_	ExtPos=INTJ	0	root	_	_
 3	!	!	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_devoirPhilosophie_16
@@ -383,7 +383,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
-9	quand	quand	SCONJ	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes
+9	quand	quand	SCONJ	_	ExtPos=ADV	8	mod	_	Idiom=Yes
 10	même	même	ADV	_	_	9	unk	_	InIdiom=Yes
 11	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
@@ -401,14 +401,14 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_18
 # text = parce que j'ai dit euh, ~enfin, je me suis dit, c'est quand même euh, deux visions antinomiques
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61d5227a42c58525ddcd3fa82738bebdb33859b5
-1	parce	parce	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	~enfin	enfin	ADV	_	_	12	discourse	_	ExtPos=INTJ|SpaceAfter=No|wordform=~fin
+8	~enfin	enfin	ADV	_	ExtPos=INTJ	12	discourse	_	SpaceAfter=No|wordform=~fin
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	_
 11	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	comp:obl	_	_
@@ -417,7 +417,7 @@
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	subj	_	SpaceAfter=No
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
-17	quand	quand	SCONJ	_	_	16	mod	_	ExtPos=ADV|Idiom=Yes
+17	quand	quand	SCONJ	_	ExtPos=ADV	16	mod	_	Idiom=Yes
 18	même	même	ADV	_	_	17	unk	_	InIdiom=Yes
 19	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
@@ -538,7 +538,7 @@
 9	missionnaire	missionnaire	NOUN	_	Gender=Fem|Number=Sing	8	comp:pred	_	_
 10	avant	avant	ADV	_	_	8	mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	~enfin	enfin	ADV	_	_	6	discourse	_	ExtPos=INTJ|SpaceAfter=No|wordform=~fin
+12	~enfin	enfin	ADV	_	ExtPos=INTJ	6	discourse	_	SpaceAfter=No|wordform=~fin
 13	,	,	PUNCT	_	_	6	punct	_	_
 14	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
 15	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	16	comp:pred	_	SpaceAfter=No
@@ -657,7 +657,7 @@
 7	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	quand	quand	SCONJ	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes
+10	quand	quand	SCONJ	_	ExtPos=ADV	8	mod	_	Idiom=Yes
 11	même	même	ADV	_	_	10	unk	_	InIdiom=Yes|SpaceAfter=No
 12	,	,	PUNCT	_	_	8	punct	_	_
 13	confrontée	confronter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@pass	_	_
@@ -714,7 +714,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	parfois	parfois	ADV	_	_	11	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	i~	i~	X	_	_	11	subj	_	ExtPos=PRON|SpaceAfter=No
+8	i~	i~	X	_	ExtPos=PRON	11	subj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	conj:dicto	_	_
 11	respectaient	respecter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -786,8 +786,8 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur	6	conj:dicto	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
-10	~enfin	enfin	ADV	_	_	14	discourse	_	ExtPos=INTJ|wordform=~fin
-11	voilà	voilà	VERB	_	_	14	discourse	_	ExtPos=INTJ|SpaceAfter=No
+10	~enfin	enfin	ADV	_	ExtPos=INTJ	14	discourse	_	wordform=~fin
+11	voilà	voilà	VERB	_	ExtPos=INTJ	14	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	subj	_	_
 14	respectait	respecter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj:coord	_	_
@@ -841,7 +841,7 @@
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	15	subj	_	_
 15	tiens	tenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	comp:obj	_	Reported=Yes
-16	quand	quand	SCONJ	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes
+16	quand	quand	SCONJ	_	ExtPos=ADV	15	mod	_	Idiom=Yes
 17	même	même	ADV	_	_	16	unk	_	InIdiom=Yes
 18	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	_
 19	idée	idée	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
@@ -859,7 +859,7 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_34
 # text = parce que, du coup, cette femme, euh finalement, elle doit faire preuve d'empathie, pour pouvoir donner des conseils en matière de sexe, à ses patients, puisque, en gros, elle elle a fait vœu de chasteté, elle est religieuse.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61d5227a42c58525ddcd3fa82738bebdb33859b5
-1	parce	parce	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	15	punct	_	_
 4-5	du	_	_	_	_	_	_	_	_

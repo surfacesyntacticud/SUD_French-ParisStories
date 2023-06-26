@@ -108,7 +108,7 @@
 5	pas	pas	ADV	_	_	4	mod	_	_
 6	forcément	forcément	ADV	_	_	4	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	enfin	enfin	ADV	_	_	11	discourse	_	ExtPos=INTJ|SpaceAfter=No
+8	enfin	enfin	ADV	_	ExtPos=INTJ	11	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj	_	SpaceAfter=No
 11	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	conj:dicto	_	_
@@ -300,7 +300,7 @@
 30	venais	venir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	28	comp:obj	_	_
 31	d'	d'	ADP	_	_	30	comp:obl	_	SpaceAfter=No
 32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	bac	bac	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	ExtPos=NOUN|Idiom=Yes
+33	bac	bac	NOUN	_	ExtPos=NOUN|Gender=Masc|Number=Sing	31	comp:obj	_	Idiom=Yes
 34	S	S	PROPN	_	_	33	mod	_	InIdiom=Yes|SpaceAfter=No
 35	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -335,7 +335,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
 1	ah	ah	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	oui	oui	ADV	_	_	0	root	_	AttachTo=3@ParisStories_2021_discussionSansAbris_13|ExtPos=INTJ|Rel=discourse|SpaceAfter=No
+3	oui	oui	ADV	_	ExtPos=INTJ	0	root	_	AttachTo=3@ParisStories_2021_discussionSansAbris_13|Rel=discourse|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	d'	d'	ADP	_	_	3	conj:dicto	_	SpaceAfter=No
 6	accord	accord	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
@@ -552,7 +552,7 @@
 # sent_id = ParisStories_2021_discussionSansAbris_23
 # text = enfin c'est vraiment, euh, histoire de donner quelque chose.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
-1	enfin	enfin	ADV	_	_	3	discourse	_	ExtPos=INTJ
+1	enfin	enfin	ADV	_	ExtPos=INTJ	3	discourse	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	vraiment	vraiment	ADV	_	_	3	mod	_	SpaceAfter=No
@@ -685,10 +685,10 @@
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	de	de	ADP	_	_	14	conj:dicto	_	_
 18	SDF	SDF	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
-19	enfin	enfin	ADV	_	_	20	discourse	_	ExtPos=INTJ
+19	enfin	enfin	ADV	_	ExtPos=INTJ	20	discourse	_	_
 20	pas	pas	ADV	_	_	10	mod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	27	punct	_	_
-22	enfin	enfin	ADV	_	_	27	discourse	_	ExtPos=INTJ
+22	enfin	enfin	ADV	_	ExtPos=INTJ	27	discourse	_	_
 23	en	en	ADP	_	_	27	mod	_	_
 24	tout	tout	ADJ	_	Gender=Masc|Number=Sing	25	mod	_	_
 25	cas	cas	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
@@ -832,7 +832,7 @@
 5	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 6	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp@expl	_	SpaceAfter=No
 7	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	comp:obj	_	_
-8	XXX	XXX	X	_	_	7	comp:obj	_	ExtPos=X|SpaceAfter=No
+8	XXX	XXX	X	_	ExtPos=X	7	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_discussionSansAbris_37

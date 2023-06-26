@@ -109,7 +109,7 @@
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	AlignBegin=16757|AlignEnd=16982
 17	beaucoup	beaucoup	ADV	_	_	18	mod	_	AlignBegin=16982|AlignEnd=17291
 18	rapprochés	rapprocher	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	AlignBegin=17291|AlignEnd=17600
-19	aus~	aus~	X	_	_	18	discourse	_	AlignBegin=17600|AlignEnd=17909|ExtPos=ADV|SpaceAfter=No
+19	aus~	aus~	X	_	ExtPos=ADV	18	discourse	_	AlignBegin=17600|AlignEnd=17909|SpaceAfter=No
 20	,	,	PUNCT	_	_	16	punct	_	AlignBegin=17909|AlignEnd=17909
 21	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	subj	_	AlignBegin=17909|AlignEnd=18218|SpaceAfter=No
 22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj:dicto	_	AlignBegin=18218|AlignEnd=18526
@@ -119,7 +119,7 @@
 25	deuxième	deuxième	ADJ	_	_	26	mod	_	AlignBegin=18835|AlignEnd=19144
 26	semestre	semestre	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	AlignBegin=19144|AlignEnd=19453|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	AlignBegin=19453|AlignEnd=19453
-28	parce	parce	ADV	_	_	22	mod	_	AlignBegin=19453|AlignEnd=19913|ExtPos=SCONJ|Idiom=Yes
+28	parce	parce	ADV	_	ExtPos=SCONJ	22	mod	_	AlignBegin=19453|AlignEnd=19913|Idiom=Yes
 29	que	que	SCONJ	_	_	28	unk	_	AlignBegin=19913|AlignEnd=20374|InIdiom=Yes
 30	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	subj@expl	_	AlignBegin=20374|AlignEnd=20834
 31	y	y	PRON	_	Person=3|PronType=Prs	33	comp:obl	_	AlignBegin=20834|AlignEnd=21294
@@ -185,7 +185,7 @@
 13	quand	quand	SCONJ	_	_	5	conj:dicto	_	AlignBegin=32323|AlignEnd=32738
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	AlignBegin=32738|AlignEnd=33153
 15	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	comp:obj	_	AlignBegin=33153|AlignEnd=33567
-16	manif~	manif~	X	_	_	15	comp:obj	_	AlignBegin=33567|AlignEnd=33982|ExtPos=VERB
+16	manif~	manif~	X	_	ExtPos=VERB	15	comp:obj	_	AlignBegin=33567|AlignEnd=33982
 17	…	…	PUNCT	_	_	3	punct	_	AlignBegin=33982|AlignEnd=33982
 
 # sent_id = ParisStories_2022_17_manifSorbRock__9
@@ -293,9 +293,9 @@
 # text = mais, oui oui oui, bien sûr.
 1	mais	mais	CCONJ	_	_	3	cc	_	AlignBegin=45190|AlignEnd=45450|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=45450|AlignEnd=45450
-3	oui	oui	ADV	_	_	0	root	_	AlignBegin=45450|AlignEnd=45709|ExtPos=INTJ
-4	oui	oui	ADV	_	_	3	conj:coord	_	AlignBegin=45709|AlignEnd=45969|ExtPos=INTJ
-5	oui	oui	ADV	_	_	4	conj:coord	_	AlignBegin=45969|AlignEnd=46228|ExtPos=INTJ|SpaceAfter=No
+3	oui	oui	ADV	_	ExtPos=INTJ	0	root	_	AlignBegin=45450|AlignEnd=45709
+4	oui	oui	ADV	_	ExtPos=INTJ	3	conj:coord	_	AlignBegin=45709|AlignEnd=45969
+5	oui	oui	ADV	_	ExtPos=INTJ	4	conj:coord	_	AlignBegin=45969|AlignEnd=46228|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=46228|AlignEnd=46228
 7	bien	bien	ADV	_	_	8	mod	_	AlignBegin=46228|AlignEnd=46488
 8	sûr	sûr	ADV	_	_	3	mod	_	AlignBegin=46488|AlignEnd=46747|SpaceAfter=No
@@ -305,7 +305,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = parce que tu m'avais dit que c'était euh, quoi, c'était en janvier où vous avez commencé à vous connaître ?
-1	parce	parce	ADV	_	_	0	root	_	AlignBegin=46747|AlignEnd=46918|ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=46747|AlignEnd=46918|Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=46918|AlignEnd=47089|InIdiom=Yes
 3	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	5	subj	_	AlignBegin=47089|AlignEnd=47260
 4	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	comp:obl	_	AlignBegin=47260|AlignEnd=47431|SpaceAfter=No
@@ -343,7 +343,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=54646|AlignEnd=54646
 7	avant	avant	ADV	_	_	0	root	_	AlignBegin=54646|AlignEnd=54955|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=54955|AlignEnd=54955
-9	parce	parce	ADV	_	_	7	conj:dicto	_	AlignBegin=54955|AlignEnd=55264|ExtPos=SCONJ|Idiom=Yes
+9	parce	parce	ADV	_	ExtPos=SCONJ	7	conj:dicto	_	AlignBegin=54955|AlignEnd=55264|Idiom=Yes
 10	que	que	SCONJ	_	_	9	unk	_	AlignBegin=55264|AlignEnd=55573|InIdiom=Yes
 11	phonologie	phonologie	NOUN	_	Gender=Fem|Number=Sing	14	dislocated	_	AlignBegin=55573|AlignEnd=55883|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	AlignBegin=55883|AlignEnd=55883
@@ -372,7 +372,7 @@
 # speaker = L2
 # text = ah oui.
 1	ah	ah	INTJ	_	_	0	root	_	AlignBegin=57131|AlignEnd=57280
-2	oui	oui	ADV	_	_	1	discourse	_	AlignBegin=57280|AlignEnd=57428|ExtPos=INTJ|SpaceAfter=No
+2	oui	oui	ADV	_	ExtPos=INTJ	1	discourse	_	AlignBegin=57280|AlignEnd=57428|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=57428|AlignEnd=57428
 
 # sent_id = ParisStories_2022_17_manifSorbRock__21
@@ -419,7 +419,7 @@
 # text = mais on s~, la première fois où on s'est rencontré, c'est vraiment, euh, au premier semestre de la L2.
 1	mais	mais	CCONJ	_	_	3	cc	_	AlignBegin=61934|AlignEnd=62119
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	AlignBegin=62119|AlignEnd=62304
-3	s~	s~	X	_	Number=Sing|Person=3	0	root	_	AlignBegin=62304|AlignEnd=62489|ExtPos=VERB|SpaceAfter=No
+3	s~	s~	X	_	ExtPos=VERB|Number=Sing|Person=3	0	root	_	AlignBegin=62304|AlignEnd=62489|SpaceAfter=No
 4	,	,	PUNCT	_	_	15	punct	_	AlignBegin=62489|AlignEnd=62489
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=62489|AlignEnd=62674
 6	première	premier	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	AlignBegin=62674|AlignEnd=62859
@@ -458,7 +458,7 @@
 6	rapprochées	rapprocher	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	AlignBegin=66629|AlignEnd=66885
 7	pendant	pendant	ADP	_	_	6	mod	_	AlignBegin=66885|AlignEnd=67141
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=67141|AlignEnd=67397
-9	mob~	mob~	X	_	_	7	comp:obj	_	AlignBegin=67397|AlignEnd=67653|ExtPos=NOUN|SpaceAfter=No
+9	mob~	mob~	X	_	ExtPos=NOUN	7	comp:obj	_	AlignBegin=67397|AlignEnd=67653|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=67653|AlignEnd=67653
 11	pendant	pendant	ADP	_	_	7	conj:dicto	_	AlignBegin=67653|AlignEnd=67908
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=67908|AlignEnd=68164
@@ -471,7 +471,7 @@
 # text = ouais, p~, ouais.
 1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=68656|AlignEnd=68845|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=68845|AlignEnd=68845
-3	p~	p~	X	_	_	1	conj:dicto	_	AlignBegin=68845|AlignEnd=69034|ExtPos=X|SpaceAfter=No
+3	p~	p~	X	_	ExtPos=X	1	conj:dicto	_	AlignBegin=68845|AlignEnd=69034|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=69034|AlignEnd=69034
 5	ouais	ouais	INTJ	_	_	3	conj:coord	_	AlignBegin=69034|AlignEnd=69223|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	AlignBegin=69223|AlignEnd=69223
@@ -512,7 +512,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=73238|AlignEnd=73238
 4	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	conj:dicto	_	AlignBegin=73238|AlignEnd=73489
 5	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	comp:obj	_	AlignBegin=73489|AlignEnd=73740|SpaceAfter=No
-6	a~	a~	X	_	Number=Sing|Person=3	0	root	_	AlignBegin=73740|AlignEnd=73991|ExtPos=VERB|SpaceAfter=No
+6	a~	a~	X	_	ExtPos=VERB|Number=Sing|Person=3	0	root	_	AlignBegin=73740|AlignEnd=73991|SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	AlignBegin=73991|AlignEnd=73991
 8	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	subj	_	AlignBegin=73991|AlignEnd=74243
 9	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	comp:obj	_	AlignBegin=74243|AlignEnd=74494|SpaceAfter=No
@@ -527,7 +527,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = parce qu'on en a parlé et, moi, j'avais pas du tout capté.
-1	parce	parce	ADV	_	_	0	root	_	AlignBegin=75750|AlignEnd=75937|ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=75750|AlignEnd=75937|Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	AlignBegin=75937|AlignEnd=76124|InIdiom=Yes|SpaceAfter=No
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	AlignBegin=76124|AlignEnd=76311
 4	en	en	PRON	_	Person=3|PronType=Prs	6	comp:obl	_	AlignBegin=76311|AlignEnd=76498
@@ -628,7 +628,7 @@
 9	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=89417|AlignEnd=89624|SpaceAfter=No
 10	,	,	PUNCT	_	_	4	punct	_	AlignBegin=89624|AlignEnd=89624
 11	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	AlignBegin=89624|AlignEnd=89831
-12	con~	con~	X	_	_	0	root	_	AlignBegin=89831|AlignEnd=90038|ExtPos=VERB|SpaceAfter=No
+12	con~	con~	X	_	ExtPos=VERB	0	root	_	AlignBegin=89831|AlignEnd=90038|SpaceAfter=No
 13	,	,	PUNCT	_	_	21	punct	_	AlignBegin=90038|AlignEnd=90038
 14	si	si	SCONJ	_	_	21	mod	_	AlignBegin=90038|AlignEnd=90203
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj	_	AlignBegin=90203|AlignEnd=90367
@@ -654,7 +654,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=92792|AlignEnd=92792
 3	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=92792|AlignEnd=92987
 4	non	non	ADV	_	_	15	discourse	_	AlignBegin=92987|AlignEnd=93181
-5	j~	j~	X	_	_	15	subj	_	AlignBegin=93181|AlignEnd=93375|ExtPos=PRON|SpaceAfter=No
+5	j~	j~	X	_	ExtPos=PRON	15	subj	_	AlignBegin=93181|AlignEnd=93375|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=93375|AlignEnd=93375
 7	non	non	ADV	_	_	4	conj:dicto	_	AlignBegin=93375|AlignEnd=93569|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=93569|AlignEnd=93569
@@ -758,7 +758,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = oui, euh, bah, ouais.
-1	oui	oui	ADV	_	_	0	root	_	AlignBegin=106054|AlignEnd=106326|ExtPos=INTJ|SpaceAfter=No
+1	oui	oui	ADV	_	ExtPos=INTJ	0	root	_	AlignBegin=106054|AlignEnd=106326|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=106326|AlignEnd=106326
 3	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=106326|AlignEnd=106597|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=106597|AlignEnd=106597
@@ -787,7 +787,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = oui mais en même temps, bon, qu'est-ce qu'on irait foutre en école de commerce, hein ?
-1	oui	oui	ADV	_	_	10	discourse	_	AlignBegin=108743|AlignEnd=108941|ExtPos=INTJ
+1	oui	oui	ADV	_	ExtPos=INTJ	10	discourse	_	AlignBegin=108743|AlignEnd=108941
 2	mais	mais	CCONJ	_	_	10	cc	_	AlignBegin=108941|AlignEnd=109139
 3	en	en	ADP	_	_	10	mod	_	AlignBegin=109139|AlignEnd=109337
 4	même	même	ADJ	_	_	5	mod	_	AlignBegin=109337|AlignEnd=109535
@@ -889,7 +889,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = enfin bon, du coup oui, on s'est rapproché pendant la mobilisation, et aussi beaucoup, euh, pendant nos cours de rock, tu sais.
-1	enfin	enfin	ADV	_	_	11	discourse	_	AlignBegin=124523|AlignEnd=124742|ExtPos=INTJ
+1	enfin	enfin	ADV	_	ExtPos=INTJ	11	discourse	_	AlignBegin=124523|AlignEnd=124742
 2	bon	bon	INTJ	_	_	1	discourse	_	AlignBegin=124742|AlignEnd=124961|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=124961|AlignEnd=124961
 4-5	du	_	_	_	_	_	_	_	_

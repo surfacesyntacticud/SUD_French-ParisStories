@@ -18,11 +18,11 @@
 # sent_id = ParisStories_2020_dragQueen_2
 # text = non surtout Eleanor, en fait, qui m'a dit de regarder une émission de RuPaul.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
-1	non	non	ADV	_	_	3	discourse	_	ExtPos=INTJ
+1	non	non	ADV	_	ExtPos=INTJ	3	discourse	_	_
 2	surtout	surtout	ADV	_	_	3	mod	_	_
 3	Eleanor	Eleanor	PROPN	_	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	10	punct	_	_
-5	en	en	ADP	_	_	10	discourse	_	ExtPos=ADV|Idiom=Yes
+5	en	en	ADP	_	ExtPos=ADV	10	discourse	_	Idiom=Yes
 6	fait	fait	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
@@ -40,14 +40,14 @@
 # sent_id = ParisStories_2020_dragQueen_3
 # text = enfin de drag queen, qui s'appelle RuPaul's Drag Race.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
-1	enfin	enfin	ADV	_	_	2	discourse	_	ExtPos=INTJ
+1	enfin	enfin	ADV	_	ExtPos=INTJ	2	discourse	_	_
 2	de	de	ADP	_	_	0	root	_	_
-3	drag	drag	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	ExtPos=NOUN|Idiom=Yes
+3	drag	drag	NOUN	_	ExtPos=NOUN|Gender=Fem|Number=Sing	2	comp:obj	_	Idiom=Yes
 4	queen	queen	NOUN	_	Gender=Fem|Number=Sing	3	flat	_	InIdiom=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	qui	qui	PRON	_	PronType=Rel	8	subj	_	_
 7	s'	soi	PRON	_	Person=3|PronType=Prs	8	comp@expl	_	InIdiom=Yes|SpaceAfter=No
-8	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	ExtPos=VERB|Idiom=Yes
+8	appelle	appeler	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	Idiom=Yes
 9	RuPaul's	Rupaul's	PROPN	_	_	8	comp:obj	_	_
 10	Drag	Drag	PROPN	_	_	9	flat@name	_	_
 11	Race	Race	PROPN	_	_	10	flat@name	_	SpaceAfter=No
@@ -90,11 +90,11 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
 1	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	genre	genre	NOUN	_	_	6	discourse	_	ExtPos=INTJ
+3	genre	genre	NOUN	_	ExtPos=INTJ	6	discourse	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	deuxième	deuxième	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	_
 6	semestre	semestre	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-7	enfin	enfin	ADV	_	_	6	discourse	_	ExtPos=INTJ
+7	enfin	enfin	ADV	_	ExtPos=INTJ	6	discourse	_	_
 8	bref	bref	INTJ	_	_	6	discourse	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -133,7 +133,7 @@
 7	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	en	en	ADP	_	_	8	discourse	_	ExtPos=ADV|Idiom=Yes
+10	en	en	ADP	_	ExtPos=ADV	8	discourse	_	Idiom=Yes
 11	fait	fait	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	qu'	que	SCONJ	_	_	8	comp:obj	_	SpaceAfter=No
@@ -166,7 +166,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
 1	et	et	CCONJ	_	_	10	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	en	en	ADP	_	_	1	discourse	_	ExtPos=ADV|Idiom=Yes
+3	en	en	ADP	_	ExtPos=ADV	1	discourse	_	Idiom=Yes
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
@@ -181,7 +181,7 @@
 # sent_id = ParisStories_2020_dragQueen_10
 # text = sauf que Maude finalement, euh, partait au Portugal et ça tombait pile, sur ce pile, sur la date, de ce spectacle.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
-1	sauf	sauf	ADP	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+1	sauf	sauf	ADP	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	Maude	Maude	PROPN	_	_	8	subj	_	_
 4	finalement	finalement	ADV	_	_	8	mod	_	SpaceAfter=No
@@ -220,7 +220,7 @@
 4	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	_	4	mod	_	_
 6-7	du	_	_	_	_	_	_	_	_
-6	de	de	ADP	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes
+6	de	de	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	InIdiom=Yes
 8	tout	tout	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	InIdiom=Yes
 9	changer	changer	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising
@@ -238,7 +238,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
 1	donc	donc	ADV	_	_	8	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	en	en	ADP	_	_	8	discourse	_	ExtPos=ADV|Idiom=Yes
+3	en	en	ADP	_	ExtPos=ADV	8	discourse	_	Idiom=Yes
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	subj	_	_
@@ -295,7 +295,7 @@
 3	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	mais	mais	CCONJ	_	_	1	conj:dicto	_	_
-6	voilà	voilà	VERB	_	_	14	discourse	_	ExtPos=INTJ|SpaceAfter=No
+6	voilà	voilà	VERB	_	ExtPos=INTJ	14	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	14	discourse	_	_
@@ -326,7 +326,7 @@
 11	plus	plus	ADV	_	_	10	mod	_	_
 12	exactement	exactement	ADV	_	_	10	mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	enfin	enfin	ADV	_	_	2	discourse	_	ExtPos=INTJ
+14	enfin	enfin	ADV	_	ExtPos=INTJ	2	discourse	_	_
 15	bref	bref	INTJ	_	_	2	discourse	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -344,8 +344,8 @@
 9	ou	ou	CCONJ	_	_	10	cc	_	_
 10	en	en	ADP	_	_	7	conj:coord	_	_
 11	mai	mai	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
-12	enfin	enfin	ADV	_	_	2	discourse	_	ExtPos=INTJ
-13	voilà	voilà	VERB	_	_	2	discourse	_	ExtPos=INTJ|SpaceAfter=No
+12	enfin	enfin	ADV	_	ExtPos=INTJ	2	discourse	_	_
+13	voilà	voilà	VERB	_	ExtPos=INTJ	2	discourse	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_dragQueen_18
@@ -407,7 +407,7 @@
 15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	subj	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj:coord	_	_
 17	mangé	manger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
-18	d'	de	ADP	_	_	17	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+18	d'	de	ADP	_	ExtPos=ADV	17	mod	_	Idiom=Yes|SpaceAfter=No
 19	abord	abord	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 20	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -515,7 +515,7 @@
 # sent_id = ParisStories_2020_dragQueen_27
 # text = en fait, euh, il devait y avoir certaines drag queens à la base, qui étaient annoncés.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
-1	en	en	ADP	_	_	7	discourse	_	ExtPos=ADV|Idiom=Yes
+1	en	en	ADP	_	ExtPos=ADV	7	discourse	_	Idiom=Yes
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
@@ -525,7 +525,7 @@
 8	y	y	PRON	_	Person=3|PronType=Prs	9	comp:obl	_	_
 9	avoir	avoir	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
 10	certaines	certain	DET	_	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
-11	drag	drag	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	ExtPos=NOUN|Idiom=Yes
+11	drag	drag	NOUN	_	ExtPos=NOUN|Gender=Fem|Number=Plur	9	comp:obj	_	Idiom=Yes
 12	queens	queen	NOUN	_	Gender=Fem|Number=Plur	11	flat	_	InIdiom=Yes
 13	à	à	ADP	_	_	7	mod	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -561,7 +561,7 @@
 8	y	y	PRON	_	Person=3|PronType=Prs	10	comp	_	_
 9	en	en	PRON	_	Person=3|PronType=Prs	10	comp:obl	_	_
 10	avoir	avoir	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
-11	genre	genre	NOUN	_	_	15	discourse	_	ExtPos=INTJ|SpaceAfter=No
+11	genre	genre	NOUN	_	ExtPos=INTJ	15	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
@@ -582,7 +582,7 @@
 29	savait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	mod@relcl	_	_
 30	pas	pas	ADV	_	_	29	mod	_	_
 31-32	du	_	_	_	_	_	_	_	_
-31	de	de	ADP	_	_	30	mod	_	ExtPos=ADV|Idiom=Yes
+31	de	de	ADP	_	ExtPos=ADV	30	mod	_	Idiom=Yes
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	InIdiom=Yes
 33	tout	tout	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 34	.	.	PUNCT	_	_	4	punct	_	_
@@ -603,13 +603,13 @@
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	12	det	_	_
 12	salle	salle	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13	et	et	CCONJ	_	_	14	cc	_	InIdiom=Yes
-14	tout	tout	ADV	_	_	12	conj:coord	_	ExtPos=ADV|Idiom=Yes
+14	tout	tout	ADV	_	ExtPos=ADV	12	conj:coord	_	Idiom=Yes
 15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	subj	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:coord	_	_
 17	essayé	essayer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 18	de	de	ADP	_	_	17	comp:obl	_	_
 19	se	soi	PRON	_	Person=3|PronType=Prs	20	comp:obj	_	InIdiom=Yes
-20	mettre	mettre	VERB	_	VerbForm=Inf	18	comp:obj	_	ExtPos=VERB|Idiom=Yes|Subject=SubjRaising
+20	mettre	mettre	VERB	_	ExtPos=VERB|VerbForm=Inf	18	comp:obj	_	Idiom=Yes|Subject=SubjRaising
 21	sur	sur	ADP	_	_	20	comp:obl	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	côté	côté	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
@@ -620,7 +620,7 @@
 # text = un peu en hauteur pour bien voir la scène, même si il y avait un bon gros, une bonne grosse sono au milieu.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
 1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	InIdiom=Yes
-2	peu	peu	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	ExtPos=ADV|Idiom=Yes
+2	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	3	mod	_	Idiom=Yes
 3	en	en	ADP	_	_	0	root	_	_
 4	hauteur	hauteur	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 5	pour	pour	ADP	_	_	3	mod	_	_
@@ -672,7 +672,7 @@
 # sent_id = ParisStories_2020_dragQueen_34
 # text = parce qu'au milieu on aurait été vraiment trop bas.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
-1	parce	parce	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3-4	au	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	7	mod	_	_

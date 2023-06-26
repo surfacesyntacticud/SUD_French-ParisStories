@@ -5,7 +5,7 @@
 1	vas	aller	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	-y	y	PRON	_	Person=3|PronType=Prs	1	comp:obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	oui	oui	ADV	_	_	1	discourse	_	ExtPos=INTJ|SpaceAfter=No
+4	oui	oui	ADV	_	ExtPos=INTJ	1	discourse	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2020_anecdoteMetro_2
@@ -19,7 +19,7 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	coup	coup	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	en	en	ADP	_	_	1	discourse	_	ExtPos=ADV|Idiom=Yes
+8	en	en	ADP	_	ExtPos=ADV	1	discourse	_	Idiom=Yes
 9	fait	fait	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -61,8 +61,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/c23dd378fea7354328183e843978217a75e48512
 1	ben	ben	INTJ	_	_	10	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	genre	genre	NOUN	_	_	10	discourse	_	ExtPos=INTJ
-4	en	en	ADP	_	_	10	discourse	_	ExtPos=ADV|Idiom=Yes
+3	genre	genre	NOUN	_	ExtPos=INTJ	10	discourse	_	_
+4	en	en	ADP	_	ExtPos=ADV	10	discourse	_	Idiom=Yes
 5	fait	fait	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
@@ -88,7 +88,7 @@
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	unk@scrap	_	_
 2	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	1	unk@scrap	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	en	en	ADP	_	_	13	discourse	_	ExtPos=ADV|Idiom=Yes
+4	en	en	ADP	_	ExtPos=ADV	13	discourse	_	Idiom=Yes
 5	fait	fait	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	InIdiom=Yes
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	10	mod	_	_
@@ -203,19 +203,19 @@
 5	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	SpaceAfter=No
 7	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj:dicto	_	_
-8	pile	pile	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	ExtPos=ADV|Idiom=Yes
+8	pile	pile	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	7	mod	_	Idiom=Yes
 9	poil	poil	NOUN	_	Gender=Masc|Number=Sing	8	unk	_	InIdiom=Yes
 10	pour	pour	ADP	_	_	7	mod	_	_
 11	le	lui	PRON	_	Gender=Masc|Number=Sing|PronType=Prs	12	comp:obj	_	_
 12	prendre	prendre	VERB	_	VerbForm=Inf	10	comp:obj	_	SpaceAfter=No|Subject=NoRaising
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	et	et	CCONJ	_	_	15	cc	_	InIdiom=Yes
-15	tout	tout	ADV	_	_	12	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+15	tout	tout	ADV	_	ExtPos=ADV	12	conj:coord	_	Idiom=Yes|SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	super	super	ADV	_	_	18	mod	_	_
 18	contente	content	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
 19	et	et	CCONJ	_	_	20	cc	_	InIdiom=Yes
-20	tout	tout	ADV	_	_	18	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+20	tout	tout	ADV	_	ExtPos=ADV	18	conj:coord	_	Idiom=Yes|SpaceAfter=No
 21	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2020_anecdoteMetro_12
@@ -229,7 +229,7 @@
 6	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
 7	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	_
 8	qu'	que	SCONJ	_	_	7	comp:obj	_	SpaceAfter=No
-9	en	en	ADP	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes
+9	en	en	ADP	_	ExtPos=ADV	15	mod	_	Idiom=Yes
 10	fait	fait	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	InIdiom=Yes
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	bus	bus	NOUN	_	Gender=Masc|Number=Sing	15	dislocated	_	SpaceAfter=No
@@ -262,7 +262,7 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	genre	genre	NOUN	_	_	10	discourse	_	ExtPos=INTJ|SpaceAfter=No
+5	genre	genre	NOUN	_	ExtPos=INTJ	10	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	ben	ben	INTJ	_	_	5	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
@@ -278,7 +278,7 @@
 # sent_id = ParisStories_2020_anecdoteMetro_15
 # text = enfin, j'ai réussi à serrer dedans et, mais on était assez serré quand même.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/c23dd378fea7354328183e843978217a75e48512
-1	enfin	enfin	ADV	_	_	4	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -293,7 +293,7 @@
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj:coord	_	_
 14	assez	assez	ADV	_	_	15	mod	_	_
 15	serré	serrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:pred	_	_
-16	quand	quand	SCONJ	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
+16	quand	quand	SCONJ	_	ExtPos=ADV	13	mod	_	Idiom=Yes
 17	même	même	ADV	_	_	16	unk	_	InIdiom=Yes|SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -301,7 +301,7 @@
 # text = et en fait le…
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/c23dd378fea7354328183e843978217a75e48512
 1	et	et	CCONJ	_	_	2	cc	_	_
-2	en	en	ADP	_	_	0	root	_	ExtPos=ADV|Idiom=Yes
+2	en	en	ADP	_	ExtPos=ADV	0	root	_	Idiom=Yes
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	InIdiom=Yes
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	unk@scrap	_	SpaceAfter=No
 5	…	…	PUNCT	_	_	2	punct	_	_
@@ -324,7 +324,7 @@
 13	montaient	monter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	mod@relcl	_	_
 14	etc	etc	ADV	_	_	13	conj:coord	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	9	punct	_	_
-16	enfin	enfin	ADV	_	_	19	discourse	_	ExtPos=INTJ|SpaceAfter=No
+16	enfin	enfin	ADV	_	ExtPos=INTJ	19	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	subj	_	SpaceAfter=No
 19	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj:coord	_	_
@@ -334,7 +334,7 @@
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
 25	matin	matin	NOUN	_	Gender=Masc|Number=Sing	24	mod	_	_
-26	quand	quand	SCONJ	_	_	19	discourse	_	ExtPos=ADV|Idiom=Yes
+26	quand	quand	SCONJ	_	ExtPos=ADV	19	discourse	_	Idiom=Yes
 27	même	même	ADV	_	_	26	unk	_	InIdiom=Yes
 28	!	!	PUNCT	_	_	2	punct	_	_
 
@@ -345,8 +345,8 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	genre	genre	NOUN	_	_	6	discourse	_	ExtPos=INTJ
-6	en	en	ADP	_	_	0	root	_	ExtPos=ADV|Idiom=Yes
+5	genre	genre	NOUN	_	ExtPos=INTJ	6	discourse	_	_
+6	en	en	ADP	_	ExtPos=ADV	0	root	_	Idiom=Yes
 7	fait	faire	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
@@ -374,7 +374,7 @@
 # text = et en fait, euh, ce qui s'est passé, c'est que genre, euh, il y a des gens, en fait, ils étaient pressés de descendre.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/c23dd378fea7354328183e843978217a75e48512
 1	et	et	CCONJ	_	_	14	cc	_	_
-2	en	en	ADP	_	_	14	discourse	_	ExtPos=ADV|Idiom=Yes
+2	en	en	ADP	_	ExtPos=ADV	14	discourse	_	Idiom=Yes
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
@@ -388,7 +388,7 @@
 13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	subj	_	SpaceAfter=No
 14	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	que	que	SCONJ	_	_	14	comp:pred	_	_
-16	genre	genre	NOUN	_	_	30	discourse	_	ExtPos=INTJ|SpaceAfter=No
+16	genre	genre	NOUN	_	ExtPos=INTJ	30	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	euh	euh	INTJ	_	_	30	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
@@ -398,7 +398,7 @@
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
 24	gens	gens	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
-26	en	en	ADP	_	_	30	discourse	_	ExtPos=ADV|Idiom=Yes
+26	en	en	ADP	_	ExtPos=ADV	30	discourse	_	Idiom=Yes
 27	fait	faire	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
 29	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	subj	_	_
@@ -429,7 +429,7 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	en	en	ADP	_	_	11	discourse	_	ExtPos=ADV|Idiom=Yes
+5	en	en	ADP	_	ExtPos=ADV	11	discourse	_	Idiom=Yes
 6	fait	faire	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	dislocated	_	SpaceAfter=No
@@ -439,7 +439,7 @@
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	14	subj	_	_
 14	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	discourse	_	_
-15	genre	genre	NOUN	_	_	14	discourse	_	ExtPos=INTJ|SpaceAfter=No
+15	genre	genre	NOUN	_	ExtPos=INTJ	14	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	subj	_	SpaceAfter=No
 18	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	conj:dicto	_	SpaceAfter=No
@@ -448,7 +448,7 @@
 # sent_id = ParisStories_2020_anecdoteMetro_23
 # text = en fait, tu vois, je suis je commençais à descendre, j'étais à coté de la porte du bus, je voulais descendre.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/c23dd378fea7354328183e843978217a75e48512
-1	en	en	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes
+1	en	en	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	5	subj	_	_
@@ -487,12 +487,12 @@
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	SpaceAfter=No
 5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	qu'	que	SCONJ	_	_	5	comp:pred	_	SpaceAfter=No
-7	en	en	ADP	_	_	11	discourse	_	ExtPos=ADV|Idiom=Yes
+7	en	en	ADP	_	ExtPos=ADV	11	discourse	_	Idiom=Yes
 8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	_
 11	pied	pied	NOUN	_	Gender=Masc|Number=Sing	15	dislocated	_	_
-12	genre	genre	NOUN	_	_	15	discourse	_	ExtPos=INTJ|SpaceAfter=No
+12	genre	genre	NOUN	_	ExtPos=INTJ	15	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj	_	_
 15	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	comp:obj	_	_
@@ -526,11 +526,11 @@
 7	côté	côté	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 8	de	de	ADP	_	_	7	mod	_	_
 9	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	_
-10	genre	genre	NOUN	_	_	9	discourse	_	ExtPos=INTJ|SpaceAfter=No
+10	genre	genre	NOUN	_	ExtPos=INTJ	9	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
-14	enfin	enfin	ADV	_	_	16	discourse	_	ExtPos=INTJ|SpaceAfter=No
+14	enfin	enfin	ADV	_	ExtPos=INTJ	16	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	à	à	ADP	_	_	6	conj:dicto	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -571,8 +571,8 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	genre	genre	NOUN	_	_	13	discourse	_	ExtPos=INTJ
-6	en	en	ADP	_	_	13	discourse	_	ExtPos=ADV|Idiom=Yes
+5	genre	genre	NOUN	_	ExtPos=INTJ	13	discourse	_	_
+6	en	en	ADP	_	ExtPos=ADV	13	discourse	_	Idiom=Yes
 7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	13	punct	_	_
 9	ben	ben	INTJ	_	_	13	discourse	_	SpaceAfter=No
@@ -592,7 +592,7 @@
 3	de	de	ADP	_	_	2	mod	_	_
 4	foule	foule	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	en	en	ADP	_	_	2	discourse	_	ExtPos=ADV|Idiom=Yes
+6	en	en	ADP	_	ExtPos=ADV	2	discourse	_	Idiom=Yes
 7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	_
 9	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
@@ -620,7 +620,7 @@
 # sent_id = ParisStories_2020_anecdoteMetro_31
 # text = en fait, je suis tombée sur ma cheville du coup, genre, euh, mais un coup sec.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/c23dd378fea7354328183e843978217a75e48512
-1	en	en	ADP	_	_	5	discourse	_	ExtPos=ADV|Idiom=Yes
+1	en	en	ADP	_	ExtPos=ADV	5	discourse	_	Idiom=Yes
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
@@ -634,7 +634,7 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	coup	coup	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	5	punct	_	_
-14	genre	genre	NOUN	_	_	20	discourse	_	ExtPos=INTJ|SpaceAfter=No
+14	genre	genre	NOUN	_	ExtPos=INTJ	20	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	14	punct	_	_
@@ -711,7 +711,7 @@
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	subj	_	_
 19	disait	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj:dicto	_	_
-20	non	non	ADV	_	_	23	discourse	_	ExtPos=INTJ
+20	non	non	ADV	_	ExtPos=INTJ	23	discourse	_	_
 21	mais	mais	CCONJ	_	_	23	cc	_	_
 22	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	23	subj	_	_
 23	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	comp:obj	_	Reported=Yes

@@ -166,7 +166,7 @@
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	faisais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	que	que	ADV	_	_	8	mod	_	_
-6	de	de	ADP	_	_	8	det	_	ExtPos=DET|Idiom=Yes
+6	de	de	ADP	_	ExtPos=DET	8	det	_	Idiom=Yes
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	unk	_	InIdiom=Yes|SpaceAfter=No
 8	obstacle	obstacle	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
@@ -372,7 +372,7 @@
 # sent_id = ParisStories_2019_concoursEquitation_27
 # text = parce que déjà les, les musiques, enfin c'est…
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
-1	parce	parce	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	déjà	déjà	ADV	_	_	11	discourse	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	SpaceAfter=No
@@ -380,7 +380,7 @@
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	conj:dicto	_	_
 7	musiques	musique	NOUN	_	Gender=Fem|Number=Plur	11	dislocated	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	enfin	enfin	ADV	_	_	7	discourse	_	ExtPos=INTJ
+9	enfin	enfin	ADV	_	ExtPos=INTJ	7	discourse	_	_
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	SpaceAfter=No
 12	…	…	PUNCT	_	_	1	punct	_	_
@@ -451,7 +451,7 @@
 # sent_id = ParisStories_2019_concoursEquitation_33
 # text = parce qu'on a pas le droit d'avoir, euh, de prendre une musique et de la laisser, euh, pendant que tu fais ta truc, ta, ta reprise, c'est interdit !
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
-1	parce	parce	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
@@ -474,7 +474,7 @@
 21	,	,	PUNCT	_	_	24	punct	_	_
 22	euh	euh	INTJ	_	_	24	discourse	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
-24	pendant	pendant	ADP	_	_	20	mod	_	ExtPos=ADV|Idiom=Yes
+24	pendant	pendant	ADP	_	ExtPos=ADV	20	mod	_	Idiom=Yes
 25	que	que	SCONJ	_	_	24	unk	_	InIdiom=Yes
 26	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	27	subj	_	_
 27	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	24	comp:obj	_	_
@@ -559,7 +559,7 @@
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	7	subj	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	fa~	fa~	X	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	ExtPos=VERB|SpaceAfter=No
+8	fa~	fa~	X	DoubleAux	ExtPos=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	_
@@ -599,9 +599,9 @@
 20	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	21	subj	_	_
 21	accompagnes	accompagne	VERB	_	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	comp:obj	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	_
-23	enfin	enfin	ADV	_	_	25	discourse	_	ExtPos=INTJ|SpaceAfter=No
+23	enfin	enfin	ADV	_	ExtPos=INTJ	25	discourse	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
-25	pour	pour	ADP	_	_	21	mod	_	ExtPos=ADV|Idiom=Yes
+25	pour	pour	ADP	_	ExtPos=ADV	21	mod	_	Idiom=Yes
 26	que	que	SCONJ	_	_	25	unk	_	InIdiom=Yes
 27	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	28	subj	_	_
 28	mettes	metter	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	25	comp:obj	_	_
@@ -734,7 +734,7 @@
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	re~	re~	X	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	ExtPos=VERB|SpaceAfter=No
+7	re~	re~	X	_	ExtPos=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	recouvert	recouvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj:dicto	_	_
 10	de	de	ADP	_	_	9	comp:obl	_	_
@@ -751,12 +751,12 @@
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 5	petites	petit	ADJ	_	Gender=Fem|Number=Plur	6	mod	_	_
 6	perles	perle	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
-7	pour	pour	ADP	_	_	3	mod	_	ExtPos=ADV|Idiom=Yes
+7	pour	pour	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes
 8	que	que	SCONJ	_	_	7	unk	_	InIdiom=Yes
 9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	_
 10	fasse	faire	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	InIdiom=Yes
-12	peu	peu	NOUN	_	Gender=Masc|Number=Sing	16	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+12	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	16	mod	_	Idiom=Yes|SpaceAfter=No
 13	,	,	PUNCT	_	_	11	punct	_	_
 14	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
@@ -790,7 +790,7 @@
 4	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	immense	immense	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
-7	ju~	ju~	X	_	Gender=Fem|Number=Sing	4	comp:obj	_	ExtPos=NOUN
+7	ju~	ju~	X	_	ExtPos=NOUN|Gender=Fem|Number=Sing	4	comp:obj	_	_
 8	jupe	jupe	NOUN	_	Gender=Fem|Number=Sing	7	conj:dicto	_	_
 9	sur	sur	ADP	_	_	8	mod	_	_
 10	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp:obj	_	SpaceAfter=No

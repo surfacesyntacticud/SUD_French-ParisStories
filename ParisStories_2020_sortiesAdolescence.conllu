@@ -2,7 +2,7 @@
 # sent_id = ParisStories_2020_sortiesAdolescence_1
 # text = non mais franchement l'adolescence c'est, c'est quelque chose quand même, de bizarre.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
-1	non	non	ADV	_	_	7	discourse	_	ExtPos=INTJ
+1	non	non	ADV	_	ExtPos=INTJ	7	discourse	_	_
 2	mais	mais	CCONJ	_	_	7	cc	_	_
 3	franchement	franchement	ADV	_	_	7	mod	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
@@ -14,7 +14,7 @@
 10	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj:dicto	_	_
 11	quelque	quelque	DET	_	Number=Sing|PronType=Ind	12	det	_	_
 12	chose	chose	NOUN	_	Gender=Fem|Number=Sing	10	comp:pred	_	_
-13	quand	quand	SCONJ	_	_	10	mod	_	ExtPos=ADV|Idiom=Yes
+13	quand	quand	SCONJ	_	ExtPos=ADV	10	mod	_	Idiom=Yes
 14	même	même	ADV	_	_	13	unk	_	InIdiom=Yes|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	de	de	ADP	_	_	12	mod	_	_
@@ -37,7 +37,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	3	subj	_	_
 2	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	comp@expl	_	InIdiom=Yes
-3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
+3	souviens	souvenir	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Idiom=Yes
 4	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	5	det	_	_
 5	adolescence	adolescence	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
@@ -60,7 +60,7 @@
 # text = tout d'abord bah, je pense que c'est mes parents qui ont commencé, à être comme ça, parce que, de base moi j'étais quand même un enfant calme et, j'étais enfermé H vingt-quatre, mais tout le temps, j'avais pas le droit de sortir.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 1	tout	tout	ADV	_	_	2	mod	_	_
-2	d'	de	ADP	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+2	d'	de	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes|SpaceAfter=No
 3	abord	abord	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	InIdiom=Yes
 4	bah	bah	INTJ	_	_	2	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -80,7 +80,7 @@
 19	comme	comme	ADP	_	_	18	comp:pred	_	_
 20	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	parce	parce	ADV	_	_	14	mod	_	ExtPos=SCONJ|Idiom=Yes
+22	parce	parce	ADV	_	ExtPos=SCONJ	14	mod	_	Idiom=Yes
 23	que	que	SCONJ	_	_	22	unk	_	InIdiom=Yes|SpaceAfter=No
 24	,	,	PUNCT	_	_	29	punct	_	_
 25	de	de	ADP	_	_	29	mod	_	_
@@ -88,7 +88,7 @@
 27	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	29	dislocated	_	_
 28	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	29	subj	_	SpaceAfter=No
 29	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	22	comp:obj	_	_
-30	quand	quand	SCONJ	_	_	29	mod	_	ExtPos=ADV|Idiom=Yes
+30	quand	quand	SCONJ	_	ExtPos=ADV	29	mod	_	Idiom=Yes
 31	même	même	ADV	_	_	30	unk	_	InIdiom=Yes
 32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	enfant	enfant	NOUN	_	Gender=Masc|Number=Sing	29	comp:pred	_	_
@@ -149,9 +149,9 @@
 # sent_id = ParisStories_2020_sortiesAdolescence_6
 # text = parce qu'en fait il y avait ce qu'on appelait les concerts boom.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
-1	parce	parce	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
-3	en	en	ADP	_	_	7	discourse	_	ExtPos=ADV|Idiom=Yes
+3	en	en	ADP	_	ExtPos=ADV	7	discourse	_	Idiom=Yes
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	InIdiom=Yes
 5	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
 6	y	y	PRON	_	Person=3|PronType=Prs	7	comp@expl	_	_
@@ -227,7 +227,7 @@
 3	connaissez	connaître	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	InIdiom=Yes
 5	petit	petit	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	InIdiom=Yes
-6	peu	peu	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	ExtPos=ADV|Idiom=Yes
+6	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	3	mod	_	Idiom=Yes
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	8	det	_	_
 8	légende	légende	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
@@ -272,7 +272,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	bon	bon	INTJ	_	_	16	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	enfin	enfin	ADV	_	_	7	discourse	_	ExtPos=INTJ
+16	enfin	enfin	ADV	_	ExtPos=INTJ	7	discourse	_	_
 17	bref	bref	INTJ	_	_	7	discourse	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -284,7 +284,7 @@
 3	et	et	CCONJ	_	_	8	cc	_	_
 4	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	dislocated	_	_
 5	bien	bien	ADV	_	_	6	mod	_	InIdiom=Yes
-6	sûr	sûr	ADV	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes
+6	sûr	sûr	ADV	_	ExtPos=ADV	8	mod	_	Idiom=Yes
 7	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	SpaceAfter=No
 8	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	pas	pas	ADV	_	_	8	mod	_	_
@@ -295,7 +295,7 @@
 # sent_id = ParisStories_2020_sortiesAdolescence_12
 # text = déjà que mes parents étaient assez pratiquants, assez à cheval au niveau de la religion.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
-1	déjà	déjà	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+1	déjà	déjà	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	_
 4	parents	parent	NOUN	_	Gender=Masc|Number=Plur	5	subj	_	_
@@ -323,9 +323,9 @@
 3	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
 4	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obl	_	_
 5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Person=3|VerbForm=Part	2	mod@relcl	_	_
-6	non	non	ADV	_	_	5	discourse	_	ExtPos=INTJ|SpaceAfter=No
+6	non	non	ADV	_	ExtPos=INTJ	5	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	non	non	ADV	_	_	6	discourse	_	ExtPos=INTJ|SpaceAfter=No
+8	non	non	ADV	_	ExtPos=INTJ	6	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Reported=Yes
@@ -462,7 +462,7 @@
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	comp:obl	_	_
 22	dire	dire	VERB	_	VerbForm=Inf	16	conj:coord	_	Subject=SubjRaising
-23	oui	oui	ADV	_	_	25	discourse	_	ExtPos=INTJ|SpaceAfter=No
+23	oui	oui	ADV	_	ExtPos=INTJ	25	discourse	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	Reported=Yes
 26	voir	voir	VERB	_	VerbForm=Inf	25	comp:obj	_	Subject=NoRaising
@@ -470,7 +470,7 @@
 28	père	père	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	31	punct	_	_
 30	et	et	CCONJ	_	_	31	cc	_	InIdiom=Yes
-31	tout	tout	ADV	_	_	26	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+31	tout	tout	ADV	_	ExtPos=ADV	26	conj:coord	_	Idiom=Yes|SpaceAfter=No
 32	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_sortiesAdolescence_19
@@ -479,7 +479,7 @@
 1	dis	dire	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	comp:obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
-4	s~	s~	X	_	_	6	unk@scrap	_	ExtPos=X|SpaceAfter=No
+4	s~	s~	X	_	ExtPos=X	6	unk@scrap	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	dis	dire	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	conj:dicto	_	_
 7	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	comp:obl	_	_
@@ -548,7 +548,7 @@
 # text = bah oui, qui l'a jamais fait.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 1	bah	bah	INTJ	_	_	6	discourse	_	_
-2	oui	oui	ADV	_	_	6	discourse	_	ExtPos=INTJ|SpaceAfter=No
+2	oui	oui	ADV	_	ExtPos=INTJ	6	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	qui	qui	PRON	_	PronType=Rel	6	subj	_	_
 5	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	SpaceAfter=No
@@ -562,7 +562,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 1	et	et	CCONJ	_	_	13	cc	_	_
 2	bien	bien	ADV	_	_	3	mod	_	InIdiom=Yes
-3	sûr	sûr	ADV	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
+3	sûr	sûr	ADV	_	ExtPos=ADV	13	mod	_	Idiom=Yes
 4	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	5	det	_	_
 5	parents	parent	NOUN	_	Gender=Masc|Number=Plur	13	dislocated	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
@@ -582,13 +582,13 @@
 20	oui	oui	ADV	_	_	18	conj:coord	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	bien	bien	ADV	_	_	23	mod	_	InIdiom=Yes
-23	sûr	sûr	ADV	_	_	20	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+23	sûr	sûr	ADV	_	ExtPos=ADV	20	conj:coord	_	Idiom=Yes|SpaceAfter=No
 24	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2020_sortiesAdolescence_24
 # text = alors qu'au fond, je suis sûr qu'ils avaient vraiment le seum.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
-1	alors	alors	ADV	_	_	8	discourse	_	ExtPos=SCONJ|Idiom=Yes
+1	alors	alors	ADV	_	ExtPos=SCONJ	8	discourse	_	Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3-4	au	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	8	mod	_	_

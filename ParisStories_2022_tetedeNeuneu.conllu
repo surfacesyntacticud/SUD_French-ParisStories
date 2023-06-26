@@ -60,7 +60,7 @@
 # text = il y a combien de temps ?
 1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=8275|AlignEnd=8499|InIdiom=Yes
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp	_	AlignBegin=8499|AlignEnd=8724|InIdiom=Yes
-3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=8724|AlignEnd=8948|ExtPos=ADP|Idiom=Yes
+3	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=8724|AlignEnd=8948|Idiom=Yes
 4	combien	combien	ADV	_	_	3	comp:obj	_	AlignBegin=8948|AlignEnd=9172
 5	de	de	ADP	_	_	4	comp:obl	_	AlignBegin=9172|AlignEnd=9397
 6	temps	temps	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	AlignBegin=9397|AlignEnd=9621
@@ -254,7 +254,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/1e3c003fb1cc9a7787c17100ba141af556e72824
 # speaker = L1
 # text = parce que ça m'intéresse pas !
-1	parce	parce	ADV	_	_	0	root	_	AlignBegin=31058|AlignEnd=31256|ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=31058|AlignEnd=31256|Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=31256|AlignEnd=31454|InIdiom=Yes
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	AlignBegin=31454|AlignEnd=31652
 4	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=31652|AlignEnd=31850|SpaceAfter=No
@@ -294,7 +294,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/1e3c003fb1cc9a7787c17100ba141af556e72824
 # speaker = L1
 # text = d~, je veux pas, je veux pas sav~.
-1	d~	d~	X	_	_	4	comp:obj	_	AlignBegin=34102|AlignEnd=34291|ExtPos=X|SpaceAfter=No
+1	d~	d~	X	_	ExtPos=X	4	comp:obj	_	AlignBegin=34102|AlignEnd=34291|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=34291|AlignEnd=34291
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	1	conj:dicto	_	AlignBegin=34291|AlignEnd=34479
 4	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=34479|AlignEnd=34668
@@ -303,7 +303,7 @@
 7	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	AlignBegin=35320|AlignEnd=35446
 8	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	AlignBegin=35446|AlignEnd=35571
 9	pas	pas	ADV	_	_	8	mod	_	AlignBegin=35571|AlignEnd=35697
-10	sav~	sav~	X	_	_	8	comp:obj	_	AlignBegin=35697|AlignEnd=35822|ExtPos=VERB|SpaceAfter=No
+10	sav~	sav~	X	_	ExtPos=VERB	8	comp:obj	_	AlignBegin=35697|AlignEnd=35822|SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=35822|AlignEnd=35822
 
 # sent_id = ParisStories_2022_6_tetedeNeuneu__28
@@ -321,7 +321,7 @@
 9	moins	moins	ADV	_	_	3	mod	_	AlignBegin=37548|AlignEnd=38230
 10	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	AlignBegin=38230|AlignEnd=38912|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=38912|AlignEnd=38912
-12	enfin	enfin	ADV	_	_	10	discourse	_	AlignBegin=38912|AlignEnd=39177|ExtPos=INTJ|SpaceAfter=No
+12	enfin	enfin	ADV	_	ExtPos=INTJ	10	discourse	_	AlignBegin=38912|AlignEnd=39177|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=39177|AlignEnd=39177
 14	mieux	mieux	ADV	_	_	17	mod	_	AlignBegin=39177|AlignEnd=39443
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	conj:dicto	_	AlignBegin=39443|AlignEnd=39708
@@ -427,7 +427,7 @@
 11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	AlignBegin=50321|AlignEnd=50512
 12	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=50512|AlignEnd=50703|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=50703|AlignEnd=50703
-14	enfin	enfin	ADV	_	_	12	discourse	_	AlignBegin=50703|AlignEnd=51040|ExtPos=INTJ|SpaceAfter=No
+14	enfin	enfin	ADV	_	ExtPos=INTJ	12	discourse	_	AlignBegin=50703|AlignEnd=51040|SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	AlignBegin=51040|AlignEnd=51040
 16	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	dislocated	_	AlignBegin=51040|AlignEnd=51376|SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	AlignBegin=51376|AlignEnd=51376
@@ -436,14 +436,14 @@
 20	en	en	ADP	_	_	19	mod	_	AlignBegin=52050|AlignEnd=52387
 21	gros	gros	ADJ	_	Gender=Masc	20	comp:obj	_	AlignBegin=52387|AlignEnd=52723|SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=52723|AlignEnd=52723
-23	dé~	dé~	X	_	_	19	comp:obj	_	AlignBegin=52723|AlignEnd=53060|ExtPos=VERB
+23	dé~	dé~	X	_	ExtPos=VERB	19	comp:obj	_	AlignBegin=52723|AlignEnd=53060
 24	comment	comment	ADV	_	_	26	mod	_	AlignBegin=53060|AlignEnd=53606
 25	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	26	subj	_	AlignBegin=53606|AlignEnd=54151
 26	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	discourse	_	AlignBegin=54151|AlignEnd=54697|SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	AlignBegin=54697|AlignEnd=54697
 28	euh	euh	INTJ	_	_	26	discourse	_	AlignBegin=54697|AlignEnd=55242|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	AlignBegin=55242|AlignEnd=55242
-30	genre	genre	NOUN	_	_	23	discourse	_	AlignBegin=55242|AlignEnd=55564|ExtPos=INTJ|SpaceAfter=No
+30	genre	genre	NOUN	_	ExtPos=INTJ	23	discourse	_	AlignBegin=55242|AlignEnd=55564|SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	AlignBegin=55564|AlignEnd=55564
 32	détourner	détourner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	conj:dicto	_	AlignBegin=55564|AlignEnd=55887
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	AlignBegin=55887|AlignEnd=56209|SpaceAfter=No
@@ -533,7 +533,7 @@
 15	qu'	que	SCONJ	_	_	14	mod	_	AlignBegin=65349|AlignEnd=65638|SpaceAfter=No
 16	à	à	ADP	_	_	14	comp:obl	_	AlignBegin=65638|AlignEnd=65638
 17	inviter	inviter	VERB	_	VerbForm=Inf	16	comp:obj	_	AlignBegin=65638|AlignEnd=65927|Subject=SubjRaising
-18	XXX	XXX	X	_	_	17	comp:obj	_	AlignBegin=65927|AlignEnd=66216|ExtPos=PROPN
+18	XXX	XXX	X	_	ExtPos=PROPN	17	comp:obj	_	AlignBegin=65927|AlignEnd=66216
 19	à	à	ADP	_	_	17	comp:obl	_	AlignBegin=66216|AlignEnd=66216
 20	manger	manger	VERB	_	VerbForm=Inf	19	comp:obj	_	AlignBegin=66216|AlignEnd=66505|Subject=ObjRaising
 21	!	!	PUNCT	_	_	4	punct	_	AlignBegin=66505|AlignEnd=66505
@@ -775,7 +775,7 @@
 8	potes	pote	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=93916|AlignEnd=94125
 9	qui	qui	PRON	_	PronType=Rel	10	subj	_	AlignBegin=94125|AlignEnd=94573
 10	surgissent	surgir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	AlignBegin=94573|AlignEnd=95021
-11	genre	genre	NOUN	_	_	10	discourse	_	AlignBegin=95021|AlignEnd=95469|ExtPos=INTJ
+11	genre	genre	NOUN	_	ExtPos=INTJ	10	discourse	_	AlignBegin=95021|AlignEnd=95469
 12	ah	ah	INTJ	_	_	15	discourse	_	AlignBegin=95469|AlignEnd=95917|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=95917|AlignEnd=95917
 14	bon	bon	ADJ	_	_	15	mod	_	AlignBegin=95917|AlignEnd=96365
@@ -794,7 +794,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/1e3c003fb1cc9a7787c17100ba141af556e72824
 # speaker = L1
 # text = machin.
-1	machin	machin	NOUN	_	_	0	root	_	AlignBegin=96813|AlignEnd=97592|ExtPos=INTJ|SpaceAfter=No
+1	machin	machin	NOUN	_	ExtPos=INTJ	0	root	_	AlignBegin=96813|AlignEnd=97592|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=97592|AlignEnd=97592
 
 # sent_id = ParisStories_2022_6_tetedeNeuneu__58
@@ -824,7 +824,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/1e3c003fb1cc9a7787c17100ba141af556e72824
 # speaker = L1
 # text = genre, avec une grosse tête de neuneu.
-1	genre	genre	NOUN	_	_	3	discourse	_	AlignBegin=101772|AlignEnd=102070|ExtPos=INTJ|SpaceAfter=No
+1	genre	genre	NOUN	_	ExtPos=INTJ	3	discourse	_	AlignBegin=101772|AlignEnd=102070|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=102070|AlignEnd=102070
 3	avec	avec	ADP	_	_	0	root	_	AlignBegin=102070|AlignEnd=102367
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=102367|AlignEnd=102665
@@ -925,7 +925,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/1e3c003fb1cc9a7787c17100ba141af556e72824
 # speaker = L1
 # text = parce que je savais ce qu'il faisait.
-1	parce	parce	ADV	_	_	0	root	_	AlignBegin=116154|AlignEnd=116338|ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=116154|AlignEnd=116338|Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=116338|AlignEnd=116523|InIdiom=Yes
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=116523|AlignEnd=116707
 4	savais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	comp:obj	_	AlignBegin=116707|AlignEnd=116892

@@ -65,10 +65,10 @@
 # sent_id = ParisStories_2019_patisserieFine_3
 # text = en fait je s~ je je sais pas ce que c'était exactement comme odeur, mais ça sentait vraiment très bon.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61b04e77cad8421a64e2531daae8e46efb6e0f37
-1	en	en	ADP	_	_	4	discourse	_	ExtPos=ADV|Idiom=Yes
+1	en	en	ADP	_	ExtPos=ADV	4	discourse	_	Idiom=Yes
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-4	s~	s~	X	_	_	0	root	_	ExtPos=VERB
+4	s~	s~	X	_	ExtPos=VERB	0	root	_	_
 5	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
 6	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	conj:dicto	_	_
 7	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	_
@@ -132,7 +132,7 @@
 6	sauf	sauf	ADP	_	_	5	mod	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	pâtisserie	pâtisserie	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
-9	en	en	ADP	_	_	4	discourse	_	ExtPos=ADV|Idiom=Yes
+9	en	en	ADP	_	ExtPos=ADV	4	discourse	_	Idiom=Yes
 10	fait	fait	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -148,7 +148,7 @@
 7	forcément	forcément	ADV	_	_	8	mod	_	_
 8	pour	pour	ADP	_	_	2	conj:coord	_	_
 9	manger	manger	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=NoRaising
-10	parce	parce	ADV	_	_	9	mod	_	ExtPos=SCONJ|Idiom=Yes
+10	parce	parce	ADV	_	ExtPos=SCONJ	9	mod	_	Idiom=Yes
 11	que	que	SCONJ	_	_	10	unk	_	InIdiom=Yes
 12	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	subj	_	SpaceAfter=No
 13	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	comp:obj	_	_
@@ -222,7 +222,7 @@
 17	vraiment	vraiment	ADV	_	_	18	mod	_	_
 18	par	par	ADP	_	_	10	conj:coord	_	_
 19	curiosité	curiosité	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
-20	parce	parce	ADV	_	_	8	mod	_	ExtPos=SCONJ|Idiom=Yes
+20	parce	parce	ADV	_	ExtPos=SCONJ	8	mod	_	Idiom=Yes
 21	que	que	SCONJ	_	_	20	unk	_	InIdiom=Yes
 22	de	de	ADP	_	_	26	mod	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
@@ -416,12 +416,12 @@
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	suggestion	suggestion	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	parce	parce	ADV	_	_	5	mod	_	ExtPos=SCONJ|Idiom=Yes
+12	parce	parce	ADV	_	ExtPos=SCONJ	5	mod	_	Idiom=Yes
 13	que	que	SCONJ	_	_	12	unk	_	InIdiom=Yes
 14	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	15	subj	_	_
 15	connaissais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	12	comp:obj	_	_
 16	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_
-17	de	de	ADP	_	_	16	mod	_	ExtPos=ADV|Idiom=Yes
+17	de	de	ADP	_	ExtPos=ADV	16	mod	_	Idiom=Yes
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	InIdiom=Yes
 19	tout	tout	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	_
@@ -482,7 +482,7 @@
 6	que	que	SCONJ	_	_	5	comp:obj	_	_
 7	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	en	en	ADP	_	_	12	discourse	_	ExtPos=ADV|Idiom=Yes
+9	en	en	ADP	_	ExtPos=ADV	12	discourse	_	Idiom=Yes
 10	fait	fait	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	InIdiom=Yes
 11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	SpaceAfter=No
 12	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
@@ -538,7 +538,7 @@
 6	qu'	que	PRON	_	PronType=Rel	9	comp:obj	_	SpaceAfter=No
 7	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj@expl	_	_
 8	y	y	PRON	_	Person=3|PronType=Prs	9	comp@expl	_	InIdiom=Yes
-9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	ExtPos=VERB|Idiom=Yes
+9	a	avoir	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	Idiom=Yes
 10	à	à	ADP	_	_	9	mod	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	intérieur	intérieur	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
@@ -679,7 +679,7 @@
 7	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	Reported=Yes
 8	antillaise	antillais	ADJ	_	Gender=Fem|Number=Sing	7	comp:pred	_	_
 9	plus	plus	ADV	_	_	10	mod	_	_
-10	préci~	préci~	X	_	_	13	mod	_	ExtPos=ADV
+10	préci~	préci~	X	_	ExtPos=ADV	13	mod	_	_
 11	plus	plus	ADV	_	_	12	mod	_	_
 12	précisément	précisément	ADV	_	_	10	conj:dicto	_	_
 13	de	de	ADP	_	_	8	mod	_	_
@@ -737,7 +737,7 @@
 7	mais	mais	CCONJ	_	_	9	discourse	_	_
 8	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	9	subj	_	_
 9	êtes	être	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Reported=Yes
-10	quand	quand	SCONJ	_	_	12	mod	_	ExtPos=ADV|Idiom=Yes
+10	quand	quand	SCONJ	_	ExtPos=ADV	12	mod	_	Idiom=Yes
 11	même	même	ADV	_	_	10	unk	_	InIdiom=Yes
 12	claire	clair	ADJ	_	Gender=Fem|Number=Sing	9	comp:pred	_	_
 13	de	de	ADP	_	_	12	mod	_	_
@@ -788,7 +788,7 @@
 1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 2	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	comp:obl	_	_
 3	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	ah	ah	INTJ	_	_	7	discourse	_	ExtPos=INTJ|Idiom=Yes
+4	ah	ah	INTJ	_	ExtPos=INTJ	7	discourse	_	Idiom=Yes
 5	bon	bon	INTJ	_	_	4	unk	_	InIdiom=Yes
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	_
 7	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	Reported=Yes

@@ -13,7 +13,7 @@
 9	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	SpaceAfter=No
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
 11	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
-12	XXX	XXX	X	_	_	11	comp:obj	_	ExtPos=X|SpaceAfter=No
+12	XXX	XXX	X	_	ExtPos=X	11	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	_
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	subj	_	SpaceAfter=No
 15	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -153,7 +153,7 @@
 19	avec	avec	ADP	_	_	17	mod	_	_
 20	Mamie	Mamie	PROPN	_	_	19	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	parce	parce	ADV	_	_	17	mod	_	ExtPos=SCONJ|Idiom=Yes
+22	parce	parce	ADV	_	ExtPos=SCONJ	17	mod	_	Idiom=Yes
 23	que	que	SCONJ	_	_	22	unk	_	InIdiom=Yes
 24	Mamie	Mamie	PROPN	_	_	25	subj	_	_
 25	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	comp:obj	_	_
@@ -173,7 +173,7 @@
 38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	coup	coup	NOUN	_	Gender=Masc|Number=Sing	37	comp:obj	_	_
 40	rejoindre	rejoindre	VERB	_	VerbForm=Inf	33	comp:obj	_	Subject=SubjRaising
-41	XXX	XXX	X	_	_	40	comp:obj	_	ExtPos=X|SpaceAfter=No
+41	XXX	XXX	X	_	ExtPos=X	40	comp:obj	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_8
@@ -301,13 +301,13 @@
 # sent_id = ParisStories_2021_pluieEtMamie_13
 # text = non, non, non, non, il avait les cheveux plus courts.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
-1	non	non	ADV	_	_	10	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	non	non	ADV	_	ExtPos=INTJ	10	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	non	non	ADV	_	_	1	conj:coord	_	ExtPos=INTJ|SpaceAfter=No
+3	non	non	ADV	_	ExtPos=INTJ	1	conj:coord	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	non	non	ADV	_	_	3	conj:coord	_	ExtPos=INTJ|SpaceAfter=No
+5	non	non	ADV	_	ExtPos=INTJ	3	conj:coord	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	non	non	ADV	_	_	5	conj:coord	_	ExtPos=INTJ|SpaceAfter=No
+7	non	non	ADV	_	ExtPos=INTJ	5	conj:coord	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	_
 9	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
 10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -439,7 +439,7 @@
 13	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	et	et	CCONJ	_	_	16	cc	_	InIdiom=Yes
-16	tout	tout	ADV	_	Gender=Masc|Number=Sing	13	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+16	tout	tout	ADV	_	ExtPos=ADV|Gender=Masc|Number=Sing	13	conj:coord	_	Idiom=Yes|SpaceAfter=No
 17	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_20
@@ -500,7 +500,7 @@
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	9	conj:dicto	_	wordform=du
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	XXX	XXX	X	_	_	13	comp:obj	_	ExtPos=X|SpaceAfter=No
+15	XXX	XXX	X	_	ExtPos=X	13	comp:obj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_25
@@ -542,7 +542,7 @@
 10	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	Reported=Yes
 11	aller	aller	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
 12	à	à	ADP	_	_	11	mod	_	_
-13	XXX	XXX	X	_	_	12	comp:obj	_	ExtPos=X|SpaceAfter=No
+13	XXX	XXX	X	_	ExtPos=X	12	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_27
@@ -618,7 +618,7 @@
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	_
 7	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	à	à	ADP	_	_	7	comp:obl	_	_
-9	XXX	XXX	X	_	_	8	comp:obj	_	ExtPos=X|SpaceAfter=No
+9	XXX	XXX	X	_	ExtPos=X	8	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_32
@@ -654,6 +654,6 @@
 4	manger	manger	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
 5	à	à	ADP	_	_	4	mod	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	XXX	XXX	X	_	_	5	comp:obj	_	ExtPos=X|SpaceAfter=No
+7	XXX	XXX	X	_	ExtPos=X	5	comp:obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 

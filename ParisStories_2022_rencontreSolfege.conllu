@@ -31,7 +31,7 @@
 24	comment	comment	ADV	_	_	25	mod@scrap	_	AlignBegin=5365|AlignEnd=5687|Reported=Yes
 25	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	31	conj:dicto	_	AlignBegin=5687|AlignEnd=6008
 26	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs|Reflex=Yes	25	comp:obj@scrap	_	AlignBegin=6008|AlignEnd=6330
-27	enfin	enfin	ADV	_	_	25	discourse	_	AlignBegin=6330|AlignEnd=6651|ExtPos=INTJ|SpaceAfter=No
+27	enfin	enfin	ADV	_	ExtPos=INTJ	25	discourse	_	AlignBegin=6330|AlignEnd=6651|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	AlignBegin=6651|AlignEnd=6651
 29	euh	euh	INTJ	_	_	25	discourse	_	AlignBegin=6651|AlignEnd=6848|SpaceAfter=No
 30	,	,	PUNCT	_	_	25	punct	_	AlignBegin=6848|AlignEnd=6848
@@ -69,9 +69,9 @@
 # text = je fais oui, oui, j'ai l'impression de t'avoir déjà vue !
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=11315|AlignEnd=11458
 2	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=11458|AlignEnd=11601
-3	oui	oui	ADV	_	_	8	discourse	_	AlignBegin=11601|AlignEnd=11743|ExtPos=INTJ|SpaceAfter=No
+3	oui	oui	ADV	_	ExtPos=INTJ	8	discourse	_	AlignBegin=11601|AlignEnd=11743|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=11743|AlignEnd=11743
-5	oui	oui	ADV	_	_	3	conj:coord	_	AlignBegin=11743|AlignEnd=11886|ExtPos=INTJ|SpaceAfter=No
+5	oui	oui	ADV	_	ExtPos=INTJ	3	conj:coord	_	AlignBegin=11743|AlignEnd=11886|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=11886|AlignEnd=11886
 7	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	AlignBegin=11886|AlignEnd=12024|SpaceAfter=No
 8	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	AlignBegin=12024|AlignEnd=12162|Reported=Yes
@@ -168,7 +168,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=25874|AlignEnd=25874
 4	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	subj	_	AlignBegin=25874|AlignEnd=26043
 5	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	comp:obl	_	AlignBegin=26043|AlignEnd=26212
-6	d~	d~	X	_	Number=Sing|Person=3	0	root	_	AlignBegin=26212|AlignEnd=26381|ExtPos=VERB|SpaceAfter=No
+6	d~	d~	X	_	ExtPos=VERB|Number=Sing|Person=3	0	root	_	AlignBegin=26212|AlignEnd=26381|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=26381|AlignEnd=26381
 8	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=26381|AlignEnd=26550
 9	extrascolaires	extrascolaire	ADJ	_	Number=Plur	6	comp:obj	_	AlignBegin=26550|AlignEnd=27282|Reported=Yes
@@ -215,7 +215,7 @@
 # text = j'ai d~ euh, bah tu as fait quoi ?
 1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=31907|AlignEnd=32051|SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=32051|AlignEnd=32194
-3	d~	d~	X	_	_	2	comp:aux@tense	_	AlignBegin=32194|AlignEnd=32338|ExtPos=X
+3	d~	d~	X	_	ExtPos=X	2	comp:aux@tense	_	AlignBegin=32194|AlignEnd=32338
 4	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=32338|AlignEnd=32505|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=32505|AlignEnd=32505
 6	bah	bah	INTJ	_	_	8	discourse	_	AlignBegin=32505|AlignEnd=32672
@@ -280,7 +280,7 @@
 # text = euh, oui, elle habite à Athis.
 1	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=36855|AlignEnd=37040|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=37040|AlignEnd=37040
-3	oui	oui	ADV	_	_	6	discourse	_	AlignBegin=38492|AlignEnd=38660|ExtPos=INTJ|SpaceAfter=No
+3	oui	oui	ADV	_	ExtPos=INTJ	6	discourse	_	AlignBegin=38492|AlignEnd=38660|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=38660|AlignEnd=38660
 5	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	subj	_	AlignBegin=38660|AlignEnd=38827
 6	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=38827|AlignEnd=38995
@@ -476,7 +476,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/6c07bd11b2c9d625da3b4a7187378503ebf44de4
 # speaker = L1
 # text = oui, voilà, au conservatoire d'Athis, exactement !
-1	oui	oui	ADV	_	_	7	discourse	_	AlignBegin=61688|AlignEnd=61958|ExtPos=INTJ|SpaceAfter=No
+1	oui	oui	ADV	_	ExtPos=INTJ	7	discourse	_	AlignBegin=61688|AlignEnd=61958|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=61958|AlignEnd=61958
 3	voilà	voilà	VERB	_	_	5	discourse	_	AlignBegin=61958|AlignEnd=62227|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=62227|AlignEnd=62227
@@ -589,7 +589,7 @@
 16	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	comp:obj	_	AlignBegin=75830|AlignEnd=76058
 17	rencontrée	rencontrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	AlignBegin=76058|AlignEnd=76286|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=76286|AlignEnd=76286
-19	parce	parce	ADV	_	_	0	root	_	AlignBegin=76286|AlignEnd=76517|ExtPos=SCONJ|Idiom=Yes
+19	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=76286|AlignEnd=76517|Idiom=Yes
 20	que	que	SCONJ	_	_	19	unk	_	AlignBegin=76517|AlignEnd=76747|InIdiom=Yes
 21	après	après	ADV	_	_	24	mod	_	AlignBegin=76747|AlignEnd=76978|SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	AlignBegin=76978|AlignEnd=76978
@@ -641,7 +641,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/6c07bd11b2c9d625da3b4a7187378503ebf44de4
 # speaker = L1
 # text = parce que ce qui était bien, c'est que, bon, ça dépendait des activités, hein, mais quand, en fait, euh, on faisait, euh, c'était quoi, le conservatoire, on avait la chance, comme à l'école, d'avoir des photos d'années.
-1	parce	parce	ADV	_	_	0	root	_	AlignBegin=85324|AlignEnd=85616|ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=85324|AlignEnd=85616|Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=85616|AlignEnd=85908|InIdiom=Yes
 3	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	dislocated	_	AlignBegin=85908|AlignEnd=86081
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	AlignBegin=86081|AlignEnd=86254
@@ -811,7 +811,7 @@
 23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=113931|AlignEnd=113931
 24	euh	euh	INTJ	_	_	22	discourse	_	AlignBegin=113931|AlignEnd=114187|SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	AlignBegin=114187|AlignEnd=114187
-26	enfin	enfin	ADV	_	_	22	discourse	_	AlignBegin=114683|AlignEnd=114929|ExtPos=INTJ|SpaceAfter=No
+26	enfin	enfin	ADV	_	ExtPos=INTJ	22	discourse	_	AlignBegin=114683|AlignEnd=114929|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	AlignBegin=114929|AlignEnd=114929
 28	euh	euh	INTJ	_	_	22	discourse	_	AlignBegin=114929|AlignEnd=115175
 29	…	…	PUNCT	_	_	10	punct	_	AlignBegin=115175|AlignEnd=115175
@@ -983,7 +983,7 @@
 12	et	et	CCONJ	_	_	14	cc	_	AlignBegin=137113|AlignEnd=137330
 13	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	subj	_	AlignBegin=137330|AlignEnd=137547
 14	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj:coord	_	AlignBegin=137547|AlignEnd=137764
-15	de	de	ADP	_	_	17	det	_	AlignBegin=137764|AlignEnd=137981|ExtPos=DET|Idiom=Yes
+15	de	de	ADP	_	ExtPos=DET	17	det	_	AlignBegin=137764|AlignEnd=137981|Idiom=Yes
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	unk	_	AlignBegin=137981|AlignEnd=138198|InIdiom=Yes|SpaceAfter=No
 17	alto	alto	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	AlignBegin=138198|AlignEnd=138415|SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	AlignBegin=138415|AlignEnd=138415

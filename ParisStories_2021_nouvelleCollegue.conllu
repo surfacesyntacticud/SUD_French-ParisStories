@@ -5,7 +5,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/8d7bc99b2323de73beb60da784ce02fbcac8525a
 1	alors	alors	ADV	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	XXX	XXX	X	_	_	5	vocative	_	ExtPos=X|SpaceAfter=No
+3	XXX	XXX	X	_	ExtPos=X	5	vocative	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	raconte	raconter	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	-moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obl	_	SpaceAfter=No|wordform=moi
@@ -120,7 +120,7 @@
 6	pas	pas	ADV	_	_	5	mod	_	_
 7	contente	content	ADJ	_	Gender=Fem|Number=Sing	5	comp:pred	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	parce	parce	ADV	_	_	5	mod	_	ExtPos=SCONJ|Idiom=Yes
+9	parce	parce	ADV	_	ExtPos=SCONJ	5	mod	_	Idiom=Yes
 10	que	que	SCONJ	_	_	9	unk	_	InIdiom=Yes
 11	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	SpaceAfter=No
 12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
@@ -171,7 +171,7 @@
 24	de	de	ADP	_	_	23	mod	_	_
 25	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	24	comp:obj	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
-27	parce	parce	ADV	_	_	11	mod	_	ExtPos=SCONJ|Idiom=Yes
+27	parce	parce	ADV	_	ExtPos=SCONJ	11	mod	_	Idiom=Yes
 28	que	que	SCONJ	_	_	27	unk	_	InIdiom=Yes|SpaceAfter=No
 29	,	,	PUNCT	_	_	27	punct	_	_
 30	comme	comme	SCONJ	_	_	40	mod	_	_
@@ -249,7 +249,7 @@
 # speaker = L1
 # text = parce qu'on a le même âge.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/8d7bc99b2323de73beb60da784ce02fbcac8525a
-1	parce	parce	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
@@ -580,7 +580,7 @@
 # speaker = L2
 # text = genre vous parlez tout le temps ou?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/8d7bc99b2323de73beb60da784ce02fbcac8525a
-1	genre	genre	NOUN	_	Gender=Masc|Number=Sing	3	discourse	_	ExtPos=INTJ
+1	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	3	discourse	_	_
 2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs|Shared=No	3	subj	_	_
 3	parlez	parler	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	tout	tout	ADJ	_	_	6	mod	_	_
@@ -623,7 +623,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	bah	bah	INTJ	_	_	9	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	oui	oui	ADV	_	_	4	discourse	_	ExtPos=INTJ|SpaceAfter=No
+6	oui	oui	ADV	_	ExtPos=INTJ	4	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
 9	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -680,7 +680,7 @@
 40	à	à	ADP	_	_	34	mod	_	_
 41	cause	cause	NOUN	_	Gender=Fem|Number=Sing	40	comp:obj	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	45	punct	_	_
-43	enfin	enfin	ADV	_	_	45	discourse	_	ExtPos=INTJ|SpaceAfter=No
+43	enfin	enfin	ADV	_	ExtPos=INTJ	45	discourse	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	43	punct	_	_
 45	grâce	grâce	ADV	_	_	41	conj:dicto	_	_
 46-47	au	_	_	_	_	_	_	_	_
@@ -832,7 +832,7 @@
 17	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
 18	foules	foule	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
-20	parce	parce	ADV	_	_	11	mod	_	ExtPos=SCONJ|Idiom=Yes
+20	parce	parce	ADV	_	ExtPos=SCONJ	11	mod	_	Idiom=Yes
 21	que	que	SCONJ	_	_	20	unk	_	InIdiom=Yes
 22-23	du	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	27	discourse	_	wordform=du

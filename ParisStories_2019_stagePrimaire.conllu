@@ -22,7 +22,7 @@
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	stage	stage	NOUN	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
 8	complet	complet	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	_
-9	parce	parce	ADV	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
+9	parce	parce	ADV	_	ExtPos=SCONJ	4	mod	_	Idiom=Yes
 10	que	que	SCONJ	_	_	9	unk	_	InIdiom=Yes
 11	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	SpaceAfter=No
 12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
@@ -33,12 +33,12 @@
 17	de	de	ADP	_	_	15	conj:dicto	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	primaire	primaire	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
-20	jus~	jus~	X	_	_	19	mod	_	ExtPos=ADJ
-21	enfin	enfin	ADV	_	_	22	discourse	_	ExtPos=INTJ
+20	jus~	jus~	X	_	ExtPos=ADJ	19	mod	_	_
+21	enfin	enfin	ADV	_	ExtPos=INTJ	22	discourse	_	_
 22	de	de	ADP	_	_	17	conj:dicto	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	CP	CP	PROPN	_	_	22	comp:obj	_	_
-25	pardon	pardon	NOUN	_	Gender=Masc|Number=Sing	27	discourse	_	ExtPos=INTJ
+25	pardon	pardon	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	27	discourse	_	_
 26	jusqu'	jusque	ADV	_	_	27	mod	_	SpaceAfter=No
 27	à	à	ADP	_	_	22	mod	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
@@ -93,7 +93,7 @@
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	SpaceAfter=No
 18	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
 19	que	que	SCONJ	_	_	18	comp:pred	_	_
-20	les~	les~	X	_	_	19	comp:obj@scrap	_	ExtPos=X
+20	les~	les~	X	_	ExtPos=X	19	comp:obj@scrap	_	_
 21	pour	pour	ADP	_	_	28	mod	_	_
 22	euh	euh	INTJ	_	_	23	discourse	_	_
 23	pour	pour	ADP	_	_	21	conj:dicto	_	_
@@ -107,7 +107,7 @@
 31	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	32	subj	_	_
 32	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj:dicto	_	_
 33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	InIdiom=Yes
-34	peu	peu	NOUN	_	Gender=Masc|Number=Sing	32	mod	_	ExtPos=ADV|Idiom=Yes
+34	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	32	mod	_	Idiom=Yes
 35	euh	euh	INTJ	_	_	37	discourse	_	_
 36	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	37	det	_	_
 37	point	point	NOUN	_	Gender=Masc|Number=Sing	32	comp:pred	_	_
@@ -148,7 +148,7 @@
 5	repère	repère	NOUN	_	Gender=Masc|Number=Sing	2	comp:pred	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	euh	euh	INTJ	_	_	8	discourse	_	_
-8	parce	parce	ADV	_	_	2	mod	_	ExtPos=SCONJ|Idiom=Yes
+8	parce	parce	ADV	_	ExtPos=SCONJ	2	mod	_	Idiom=Yes
 9	que	que	SCONJ	_	_	8	unk	_	InIdiom=Yes
 10	par	par	ADP	_	_	25	mod	_	_
 11	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
@@ -236,7 +236,7 @@
 10	madame	madame	NOUN	_	Gender=Fem|Number=Sing	15	vocative	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	madame	madame	NOUN	_	Gender=Fem|Number=Sing	15	dislocated	_	_
-13	XXX	XXX	X	_	_	12	mod	_	ExtPos=PROPN|wordform=X
+13	XXX	XXX	X	_	ExtPos=PROPN	12	mod	_	wordform=X
 14	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	subj	_	_
 15	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	Reported=Yes
 16	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_
@@ -267,7 +267,7 @@
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	étonnant	étonnant	ADJ	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
-8	parce	parce	ADV	_	_	6	mod	_	ExtPos=SCONJ|Idiom=Yes
+8	parce	parce	ADV	_	ExtPos=SCONJ	6	mod	_	Idiom=Yes
 9	que	que	SCONJ	_	_	8	unk	_	InIdiom=Yes
 10	euh	euh	INTJ	_	_	14	discourse	_	_
 11	bah	bah	INTJ	_	_	14	discourse	_	_
@@ -364,8 +364,8 @@
 7	pour	pour	ADP	_	_	5	conj:dicto	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	élèves	élève	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
-10	euh~	euh~	X	_	_	12	discourse	_	ExtPos=INTJ
-11	enfin	enfin	ADV	_	_	12	discourse	_	ExtPos=INTJ
+10	euh~	euh~	X	_	ExtPos=INTJ	12	discourse	_	_
+11	enfin	enfin	ADV	_	ExtPos=INTJ	12	discourse	_	_
 12	pour	pour	ADP	_	_	7	conj:dicto	_	_
 13	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	12	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	5	punct	_	_
@@ -404,7 +404,7 @@
 1	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	côté	côté	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	InIdiom=Yes
-4	peu	peu	NOUN	_	Gender=Masc|Number=Sing	5	mod	_	ExtPos=ADV|Idiom=Yes
+4	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	5	mod	_	Idiom=Yes
 5	protecteur	protecteur	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
@@ -553,12 +553,12 @@
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	maîtresses	maîtresse	NOUN	_	Gender=Fem|Number=Plur	12	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	parce	parce	ADV	_	_	9	mod	_	ExtPos=SCONJ|Idiom=Yes
+16	parce	parce	ADV	_	ExtPos=SCONJ	9	mod	_	Idiom=Yes
 17	que	que	SCONJ	_	_	16	unk	_	InIdiom=Yes
 18	euh	euh	INTJ	_	_	20	discourse	_	_
 19	elles	eux	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	20	subj	_	_
 20	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
-21	confron~	confron~	X	_	_	20	comp:aux@pass	_	ExtPos=VERB
+21	confron~	confron~	X	_	ExtPos=VERB	20	comp:aux@pass	_	_
 22	confrontées	confronter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	conj:dicto	_	_
 23	à	à	ADP	_	_	22	mod	_	_
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
@@ -609,7 +609,7 @@
 11	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	12	det	_	_
 12	professeur	professeur	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
-14	enfin	enfin	ADV	_	_	16	discourse	_	ExtPos=INTJ
+14	enfin	enfin	ADV	_	ExtPos=INTJ	16	discourse	_	_
 15	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	16	det	_	_
 16	maître	maître	NOUN	_	Gender=Masc|Number=Sing	12	conj:dicto	_	_
 17	d'	de	ADP	_	_	16	udep	_	SpaceAfter=No
@@ -641,7 +641,7 @@
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	vraiment	vraiment	ADV	_	_	7	mod	_	_
 7	choquée	choquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
-8	parce	parce	ADV	_	_	7	mod	_	ExtPos=SCONJ|Idiom=Yes
+8	parce	parce	ADV	_	ExtPos=SCONJ	7	mod	_	Idiom=Yes
 9	que	que	SCONJ	_	_	8	unk	_	InIdiom=Yes
 10	enfait	enfait	X	_	_	16	discourse	_	_
 11	euh	euh	INTJ	_	_	16	discourse	_	_
@@ -655,7 +655,7 @@
 19	maître	maître	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 20	euh	euh	INTJ	_	_	21	discourse	_	_
 21	dégouté	dégouter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	mod	_	_
-22	de~	de~	X	_	_	21	mod	_	ExtPos=ADP
+22	de~	de~	X	_	ExtPos=ADP	21	mod	_	_
 23	de	de	ADP	_	_	22	conj:dicto	_	_
 24	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	comp:obj	_	_
 25	qu'	que	PRON	_	PronType=Rel	27	comp:obj	_	SpaceAfter=No
@@ -673,7 +673,7 @@
 5	de	de	ADP	_	_	4	mod	_	_
 6	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	_
 7	métier	métier	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
-8	parce	parce	ADV	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
+8	parce	parce	ADV	_	ExtPos=SCONJ	4	mod	_	Idiom=Yes
 9	qu'	que	SCONJ	_	_	8	unk	_	InIdiom=Yes|SpaceAfter=No
 10	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
 11	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_

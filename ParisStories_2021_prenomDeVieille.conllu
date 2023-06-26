@@ -156,7 +156,7 @@
 4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	très	très	ADV	_	_	6	mod	_	_
 6	bien	bien	ADV	_	_	4	mod	_	_
-7	parce	parce	ADV	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
+7	parce	parce	ADV	_	ExtPos=SCONJ	4	mod	_	Idiom=Yes
 8	que	que	SCONJ	_	_	7	unk	_	InIdiom=Yes
 9	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	11	det	_	_
 10	petit	petit	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
@@ -305,7 +305,7 @@
 20	,	,	PUNCT	_	_	18	punct	_	_
 21	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	23	subj	_	_
 22	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	23	comp@expl	_	InIdiom=Yes
-23	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:coord	_	ExtPos=VERB|Idiom=Yes
+23	souviens	souvenir	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:coord	_	Idiom=Yes
 24	que	que	SCONJ	_	_	23	comp:obj	_	_
 25	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	26	subj	_	SpaceAfter=No
 26	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	24	comp:obj	_	_
@@ -320,7 +320,7 @@
 35	de	de	ADP	_	_	34	udep	_	_
 36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	rentrée	rentrée	NOUN	_	Gender=Fem|Number=Sing	35	comp:obj	_	_
-38	parce	parce	ADV	_	_	26	mod	_	ExtPos=SCONJ|Idiom=Yes
+38	parce	parce	ADV	_	ExtPos=SCONJ	26	mod	_	Idiom=Yes
 39	que	que	SCONJ	_	_	38	unk	_	InIdiom=Yes
 40	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	41	subj	_	SpaceAfter=No
 41	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	39	comp:obj	_	_
@@ -455,7 +455,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	donc	donc	ADV	_	_	11	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	voilà	voilà	VERB	_	_	11	discourse	_	ExtPos=INTJ|SpaceAfter=No
+7	voilà	voilà	VERB	_	ExtPos=INTJ	11	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj@pass	_	_
 10	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	comp:obl	_	_
@@ -653,7 +653,7 @@
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Reported=Yes
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
-9	peu	peu	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	ExtPos=ADV|Idiom=Yes
+9	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	7	mod	_	Idiom=Yes
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	prénom	prénom	NOUN	_	Gender=Masc|Number=Sing	7	comp:pred	_	_
 12	de	de	ADP	_	_	11	udep	_	_
@@ -724,10 +724,10 @@
 # sent_id = ParisStories_2021_prenomDeVieille_33
 # text = et puis, en fait, euh, finalement, ben, on s'est rapprochées.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/d9654f1d82c0f77838097a6696be9fb96ed46120
-1	et	et	CCONJ	_	_	15	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	15	cc	_	Idiom=Yes
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	en	en	ADP	_	_	15	discourse	_	ExtPos=ADV|Idiom=Yes
+4	en	en	ADP	_	ExtPos=ADV	15	discourse	_	Idiom=Yes
 5	fait	fait	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
@@ -745,7 +745,7 @@
 # sent_id = ParisStories_2021_prenomDeVieille_34
 # text = et puis on est devenue amie, même si ça partait sur une mauvaise note.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/d9654f1d82c0f77838097a6696be9fb96ed46120
-1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	4	cc	_	Idiom=Yes
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -753,7 +753,7 @@
 6	amie	amie	NOUN	_	Gender=Masc|Number=Sing	5	comp:pred	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	même	même	ADV	_	_	9	mod	_	InIdiom=Yes
-9	si	si	SCONJ	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
+9	si	si	SCONJ	_	ExtPos=SCONJ	4	mod	_	Idiom=Yes
 10	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	_
 11	partait	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	comp:obj	_	_
 12	sur	sur	ADP	_	_	11	comp:obl	_	_
@@ -832,7 +832,7 @@
 2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
 3	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	InIdiom=Yes
-5	peu	peu	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+5	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	3	mod	_	Idiom=Yes|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_40
@@ -844,7 +844,7 @@
 4	comme	comme	ADP	_	_	13	mod	_	_
 5	quoi	quoi	PRON	_	Person=3|PronType=Ind	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
-7	en	en	ADP	_	_	13	discourse	_	ExtPos=ADV|Idiom=Yes
+7	en	en	ADP	_	ExtPos=ADV	13	discourse	_	Idiom=Yes
 8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -875,14 +875,14 @@
 35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	personne	personne	NOUN	_	Gender=Fem|Number=Sing	34	comp:obj	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	_
-38	en	en	ADP	_	_	32	discourse	_	ExtPos=ADV|Idiom=Yes
+38	en	en	ADP	_	ExtPos=ADV	32	discourse	_	Idiom=Yes
 39	fait	fait	NOUN	_	Gender=Masc|Number=Sing	38	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 40	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_41
 # text = voilà, c'est tout.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/d9654f1d82c0f77838097a6696be9fb96ed46120
-1	voilà	voilà	VERB	_	_	4	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	voilà	voilà	VERB	_	ExtPos=INTJ	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

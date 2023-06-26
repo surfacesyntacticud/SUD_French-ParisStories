@@ -60,7 +60,7 @@
 5	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	b~	b~	X	_	_	5	conj:dicto	_	ExtPos=X
+8	b~	b~	X	_	ExtPos=X	5	conj:dicto	_	_
 9	beaucoup	beaucoup	ADV	_	_	8	conj:dicto	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	points	point	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
@@ -88,7 +88,7 @@
 14	de	de	ADP	_	_	13	mod	_	_
 15	Jussieu	Jussieu	PROPN	_	_	14	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	parce	parce	ADV	_	_	10	mod	_	ExtPos=SCONJ|Idiom=Yes
+17	parce	parce	ADV	_	ExtPos=SCONJ	10	mod	_	Idiom=Yes
 18	que	que	SCONJ	_	_	17	unk	_	InIdiom=Yes
 19	Thomas	Thomas	PROPN	_	_	21	subj	_	_
 20	n'	ne	ADV	_	Polarity=Neg	21	mod	_	SpaceAfter=No
@@ -193,7 +193,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	euh	euh	INTJ	_	_	6	discourse	_	_
 2	donc	donc	ADV	_	_	6	discourse	_	_
-3	en	en	ADP	_	_	6	discourse	_	ExtPos=ADV|Idiom=Yes
+3	en	en	ADP	_	ExtPos=ADV	6	discourse	_	Idiom=Yes
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	InIdiom=Yes
 5	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -201,7 +201,7 @@
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
 10	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
-11	genre	genre	NOUN	_	Gender=Masc|Number=Sing	12	discourse	_	ExtPos=INTJ
+11	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	12	discourse	_	_
 12	à	à	ADP	_	_	10	mod	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	moins	moins	ADV	_	_	12	comp:obj	_	_
@@ -219,7 +219,7 @@
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
-29	parce	parce	ADV	_	_	10	mod	_	ExtPos=SCONJ|Idiom=Yes
+29	parce	parce	ADV	_	ExtPos=SCONJ	10	mod	_	Idiom=Yes
 30	qu'	que	SCONJ	_	_	29	unk	_	InIdiom=Yes|SpaceAfter=No
 31	avec	avec	ADP	_	_	37	mod	_	_
 32	Vigipirate	Vigipirate	PROPN	_	_	31	comp:obj	_	_
@@ -344,7 +344,7 @@
 14	gens	gens	NOUN	_	Gender=Masc|Number=Plur	15	subj	_	_
 15	marchaient	marcher	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	en	en	ADP	_	_	10	mod	_	ExtPos=ADP|Idiom=Yes
+17	en	en	ADP	_	ExtPos=ADP	10	mod	_	Idiom=Yes
 18	mode	mode	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	InIdiom=Yes
 19	bon	bon	INTJ	_	_	21	discourse	_	_
 20	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	subj	_	_
@@ -373,7 +373,7 @@
 12	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	subj	_	SpaceAfter=No
 13	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
-15	quand	quand	SCONJ	_	_	14	mod	_	ExtPos=ADV|Idiom=Yes
+15	quand	quand	SCONJ	_	ExtPos=ADV	14	mod	_	Idiom=Yes
 16	même	même	ADV	_	_	15	unk	_	InIdiom=Yes
 17	qu'	que	SCONJ	_	_	14	mod	_	SpaceAfter=No
 18	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	_
@@ -405,7 +405,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	3	subj	_	_
 3	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	quand	quand	SCONJ	_	_	3	mod	_	ExtPos=ADV|Idiom=Yes
+4	quand	quand	SCONJ	_	ExtPos=ADV	3	mod	_	Idiom=Yes
 5	même	même	ADV	_	_	4	unk	_	InIdiom=Yes
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	7	det	_	_
 7	couteau	couteau	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -498,7 +498,7 @@
 # text = et en fait, c'est c'est c'est une sorte de tour,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	et	et	CCONJ	_	_	6	cc	_	_
-2	en	en	ADP	_	_	6	discourse	_	ExtPos=ADV|Idiom=Yes
+2	en	en	ADP	_	ExtPos=ADV	6	discourse	_	Idiom=Yes
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	SpaceAfter=No
@@ -535,7 +535,7 @@
 4	assez	assez	ADV	_	_	3	mod	_	_
 5	futuriste	futuriste	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	enfin	enfin	ADV	_	_	3	discourse	_	ExtPos=INTJ|SpaceAfter=No
+7	enfin	enfin	ADV	_	ExtPos=INTJ	3	discourse	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_30
@@ -587,7 +587,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	et	et	CCONJ	_	_	12	cc	_	_
 2	là	là	ADV	_	_	12	mod	_	_
-3	en	en	ADP	_	_	2	discourse	_	ExtPos=ADV|Idiom=Yes
+3	en	en	ADP	_	ExtPos=ADV	2	discourse	_	Idiom=Yes
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	InIdiom=Yes
 5	à	à	ADP	_	_	12	mod	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -616,7 +616,7 @@
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	InIdiom=Yes
-8	peu	peu	NOUN	_	Gender=Masc|Number=Sing	9	mod	_	ExtPos=ADV|Idiom=Yes
+8	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	9	mod	_	Idiom=Yes
 9	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	20	punct	_	_
 11	mais	mais	CCONJ	_	_	20	cc	_	_
@@ -660,7 +660,7 @@
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	sauf	sauf	ADP	_	_	2	mod	_	ExtPos=ADV|Idiom=Yes
+8	sauf	sauf	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes
 9	que	que	SCONJ	_	_	8	unk	_	InIdiom=Yes|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	12	subj	_	_
@@ -775,7 +775,7 @@
 3	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	contente	content	ADJ	_	Gender=Fem|Number=Sing	4	comp:pred	_	_
-6	parce	parce	ADV	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
+6	parce	parce	ADV	_	ExtPos=SCONJ	4	mod	_	Idiom=Yes
 7	qu'	que	SCONJ	_	_	6	unk	_	InIdiom=Yes|SpaceAfter=No
 8	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj@expl	_	_
 9	y	y	PRON	_	Person=3|PronType=Prs	10	comp@expl	_	_
@@ -801,7 +801,7 @@
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	fac	fac	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
-32	parce	parce	ADV	_	_	25	mod	_	ExtPos=SCONJ|Idiom=Yes
+32	parce	parce	ADV	_	ExtPos=SCONJ	25	mod	_	Idiom=Yes
 33	que	que	SCONJ	_	_	32	unk	_	InIdiom=Yes
 34	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	35	subj	_	SpaceAfter=No
 35	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	comp:obj	_	_
@@ -825,7 +825,7 @@
 3	après	après	ADV	_	_	10	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	avec	avec	ADP	_	_	10	mod	_	_
-6	Re~	Re~	X	_	_	5	comp:obj	_	ExtPos=PROPN
+6	Re~	Re~	X	_	ExtPos=PROPN	5	comp:obj	_	_
 7	euh	euh	INTJ	_	_	6	discourse	_	_
 8	Thomas	Thomas	PROPN	_	_	6	conj:dicto	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	_
@@ -841,7 +841,7 @@
 18	de	de	ADP	_	_	17	mod	_	_
 19	Censier	Censier	PROPN	_	_	18	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	parce	parce	ADV	_	_	12	mod	_	ExtPos=SCONJ|Idiom=Yes
+21	parce	parce	ADV	_	ExtPos=SCONJ	12	mod	_	Idiom=Yes
 22	que	que	SCONJ	_	_	21	unk	_	InIdiom=Yes
 23	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	24	subj	_	SpaceAfter=No
 24	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
@@ -944,7 +944,7 @@
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	deux	deux	NUM	_	Number=Plur	8	mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	parce	parce	ADV	_	_	7	mod	_	ExtPos=SCONJ|Idiom=Yes
+12	parce	parce	ADV	_	ExtPos=SCONJ	7	mod	_	Idiom=Yes
 13	que	que	SCONJ	_	_	12	unk	_	InIdiom=Yes
 14	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	dislocated	_	_
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj	_	_

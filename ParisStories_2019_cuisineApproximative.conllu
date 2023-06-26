@@ -14,10 +14,10 @@
 # text = bah d'abord, enfin je suis pas quelqu'un qui fait euh, des recettes très très carrées etc.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	bah	bah	INTJ	_	_	7	discourse	_	_
-2	d'	de	ADP	_	_	7	mod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+2	d'	de	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes|SpaceAfter=No
 3	abord	abord	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	enfin	enfin	ADV	_	_	7	discourse	_	ExtPos=INTJ
+5	enfin	enfin	ADV	_	ExtPos=INTJ	7	discourse	_	_
 6	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	7	subj	_	_
 7	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
@@ -37,7 +37,7 @@
 # sent_id = ParisStories_2019_cuisineApproximative_3
 # text = genre souvent j'ai plus l'habitude de, de pas trop suivre les proportions, de regarder en gros et tout, donc souvent je fous de l'eau dans la casserole, et souvent trop.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	genre	genre	NOUN	_	Gender=Masc|Number=Sing	4	discourse	_	ExtPos=INTJ
+1	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	4	discourse	_	_
 2	souvent	souvent	ADV	_	_	4	mod	_	_
 3	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -58,13 +58,13 @@
 19	en	en	ADP	_	_	18	mod	_	_
 20	gros	gros	ADJ	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 21	et	et	CCONJ	_	_	22	cc	_	InIdiom=Yes
-22	tout	tout	ADV	_	_	18	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+22	tout	tout	ADV	_	ExtPos=ADV	18	conj:coord	_	Idiom=Yes|SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	donc	donc	ADV	_	_	27	cc	_	_
 25	souvent	souvent	ADV	_	_	27	mod	_	_
 26	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	27	subj	_	_
 27	fous	fou	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
-28	de	de	ADP	_	_	30	det	_	ExtPos=DET|Idiom=Yes
+28	de	de	ADP	_	ExtPos=DET	30	det	_	Idiom=Yes
 29	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	unk	_	InIdiom=Yes|SpaceAfter=No
 30	eau	eau	NOUN	_	Gender=Fem|Number=Sing	27	comp:obj	_	_
 31	dans	dans	ADP	_	_	27	mod	_	_
@@ -111,7 +111,7 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	13	det	_	_
 13	beurre	beurre	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
-15	genre	genre	NOUN	_	Gender=Masc|Number=Sing	17	discourse	_	ExtPos=INTJ
+15	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	17	discourse	_	_
 16	des	des	DET	_	Gender=Masc|Number=Plur	17	det	_	_
 17	morceaux	morceau	NOUN	_	Gender=Masc|Number=Plur	13	conj:dicto	_	_
 18	de	de	ADP	_	_	17	udep	_	_
@@ -132,7 +132,7 @@
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	fois	fois	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11-12	du	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	14	discourse	_	ExtPos=ADV|Idiom=Yes
+11	de	de	ADP	_	ExtPos=ADV	14	discourse	_	Idiom=Yes
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	InIdiom=Yes
 13	coup	coup	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	InIdiom=Yes
 14	quand	quand	SCONJ	_	_	5	mod	_	_
@@ -161,7 +161,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	32	cc	_	_
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	InIdiom=Yes
-3	fois	fois	NOUN	_	Gender=Fem|Number=Sing	32	mod	_	ExtPos=ADV|Idiom=Yes
+3	fois	fois	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	32	mod	_	Idiom=Yes
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	tout	tout	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
@@ -192,7 +192,7 @@
 31	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	32	subj	_	_
 32	rajoutes	rajoute	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	InIdiom=Yes
-34	peu	peu	NOUN	_	Gender=Masc|Number=Sing	32	comp:obj	_	ExtPos=ADV|Idiom=Yes
+34	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	32	comp:obj	_	Idiom=Yes
 35	de	de	ADP	_	_	34	udep	_	_
 36	sel	sel	NOUN	_	Gender=Masc|Number=Sing	35	comp:obj	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	32	punct	_	_
@@ -228,10 +228,10 @@
 # sent_id = ParisStories_2019_cuisineApproximative_9
 # text = enfin c'était genre euh, cent cinquante grammes de farine, alors que tout le reste c'est soixante-quinze grammes ou euh, vingt-cinq centilitres.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	enfin	enfin	ADV	_	_	3	discourse	_	ExtPos=INTJ
+1	enfin	enfin	ADV	_	ExtPos=INTJ	3	discourse	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	SpaceAfter=No
 3	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	genre	genre	NOUN	_	Gender=Masc|Number=Sing	9	discourse	_	ExtPos=INTJ
+4	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	9	discourse	_	_
 5	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	cent	cent	NUM	_	Number=Plur	9	det	_	_
@@ -240,7 +240,7 @@
 10	de	de	ADP	_	_	9	udep	_	_
 11	farine	farine	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	alors	alors	ADV	_	_	3	mod	_	ExtPos=SCONJ|Idiom=Yes
+13	alors	alors	ADV	_	ExtPos=SCONJ	3	mod	_	Idiom=Yes
 14	que	que	SCONJ	_	_	13	unk	_	InIdiom=Yes
 15	tout	tout	ADJ	_	_	17	mod	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -264,7 +264,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	et	et	CCONJ	_	_	9	cc	_	_
 5-6	du	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	4	discourse	_	ExtPos=ADV|Idiom=Yes
+5	de	de	ADP	_	ExtPos=ADV	4	discourse	_	Idiom=Yes
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	InIdiom=Yes
 7	coup	coup	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	InIdiom=Yes
 8	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	9	subj	_	_
@@ -294,7 +294,7 @@
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	feu	feu	NOUN	_	Gender=Masc|Number=Sing	31	comp:obj	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	_
-35	parce	parce	ADV	_	_	29	mod	_	ExtPos=SCONJ|Idiom=Yes
+35	parce	parce	ADV	_	ExtPos=SCONJ	29	mod	_	Idiom=Yes
 36	que	que	SCONJ	_	_	35	unk	_	InIdiom=Yes
 37	comme	comme	ADP	_	_	48	discourse	_	_
 38	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	37	comp:obj	_	SpaceAfter=No
@@ -322,14 +322,14 @@
 7	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	InIdiom=Yes
-10	fois	fois	NOUN	_	Gender=Fem|Number=Sing	8	mod	_	ExtPos=ADV|Idiom=Yes
+10	fois	fois	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	8	mod	_	Idiom=Yes
 11	ensemble	ensemble	ADV	_	_	8	mod	_	_
 12	?	?	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_12
 # text = non ?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	non	non	ADV	_	Polarity=Neg	0	root	_	ExtPos=INTJ
+1	non	non	ADV	_	ExtPos=INTJ|Polarity=Neg	0	root	_	_
 2	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_13
@@ -363,7 +363,7 @@
 25	de	de	ADP	_	_	24	udep	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	casserole	casserole	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
-28	parce	parce	ADV	_	_	21	mod	_	ExtPos=SCONJ|Idiom=Yes
+28	parce	parce	ADV	_	ExtPos=SCONJ	21	mod	_	Idiom=Yes
 29	que	que	SCONJ	_	_	28	unk	_	InIdiom=Yes
 30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
 31	eau	eau	NOUN	_	Gender=Fem|Number=Sing	32	subj	_	_
@@ -430,7 +430,7 @@
 # sent_id = ParisStories_2019_cuisineApproximative_16
 # text = parce que les matières grasses, ça capte vachement bien les saveurs et tout.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	parce	parce	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	matières	matière	NOUN	_	Gender=Fem|Number=Plur	8	dislocated	_	_
@@ -443,7 +443,7 @@
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	12	det	_	_
 12	saveurs	saveur	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
 13	et	et	CCONJ	_	_	14	cc	_	InIdiom=Yes
-14	tout	tout	ADV	_	_	12	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+14	tout	tout	ADV	_	ExtPos=ADV	12	conj:coord	_	Idiom=Yes|SpaceAfter=No
 15	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_17
@@ -457,7 +457,7 @@
 6	le	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	_
 7	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
-9	fois	fois	NOUN	_	Gender=Fem|Number=Sing	7	mod	_	ExtPos=ADV|Idiom=Yes
+9	fois	fois	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	7	mod	_	Idiom=Yes
 10	que	que	SCONJ	_	_	9	comp:obj	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	boule	boule	NOUN	_	Gender=Fem|Number=Sing	15	subj	_	_
@@ -478,7 +478,7 @@
 6	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp:obl	_	_
 7	pose	poser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
-9	quest~	quest~	X	_	Gender=Fem|Number=Sing	7	comp:obj	_	ExtPos=NOUN
+9	quest~	quest~	X	_	ExtPos=NOUN|Gender=Fem|Number=Sing	7	comp:obj	_	_
 10	bah	bah	INTJ	_	_	16	discourse	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	fromage	fromage	NOUN	_	Gender=Masc|Number=Sing	16	dislocated	_	SpaceAfter=No
@@ -489,21 +489,21 @@
 17	aussi	aussi	ADV	_	_	16	mod	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	question	question	NOUN	_	Gender=Fem|Number=Sing	16	comp:pred	_	_
-20	qu~	qu~	X	_	_	19	mod	_	ExtPos=SCONJ
-21	parce	parce	ADV	_	_	16	mod	_	ExtPos=SCONJ|Idiom=Yes
+20	qu~	qu~	X	_	ExtPos=SCONJ	19	mod	_	_
+21	parce	parce	ADV	_	ExtPos=SCONJ	16	mod	_	Idiom=Yes
 22	qu'	que	SCONJ	_	_	21	unk	_	InIdiom=Yes|SpaceAfter=No
 23	en	en	ADP	_	_	38	discourse	_	_
 24	fait	fait	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	23	punct	_	_
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	InIdiom=Yes
-27	fois	fois	NOUN	_	Gender=Fem|Number=Sing	38	mod	_	ExtPos=ADV|Idiom=Yes
+27	fois	fois	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	38	mod	_	Idiom=Yes
 28	que	que	SCONJ	_	_	27	comp:obj	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	boule	boule	NOUN	_	Gender=Fem|Number=Sing	33	subj	_	_
 31	de	de	ADP	_	_	30	udep	_	_
 32	pâte	pâte	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	_
 33	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	comp:obj	_	_
-34	ferm~	ferm~	X	_	_	33	comp:pred	_	ExtPos=ADJ
+34	ferm~	ferm~	X	_	ExtPos=ADJ	33	comp:pred	_	_
 35	formée	formé	ADJ	_	Gender=Fem|Number=Sing	34	conj:dicto	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	27	punct	_	_
 37	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	38	subj	_	_
@@ -570,7 +570,7 @@
 # sent_id = ParisStories_2019_cuisineApproximative_22
 # text = genre je mets les œufs etc, et une fois que tout est fait là je rajoute les épices.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	genre	genre	NOUN	_	Gender=Masc|Number=Sing	3	discourse	_	ExtPos=INTJ
+1	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	3	discourse	_	_
 2	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	5	det	_	_
@@ -579,7 +579,7 @@
 7	,	,	PUNCT	_	_	17	punct	_	_
 8	et	et	CCONJ	_	_	17	cc	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	InIdiom=Yes
-10	fois	fois	NOUN	_	Gender=Fem|Number=Sing	17	mod	_	ExtPos=ADV|Idiom=Yes
+10	fois	fois	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	17	mod	_	Idiom=Yes
 11	que	que	SCONJ	_	_	10	comp:obj	_	_
 12	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	subj@pass	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
@@ -598,18 +598,18 @@
 2	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	rajoute	rajouter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	fr~	fr~	X	_	Gender=Masc|Number=Sing	3	comp:obj	_	ExtPos=NOUN|SpaceAfter=No
+5	fr~	fr~	X	_	ExtPos=NOUN|Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	fromage	fromage	NOUN	_	Gender=Masc|Number=Sing	5	conj:dicto	_	_
 8	et	et	CCONJ	_	_	9	cc	_	InIdiom=Yes
-9	tout	tout	ADV	_	_	7	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+9	tout	tout	ADV	_	ExtPos=ADV	7	conj:coord	_	Idiom=Yes|SpaceAfter=No
 10	,	,	PUNCT	_	_	21	punct	_	_
 11	et	et	CCONJ	_	_	21	cc	_	_
 12	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	11	punct	_	_
-14	non	non	ADV	_	_	21	discourse	_	ExtPos=INTJ|wordform=nan
-15	non	non	ADV	_	_	14	conj:dicto	_	ExtPos=INTJ|wordform=nan
-16	non	non	ADV	_	_	15	conj:dicto	_	ExtPos=INTJ|wordform=nan
+14	non	non	ADV	_	ExtPos=INTJ	21	discourse	_	wordform=nan
+15	non	non	ADV	_	ExtPos=INTJ	14	conj:dicto	_	wordform=nan
+16	non	non	ADV	_	ExtPos=INTJ	15	conj:dicto	_	wordform=nan
 17	bah	bah	INTJ	_	_	21	discourse	_	_
 18	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	21	subj	_	_
 19	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	conj:dicto	_	_
@@ -622,10 +622,10 @@
 25	en	en	ADP	_	_	21	discourse	_	_
 26	fait	fait	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
-28	dès	dès	ADP	_	_	21	mod	_	ExtPos=ADV|Idiom=Yes
+28	dès	dès	ADP	_	ExtPos=ADV	21	mod	_	Idiom=Yes
 29	que	que	SCONJ	_	_	28	unk	_	InIdiom=Yes|SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
-31	dès	dès	ADP	_	_	28	conj:dicto	_	ExtPos=ADV|Idiom=Yes
+31	dès	dès	ADP	_	ExtPos=ADV	28	conj:dicto	_	Idiom=Yes
 32	que	que	SCONJ	_	_	31	unk	_	InIdiom=Yes
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	beurre	beurre	NOUN	_	Gender=Masc|Number=Sing	35	subj	_	_
@@ -655,7 +655,7 @@
 # sent_id = ParisStories_2019_cuisineApproximative_25
 # text = enfin si tu le fais bien, et dans les bonnes proportions et tout, ça se décolle hyper vite.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	enfin	enfin	ADV	_	_	18	discourse	_	ExtPos=INTJ
+1	enfin	enfin	ADV	_	ExtPos=INTJ	18	discourse	_	_
 2	si	si	SCONJ	_	_	18	mod	_	_
 3	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	5	subj	_	_
 4	le	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
@@ -668,7 +668,7 @@
 11	bonnes	bon	ADJ	_	Gender=Fem|Number=Plur	12	mod	_	_
 12	proportions	proportion	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	_
 13	et	et	CCONJ	_	_	14	cc	_	InIdiom=Yes
-14	tout	tout	ADV	_	_	9	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+14	tout	tout	ADV	_	ExtPos=ADV	9	conj:coord	_	Idiom=Yes|SpaceAfter=No
 15	,	,	PUNCT	_	_	2	punct	_	_
 16	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	_
 17	se	soi	PRON	_	Person=3|PronType=Prs	18	comp@pass	_	_
@@ -708,7 +708,7 @@
 # sent_id = ParisStories_2019_cuisineApproximative_27
 # text = oui j'ai oublié ce que tu…
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	oui	oui	ADV	_	_	3	discourse	_	ExtPos=INTJ
+1	oui	oui	ADV	_	ExtPos=INTJ	3	discourse	_	_
 2	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	oublié	oublier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
@@ -734,22 +734,22 @@
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	feu	feu	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	13	det	_	InIdiom=Yes
-13	fois	fois	NOUN	_	Gender=Fem|Number=Sing	8	mod	_	ExtPos=ADV|Idiom=Yes
+13	fois	fois	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	8	mod	_	Idiom=Yes
 14	que	que	SCONJ	_	_	13	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	InIdiom=Yes
-17	fois	fois	NOUN	_	Gender=Fem|Number=Sing	13	conj:dicto	_	ExtPos=ADV|Idiom=Yes
+17	fois	fois	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	13	conj:dicto	_	Idiom=Yes
 18	que	que	SCONJ	_	_	17	comp:obj	_	_
 19	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	subj	_	SpaceAfter=No
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	25	punct	_	_
-22	XXX	XXX	X	_	_	25	discourse	_	ExtPos=X
-23	enfin	enfin	ADV	_	_	25	discourse	_	ExtPos=INTJ
+22	XXX	XXX	X	_	ExtPos=X	25	discourse	_	_
+23	enfin	enfin	ADV	_	ExtPos=INTJ	25	discourse	_	_
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	InIdiom=Yes
-25	fois	fois	NOUN	_	Gender=Fem|Number=Sing	17	conj:dicto	_	ExtPos=ADV|Idiom=Yes
-26	qu~	qu~	X	_	_	25	comp:obj	_	ExtPos=SCONJ|InIdiom=Yes
+25	fois	fois	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	17	conj:dicto	_	Idiom=Yes
+26	qu~	qu~	X	_	ExtPos=SCONJ	25	comp:obj	_	InIdiom=Yes
 27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	InIdiom=Yes
-28	fois	fois	NOUN	_	Gender=Fem|Number=Sing	25	conj:dicto	_	ExtPos=ADV|Idiom=Yes
+28	fois	fois	NOUN	_	ExtPos=ADV|Gender=Fem|Number=Sing	25	conj:dicto	_	Idiom=Yes
 29	que	que	SCONJ	_	_	28	comp:obj	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	beurre	beurre	NOUN	_	Gender=Masc|Number=Sing	32	subj	_	_
@@ -840,7 +840,7 @@
 # sent_id = ParisStories_2019_cuisineApproximative_31
 # text = XXX et euh, et voilà.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	XXX	XXX	X	_	_	6	discourse	_	ExtPos=X|wordform=xxx
+1	XXX	XXX	X	_	ExtPos=X	6	discourse	_	wordform=xxx
 2	et	et	CCONJ	_	_	6	cc	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
@@ -871,7 +871,7 @@
 6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
 8	mettre	mettre	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
-9	de	de	ADP	_	_	11	det	_	ExtPos=DET|Idiom=Yes
+9	de	de	ADP	_	ExtPos=DET	11	det	_	Idiom=Yes
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	unk	_	InIdiom=Yes
 11	muscade	muscade	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_

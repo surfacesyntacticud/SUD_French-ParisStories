@@ -14,7 +14,7 @@
 # sent_id = ParisStories_2020_aideAuxEnfants_2
 # text = en fait, euh, je partais trois semaines par le biais d'une colonie, avec des amis, et euh, un organisme qui s'appelle Grandir Aventure.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
-1	en	en	ADP	_	_	7	discourse	_	ExtPos=ADV|Idiom=Yes
+1	en	en	ADP	_	ExtPos=ADV	7	discourse	_	Idiom=Yes
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
@@ -41,7 +41,7 @@
 25	organisme	organisme	NOUN	_	Gender=Masc|Number=Sing	19	conj:coord	_	_
 26	qui	qui	PRON	_	PronType=Rel	28	subj	_	_
 27	s'	soi	PRON	_	Person=3|PronType=Prs	28	comp@expl	_	InIdiom=Yes|SpaceAfter=No
-28	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	mod@relcl	_	ExtPos=VERB|Idiom=Yes
+28	appelle	appeler	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	mod@relcl	_	Idiom=Yes
 29	Grandir	Grandir	PROPN	_	_	28	comp:obj	_	_
 30	Aventure	Aventure	PROPN	_	_	29	flat@name	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	7	punct	_	_
@@ -121,7 +121,7 @@
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	internat	internat	NOUN	_	Gender=Masc|Number=Sing	10	subj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	en	en	ADP	_	_	10	discourse	_	ExtPos=ADV|Idiom=Yes
+7	en	en	ADP	_	ExtPos=ADV	10	discourse	_	Idiom=Yes
 8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -167,7 +167,7 @@
 # sent_id = ParisStories_2020_aideAuxEnfants_7
 # text = c'est-à-dire qu'on a bouché les trous.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
-1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	ExtPos=CCONJ	4	cc	_	Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -201,7 +201,7 @@
 7	classes	classe	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	InIdiom=Yes
 9	petit	petit	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	InIdiom=Yes
-10	peu	peu	NOUN	_	Gender=Masc|Number=Sing	11	mod	_	ExtPos=ADV|Idiom=Yes
+10	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	11	mod	_	Idiom=Yes
 11	plus	plus	ADV	_	_	12	mod	_	_
 12	jolies	joli	ADJ	_	Gender=Fem|Number=Plur	7	mod	_	_
 13	que	que	SCONJ	_	_	11	comp:obj	_	_
@@ -259,7 +259,7 @@
 # sent_id = ParisStories_2020_aideAuxEnfants_11
 # text = parce que la plupart du temps ils créent eux-mêmes leur savon, et euh, et le dentifrice, à base d'argile.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
-1	parce	parce	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	1	mod	_	_
@@ -295,7 +295,7 @@
 4	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	et	et	CCONJ	_	_	3	conj:dicto	_	_
-7	voilà	voilà	VERB	_	_	10	discourse	_	ExtPos=INTJ|SpaceAfter=No
+7	voilà	voilà	VERB	_	ExtPos=INTJ	10	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	SpaceAfter=No
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -330,7 +330,7 @@
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	2	punct	_	_
-14	en	en	ADP	_	_	20	discourse	_	ExtPos=ADV|Idiom=Yes
+14	en	en	ADP	_	ExtPos=ADV	20	discourse	_	Idiom=Yes
 15	fait	fait	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	unk@scrap	_	SpaceAfter=No
@@ -380,7 +380,7 @@
 11	de	de	ADP	_	_	10	udep	_	_
 12	riz	riz	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	parce	parce	ADV	_	_	5	mod	_	ExtPos=SCONJ|Idiom=Yes
+14	parce	parce	ADV	_	ExtPos=SCONJ	5	mod	_	Idiom=Yes
 15	qu'	que	SCONJ	_	_	14	unk	_	InIdiom=Yes|SpaceAfter=No
 16	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	subj@expl	_	_
 17	y	y	PRON	_	Person=3|PronType=Prs	18	comp@expl	_	_
@@ -466,7 +466,7 @@
 25	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	26	subj	_	_
 26	manges	mange	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	mod@relcl	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
-28	parce	parce	ADV	_	_	26	mod	_	ExtPos=SCONJ|Idiom=Yes
+28	parce	parce	ADV	_	ExtPos=SCONJ	26	mod	_	Idiom=Yes
 29	que	que	SCONJ	_	_	28	unk	_	InIdiom=Yes
 30	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	31	subj	_	_
 31	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	28	comp:obj	_	_
@@ -474,13 +474,13 @@
 33	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	34	det	_	_
 34	maladies	maladie	NOUN	_	Gender=Fem|Number=Plur	32	comp:obj	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	36	punct	_	_
-36	non	non	ADV	_	_	19	discourse	_	ExtPos=INTJ
+36	non	non	ADV	_	ExtPos=INTJ	19	discourse	_	_
 37	?	?	PUNCT	_	_	19	punct	_	_
 
 # sent_id = ParisStories_2020_aideAuxEnfants_22
 # text = oui, on peut, euh, on peut attraper des maladies, mais en général, euh, il ne faut pas boire de l'eau du robinet.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
-1	oui	oui	ADV	_	_	4	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	oui	oui	ADV	_	ExtPos=INTJ	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -504,7 +504,7 @@
 22	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj:coord	_	_
 23	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
 24	boire	boire	VERB	_	VerbForm=Inf	22	comp:obj	_	Subject=SubjRaising
-25	de	de	ADP	_	_	27	det	_	ExtPos=DET|Idiom=Yes
+25	de	de	ADP	_	ExtPos=DET	27	det	_	Idiom=Yes
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	unk	_	InIdiom=Yes|SpaceAfter=No
 27	eau	eau	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
 28-29	du	_	_	_	_	_	_	_	_
@@ -557,7 +557,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 1	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	oui	oui	ADV	_	_	12	discourse	_	ExtPos=INTJ|SpaceAfter=No
+3	oui	oui	ADV	_	ExtPos=INTJ	12	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	mais	mais	CCONJ	_	_	12	cc	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	unk@scrap	_	_
@@ -574,7 +574,7 @@
 17	cuite	cuit	ADJ	_	Gender=Fem|Number=Sing	15	comp:pred	_	_
 18	aussi	aussi	ADV	_	_	15	mod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
-20	parce	parce	ADV	_	_	15	mod	_	ExtPos=SCONJ|Idiom=Yes
+20	parce	parce	ADV	_	ExtPos=SCONJ	15	mod	_	Idiom=Yes
 21	que	que	SCONJ	_	_	20	unk	_	InIdiom=Yes|SpaceAfter=No
 22	,	,	PUNCT	_	_	26	punct	_	_
 23	sinon	sinon	ADV	_	_	26	mod	_	SpaceAfter=No

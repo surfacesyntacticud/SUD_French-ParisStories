@@ -11,7 +11,7 @@
 6	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	SpaceAfter=No
 7	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 8	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
-9	XXX	XXX	X	_	_	8	dislocated	_	ExtPos=X|SpaceAfter=No
+9	XXX	XXX	X	_	ExtPos=X	8	dislocated	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	4	punct	_	_
 11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	SpaceAfter=No
 12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -93,7 +93,7 @@
 21	pas	pas	ADV	_	_	23	mod	_	_
 22	le	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	comp:obj	_	_
 23	rencontrer	rencontrer	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=NoRaising
-24	parce	parce	ADV	_	_	7	mod	_	ExtPos=SCONJ|Idiom=Yes
+24	parce	parce	ADV	_	ExtPos=SCONJ	7	mod	_	Idiom=Yes
 25	que	que	SCONJ	_	_	24	unk	_	InIdiom=Yes|SpaceAfter=No
 26	,	,	PUNCT	_	_	30	punct	_	_
 27	euh	euh	INTJ	_	_	30	discourse	_	SpaceAfter=No
@@ -107,7 +107,7 @@
 35	chez	chez	ADP	_	_	34	comp:obl	_	_
 36	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	35	comp:obj	_	_
 37	et	et	CCONJ	_	_	38	cc	_	InIdiom=Yes
-38	tout	tout	ADV	_	Gender=Masc|Number=Sing	34	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+38	tout	tout	ADV	_	ExtPos=ADV|Gender=Masc|Number=Sing	34	conj:coord	_	Idiom=Yes|SpaceAfter=No
 39	,	,	PUNCT	_	_	40	punct	_	_
 40	hein	hein	INTJ	_	_	30	discourse	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	7	punct	_	_
@@ -138,7 +138,7 @@
 12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	subj	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	craqué	craquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
-15	parce	parce	ADV	_	_	13	mod	_	ExtPos=SCONJ|Idiom=Yes
+15	parce	parce	ADV	_	ExtPos=SCONJ	13	mod	_	Idiom=Yes
 16	que	que	SCONJ	_	_	15	unk	_	InIdiom=Yes|SpaceAfter=No
 17	,	,	PUNCT	_	_	15	punct	_	_
 18	bah	bah	INTJ	_	_	21	discourse	_	SpaceAfter=No
@@ -162,7 +162,7 @@
 36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	maison	maison	NOUN	_	Gender=Fem|Number=Sing	35	comp:obj	_	_
 38	et	et	CCONJ	_	_	39	cc	_	InIdiom=Yes
-39	tout	tout	ADV	_	_	32	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+39	tout	tout	ADV	_	ExtPos=ADV	32	conj:coord	_	Idiom=Yes|SpaceAfter=No
 40	.	.	PUNCT	_	_	13	punct	_	_
 
 # status = done
@@ -203,7 +203,7 @@
 # text = bah non, il y avait pas trop le choix, quoi.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/e49250515830f4160331954ff62532215cd3f8c8
 1	bah	bah	INTJ	_	_	6	discourse	_	_
-2	non	non	ADV	_	_	6	discourse	_	ExtPos=INTJ|SpaceAfter=No
+2	non	non	ADV	_	ExtPos=INTJ	6	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	_
 5	y	y	PRON	_	Person=3|PronType=Prs	6	comp@expl	_	_
@@ -363,7 +363,7 @@
 11	première	premier	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
 12	fois	fois	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
-14	genre	genre	NOUN	_	Gender=Masc|Number=Sing	17	discourse	_	ExtPos=INTJ|SpaceAfter=No
+14	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	17	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@pass	_	_
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	dislocated	_	_
@@ -520,7 +520,7 @@
 11	là	là	ADV	_	_	10	comp:pred	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	_
-14	dieu	dieu	NOUN	_	Gender=Masc|Number=Sing	17	discourse	_	ExtPos=INTJ
+14	dieu	dieu	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	17	discourse	_	_
 15	mais	mais	CCONJ	_	_	17	cc	_	_
 16	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	subj	_	SpaceAfter=No
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	Reported=Yes
@@ -562,7 +562,7 @@
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	17	comp:obj	_	_
 20	et	et	CCONJ	_	_	21	cc	_	InIdiom=Yes
-21	tout	tout	ADV	_	Gender=Masc|Number=Sing	14	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+21	tout	tout	ADV	_	ExtPos=ADV|Gender=Masc|Number=Sing	14	conj:coord	_	Idiom=Yes|SpaceAfter=No
 22	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_33
@@ -772,7 +772,7 @@
 # text = ah oui, donc, euh, ouais, chaud.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/e49250515830f4160331954ff62532215cd3f8c8
 1	ah	ah	INTJ	_	_	10	discourse	_	_
-2	oui	oui	ADV	_	_	10	discourse	_	ExtPos=INTJ|SpaceAfter=No
+2	oui	oui	ADV	_	ExtPos=INTJ	10	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	donc	donc	ADV	_	_	10	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
@@ -822,7 +822,7 @@
 24	parents	parent	NOUN	_	Gender=Masc|Number=Plur	21	comp:obj	_	_
 25	ensemble	ensemble	ADV	_	_	24	mod	_	_
 26	et	et	CCONJ	_	_	27	cc	_	InIdiom=Yes
-27	tout	tout	ADV	_	Gender=Masc|Number=Sing	20	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+27	tout	tout	ADV	_	ExtPos=ADV|Gender=Masc|Number=Sing	20	conj:coord	_	Idiom=Yes|SpaceAfter=No
 28	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_49
@@ -900,9 +900,9 @@
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	3	mod	_	wordform=au
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	frig~	frig~	X	_	Gender=Masc|Number=Sing	9	comp:obj	_	ExtPos=NOUN|SpaceAfter=No
+11	frig~	frig~	X	_	ExtPos=NOUN|Gender=Masc|Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	enfin	enfin	ADV	_	_	2	discourse	_	ExtPos=INTJ|SpaceAfter=No
+13	enfin	enfin	ADV	_	ExtPos=INTJ	2	discourse	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_54
@@ -912,7 +912,7 @@
 1	mais	mais	CCONJ	_	_	8	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	mais	mais	CCONJ	_	_	1	conj:dicto	_	_
-4	genre	genre	NOUN	_	Gender=Masc|Number=Sing	9	discourse	_	ExtPos=INTJ
+4	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	9	discourse	_	_
 5	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	8	dislocated	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj@pass	_	_

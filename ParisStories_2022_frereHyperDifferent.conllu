@@ -3,7 +3,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/ff57166d99cd01b05e5d1e18f910e1794a93a246
 # speaker = L1
 # text = alors du coup, j'ai réfléchi sur euh, qu'est-ce que je pourrais te raconter.
-1	alors	alors	ADV	_	_	7	discourse	_	AlignBegin=0|AlignEnd=186|ExtPos=INTJ
+1	alors	alors	ADV	_	ExtPos=INTJ	7	discourse	_	AlignBegin=0|AlignEnd=186
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	7	discourse	_	AlignBegin=186|AlignEnd=373|wordform=du
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -133,7 +133,7 @@
 2	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp@expl	_	AlignBegin=15920|AlignEnd=16084|SpaceAfter=No
 3	en	en	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=16084|AlignEnd=16248
 4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16248|AlignEnd=16412
-5	parce	parce	ADV	_	_	4	mod	_	AlignBegin=16412|AlignEnd=16576|ExtPos=SCONJ|Idiom=Yes
+5	parce	parce	ADV	_	ExtPos=SCONJ	4	mod	_	AlignBegin=16412|AlignEnd=16576|Idiom=Yes
 6	que	que	SCONJ	_	_	5	unk	_	AlignBegin=16576|AlignEnd=16739|InIdiom=Yes
 7	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	AlignBegin=16739|AlignEnd=16903
 8	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=16903|AlignEnd=17067
@@ -148,7 +148,7 @@
 17	petit	petit	ADJ	_	_	18	mod	_	AlignBegin=18650|AlignEnd=18868
 18	frère	frère	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	AlignBegin=18868|AlignEnd=19086|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=19086|AlignEnd=19086
-20	parce	parce	ADV	_	_	9	conj:coord	_	AlignBegin=20456|AlignEnd=20720|ExtPos=SCONJ|Idiom=Yes
+20	parce	parce	ADV	_	ExtPos=SCONJ	9	conj:coord	_	AlignBegin=20456|AlignEnd=20720|Idiom=Yes
 21	que	que	SCONJ	_	_	20	unk	_	AlignBegin=20720|AlignEnd=20984|InIdiom=Yes
 22	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	23	subj	_	AlignBegin=20984|AlignEnd=21248
 23	trouvais	trouver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	20	comp:obj	_	AlignBegin=21248|AlignEnd=21512
@@ -431,7 +431,7 @@
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=59752|AlignEnd=59880
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	AlignBegin=59880|AlignEnd=60009|InIdiom=Yes
 5	y	y	PRON	_	Person=3|PronType=Prs	6	comp	_	AlignBegin=60009|AlignEnd=60137|InIdiom=Yes
-6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod	_	AlignBegin=60137|AlignEnd=60265|ExtPos=ADP|Idiom=Yes
+6	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod	_	AlignBegin=60137|AlignEnd=60265|Idiom=Yes
 7	longtemps	longtemps	ADV	_	_	6	mod	_	AlignBegin=60265|AlignEnd=60393|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=60393|AlignEnd=60393
 9	hein	hein	INTJ	_	_	7	discourse	_	AlignBegin=60393|AlignEnd=60521
@@ -682,10 +682,10 @@
 15	assez	assez	ADV	_	_	16	mod	_	AlignBegin=97204|AlignEnd=97372
 16	similaire	similaire	ADJ	_	_	14	comp:pred	_	AlignBegin=97372|AlignEnd=97540|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=97540|AlignEnd=97540
-18	parce	parce	ADV	_	_	9	mod	_	AlignBegin=97540|AlignEnd=97666|ExtPos=SCONJ|Idiom=Yes
+18	parce	parce	ADV	_	ExtPos=SCONJ	9	mod	_	AlignBegin=97540|AlignEnd=97666|Idiom=Yes
 19	que	que	SCONJ	_	_	18	unk	_	AlignBegin=97666|AlignEnd=97792|InIdiom=Yes|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=97792|AlignEnd=97792
-21	parce	parce	ADV	_	_	18	conj:dicto	_	AlignBegin=97792|AlignEnd=97918|ExtPos=SCONJ|Idiom=Yes
+21	parce	parce	ADV	_	ExtPos=SCONJ	18	conj:dicto	_	AlignBegin=97792|AlignEnd=97918|Idiom=Yes
 22	que	que	SCONJ	_	_	21	unk	_	AlignBegin=97918|AlignEnd=98044|InIdiom=Yes
 23	bon	bon	INTJ	_	_	28	discourse	_	AlignBegin=98044|AlignEnd=98170|SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	AlignBegin=98170|AlignEnd=98170

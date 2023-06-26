@@ -156,10 +156,10 @@
 6	surfers	surfer	NOUN	_	Gender=Masc|Number=Plur	7	subj	_	_
 7	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	partis	partir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
-9	à	à	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes
+9	à	à	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes
 10	part	part	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
-12	enfin	enfin	ADV	_	_	13	discourse	_	ExtPos=INTJ
+12	enfin	enfin	ADV	_	ExtPos=INTJ	13	discourse	_	_
 13	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	parataxis:parenth	_	_
 14	que	que	PRON	_	PronType=Rel	15	comp:obj	_	_
 15	disaient	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	mod@relcl	_	_
@@ -245,7 +245,7 @@
 5	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	9	comp:obj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	InIdiom=Yes
-8	peu	peu	NOUN	_	Gender=Masc|Number=Sing	9	mod	_	ExtPos=ADV|Idiom=Yes
+8	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	9	mod	_	Idiom=Yes
 9	choqués	choquer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 10	d'	de	ADP	_	_	9	comp:obl	_	SpaceAfter=No
 11	entendre	entendre	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
@@ -309,7 +309,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	monté	monter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	tout	tout	ADV	_	_	7	mod	_	_
-7	en	en	ADP	_	_	5	comp:obl	_	ExtPos=ADV|Idiom=Yes
+7	en	en	ADP	_	ExtPos=ADV	5	comp:obl	_	Idiom=Yes
 8	haut	haut	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	InIdiom=Yes
 9-10	du	_	_	_	_	_	_	_	_
 9	de	le	ADP	_	_	8	mod	_	_
@@ -354,7 +354,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	monté	monter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 8	tout	tout	ADV	_	_	9	mod	_	_
-9	en	en	ADP	_	_	7	comp:obl	_	ExtPos=ADV|Idiom=Yes
+9	en	en	ADP	_	ExtPos=ADV	7	comp:obl	_	Idiom=Yes
 10	haut	haut	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -449,18 +449,18 @@
 2	père	père	NOUN	_	Gender=Masc|Number=Sing	5	dislocated	_	_
 3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 4	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	_
-5	port~	port~	X	_	_	0	root	_	ExtPos=VERB
-6	enfin	enfin	ADV	_	_	5	discourse	_	ExtPos=INTJ
+5	port~	port~	X	_	ExtPos=VERB	0	root	_	_
+6	enfin	enfin	ADV	_	ExtPos=INTJ	5	discourse	_	_
 7	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
 8	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp@expl	_	_
 9	tenait	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj:dicto	_	_
-10	s~	s~	X	_	_	9	unk@scrap	_	ExtPos=X
-11	enfin	enfin	ADV	_	_	10	discourse	_	ExtPos=INTJ
+10	s~	s~	X	_	ExtPos=X	9	unk@scrap	_	_
+11	enfin	enfin	ADV	_	ExtPos=INTJ	10	discourse	_	_
 12	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	14	subj	_	_
 13	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	14	comp:obj	_	_
 14	tenais	tenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	conj:dicto	_	_
 15	à	à	ADP	_	_	14	mod	_	_
-16	l~	l~	X	_	_	15	unk@scrap	_	ExtPos=X
+16	l~	l~	X	_	ExtPos=X	15	unk@scrap	_	_
 17	à	à	ADP	_	_	15	conj:dicto	_	_
 18	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	_
 19	épaule	épaule	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
@@ -506,7 +506,7 @@
 # sent_id = ParisStories_2020_requinReunion_30
 # text = parce qu'il y a des belles choses à voir.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/35931c521095ff436db20d6625bfa67a6fdde6f7
-1	parce	parce	ADV	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	_
@@ -538,7 +538,7 @@
 15	Réunion	Réunion	PROPN	_	_	13	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	6	punct	_	_
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	SpaceAfter=No
-18	e~	e~	X	_	_	0	root	_	ExtPos=VERB
+18	e~	e~	X	_	ExtPos=VERB	0	root	_	_
 19	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	20	subj	_	_
 20	venais	venir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	18	conj:dicto	_	_
 21	de	de	ADP	_	_	20	comp:obl	_	_

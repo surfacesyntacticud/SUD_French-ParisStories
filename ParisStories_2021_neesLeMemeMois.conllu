@@ -80,7 +80,7 @@
 16	mille	mille	NUM	_	_	15	flat	_	_
 17	dix	dix	NUM	_	Number=Plur	16	flat	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	parce	parce	ADV	_	_	12	mod	_	ExtPos=SCONJ|Idiom=Yes
+19	parce	parce	ADV	_	ExtPos=SCONJ	12	mod	_	Idiom=Yes
 20	que	que	SCONJ	_	_	19	unk	_	InIdiom=Yes|SpaceAfter=No
 21	,	,	PUNCT	_	_	29	punct	_	_
 22	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	29	dislocated	_	SpaceAfter=No
@@ -169,7 +169,7 @@
 29	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 30	là-bas	là-bas	ADV	_	_	29	comp:pred	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	29	punct	_	_
-32	parce	parce	ADV	_	_	29	mod	_	ExtPos=SCONJ|Idiom=Yes
+32	parce	parce	ADV	_	ExtPos=SCONJ	29	mod	_	Idiom=Yes
 33	que	que	SCONJ	_	_	32	unk	_	InIdiom=Yes
 34	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	subj@expl	_	_
 35	y	y	PRON	_	Person=3|PronType=Prs	36	comp@expl	_	_
@@ -226,11 +226,11 @@
 # speaker = L2
 # text = parce que je cherchais de la compagnie.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
-1	parce	parce	ADV	_	_	0	root	_	AttachTo=23@ParisStories_2021_neesLeMemeMois_6|ExtPos=SCONJ|Idiom=Yes|Rel=mod
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AttachTo=23@ParisStories_2021_neesLeMemeMois_6|Idiom=Yes|Rel=mod
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	cherchais	chercher	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	comp:obj	_	_
-5	de	de	ADP	_	_	7	det	_	ExtPos=DET|Idiom=Yes
+5	de	de	ADP	_	ExtPos=DET	7	det	_	Idiom=Yes
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	unk	_	InIdiom=Yes
 7	compagnie	compagnie	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
@@ -422,7 +422,7 @@
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	voilà	voilà	VERB	_	_	5	discourse	_	ExtPos=INTJ|SpaceAfter=No
+9	voilà	voilà	VERB	_	ExtPos=INTJ	5	discourse	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_20
@@ -504,7 +504,7 @@
 # text = ouais voilà, ça doit faire euh, ça fait neuf ans qu'on se connaît.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	ouais	ouais	INTJ	_	_	5	discourse	_	_
-2	voilà	voilà	VERB	_	_	5	discourse	_	ExtPos=INTJ|SpaceAfter=No
+2	voilà	voilà	VERB	_	ExtPos=INTJ	5	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 5	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -532,7 +532,7 @@
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	InIdiom=Yes
 8	y	y	PRON	_	Person=3|PronType=Prs	9	comp	_	InIdiom=Yes
-9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod	_	ExtPos=ADP|Idiom=Yes
+9	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod	_	Idiom=Yes
 10	longtemps	longtemps	ADV	_	_	9	mod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -567,7 +567,7 @@
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
-6	voilà	voilà	VERB	_	_	7	discourse	_	ExtPos=INTJ
+6	voilà	voilà	VERB	_	ExtPos=INTJ	7	discourse	_	_
 7	en	en	ADP	_	_	0	root	_	AttachTo=2@ParisStories_2021_neesLeMemeMois_25|Rel=mod
 8	mars	mars	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	Typo=Yes	7	punct	_	_
@@ -577,7 +577,7 @@
 # speaker = L2
 # text = parce qu'on est nées le même mois en plus!
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
-1	parce	parce	SCONJ	_	_	0	root	_	AttachTo=2@ParisStories_2021_neesLeMemeMois_25|ExtPos=SCONJ|Idiom=Yes|Rel=mod
+1	parce	parce	SCONJ	_	ExtPos=SCONJ	0	root	_	AttachTo=2@ParisStories_2021_neesLeMemeMois_25|Idiom=Yes|Rel=mod
 2	qu'	qu'	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_

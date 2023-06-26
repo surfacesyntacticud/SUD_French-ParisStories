@@ -112,20 +112,20 @@
 # sent_id = ParisStories_2021_nouveauxEleves_5
 # text = et puis euh, souvent, bah voilà les nouveaux on reste un peu euh, isolés entre nous.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2f23fc7ef93ff57444d56c8036be2ff81307aaeb
-1	et	et	CCONJ	_	_	12	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	12	cc	_	Idiom=Yes
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	souvent	souvent	ADV	_	_	12	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	bah	bah	INTJ	_	_	5	discourse	_	_
-8	voilà	voilà	VERB	_	_	5	discourse	_	ExtPos=INTJ
+8	voilà	voilà	VERB	_	ExtPos=INTJ	5	discourse	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	nouveaux	nouveau	NOUN	_	Gender=Masc|Number=Plur	12	dislocated	_	_
 11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	_
 12	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	InIdiom=Yes
-14	peu	peu	NOUN	_	Gender=Masc|Number=Sing	17	mod	_	ExtPos=ADV|Idiom=Yes
+14	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	17	mod	_	Idiom=Yes
 15	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	isolés	isolé	ADJ	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
@@ -136,7 +136,7 @@
 # sent_id = ParisStories_2021_nouveauxEleves_6
 # text = et puis, bah, on apprend à se connaître.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2f23fc7ef93ff57444d56c8036be2ff81307aaeb
-1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	7	cc	_	Idiom=Yes
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	bah	bah	INTJ	_	_	7	discourse	_	SpaceAfter=No
@@ -235,7 +235,7 @@
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	dislocated	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	non	non	ADV	_	_	9	discourse	_	ExtPos=INTJ|SpaceAfter=No
+11	non	non	ADV	_	ExtPos=INTJ	9	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	9	punct	_	_
@@ -270,7 +270,7 @@
 42	,	,	PUNCT	_	_	45	punct	_	_
 43	euh	euh	INTJ	_	_	45	discourse	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	45	punct	_	_
-45	parce	parce	SCONJ	_	_	38	mod	_	ExtPos=SCONJ|Idiom=Yes
+45	parce	parce	SCONJ	_	ExtPos=SCONJ	38	mod	_	Idiom=Yes
 46	qu'	qu'	SCONJ	_	_	45	unk	_	InIdiom=Yes|SpaceAfter=No
 47	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	48	subj	_	_
 48	habitait	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	45	comp:obj	_	SpaceAfter=No
@@ -294,11 +294,11 @@
 66	,	,	PUNCT	_	_	69	punct	_	_
 67	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	69	subj	_	InIdiom=Yes
 68	y	y	PRON	_	Person=3|PronType=Prs	69	comp	_	InIdiom=Yes
-69	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	64	conj:dicto	_	ExtPos=ADP|Idiom=Yes|SpaceAfter=No
+69	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	64	conj:dicto	_	Idiom=Yes|SpaceAfter=No
 70	,	,	PUNCT	_	_	73	punct	_	_
 71	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	73	subj	_	InIdiom=Yes
 72	y	y	PRON	_	Person=3|PronType=Prs	73	comp	_	InIdiom=Yes
-73	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	69	conj:dicto	_	ExtPos=ADP|Idiom=Yes
+73	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	69	conj:dicto	_	Idiom=Yes
 74	même	même	ADV	_	_	75	mod	_	_
 75	pas	pas	ADV	_	_	73	mod	_	_
 76	euh	euh	INTJ	_	_	79	discourse	_	SpaceAfter=No
@@ -325,7 +325,7 @@
 11	par	par	ADP	_	_	17	mod	_	_
 12	curiosité	curiosité	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	voilà	voilà	VERB	_	_	12	discourse	_	ExtPos=INTJ|SpaceAfter=No
+14	voilà	voilà	VERB	_	ExtPos=INTJ	12	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	11	punct	_	_
 16	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	_
 17	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -367,7 +367,7 @@
 8	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
 9	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	comp:obl	_	_
 10	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	non	non	ADV	_	_	19	discourse	_	ExtPos=INTJ|SpaceAfter=No
+11	non	non	ADV	_	ExtPos=INTJ	19	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	mais	mais	CCONJ	_	_	19	cc	_	_
 14	de	de	ADP	_	_	19	mod	_	_
@@ -581,7 +581,7 @@
 14	connaîtrais	connaître	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
 15	pas	pas	ADV	_	_	14	mod	_	_
 16-17	du	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes|wordform=du
+16	de	de	ADP	_	ExtPos=ADV	15	mod	_	Idiom=Yes|wordform=du
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	InIdiom=Yes
 18	tout	tout	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 19	,	,	PUNCT	_	_	28	punct	_	_

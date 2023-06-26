@@ -18,7 +18,7 @@
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
-6	quand	quand	ADV	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes
+6	quand	quand	ADV	_	ExtPos=ADV	5	mod	_	Idiom=Yes
 7	même	même	ADV	_	Number=Sing	6	unk	_	InIdiom=Yes
 8	peut-être	peut-être	ADV	_	_	10	mod	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -67,7 +67,7 @@
 # sent_id = ParisStories_2021_adoptionMouts_6
 # text = et puis, il y en avait une toute seule qui était un beagle.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
-1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	7	cc	_	Idiom=Yes
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
@@ -144,7 +144,7 @@
 4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	prise	prendre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	parce	parce	SCONJ	_	_	4	mod	_	ExtPos=SCONJ|Idiom=Yes
+7	parce	parce	SCONJ	_	ExtPos=SCONJ	4	mod	_	Idiom=Yes
 8	qu'	qu'	SCONJ	_	_	7	unk	_	InIdiom=Yes|SpaceAfter=No
 9	en	en	ADP	_	_	12	discourse	_	_
 10	fait	fait	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
@@ -185,7 +185,7 @@
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	quoi	quoi	INTJ	_	_	20	discourse	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	enfin	enfin	ADV	_	_	20	discourse	_	ExtPos=INTJ|SpaceAfter=No
+24	enfin	enfin	ADV	_	ExtPos=INTJ	20	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
 26	et	et	CCONJ	_	_	28	cc	_	_
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -304,7 +304,7 @@
 4	yeux	yeux	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
-7	é~	é~	X	_	_	0	root	_	ExtPos=VERB|SpaceAfter=No
+7	é~	é~	X	_	ExtPos=VERB	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
 10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj:dicto	_	SpaceAfter=No
@@ -323,7 +323,7 @@
 23	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	24	det	_	_
 24	mascara	mascara	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
-26	de	un	ADP	_	_	28	det	_	ExtPos=DET|Idiom=Yes
+26	de	un	ADP	_	ExtPos=DET	28	det	_	Idiom=Yes
 27	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	unk	_	InIdiom=Yes|SpaceAfter=No
 28	eyeliner	eyeliner	NOUN	_	Gender=Masc|Number=Sing	24	conj:dicto	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	7	punct	_	_
@@ -360,7 +360,7 @@
 8	,	,	PUNCT	_	_	16	punct	_	_
 9	bah	bah	INTJ	_	_	16	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	voilà	voilà	VERB	_	_	16	discourse	_	ExtPos=INTJ|SpaceAfter=No
+11	voilà	voilà	VERB	_	ExtPos=INTJ	16	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	quoi	quoi	INTJ	_	_	16	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
@@ -490,7 +490,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	bah	bah	INTJ	_	_	8	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	voilà	voilà	VERB	_	_	8	discourse	_	ExtPos=INTJ|SpaceAfter=No
+5	voilà	voilà	VERB	_	ExtPos=INTJ	8	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	SpaceAfter=No
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_

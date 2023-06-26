@@ -45,10 +45,10 @@
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	petit	petit	ADJ	_	Gender=Masc|Number=Sing	16	mod	_	_
-16	road	road	NOUN	_	Gender=Masc|Number=Sing	10	conj:dicto	_	ExtPos=NOUN|Idiom=Yes
+16	road	road	NOUN	_	ExtPos=NOUN|Gender=Masc|Number=Sing	10	conj:dicto	_	Idiom=Yes
 17	trip	trip	NOUN	_	Gender=Masc|Number=Sing	16	flat	_	InIdiom=Yes|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	en	en	ADP	_	_	7	discourse	_	ExtPos=ADV|Idiom=Yes
+19	en	en	ADP	_	ExtPos=ADV	7	discourse	_	Idiom=Yes
 20	fait	fait	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 21	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -123,11 +123,11 @@
 4	cinq	cinq	NUM	_	Number=Plur	5	det	_	_
 5	jours	jour	NOUN	_	Gender=Masc|Number=Plur	3	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	_
-7	par	par	ADP	_	_	12	discourse	_	ExtPos=ADV|Idiom=Yes
+7	par	par	ADP	_	ExtPos=ADV	12	discourse	_	Idiom=Yes
 8	contre	contre	NOUN	_	_	7	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	InIdiom=Yes
-11	peu	peu	NOUN	_	Gender=Masc|Number=Sing	12	mod	_	ExtPos=ADV|Idiom=Yes
+11	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	12	mod	_	Idiom=Yes
 12	plus	plus	ADV	_	_	5	mod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -166,7 +166,7 @@
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	mais	mais	CCONJ	_	_	1	cc	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	par	par	ADP	_	_	1	cc	_	ExtPos=ADV|Idiom=Yes
+9	par	par	ADP	_	ExtPos=ADV	1	cc	_	Idiom=Yes
 10	contre	contre	NOUN	_	_	9	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
@@ -204,7 +204,7 @@
 # sent_id = ParisStories_2019_voyageItalie_9
 # text = parce que, euh, mais rien que à Florence, bon, après, c'est une ville hyper touristique. donc, euh, je sais pas, c'est peut-être normal, mais, je, mais, j'ai pas le souvenir qu'à Paris c'était pareil.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
-1	parce	parce	ADV	_	_	17	discourse	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	17	discourse	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
@@ -309,7 +309,7 @@
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	glace	glace	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
-15	genre	genre	NOUN	_	_	17	discourse	_	ExtPos=INTJ
+15	genre	genre	NOUN	_	ExtPos=INTJ	17	discourse	_	_
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	subj	_	_
 17	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	_
 18	devant	devant	ADP	_	_	17	mod	_	_
@@ -317,7 +317,7 @@
 20	glacier	glacier	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	et	et	CCONJ	_	_	23	cc	_	InIdiom=Yes
-23	tout	tout	ADV	_	_	17	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+23	tout	tout	ADV	_	ExtPos=ADV	17	conj:coord	_	Idiom=Yes|SpaceAfter=No
 24	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_13
@@ -364,8 +364,8 @@
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	bah	bah	INTJ	_	_	16	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
-12	oui	oui	ADV	_	_	16	discourse	_	ExtPos=INTJ
-13	oui	oui	ADV	_	_	16	discourse	_	ExtPos=INTJ
+12	oui	oui	ADV	_	ExtPos=INTJ	16	discourse	_	_
+13	oui	oui	ADV	_	ExtPos=INTJ	16	discourse	_	_
 14	pas	pas	ADV	_	Polarity=Neg	16	mod	_	_
 15	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
 16	soucis	souci	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	Reported=Yes
@@ -400,7 +400,7 @@
 15	énormes	énorme	ADJ	_	Gender=Fem|Number=Plur	16	mod	_	_
 16	coupes	coupe	NOUN	_	Gender=Fem|Number=Plur	10	comp:obj	_	_
 17	avec	avec	ADP	_	_	16	udep	_	_
-18	genre	genre	NOUN	_	_	25	discourse	_	ExtPos=INTJ|SpaceAfter=No
+18	genre	genre	NOUN	_	ExtPos=INTJ	25	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
@@ -454,10 +454,10 @@
 2	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	11	punct	_	_
-5	non	non	ADV	_	Polarity=Neg	11	discourse	_	ExtPos=INTJ
-6	non	non	ADV	_	Polarity=Neg	5	conj:coord	_	ExtPos=INTJ
+5	non	non	ADV	_	ExtPos=INTJ|Polarity=Neg	11	discourse	_	_
+6	non	non	ADV	_	ExtPos=INTJ|Polarity=Neg	5	conj:coord	_	_
 7	mais	mais	CCONJ	_	_	11	discourse	_	_
-8	en	en	ADP	_	_	11	discourse	_	ExtPos=ADV|Idiom=Yes
+8	en	en	ADP	_	ExtPos=ADV	11	discourse	_	Idiom=Yes
 9	fait	fait	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	InIdiom=Yes
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	Reported=Yes
@@ -548,7 +548,7 @@
 4	d'	de	ADP	_	_	3	udep	_	SpaceAfter=No
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	comp:obj@scrap	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	enfin	enfin	ADV	_	_	3	discourse	_	ExtPos=INTJ
+7	enfin	enfin	ADV	_	ExtPos=INTJ	3	discourse	_	_
 8	ouais	ouais	INTJ	_	_	3	discourse	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	SpaceAfter=No
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -558,7 +558,7 @@
 14	d'	de	ADP	_	_	13	udep	_	SpaceAfter=No
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	repas	repas	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
-17	en	en	ADP	_	_	10	discourse	_	ExtPos=ADV|Idiom=Yes
+17	en	en	ADP	_	ExtPos=ADV	10	discourse	_	Idiom=Yes
 18	fait	fait	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	InIdiom=Yes
 19	hein	hein	INTJ	_	_	10	discourse	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	10	punct	_	_
@@ -594,13 +594,13 @@
 8	sur	sur	ADP	_	_	6	udep	_	_
 9	Google	Google	PROPN	_	_	8	comp:obj	_	_
 10	et	et	CCONJ	_	_	11	cc	_	InIdiom=Yes
-11	tout	tout	ADV	_	_	3	conj:coord	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+11	tout	tout	ADV	_	ExtPos=ADV	3	conj:coord	_	Idiom=Yes|SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_26
 # text = enfin, déjà on voyait il y avait que des mauvais avis euh, sur le truc. mais bon pff.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
-1	enfin	enfin	ADV	_	_	5	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	enfin	enfin	ADV	_	ExtPos=INTJ	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	déjà	déjà	ADV	_	_	5	mod	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	5	subj	_	_
@@ -634,7 +634,7 @@
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
-9	peu	peu	NOUN	_	Gender=Masc|Number=Sing	11	mod	_	ExtPos=ADV|Idiom=Yes
+9	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	11	mod	_	Idiom=Yes
 10	partout	partout	ADV	_	_	11	mod	_	_
 11	pareil	pareil	ADJ	_	Gender=Masc|Number=Sing	7	comp:pred	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	7	punct	_	_
@@ -682,7 +682,7 @@
 22	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux@tense	_	_
 23	faire	faire	VERB	_	VerbForm=Inf	22	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 24	,	,	PUNCT	_	_	25	punct	_	_
-25	parce	parce	ADV	_	_	23	mod	_	ExtPos=SCONJ|Idiom=Yes
+25	parce	parce	ADV	_	ExtPos=SCONJ	23	mod	_	Idiom=Yes
 26	que	que	SCONJ	_	_	25	unk	_	InIdiom=Yes
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
 28	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	31	dislocated	_	SpaceAfter=No
@@ -698,7 +698,7 @@
 37	pendant	pendant	ADP	_	_	34	conj:dicto	_	_
 38	trois	trois	NUM	_	Number=Plur	39	det	_	_
 39	jours	jour	NOUN	_	Gender=Masc|Number=Plur	37	comp:obj	_	_
-40	genre	genre	NOUN	_	_	7	discourse	_	ExtPos=INTJ
+40	genre	genre	NOUN	_	ExtPos=INTJ	7	discourse	_	_
 41	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -749,11 +749,11 @@
 # text = mais quand même, enfin genre deux jours, ça suffit euh largement.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	mais	mais	CCONJ	_	_	11	cc	_	_
-2	quand	quand	SCONJ	_	_	11	mod	_	ExtPos=ADV|Idiom=Yes
+2	quand	quand	SCONJ	_	ExtPos=ADV	11	mod	_	Idiom=Yes
 3	même	même	ADV	_	_	2	unk	_	InIdiom=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	enfin	enfin	ADV	_	_	11	discourse	_	ExtPos=INTJ
-6	genre	genre	NOUN	_	_	11	discourse	_	ExtPos=INTJ
+5	enfin	enfin	ADV	_	ExtPos=INTJ	11	discourse	_	_
+6	genre	genre	NOUN	_	ExtPos=INTJ	11	discourse	_	_
 7	deux	deux	NUM	_	Number=Plur	8	det	_	_
 8	jours	jour	NOUN	_	Gender=Masc|Number=Plur	11	dislocated	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
@@ -769,7 +769,7 @@
 1	et	et	CCONJ	_	_	25	cc	_	_
 2	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
-4	oh	oh	INTJ	_	_	25	discourse	_	ExtPos=ADV|Idiom=Yes
+4	oh	oh	INTJ	_	ExtPos=ADV	25	discourse	_	Idiom=Yes
 5	la	là	INTJ	_	_	4	unk	_	InIdiom=Yes
 6	la	là	INTJ	_	_	5	unk	_	InIdiom=Yes
 7	mais	mais	CCONJ	_	_	25	cc	_	_
@@ -792,7 +792,7 @@
 24	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	subj	_	SpaceAfter=No
 25	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 26	horrible	horrible	ADJ	_	Gender=Masc|Number=Sing	25	comp:pred	_	_
-27	parce	parce	ADV	_	_	25	mod	_	ExtPos=SCONJ|Idiom=Yes
+27	parce	parce	ADV	_	ExtPos=SCONJ	25	mod	_	Idiom=Yes
 28	que	que	SCONJ	_	_	27	unk	_	InIdiom=Yes
 29	euh	euh	INTJ	_	_	34	discourse	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
@@ -871,13 +871,13 @@
 2	truc	truc	NOUN	_	Gender=Masc|Number=Sing|Shared=No	5	subj	_	_
 3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	InIdiom=Yes
 4	y	y	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	InIdiom=Yes
-5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
+5	avait	avoir	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Idiom=Yes
 6	d'	de	ADP	_	_	5	mod	_	SpaceAfter=No
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	côté	côté	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj@expl	_	InIdiom=Yes
 10	y	y	PRON	_	Person=3|PronType=Prs	11	comp@expl	_	InIdiom=Yes
-11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj:dicto	_	ExtPos=VERB|Idiom=Yes
+11	avait	avoir	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj:dicto	_	Idiom=Yes
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 13	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
@@ -891,7 +891,7 @@
 22	côté	côté	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 23	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	subj@expl	_	InIdiom=Yes
 24	y	y	PRON	_	Person=3|PronType=Prs	25	comp@expl	_	InIdiom=Yes
-25	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj:coord	_	ExtPos=VERB|Idiom=Yes
+25	avait	avoir	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj:coord	_	Idiom=Yes
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 27	autre	autre	ADJ	_	Gender=Fem|Number=Sing	28	mod	_	_
 28	voie	voie	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
@@ -906,7 +906,7 @@
 37	et	et	CCONJ	_	_	40	cc	_	_
 38	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	subj@expl	_	InIdiom=Yes
 39	y	y	PRON	_	Person=3|PronType=Prs	40	comp@expl	_	InIdiom=Yes
-40	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	conj:coord	_	ExtPos=VERB|Idiom=Yes
+40	avait	avoir	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	conj:coord	_	Idiom=Yes
 41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	station	station	NOUN	_	Gender=Fem|Number=Sing	40	comp:obj	_	_
 43	service	service	NOUN	_	Gender=Masc|Number=Sing	42	compound	_	SpaceAfter=No
@@ -940,7 +940,7 @@
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	SpaceAfter=No
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj:dicto	_	_
 11	horrible	horrible	ADJ	_	Gender=Masc|Number=Sing	10	comp:pred	_	_
-12	genre	genre	NOUN	_	Gender=Masc|Number=Sing	13	discourse	_	ExtPos=INTJ
+12	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	13	discourse	_	_
 13	de	de	ADP	_	_	10	dislocated	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	bruit	bruit	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
@@ -958,7 +958,7 @@
 # sent_id = ParisStories_2019_voyageItalie_40
 # text = genre on n'a pas pu dormir.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
-1	genre	genre	NOUN	_	Gender=Masc|Number=Sing	4	discourse	_	ExtPos=INTJ
+1	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	4	discourse	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	4	mod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -994,7 +994,7 @@
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	donc	donc	ADV	_	_	12	discourse	_	_
 24	euh	euh	INTJ	_	_	12	discourse	_	_
-25	non	non	ADV	_	Polarity=Neg	12	discourse	_	ExtPos=INTJ
+25	non	non	ADV	_	ExtPos=INTJ|Polarity=Neg	12	discourse	_	_
 26	mais	mais	CCONJ	_	_	12	discourse	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -1032,7 +1032,7 @@
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	journée	journée	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
-14	enfin	enfin	ADV	_	_	16	discourse	_	ExtPos=INTJ
+14	enfin	enfin	ADV	_	ExtPos=INTJ	16	discourse	_	_
 15	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	subj	_	SpaceAfter=No
 16	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj:coord	_	_
 17	pff	pff	INTJ	_	_	16	comp:pred	_	SpaceAfter=No
@@ -1068,7 +1068,7 @@
 25	de	de	ADP	_	_	24	comp:obl	_	_
 26	euh	euh	INTJ	_	_	32	discourse	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	_
-28	genre	genre	NOUN	_	Gender=Masc|Number=Sing	32	discourse	_	ExtPos=INTJ
+28	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	32	discourse	_	_
 29	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	28	punct	_	_
 31	quatre-ving	quatre-ving	NUM	_	Number=Plur	32	det	_	_
@@ -1080,7 +1080,7 @@
 # sent_id = ParisStories_2019_voyageItalie_46
 # text = enfin pour euh, pour le prix euh, général du truc euh, c'est pas énorme.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
-1	enfin	enfin	ADV	_	_	17	discourse	_	ExtPos=INTJ
+1	enfin	enfin	ADV	_	ExtPos=INTJ	17	discourse	_	_
 2	pour	pour	ADP	_	_	17	mod	_	_
 3	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -1114,7 +1114,7 @@
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj:dicto	_	_
-10	quand	quand	SCONJ	_	_	9	mod	_	ExtPos=ADV|Idiom=Yes
+10	quand	quand	SCONJ	_	ExtPos=ADV	9	mod	_	Idiom=Yes
 11	même	même	ADV	_	_	10	unk	_	InIdiom=Yes
 12	bien	bien	ADV	_	_	13	mod	_	_
 13	profité	profiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
@@ -1159,7 +1159,7 @@
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	qui	qui	PRON	_	PronType=Rel	6	subj	_	_
 6	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
-7	genre	genre	NOUN	_	_	12	discourse	_	ExtPos=INTJ
+7	genre	genre	NOUN	_	ExtPos=INTJ	12	discourse	_	_
 8	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	toute	tout	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
@@ -1200,7 +1200,7 @@
 # sent_id = ParisStories_2019_voyageItalie_52
 # text = et puis pareil, les, les spritz, là-bas ils sont quoi à, six euros, et ils t'amènent euh, l'apéro avec, genre des petits trucs à manger et tout euh.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
-1	et	et	CCONJ	_	_	12	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	12	cc	_	Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	pareil	pareil	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -1228,14 +1228,14 @@
 26	apéro	apéro	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
 27	avec	avec	ADP	_	_	26	udep	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	32	punct	_	_
-29	genre	genre	NOUN	_	_	32	discourse	_	ExtPos=INTJ
+29	genre	genre	NOUN	_	ExtPos=INTJ	32	discourse	_	_
 30	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	32	det	_	_
 31	petits	petit	ADJ	_	Gender=Masc|Number=Plur	32	mod	_	_
 32	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	27	comp:obj	_	_
 33	à	à	ADP	_	_	32	udep	_	_
 34	manger	manger	VERB	_	VerbForm=Inf	33	comp:obj	_	Subject=NoRaising
 35	et	et	CCONJ	_	_	36	cc	_	InIdiom=Yes
-36	tout	tout	ADV	_	_	12	conj:coord	_	ExtPos=ADV|Idiom=Yes
+36	tout	tout	ADV	_	ExtPos=ADV	12	conj:coord	_	Idiom=Yes
 37	euh	euh	INTJ	_	_	36	discourse	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	12	punct	_	_
 

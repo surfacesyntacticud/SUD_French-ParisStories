@@ -3,7 +3,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/30ae88864b104a33ed20304b52c4fc5b83e47eaa
 # speaker = L1
 # text = parce que, je me souviens, que tu étais sorti, un peu avant moi, genre, peut-être dix minutes, ou, une demi-heure, je sais plus.
-1	parce	parce	ADV	_	_	0	root	_	AlignBegin=519|AlignEnd=810|ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=519|AlignEnd=810|Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=810|AlignEnd=1101|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	AlignBegin=1101|AlignEnd=1101
 4	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=1101|AlignEnd=1393
@@ -20,7 +20,7 @@
 15	avant	avant	ADP	_	_	11	mod	_	AlignBegin=3441|AlignEnd=3591
 16	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	15	comp:obj	_	AlignBegin=3591|AlignEnd=3742|SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	AlignBegin=3742|AlignEnd=3742
-18	genre	genre	NOUN	_	_	22	discourse	_	AlignBegin=3742|AlignEnd=3892|ExtPos=INTJ|SpaceAfter=No
+18	genre	genre	NOUN	_	ExtPos=INTJ	22	discourse	_	AlignBegin=3742|AlignEnd=3892|SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	AlignBegin=3892|AlignEnd=3892
 20	peut-être	peut-être	ADV	_	_	22	mod	_	AlignBegin=3892|AlignEnd=4157
 21	dix	dix	NUM	_	Number=Plur|Shared=No	22	det	_	AlignBegin=4157|AlignEnd=4423
@@ -40,7 +40,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/30ae88864b104a33ed20304b52c4fc5b83e47eaa
 # speaker = L1
 # text = enfin, je sais que tu étais sorti avant moi.
-1	enfin	enfin	ADV	_	_	4	discourse	_	AlignBegin=6281|AlignEnd=6563|ExtPos=INTJ|SpaceAfter=No
+1	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	AlignBegin=6281|AlignEnd=6563|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=6563|AlignEnd=6563
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=6563|AlignEnd=6845
 4	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=6845|AlignEnd=7127
@@ -107,7 +107,7 @@
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=15831|AlignEnd=15831
 11	pour	pour	ADP	_	_	3	mod	_	AlignBegin=15831|AlignEnd=15965
 12	faire	faire	VERB	_	VerbForm=Inf	11	comp:obj	_	AlignBegin=15965|AlignEnd=16099|Subject=NoRaising
-13	genre	genre	NOUN	_	_	12	comp:obj@lvc	_	AlignBegin=16099|AlignEnd=16233
+13	genre	genre	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj@lvc	_	AlignBegin=16099|AlignEnd=16233
 14	que	que	SCONJ	_	_	13	comp:obj	_	AlignBegin=16233|AlignEnd=16367
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	AlignBegin=16367|AlignEnd=16502
 16	t'	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	19	comp:obj	_	AlignBegin=16502|AlignEnd=16636|SpaceAfter=No
@@ -151,7 +151,7 @@
 # speaker = L1
 # text = juste parce que j'avais peur d'aller juste droit vers toi, en fait.
 1	juste	juste	ADV	_	_	2	mod	_	AlignBegin=22481|AlignEnd=22733
-2	parce	parce	ADV	_	_	0	root	_	AlignBegin=22733|AlignEnd=22985|ExtPos=SCONJ|Idiom=Yes
+2	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=22733|AlignEnd=22985|Idiom=Yes
 3	que	que	SCONJ	_	_	2	unk	_	AlignBegin=22985|AlignEnd=23238|InIdiom=Yes
 4	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=23238|AlignEnd=23490|SpaceAfter=No
 5	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	comp:obj	_	AlignBegin=23490|AlignEnd=23742
@@ -311,7 +311,7 @@
 4	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	5	subj	_	AlignBegin=45822|AlignEnd=46251
 5	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=46251|AlignEnd=46679|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=46679|AlignEnd=46679
-7	j~	j~	X	_	_	5	conj:dicto	_	AlignBegin=46679|AlignEnd=47107|ExtPos=PRON
+7	j~	j~	X	_	ExtPos=PRON	5	conj:dicto	_	AlignBegin=46679|AlignEnd=47107
 8	…	…	PUNCT	_	_	5	punct	_	AlignBegin=47107|AlignEnd=47107
 
 # sent_id = ParisStories_2022_15_onEnParleAPersonne__19
@@ -329,7 +329,7 @@
 9	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	comp:obj	_	AlignBegin=50545|AlignEnd=50841
 10	préparée	préparer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	AlignBegin=50841|AlignEnd=51138|SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	AlignBegin=51138|AlignEnd=51138
-12	genre	genre	NOUN	_	_	16	discourse	_	AlignBegin=51138|AlignEnd=51434|ExtPos=INTJ|SpaceAfter=No
+12	genre	genre	NOUN	_	ExtPos=INTJ	16	discourse	_	AlignBegin=51138|AlignEnd=51434|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=51434|AlignEnd=51434
 14	peut-être	peut-être	ADV	_	_	16	mod	_	AlignBegin=51434|AlignEnd=51828
 15	cinq	cinq	NUM	_	_	16	det	_	AlignBegin=51828|AlignEnd=52222
@@ -443,7 +443,7 @@
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	grenier	grenier	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	AlignBegin=68805|AlignEnd=68971|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=68971|AlignEnd=68971
-13	parce	parce	ADV	_	_	7	mod	_	AlignBegin=68971|AlignEnd=69136|ExtPos=SCONJ|Idiom=Yes
+13	parce	parce	ADV	_	ExtPos=SCONJ	7	mod	_	AlignBegin=68971|AlignEnd=69136|Idiom=Yes
 14	que	que	SCONJ	_	_	13	unk	_	AlignBegin=69136|AlignEnd=69302|InIdiom=Yes
 15	toutes	tout	ADJ	_	_	17	mod	_	AlignBegin=69302|AlignEnd=69476
 16	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	AlignBegin=69476|AlignEnd=69649
@@ -493,7 +493,7 @@
 7	sacs	sac	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	AlignBegin=75647|AlignEnd=75992|SpaceAfter=No
 8	,	,	PUNCT	_	_	14	punct	_	AlignBegin=75992|AlignEnd=75992
 9	mais	mais	CCONJ	_	_	14	cc	_	AlignBegin=75992|AlignEnd=76319
-10	genre	genre	NOUN	_	_	14	discourse	_	AlignBegin=76319|AlignEnd=76647|ExtPos=INTJ|SpaceAfter=No
+10	genre	genre	NOUN	_	ExtPos=INTJ	14	discourse	_	AlignBegin=76319|AlignEnd=76647|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=76647|AlignEnd=76647
 12	tous	tout	ADJ	_	_	14	mod	_	AlignBegin=76647|AlignEnd=76974
 13	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	AlignBegin=76974|AlignEnd=77302
@@ -569,7 +569,7 @@
 8	retrouvée	retrouver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	AlignBegin=86158|AlignEnd=86306
 9	avec	avec	ADP	_	_	8	comp:obl	_	AlignBegin=86306|AlignEnd=86453
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	AlignBegin=86453|AlignEnd=86601
-11	d~	d~	X	_	_	9	comp:obj	_	AlignBegin=86601|AlignEnd=86749|ExtPos=NOUN
+11	d~	d~	X	_	ExtPos=NOUN	9	comp:obj	_	AlignBegin=86601|AlignEnd=86749
 12	…	…	PUNCT	_	_	7	punct	_	AlignBegin=86749|AlignEnd=86749
 
 # sent_id = ParisStories_2022_15_onEnParleAPersonne__33
@@ -590,7 +590,7 @@
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	subj	_	AlignBegin=89385|AlignEnd=89578|SpaceAfter=No
 13	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=89578|AlignEnd=89772
 14	juste	juste	ADV	_	_	15	mod	_	AlignBegin=89772|AlignEnd=89965
-15	parce	parce	ADV	_	_	13	comp:pred	_	AlignBegin=89965|AlignEnd=90159|ExtPos=SCONJ|Idiom=Yes
+15	parce	parce	ADV	_	ExtPos=SCONJ	13	comp:pred	_	AlignBegin=89965|AlignEnd=90159|Idiom=Yes
 16	que	que	SCONJ	_	_	15	unk	_	AlignBegin=90159|AlignEnd=90352|InIdiom=Yes|SpaceAfter=No
 17	,	,	PUNCT	_	_	25	punct	_	AlignBegin=90352|AlignEnd=90352
 18	si	si	SCONJ	_	_	25	mod	_	AlignBegin=90352|AlignEnd=90573
@@ -612,7 +612,7 @@
 # speaker = L1
 # text = et j~, j'étais pas arrêtée dessus.
 1	et	et	CCONJ	_	_	5	cc	_	AlignBegin=92560|AlignEnd=92833
-2	j~	j~	X	_	_	5	subj	_	AlignBegin=92833|AlignEnd=93107|ExtPos=PRON|SpaceAfter=No
+2	j~	j~	X	_	ExtPos=PRON	5	subj	_	AlignBegin=92833|AlignEnd=93107|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=93107|AlignEnd=93107
 4	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	conj:dicto	_	AlignBegin=93107|AlignEnd=93380|SpaceAfter=No
 5	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=93380|AlignEnd=93653
@@ -682,7 +682,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/30ae88864b104a33ed20304b52c4fc5b83e47eaa
 # speaker = L1
 # text = s~, sauf que, du coup, ça va pas du tout avec le on en parle à personne, hein qu'on disait au début.
-1	s~	s~	X	_	_	0	root	_	AlignBegin=102640|AlignEnd=102842|ExtPos=X|SpaceAfter=No
+1	s~	s~	X	_	ExtPos=X	0	root	_	AlignBegin=102640|AlignEnd=102842|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=102842|AlignEnd=102842
 3	sauf	sauf	ADP	_	_	1	conj:dicto	_	AlignBegin=102842|AlignEnd=103044
 4	que	que	SCONJ	_	_	3	unk	_	AlignBegin=103044|AlignEnd=103246|SpaceAfter=No
@@ -818,7 +818,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/30ae88864b104a33ed20304b52c4fc5b83e47eaa
 # speaker = L1
 # text = genre, j'étais au bout de la rue.
-1	genre	genre	NOUN	_	_	4	discourse	_	AlignBegin=123923|AlignEnd=124097|ExtPos=INTJ|SpaceAfter=No
+1	genre	genre	NOUN	_	ExtPos=INTJ	4	discourse	_	AlignBegin=123923|AlignEnd=124097|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=124097|AlignEnd=124097
 3	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=124097|AlignEnd=124270|SpaceAfter=No
 4	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=124270|AlignEnd=124444
@@ -885,7 +885,7 @@
 6	bar	bar	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	AlignBegin=131922|AlignEnd=132162|SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	AlignBegin=132162|AlignEnd=132162
 8	mais	mais	CCONJ	_	_	11	cc	_	AlignBegin=132162|AlignEnd=132525
-9	genre	genre	NOUN	_	_	11	discourse	_	AlignBegin=132525|AlignEnd=132888|ExtPos=INTJ|SpaceAfter=No
+9	genre	genre	NOUN	_	ExtPos=INTJ	11	discourse	_	AlignBegin=132525|AlignEnd=132888|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=132888|AlignEnd=132888
 11	vraiment	vraiment	ADV	_	_	2	mod	_	AlignBegin=132888|AlignEnd=133251|SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	AlignBegin=133251|AlignEnd=133251
@@ -930,7 +930,7 @@
 1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	AlignBegin=135641|AlignEnd=135893
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	AlignBegin=135893|AlignEnd=136145
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=136145|AlignEnd=136397
-4	genre	genre	ADV	_	_	6	discourse	_	AlignBegin=136397|AlignEnd=136648|ExtPos=INTJ
+4	genre	genre	ADV	_	ExtPos=INTJ	6	discourse	_	AlignBegin=136397|AlignEnd=136648
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=136648|AlignEnd=136900
 6	place	place	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	AlignBegin=136900|AlignEnd=137152|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	AlignBegin=137152|AlignEnd=137152
