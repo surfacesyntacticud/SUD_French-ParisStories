@@ -33,8 +33,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = et puis, je voulais jouer, faire un truc.
-1	et	et	CCONJ	_	_	5	cc	_	AlignBegin=3376|AlignEnd=3530
-2	puis	puis	CCONJ	_	_	1	unk	_	AlignBegin=3530|AlignEnd=3724|SpaceAfter=No
+1	et	et	CCONJ	_	ExtPos=CCONJ	5	cc	_	AlignBegin=3376|AlignEnd=3530|Idiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	AlignBegin=3530|AlignEnd=3724|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=3724|AlignEnd=3724
 4	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=3724|AlignEnd=3918
 5	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=3918|AlignEnd=4112
@@ -493,7 +493,7 @@
 7	de	de	ADP	_	_	6	udep	_	AlignBegin=52107|AlignEnd=52220
 8	moins	moins	ADV	_	_	7	comp:obj	_	AlignBegin=52220|AlignEnd=52333
 9	quand	quand	SCONJ	_	ExtPos=ADV	4	mod	_	AlignBegin=52333|AlignEnd=52445|Idiom=Yes
-10	même	même	ADV	_	_	9	unk	_	AlignBegin=52445|AlignEnd=52558|SpaceAfter=No|InIdiom=Yes
+10	même	même	ADV	_	_	9	unk	_	AlignBegin=52445|AlignEnd=52558|InIdiom=Yes|SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=52558|AlignEnd=52558
 
 # sent_id = ParisStories_2022_2_générationsXY__34
