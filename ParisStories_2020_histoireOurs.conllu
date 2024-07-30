@@ -1,18 +1,17 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2020_histoireOurs_1
 # text = j'étais, euh, vraiment sous mon, sous mon sac de couchage et tout.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/fcc3063b3729ad37451e6d8b81a9989fbf382c71
-1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	2	subj	_	SpaceAfter=No
+1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	Shared=No|SpaceAfter=No
 2	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	vraiment	vraiment	ADV	_	_	2	mod	_	_
 7	sous	sous	ADP	_	_	2	comp:obl	_	_
-8	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	comp:obj	_	SpaceAfter=No
+8	mon	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	7	comp:obj@scrap	_	Number[psor]=Sing|Person[psor]=1|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	sous	sous	ADP	_	_	7	conj:dicto	_	_
-11	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	det	_	_
+11	mon	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	12	det	_	Number[psor]=Sing|Person[psor]=1
 12	sac	sac	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	mod	_	_
 14	couchage	couchage	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
@@ -131,7 +130,7 @@
 24	tout	tout	ADV	_	ExtPos=ADV	21	conj:coord	_	Idiom=Yes|SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	sur	sur	ADP	_	_	21	mod	_	_
-27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	comp:obj	_	SpaceAfter=No
+27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	comp:obj@scrap	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	sur	sur	ADP	_	_	26	conj:dicto	_	_
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
@@ -156,7 +155,7 @@
 # text = et j'étais tellement en panique, que j'avais envie de sortir de la tente.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/fcc3063b3729ad37451e6d8b81a9989fbf382c71
 1	et	et	CCONJ	_	_	3	cc	_	_
-2	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Shared=No	3	subj	_	SpaceAfter=No
+2	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	Shared=No|SpaceAfter=No
 3	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	tellement	tellement	ADV	_	_	5	mod	_	_
 5	en	en	ADP	_	_	3	comp:pred	_	_
@@ -229,12 +228,12 @@
 1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	envoyé	envoyer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
-4	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	5	det	_	_
+4	mon	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	5	det	_	Number[psor]=Sing|Person[psor]=1|Shared=No
 5	coussin	coussin	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
-7	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	10	det	_	SpaceAfter=No
+7	mon	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	10	det	_	Number[psor]=Sing|Person[psor]=1|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	conj:dicto	_	_
+9	mon	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	7	conj:dicto	_	Number[psor]=Sing|Person[psor]=1
 10	sac	sac	NOUN	_	Gender=Masc|Number=Sing	5	conj:dicto	_	_
 11	de	de	ADP	_	_	10	mod	_	_
 12	couchage	couchage	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
@@ -285,7 +284,7 @@
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	tête	tête	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
 27	de	de	ADP	_	_	26	mod	_	_
-28	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	29	det	_	_
+28	son	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	29	det	_	Number[psor]=Sing|Person[psor]=3
 29	déguisement	déguisement	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -599,7 +598,7 @@
 16	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	subj@expl	_	_
 17	y	y	PRON	_	Person=3|PronType=Prs	18	comp@expl	_	_
 18	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	comp:obj	_	_
-19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	22	det	_	SpaceAfter=No
+19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	Shared=No|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	19	conj:dicto	_	_
 22	casseroles	casserole	NOUN	_	Gender=Fem|Number=Plur	18	comp:obj	_	_
@@ -611,7 +610,7 @@
 28	,	,	PUNCT	_	_	32	punct	_	_
 29	donc	donc	ADV	_	_	32	cc	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
-31	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	32	det	_	_
+31	nos	son	DET	_	Number=Plur|Poss=Yes|PronType=Prs	32	det	_	Number[psor]=Plur|Person[psor]=1
 32	gammelles	gammelle	NOUN	_	Gender=Fem|Number=Plur	27	conj:coord	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	37	punct	_	_
 34	dans	dans	ADP	_	_	37	mod	_	_
