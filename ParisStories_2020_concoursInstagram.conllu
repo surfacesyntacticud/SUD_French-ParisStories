@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2020_concoursInstagram_1
 # text = je t'ai envoyé le lien de, d'Insta, où je t'ai dit, euh, il y a un concours d'Amir sur la chanson Les rues de ma peine.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
@@ -88,7 +89,7 @@
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	de	de	ADP	_	_	0	root	_	_
 9	faire	faire	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=NoRaising
-10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	Shared=No
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	11	det	_	_
 11	vidéo	vidéo	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	18	punct	_	_
 13	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
@@ -388,7 +389,7 @@
 7	en	en	ADP	_	ExtPos=ADV	19	discourse	_	Idiom=Yes
 8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Shared=No
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	11	det	_	_
 11	gagnant	gagnant	NOUN	_	Gender=Masc|Number=Sing	19	dislocated	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	_
 13	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
@@ -405,7 +406,7 @@
 # sent_id = ParisStories_2020_concoursInstagram_21
 # text = le gagnant ? comment ça, le gagnant ?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
-1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Shared=No
+1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	2	det	_	_
 2	gagnant	gagnant	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	?	?	PUNCT	_	_	2	punct	_	_
 4	comment	comment	ADV	_	_	8	discourse	_	_
@@ -494,7 +495,7 @@
 10	parce	parce	ADV	_	ExtPos=SCONJ	5	mod	_	Idiom=Yes
 11	que	que	SCONJ	_	_	10	unk	_	InIdiom=Yes
 12	tout	tout	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Shared=No
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	14	det	_	_
 14	monde	monde	NOUN	_	Gender=Masc|Number=Sing	21	subj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	20	punct	_	_
 16	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
@@ -549,7 +550,7 @@
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
-12	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	13	subj	_	Shared=No
+12	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs|Shared=No	13	subj	_	_
 13	passerez	passerer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	8	comp:obj	_	Reported=Yes
 14	dans	dans	ADP	_	_	13	comp:obl	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -670,7 +671,7 @@
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	quelques	quelque	DET	_	Gender=Masc|Number=Plur	12	det	_	Shared=No
+11	quelques	quelque	DET	_	Gender=Masc|Number=Plur|Shared=No	12	det	_	_
 12	jours	jour	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	15	subj	_	_
@@ -772,7 +773,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	bah	bah	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	trois	trois	NUM	_	Number=Plur	4	det	_	Shared=No
+3	trois	trois	NUM	_	Number=Plur|Shared=No	4	det	_	_
 4	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 5	après	après	ADV	_	_	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_

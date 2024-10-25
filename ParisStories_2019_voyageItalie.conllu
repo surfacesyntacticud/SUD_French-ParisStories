@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2019_voyageItalie_1
 # text = euh, ouais, tu sais, cet été, euh, j'étais, euh, en Italie là, avec Pauline.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
@@ -37,7 +38,7 @@
 6	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	comp:obl	_	SpaceAfter=No
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
-9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Shared=No
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	10	det	_	_
 10	petit	petit	ADJ	_	Gender=Masc|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
@@ -470,7 +471,7 @@
 # text = euh une boule, euh trois boules, c'est le même prix.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	euh	euh	INTJ	_	_	10	discourse	_	_
-2	une	un	NUM	_	Gender=Fem|Number=Sing	3	det	_	Shared=No
+2	une	un	NUM	_	Gender=Fem|Number=Sing|Shared=No	3	det	_	_
 3	boule	boule	NOUN	_	Gender=Fem|Number=Sing	10	dislocated	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	euh	euh	INTJ	_	_	7	discourse	_	_
@@ -604,7 +605,7 @@
 1	enfin	enfin	ADV	_	ExtPos=INTJ	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	déjà	déjà	ADV	_	_	5	mod	_	_
-4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	Shared=No
+4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	5	subj	_	_
 5	voyait	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj@expl	_	_
 7	y	y	PRON	_	Person=3|PronType=Prs	8	comp@expl	_	_
@@ -871,7 +872,7 @@
 # text = le truc il y avait d'un côté il y avait une euh, une voie rapide, de l'autre côté il y avait une autre voie rapide, à côté d'un rond-point, et il y avait la station service.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	truc	truc	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	Shared=No
+2	truc	truc	NOUN	_	Gender=Masc|Number=Sing|Shared=No	5	subj	_	_
 3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	InIdiom=Yes
 4	y	y	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	InIdiom=Yes
 5	avait	avoir	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Idiom=Yes
@@ -951,7 +952,7 @@
 16	,	,	PUNCT	_	_	20	punct	_	_
 17	mais	mais	CCONJ	_	_	20	discourse	_	_
 18	toute	tout	ADJ	_	Gender=Fem|Number=Sing	20	mod	_	_
-19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Shared=No
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	20	det	_	_
 20	journée	journée	NOUN	_	Gender=Fem|Number=Sing	13	mod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
 22	toute	tout	ADJ	_	Gender=Fem|Number=Sing	24	mod	_	_
@@ -1215,7 +1216,7 @@
 8	spritz	spritz	NOUN	_	Gender=Masc|Number=Plur	12	dislocated	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	là-bas	là-bas	ADV	_	_	12	mod	_	_
-11	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	subj	_	Shared=No
+11	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs|Shared=No	12	subj	_	_
 12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	quoi	quoi	INTJ	_	_	14	discourse	_	_
 14	à	à	ADP	_	_	12	comp:pred	_	SpaceAfter=No

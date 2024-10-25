@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__1
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
@@ -111,7 +112,7 @@
 10	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=15792|AlignEnd=16049|SpaceAfter=No
 11	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=16049|AlignEnd=16306
 12	chez	chez	ADP	_	_	11	comp:obl	_	AlignBegin=16306|AlignEnd=16563
-13	mon	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	14	det	_	AlignBegin=16563|AlignEnd=16820|Number[psor]=Sing|Person[psor]=1|Shared=No
+13	mon	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs|Shared=No	14	det	_	AlignBegin=16563|AlignEnd=16820|Number[psor]=Sing|Person[psor]=1
 14	oncle	oncle	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	AlignBegin=16820|AlignEnd=17076
 15	et	et	CCONJ	_	_	17	cc	_	AlignBegin=17076|AlignEnd=17333
 16	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det	_	AlignBegin=17333|AlignEnd=17590|Number[psor]=Sing|Person[psor]=1
@@ -233,7 +234,7 @@
 1	mon	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	2	det	_	AlignBegin=32420|AlignEnd=32628|Number[psor]=Sing|Person[psor]=1
 2	cousin	cousin	NOUN	_	Gender=Masc|Number=Sing	5	dislocated	_	AlignBegin=32628|AlignEnd=32837|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=32837|AlignEnd=32837
-4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	AlignBegin=32837|AlignEnd=33045|Shared=No
+4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	5	subj	_	AlignBegin=32837|AlignEnd=33045
 5	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=33045|AlignEnd=33254
 6	avoir	avoir	VERB	_	VerbForm=Inf	5	comp:obj	_	AlignBegin=33254|AlignEnd=33462|Subject=SubjRaising
 7	huit	huit	NUM	_	_	8	det	_	AlignBegin=33462|AlignEnd=33671
@@ -492,7 +493,7 @@
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=65367|AlignEnd=65367
 11	là	là	ADV	_	_	9	discourse	_	AlignBegin=65367|AlignEnd=65545|SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	AlignBegin=65545|AlignEnd=65545
-13	qui	qui	PRON	_	PronType=Rel	14	subj	_	AlignBegin=65545|AlignEnd=65775|Shared=No
+13	qui	qui	PRON	_	PronType=Rel|Shared=No	14	subj	_	AlignBegin=65545|AlignEnd=65775
 14	sortaient	sortir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	mod@relcl	_	AlignBegin=65775|AlignEnd=66004
 15	de	de	ADP	_	_	14	comp:obl	_	AlignBegin=66004|AlignEnd=66234
 16	partout	partout	ADV	_	_	15	comp:obj	_	AlignBegin=66234|AlignEnd=66463|SpaceAfter=No
@@ -614,7 +615,7 @@
 18	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	AlignBegin=80919|AlignEnd=81146
 19	y	y	PRON	_	Person=3|PronType=Prs	20	comp@expl	_	AlignBegin=81146|AlignEnd=81373
 20	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj:dicto	_	AlignBegin=81373|AlignEnd=81600
-21	mon	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	22	det	_	AlignBegin=81600|AlignEnd=81826|Number[psor]=Sing|Person[psor]=1|Shared=No
+21	mon	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs|Shared=No	22	det	_	AlignBegin=81600|AlignEnd=81826|Number[psor]=Sing|Person[psor]=1
 22	père	père	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	AlignBegin=81826|AlignEnd=82053|SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	AlignBegin=82053|AlignEnd=82053
 24	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det	_	AlignBegin=82053|AlignEnd=82280|Number[psor]=Sing|Person[psor]=1
@@ -637,7 +638,7 @@
 7	y	y	PRON	_	Person=3|PronType=Prs	8	comp@expl	_	AlignBegin=83828|AlignEnd=83969
 8	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=83969|AlignEnd=84110
 9	aussi	aussi	ADV	_	_	8	mod	_	AlignBegin=84110|AlignEnd=84250
-10	mon	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	11	det	_	AlignBegin=84250|AlignEnd=84391|Number[psor]=Sing|Person[psor]=1|Shared=No
+10	mon	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs|Shared=No	11	det	_	AlignBegin=84250|AlignEnd=84391|Number[psor]=Sing|Person[psor]=1
 11	oncle	oncle	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	AlignBegin=84391|AlignEnd=84532
 12	et	et	CCONJ	_	_	14	cc	_	AlignBegin=84532|AlignEnd=84673
 13	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det	_	AlignBegin=84673|AlignEnd=84813|Number[psor]=Sing|Person[psor]=1
@@ -693,7 +694,7 @@
 5	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	subj	_	AlignBegin=90935|AlignEnd=91135
 6	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	comp:obj	_	AlignBegin=91135|AlignEnd=91335
 7	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	AlignBegin=91335|AlignEnd=91536
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	AlignBegin=91536|AlignEnd=91736|Shared=No|SpaceAfter=No
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	11	det	_	AlignBegin=91536|AlignEnd=91736|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=91736|AlignEnd=91736
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	conj:dicto	_	AlignBegin=91736|AlignEnd=91972
 11	chariot	chariot	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	AlignBegin=91972|AlignEnd=92209
