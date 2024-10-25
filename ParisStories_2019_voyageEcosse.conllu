@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2019_voyageEcosse_1
-# text = c'est vrai que quand je le dis à les gens, ils sont un peu euh, un peu choqués je pense,
+# text = c'est vrai que quand je le dis aux gens, ils sont un peu euh, un peu choqués je pense,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/1ebb1fdaf41d692f57d532eebdcf02fa1e9fe568
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10,6 +10,7 @@
 6	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
 7	le	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
 8	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
+9-10	aux	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	8	mod	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	gens	gens	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	SpaceAfter=No
@@ -42,7 +43,7 @@
 10	,	,	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2019_voyageEcosse_3
-# text = mais mais je pense que c'est plutôt par rapport à les a prioris qu'il y a sur l'Ecosse en elle-même.
+# text = mais mais je pense que c'est plutôt par rapport aux a prioris qu'il y a sur l'Ecosse en elle-même.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/1ebb1fdaf41d692f57d532eebdcf02fa1e9fe568
 1	mais	mais	CCONJ	_	_	4	cc	_	_
 2	mais	mais	CCONJ	_	_	1	conj:dicto	_	_
@@ -54,6 +55,7 @@
 8	plutôt	plutôt	ADV	_	_	7	mod	_	_
 9	par	par	ADP	_	_	7	comp:obj	_	_
 10	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
+11-12	aux	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	10	udep	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	a	a	ADP	_	ExtPos=ADV	11	comp:obj	_	Idiom=Yes
@@ -96,7 +98,7 @@
 22	,	,	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_voyageEcosse_5
-# text = et moi j'y ai été, et c'est vraiment pas de le tout le sentiment que j'ai eu en fait.
+# text = et moi j'y ai été, et c'est vraiment pas du tout le sentiment que j'ai eu en fait.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/1ebb1fdaf41d692f57d532eebdcf02fa1e9fe568
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	dislocated	_	_
@@ -110,6 +112,7 @@
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj:coord	_	_
 11	vraiment	vraiment	ADV	_	_	10	mod	_	_
 12	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
+13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	InIdiom=Yes
 15	tout	tout	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	InIdiom=Yes
@@ -235,10 +238,11 @@
 18	,	,	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_voyageEcosse_11
-# text = parce que de le coup, ça me permettait de d'aller dans un pays où j'avais toujours rêvé d'aller.
+# text = parce que du coup, ça me permettait de d'aller dans un pays où j'avais toujours rêvé d'aller.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/1ebb1fdaf41d692f57d532eebdcf02fa1e9fe568
 1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
+3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	9	discourse	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
@@ -262,9 +266,10 @@
 23	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2019_voyageEcosse_12
-# text = et de le coup avec mes amis on a décidé de de s'inscrire.
+# text = et du coup avec mes amis on a décidé de de s'inscrire.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/1ebb1fdaf41d692f57d532eebdcf02fa1e9fe568
 1	et	et	CCONJ	_	_	9	cc	_	_
+2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	9	discourse	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
@@ -319,9 +324,10 @@
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_voyageEcosse_15
-# text = mais de le coup euh, c'était je crois dix heures de bus, et c'était vraiment très long.
+# text = mais du coup euh, c'était je crois dix heures de bus, et c'était vraiment très long.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/1ebb1fdaf41d692f57d532eebdcf02fa1e9fe568
 1	mais	mais	CCONJ	_	_	8	cc	_	_
+2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	8	discourse	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
@@ -412,7 +418,7 @@
 26	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_voyageEcosse_18
-# text = et en fait, ce que j'ai adoré dans ce voyage, c'est que il y avait la moitié de le temps où c'était du temps libre, et l'autre moitié où on faisait des activités donc par rapport à la ville.
+# text = et en fait, ce que j'ai adoré dans ce voyage, c'est que il y avait la moitié du temps où c'était du temps libre, et l'autre moitié où on faisait des activités donc par rapport à la ville.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/1ebb1fdaf41d692f57d532eebdcf02fa1e9fe568
 1	et	et	CCONJ	_	_	15	cc	_	_
 2	en	en	ADP	_	ExtPos=ADV	1	discourse	_	Idiom=Yes
@@ -435,6 +441,7 @@
 19	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	comp:obj	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	21	det	_	_
 21	moitié	moitié	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
+22-23	du	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	21	udep	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	temps	temps	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
@@ -793,8 +800,9 @@
 8	,	,	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_voyageEcosse_31
-# text = de le coup euh et ça a permis de voir la vraie vie quotidienne de les écossais,
+# text = du coup euh et ça a permis de voir la vraie vie quotidienne des écossais,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/1ebb1fdaf41d692f57d532eebdcf02fa1e9fe568
+1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	7	discourse	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -809,6 +817,7 @@
 12	vraie	vrai	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	_
 13	vie	vie	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 14	quotidienne	quotidien	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	_
+15-16	des	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	13	discourse	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	écossais	écossais	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	SpaceAfter=No
@@ -887,13 +896,14 @@
 19	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_voyageEcosse_35
-# text = et c'est vrai que de le coup j'ai cette vision un peu parfaite de l'Ecosse,
+# text = et c'est vrai que du coup j'ai cette vision un peu parfaite de l'Ecosse,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/1ebb1fdaf41d692f57d532eebdcf02fa1e9fe568
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj@expl	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
 5	que	que	SCONJ	_	_	3	comp:obj@agent	_	_
+6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	10	discourse	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	coup	coup	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
@@ -931,9 +941,10 @@
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_voyageEcosse_37
-# text = et de le coup le reste du temps on avait des activités donc par rapport à la ville.
+# text = et du coup le reste du temps on avait des activités donc par rapport à la ville.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/1ebb1fdaf41d692f57d532eebdcf02fa1e9fe568
 1	et	et	CCONJ	_	_	11	cc	_	_
+2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	discourse	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
