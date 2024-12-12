@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2020_requinReunion_1
 # text = il y a un truc qui m'a marquée.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/35931c521095ff436db20d6625bfa67a6fdde6f7
@@ -148,6 +147,7 @@
 # sent_id = ParisStories_2020_requinReunion_9
 # text = et euh, tous les surfers sont partis à part, enfin ce que disaient euh, les personnes, les les personnes à la radio, sauf lui.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/35931c521095ff436db20d6625bfa67a6fdde6f7
+# validated_by = bguil
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -174,9 +174,9 @@
 24	à	à	ADP	_	_	15	mod	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	radio	radio	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	29	punct	_	_
-28	sauf	sauf	CCONJ	_	_	29	cc	_	_
-29	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	dislocated	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	sauf	sauf	ADP	_	_	7	dislocated	_	_
+29	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	comp:obj	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_requinReunion_10
@@ -383,7 +383,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/35931c521095ff436db20d6625bfa67a6fdde6f7
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	en	en	ADP	_	_	7	mod	_	_
-3	descendant	descendre	VERB	_	Tense=Pres|VerbForm=Part	2	comp:obj	_	SpaceAfter=No
+3	descendant	descendant	VERB	_	Tense=Pres|VerbForm=Part	2	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	bah	bah	INTJ	_	_	2	discourse	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	SpaceAfter=No
