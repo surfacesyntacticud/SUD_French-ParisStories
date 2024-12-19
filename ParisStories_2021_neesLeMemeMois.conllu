@@ -19,8 +19,8 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	jour	jour	NOUN	_	Gender=Masc|Number=Sing	13	comp:pred	_	_
 16	où	où	PRON	_	PronType=Rel	19	mod	_	_
-17	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	subj	_	_
-18	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	SpaceAfter=No
+17	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	19	subj	_	_
+18	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	SpaceAfter=No
 19	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
 20	rencontrée	rencontrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux@tense	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	13	punct	_	_
@@ -34,7 +34,7 @@
 3	de	de	ADP	_	_	7	discourse	_	wordform=du
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-6	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	SpaceAfter=No
+6	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	SpaceAfter=No
 7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	de	de	ADP	_	_	8	comp:obl	_	_
@@ -83,14 +83,14 @@
 19	parce	parce	ADV	_	ExtPos=SCONJ	12	mod	_	Idiom=Yes
 20	que	que	SCONJ	_	_	19	unk	_	InIdiom=Yes|SpaceAfter=No
 21	,	,	PUNCT	_	_	29	punct	_	_
-22	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	29	dislocated	_	SpaceAfter=No
+22	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	29	dislocated	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
 24-25	du	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	29	discourse	_	wordform=du
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	coup	coup	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	24	punct	_	_
-28	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	29	subj@pass	_	_
+28	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	29	subj@pass	_	_
 29	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
 30	arrivée	arriver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	comp:aux@tense	_	_
 31	dans	dans	ADP	_	_	30	mod	_	_
@@ -108,7 +108,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
+3	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	Maud	Maud	PROPN	_	_	5	comp:obj	_	_
@@ -124,7 +124,7 @@
 15	coup	coup	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	13	punct	_	_
 17	où	où	PRON	_	PronType=Rel	19	mod	_	_
-18	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	subj	_	_
+18	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	subj	_	_
 19	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	mod@relcl	_	_
 20	euh	euh	INTJ	_	_	23	discourse	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
@@ -171,7 +171,7 @@
 31	,	,	PUNCT	_	_	29	punct	_	_
 32	parce	parce	ADV	_	ExtPos=SCONJ	29	mod	_	Idiom=Yes
 33	que	que	SCONJ	_	_	32	unk	_	InIdiom=Yes
-34	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	subj@expl	_	_
+34	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	subj@expl	_	_
 35	y	y	PRON	_	Person=3|PronType=Prs	36	comp@expl	_	_
 36	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	comp:obj	_	_
 37	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
@@ -228,7 +228,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AttachTo=23@ParisStories_2021_neesLeMemeMois_6|Idiom=Yes|Rel=mod
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
-3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+3	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	cherchais	chercher	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	comp:obj	_	_
 5	de	de	ADP	_	ExtPos=DET	7	det	_	Idiom=Yes
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	unk	_	InIdiom=Yes
@@ -246,7 +246,7 @@
 # text = et elle nous a demandé de rester avec nous, euh, de passer l'après-midi avec nous.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	et	et	CCONJ	_	_	4	cc	_	_
-2	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+2	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 3	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	5	comp:obl	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
@@ -352,13 +352,13 @@
 # speaker = L1
 # text = j'étais toutes les après-midi chez elle avec mon frère, où on, on goûtait, où on vidait son frigo, ses placards.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
-1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
+1	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	5	mod	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	après-midi	après-midi	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 6	chez	chez	ADP	_	_	2	comp:pred	_	_
-7	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	_
+7	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	_
 8	avec	avec	ADP	_	_	2	mod	_	_
 9	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	10	det	_	_
 10	frère	frère	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	SpaceAfter=No
@@ -530,7 +530,7 @@
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	SpaceAfter=No
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-7	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	InIdiom=Yes
+7	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	InIdiom=Yes
 8	y	y	PRON	_	Person=3|PronType=Prs	9	comp	_	InIdiom=Yes
 9	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod	_	Idiom=Yes
 10	longtemps	longtemps	ADV	_	_	9	mod	_	SpaceAfter=No
