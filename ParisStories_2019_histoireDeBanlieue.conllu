@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # text = du coup je parle une histoire.
 # sent_id = ParisStories_2019_histoireDeBanlieue_1
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/d50bf89027694d4326915ff6e90cc525b2e3ea00
@@ -299,34 +298,36 @@
 11	sécurité	sécurité	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = à ce jour-là dans la petite rue que je passe normalement pour euh pour rentrer chez moi, il n'y a personne.
+# text = à ce jour -là dans la petite rue que je passe normalement pour euh pour rentrer chez moi, il n'y a personne.
 # sent_id = ParisStories_2019_histoireDeBanlieue_16
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/d50bf89027694d4326915ff6e90cc525b2e3ea00
 # speaker = non_native
-1	à	à	ADP	_	_	22	mod	_	_
+# validated_by = bguil
+1	à	à	ADP	_	_	23	mod	_	_
 2	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
-3	jour-là	jour-là	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
-4	dans	dans	ADP	_	_	22	mod	_	_
-5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-6	petite	petit	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
-7	rue	rue	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
-8	que	que	PRON	_	PronType=Rel	10	comp:obj	_	_
-9	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	10	subj	_	_
-10	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
-11	normalement	normalement	ADV	_	_	10	mod	_	_
-12	pour	pour	ADP	_	_	10	mod	_	_
-13	euh	euh	INTJ	_	_	14	discourse	_	_
-14	pour	pour	ADP	_	_	12	conj:dicto	_	_
-15	rentrer	rentrer	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=NoRaising
-16	chez	chez	ADP	_	_	15	mod	_	_
-17	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	16	comp:obj	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	4	punct	_	_
-19	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj@expl	_	_
-20	n'	ne	ADV	_	Polarity=Neg	22	mod	_	SpaceAfter=No
-21	y	y	PRON	_	Person=3|PronType=Prs	22	comp@expl	_	_
-22	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-23	personne	personne	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	22	punct	_	_
+3	jour	jour	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
+4	-là	là	ADV	_	_	3	mod	_	_
+5	dans	dans	ADP	_	_	23	mod	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	petite	petit	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
+8	rue	rue	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
+9	que	que	PRON	_	PronType=Rel	11	comp:obj	_	_
+10	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	11	subj	_	_
+11	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
+12	normalement	normalement	ADV	_	_	11	mod	_	_
+13	pour	pour	ADP	_	_	11	mod	_	_
+14	euh	euh	INTJ	_	_	15	discourse	_	_
+15	pour	pour	ADP	_	_	13	conj:dicto	_	_
+16	rentrer	rentrer	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=NoRaising
+17	chez	chez	ADP	_	_	16	mod	_	_
+18	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	17	comp:obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	5	punct	_	_
+20	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj@expl	_	_
+21	n'	ne	ADV	_	Polarity=Neg	23	mod	_	SpaceAfter=No
+22	y	y	PRON	_	Person=3|PronType=Prs	23	comp@expl	_	_
+23	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	personne	personne	NOUN	_	Gender=Fem|Number=Sing	23	comp:obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = mais à côté de l'entrée de la rue il y a quelques hommes, qui euh hum, qui étaient euh, qui restaient ici et euh qui qui étaient en train de boire, enfin qui euh, qui avaient l'air pas très euh, pas très amicaux.
 # sent_id = ParisStories_2019_histoireDeBanlieue_17
@@ -389,6 +390,7 @@
 # sent_id = ParisStories_2019_histoireDeBanlieue_18
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/d50bf89027694d4326915ff6e90cc525b2e3ea00
 # speaker = non_native
+# validated_by = bguil
 1	et	et	CCONJ	_	_	6	cc	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	6	discourse	_	_
@@ -404,30 +406,31 @@
 12	par	par	ADP	_	_	11	comp:obl	_	_
 13	euh	euh	INTJ	_	_	15	discourse	_	_
 14	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
-15	rue-là	rue-là	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	19	punct	_	_
-17	mais	mais	CCONJ	_	_	19	cc	_	_
-18	plutôt	plutôt	ADV	_	_	19	mod	_	_
-19	faire	faire	VERB	_	VerbForm=Inf	11	conj:coord	_	Subject=SubjRaising
-20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	bout	bout	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
-22	de	de	ADP	_	_	21	udep	_	_
-23	détour	détour	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	25	punct	_	_
-25	parce	parce	ADV	_	ExtPos=SCONJ	7	mod	_	Idiom=Yes
-26	que	que	SCONJ	_	_	25	unk	_	InIdiom=Yes
-27	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	subj@expl	_	_
-28	y	y	PRON	_	Person=3|PronType=Prs	29	comp@expl	_	_
-29	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	comp:obj	_	_
-30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-31	autre	autre	ADJ	_	Gender=Fem|Number=Sing	32	mod	_	_
-32	rue	rue	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
-33	plus	plus	ADV	_	_	34	mod	_	_
-34	grande	grand	ADJ	_	Gender=Fem|Number=Sing	32	mod	_	_
-35	vers	vers	ADP	_	_	32	udep	_	_
-36	chez	chez	ADP	_	_	35	comp:obj	_	_
-37	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	36	comp:obj	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	6	punct	_	_
+15	rue	rue	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	SpaceAfter=No
+16	-là	là	ADV	_	_	15	mod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	mais	mais	CCONJ	_	_	20	cc	_	_
+19	plutôt	plutôt	ADV	_	_	20	mod	_	_
+20	faire	faire	VERB	_	VerbForm=Inf	11	conj:coord	_	Subject=SubjRaising
+21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	bout	bout	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
+23	de	de	ADP	_	_	22	udep	_	_
+24	détour	détour	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	parce	parce	ADV	_	ExtPos=SCONJ	7	mod	_	Idiom=Yes
+27	que	que	SCONJ	_	_	26	unk	_	InIdiom=Yes
+28	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	subj@expl	_	_
+29	y	y	PRON	_	Person=3|PronType=Prs	30	comp@expl	_	_
+30	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	comp:obj	_	_
+31	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	autre	autre	ADJ	_	Gender=Fem|Number=Sing	33	mod	_	_
+33	rue	rue	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	_
+34	plus	plus	ADV	_	_	35	mod	_	_
+35	grande	grand	ADJ	_	Gender=Fem|Number=Sing	33	mod	_	_
+36	vers	vers	ADP	_	_	33	udep	_	_
+37	chez	chez	ADP	_	_	36	comp:obj	_	_
+38	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	37	comp:obj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = c'est seulement c'est un peu c'est un peu plus loin.
 # sent_id = ParisStories_2019_histoireDeBanlieue_19
@@ -467,22 +470,24 @@
 # sent_id = ParisStories_2019_histoireDeBanlieue_21
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/d50bf89027694d4326915ff6e90cc525b2e3ea00
 # speaker = non_native
-1	mais	mais	CCONJ	_	_	7	cc	_	_
-2	à	à	ADP	_	_	7	mod	_	_
+# validated_by = bguil
+1	mais	mais	CCONJ	_	_	8	cc	_	_
+2	à	à	ADP	_	_	8	mod	_	_
 3	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
-4	moment-là	moment-là	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	2	punct	_	_
-6	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	SpaceAfter=No
-7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
-9	qu'	que	SCONJ	_	_	8	comp:obj	_	SpaceAfter=No
-10	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	_
-11	y	y	PRON	_	Person=3|PronType=Prs	12	comp@expl	_	_
-12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	comp:obj	_	_
-13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-14	euh	euh	INTJ	_	_	13	discourse	_	_
-15	garçon	garçon	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	7	punct	_	_
+4	moment	moment	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	SpaceAfter=No
+5	-là	là	ADV	_	_	4	mod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	8	subj	_	SpaceAfter=No
+8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
+10	qu'	que	SCONJ	_	_	9	comp:obj	_	SpaceAfter=No
+11	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj@expl	_	_
+12	y	y	PRON	_	Person=3|PronType=Prs	13	comp@expl	_	_
+13	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	comp:obj	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	euh	euh	INTJ	_	_	14	discourse	_	_
+16	garçon	garçon	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = enfin il y avait un euh, un étudiant, qui euh, qui po~ port, qui portait un, un sac à dos et euh, avec des choses à manger à la main.
 # sent_id = ParisStories_2019_histoireDeBanlieue_22
