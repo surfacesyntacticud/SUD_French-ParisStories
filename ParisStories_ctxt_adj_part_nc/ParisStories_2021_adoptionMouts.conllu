@@ -1,0 +1,625 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = ParisStories_2021_adoptionMouts_1
+# text = euh, on y est allé.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
+4	y	y	PRON	_	Person=3|PronType=Prs	6	comp:obl	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	allé	aller	VERB	_	VerbForm=Part	5	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_2
+# text = donc, on a mis quand même peut-être une heure pour y aller.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	donc	donc	ADV	_	_	4	mod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	mis	mettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
+6	quand	quand	ADV	_	ExtPos=ADV	5	mod	_	Idiom=Yes
+7	même	même	ADV	_	Number=Sing	6	unk	_	InIdiom=Yes
+8	peut-être	peut-être	ADV	_	_	10	mod	_	_
+9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	heure	heure	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+11	pour	pour	ADP	_	_	5	mod	_	_
+12	y	y	PRON	_	Person=3|PronType=Prs	13	comp:obl	_	_
+13	aller	aller	VERB	_	VerbForm=Inf	11	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_3
+# text = c'était vraiment très très loin.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	vraiment	vraiment	ADV	_	_	2	mod	_	_
+4	très	très	ADV	_	_	6	mod	_	_
+5	très	très	ADV	_	_	4	conj:coord	_	_
+6	loin	loin	ADV	_	_	2	comp:pred	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_4
+# text = et, on est arrivé.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	4	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	arrivé	arriver	VERB	_	VerbForm=Part	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_5
+# text = on a regardé un peu tous les chiens tout ça.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	regardé	regarder	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	peu	peu	NOUN	_	Number=Sing	6	mod	_	Gender[lex]=Masc
+6	tous	tout	ADJ	_	Gender=Masc	8	mod	_	Number[ctxt]=Plur
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	8	det	_	_
+8	chiens	chien	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+9	tout	tout	ADJ	_	Gender=Masc	10	mod	_	Number[ctxt]=Sing
+10	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	conj:coord	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_6
+# text = et puis, il y en avait une toute seule qui était un beagle.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	ExtPos=CCONJ	7	cc	_	Idiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
+5	y	y	PRON	_	Person=3|PronType=Prs	7	comp@expl	_	_
+6	en	en	PRON	_	Person=3|PronType=Prs	8	mod	_	_
+7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	7	comp:obj	_	_
+9	toute	toute	ADV	_	_	10	mod	_	_
+10	seule	seul	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
+11	qui	qui	PRON	_	PronType=Rel	12	subj	_	_
+12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	mod@relcl	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	beagle	beagle	NOUN	_	_	12	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+15	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_7
+# text = et elle était toute seule dans sa cage.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	3	cc	_	_
+2	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	toute	toute	ADV	_	_	5	mod	_	_
+5	seule	seul	ADJ	_	Gender=Fem|Number=Sing	3	comp:pred	_	_
+6	dans	dans	ADP	_	_	3	mod	_	_
+7	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	cage	cage	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_8
+# text = tous ses frères et sœurs étaient partis.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	tous	tout	ADJ	_	Gender=Masc	3	mod	_	Number[ctxt]=Plur
+2	ses	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=Yes	3	det	_	_
+3	frères	frère	NOUN	_	_	6	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+4	et	et	CCONJ	_	_	5	cc	_	_
+5	sœurs	sœur	NOUN	_	Number=Plur	3	conj:coord	_	Gender[lex]=Fem
+6	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	partis	partir	VERB	_	VerbForm=Part	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|SpaceAfter=No|Tense[denom]=Past
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_9
+# text = et, euh, elle était toute triste.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	toute	toute	ADV	_	_	8	mod	_	_
+8	triste	triste	ADJ	_	_	6	comp:pred	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_10
+# text = elle avait vraiment l'air toute triste.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	vraiment	vraiment	ADV	_	_	2	mod	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Gender[ctxt]=Masc|SpaceAfter=No
+5	air	air	NOUN	_	_	2	comp:obj@lvc	_	Gender[lex]=Masc|Number[ctxt]=Sing
+6	toute	toute	ADV	_	_	7	mod	_	_
+7	triste	triste	ADJ	_	_	5	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_11
+# text = et personne l'avait prise, parce qu'en fait elle avait des ergots aux pattes.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	4	cc	_	_
+2	personne	personne	PRON	_	Number=Sing|PronType=Neg	4	subj	_	_
+3	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	SpaceAfter=No
+4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	prise	prendre	VERB	_	Gender=Fem|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	parce	parce	SCONJ	_	ExtPos=SCONJ	4	mod	_	Idiom=Yes
+8	qu'	que	SCONJ	_	_	7	unk	_	InIdiom=Yes|SpaceAfter=No
+9	en	en	ADP	_	_	12	discourse	_	_
+10	fait	fait	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+11	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
+12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	comp:obj	_	_
+13	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+14	ergots	ergot	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+15-16	aux	_	_	_	_	_	_	_	_
+15	à	aux	ADP	_	_	14	comp:obl	_	wordform=aux
+16	les	les	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+17	pattes	patte	NOUN	_	_	15	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_12
+# text = c'est des espèces de petites excroissances, euh, sur les pattes, en gros un ongle en plus, quoi, enfin, et un doigt en plus, un ongle en plus.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	espèces	espèce	NOUN	_	_	2	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Plur
+5	de	de	ADP	_	_	4	udep	_	_
+6	petites	petit	ADJ	_	Gender=Fem	7	mod	_	Number[ctxt]=Plur
+7	excroissances	excroissance	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	sur	sur	ADP	_	_	7	mod	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+13	pattes	patte	NOUN	_	_	11	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+14	,	,	PUNCT	_	_	18	punct	_	_
+15	en	en	ADP	_	_	18	mod	_	_
+16	gros	gros	ADJ	_	Gender=Masc	15	comp:obj	_	Number[ctxt]=Sing
+17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ongle	ongle	NOUN	_	_	7	conj:appos	_	Gender[lex]=Masc|Number[ctxt]=Sing
+19	en	en	ADP	_	_	18	mod	_	_
+20	plus	plus	ADV	_	_	19	comp:obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	quoi	quoi	INTJ	_	_	20	discourse	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	enfin	enfin	ADV	_	ExtPos=INTJ	20	discourse	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26	et	et	CCONJ	_	_	28	cc	_	_
+27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	doigt	doigt	NOUN	_	_	18	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Sing
+29	en	en	ADP	_	_	28	mod	_	_
+30	plus	plus	ADV	_	_	29	comp:obj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	ongle	ongle	NOUN	_	_	18	conj:dicto	_	Gender[lex]=Masc|Number[ctxt]=Sing
+34	en	en	ADP	_	_	33	mod	_	_
+35	plus	plus	ADV	_	_	34	comp:obj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_13
+# text = et du coup personne voulait la prendre.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	6	cc	_	_
+2-3	du	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	6	discourse	_	wordform=du
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	coup	coup	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+5	personne	personne	PRON	_	Number=Sing|PronType=Neg	6	subj	_	_
+6	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	la	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
+8	prendre	prendre	VERB	_	VerbForm=Inf	6	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_14
+# text = et, nous on s'est dit, bah, c'est notre chien quoi!
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	6	dislocated	_	_
+4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
+5	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp:obl	_	SpaceAfter=No
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	dit	dire	VERB	_	Gender=Masc|VerbForm=Part	6	comp:aux@tense	_	Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	bah	bah	INTJ	_	_	12	discourse	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	SpaceAfter=No
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	Reported=Yes
+13	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	_
+14	chien	chien	NOUN	_	_	12	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
+15	quoi	quoi	INTJ	_	_	12	discourse	_	SpaceAfter=No
+16	!	!	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_15
+# text = alors, euh, on l'a prise dans nos bras, maman d'abord, après moi.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	alors	alors	ADV	_	_	7	mod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	_
+6	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	SpaceAfter=No
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	prise	prendre	VERB	_	Gender=Fem|VerbForm=Part|Voice=Act	7	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
+9	dans	dans	ADP	_	_	8	mod	_	_
+10	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	_
+11	bras	bras	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	maman	maman	NOUN	_	_	7	dislocated	_	Gender[lex]=Fem|Number[ctxt]=Sing
+14	d'	de	ADP	_	_	13	mod	_	SpaceAfter=No
+15	abord	abord	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	après	après	ADP	_	_	18	mod	_	_
+18	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	13	conj:coord	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_16
+# text = et elle était toute petite.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	3	cc	_	_
+2	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	toute	toute	ADV	_	_	5	mod	_	_
+5	petite	petit	ADJ	_	Gender=Fem	3	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_17
+# text = elle était toute mignonne.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	toute	toute	ADV	_	_	4	mod	_	_
+4	mignonne	mignonne	ADJ	_	Gender=Fem|Number=Sing	2	comp:pred	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_18
+# text = et elle avait des des trop beaux yeux.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	3	cc	_	_
+2	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+5	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	conj:dicto	_	_
+6	trop	trop	ADV	_	_	7	mod	_	_
+7	beaux	beau	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
+8	yeux	yeux	NOUN	_	Number=Plur	3	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_19
+# text = et sous ses yeux, elle é~, elle avait, elle avait tout un cercle noir, comme si elle avait du mascara, de l'eyeliner.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	7	cc	_	_
+2	sous	sous	ADP	_	_	7	mod	_	_
+3	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	yeux	yeux	NOUN	_	Number=Plur	2	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
+7	é~	é~	X	_	ExtPos=VERB	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
+10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj:dicto	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
+13	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj:dicto	_	_
+14	tout	tout	ADJ	_	Gender=Masc	16	mod	_	Number[ctxt]=Sing
+15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	cercle	cercle	NOUN	_	_	13	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+17	noir	noir	ADJ	_	Gender=Masc|Number=Sing	16	mod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	comme	comme	SCONJ	_	_	13	mod	_	_
+20	si	si	SCONJ	_	_	19	comp:obj	_	_
+21	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	subj	_	_
+22	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	comp:obj	_	_
+23	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	24	det	_	_
+24	mascara	mascara	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26	de	un	ADP	_	ExtPos=DET	28	det	_	Idiom=Yes
+27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	unk	_	Gender[ctxt]=Masc|InIdiom=Yes|SpaceAfter=No
+28	eyeliner	eyeliner	NOUN	_	Number=Sing	24	conj:dicto	_	Gender[lex]=Masc|SpaceAfter=No
+29	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_20
+# text = et ça lui faisait une petite tête de chien battu beaucoup trop mignonne.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	4	cc	_	_
+2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
+3	lui	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obl	_	_
+4	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	petite	petit	ADJ	_	Gender=Fem	7	mod	_	Number[ctxt]=Sing
+7	tête	tête	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+8	de	de	ADP	_	_	7	udep	_	_
+9	chien	chien	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+10	battu	battre	VERB	_	VerbForm=Part	9	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+11	beaucoup	beaucoup	ADV	_	_	12	mod	_	_
+12	trop	trop	ADV	_	_	13	mod	_	_
+13	mignonne	mignonne	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_21
+# text = du coup, on a dit, bah, voilà, quoi, c'est notre chien!
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1-2	du	_	_	_	_	_	_	_	_
+1	de	de	ADP	_	_	6	discourse	_	wordform=du
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+8	,	,	PUNCT	_	_	16	punct	_	_
+9	bah	bah	INTJ	_	_	16	discourse	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	voilà	voilà	VERB	_	ExtPos=INTJ	16	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	quoi	quoi	INTJ	_	_	16	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	subj	_	SpaceAfter=No
+16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	Reported=Yes
+17	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	18	det	_	_
+18	chien	chien	NOUN	_	_	16	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+19	!	!	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_22
+# text = et pour le prénom on avait déjà décidé.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	6	cc	_	_
+2	pour	pour	ADP	_	_	8	mod	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	prénom	prénom	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
+6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	déjà	déjà	ADV	_	_	6	mod	_	_
+8	décidé	décider	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_23
+# text = c'était l'année des M, euh.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gender[ctxt]=Fem|SpaceAfter=No
+4	année	année	NOUN	_	_	2	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
+5-6	des	_	_	_	_	_	_	_	_
+5	de	des	ADP	_	_	4	mod	_	wordform=des
+6	les	les	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	M	M	PROPN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_24
+# text = et, moi, mon surnom, depuis que je suis toute petite, que mon papa me donnait, c'était Mouts.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	22	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	22	dislocated	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	_
+6	surnom	surnom	NOUN	_	_	22	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	depuis	depuis	ADP	_	_	22	mod	_	_
+9	que	que	SCONJ	_	_	8	comp:obj	_	_
+10	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	11	subj	_	_
+11	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
+12	toute	toute	ADV	_	_	13	mod	_	_
+13	petite	petit	ADJ	_	Gender=Fem	11	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
+14	,	,	PUNCT	_	_	19	punct	_	_
+15	que	que	PRON	_	PronType=Rel	19	comp:obj	_	_
+16	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	_
+17	papa	papa	NOUN	_	_	19	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+18	me	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	19	comp:obl	_	_
+19	donnait	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	mod@relcl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	subj	_	SpaceAfter=No
+22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+23	Mouts	Mouts	PROPN	_	_	22	comp:pred	_	Gender[lex]=Unknown|SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_25
+# text = et, on s'est dit que, bah, pour ce chien ce serait bien.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
+4	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp:obl	_	SpaceAfter=No
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	dit	dire	VERB	_	Gender=Masc|VerbForm=Part	5	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
+7	que	que	SCONJ	_	_	6	comp:obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	bah	bah	INTJ	_	_	15	discourse	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	pour	pour	ADP	_	_	15	mod	_	_
+12	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	chien	chien	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+14	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	subj	_	_
+15	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
+16	bien	bien	ADV	_	_	15	comp:pred	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_26
+# text = et on s'est regardée avec ma mère.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	4	cc	_	_
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
+3	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp:obj	_	SpaceAfter=No
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	regardée	regarder	VERB	_	VerbForm=Part	4	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
+6	avec	avec	ADP	_	_	4	mod	_	_
+7	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	_
+8	mère	mère	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_27
+# text = on a fait ouais.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	comp:aux@tense	_	_
+4	ouais	ouais	INTJ	_	_	3	comp:obj	_	Reported=Yes|SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_28
+# text = ouais, elle a vraiment une tête de Mouts.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	ouais	ouais	INTJ	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	vraiment	vraiment	ADV	_	_	4	mod	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	tête	tête	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+8	de	de	ADP	_	_	7	udep	_	_
+9	Mouts	Mouts	PROPN	_	_	8	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_29
+# text = alors, bah, voilà, c'était Mouts!
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	alors	alors	ADV	_	_	8	mod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	bah	bah	INTJ	_	_	8	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	voilà	voilà	VERB	_	ExtPos=INTJ	8	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	SpaceAfter=No
+8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	Mouts	Mouts	PROPN	_	_	8	comp:pred	_	Gender[lex]=Unknown|SpaceAfter=No
+10	!	!	PUNCT	_	_	8	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_30
+# text = on a dit ok.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
+4	ok	ok	INTJ	_	_	3	comp:obj	_	Reported=Yes|SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_31
+# text = euh, fallait attendre une semaine, le temps qu'elle fasse tous ses vaccins.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	attendre	attendre	VERB	_	VerbForm=Inf	3	comp:pred	_	Subject=NoRaising
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	6	det	_	_
+6	semaine	semaine	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	temps	temps	NOUN	_	Number=Sing	6	conj:appos	_	Gender[lex]=Masc
+10	qu'	que	SCONJ	_	_	9	mod	_	SpaceAfter=No
+11	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
+12	fasse	faire	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
+13	tous	tout	ADJ	_	Gender=Masc	15	mod	_	Number[ctxt]=Plur
+14	ses	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	vaccins	vaccin	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_32
+# text = et on est revenu la semaine d'après, avec mon frère, ma mère.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	3	cc	_	_
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	revenu	revenir	VERB	_	VerbForm=Part	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	semaine	semaine	NOUN	_	_	4	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
+7	d'	de	ADP	_	_	6	mod	_	SpaceAfter=No
+8	après	après	ADV	_	_	7	comp:obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	avec	avec	ADP	_	_	4	mod	_	_
+11	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	12	det	_	_
+12	frère	frère	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	_
+15	mère	mère	NOUN	_	_	12	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_33
+# text = euh et on l'a emmenée.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	euh	euh	INTJ	_	_	5	discourse	_	_
+2	et	et	CCONJ	_	_	5	cc	_	_
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
+4	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	SpaceAfter=No
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	emmenée	emmener	VERB	_	VerbForm=Part|Voice=Act	5	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_34
+# text = dans la voiture elle était paniquée comme tout.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	dans	dans	ADP	_	_	5	mod	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	voiture	voiture	NOUN	_	_	1	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+4	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
+5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	paniquée	paniqué	ADJ	_	Gender=Fem|Number=Sing	5	comp:pred	_	_
+7	comme	comme	ADP	_	_	6	mod	_	_
+8	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	comp:obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_35
+# text = et elle est rentrée à la maison.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	3	cc	_	_
+2	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	rentrée	rentrer	VERB	_	VerbForm=Part	3	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
+5	à	à	ADP	_	_	4	comp:obl	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	maison	maison	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_36
+# text = elle était adorable.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	adorable	adorable	ADJ	_	_	2	comp:pred	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_37
+# text = euh, au début elle avait peur.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3-4	au	_	_	_	_	_	_	_	_
+3	à	à	ADP	_	_	7	mod	_	wordform=au
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	début	début	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+6	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
+7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	peur	peur	NOUN	_	_	7	comp:obj@lvc	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_38
+# text = elle osait pas marcher tout ça.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Shared=No	2	subj	_	_
+2	osait	oser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
+4	marcher	marcher	VERB	_	VerbForm=Inf	2	comp:obl	_	Subject=SubjRaising
+5	tout	tout	ADJ	_	Gender=Masc	6	mod	_	Number[ctxt]=Sing
+6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	conj:coord	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_adoptionMouts_39
+# text = et au bout de quelques heures, elle a enfin aboyé.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
+1	et	et	CCONJ	_	_	10	cc	_	_
+2-3	au	_	_	_	_	_	_	_	_
+2	à	à	ADP	_	_	10	mod	_	wordform=au
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bout	bout	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+5	de	de	ADP	_	_	4	mod	_	_
+6	quelques	quelques	DET	_	Number=Plur|PronType=Ind	7	det	_	_
+7	heures	heure	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	enfin	enfin	ADV	_	_	10	mod	_	_
+12	aboyé	aboyer	VERB	_	VerbForm=Part|Voice=Act	10	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+13	.	.	PUNCT	_	_	10	punct	_	_
+
