@@ -1,12 +1,13 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2021_rencontreAngelaMerkel_1
 # text = et avec ma classe de quatrième, on, on se baladait au niveau, de, euh, de, la, hum, du parlement français, euh, sur la Pariser Platz, euh, vers, euh, la tour de Brandenburg.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/f35b8235e71da133241d217dc1ec1c5249591be8
 1	et	et	CCONJ	_	_	12	cc	_	_
 2	avec	avec	ADP	_	_	12	mod	_	_
 3	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	_
-4	classe	classe	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
+4	classe	classe	NOUN	_	_	2	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 5	de	de	ADP	_	_	4	udep	_	_
-6	quatrième	quatrième	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	SpaceAfter=No
+6	quatrième	quatrième	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
@@ -16,7 +17,7 @@
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	12	comp:obl	_	wordform=au
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
+15	niveau	niveau	NOUN	_	_	13	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	de	de	ADP	_	_	15	udep	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
@@ -31,15 +32,15 @@
 27-28	du	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	21	conj:dicto	_	wordform=du
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	parlement	parlement	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
-30	français	français	ADJ	_	Gender=Masc	29	mod	_	SpaceAfter=No
+29	parlement	parlement	NOUN	_	_	27	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+30	français	français	ADJ	_	Gender=Masc	29	mod	_	Number[ctxt]=Sing|SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
 32	euh	euh	INTJ	_	_	30	discourse	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
 34	sur	sur	ADP	_	_	13	conj:appos	_	_
 35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	Pariser	Pariser	PROPN	_	_	34	comp:obj	_	_
-37	Platz	Platz	PROPN	_	_	36	flat@name	_	SpaceAfter=No
+36	Pariser	Pariser	PROPN	_	_	34	comp:obj	_	Gender[lex]=Unknown
+37	Platz	Platz	PROPN	_	_	36	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 38	,	,	PUNCT	_	_	41	punct	_	_
 39	euh	euh	INTJ	_	_	41	discourse	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	39	punct	_	_
@@ -48,9 +49,9 @@
 43	euh	euh	INTJ	_	_	46	discourse	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	43	punct	_	_
 45	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
-46	tour	tour	NOUN	_	Gender=Fem|Number=Sing	41	conj:dicto	_	_
+46	tour	tour	NOUN	_	_	41	conj:dicto	_	Gender[lex]=Fem|Number[ctxt]=Sing
 47	de	de	ADP	_	_	46	udep	_	_
-48	Brandenburg	Brandenburg	PROPN	_	_	47	comp:obj	_	SpaceAfter=No
+48	Brandenburg	Brandenburg	PROPN	_	_	47	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 49	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreAngelaMerkel_2
@@ -65,7 +66,7 @@
 7	baladait	balader	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	dans	dans	ADP	_	_	7	mod	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	quartier	quartier	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	SpaceAfter=No
+10	quartier	quartier	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreAngelaMerkel_3
@@ -75,9 +76,9 @@
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	forcément	forcément	ADV	_	_	3	mod	_	_
-5	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
+5	passé	passer	VERB	_	VerbForm=Part	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 6	à	à	ADP	_	_	5	comp:obl	_	_
-7	côté	côté	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
+7	côté	côté	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8-9	du	_	_	_	_	_	_	_	SpaceAfter=No
 8	de	de	ADP	_	_	7	udep	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	unk@scrap	_	_
@@ -89,20 +90,20 @@
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	8	conj:dicto	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	16	det	_	_
-16	Bundestag	Bundestag	PROPN	_	_	14	comp:obj	_	SpaceAfter=No
+16	Bundestag	Bundestag	PROPN	_	_	14	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 17	,	,	PUNCT	_	_	23	punct	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	conj:dicto	_	_
-23	parlement	parlement	NOUN	_	Gender=Masc|Number=Sing	16	conj:appos	_	_
+23	parlement	parlement	NOUN	_	_	16	conj:appos	_	Gender[lex]=Masc|Number[ctxt]=Sing
 24	de	de	ADP	_	_	23	udep	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
 26	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	_
 28	de	de	ADP	_	_	24	conj:dicto	_	_
-29	Berlin	Berlin	PROPN	_	_	28	comp:obj	_	SpaceAfter=No
+29	Berlin	Berlin	PROPN	_	_	28	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 30	,	,	PUNCT	_	_	28	punct	_	_
 31	euh	euh	INTJ	_	_	41	discourse	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
@@ -117,20 +118,20 @@
 41	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	37	subj	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	44	punct	_	_
 43	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	44	det	_	_
-44	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	41	conj:dicto	_	_
-45	iconique	iconique	ADJ	_	Number=Sing	44	mod	_	SpaceAfter=No
+44	endroit	endroit	NOUN	_	_	41	conj:dicto	_	Gender[lex]=Masc|Number[ctxt]=Sing
+45	iconique	iconique	ADJ	_	_	44	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 46	,	,	PUNCT	_	_	47	punct	_	_
 47	enfin	enfin	ADV	_	ExtPos=INTJ	44	discourse	_	SpaceAfter=No
 48	,	,	PUNCT	_	_	49	punct	_	_
 49	voilà	voilà	VERB	_	ExtPos=INTJ	47	discourse	_	SpaceAfter=No
 50	,	,	PUNCT	_	_	51	punct	_	_
 51	de	de	ADP	_	_	44	udep	_	_
-52	Berlin	Berlin	PROPN	_	_	51	comp:obj	_	SpaceAfter=No
+52	Berlin	Berlin	PROPN	_	_	51	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 53	,	,	PUNCT	_	_	55	punct	_	_
 54	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
-55	parlement	parlement	NOUN	_	Gender=Masc|Number=Sing	44	conj:appos	_	SpaceAfter=No
+55	parlement	parlement	NOUN	_	_	44	conj:appos	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 56	,	,	PUNCT	_	_	58	punct	_	_
-57	tout	tout	ADJ	_	Gender=Masc|Number=Sing	58	mod	_	_
+57	tout	tout	ADJ	_	Gender=Masc	58	mod	_	Number[ctxt]=Sing
 58	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	55	conj:coord	_	SpaceAfter=No
 59	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -144,7 +145,7 @@
 5	mais	mais	CCONJ	_	_	7	cc	_	_
 6	vraiment	vraiment	ADV	_	_	7	mod	_	_
 7	par	par	ADP	_	_	33	mod	_	_
-8	hasard	hasard	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	SpaceAfter=No
+8	hasard	hasard	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	alors	alors	ADV	_	ExtPos=SCONJ	33	mod	_	Idiom=Yes
 11	qu'	que	SCONJ	_	_	10	unk	_	InIdiom=Yes|SpaceAfter=No
@@ -152,7 +153,7 @@
 13	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	comp:obj	_	_
 14	sur	sur	ADP	_	_	13	comp:obl	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	côté	côté	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
+16	côté	côté	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 17-18	du	_	_	_	_	_	_	_	SpaceAfter=No
 17	de	de	ADP	_	_	16	udep	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	unk@scrap	_	_
@@ -160,33 +161,33 @@
 20-21	du	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	17	conj:dicto	_	wordform=du
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	bâtiment	bâtiment	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	SpaceAfter=No
+22	bâtiment	bâtiment	NOUN	_	_	20	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	10	punct	_	_
 26	depuis	depuis	ADP	_	_	33	mod	_	_
 27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 28	toute	toute	ADV	_	_	29	mod	_	_
-29	petite	petit	ADJ	_	Gender=Fem|Number=Sing	30	mod	_	_
-30	porte	porte	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	SpaceAfter=No
+29	petite	petit	ADJ	_	Gender=Fem	30	mod	_	Number[ctxt]=Sing
+30	porte	porte	NOUN	_	_	26	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 31	,	,	PUNCT	_	_	26	punct	_	_
 32	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	33	subj	_	_
 33	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 34	euh	euh	INTJ	_	_	33	discourse	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	34	punct	_	_
-36	Angela	Angela	PROPN	_	_	33	comp:obj	_	_
-37	Merkel	Merkel	PROPN	_	_	36	flat@name	_	_
+36	Angela	Angela	PROPN	_	_	33	comp:obj	_	Gender[lex]=Unknown
+37	Merkel	Merkel	PROPN	_	_	36	flat@name	_	Gender[lex]=Unknown
 38	qui	qui	PRON	_	PronType=Rel	41	subj	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	38	punct	_	_
 40	qui	qui	PRON	_	PronType=Rel	38	conj:dicto	_	_
 41	sort	sortir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	mod@relcl	_	_
-42	accompagnée	accompagner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	41	mod	_	_
+42	accompagnée	accompagner	VERB	_	VerbForm=Part	41	mod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
 43	d'	de	ADP	_	_	42	mod	_	SpaceAfter=No
 44	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	comp:obj@scrap	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	46	punct	_	_
 46	d'	de	ADP	_	_	43	conj:dicto	_	SpaceAfter=No
 47	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
-48	secrétaire	secrétaire	NOUN	_	Gender=Masc|Number=Sing	46	comp:obj	_	_
+48	secrétaire	secrétaire	NOUN	_	_	46	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 49	ou	ou	CCONJ	_	_	50	cc	_	_
 50	de	de	ADP	_	_	46	conj:coord	_	SpaceAfter=No
 51	,	,	PUNCT	_	_	54	punct	_	_
@@ -196,17 +197,17 @@
 55	,	,	PUNCT	_	_	56	punct	_	_
 56	d'	de	ADP	_	_	54	conj:dicto	_	SpaceAfter=No
 57	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
-58	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	56	comp:obj	_	_
+58	sorte	sorte	NOUN	_	_	56	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 59	de	de	ADP	_	_	58	udep	_	SpaceAfter=No
 60	,	,	PUNCT	_	_	61	punct	_	_
 61	de	de	ADP	_	_	59	conj:dicto	_	SpaceAfter=No
 62	,	,	PUNCT	_	_	61	punct	_	_
 63	de	de	ADP	_	_	61	conj:dicto	_	_
-64	garde	garde	NOUN	_	Gender=Masc|Number=Sing	63	comp:obj	_	_
+64	garde	garde	NOUN	_	_	63	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 65-66	du	_	_	_	_	_	_	_	_
 65	de	de	ADP	_	_	64	mod	_	wordform=du
 66	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
-67	corps	corps	NOUN	_	Gender=Masc|Number=Sing	65	comp:obj	_	SpaceAfter=No
+67	corps	corps	NOUN	_	Number=Sing	65	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 68	,	,	PUNCT	_	_	73	punct	_	_
 69	euh	euh	INTJ	_	_	73	discourse	_	SpaceAfter=No
 70	,	,	PUNCT	_	_	69	punct	_	_
@@ -214,17 +215,17 @@
 72	n'	ne	ADV	_	_	73	mod	_	SpaceAfter=No
 73	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	mod@relcl	_	_
 74	pas	pas	ADP	_	_	73	mod	_	_
-75	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	76	det	_	SpaceAfter=No
-76	air	air	NOUN	_	Gender=Masc|Number=Sing	73	comp:obj@lvc	_	SpaceAfter=No
+75	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	76	det	_	Gender[ctxt]=Masc|SpaceAfter=No
+76	air	air	NOUN	_	_	73	comp:obj@lvc	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 77	,	,	PUNCT	_	_	76	punct	_	_
 78	euh	euh	INTJ	_	_	76	discourse	_	SpaceAfter=No
 79	,	,	PUNCT	_	_	84	punct	_	_
 80	enfin	enfin	ADV	_	ExtPos=INTJ	84	discourse	_	SpaceAfter=No
 81	,	,	PUNCT	_	_	84	punct	_	_
 82	qui	qui	PRON	_	PronType=Rel	84	subj	_	_
-83	n'	ne	ADV	_	_	84	mod	_	SpaceAfter=No
+83	n'	ne	ADV	_	Polarity=Neg	84	mod	_	SpaceAfter=No
 84	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	73	comp:obj	_	Reported=Yes
-85	pas	pas	ADV	_	_	84	mod	_	SpaceAfter=No
+85	pas	pas	ADV	_	Polarity=Neg	84	mod	_	SpaceAfter=No
 86	,	,	PUNCT	_	_	85	punct	_	_
 87	euh	euh	INTJ	_	_	84	discourse	_	SpaceAfter=No
 88	,	,	PUNCT	_	_	89	punct	_	_
@@ -237,11 +238,11 @@
 # text = il n'avait pas l'air d'être armé, ni rien.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/f35b8235e71da133241d217dc1ec1c5249591be8
 1	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
-2	n'	ne	ADV	_	_	3	mod	_	SpaceAfter=No
+2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	pas	pas	ADV	_	_	3	mod	_	_
-5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
-6	air	air	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj@lvc	_	_
+4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Gender[ctxt]=Masc|SpaceAfter=No
+6	air	air	NOUN	_	_	3	comp:obj@lvc	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	d'	de	ADP	_	_	6	comp:pred	_	SpaceAfter=No
 8	être	être	AUX	_	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
 9	armé	armé	ADJ	_	Gender=Masc|Number=Sing	8	comp:pred	_	SpaceAfter=No
@@ -272,7 +273,7 @@
 7	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	voiture	voiture	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	SpaceAfter=No
+10	voiture	voiture	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
@@ -288,7 +289,7 @@
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	22	conj:dicto	_	_
 25	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
-26	pas	pas	ADV	_	_	25	mod	_	_
+26	pas	pas	ADV	_	Polarity=Neg	25	mod	_	_
 27	trop	trop	ADV	_	_	25	mod	_	_
 28	où	où	PRON	_	PronType=Rel	25	comp:obj	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	3	punct	_	_
@@ -303,7 +304,7 @@
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	parataxis:parenth	_	_
 6	avec	avec	ADP	_	_	5	comp:pred	_	_
 7	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	_
-8	correspondantes	correspondant	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	SpaceAfter=No
+8	correspondantes	correspondant	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
@@ -312,7 +313,7 @@
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	_
 15	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 16	du	du	DET	_	_	17	det	_	_
-17	mal	mal	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj@lvc	_	_
+17	mal	mal	NOUN	_	Number=Sing	15	comp:obj@lvc	_	Gender[lex]=Masc
 18	à	à	ADP	_	_	15	comp:obl	_	_
 19	y	y	PRON	_	Person=3|PronType=Prs	20	comp:obj	_	_
 20	croire	croire	VERB	_	VerbForm=Inf	18	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
@@ -345,13 +346,13 @@
 8	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	conj:dicto	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	conj:dicto	_	_
-11	prof	prof	NOUN	_	Gender=Fem|Number=Sing	21	dislocated	_	_
+11	prof	prof	NOUN	_	_	21	dislocated:subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 12	d'	de	ADP	_	_	11	udep	_	SpaceAfter=No
-13	allemand	allemand	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
+13	allemand	allemand	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	11	punct	_	_
 15	à	à	ADP	_	_	21	mod	_	_
 16	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
-17	moment	moment	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
+17	moment	moment	NOUN	_	_	15	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 18	-là	là	ADV	_	_	17	mod	_	SpaceAfter=No|wordform=là
 19	,	,	PUNCT	_	_	15	punct	_	_
 20	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	subj	_	_
@@ -359,7 +360,7 @@
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	subj	_	_
 24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj:dicto	_	_
-25	osé	oser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	SpaceAfter=No
+25	osé	oser	VERB	_	VerbForm=Part|Voice=Act	24	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 26	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreAngelaMerkel_11
@@ -370,14 +371,14 @@
 3	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	conj:dicto	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	6	comp:obj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	SpaceAfter=No
+6	allée	aller	VERB	_	VerbForm=Part	5	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	peu	peu	NOUN	_	Gender=Masc|Number=Sing	10	mod	_	_
+9	peu	peu	NOUN	_	Number=Sing	10	mod	_	Gender[lex]=Masc
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	6	mod	_	wordform=au
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	culot	culot	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
+12	culot	culot	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	_	_
@@ -389,10 +390,10 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	conj:dicto	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
+5	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
 6	venez	venir	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Reported=Yes
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-8	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	6	vocative	_	SpaceAfter=No
+8	enfants	enfant	NOUN	_	_	6	vocative	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreAngelaMerkel_13
@@ -417,11 +418,11 @@
 3	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 4	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	comp@expl	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	adressée	adresser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
+6	adressée	adresser	VERB	_	VerbForm=Part	5	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
 7	à	à	ADP	_	_	6	comp:obl	_	_
 8	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	_
 9	en	en	ADP	_	_	6	mod	_	_
-10	allemand	allemand	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	SpaceAfter=No
+10	allemand	allemand	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
@@ -441,7 +442,7 @@
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	classe	classe	NOUN	_	Gender=Fem|Number=Sing	2	comp:pred	_	SpaceAfter=No
+4	classe	classe	NOUN	_	_	2	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
@@ -451,7 +452,7 @@
 11	tout	tout	ADV	_	ExtPos=ADV|Gender=Masc|Number=Sing	8	conj:coord	_	Idiom=Yes|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	en	en	ADP	_	_	8	conj:coord	_	_
-14	échange	échange	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
+14	échange	échange	NOUN	_	_	13	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 15	franco-allemand	franco-allemand	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -464,7 +465,7 @@
 4	apprécie	apprécier	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	énormément	énormément	ADV	_	_	4	mod	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	ville	ville	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	SpaceAfter=No
+7	ville	ville	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
@@ -489,9 +490,9 @@
 15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	subj	_	_
 16	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj:dicto	_	_
 17	beaucoup	beaucoup	ADV	_	_	16	mod	_	_
-18	Berlin	Berlin	PROPN	_	_	16	comp:obj	_	SpaceAfter=No
+18	Berlin	Berlin	PROPN	_	_	16	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
-20	tout	tout	ADJ	_	Gender=Masc|Number=Sing	21	mod	_	_
+20	tout	tout	ADJ	_	Gender=Masc	21	mod	_	Number[ctxt]=Sing
 21	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	conj:coord	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
@@ -504,8 +505,8 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	Angela	Angela	PROPN	_	Shared=Yes	13	subj	_	_
-6	Merkel	Merkel	PROPN	_	_	5	flat@name	_	SpaceAfter=No
+5	Angela	Angela	PROPN	_	Shared=Yes	13	subj	_	Gender[lex]=Unknown
+6	Merkel	Merkel	PROPN	_	_	5	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	ben	ben	INTJ	_	_	13	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
@@ -513,24 +514,24 @@
 11	,	,	PUNCT	_	_	8	punct	_	_
 12	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	comp@expl	_	SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	adressée	adresser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
+14	adressée	adresser	VERB	_	VerbForm=Part	13	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
 15	à	à	ADP	_	_	14	comp:obl	_	_
 16	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	15	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	en	en	ADP	_	_	14	mod	_	_
-19	français	français	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	SpaceAfter=No
+19	français	français	NOUN	_	_	18	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj:coord	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	26	comp:obl	_	_
 25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj:dicto	_	_
-26	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	comp:aux@tense	_	_
+26	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	25	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
 27	qu'	que	SCONJ	_	_	26	comp:obj	_	SpaceAfter=No
 28	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	subj	_	_
 29	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	comp:obj	_	_
 30	très	très	ADV	_	_	31	mod	_	_
-31	contente	content	ADJ	_	Gender=Fem|Number=Sing	29	comp:pred	_	SpaceAfter=No
+31	contente	content	ADJ	_	Gender=Fem	29	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
 32	,	,	PUNCT	_	_	35	punct	_	_
 33	euh	euh	INTJ	_	_	35	discourse	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	33	punct	_	_
@@ -550,11 +551,11 @@
 48	euh	euh	INTJ	_	_	51	discourse	_	SpaceAfter=No
 49	,	,	PUNCT	_	_	48	punct	_	_
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	51	det	_	_
-51	lien	lien	NOUN	_	Gender=Masc|Number=Sing	46	comp:obj	_	_
+51	lien	lien	NOUN	_	_	46	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 52	franco-allemand	franco-allemand	ADJ	_	Gender=Masc|Number=Sing	51	mod	_	SpaceAfter=No
 53	,	,	PUNCT	_	_	55	punct	_	_
-54	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	55	det	_	SpaceAfter=No
-55	amitié	amitié	NOUN	_	Gender=Fem|Number=Sing	51	conj:dicto	_	_
+54	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	55	det	_	Gender[ctxt]=Fem|SpaceAfter=No
+55	amitié	amitié	NOUN	_	_	51	conj:dicto	_	Gender[lex]=Fem|Number[ctxt]=Sing
 56	franco-allemande	franco-allemand	ADJ	_	Gender=Fem|Number=Sing	55	mod	_	SpaceAfter=No
 57	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -567,7 +568,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	accepté	accepter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	SpaceAfter=No
+7	accepté	accepter	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	de	de	ADP	_	_	7	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
@@ -579,7 +580,7 @@
 16	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	conj:dicto	_	_
-19	photo	photo	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
+19	photo	photo	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 20	avec	avec	ADP	_	_	19	mod	_	_
 21	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	20	comp:obj	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
@@ -598,11 +599,11 @@
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	bonne	bonne	ADJ	_	Gender=Fem|Number=Sing	10	mod	_	_
-10	quarantaine	quarantaine	NOUN	_	Gender=Fem|Number=Sing	4	conj:dicto	_	_
+10	quarantaine	quarantaine	NOUN	_	_	4	conj:dicto	_	Gender[lex]=Fem|Number[ctxt]=Sing
 11	autour	autour	ADV	_	_	10	mod	_	_
 12	d'	de	ADP	_	_	11	comp:obl	_	SpaceAfter=No
-13	Angela	Angela	PROPN	_	_	12	comp:obj	_	_
-14	Merkel	Merkel	PROPN	_	_	13	flat@name	_	SpaceAfter=No
+13	Angela	Angela	PROPN	_	_	12	comp:obj	_	Gender[lex]=Unknown
+14	Merkel	Merkel	PROPN	_	_	13	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreAngelaMerkel_21
@@ -612,7 +613,7 @@
 2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	juste	juste	ADV	_	_	4	mod	_	_
 4	à	à	ADP	_	_	2	comp:pred	_	_
-5	côté	côté	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
+5	côté	côté	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 6	d'	de	ADP	_	_	5	mod	_	SpaceAfter=No
 7	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	_
@@ -620,14 +621,14 @@
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	9	unk@scrap	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	9	punct	_	_
-13	collée	coller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj:dicto	_	SpaceAfter=No
+13	collée	coller	VERB	_	VerbForm=Part	4	conj:dicto	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	collée	coller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	conj:dicto	_	_
+17	collée	coller	VERB	_	VerbForm=Part	13	conj:dicto	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
 18	à	à	ADP	_	_	17	mod	_	_
 19	ses	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	20	det	_	_
-20	côtés	côtés	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	SpaceAfter=No
+20	côtés	côté	NOUN	_	_	18	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 21	,	,	PUNCT	_	_	17	punct	_	_
 22	enfin	enfin	ADV	_	ExtPos=INTJ	23	discourse	_	_
 23	voilà	voilà	VERB	_	ExtPos=INTJ	2	discourse	_	SpaceAfter=No
@@ -639,7 +640,7 @@
 1	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj@pass	_	SpaceAfter=No
 2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	très	très	ADV	_	_	4	mod	_	_
-4	intimidée	intimider	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	SpaceAfter=No
+4	intimidée	intimider	VERB	_	VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
@@ -662,8 +663,8 @@
 13	penser	penser	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=NoRaising
 14	qu'	que	SCONJ	_	_	13	comp:obj	_	SpaceAfter=No
 15	à	à	ADP	_	_	20	mod	_	_
-16	douze	douze	NUM	_	Number=Plur	17	mod	_	_
-17	ans	an	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	SpaceAfter=No
+16	douze	douze	NUM	_	ExtPos=DET	17	mod	_	Number[lex]=Plur
+17	ans	an	NOUN	_	_	15	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 18	,	,	PUNCT	_	_	15	punct	_	_
 19	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	subj	_	SpaceAfter=No
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	SpaceAfter=No
@@ -678,7 +679,7 @@
 29	,	,	PUNCT	_	_	31	punct	_	_
 30	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	31	subj	_	SpaceAfter=No
 31	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj:dicto	_	_
-32	impressionnant	impressionnant	ADJ	_	Gender=Masc|Number=Sing	31	comp:pred	_	SpaceAfter=No
+32	impressionnant	impressionnant	ADJ	_	Gender=Masc	31	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
 34	de	de	ADP	_	_	32	udep	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	36	punct	_	_
@@ -688,7 +689,7 @@
 39	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	38	comp:obj	_	_
 40	d'	de	ADP	_	_	39	mod	_	SpaceAfter=No
 41	aussi	aussi	ADV	_	_	42	mod	_	_
-42	haut	haut	ADJ	_	Gender=Masc|Number=Sing	43	mod	_	_
+42	haut	haut	ADJ	_	Gender=Masc	43	mod	_	Number[ctxt]=Sing
 43	placé	placé	ADJ	_	Gender=Masc|Number=Sing	40	comp:obj	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	1	punct	_	_
 

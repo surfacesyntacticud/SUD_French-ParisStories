@@ -4,7 +4,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8970b764f6e6a69f0aa9b79c868c9ac5e23d1941
 1	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
 2	de	de	ADP	_	_	1	mod	_	_
-3	Mitry-Claye	Mitry-Claye	PROPN	_	_	2	comp:obj	_	SpaceAfter=No
+3	Mitry-Claye	Mitry-Claye	PROPN	_	_	2	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_2
@@ -13,7 +13,7 @@
 1	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
-4	quai	quai	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
+4	quai	quai	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_3
@@ -23,7 +23,7 @@
 2	s'	soi	PRON	_	Person=3|PronType=Prs	4	comp@expl	_	SpaceAfter=No
 3	en	en	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	_
 4	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	pas	pas	ADV	_	_	4	mod	_	SpaceAfter=No
+5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_4
@@ -40,13 +40,13 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	à	à	ADP	_	_	8	comp:obl	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	voix	voix	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
+12	voix	voix	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	de	de	ADP	_	_	12	mod	_	_
-17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
-18	haut-parleur	haut-parleur	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
+17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	Gender[ctxt]=Masc|SpaceAfter=No
+18	haut-parleur	haut-parleur	NOUN	_	_	16	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 19	qui	qui	PRON	_	PronType=Rel	20	subj	_	_
 20	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	32	punct	_	_
@@ -60,27 +60,27 @@
 29	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	train	train	NOUN	_	Gender=Masc|Number=Sing	33	subj@pass	_	_
+32	train	train	NOUN	_	_	33	subj@pass	_	Gender[lex]=Masc|Number[ctxt]=Sing
 33	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	Reported=Yes
-34	maintenu	maintenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	comp:aux@pass	_	_
+34	maintenu	maintenir	VERB	_	VerbForm=Part|Voice=Pass	33	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 35	à	à	ADP	_	_	34	comp:obl	_	_
-36	quai	quai	NOUN	_	Gender=Masc|Number=Sing	35	comp:obj	_	SpaceAfter=No
+36	quai	quai	NOUN	_	_	35	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 37	,	,	PUNCT	_	_	40	punct	_	_
 38	euh	euh	INTJ	_	_	40	discourse	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	38	punct	_	_
 40	pour	pour	ADP	_	_	34	mod	_	_
-41	cause	cause	NOUN	_	Gender=Fem|Number=Sing	40	comp:obj	_	_
+41	cause	cause	NOUN	_	_	40	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 42	de	de	ADP	_	_	41	mod	_	_
 43	euh	euh	INTJ	_	_	45	discourse	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	43	punct	_	_
 45	qu'	que	SCONJ	_	_	42	comp:obj	_	SpaceAfter=No
 46	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	47	subj	_	_
 47	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	comp:obj	_	_
-48	tiré	tirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	47	comp:aux@tense	_	_
+48	tiré	tirer	VERB	_	VerbForm=Part|Voice=Act	47	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 49	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
-50	signal	signal	NOUN	_	Gender=Masc|Number=Sing	48	comp:obj	_	_
+50	signal	signal	NOUN	_	Number=Sing	48	comp:obj	_	Gender[lex]=Masc
 51	d'	de	ADP	_	_	50	mod	_	SpaceAfter=No
-52	alarme	alarme	NOUN	_	Gender=Fem|Number=Sing	51	comp:obj	_	SpaceAfter=No
+52	alarme	alarme	NOUN	_	_	51	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 53	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_5
@@ -90,34 +90,34 @@
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	11	discourse	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	SpaceAfter=No
+4	coup	coup	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	là	là	ADV	_	_	11	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	11	dislocated	_	SpaceAfter=No
+8	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	11	dislocated:subj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	11	subj	_	_
 11	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	15	det	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	conj:dicto	_	_
-15	mère	mère	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
+15	mère	mère	NOUN	_	_	11	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 16	,	,	PUNCT	_	_	20	punct	_	_
 17	enfin	enfin	ADV	_	ExtPos=INTJ	20	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	femme	femme	NOUN	_	Gender=Fem|Number=Sing	15	conj:dicto	_	_
+20	femme	femme	NOUN	_	_	15	conj:dicto	_	Gender[lex]=Fem|Number[ctxt]=Sing
 21	pardon	pardon	NOUN	_	ExtPos=INTJ	20	discourse	_	_
 22	avec	avec	ADP	_	_	20	mod	_	_
 23	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	24	det	_	_
-24	fils	fils	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
+24	fils	fils	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Masc
 25	et	et	CCONJ	_	_	28	cc	_	_
 26	certainement	certainement	ADV	_	_	28	mod	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	mère	mère	NOUN	_	Gender=Fem|Number=Sing	20	conj:coord	_	_
+28	mère	mère	NOUN	_	_	20	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing
 29	de	de	ADP	_	_	28	mod	_	_
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	femme	femme	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	SpaceAfter=No
+31	femme	femme	NOUN	_	_	29	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 32	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_6
@@ -147,7 +147,7 @@
 22	y	y	PRON	_	Person=3|PronType=Prs	23	comp@expl	_	_
 23	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
 24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	attroupement	attroupement	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
+25	attroupement	attroupement	NOUN	_	_	23	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 26	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_7
@@ -159,13 +159,13 @@
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	signal	signal	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
+7	signal	signal	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc
 8	d'	de	ADP	_	_	7	mod	_	SpaceAfter=No
-9	alarme	alarme	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
+9	alarme	alarme	NOUN	_	_	8	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
 12	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
-13	tiré	tirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@pass	_	SpaceAfter=No
+13	tiré	tirer	VERB	_	VerbForm=Part|Voice=Pass	12	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_8
@@ -175,17 +175,17 @@
 2	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	oui	oui	ADV	_	ExtPos=INTJ	13	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
+5	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	Polite=Unknown
 6	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	Reported=Yes
 7	pourquoi	pourquoi	ADV	_	_	13	mod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	signal	signal	NOUN	_	Gender=Masc|Number=Sing	13	dislocated	_	_
+9	signal	signal	NOUN	_	Number=Sing	13	dislocated:subj	_	Gender[lex]=Masc
 10	d'	de	ADP	_	_	9	mod	_	SpaceAfter=No
-11	alarme	alarme	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
+11	alarme	alarme	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 12	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
 14	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
-15	tiré	tirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@pass	_	_
+15	tiré	tirer	VERB	_	VerbForm=Part|Voice=Pass	14	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 16	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_9
@@ -205,44 +205,44 @@
 2	là	là	ADV	_	_	8	mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	en	en	ADP	_	ExtPos=ADV	8	discourse	_	Idiom=Yes
-5	fait	faire	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+5	fait	faire	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	8	subj	_	_
 8	regarde	regarder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	et	et	CCONJ	_	_	15	cc	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	en	en	ADP	_	ExtPos=ADV	15	discourse	_	Idiom=Yes
-12	fait	faire	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+12	fait	faire	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 13	,	,	PUNCT	_	_	11	punct	_	_
 14	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	15	subj	_	_
 15	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj:coord	_	_
 16	que	que	SCONJ	_	_	15	comp:obj	_	_
 17	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
-18	attroupement	attroupement	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	SpaceAfter=No
+18	attroupement	attroupement	NOUN	_	_	16	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 19	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_11
 # text = en fait, il y a trois femmes avec un autre homme et une femme qui sont eux deux ensemble.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8970b764f6e6a69f0aa9b79c868c9ac5e23d1941
 1	en	en	ADP	_	ExtPos=ADV	6	discourse	_	Idiom=Yes
-2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+2	fait	fait	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	_
 5	y	y	PRON	_	Person=3|PronType=Prs	6	comp@expl	_	_
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	trois	trois	NUM	_	Number=Plur	8	det	_	_
-8	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
+7	trois	trois	NUM	_	ExtPos=DET	8	det	_	Number[lex]=Plur
+8	femmes	femme	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 9	avec	avec	ADP	_	_	8	mod	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	12	det	_	_
-11	autre	autre	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	_
-12	homme	homme	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
+11	autre	autre	ADJ	_	_	12	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
+12	homme	homme	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	femme	femme	NOUN	_	Gender=Fem|Number=Sing	12	conj:coord	_	_
+15	femme	femme	NOUN	_	_	12	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing
 16	qui	qui	PRON	_	PronType=Rel	17	subj	_	_
 17	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
-18	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	dislocated	_	_
-19	deux	deux	NUM	_	Number=Plur	18	mod	_	_
+18	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	dislocated:obj	_	_
+19	deux	deux	NUM	_	ExtPos=PRON	18	mod	_	Number[lex]=Plur
 20	ensemble	ensemble	ADV	_	_	17	comp:pred	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -253,7 +253,7 @@
 2	là	là	ADV	_	_	8	mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	en	en	ADP	_	ExtPos=ADV	8	discourse	_	Idiom=Yes
-5	fait	faire	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+5	fait	faire	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	8	subj	_	_
 8	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -262,7 +262,7 @@
 11	y	y	PRON	_	Person=3|PronType=Prs	12	comp@expl	_	_
 12	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	policier	policier	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
+14	policier	policier	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	parce	parce	ADV	_	ExtPos=SCONJ	12	mod	_	Idiom=Yes
 17	que	que	SCONJ	_	_	16	unk	_	InIdiom=Yes
@@ -272,13 +272,13 @@
 21	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj	_	_
 22	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	brassard	brassard	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
-25	orange	orange	ADJ	_	Gender=Masc|Number=Sing	24	mod	_	_
+24	brassard	brassard	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+25	orange	orange	ADJ	_	_	24	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
 26	avec	avec	ADP	_	_	24	mod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	avec	avec	ADP	_	_	26	conj:dicto	_	_
-29	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	comp:obj	_	_
-30	police	police	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
+29	écrit	écrire	VERB	_	Gender=Masc|VerbForm=Part	28	comp:obj	_	Number[ctxt]=Sing|Tense[denom]=Past
+30	police	police	NOUN	_	_	29	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 31	au-dessus	au-dessus	ADV	_	_	29	mod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -297,7 +297,7 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	9	discourse	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	coup	coup	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
+6	coup	coup	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	9	subj	_	_
 9	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -307,14 +307,14 @@
 13	mais	mais	CCONJ	_	_	15	cc	_	_
 14	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	15	subj	_	_
 15	savais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	conj:coord	_	_
-16	pas	pas	ADV	_	_	15	mod	_	_
+16	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_
 17	qu'	que	PRON	_	PronType=Int	18	comp:pred	_	SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	SpaceAfter=No
 19	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj@expl	_	_
 20	qu'	que	PRON	_	PronType=Rel	23	comp:obj	_	SpaceAfter=No
 21	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj	_	_
 22	se	soi	PRON	_	Person=3|PronType=Prs	23	comp@expl	_	InIdiom=Yes
-23	passait	passer	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	comp:cleft	_	Idiom=Yes|SpaceAfter=No
+23	passait	passer	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	comp:cleft	_	Filler=obj|Idiom=Yes|SpaceAfter=No
 24	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_15
@@ -323,7 +323,7 @@
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	0	root	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
+3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_16
@@ -341,14 +341,14 @@
 10	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	11	subj	_	_
 11	dise	dire	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
 12	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	_
-13	phrase	phrase	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
+13	phrase	phrase	NOUN	_	_	11	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_17
 # text = en gros, hum, j'entends, euh, à la voix de l'haut-parleur qu'ils disent oui, euh.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8970b764f6e6a69f0aa9b79c868c9ac5e23d1941
 1	en	en	ADP	_	_	7	mod	_	_
-2	gros	gros	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
+2	gros	gros	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	hum	hum	INTJ	_	_	7	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
@@ -359,10 +359,10 @@
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	à	à	ADP	_	_	7	mod	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	voix	voix	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
+13	voix	voix	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Fem
 14	de	de	ADP	_	_	13	mod	_	_
-15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
-16	haut-parleur	haut-parleur	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
+15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	Gender[ctxt]=Masc|SpaceAfter=No
+16	haut-parleur	haut-parleur	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 17	qu'	que	SCONJ	_	_	7	comp:obj	_	SpaceAfter=No
 18	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	subj	_	_
 19	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
@@ -375,16 +375,16 @@
 # text = en fait, nous sur place, on savait même pas alors qu'on était là, c'est l'haut-parleur qui nous l'a dit, enfin, qu'on a su grâce à l'haut-parleur.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8970b764f6e6a69f0aa9b79c868c9ac5e23d1941
 1	en	en	ADP	_	ExtPos=ADV	9	discourse	_	Idiom=Yes
-2	fait	faire	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+2	fait	faire	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	9	dislocated	_	_
+4	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	9	dislocated:subj	_	_
 5	sur	sur	ADP	_	_	9	mod	_	_
-6	place	place	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	SpaceAfter=No
+6	place	place	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
 9	savait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 10	même	même	ADV	_	_	11	mod	_	_
-11	pas	pas	ADV	_	_	9	mod	_	_
+11	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
 12	alors	alors	ADV	_	ExtPos=SCONJ	9	mod	_	Idiom=Yes
 13	qu'	que	SCONJ	_	_	12	unk	_	InIdiom=Yes|SpaceAfter=No
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	_
@@ -393,24 +393,24 @@
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	subj@expl	_	SpaceAfter=No
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
-20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
-21	haut-parleur	haut-parleur	NOUN	_	Gender=Masc|Number=Sing	19	comp:pred	_	_
+20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	Gender[ctxt]=Masc|SpaceAfter=No
+21	haut-parleur	haut-parleur	NOUN	_	_	19	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 22	qui	qui	PRON	_	PronType=Rel	25	subj	_	_
 23	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	26	comp:obl	_	_
 24	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	26	comp:obj	_	SpaceAfter=No
-25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:cleft	_	_
-26	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	comp:aux@tense	_	SpaceAfter=No
+25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:cleft	_	Filler=subj
+26	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	25	comp:aux@tense	_	Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	enfin	enfin	ADV	_	ExtPos=INTJ	30	discourse	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	qu'	que	SCONJ	_	_	13	conj:dicto	_	SpaceAfter=No
 31	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	32	subj	_	_
 32	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	comp:obj	_	_
-33	su	savoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	comp:aux@tense	_	_
+33	su	savoir	VERB	_	VerbForm=Part|Voice=Act	32	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 34	grâce	grâce	ADV	_	_	33	mod	_	_
 35	à	à	ADP	_	_	34	comp:obl	_	_
-36	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
-37	haut-parleur	haut-parleur	NOUN	_	Gender=Masc|Number=Sing	35	comp:obj	_	SpaceAfter=No
+36	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	det	_	Gender[ctxt]=Masc|SpaceAfter=No
+37	haut-parleur	haut-parleur	NOUN	_	_	35	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 38	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_18
@@ -427,19 +427,19 @@
 9	oui	oui	ADV	_	ExtPos=INTJ	15	discourse	_	_
 10	euh	euh	INTJ	_	_	15	discourse	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	signal	signal	NOUN	_	Gender=Masc|Number=Sing	15	subj	_	_
+12	signal	signal	NOUN	_	Number=Sing	15	subj	_	Gender[lex]=Masc
 13	d'	de	ADP	_	_	12	mod	_	SpaceAfter=No
-14	alarme	alarme	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
+14	alarme	alarme	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	Reported=Yes
 16	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@tense	_	_
-17	tiré	tirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@pass	_	_
+17	tiré	tirer	VERB	_	VerbForm=Part|Voice=Pass	16	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 18	à	à	ADP	_	_	17	mod	_	_
-19	cause	cause	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj@scrap	_	SpaceAfter=No
+19	cause	cause	NOUN	_	_	18	comp:obj@scrap	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	pour	pour	ADP	_	_	18	conj:dicto	_	_
-22	cause	cause	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
+22	cause	cause	NOUN	_	_	21	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 23	de	de	ADP	_	_	22	mod	_	_
-24	pickpocket	pickpocket	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	SpaceAfter=No
+24	pickpocket	pickpocket	NOUN	_	_	23	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 25	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_19
@@ -447,7 +447,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8970b764f6e6a69f0aa9b79c868c9ac5e23d1941
 1	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	SpaceAfter=No
+3	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	ah	ah	INTJ	_	_	3	comp:obj	_	Reported=Yes|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
@@ -460,16 +460,16 @@
 3	bah	bah	INTJ	_	_	13	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	en	en	ADP	_	_	13	mod	_	_
-6	gros	gros	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
+6	gros	gros	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
-9	filles	fille	NOUN	_	Gender=Fem|Number=Plur	13	dislocated	_	SpaceAfter=No
+9	filles	fille	NOUN	_	_	13	dislocated:subj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 10	-là	là	ADV	_	_	9	mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	subj	_	SpaceAfter=No
 13	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 14	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
-15	voleuses	voleur	NOUN	_	Gender=Fem|Number=Plur	13	comp:pred	_	_
+15	voleuses	voleur	NOUN	_	_	13	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Plur
 16	quoi	quoi	INTJ	_	_	13	discourse	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -506,13 +506,13 @@
 15	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	faites	faire	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	comp:obj	_	Reported=Yes
-18	attention	attention	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj@lvc	_	SpaceAfter=No
+18	attention	attention	NOUN	_	_	17	comp:obj@lvc	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
 20	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	à	à	ADP	_	_	18	mod	_	_
-23	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|PronType=Prs	24	det	_	_
-24	affaires	affaire	NOUN	_	Gender=Fem|Number=Plur	22	comp:obj	_	SpaceAfter=No
+23	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	24	det	_	_
+24	affaires	affaire	NOUN	_	_	22	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 25	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_23
@@ -522,7 +522,7 @@
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	message	message	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
+5	message	message	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_24
@@ -536,7 +536,7 @@
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	10	discourse	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	coup	coup	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	SpaceAfter=No
+8	coup	coup	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	_
 10	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
 11	…	…	PUNCT	_	_	10	punct	_	_

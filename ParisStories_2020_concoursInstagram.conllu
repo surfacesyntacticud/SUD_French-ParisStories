@@ -5,19 +5,19 @@
 1	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 2	t'	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	3	comp:obl	_	SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	envoyé	envoyer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
+4	envoyé	envoyer	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	lien	lien	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
+6	lien	lien	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	de	de	ADP	_	_	6	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	d'	de	ADP	_	_	7	conj:dicto	_	SpaceAfter=No
-10	Insta	Insta	PROPN	_	_	9	comp:obj	_	SpaceAfter=No
+10	Insta	Insta	PROPN	_	_	9	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
 12	où	où	ADV	_	PronType=Rel	15	mod	_	_
 13	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	15	subj	_	_
 14	t'	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	16	comp:obl	_	SpaceAfter=No
 15	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
-16	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@tense	_	SpaceAfter=No
+16	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	15	comp:aux@tense	_	Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 17	,	,	PUNCT	_	_	22	punct	_	_
 18	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
@@ -25,17 +25,17 @@
 21	y	y	PRON	_	Person=3|PronType=Prs	22	comp@expl	_	_
 22	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	Reported=Yes
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	concours	concours	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
+24	concours	concours	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Masc
 25	d'	de	ADP	_	_	24	mod	_	SpaceAfter=No
-26	Amir	Amir	PROPN	_	_	25	comp:obj	_	_
+26	Amir	Amir	PROPN	_	_	25	comp:obj	_	Gender[lex]=Unknown
 27	sur	sur	ADP	_	_	24	mod	_	_
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	chanson	chanson	NOUN	_	Gender=Fem|Number=Sing	27	comp:obj	_	_
+29	chanson	chanson	NOUN	_	_	27	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 30	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	InTitle=Yes
-31	rues	rue	NOUN	_	Gender=Fem|Number=Plur	29	mod	_	Title=Yes
+31	rues	rue	NOUN	_	_	29	mod	_	Gender[lex]=Fem|Number[ctxt]=Plur|Title=Yes
 32	de	de	ADP	_	_	31	mod	_	InTitle=Yes
 33	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	34	det	_	InTitle=Yes
-34	peine	peine	NOUN	_	Gender=Fem|Number=Sing	32	comp:obj	_	InTitle=Yes|SpaceAfter=No
+34	peine	peine	NOUN	_	_	32	comp:obj	_	Gender[lex]=Fem|InTitle=Yes|Number[ctxt]=Sing|SpaceAfter=No
 35	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_2
@@ -70,7 +70,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	dansé	danser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	SpaceAfter=No
+3	dansé	danser	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	en	en	ADP	_	_	3	mod	_	_
 6	plus	plus	ADV	_	_	5	comp:obj	_	_
@@ -85,42 +85,42 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	8	discourse	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	coup	coup	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
+6	coup	coup	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	de	de	ADP	_	_	0	root	_	_
 9	faire	faire	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=NoRaising
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	11	det	_	_
-11	vidéo	vidéo	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	SpaceAfter=No
+11	vidéo	vidéo	NOUN	_	_	9	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	18	punct	_	_
 13	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	bah	bah	INTJ	_	_	18	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	vidéo	vidéo	NOUN	_	Gender=Fem|Number=Sing	11	conj:dicto	_	_
+18	vidéo	vidéo	NOUN	_	_	11	conj:dicto	_	Gender[lex]=Fem|Number[ctxt]=Sing
 19	sur	sur	ADP	_	_	18	mod	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
-21	réseaux	réseau	NOUN	_	Gender=Masc|Number=Plur	19	comp:obj	_	SpaceAfter=No
+21	réseaux	réseau	NOUN	_	_	19	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 22	,	,	PUNCT	_	_	28	punct	_	_
 23	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
 25	où	où	ADV	_	PronType=Rel	28	mod	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	personne	personne	NOUN	_	Gender=Fem|Number=Sing	28	subj	_	_
+27	personne	personne	NOUN	_	_	28	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 28	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	mod@relcl	_	_
 29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	karaoké	karaoké	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	SpaceAfter=No
+30	karaoké	karaoké	NOUN	_	_	28	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
 32	parce	parce	ADV	_	ExtPos=SCONJ	28	mod	_	Idiom=Yes
 33	que	que	SCONJ	_	_	32	unk	_	InIdiom=Yes
 34	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	35	det	_	_
-35	clip	clip	NOUN	_	Gender=Masc|Number=Sing	37	dislocated	_	_
+35	clip	clip	NOUN	_	_	37	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 36	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	37	subj	_	SpaceAfter=No
 37	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	comp:obj	_	_
 38	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	truc	truc	NOUN	_	Gender=Masc|Number=Sing	37	comp:pred	_	_
+39	truc	truc	NOUN	_	_	37	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 40	de	de	ADP	_	_	39	mod	_	_
-41	karaoké	karaoké	NOUN	_	Gender=Masc|Number=Sing	40	comp:obj	_	SpaceAfter=No
+41	karaoké	karaoké	NOUN	_	_	40	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 42	,	,	PUNCT	_	_	44	punct	_	_
 43	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	44	subj	_	_
 44	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	37	discourse	_	SpaceAfter=No
@@ -142,13 +142,13 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	de	de	ADP	_	_	2	comp:obl	_	_
-4	karaoké	karaoké	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
+4	karaoké	karaoké	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	SpaceAfter=No
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj:coord	_	_
-8	pas	pas	ADV	_	_	7	mod	_	_
+8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	truc	truc	NOUN	_	Gender=Masc|Number=Sing	7	comp:pred	_	SpaceAfter=No
+10	truc	truc	NOUN	_	_	7	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_9
@@ -161,7 +161,7 @@
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	SpaceAfter=No
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	karaoké	karaoké	NOUN	_	Gender=Masc|Number=Sing	6	comp:pred	_	SpaceAfter=No
+8	karaoké	karaoké	NOUN	_	_	6	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_10
@@ -174,7 +174,7 @@
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	10	discourse	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	coup	coup	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
+7	coup	coup	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
 10	disait	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -184,7 +184,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	à	à	ADP	_	_	11	conj:dicto	_	_
 15	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	16	det	_	_
-16	fans	fan	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	_
+16	fans	fan	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 17	de	de	ADP	_	_	16	mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	23	punct	_	_
 19	euh	euh	INTJ	_	_	23	discourse	_	SpaceAfter=No
@@ -196,30 +196,30 @@
 25-26	du	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	29	discourse	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	coup	coup	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	SpaceAfter=No
+27	coup	coup	NOUN	_	_	25	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	d'	de	ADP	_	_	23	conj:dicto	_	SpaceAfter=No
 30	enregistrer	enregistrer	VERB	_	VerbForm=Inf	29	comp:obj	_	Subject=ObjRaising
 31	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	vidéo	vidéo	NOUN	_	Gender=Fem|Number=Sing	30	comp:obj	_	_
+32	vidéo	vidéo	NOUN	_	_	30	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 33	en	en	ADP	_	_	32	mod	_	_
-34	train	train	NOUN	_	Gender=Masc|Number=Sing	33	comp:obj	_	_
+34	train	train	NOUN	_	_	33	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 35	de	de	ADP	_	_	34	mod	_	_
 36	danser	danser	VERB	_	VerbForm=Inf	35	comp:obj	_	Subject=ObjRaising
 37	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	InIdiom=Yes
-38	peu	peu	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	39	mod	_	Idiom=Yes
-39	active	actif	ADJ	_	Gender=Fem|Number=Sing	32	mod	_	_
+38	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	39	mod	_	Gender[lex]=Masc|Idiom=Yes
+39	active	actif	ADJ	_	Gender=Fem	32	mod	_	Number[ctxt]=Sing
 40	et	et	CCONJ	_	_	48	cc	_	SpaceAfter=No
 41	,	,	PUNCT	_	_	40	punct	_	_
 42-43	du	_	_	_	_	_	_	_	_
 42	de	de	ADP	_	_	48	discourse	_	_
 43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
-44	coup	coup	NOUN	_	Gender=Masc|Number=Sing	42	comp:obj	_	SpaceAfter=No
+44	coup	coup	NOUN	_	_	42	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 45	,	,	PUNCT	_	_	42	punct	_	_
 46	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	48	subj	_	_
 47	t'	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	49	comp:obl	_	SpaceAfter=No
 48	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj:coord	_	_
-49	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	comp:aux@tense	_	_
+49	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	48	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
 50	allez	aller	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	51	discourse	_	_
 51	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	comp:obj	_	Reported=Yes
 52	le	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	53	comp:obj	_	_
@@ -241,12 +241,12 @@
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	tu	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	4	subj	_	_
 4	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	1	comp:obj	_	_
-5	pas	pas	ADV	_	_	4	mod	_	_
+5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 6	le	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	_
 7	mettre	mettre	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising
 8	sur	sur	ADP	_	_	7	mod	_	_
 9	ton	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	10	det	_	_
-10	Insta	Insta	PROPN	_	_	8	comp:obj	_	SpaceAfter=No
+10	Insta	Insta	PROPN	_	_	8	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_12
@@ -260,7 +260,7 @@
 6	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
 7	que	que	SCONJ	_	_	6	unk	_	InIdiom=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
-9	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	12	dislocated	_	SpaceAfter=No
+9	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	12	dislocated:subj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	12	subj	_	_
 12	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
@@ -268,7 +268,7 @@
 14	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	12	comp:obj	_	_
 15	sur	sur	ADP	_	_	12	comp:obl	_	_
 16	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	_
-17	Insta	Insta	PROPN	_	_	15	comp:obj	_	SpaceAfter=No
+17	Insta	Insta	PROPN	_	_	15	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 18	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_13
@@ -276,7 +276,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	pas	pas	ADV	_	_	2	mod	_	_
+3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
 4	pourquoi	pourquoi	ADV	_	_	7	mod	_	_
 5	maintenant	maintenant	ADV	_	_	7	mod	_	_
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	_
@@ -289,17 +289,17 @@
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	6	discourse	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
+3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	SpaceAfter=No
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	accepté	accepter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
+7	accepté	accepter	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 8	de	de	ADP	_	_	7	comp:obl	_	_
 9	le	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	_
 10	mettre	mettre	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
 11	sur	sur	ADP	_	_	10	mod	_	_
 12	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	_
-13	Insta	Insta	PROPN	_	_	11	comp:obj	_	SpaceAfter=No
+13	Insta	Insta	PROPN	_	_	11	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_15
@@ -314,11 +314,11 @@
 7	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 8	de	de	ADP	_	ExtPos=DET	10	det	_	Idiom=Yes
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	unk	_	InIdiom=Yes
-10	chance	chance	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
+10	chance	chance	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 11-12	aux	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	7	mod	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	concours	concours	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	SpaceAfter=No
+13	concours	concours	NOUN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_16
@@ -327,7 +327,7 @@
 1	tu	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	3	subj	_	_
 2	m'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	4	comp:obl	_	SpaceAfter=No
 3	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
+4	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
 5	de	de	ADP	_	_	4	comp:obl	_	_
 6	participer	participer	VERB	_	VerbForm=Inf	5	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 7	.	.	PUNCT	_	_	3	punct	_	_
@@ -338,12 +338,12 @@
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	7	discourse	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
+3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	_
 6	t'	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	8	comp:obj	_	SpaceAfter=No
 7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	filmée	filmer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	SpaceAfter=No
+8	filmée	filmer	VERB	_	VerbForm=Part|Voice=Act	7	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_18
@@ -351,15 +351,15 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	filmé	filmer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
+3	filmé	filmer	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	vidéo	vidéo	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
+5	vidéo	vidéo	NOUN	_	_	3	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	9	mod	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	moins	moins	ADV	_	_	6	comp:obj	_	_
-9	quinze	quinze	NUM	_	Number=Plur	10	det	_	_
-10	fois	fois	NOUN	_	Gender=Fem|Number=Plur	3	mod	_	SpaceAfter=No
+9	quinze	quinze	NUM	_	ExtPos=DET	10	det	_	Number[lex]=Plur
+10	fois	fois	NOUN	_	Number=Plur	3	mod	_	Gender[lex]=Fem|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_19
@@ -369,11 +369,11 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	conj:dicto	_	_
-5	télé	télé	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
+5	télé	télé	NOUN	_	_	1	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	5	mod	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	salon	salon	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	SpaceAfter=No
+8	salon	salon	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_20
@@ -384,18 +384,18 @@
 3-4	au	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	19	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	final	final	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
+5	final	final	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	en	en	ADP	_	ExtPos=ADV	19	discourse	_	Idiom=Yes
-8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+8	fait	fait	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	11	det	_	_
-11	gagnant	gagnant	NOUN	_	Gender=Masc|Number=Sing	19	dislocated	_	SpaceAfter=No
+11	gagnant	gagnant	NOUN	_	_	19	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	_
 13	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	gagnant	gagnant	NOUN	_	Gender=Masc|Number=Sing	11	conj:dicto	_	SpaceAfter=No
+16	gagnant	gagnant	NOUN	_	_	11	conj:dicto	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	11	punct	_	_
 18	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	subj	_	SpaceAfter=No
 19	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -407,24 +407,24 @@
 # text = le gagnant ? comment ça, le gagnant ?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	2	det	_	_
-2	gagnant	gagnant	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	gagnant	gagnant	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 3	?	?	PUNCT	_	_	2	punct	_	_
 4	comment	comment	ADV	_	_	8	discourse	_	_
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	gagnant	gagnant	NOUN	_	Gender=Masc|Number=Sing	2	conj:coord	_	_
+8	gagnant	gagnant	NOUN	_	_	2	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Sing
 9	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_22
 # text = le gagnant du concours, il avait quoi ?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	gagnant	gagnant	NOUN	_	Gender=Masc|Number=Sing	8	dislocated	_	_
+2	gagnant	gagnant	NOUN	_	_	8	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	concours	concours	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
+5	concours	concours	NOUN	_	Number=Sing	3	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
 8	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -437,9 +437,9 @@
 1	bah	bah	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	place	place	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	place	place	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing
 5	de	de	ADP	_	_	4	mod	_	_
-6	concert	concert	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
+6	concert	concert	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_24
@@ -458,7 +458,7 @@
 11	aussi	aussi	ADV	_	_	10	mod	_	_
 12	dans	dans	ADP	_	_	10	comp:obl	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	clip	clip	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
+14	clip	clip	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_25
@@ -485,28 +485,28 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	mais	mais	CCONJ	_	_	5	cc	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	clip	clip	NOUN	_	Gender=Masc|Number=Sing	5	dislocated	_	_
+3	clip	clip	NOUN	_	_	5	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	SpaceAfter=No
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-6	pas	pas	ADV	_	_	5	mod	_	_
+6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	surprise	surprise	NOUN	_	Gender=Fem|Number=Sing	5	comp:pred	_	SpaceAfter=No
+8	surprise	surprise	NOUN	_	_	5	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	parce	parce	ADV	_	ExtPos=SCONJ	5	mod	_	Idiom=Yes
 11	que	que	SCONJ	_	_	10	unk	_	InIdiom=Yes
-12	tout	tout	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
+12	tout	tout	ADJ	_	Gender=Masc	14	mod	_	Number[ctxt]=Sing
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	14	det	_	_
-14	monde	monde	NOUN	_	Gender=Masc|Number=Sing	21	subj	_	SpaceAfter=No
+14	monde	monde	NOUN	_	_	21	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	20	punct	_	_
 16	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
-18	tous	tout	ADJ	_	Gender=Masc|Number=Plur	20	mod	_	_
+18	tous	tout	ADJ	_	Gender=Masc	20	mod	_	Number[ctxt]=Plur
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
-20	participants	participant	NOUN	_	Gender=Masc|Number=Plur	14	conj:dicto	_	_
+20	participants	participant	NOUN	_	_	14	conj:dicto	_	Gender[lex]=Masc|Number[ctxt]=Plur
 21	passaient	passer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	comp:obj	_	_
 22	dans	dans	ADP	_	_	21	comp:obl	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	clip	clip	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	SpaceAfter=No
+24	clip	clip	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 25	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_28
@@ -515,15 +515,15 @@
 1	non	non	ADV	_	ExtPos=INTJ	7	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	mais	mais	CCONJ	_	_	7	cc	_	_
-4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	dislocated	_	SpaceAfter=No
+4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	dislocated:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	_
 7	savait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-8	pas	pas	ADV	_	_	7	mod	_	_
+8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	7	comp:obl	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	début	début	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	SpaceAfter=No
+11	début	début	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_29
@@ -546,19 +546,19 @@
 5	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	juste	juste	ADV	_	_	8	mod	_	_
-8	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	SpaceAfter=No
+8	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
-12	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs|Shared=No	13	subj	_	_
+12	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs|Shared=No	13	subj	_	Polite=Unknown
 13	passerez	passerer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	8	comp:obj	_	Reported=Yes
 14	dans	dans	ADP	_	_	13	comp:obl	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	clip	clip	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
+16	clip	clip	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 17	et	et	CCONJ	_	_	20	cc	_	_
 18	plus	plus	ADV	_	_	20	mod	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	surprise	surprise	NOUN	_	Gender=Fem|Number=Sing	13	conj:coord	_	SpaceAfter=No
+20	surprise	surprise	NOUN	_	_	13	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 21	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_31
@@ -569,7 +569,7 @@
 3	et	et	CCONJ	_	_	6	cc	_	_
 4	plus	plus	ADV	_	_	6	mod	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	surprise	surprise	NOUN	_	Gender=Fem|Number=Sing	1	conj:coord	_	SpaceAfter=No
+6	surprise	surprise	NOUN	_	_	1	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_32
@@ -585,27 +585,27 @@
 8	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj@expl	_	_
 9	y	y	PRON	_	Person=3|PronType=Prs	10	comp@expl	_	_
 10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-11	trois	trois	NUM	_	Number=Plur	12	det	_	_
-12	gagnants	gagnant	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	SpaceAfter=No
+11	trois	trois	NUM	_	ExtPos=DET	12	det	_	Number[lex]=Plur
+12	gagnants	gagnant	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 13	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_33
 # text = donc moi je pensais que c'était trois personnes qui passaient dans le clip.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	donc	donc	ADV	_	_	4	mod	_	_
-2	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	4	dislocated	_	_
+2	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	4	dislocated:subj	_	_
 3	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	pensais	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	que	que	SCONJ	_	_	4	comp:obj	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	SpaceAfter=No
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	comp:obj	_	_
-8	trois	trois	NUM	_	Number=Plur	9	det	_	_
-9	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	7	comp:pred	_	_
+8	trois	trois	NUM	_	ExtPos=DET	9	det	_	Number[lex]=Plur
+9	personnes	personne	NOUN	_	_	7	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Plur
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
 11	passaient	passer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	mod@relcl	_	_
 12	dans	dans	ADP	_	_	11	comp:obl	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	clip	clip	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
+14	clip	clip	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_34
@@ -613,11 +613,11 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	pas	pas	ADV	_	_	2	mod	_	_
+3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
 4	très	très	ADV	_	_	5	mod	_	_
 5	clair	clair	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
 6	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	_
-7	truc	truc	NOUN	_	Gender=Masc|Number=Sing	2	dislocated	_	SpaceAfter=No
+7	truc	truc	NOUN	_	_	2	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_35
@@ -638,21 +638,21 @@
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	13	discourse	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	coup	coup	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
+7	coup	coup	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	13	subj	_	_
 12	t'	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	14	comp:obl	_	SpaceAfter=No
 13	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	SpaceAfter=No
+14	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	13	comp:aux@tense	_	Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	ben	ben	INTJ	_	_	19	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	subj	_	_
 19	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	Reported=Yes
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	chance	chance	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	SpaceAfter=No
+21	chance	chance	NOUN	_	_	19	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	bla-bla-bla	bla-bla-bla	INTJ	_	_	19	discourse	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	13	punct	_	_
@@ -667,12 +667,12 @@
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	12	discourse	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	coup	coup	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
+7	coup	coup	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	quelques	quelque	DET	_	Gender=Masc|Number=Plur|Shared=No	12	det	_	_
-12	jours	jour	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+12	jours	jour	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	15	subj	_	_
 15	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	conj:dicto	_	_
@@ -680,7 +680,7 @@
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	SpaceAfter=No
 18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	comp:obj	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	18	comp:pred	_	_
+20	semaine	semaine	NOUN	_	_	18	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
 21	après	après	ADV	_	_	20	mod	_	_
 22	?	?	PUNCT	_	_	12	punct	_	_
 
@@ -712,7 +712,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	semaine	semaine	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing
 4	après	après	ADV	_	_	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	hein	hein	INTJ	_	_	3	discourse	_	SpaceAfter=No
@@ -726,14 +726,14 @@
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	mais	mais	CCONJ	_	_	6	cc	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	clip	clip	NOUN	_	Gender=Masc|Number=Sing	2	conj:coord	_	_
+6	clip	clip	NOUN	_	_	2	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_43
 # text = le clip ?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	clip	clip	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	clip	clip	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 3	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_44
@@ -743,9 +743,9 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
-6	trois	trois	NUM	_	Number=Plur	7	det	_	_
-7	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	SpaceAfter=No
+5	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
+6	trois	trois	NUM	_	ExtPos=DET	7	det	_	Number[lex]=Plur
+7	semaines	semaine	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_45
@@ -753,8 +753,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	oui	oui	ADV	_	ExtPos=INTJ	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	trois	trois	NUM	_	Number=Plur	4	mod	_	_
-4	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	trois	trois	NUM	_	ExtPos=DET	4	mod	_	Number[lex]=Plur
+4	semaines	semaine	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_46
@@ -764,8 +764,8 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	oui	oui	ADV	_	ExtPos=INTJ	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	trois	trois	NUM	_	Number=Plur	6	det	_	_
-6	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+5	trois	trois	NUM	_	ExtPos=DET	6	det	_	Number[lex]=Plur
+6	semaines	semaine	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_47
@@ -773,8 +773,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	bah	bah	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	trois	trois	NUM	_	Number=Plur|Shared=No	4	det	_	_
-4	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+3	trois	trois	NUM	_	ExtPos=DET|Shared=No	4	det	_	Number[lex]=Plur
+4	semaines	semaine	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Plur
 5	après	après	ADV	_	_	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
@@ -795,13 +795,13 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
+7	vu	voir	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 8	que	que	SCONJ	_	_	7	comp:obj	_	_
 9	tu	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	10	subj	_	_
-10	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	8	comp:obj	_	_
+10	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	8	comp:obj	_	_
 11	dans	dans	ADP	_	_	10	comp:pred	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	clip	clip	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	SpaceAfter=No
+13	clip	clip	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_49
@@ -810,7 +810,7 @@
 1	sauf	sauf	ADP	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	clip	clip	NOUN	_	Gender=Masc|Number=Sing	14	dislocated	_	SpaceAfter=No
+4	clip	clip	NOUN	_	_	14	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
@@ -821,7 +821,7 @@
 12	mais	mais	CCONJ	_	_	14	cc	_	_
 13	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
 14	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	comp:obj	_	_
-15	pas	pas	ADV	_	_	14	mod	_	_
+15	pas	pas	ADV	_	Polarity=Neg	14	mod	_	_
 16	très	très	ADV	_	_	17	mod	_	_
 17	professionnel	professionnel	ADJ	_	Gender=Masc|Number=Sing	14	comp:pred	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
@@ -835,7 +835,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-5	pas	pas	ADV	_	_	4	mod	_	_
+5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 6	professionnel	professionnel	ADJ	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
 7	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -861,13 +861,13 @@
 # text = les images, elles étaient nettes, propres, euh.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	images	image	NOUN	_	Gender=Fem|Number=Plur	5	dislocated	_	SpaceAfter=No
+2	images	image	NOUN	_	_	5	dislocated:subj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	elles	eux	PRON	_	Emph=No|Number=Plur|Person=3|PronType=Prs	5	subj	_	_
 5	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-6	nettes	net	ADJ	_	Gender=Fem|Number=Plur	5	comp:pred	_	SpaceAfter=No
+6	nettes	net	ADJ	_	Gender=Fem	5	comp:pred	_	Number[ctxt]=Plur|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	propres	propre	ADJ	_	Gender=Fem|Number=Plur	6	conj:coord	_	SpaceAfter=No
+8	propres	propre	ADJ	_	_	6	conj:coord	_	Gender[ctxt]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	_
@@ -881,10 +881,10 @@
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	SpaceAfter=No
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
-7	filmé	filmer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
+7	filmé	filmer	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 8	avec	avec	ADP	_	_	7	mod	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	Iphone	Iphone	PROPN	_	_	8	comp:obj	_	_
+10	Iphone	Iphone	PROPN	_	_	8	comp:obj	_	Gender[lex]=Unknown
 11	mais	mais	CCONJ	_	_	12	cc	_	_
 12	parce	parce	ADV	_	ExtPos=SCONJ	7	mod	_	Idiom=Yes
 13	que	que	SCONJ	_	_	12	unk	_	InIdiom=Yes|SpaceAfter=No
