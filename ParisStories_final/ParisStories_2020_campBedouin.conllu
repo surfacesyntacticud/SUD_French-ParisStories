@@ -1,0 +1,475 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = ParisStories_2020_campBedouin_1
+# text = c'était le vingt-six décembre je crois, euh, c'était le père euh de mon copain qui m'avait nous avait emmenés à l'aéroport.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	vingt-six	vingt-six	NUM	_	ExtPos=PROPN	2	comp:pred	_	Number[lex]=Sing
+5	décembre	décembre	NOUN	_	_	4	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+6	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	_
+7	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	SpaceAfter=No
+12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj:coord	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	père	père	NOUN	_	_	12	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
+15	euh	euh	INTJ	_	_	14	discourse	_	_
+16	de	de	ADP	_	_	14	mod	_	_
+17	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	18	det	_	_
+18	copain	copain	NOUN	_	_	16	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+19	qui	qui	PRON	_	PronType=Rel|Shared=No	21	subj	_	_
+20	m'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	21	comp:obj	_	SpaceAfter=No
+21	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	mod@relcl	_	_
+22	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	24	comp:obj	_	_
+23	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	conj:dicto	_	_
+24	emmenés	emmener	VERB	_	VerbForm=Part|Voice=Act	23	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|Tense[denom]=Past
+25	à	à	ADP	_	_	21	mod	_	_
+26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	Gender[ctxt]=Masc|SpaceAfter=No
+27	aéroport	aéroport	NOUN	_	_	25	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_2
+# text = euh à Roissy Charles de Gaulle, et euh on avait attendu une ou deux heures.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	euh	euh	INTJ	_	_	11	discourse	_	_
+2	à	à	ADP	_	_	11	mod	_	_
+3	Roissy	Roissy	PROPN	_	_	2	comp:obj	_	Gender[lex]=Unknown
+4	Charles	Charles	PROPN	_	_	3	flat@name	_	Gender[lex]=Unknown
+5	de	de	ADP	_	_	4	flat@name	_	_
+6	Gaulle	Gaulle	PROPN	_	_	5	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	et	et	CCONJ	_	_	11	cc	_	_
+9	euh	euh	INTJ	_	_	8	discourse	_	_
+10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj	_	_
+11	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	attendu	attendre	VERB	_	VerbForm=Part|Voice=Act	11	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+13	une	un	NUM	_	ExtPos=DET	16	det	_	Number[lex]=Plur
+14	ou	ou	CCONJ	_	_	15	cc	_	_
+15	deux	deux	NUM	_	ExtPos=DET	13	conj:coord	_	Number[lex]=Plur
+16	heures	heure	NOUN	_	_	12	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+17	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_3
+# text = l'avion c'était long.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Gender[ctxt]=Masc|SpaceAfter=No
+2	avion	avion	NOUN	_	_	4	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	SpaceAfter=No
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	long	long	ADJ	_	Gender=Masc|Number=Sing	4	comp:pred	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_4
+# text = il y avait euh il y avait un petit peu de retard.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	euh	euh	INTJ	_	_	3	discourse	_	_
+5	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	comp@expl	_	_
+7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj:dicto	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	InIdiom=Yes
+9	petit	petit	ADJ	_	Gender=Masc	10	mod	_	InIdiom=Yes|Number[ctxt]=Sing
+10	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	7	comp:obj	_	Gender[lex]=Masc|Idiom=Yes
+11	de	de	ADP	_	_	10	udep	_	_
+12	retard	retard	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_5
+# text = mais bon on a quand même réussi à partir, à décoller, euh on a mis six heures trente-cinq de vol il y avait six heures trente-cinq de vol.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	mais	mais	CCONJ	_	_	4	cc	_	_
+2	bon	bon	INTJ	_	_	4	discourse	_	_
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	quand	quand	SCONJ	_	ExtPos=ADV	4	mod	_	Idiom=Yes
+6	même	même	ADV	_	_	5	unk	_	InIdiom=Yes
+7	réussi	réussir	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+8	à	à	ADP	_	_	7	comp:obl	_	_
+9	partir	partir	VERB	_	VerbForm=Inf	8	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	à	à	ADP	_	_	8	conj:coord	_	_
+12	décoller	décoller	VERB	_	VerbForm=Inf	11	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	euh	euh	INTJ	_	_	16	discourse	_	_
+15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	subj	_	_
+16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
+17	mis	mettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	16	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
+18	six	six	NUM	_	ExtPos=DET	19	det	_	Number[lex]=Plur
+19	heures	heure	NOUN	_	_	17	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
+20	trente-cinq	trente-cinq	NUM	_	ExtPos=PROPN	19	mod	_	Number[lex]=Sing
+21	de	de	ADP	_	_	19	mod	_	_
+22	vol	vol	NOUN	_	_	21	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+23	il	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	25	subj@expl	_	_
+24	y	y	PRON	_	Person=3|PronType=Prs	25	comp@expl	_	_
+25	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj:dicto	_	_
+26	six	six	NUM	_	ExtPos=DET	27	det	_	Number[lex]=Plur
+27	heures	heure	NOUN	_	_	25	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
+28	trente-cinq	trente-cinq	NUM	_	ExtPos=PROPN	27	mod	_	Number[lex]=Sing
+29	de	de	ADP	_	_	27	mod	_	_
+30	vol	vol	NOUN	_	_	29	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_6
+# text = euh on est arrivé de nuit et tout.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	euh	euh	INTJ	_	_	3	discourse	_	_
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	arrivé	arriver	VERB	_	VerbForm=Part	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+5	de	de	ADP	_	_	4	mod	_	_
+6	nuit	nuit	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+7	et	et	CCONJ	_	_	8	cc	_	InIdiom=Yes
+8	tout	tout	ADV	_	ExtPos=ADV	5	conj:coord	_	Idiom=Yes|SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_7
+# text = il y avait un mec il nous attendait euh il nous attendait avec une pancarte, euh où il y avait écrit mon prénom Julie YYY, c'était assez marrant je trouvais.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mec	mec	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+6	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
+7	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	8	comp:obj	_	_
+8	attendait	attendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	mod	_	_
+9	euh	euh	INTJ	_	_	8	discourse	_	_
+10	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
+11	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	12	comp:obj	_	_
+12	attendait	attendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj:dicto	_	_
+13	avec	avec	ADP	_	_	12	mod	_	_
+14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pancarte	pancarte	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	euh	euh	INTJ	_	_	18	discourse	_	_
+18	où	où	ADV	_	PronType=Rel	15	mod	_	_
+19	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	subj	_	_
+20	y	y	PRON	_	Person=3|PronType=Prs	22	comp:obl	_	_
+21	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	comp:obj	_	_
+22	écrit	écrire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	21	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
+23	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	24	det	_	_
+24	prénom	prénom	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+25	Julie	Julie	PROPN	_	_	24	mod@appos	_	Gender[lex]=Unknown
+26	YYY	YYY	PROPN	_	_	25	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	29	subj	_	SpaceAfter=No
+29	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	comp:obj	_	_
+30	assez	assez	ADV	_	_	31	mod	_	_
+31	marrant	marrant	ADJ	_	Gender=Masc	29	comp:pred	_	Number[ctxt]=Sing
+32	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	33	subj	_	_
+33	trouvais	trouver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	29	discourse	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_8
+# text = et puis après il nous a emmenés dans notre hôtel, à Dubaï franchement c'était super beau tout ça euh.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	et	et	CCONJ	_	ExtPos=CCONJ	6	cc	_	Idiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
+3	après	après	ADV	_	_	6	mod	_	_
+4	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
+5	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	7	comp:obj	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	emmenés	emmener	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|Tense[denom]=Past
+8	dans	dans	ADP	_	_	7	mod	_	_
+9	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	10	det	_	_
+10	hôtel	hôtel	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	à	à	ADP	_	_	10	mod	_	_
+13	Dubaï	Dubaï	PROPN	_	_	12	comp:obj	_	Gender[lex]=Unknown
+14	franchement	franchement	ADV	_	_	16	mod	_	_
+15	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	subj	_	SpaceAfter=No
+16	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj:coord	_	_
+17	super	super	ADV	_	_	18	mod	_	_
+18	beau	beau	ADJ	_	Gender=Masc|Number=Sing	16	comp:pred	_	_
+19	tout	tout	ADJ	_	Gender=Masc|PronType=Ind	20	mod	_	Number[ctxt]=Sing
+20	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	dislocated:subj	_	_
+21	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_9
+# text = alors euh je vais te raconter un peu vite fait en détails quand même parce que euh.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	alors	alors	ADV	_	_	4	mod	_	_
+2	euh	euh	INTJ	_	_	4	discourse	_	_
+3	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+4	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	te	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	6	comp:obl	_	_
+6	raconter	raconter	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	InIdiom=Yes
+8	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	9	mod	_	Gender[lex]=Masc|Idiom=Yes
+9	vite	vite	ADV	_	_	10	mod	_	_
+10	fait	faire	VERB	_	Gender=Masc|VerbForm=Part	6	mod	_	Number[ctxt]=Sing|Tense[denom]=Past
+11	en	en	ADP	_	_	6	mod	_	_
+12	détails	détail	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+13	quand	quand	SCONJ	_	ExtPos=ADV	6	mod	_	Idiom=Yes
+14	même	même	ADV	_	_	13	unk	_	InIdiom=Yes
+15	parce	parce	ADV	_	ExtPos=SCONJ	6	mod	_	Idiom=Yes
+16	que	que	SCONJ	_	_	15	unk	_	InIdiom=Yes
+17	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_10
+# text = ouais voilà.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	ouais	ouais	INTJ	_	_	2	discourse	_	_
+2	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_11
+# text = alors le premier jour je me souviens on a été au Dubaï Creek, euh c'était un petit marché tout ça euh.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	alors	alors	ADV	_	_	7	discourse	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	premier	premier	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
+4	jour	jour	NOUN	_	_	7	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+5	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	_
+6	me	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	7	comp@expl	_	InIdiom=Yes
+7	souviens	souvenir	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Idiom=Yes
+8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
+10	été	être	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	9	comp:aux@tense	_	Tense[denom]=Past
+11-12	au	_	_	_	_	_	_	_	_
+11	à	à	ADP	_	_	10	comp:obl	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Dubaï	Dubaï	PROPN	_	_	11	comp:obj	_	Gender[lex]=Unknown
+14	Creek	Creek	PROPN	_	_	13	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	euh	euh	INTJ	_	_	18	discourse	_	_
+17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	SpaceAfter=No
+18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj:dicto	_	_
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	21	det	_	_
+20	petit	petit	ADJ	_	Gender=Masc	21	mod	_	Number[ctxt]=Sing
+21	marché	marché	NOUN	_	_	18	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
+22	tout	tout	ADJ	_	Gender=Masc	23	mod	_	Number[ctxt]=Sing
+23	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	conj:coord	_	_
+24	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_12
+# text = après on est passé devant la grande mosquée Jumeirah, c'est euh super connu super beau.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	après	après	ADV	_	_	3	mod	_	_
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	passé	passer	VERB	_	VerbForm=Part	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+5	devant	devant	ADP	_	_	4	comp:obl	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	grande	grand	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
+8	mosquée	mosquée	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+9	Jumeirah	Jumeirah	PROPN	_	_	8	mod@appos	_	Gender[lex]=Unknown|SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	SpaceAfter=No
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
+13	euh	euh	INTJ	_	_	15	discourse	_	_
+14	super	super	ADV	_	_	15	mod	_	_
+15	connu	connu	ADJ	_	_	12	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
+16	super	super	ADV	_	_	17	mod	_	_
+17	beau	beau	ADJ	_	Gender=Masc|Number=Sing	15	conj:coord	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_13
+# text = après on était dans un zouk, bah il y avait plein euh, plein d'affaires si on voulait les acheter tout ça euh, des souvenirs même je vous ai ramené du café !
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	après	après	ADP	_	_	3	mod	_	_
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	3	subj	_	_
+3	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	dans	dans	ADP	_	_	3	comp:obl	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	zouk	zouk	NOUN	_	Number=Sing	4	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	bah	bah	INTJ	_	_	11	discourse	_	_
+9	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj@expl	_	_
+10	y	y	PRON	_	Person=3|PronType=Prs	11	comp@expl	_	_
+11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj:coord	_	_
+12	plein	plein	ADV	_	_	11	comp:obj	_	_
+13	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	plein	plein	ADV	_	_	12	conj:dicto	_	_
+16	d'	de	ADP	_	_	15	comp:obl	_	SpaceAfter=No
+17	affaires	affaire	NOUN	_	_	16	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
+18	si	si	SCONJ	_	_	11	mod	_	_
+19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	subj	_	_
+20	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	comp:obj	_	_
+21	les	eux	PRON	_	Emph=No|Number=Plur|Person=3|PronType=Prs	22	comp:obj	_	_
+22	acheter	acheter	VERB	_	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
+23	tout	tout	ADJ	_	Gender=Masc	24	mod	_	Number[ctxt]=Sing
+24	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	conj:coord	_	_
+25	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	28	det	_	_
+28	souvenirs	souvenir	NOUN	_	_	22	mod	_	Gender[lex]=Masc|Number[ctxt]=Plur
+29	même	même	ADV	_	_	28	mod	_	_
+30	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	32	subj	_	_
+31	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	33	comp:obl	_	Polite=Unknown
+32	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	conj:coord	_	_
+33	ramené	ramener	VERB	_	VerbForm=Part|Voice=Act	32	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+34	du	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	café	café	NOUN	_	_	33	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+36	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_14
+# text = tu te souviens ?
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	tu	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	3	subj	_	_
+2	te	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	3	comp@expl	_	InIdiom=Yes
+3	souviens	souvenir	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Idiom=Yes
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_15
+# text = après euh l'aprèm on a été déjeuner dans un hôtel tout ça c'était super beau.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	après	après	ADP	_	_	6	mod	_	_
+2	euh	euh	INTJ	_	_	1	discourse	_	_
+3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gender[ctxt]=Masc|SpaceAfter=No
+4	aprèm	aprèm	NOUN	_	Number=Sing	6	mod	_	Gender[lex]=Masc
+5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
+8	déjeuner	déjeuner	VERB	_	VerbForm=Inf	7	comp:aux@pass	_	Subject=SubjRaising
+9	dans	dans	ADP	_	_	8	mod	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	hôtel	hôtel	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+12	tout	tout	ADJ	_	Gender=Masc|PronType=Ind	13	mod	_	Number[ctxt]=Sing
+13	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	dislocated:subj	_	_
+14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	subj	_	SpaceAfter=No
+15	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj:coord	_	_
+16	super	super	ADV	_	_	17	mod	_	_
+17	beau	beau	ADJ	_	Gender=Masc|Number=Sing	15	comp:pred	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_16
+# text = après euh, on a fait un safari dans le désert en quatre-quatre.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	après	après	ADP	_	_	5	mod	_	_
+2	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	5	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	safari	safari	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+9	dans	dans	ADP	_	_	6	mod	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	désert	désert	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+12	en	en	ADP	_	_	6	mod	_	_
+13	quatre-quatre	quatre-quatre	NOUN	_	Number=Sing	12	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_17
+# text = j'en n'avais jamais fait c'était super euh super euh marrant, enfin on s'est bien tapé des barres parce que ça secouait de partout là dedans.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
+2	en	en	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	_
+3	n'	ne	ADV	_	_	4	mod	_	SpaceAfter=No
+4	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	jamais	jamais	ADV	_	PronType=Neg	4	mod	_	_
+6	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
+7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	SpaceAfter=No
+8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj:coord	_	_
+9	super	super	ADV	_	_	13	mod	_	_
+10	euh	euh	INTJ	_	_	9	discourse	_	_
+11	super	super	ADV	_	_	9	conj:dicto	_	_
+12	euh	euh	INTJ	_	_	11	discourse	_	_
+13	marrant	marrant	ADJ	_	Gender=Masc	8	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
+14	,	,	PUNCT	_	_	18	punct	_	_
+15	enfin	enfin	ADV	_	ExtPos=INTJ	18	discourse	_	_
+16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	subj	_	_
+17	s'	soi	PRON	_	Person=3|PronType=Prs	20	comp@expl	_	SpaceAfter=No
+18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:coord	_	_
+19	bien	bien	ADV	_	_	20	mod	_	_
+20	tapé	taper	VERB	_	VerbForm=Part	18	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
+22	barres	barre	NOUN	_	_	20	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
+23	parce	parce	ADV	_	ExtPos=SCONJ	20	mod	_	Idiom=Yes
+24	que	que	SCONJ	_	_	23	unk	_	InIdiom=Yes
+25	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	subj	_	_
+26	secouait	secouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	comp:obj	_	_
+27	de	de	ADP	_	_	26	comp:obl	_	_
+28	partout	partout	ADV	_	_	29	mod	_	_
+29	là	là	ADV	_	_	27	comp:obj	_	_
+30	dedans	dedans	ADV	_	_	26	mod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_18
+# text = après euh, le soir si je me souviens bien la première journée on a été en camp Bédouin on avait fait un barbecue, il y avait un spectacle un monsieur il crachait du feu euh de la danse orientale tout ça.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	après	après	ADP	_	_	15	mod	_	_
+2	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	soir	soir	NOUN	_	_	15	dislocated:unk	_	Gender[lex]=Masc|Number[ctxt]=Sing
+6	si	si	SCONJ	_	_	15	mod	_	_
+7	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	9	subj	_	_
+8	me	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	9	comp@expl	_	_
+9	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
+10	bien	bien	ADV	_	_	9	mod	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	première	premier	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	_
+13	journée	journée	NOUN	_	_	9	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
+14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	_
+15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	été	être	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	15	comp:aux@tense	_	Tense[denom]=Past
+17	en	en	ADP	_	_	16	mod	_	_
+18	camp	camp	NOUN	_	_	17	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+19	Bédouin	Bédouin	PROPN	_	_	18	mod	_	Gender[lex]=Unknown
+20	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	subj	_	_
+21	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	conj:coord	_	_
+22	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	21	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
+23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	barbecue	barbecue	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	subj@expl	_	_
+27	y	y	PRON	_	Person=3|PronType=Prs	28	comp@expl	_	_
+28	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	conj:coord	_	_
+29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	spectacle	spectacle	NOUN	_	_	28	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	monsieur	monsieur	NOUN	_	Number=Sing	34	dislocated:subj	_	Gender[lex]=Masc
+33	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	subj	_	_
+34	crachait	cracher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	parataxis:parenth	_	_
+35	du	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	feu	feu	NOUN	_	_	34	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+37	euh	euh	INTJ	_	_	36	discourse	_	_
+38	de	de	ADP	_	_	30	mod	_	_
+39	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	40	det	_	_
+40	danse	danse	NOUN	_	_	38	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+41	orientale	oriental	ADJ	_	_	40	mod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+42	tout	tout	ADJ	_	Gender=Masc|PronType=Ind	43	mod	_	Number[ctxt]=Sing
+43	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	40	conj:coord	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_19
+# text = après on est rentré le soir.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	après	après	ADV	_	_	3	mod	_	_
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	rentré	rentrer	VERB	_	VerbForm=Part	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	soir	soir	NOUN	_	_	4	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2020_campBedouin_20
+# text = mais par contre dans le désert en décembre, il fait super super froid.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
+1	mais	mais	CCONJ	_	_	11	cc	_	_
+2	par	par	ADP	_	ExtPos=ADV	11	mod	_	Idiom=Yes
+3	contre	contre	NOUN	_	_	2	comp:obj	_	InIdiom=Yes
+4	dans	dans	ADP	_	_	11	mod	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	désert	désert	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+7	en	en	ADP	_	_	6	mod	_	_
+8	décembre	décembre	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+9	,	,	PUNCT	_	_	4	punct	_	_
+10	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
+11	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	super	super	ADV	_	_	14	mod	_	_
+13	super	super	ADV	_	_	12	conj:coord	_	_
+14	froid	froid	ADJ	_	Gender=Masc|Number=Sing	11	comp:pred	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	11	punct	_	_
+

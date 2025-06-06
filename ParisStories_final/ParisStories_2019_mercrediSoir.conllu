@@ -1,0 +1,1136 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = ouais c'était sympa euh.
+# sent_id = ParisStories_2019_mercrediSoir_1
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	ouais	ouais	INTJ	_	_	3	discourse	_	_
+2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	SpaceAfter=No
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	sympa	sympa	ADJ	_	_	3	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
+5	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = j'ai rejoint Mathilde vers euh dix-neuf heures, truc comme ça.
+# sent_id = ParisStories_2019_mercrediSoir_2
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
+2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	rejoint	rejoindre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
+4	Mathilde	Mathilde	PROPN	_	_	3	comp:obj	_	Gender[lex]=Unknown
+5	vers	vers	ADP	_	_	3	mod	_	_
+6	euh	euh	INTJ	_	_	8	discourse	_	_
+7	dix-neuf	dix-neuf	NUM	_	ExtPos=PROPN	8	det	_	Number[lex]=Sing
+8	heures	heure	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	truc	truc	NOUN	_	_	2	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
+11	comme	comme	ADP	_	_	10	mod	_	_
+12	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	comp:obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = donc, euh, elle est sortie de chez elle, puisque je te rappelle que j'ai pas le droit d'aller chez elle.
+# sent_id = ParisStories_2019_mercrediSoir_3
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	donc	donc	ADV	_	_	6	mod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	sortie	sortir	VERB	_	VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
+8	de	de	ADP	_	_	7	comp:obl	_	_
+9	chez	chez	ADP	_	_	8	comp:obj	_	_
+10	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	puisque	puisque	SCONJ	_	_	7	mod	_	_
+13	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	15	subj	_	_
+14	te	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	15	comp:obl	_	_
+15	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
+16	que	que	SCONJ	_	_	15	comp:obj	_	_
+17	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	18	subj	_	SpaceAfter=No
+18	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
+19	pas	pas	ADV	_	Polarity=Neg	18	mod	_	_
+20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	droit	droit	NOUN	_	_	18	comp:obj@lvc	_	Gender[lex]=Masc|Number[ctxt]=Sing
+22	d'	de	ADP	_	_	21	udep	_	SpaceAfter=No
+23	aller	aller	VERB	_	VerbForm=Inf	22	comp:obj	_	Subject=SubjRaising
+24	chez	chez	ADP	_	_	23	comp:obl	_	_
+25	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	comp:obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = pas très drôle.
+# sent_id = ParisStories_2019_mercrediSoir_4
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
+2	très	très	ADV	_	_	3	mod	_	_
+3	drôle	drôle	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = et euh, du coup euh, on s'est baladé, m'a emmené, euh, vers les quais de Seine.
+# sent_id = ParisStories_2019_mercrediSoir_5
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	et	et	CCONJ	_	_	11	cc	_	_
+2	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4-5	du	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	11	discourse	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	coup	coup	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+7	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	11	subj	_	_
+10	s'	soi	PRON	_	Person=3|PronType=Prs	12	comp@expl	_	SpaceAfter=No
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	baladé	balader	VERB	_	VerbForm=Part	11	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	m'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	16	comp:obj	_	SpaceAfter=No
+15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj:dicto	_	_
+16	emmené	emmener	VERB	_	VerbForm=Part|Voice=Act	15	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	vers	vers	ADP	_	_	16	comp:obl	_	_
+21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+22	quais	quai	NOUN	_	_	20	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+23	de	de	ADP	_	_	22	udep	_	_
+24	Seine	Seine	PROPN	_	_	23	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
+25	.	.	PUNCT	_	_	11	punct	_	_
+
+# text = elle voulait chercher la, euh, Statue de la Liberté, euh, mais elle s'est un peu trompée.
+# sent_id = ParisStories_2019_mercrediSoir_6
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	chercher	chercher	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	Statue	statue	PROPN	_	_	3	comp:obj	_	Gender[lex]=Unknown
+9	de	de	ADP	_	_	8	mod	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Liberté	liberté	NOUN	_	_	9	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+12	,	,	PUNCT	_	_	18	punct	_	_
+13	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	mais	mais	CCONJ	_	_	18	cc	_	_
+16	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	subj	_	_
+17	s'	soi	PRON	_	Person=3|PronType=Prs	21	comp@expl	_	SpaceAfter=No
+18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:coord	_	_
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	InIdiom=Yes
+20	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	18	mod	_	Gender[lex]=Masc|Idiom=Yes
+21	trompée	tromper	VERB	_	VerbForm=Part	18	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = hein, euh, comme d'habitude, tu la connais !
+# sent_id = ParisStories_2019_mercrediSoir_7
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	hein	hein	INTJ	_	_	11	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	comme	comme	ADP	_	_	11	udep	_	_
+6	d'	de	ADP	_	_	5	comp:obj	_	SpaceAfter=No
+7	habitude	habitude	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	tu	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	11	subj	_	_
+10	la	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	_
+11	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	!	!	PUNCT	_	_	11	punct	_	_
+
+# text = euh, on a fait un petit détour, machin etc.
+# sent_id = ParisStories_2019_mercrediSoir_8
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	4	subj	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	petit	petit	ADJ	_	Gender=Masc	8	mod	_	Number[ctxt]=Sing
+8	détour	détour	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	machin	machin	NOUN	_	_	4	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
+11	etc	etc	ADV	_	_	4	conj:coord	_	SpaceAfter=No|wordform=etcétéra
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = puis après on a trouvé, euh, un sur les quais de Seine, un espèce de, euh, de, de passage flottant euh hyper long, euh, de un kilomètre.
+# sent_id = ParisStories_2019_mercrediSoir_9
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	puis	puis	ADV	_	_	4	cc	_	_
+2	après	après	ADP	_	_	4	discourse	_	_
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	trouvé	trouver	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	comp:obj	_	_
+10	sur	sur	ADP	_	_	5	mod	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	quais	quai	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+13	de	de	ADP	_	_	12	udep	_	_
+14	Seine	Seine	PROPN	_	_	13	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	espèce	espèce	NOUN	_	_	9	conj:dicto	_	Gender[lex]=Fem|Number[ctxt]=Sing
+18	de	de	ADP	_	_	17	udep	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	de	de	ADP	_	_	18	conj:dicto	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	de	de	ADP	_	_	22	conj:dicto	_	_
+25	passage	passage	NOUN	_	_	24	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+26	flottant	flottant	ADJ	_	Gender=Masc	25	mod	_	Number[ctxt]=Sing
+27	euh	euh	INTJ	_	_	29	discourse	_	_
+28	hyper	hyper	ADV	_	_	29	mod	_	_
+29	long	long	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	33	punct	_	_
+31	euh	euh	INTJ	_	_	33	discourse	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	de	de	ADP	_	_	25	udep	_	_
+34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	kilomètre	kilomètre	NOUN	_	_	33	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+36	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = on a bien marché, euh, sur le pont.
+# sent_id = ParisStories_2019_mercrediSoir_10
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bien	bien	ADV	_	_	4	mod	_	_
+4	marché	marcher	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	sur	sur	ADP	_	_	4	comp:obl	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	pont	pont	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = entre temps il y avait Adrien qui nous avait appelés.
+# sent_id = ParisStories_2019_mercrediSoir_11
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	entre	entre	ADV	_	_	5	mod	_	_
+2	temps	temps	NOUN	_	Number=Sing	1	comp:obj	_	Gender[lex]=Masc
+3	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
+4	y	y	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	_
+5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	Adrien	Adrien	PROPN	_	_	5	comp:obj	_	Gender[lex]=Unknown
+7	qui	qui	PRON	_	PronType=Rel	9	subj	_	_
+8	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	10	comp:obj	_	_
+9	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	mod@relcl	_	_
+10	appelés	appeler	VERB	_	VerbForm=Part|Voice=Act	9	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|SpaceAfter=No|Tense[denom]=Past
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = il nous avait dit, euh, qu'il pourrait pas, euh, être à l'heure pour le match de foot PSG Bayern de Munich.
+# sent_id = ParisStories_2019_mercrediSoir_12
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+2	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	4	comp:obl	_	_
+3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	qu'	que	SCONJ	_	_	4	comp:obj	_	SpaceAfter=No
+9	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
+10	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
+11	pas	pas	ADV	_	Polarity=Neg	10	mod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	être	être	AUX	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
+16	à	à	ADP	_	_	15	comp:pred	_	_
+17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	Gender[ctxt]=Fem|SpaceAfter=No
+18	heure	heure	NOUN	_	_	16	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+19	pour	pour	ADP	_	_	15	mod	_	_
+20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	match	match	NOUN	_	_	19	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+22	de	de	ADP	_	_	21	udep	_	_
+23	foot	foot	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+24	PSG	PSG	PROPN	_	_	21	conj:appos	_	Gender[lex]=Unknown
+25	Bayern	Bayern	PROPN	_	_	24	conj:coord	_	Gender[lex]=Unknown
+26	de	de	ADP	_	_	25	mod	_	_
+27	Munich	Munich	PROPN	_	_	26	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = et que du coup, euh, on irait sans lui et il nous rejoindrait après.
+# sent_id = ParisStories_2019_mercrediSoir_13
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	et	et	CCONJ	_	_	2	cc	_	_
+2	que	que	SCONJ	_	_	0	root	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	10	discourse	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	coup	coup	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
+10	irait	aller	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+11	sans	sans	ADP	_	_	10	mod	_	_
+12	lui	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	_
+13	et	et	CCONJ	_	_	16	cc	_	_
+14	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
+15	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	16	comp:obj	_	_
+16	rejoindrait	rejoindre	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj:coord	_	_
+17	après	après	ADV	_	_	16	mod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = sur ce j'ai annoncé l'ouverture du score, euh, du PSG rapide.
+# sent_id = ParisStories_2019_mercrediSoir_14
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	sur	sur	ADP	_	_	4	mod	_	_
+2	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	comp:obj	_	_
+3	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
+4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	annoncé	annoncer	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Fem|SpaceAfter=No
+7	ouverture	ouverture	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+8-9	du	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	7	udep	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	score	score	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14-15	du	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	10	udep	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	PSG	PSG	PROPN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
+17	rapide	rapide	ADJ	_	_	5	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = ce qui s'est passé !
+# sent_id = ParisStories_2019_mercrediSoir_15
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+2	qui	qui	PRON	_	PronType=Rel	4	subj	_	_
+3	s'	soi	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	SpaceAfter=No
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	_
+5	passé	passer	VERB	_	VerbForm=Part	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+6	!	!	PUNCT	_	_	1	punct	_	_
+
+# text = euh, du coup on a bien marché etc.
+# sent_id = ParisStories_2019_mercrediSoir_16
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	7	discourse	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	coup	coup	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	7	subj	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	bien	bien	ADV	_	_	9	mod	_	_
+9	marché	marcher	VERB	_	VerbForm=Part|Voice=Act	7	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+10	etc	etc	ADV	_	_	7	conj:coord	_	SpaceAfter=No|wordform=etcétéra
+11	.	.	PUNCT	_	_	7	punct	_	_
+
+# text = on a, on, euh, a commencé à, à vouloir se poser pour manger.
+# sent_id = ParisStories_2019_mercrediSoir_17
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
+2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	8	punct	_	_
+4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
+9	commencé	commencer	VERB	_	VerbForm=Part|Voice=Act	8	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+10	à	à	ADP	_	_	9	comp:obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	à	à	ADP	_	_	10	conj:dicto	_	_
+13	vouloir	vouloir	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
+14	se	soi	PRON	_	Person=3|PronType=Prs	15	comp:obj	_	_
+15	poser	poser	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=SubjRaising
+16	pour	pour	ADP	_	_	15	mod	_	_
+17	manger	manger	VERB	_	VerbForm=Inf	16	comp:obj	_	SpaceAfter=No|Subject=NoRaising
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = mais évidemment, quand tu cherches une place pour, pour te poser, il y a plus de banc de libre.
+# sent_id = ParisStories_2019_mercrediSoir_18
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	mais	mais	CCONJ	_	_	17	cc	_	_
+2	évidemment	évidemment	ADV	_	_	17	mod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	quand	quand	SCONJ	_	_	17	mod	_	_
+5	tu	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	6	subj	_	_
+6	cherches	chercher	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	place	place	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+9	pour	pour	ADP	_	_	8	udep	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	pour	pour	ADP	_	_	9	conj:dicto	_	_
+12	te	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	13	comp:obj	_	_
+13	poser	poser	VERB	_	VerbForm=Inf	11	comp:obj	_	SpaceAfter=No|Subject=NoRaising
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@expl	_	_
+16	y	y	PRON	_	Person=3|PronType=Prs	17	comp@expl	_	_
+17	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	plus	plus	ADV	_	_	20	mod	_	_
+19	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	20	det	_	_
+20	banc	banc	NOUN	_	_	17	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+21	de	de	ADP	_	_	20	udep	_	_
+22	libre	Libre	ADJ	_	Gender=Masc|Number=Sing	21	comp:obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	17	punct	_	_
+
+# text = alors qu'on en avait eu pendant une demie-heure.
+# sent_id = ParisStories_2019_mercrediSoir_19
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	alors	alors	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
+2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
+4	en	en	PRON	_	Person=3|PronType=Prs	5	comp:obj	_	_
+5	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	comp:obj	_	_
+6	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	5	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+7	pendant	pendant	ADP	_	_	6	mod	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	demie-heure	demi-heure	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = finalement on s'est posé, euh, près de, euh, d'une station de métro.
+# sent_id = ParisStories_2019_mercrediSoir_20
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	finalement	finalement	ADV	_	_	4	mod	_	_
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
+3	s'	soi	PRON	_	Person=3|PronType=Prs	5	comp:obj	_	SpaceAfter=No
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	posé	poser	VERB	_	VerbForm=Part	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	près	près	ADV	_	_	5	mod	_	_
+10	de	de	ADP	_	_	9	mod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	d'	de	ADP	_	_	10	conj:dicto	_	SpaceAfter=No
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	station	station	NOUN	_	_	14	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+17	de	de	ADP	_	_	16	udep	_	_
+18	métro	métro	NOUN	_	_	17	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = je sais même plus comment elle s'appelle.
+# sent_id = ParisStories_2019_mercrediSoir_21
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	même	même	ADV	_	_	4	mod	_	_
+4	plus	plus	ADV	_	_	2	mod	_	_
+5	comment	comment	ADV	_	_	8	mod	_	_
+6	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
+7	s'	soi	PRON	_	Person=3|PronType=Prs	8	comp@expl	_	SpaceAfter=No
+8	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = c'est pas très important.
+# sent_id = ParisStories_2019_mercrediSoir_22
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
+4	très	très	ADV	_	_	5	mod	_	_
+5	important	important	ADJ	_	Gender=Masc	2	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = et, euh, juste en face de la tour Eiffel.
+# sent_id = ParisStories_2019_mercrediSoir_23
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	et	et	CCONJ	_	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	juste	juste	ADV	_	_	6	mod	_	_
+6	en	en	ADP	_	_	0	root	_	_
+7	face	face	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+8	de	de	ADP	_	_	7	udep	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	tour	tour	NOUN	_	_	8	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+11	Eiffel	Eiffel	PROPN	_	_	10	mod	_	Gender[lex]=Unknown|SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = donc on a mangé, euh, une petite salade etc.
+# sent_id = ParisStories_2019_mercrediSoir_24
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	donc	donc	ADV	_	_	3	mod	_	_
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mangé	manger	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	10	det	_	_
+9	petite	petit	ADJ	_	Gender=Fem	10	mod	_	Number[ctxt]=Sing
+10	salade	salade	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+11	etc	etc	ADV	_	_	10	conj:coord	_	SpaceAfter=No|wordform=etcétéra
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = il y avait des mariés chinois que qui se, euh, qui arrêtaient pas de se faire prendre en photo.
+# sent_id = ParisStories_2019_mercrediSoir_25
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+5	mariés	marié	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+6	chinois	chinois	ADJ	_	Gender=Masc	5	mod	_	Number[ctxt]=Plur
+7	que	que	PRON	_	PronType=Rel	14	subj	_	_
+8	qui	qui	PRON	_	PronType=Rel	7	conj:dicto	_	_
+9	se	soi	PRON	_	Person=3|PronType=Prs	8	unk@scrap	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	qui	qui	PRON	_	PronType=Rel	8	conj:dicto	_	_
+14	arrêtaient	arrêter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	mod@relcl	_	_
+15	pas	pas	ADV	_	Polarity=Neg	14	mod	_	_
+16	de	de	ADP	_	_	14	comp:obl	_	_
+17	se	soi	PRON	_	Person=3|PronType=Prs	19	comp@pass	_	_
+18	faire	faire	AUX	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
+19	prendre	prendre	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=SubjRaising
+20	en	en	ADP	_	_	19	mod	_	_
+21	photo	photo	NOUN	_	_	20	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = enfin c'était un shooting photo.
+# sent_id = ParisStories_2019_mercrediSoir_26
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	enfin	enfin	ADV	_	ExtPos=INTJ	3	discourse	_	_
+2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	SpaceAfter=No
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	shooting	shooting	NOUN	_	Number=Sing	3	comp:pred	_	Gender[lex]=Masc
+6	photo	photo	NOUN	_	_	5	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = c'est comme, comme tout le temps, euh, à cet endroit là.
+# sent_id = ParisStories_2019_mercrediSoir_27
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
+2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	comme	comme	ADP	_	_	2	mod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	comme	comme	ADP	_	_	3	conj:dicto	_	_
+6	tout	tout	ADJ	_	Gender=Masc	8	mod	_	Number[ctxt]=Sing
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	temps	temps	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	à	à	ADP	_	_	2	comp:obl	_	_
+13	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	endroit	endroit	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+15	là	là	ADV	_	_	14	mod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = donc voilà, après, euh, elle m'a expliqué que, euh, elle était allée voir un film sur, euh, l'école de " " Montessori " " et, euh, la veille, que c'était très intéressant, euh etc, et qu'elle essaierait de mettre ça en application, euh, dans les jours et les semaines à venir, dans son, euh, dans son école.
+# sent_id = ParisStories_2019_mercrediSoir_28
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	donc	donc	ADV	_	_	10	mod	_	_
+2	voilà	voilà	VERB	_	ExtPos=INTJ	10	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	après	après	ADV	_	_	10	mod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
+9	m'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	11	comp:obl	_	SpaceAfter=No
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	expliqué	expliquer	VERB	_	VerbForm=Part|Voice=Act	10	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+12	que	que	SCONJ	_	_	11	comp:obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	subj	_	_
+17	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	comp:obj	_	_
+18	allée	aller	VERB	_	VerbForm=Part	17	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
+19	voir	voir	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=SubjRaising
+20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	film	film	NOUN	_	_	19	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+22	sur	sur	ADP	_	_	21	udep	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	27	punct	_	_
+24	euh	euh	INTJ	_	_	27	discourse	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	Gender[ctxt]=Fem|SpaceAfter=No
+27	école	école	NOUN	_	_	22	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+28	de	de	ADP	_	_	27	udep	_	_
+29	"	"	PUNCT	_	_	31	punct	_	_
+30	"	"	PUNCT	_	_	31	punct	_	_
+31	Montessori	Montessori	PROPN	_	_	28	comp:obj	_	Gender[lex]=Unknown
+32	"	"	PUNCT	_	_	31	punct	_	_
+33	"	"	PUNCT	_	_	31	punct	_	_
+34	et	et	CCONJ	_	_	41	cc	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	_
+36	euh	euh	INTJ	_	_	34	discourse	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	veille	veille	NOUN	_	_	17	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	que	que	SCONJ	_	_	12	conj:coord	_	_
+42	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	43	subj	_	SpaceAfter=No
+43	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	comp:obj	_	_
+44	très	très	ADV	_	_	45	mod	_	_
+45	intéressant	intéressant	ADJ	_	Gender=Masc	43	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
+46	,	,	PUNCT	_	_	51	punct	_	_
+47	euh	euh	INTJ	_	_	48	discourse	_	_
+48	etc	etc	ADV	_	_	45	conj:coord	_	SpaceAfter=No|wordform=etcétéra
+49	,	,	PUNCT	_	_	51	punct	_	_
+50	et	et	CCONJ	_	_	51	cc	_	_
+51	qu'	que	SCONJ	_	_	41	conj:coord	_	SpaceAfter=No
+52	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	53	subj	_	_
+53	essaierait	essayer	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	comp:obj	_	_
+54	de	de	ADP	_	_	53	comp:obl	_	_
+55	mettre	mettre	VERB	_	VerbForm=Inf	54	comp:obj	_	Subject=SubjRaising
+56	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	55	comp:obj	_	_
+57	en	en	ADP	_	_	55	mod	_	_
+58	application	application	NOUN	_	_	57	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+59	,	,	PUNCT	_	_	62	punct	_	_
+60	euh	euh	INTJ	_	_	62	discourse	_	SpaceAfter=No
+61	,	,	PUNCT	_	_	60	punct	_	_
+62	dans	dans	ADP	_	_	55	mod	_	_
+63	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	64	det	_	_
+64	jours	jour	NOUN	_	_	62	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+65	et	et	CCONJ	_	_	67	cc	_	_
+66	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	67	det	_	_
+67	semaines	semaine	NOUN	_	_	64	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Plur
+68	à	à	ADP	_	_	67	udep	_	_
+69	venir	venir	VERB	_	VerbForm=Inf	68	comp:obj	_	SpaceAfter=No|Subject=NoRaising
+70	,	,	PUNCT	_	_	71	punct	_	_
+71	dans	dans	ADP	_	_	55	mod	_	_
+72	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	71	comp:obj@scrap	_	SpaceAfter=No
+73	,	,	PUNCT	_	_	76	punct	_	_
+74	euh	euh	INTJ	_	_	76	discourse	_	SpaceAfter=No
+75	,	,	PUNCT	_	_	74	punct	_	_
+76	dans	dans	ADP	_	_	71	conj:dicto	_	_
+77	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	78	det	_	_
+78	école	école	NOUN	_	_	76	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+79	.	.	PUNCT	_	_	10	punct	_	_
+
+# text = parce que je sais pas si tu sais, mais elle est, elle est surveillante à dans un, dans un lycée collège et, euh, école primaire.
+# sent_id = ParisStories_2019_mercrediSoir_29
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
+3	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+4	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
+5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
+6	si	si	SCONJ	_	_	4	comp:obj	_	_
+7	tu	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	8	subj	_	_
+8	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	comp:obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	mais	mais	CCONJ	_	_	12	cc	_	_
+11	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:coord	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	subj	_	_
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj:dicto	_	_
+16	surveillante	surveillant	NOUN	_	_	15	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
+17	à	à	ADP	_	_	16	udep	_	_
+18	dans	dans	ADP	_	_	17	conj:dicto	_	_
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	comp:obj@scrap	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	dans	dans	ADP	_	_	18	conj:dicto	_	_
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	lycée	lycée	NOUN	_	_	21	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+24	collège	collège	NOUN	_	_	23	conj:appos	_	Gender[lex]=Masc|Number[ctxt]=Sing
+25	et	et	CCONJ	_	_	29	cc	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	euh	euh	INTJ	_	_	29	discourse	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	école	école	NOUN	_	_	24	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing
+30	primaire	primaire	ADJ	_	_	29	mod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+31	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = donc apparement elle a pu le faire, elle est contente.
+# sent_id = ParisStories_2019_mercrediSoir_30
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	donc	donc	ADV	_	_	4	mod	_	_
+2	apparement	apparement	ADV	_	_	4	mod	_	_
+3	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Tense[denom]=Past
+6	le	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	_
+7	faire	faire	VERB	_	VerbForm=Inf	5	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
+11	contente	content	ADJ	_	Gender=Fem	10	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = et après donc, on est allé au, euh, au bar, euh, qu'Adrien nous avait, euh, indiqué, euh.
+# sent_id = ParisStories_2019_mercrediSoir_31
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	et	et	CCONJ	_	_	6	cc	_	_
+2	après	après	ADV	_	_	6	mod	_	_
+3	donc	donc	ADV	_	_	2	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	allé	aller	VERB	_	VerbForm=Part	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+8-9	au	_	_	_	_	_	_	_	SpaceAfter=No
+8	à	à	ADP	_	_	7	comp:obl	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	unk@scrap	_	_
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13-14	au	_	_	_	_	_	_	_	_
+13	à	à	ADP	_	_	8	conj:dicto	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	bar	bar	NOUN	_	_	13	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	euh	euh	INTJ	_	_	19	discourse	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	qu'	que	SCONJ	_	_	15	mod	_	SpaceAfter=No
+20	Adrien	Adrien	PROPN	_	_	22	subj	_	Gender[lex]=Unknown
+21	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	26	comp:obl	_	_
+22	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	comp:obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
+24	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	indiqué	indiquer	VERB	_	VerbForm=Part|Voice=Act	22	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = déjà, on est arrivé, il y avait un drapeau du PSG, euh, devant, donc ça change du café OZ, où, euh.
+# sent_id = ParisStories_2019_mercrediSoir_32
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	déjà	déjà	ADV	_	_	4	mod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod	_	_
+5	arrivé	arriver	VERB	_	VerbForm=Part	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj@expl	_	_
+8	y	y	PRON	_	Person=3|PronType=Prs	9	comp@expl	_	_
+9	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	drapeau	drapeau	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+12-13	du	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	11	udep	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	PSG	PSG	PROPN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	devant	devant	ADV	_	_	9	mod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	9	punct	_	_
+20	donc	donc	ADV	_	_	22	cc	_	_
+21	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	subj	_	_
+22	change	changer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj:coord	_	_
+23-24	du	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	22	comp:obl	_	_
+24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	café	café	PROPN	_	_	23	comp:obj	_	Gender[lex]=Unknown
+26	OZ	OZ	PROPN	_	_	25	mod	_	Gender[lex]=Unknown|SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	où	où	PRON	_	PronType=Rel	25	mod@scrap	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	22	punct	_	_
+
+# text = bah, déjà c'est un, c'est, c'est pas un bar anglo-saxon etc.
+# sent_id = ParisStories_2019_mercrediSoir_33
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	bah	bah	INTJ	_	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	déjà	déjà	ADV	_	_	5	mod	_	_
+4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=No	5	subj	_	SpaceAfter=No
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	comp:pred@scrap	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	subj	_	SpaceAfter=No
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj:dicto	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	SpaceAfter=No
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj:dicto	_	_
+13	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	bar	bar	NOUN	_	_	12	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
+16	anglo-saxon	anglo-saxon	ADJ	_	Gender=Masc	15	mod	_	Number[ctxt]=Sing
+17	etc	etc	ADV	_	_	5	conj:coord	_	SpaceAfter=No|wordform=etcétéra
+18	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = donc, euh, on était content.
+# sent_id = ParisStories_2019_mercrediSoir_34
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	donc	donc	ADV	_	_	6	mod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	content	content	ADJ	_	Gender=Masc	6	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = il y avait une bonne ambiance.
+# sent_id = ParisStories_2019_mercrediSoir_35
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	bonne	bon	ADJ	_	Gender=Fem	6	mod	_	Number[ctxt]=Sing
+6	ambiance	ambiance	NOUN	_	_	3	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = le barman était sympa.
+# sent_id = ParisStories_2019_mercrediSoir_36
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	barman	barman	NOUN	_	_	3	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	sympa	sympa	ADJ	_	_	3	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = bon, un peu seul, du coup toute la soirée, il a dû, euh, tout servir tout seul etc.
+# sent_id = ParisStories_2019_mercrediSoir_37
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	bon	bon	INTJ	_	_	15	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	InIdiom=Yes
+4	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	5	mod	_	Gender[lex]=Masc|Idiom=Yes
+5	seul	seul	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7-8	du	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	15	discourse	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	coup	coup	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+10	toute	tout	ADJ	_	Gender=Fem	12	mod	_	Number[ctxt]=Sing
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	soirée	soirée	NOUN	_	_	15	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	15	subj	_	_
+15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	dû	devoir	VERB	_	VerbForm=Part|Voice=Act	15	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+17	,	,	PUNCT	_	_	21	punct	_	_
+18	euh	euh	INTJ	_	_	21	discourse	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	comp:obj	_	_
+21	servir	servir	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
+22	tout	tout	ADV	_	_	23	mod	_	_
+23	seul	seul	ADV	_	_	21	mod	_	_
+24	etc	etc	ADV	_	_	15	conj:coord	_	SpaceAfter=No|wordform=etcétéra
+25	.	.	PUNCT	_	_	15	punct	_	_
+
+# text = mais, euh, mais c'était un peu chaud, mais voilà.
+# sent_id = ParisStories_2019_mercrediSoir_38
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	mais	mais	CCONJ	_	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	mais	mais	CCONJ	_	_	1	conj:dicto	_	_
+6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=No	7	subj	_	SpaceAfter=No
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
+9	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	10	mod	_	Gender[lex]=Masc|Idiom=Yes
+10	chaud	chaud	ADJ	_	Gender=Masc|Number=Sing	7	comp:pred	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	mais	mais	CCONJ	_	_	13	cc	_	_
+13	voilà	voilà	VERB	_	_	7	conj:coord	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+# text = on a vu aussi qu'ils avaient des, euh, des planches apéritives hyper sympas.
+# sent_id = ParisStories_2019_mercrediSoir_39
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	vu	voir	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+4	aussi	aussi	ADV	_	_	3	mod	_	_
+5	qu'	que	SCONJ	_	_	3	comp:obj	_	SpaceAfter=No
+6	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	subj	_	_
+7	avaient	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	comp:obj	_	_
+8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	conj:dicto	_	_
+13	planches	planche	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
+14	apéritives	apéritif	ADJ	_	Gender=Fem	13	mod	_	Number[ctxt]=Plur
+15	hyper	hyper	ADV	_	_	16	mod	_	_
+16	sympas	sympa	ADJ	_	_	13	mod	_	Gender[ctxt]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = on s'est dit que, euh, ça serait cool d'y retourner quand même, parce que c'était pas très très cher et en plus, euh, bah, il y a moyen de se faire plaisir quoi !
+# sent_id = ParisStories_2019_mercrediSoir_40
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	comp:obl	_	SpaceAfter=No
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dit	dire	VERB	_	Gender=Masc|VerbForm=Part	3	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
+5	que	que	SCONJ	_	_	4	comp:obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	_
+10	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
+11	cool	cool	ADJ	_	Gender=Masc|Number=Sing	10	comp:pred	_	_
+12	d'	de	ADP	_	_	11	mod	_	SpaceAfter=No
+13	y	y	ADV	_	_	14	mod	_	_
+14	retourner	retourner	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
+15	quand	quand	SCONJ	_	ExtPos=ADV	14	mod	_	Idiom=Yes
+16	même	même	ADV	_	_	15	unk	_	InIdiom=Yes|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	parce	parce	ADV	_	ExtPos=SCONJ	10	mod	_	Idiom=Yes
+19	que	que	SCONJ	_	_	18	unk	_	InIdiom=Yes
+20	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=No	21	subj	_	SpaceAfter=No
+21	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	comp:obj	_	_
+22	pas	pas	ADV	_	Polarity=Neg	23	mod	_	_
+23	très	très	ADV	_	_	25	mod	_	_
+24	très	très	ADV	_	_	23	conj:coord	_	_
+25	cher	cher	ADJ	_	Gender=Masc|Number=Sing	21	comp:pred	_	_
+26	et	et	CCONJ	_	_	36	cc	_	_
+27	en	en	ADP	_	_	36	mod	_	_
+28	plus	plus	ADV	_	_	27	comp:obj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	euh	euh	INTJ	_	_	27	discourse	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	bah	bah	INTJ	_	_	27	discourse	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	27	punct	_	_
+34	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	subj@expl	_	_
+35	y	y	PRON	_	Person=3|PronType=Prs	36	comp@expl	_	_
+36	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj:coord	_	_
+37	moyen	moyen	NOUN	_	_	36	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+38	de	de	ADP	_	_	37	udep	_	_
+39	se	soi	PRON	_	Person=3|PronType=Prs	40	comp:obl	_	_
+40	faire	faire	VERB	_	VerbForm=Inf	38	comp:obj	_	Subject=NoRaising
+41	plaisir	plaisir	NOUN	_	_	40	comp:obj@lvc	_	Gender[lex]=Masc|Number[ctxt]=Sing
+42	quoi	quoi	INTJ	_	_	3	discourse	_	_
+43	!	!	PUNCT	_	_	3	punct	_	_
+
+# text = du coup, euh, elle a commandé un Monaco.
+# sent_id = ParisStories_2019_mercrediSoir_41
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1-2	du	_	_	_	_	_	_	_	_
+1	de	de	ADP	_	_	8	discourse	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	commandé	commander	VERB	_	VerbForm=Part|Voice=Act	8	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Monaco	Monaco	PROPN	_	_	9	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
+12	.	.	PUNCT	_	_	8	punct	_	_
+
+# text = c'est une petite frappe hein, tu sais, euh, elle a un peu de mal, euh.
+# sent_id = ParisStories_2019_mercrediSoir_42
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	petite	petit	ADJ	_	Gender=Fem	5	mod	_	Number[ctxt]=Sing
+5	frappe	frappe	NOUN	_	_	2	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
+6	hein	hein	INTJ	_	_	14	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	tu	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	9	subj	_	_
+9	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	discourse	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
+14	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	InIdiom=Yes
+16	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	14	comp:obj	_	Gender[lex]=Masc|Idiom=Yes
+17	de	de	ADP	_	_	16	udep	_	_
+18	mal	mal	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = et, euh, et du coup le match a commencé !
+# sent_id = ParisStories_2019_mercrediSoir_43
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	et	et	CCONJ	_	_	11	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	et	et	CCONJ	_	_	1	conj:dicto	_	_
+6-7	du	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	11	discourse	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	coup	coup	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	match	match	NOUN	_	_	11	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	commencé	commencer	VERB	_	VerbForm=Part|Voice=Act	11	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+13	!	!	PUNCT	_	_	11	punct	_	_
+
+# text = deux minutes,
+# sent_id = ParisStories_2019_mercrediSoir_44
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	deux	deux	NUM	_	ExtPos=DET	2	det	_	Number[lex]=Plur
+2	minutes	minute	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = but de Daniel Alves !
+# sent_id = ParisStories_2019_mercrediSoir_45
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	but	but	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
+2	de	de	ADP	_	_	1	udep	_	_
+3	Daniel	Daniel	PROPN	_	_	2	comp:obj	_	Gender[lex]=Unknown
+4	Alves	Alves	PROPN	_	_	3	flat@name	_	Gender[lex]=Unknown
+5	!	!	PUNCT	_	_	1	punct	_	_
+
+# text = tout le bar était comme un en feu etc.
+# sent_id = ParisStories_2019_mercrediSoir_46
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	tout	tout	ADJ	_	Gender=Masc	3	mod	_	Number[ctxt]=Sing
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	bar	bar	NOUN	_	Shared=No	4	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+4	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	comme	comme	ADP	_	_	4	comp:obl	_	_
+6	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	comp:obj	_	_
+7	en	en	ADP	_	_	6	conj:dicto	_	_
+8	feu	feu	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+9	etc	etc	ADV	_	_	4	conj:coord	_	SpaceAfter=No|wordform=etcétéra
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = le barman il fait sonner la cloche, euh, euh, les, les gens debout etc.
+# sent_id = ParisStories_2019_mercrediSoir_47
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	barman	barman	NOUN	_	_	4	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+3	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	4	subj	_	_
+4	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	sonner	sonner	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cloche	cloche	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+8	,	,	PUNCT	_	_	16	punct	_	_
+9	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	conj:dicto	_	_
+16	gens	gens	NOUN	_	Number=Plur	4	parataxis	_	Gender[lex]=Masc
+17	debout	debout	ADJ	_	Gender=Masc|Number=Plur	16	mod	_	_
+18	etc	etc	ADV	_	_	4	conj:coord	_	SpaceAfter=No|wordform=etcétéra
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = c'était vraiment un, un bar de supporters donc c'était sympa.
+# sent_id = ParisStories_2019_mercrediSoir_48
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	vraiment	vraiment	ADV	_	_	2	mod	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	conj:dicto	_	_
+7	bar	bar	NOUN	_	_	2	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
+8	de	de	ADP	_	_	7	udep	_	_
+9	supporters	supporter	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+10	donc	donc	ADV	_	_	12	cc	_	_
+11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	SpaceAfter=No
+12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj:coord	_	_
+13	sympa	sympa	ADJ	_	_	12	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = euh, après, Adrien, il nous a rejoints, euh, dans dans la foulée, euh.
+# sent_id = ParisStories_2019_mercrediSoir_49
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	après	après	ADV	_	_	9	mod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Adrien	Adrien	PROPN	_	_	9	dislocated:subj	_	Gender[lex]=Unknown|SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
+8	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	10	comp:obj	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	rejoints	rejoindre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	9	comp:aux@tense	_	Number[ctxt]=Plur|SpaceAfter=No|Tense[denom]=Past
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	dans	dans	ADP	_	_	10	mod	_	_
+15	dans	dans	ADP	_	_	14	conj:dicto	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	foulée	foulée	NOUN	_	_	15	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	9	punct	_	_
+
+# text = bon, c'était un, c'était pas un match extraordinaire, euh.
+# sent_id = ParisStories_2019_mercrediSoir_50
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	bon	bon	CCONJ	_	_	4	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	SpaceAfter=No
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	comp:pred	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	SpaceAfter=No
+8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj:dicto	_	_
+9	pas	pas	ADV	_	Polarity=Neg	8	mod	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	match	match	NOUN	_	_	8	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
+12	extraordinaire	extraordinaire	ADJ	_	_	11	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Paris Saint Germain a pas été, euh, pas été dingue, mais, euh, il y a eu victoire trois zéro quand même, donc, euh, donc on était content.
+# sent_id = ParisStories_2019_mercrediSoir_51
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	Paris	Paris	PROPN	_	Shared=No	4	subj	_	Gender[lex]=Unknown
+2	Saint	Saint	PROPN	_	_	1	flat@name	_	Gender[lex]=Unknown
+3	Germain	Germain	PROPN	_	_	2	flat@name	_	Gender[lex]=Unknown
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	pas	pas	ADV	_	Polarity=Neg	11	mod	_	_
+11	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj:dicto	_	_
+12	dingue	dingue	ADJ	_	_	11	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+13	,	,	PUNCT	_	_	20	punct	_	_
+14	mais	mais	CCONJ	_	_	20	cc	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	14	punct	_	_
+18	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	_
+19	y	y	PRON	_	Person=3|PronType=Prs	20	comp@expl	_	_
+20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
+21	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	20	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+22	victoire	victoire	NOUN	_	_	21	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+23	trois	trois	NUM	_	ExtPos=PROPN	22	mod	_	Number[lex]=Sing
+24	zéro	zéro	NUM	_	ExtPos=PROPN	23	mod	_	Number[lex]=Sing
+25	quand	quand	SCONJ	_	ExtPos=ADV	20	mod	_	Idiom=Yes
+26	même	même	ADV	_	_	25	unk	_	InIdiom=Yes|SpaceAfter=No
+27	,	,	PUNCT	_	_	34	punct	_	_
+28	donc	donc	ADV	_	_	34	cc	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	donc	donc	ADV	_	_	28	conj:dicto	_	_
+33	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	34	subj	_	_
+34	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	conj:coord	_	_
+35	content	content	ADJ	_	Gender=Masc	34	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
+36	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = on a passé, euh, globalement une, euh, une bonne soirée !
+# sent_id = ParisStories_2019_mercrediSoir_52
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	passé	passer	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	globalement	globalement	ADV	_	_	3	mod	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	conj:dicto	_	_
+13	bonne	bon	ADJ	_	Gender=Fem	14	mod	_	Number[ctxt]=Sing
+14	soirée	soirée	NOUN	_	_	3	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+15	!	!	PUNCT	_	_	2	punct	_	_
+
