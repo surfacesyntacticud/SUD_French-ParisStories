@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # text = et euh, quelques semaines après ils m'ont envoyé un mail pour me dire que, euh, j'étais prise pour, euh, une journée de tournage, euh, sur la Promenade des Anglais pendant toute la journée.
 # sent_id = ParisStories_2019_journeeTournage_1
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
@@ -8,20 +7,20 @@
 4	quelques	quelque	DET	_	Number=Plur|PronType=Ind	5	det	_	_
 5	semaines	semaine	NOUN	_	_	9	mod	_	Gender[lex]=Fem|Number[ctxt]=Plur
 6	après	après	ADV	_	_	5	mod	_	_
-7	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	subj	_	_
-8	m'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	10	comp:obl	_	SpaceAfter=No
+7	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	subj	_	_
+8	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	10	comp:obl	_	SpaceAfter=No
 9	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	envoyé	envoyer	VERB	_	VerbForm=Part|Voice=Act	9	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	mail	mail	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 13	pour	pour	ADP	_	_	10	mod	_	_
-14	me	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	15	comp:obl	_	_
+14	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	15	comp:obl	_	_
 15	dire	dire	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=NoRaising
 16	que	que	SCONJ	_	_	15	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	euh	euh	INTJ	_	_	21	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
-20	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	21	subj	_	SpaceAfter=No
+20	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	21	subj	_	SpaceAfter=No
 21	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	16	comp:obj	_	_
 22	prise	prendre	VERB	_	Gender=Fem|VerbForm=Part|Voice=Pass	21	comp:aux@pass	_	Number[ctxt]=Sing|Tense[denom]=Past
 23	pour	pour	ADP	_	_	22	mod	_	SpaceAfter=No
@@ -66,7 +65,7 @@
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj:dicto	_	_
 14	vraiment	vraiment	ADV	_	_	16	mod	_	_
 15	vraiment	vraiment	ADV	_	_	14	conj:coord	_	_
-16	cool	cool	ADJ	_	Gender=Masc|Number=Sing	13	comp:pred	_	_
+16	cool	cool	ADJ	_	_	13	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
 17	parce	parce	ADV	_	ExtPos=SCONJ	13	mod	_	Idiom=Yes
 18	que	que	SCONJ	_	_	17	unk	_	InIdiom=Yes
 19	enfin	enfin	ADV	_	ExtPos=INTJ	25	discourse	_	SpaceAfter=No
@@ -74,7 +73,7 @@
 21	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	subj	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	conj:dicto	_	_
-24	m'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	26	comp:obl	_	SpaceAfter=No
+24	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	26	comp:obl	_	SpaceAfter=No
 25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
 26	permis	permettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	25	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
 27	de	de	ADP	_	_	26	comp:obl	_	_
@@ -95,7 +94,7 @@
 41	euh	euh	INTJ	_	_	45	discourse	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	41	punct	_	_
 43	comment	comment	ADV	_	_	45	mod	_	_
-44	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	45	subj	_	_
+44	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	45	subj	_	_
 45	tournait	tourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	conj:coord	_	_
 46	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	film	film	NOUN	_	_	45	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -118,7 +117,7 @@
 # text = il y avait d'abord, euh, un jour, euh, enfin quelques jours avant le tournage, on devait aller, euh, dans le studio pour, euh, essayer le et notre costume euh avec la costumière, et euh, pour qu'ils regardent, euh, nos cheveux pour voir, euh, quelle coiffure ils pouvaient nous faire.
 # sent_id = ParisStories_2019_journeeTournage_4
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
-1	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	d'	de	ADP	_	_	3	mod	_	SpaceAfter=No
@@ -138,7 +137,7 @@
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	tournage	_	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 20	,	,	PUNCT	_	_	10	punct	_	_
-21	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	subj	_	_
+21	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	subj	_	_
 22	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj:dicto	_	_
 23	aller	aller	VERB	_	VerbForm=Inf	22	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 24	,	,	PUNCT	_	_	27	punct	_	_
@@ -166,7 +165,7 @@
 46	,	,	PUNCT	_	_	44	punct	_	_
 47	pour	pour	ADP	_	_	30	conj:coord	_	_
 48	qu'	que	SCONJ	_	_	47	comp:obj	_	SpaceAfter=No
-49	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	50	subj	_	_
+49	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	50	subj	_	_
 50	regardent	regarder	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	48	comp:obj	_	SpaceAfter=No
 51	,	,	PUNCT	_	_	55	punct	_	_
 52	euh	euh	INTJ	_	_	55	discourse	_	SpaceAfter=No
@@ -180,9 +179,9 @@
 60	,	,	PUNCT	_	_	59	punct	_	_
 61	quelle	quel	DET	_	Gender=Fem|Number=Sing|PronType=Int	62	det	_	_
 62	coiffure	coiffure	NOUN	_	_	57	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-63	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	64	subj	_	_
+63	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	64	subj	_	_
 64	pouvaient	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	62	mod	_	_
-65	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	66	comp:obl	_	_
+65	nous	nous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=1|PronType=Prs	66	comp:obl	_	_
 66	faire	faire	VERB	_	VerbForm=Inf	64	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 67	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -193,7 +192,7 @@
 2	pour	pour	ADP	_	_	7	mod	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	garçons	_	NOUN	_	Number=Plur	2	comp:obj	_	Gender[lex]=Masc
-5	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Shared=No	7	subj	_	_
+5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Shared=No	7	subj	_	_
 6	se	soi	PRON	_	Person=3|PronType=Prs	7	comp@pass	_	_
 7	faisaient	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
@@ -307,7 +306,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
 1	puis	puis	CCONJ	_	_	4	cc	_	_
 2	ensuite	ensuite	ADV	_	_	4	mod	_	_
-3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
+3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	partait	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	4	mod	_	_
 6	en	en	ADP	_	_	4	mod	_	_
@@ -366,7 +365,7 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	subj	_	_
+4	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	subj	_	_
 5	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	vraiment	vraiment	ADV	_	_	5	mod	_	_
 7	mis	mettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	5	comp:aux@tense	_	SpaceAfter=No|Tense[denom]=Past
@@ -383,7 +382,7 @@
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	euh	euh	INTJ	_	_	21	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
-20	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	subj	_	_
+20	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	subj	_	_
 21	avaient	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	conj:dicto	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	euh	euh	INTJ	_	_	21	discourse	_	SpaceAfter=No
@@ -401,7 +400,7 @@
 # text = on était vraiment directement dans l'ambiance quoi.
 # sent_id = ParisStories_2019_journeeTournage_11
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
-1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
+1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	vraiment	vraiment	ADV	_	_	2	mod	_	_
 4	directement	directement	ADV	_	_	2	mod	_	_
@@ -423,10 +422,10 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	3	punct	_	_
-10	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	11	subj	_	SpaceAfter=No
+10	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	11	subj	_	SpaceAfter=No
 11	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	euh	euh	INTJ	_	_	14	discourse	_	_
-13	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	14	subj	_	_
+13	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	subj	_	_
 14	devais	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	conj:dicto	_	_
 15	traverser	traverser	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -438,8 +437,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
 1	Euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	en	en	ADP	_	_	6	discourse	_	_
-4	fait	fait	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+3	en	en	ADP	_	ExtPos=ADV	6	discourse	_	Idiom=Yes
+4	fait	fait	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	SpaceAfter=No
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -472,7 +471,7 @@
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	9	dislocated:subj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	9	subj	_	SpaceAfter=No
+8	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	subj	_	SpaceAfter=No
 9	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 10	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	9	comp:pred	_	_
 11-12	des	_	_	_	_	_	_	_	_
@@ -482,14 +481,14 @@
 14	avec	avec	ADP	_	_	9	mod	_	_
 15	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
-17	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	18	subj	_	SpaceAfter=No
+17	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	18	subj	_	SpaceAfter=No
 18	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	conj:dicto	_	_
 19	avec	avec	ADP	_	_	18	comp:pred	_	_
 20	deux	deux	NUM	_	ExtPos=DET	22	det	_	Number[lex]=Plur
 21	autres	autre	ADJ	_	_	22	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Plur
 22	figurants	figurant	NOUN	_	_	19	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
-24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	25	subj	_	_
+24	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	25	subj	_	_
 25	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj:coord	_	_
 26	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	25	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
 27	connaissance	connaissance	NOUN	_	_	26	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -520,7 +519,7 @@
 16	toute	tout	ADJ	_	Gender=Fem	18	mod	_	Number[ctxt]=Sing
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	matinée	matinée	NOUN	_	_	14	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	subj	_	_
+19	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	subj	_	_
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod	_	_
 21	retourné	retourner	VERB	_	VerbForm=Part|Voice=Act	20	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 22	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
@@ -528,7 +527,7 @@
 24	,	,	PUNCT	_	_	28	punct	_	_
 25	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
-27	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	28	subj	_	_
+27	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	28	subj	_	_
 28	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	mod	_	_
 29	pas	pas	ADV	_	Polarity=Neg	28	mod	_	_
 30	combien	combien	ADV	_	_	28	comp:obj	_	_
@@ -561,7 +560,7 @@
 # text = Je savais pas que, euh, qu'on prenait autant de temps, euh, pour tourner une scène.
 # sent_id = ParisStories_2019_journeeTournage_17
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
-1	Je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+1	Je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	savais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
 4	que	que	SCONJ	_	_	2	comp:obj	_	SpaceAfter=No
@@ -569,7 +568,7 @@
 6	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	qu'	que	SCONJ	_	_	4	conj:dicto	_	SpaceAfter=No
-9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
+9	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
 10	prenait	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	comp:obj	_	_
 11	autant	autant	ADV	_	_	10	comp:obj	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	_
@@ -593,7 +592,7 @@
 5	mid~	mid~	X	_	ExtPos=NOUN|Gender=Masc|Number=Sing	4	comp:obj	_	_
 6	à	à	ADP	_	_	4	conj:dicto	_	_
 7	midi	midi	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
+8	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 10	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	11	mod	_	_
 11	ensemble	ensemble	ADV	_	_	9	mod	_	SpaceAfter=No
@@ -608,7 +607,7 @@
 # text = il y avait un un petit buffet.
 # sent_id = ParisStories_2019_journeeTournage_19
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
-1	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -679,19 +678,19 @@
 1	Et	et	CCONJ	_	_	6	cc	_	_
 2	donc	donc	ADV	_	_	1	cc	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	6	dislocated:subj	_	_
-5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
+4	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	6	dislocated:subj	_	_
+5	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	en	en	ADP	_	_	6	comp:pred	_	_
 8	arrière-plan	arrière-plan	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-9	en	en	ADP	_	_	6	discourse	_	_
-10	fait	fait	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+9	en	en	ADP	_	ExtPos=ADV	6	discourse	_	Idiom=Yes
+10	fait	fait	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	6	punct	_	_
 
 # text = on était sur la Promenade des Anglais,
 # sent_id = ParisStories_2019_journeeTournage_23
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
-1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
+1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	sur	sur	ADP	_	_	2	comp:pred	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -722,8 +721,8 @@
 15	plus	plus	ADV	_	_	16	mod	_	_
 16	bas	bas	ADJ	_	Gender=Masc	8	mod	_	Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	2	punct	_	_
-18	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	20	dislocated:subj	_	_
-19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	subj	_	_
+18	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	20	dislocated:subj	_	_
+19	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	subj	_	_
 20	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 21	obligé	obliger	VERB	_	VerbForm=Part|Voice=Pass	20	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 22	de	de	ADP	_	_	21	comp:obl	_	_
@@ -735,7 +734,7 @@
 28	pour	pour	ADP	_	_	25	conj:dicto	_	_
 29	montrer	montrer	VERB	_	VerbForm=Inf	28	comp:obj	_	Subject=NoRaising
 30	qu'	que	SCONJ	_	_	29	comp:obj	_	SpaceAfter=No
-31	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	subj@expl	_	_
+31	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	subj@expl	_	_
 32	y	y	PRON	_	Person=3|PronType=Prs	33	comp@expl	_	_
 33	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	comp:obj	_	_
 34	de	de	ADP	_	ExtPos=DET	36	det	_	Idiom=Yes
@@ -747,7 +746,7 @@
 40	que	que	SCONJ	_	_	39	comp:obj	_	_
 41	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	42	subj	_	_
 42	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	comp:obj	_	_
-43	naturel	naturel	ADJ	_	Gender=Masc|Number=Sing	42	comp:pred	_	SpaceAfter=No
+43	naturel	naturel	ADJ	_	_	42	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 44	,	,	PUNCT	_	_	47	punct	_	_
 45	quoi	quoi	INTJ	_	_	47	discourse	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	45	punct	_	_
@@ -779,7 +778,7 @@
 # text = j'étais assise sur une chaise pendant pendant tout l'après-midi et euh.
 # sent_id = ParisStories_2019_journeeTournage_26
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
-1	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
+1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	assise	asseoir	VERB	_	Gender=Fem|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	Number[ctxt]=Sing|Tense[denom]=Past
 4	sur	sur	ADP	_	_	3	mod	_	_
@@ -799,7 +798,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
 1	Et	et	CCONJ	_	_	4	cc	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
-3	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	regardais	regarder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	_
 6	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
@@ -814,7 +813,7 @@
 # text = je voyais toutes les caméras, tous les ingénieurs sons, euh, les assistantes.
 # sent_id = ParisStories_2019_journeeTournage_28
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
-1	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	voyais	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	toutes	tout	ADJ	_	Gender=Fem	5	mod	_	Number[ctxt]=Plur
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	5	det	_	_
@@ -837,7 +836,7 @@
 1	Y	y	PRON	_	Person=3|PronType=Prs	2	mod	_	_
 2	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	deux	deux	NUM	_	ExtPos=DET	5	det	_	Number[lex]=Plur
-4	petits	petit	ADJ	_	Gender=Masc	5	mod	_	Number[ctxt]=Plur
+4	petits	petit	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	_
 5	acteurs	_	NOUN	_	Number=Plur	2	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
@@ -874,17 +873,17 @@
 38	pendant	pendant	ADP	_	_	33	mod	_	_
 39	pendant	pendant	ADP	_	ExtPos=ADV	38	conj:dicto	_	Idiom=Yes
 40	qu'	que	SCONJ	_	_	39	unk	_	InIdiom=Yes|SpaceAfter=No
-41	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	42	subj	_	_
+41	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	42	subj	_	_
 42	attendaient	attendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	39	comp:obj	_	_
 43	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	44	det	_	_
 44	scène	scène	NOUN	_	_	42	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 45	,	,	PUNCT	_	_	49	punct	_	_
 46	euh	euh	INTJ	_	_	49	discourse	_	SpaceAfter=No
 47	,	,	PUNCT	_	_	46	punct	_	_
-48	les	eux	PRON	_	Emph=No|Number=Plur|Person=3|PronType=Prs	49	comp:obj	_	_
+48	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	49	comp:obj	_	_
 49	recoiffer	recoiffer	VERB	_	VerbForm=Inf	33	conj:dicto	_	SpaceAfter=No|Subject=ObjRaising
 50	,	,	PUNCT	_	_	52	punct	_	_
-51	les	eux	PRON	_	Emph=No|Number=Plur|Person=3|PronType=Prs	52	comp:obj	_	_
+51	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	52	comp:obj	_	_
 52	remaquiller	remaquiller	VERB	_	VerbForm=Inf	49	conj:coord	_	SpaceAfter=No|Subject=ObjRaising
 53	,	,	PUNCT	_	_	55	punct	_	_
 54	tout	tout	ADJ	_	Gender=Masc	55	mod	_	Number[ctxt]=Sing
@@ -902,6 +901,6 @@
 6	donc	donc	ADV	_	_	8	mod	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	SpaceAfter=No
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-9	cool	cool	ADJ	_	Gender=Masc|Number=Sing	8	comp:pred	_	SpaceAfter=No
+9	cool	cool	ADJ	_	_	8	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	_	_
 
