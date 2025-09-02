@@ -142,7 +142,7 @@
 29	pas	pas	ADV	_	Polarity=Neg	28	mod	_	_
 30	pourquoi	pourquoi	ADV	_	_	28	comp:obj	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	28	punct	_	_
-32	pétait	péter	VERB	_	Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	mod	_	_
+32	pétait	péter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	mod	_	_
 33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	câble	câble	NOUN	_	_	32	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 35	.	.	PUNCT	_	_	6	punct	_	_
@@ -154,7 +154,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	commencé	commencer	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 4	à	à	ADP	_	_	3	comp:obl	_	_
-5	me	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	6	comp:obj	_	_
+5	me	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	6	comp:obl	_	_
 6	griffer	griffer	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	f~	f~	X	_	_	6	comp:obj	_	SpaceAfter=No
@@ -195,7 +195,7 @@
 # text = il m'a mordu le front.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/c9484fe7c8a06eb33e567d830ded3d0eae77a4c6
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
-2	m'	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	4	comp:obj	_	SpaceAfter=No
+2	m'	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	4	comp:obl	_	SpaceAfter=No
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	mordu	mordre	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -366,7 +366,7 @@
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	comp:obj	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	peu	peu	NOUN	_	Number=Sing	8	mod	_	Gender[lex]=Masc
-8	bizarre	bizarre	ADJ	_	_	4	comp:obj	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+8	bizarre	bizarre	ADJ	_	_	4	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_loulouLeChat_21
@@ -612,7 +612,7 @@
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 4	impression	impression	NOUN	_	_	2	comp:obj@lvc	_	Gender[lex]=Fem|Number[ctxt]=Sing
 5	qu'	que	SCONJ	_	_	4	udep	_	SpaceAfter=No
-6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj@scrap	_	SpaceAfter=No
+6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	unk@scrap	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	15	punct	_	_
 8	enfin	enfin	ADV	_	ExtPos=INTJ	15	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
