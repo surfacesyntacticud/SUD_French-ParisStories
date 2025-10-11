@@ -20,7 +20,7 @@
 4	euh	euh	INTJ	_	_	38	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	quand	quand	SCONJ	_	_	31	mod	_	_
-7	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	subj	_	SpaceAfter=No
+7	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	subj	_	Emph=No|SpaceAfter=No
 8	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
@@ -46,7 +46,7 @@
 30	,	,	PUNCT	_	_	6	punct	_	_
 31	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	38	dislocated:subj	_	_
 32	que	que	PRON	_	PronType=Rel	34	comp:obj	_	_
-33	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	34	subj	_	SpaceAfter=No
+33	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	subj	_	Emph=No|SpaceAfter=No
 34	aimais	aimer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	31	mod@relcl	_	_
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	plus	plus	ADV	_	_	34	mod	_	_
@@ -58,7 +58,7 @@
 42	et	et	CCONJ	_	_	45	cc	_	_
 43	surtout	surtout	ADV	_	_	45	mod	_	_
 44	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	45	det	_	_
-45	maths	maths	NOUN	_	Number=Plur	40	conj:coord	_	Gender[lex]=Fem|SpaceAfter=No
+45	maths	maths	NOUN	_	_	40	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 46	.	.	PUNCT	_	_	38	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_3
@@ -67,7 +67,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	5	det	_	_
-4	grande	grand	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
+4	grande	grand	ADJ	_	Gender=Fem	5	mod	_	Number[ctxt]=Sing
 5	passion	passion	NOUN	_	_	2	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
 6	et	et	CCONJ	_	_	7	cc	_	InIdiom=Yes
 7	tout	tout	ADV	_	ExtPos=ADV	5	conj:coord	_	Idiom=Yes|SpaceAfter=No
@@ -76,7 +76,7 @@
 10	.	.	PUNCT	_	_	14	punct	_	_
 11	)	)	PUNCT	_	_	14	punct	_	_
 12	et	et	CCONJ	_	_	14	cc	_	_
-13	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	subj	_	_
+13	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	subj	_	Emph=No
 14	savais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	conj:coord	_	_
 15	pas	pas	ADV	_	Polarity=Neg	14	mod	_	_
 16-17	du	_	_	_	_	_	_	_	_
@@ -86,7 +86,7 @@
 19	quoi	quoi	PRON	_	Person=3|PronType=Int	20	comp:obj	_	_
 20	faire	faire	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
 21	quand	quand	SCONJ	_	_	14	mod	_	_
-22	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	23	subj	_	SpaceAfter=No
+22	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	subj	_	Emph=No|SpaceAfter=No
 23	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
 24	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	23	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 25	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	26	det	_	_
@@ -104,11 +104,11 @@
 6	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	_
 7	maman	maman	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
-9	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
+9	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	Emph=No
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	demandé	demander	VERB	_	VerbForm=Part|Voice=Act	10	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	InIdiom=Yes
-13	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	11	mod	_	Gender[lex]=Masc|Idiom=Yes
+13	peu	peu	NOUN	_	ExtPos=ADV	11	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 14	conseil	conseil	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 15	à	à	ADP	_	_	11	comp:obl	_	_
 16	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	_
@@ -121,10 +121,10 @@
 # sent_id = ParisStories_2019_prepaScientifique_5
 # text = ils ont un peu tous conseillé de faire une prépa, une prépa scientifique.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
-1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
+1	ils	lui	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	Emph=No
 2	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	InIdiom=Yes
-4	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	6	mod	_	Gender[lex]=Masc|Idiom=Yes
+4	peu	peu	NOUN	_	ExtPos=ADV	6	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 5	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	6	mod	_	_
 6	conseillé	conseiller	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 7	de	de	ADP	_	_	6	comp:obl	_	_
@@ -144,13 +144,13 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	12	discourse	_	SpaceAfter=No
+5	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	discourse	_	Emph=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	XXX	XXX	X	_	_	5	conj:dicto	_	SpaceAfter=No|wordform=X
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	enfin	enfin	ADV	_	ExtPos=INTJ	12	discourse	_	_
 10	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	_
-11	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	12	comp:obl	_	_
+11	me	moi	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	12	comp:obl	_	Emph=No
 12	semblait	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 13	parfait	parfait	ADJ	_	Gender=Masc	12	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
@@ -178,7 +178,7 @@
 36	à	à	ADP	_	_	35	comp:obl	_	_
 37	faire	faire	VERB	_	VerbForm=Inf	36	comp:obj	_	Subject=NoRaising
 38	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	InIdiom=Yes
-39	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	40	mod	_	Gender[lex]=Masc|Idiom=Yes
+39	peu	peu	NOUN	_	ExtPos=ADV	40	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 40	de	de	ADP	_	_	37	comp:obj	_	_
 41	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	40	comp:obj	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	12	punct	_	_
@@ -190,10 +190,10 @@
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	SpaceAfter=No
+5	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	Emph=No|SpaceAfter=No
 6	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	hyper	hyper	ADV	_	_	8	mod	_	_
-8	fière	fier	ADJ	_	Gender=Fem|Number=Sing	6	comp:pred	_	_
+8	fière	fier	ADJ	_	_	6	comp:pred	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
 9	d'	de	ADP	_	_	8	mod	_	SpaceAfter=No
 10	aller	aller	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
 11	en	en	ADP	_	_	10	comp:obl	_	_
@@ -214,14 +214,14 @@
 8	de	de	ADP	_	_	5	mod	_	_
 9	continuer	continuer	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=NoRaising
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
-11	maths	maths	NOUN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Fem|SpaceAfter=No
+11	maths	maths	NOUN	_	_	9	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	et	et	CCONJ	_	ExtPos=CCONJ	15	cc	_	Idiom=Yes
 14	puis	puis	CCONJ	_	_	13	unk	_	InIdiom=Yes
 15	de	de	ADP	_	_	8	conj:coord	_	_
 16	pouvoir	pouvoir	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=NoRaising
 17	se	soi	PRON	_	Person=3|PronType=Prs	19	comp@expl	_	_
-18	la	lui	PRON	_	Case=Acc|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	_
+18	la	lui	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	Emph=No
 19	péter	péter	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=NoRaising
 20	tout	tout	ADJ	_	Gender=Masc	21	mod	_	Number[ctxt]=Sing
 21	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	conj:coord	_	SpaceAfter=No
@@ -231,7 +231,7 @@
 # text = donc je suis allée en prépa, à Saint-Louis à Paris.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	donc	donc	ADV	_	_	3	mod	_	_
-2	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+2	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	Emph=No
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	allée	aller	VERB	_	VerbForm=Part	3	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
 5	en	en	ADP	_	_	4	comp:obl	_	_
@@ -261,12 +261,12 @@
 13	fait	fait	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	9	punct	_	_
 15	ni	ni	CCONJ	_	_	16	cc	_	_
-16	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	6	comp:pred	_	_
+16	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	comp:pred	_	Emph=Yes
 17	ni	ni	CCONJ	_	_	19	cc	_	_
 18	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	_
 19	famille	famille	NOUN	_	_	16	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
-21	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	subj	_	_
+21	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	subj	_	Emph=No
 22	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj:coord	_	_
 23	réfléchi	réfléchir	VERB	_	VerbForm=Part|Voice=Act	22	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 24	à	à	ADP	_	_	23	comp:obj	_	_
@@ -285,7 +285,7 @@
 # sent_id = ParisStories_2019_prepaScientifique_11
 # text = on s'était pas de le tout rendu compte de ça.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
-1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
+1	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	Emph=No
 2	s'	soi	PRON	_	Person=3|PronType=Prs	8	comp@expl	_	SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	8	mod	_	_
@@ -308,8 +308,8 @@
 5	enfin	enfin	ADV	_	ExtPos=INTJ	7	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	1	conj:dicto	_	_
-8	nous	nous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=1|PronType=Prs	12	comp:obl	_	_
-9	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	SpaceAfter=No
+8	nous	nous	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	12	comp:obl	_	Emph=No
+9	l'	lui	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	Emph=No|SpaceAfter=No
 10	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
 12	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	10	comp:aux@tense	_	Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
@@ -318,7 +318,7 @@
 # sent_id = ParisStories_2019_prepaScientifique_13
 # text = on s'était pas renseigné non plus, enfin voilà.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
-1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
+1	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	Emph=No
 2	s'	soi	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
@@ -337,7 +337,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	_
+5	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	Emph=No
 6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	arrivée	arriver	VERB	_	VerbForm=Part	6	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
 8	là-dedans	là-dedans	ADV	_	_	7	mod	_	_
@@ -367,7 +367,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	ben	ben	INTJ	_	_	6	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	6	punct	_	_
-12	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	subj	_	SpaceAfter=No
+12	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	subj	_	Emph=No|SpaceAfter=No
 13	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 15	que	que	ADV	_	Polarity=Neg	16	mod	_	_
@@ -383,11 +383,11 @@
 25	,	,	PUNCT	_	_	23	punct	_	_
 26	euh	euh	INTJ	_	_	29	discourse	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	_
-28	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	29	subj	_	_
+28	tu	toi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	29	subj	_	Emph=No
 29	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	comp:obj	_	_
 30	pas	pas	ADV	_	Polarity=Neg	29	mod	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	temps	temps	NOUN	_	Number=Sing	29	comp:obj	_	Gender[lex]=Masc
+32	temps	temps	NOUN	_	_	29	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 33	de	de	ADP	_	_	32	udep	_	_
 34	réfléchir	réfléchir	VERB	_	VerbForm=Inf	33	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 35	,	,	PUNCT	_	_	36	punct	_	_
@@ -402,7 +402,7 @@
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	voilà	voilà	VERB	_	ExtPos=INTJ	7	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	7	subj	_	_
+6	tu	toi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	subj	_	Emph=No
 7	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
 8	que	que	ADV	_	Polarity=Neg	9	mod	_	_
 9	bosser	bosser	VERB	_	VerbForm=Inf	7	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
@@ -411,7 +411,7 @@
 # sent_id = ParisStories_2019_prepaScientifique_17
 # text = tu as pas de vie sociale.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	subj	_	_
+1	tu	toi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	subj	_	Emph=No
 2	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
 4	de	de	ADP	_	_	2	comp:obj	_	_
@@ -423,7 +423,7 @@
 # text = donc j'ai travaillé, travaillé, travaillé, beaucoup pleuré, c'était horrible.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	donc	donc	ADV	_	_	3	mod	_	_
-2	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
+2	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	Emph=No|SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	travaillé	travailler	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 5	,	,	PUNCT	_	_	6	punct	_	_
@@ -455,11 +455,11 @@
 11	gros	gros	ADJ	_	Gender=Masc	10	comp:obj	_	Number[ctxt]=Sing
 12	après	après	ADV	_	_	5	conj:dicto	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	5	punct	_	_
-14	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	15	subj	_	SpaceAfter=No
+14	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	subj	_	Emph=No|SpaceAfter=No
 15	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	passé	passer	VERB	_	VerbForm=Part|Voice=Act	15	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
-18	concours	concours	NOUN	_	Number=Plur	16	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
+18	concours	concours	NOUN	_	_	16	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 19	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_20
@@ -473,7 +473,7 @@
 6	et	et	CCONJ	_	_	10	cc	_	_
 7	ben	ben	INTJ	_	_	10	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
-9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	10	subj@expl	_	_
+9	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	10	subj@expl	_	Emph=No
 10	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	donc	donc	ADV	_	_	10	mod	_	_
 12	classer	classer	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=NoRaising
@@ -481,7 +481,7 @@
 14	écoles	école	NOUN	_	_	12	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	InIdiom=Yes
-17	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	18	mod	_	Gender[lex]=Masc|Idiom=Yes
+17	peu	peu	NOUN	_	ExtPos=ADV	18	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 18	comme	comme	SCONJ	_	_	12	mod	_	_
 19	dans	dans	ADP	_	_	18	comp:obj	_	_
 20	APB	APB	PROPN	_	_	19	comp:obj	_	Gender[lex]=Unknown
@@ -507,7 +507,7 @@
 4	là	là	ADV	_	_	3	comp:pred	_	_
 5	que	que	SCONJ	_	_	3	comp:cleft	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
-7	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
+7	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	Emph=No
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Filler=mod
 9	commencé	commencer	VERB	_	VerbForm=Part|Voice=Act	8	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 10	à	à	ADP	_	_	9	comp:obl	_	_
@@ -523,7 +523,7 @@
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	XXX	XXX	X	_	_	19	conj:coord	_	wordform=X
-23	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	subj	_	_
+23	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	subj	_	Emph=No
 24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:dicto	_	_
 25	commencé	commencer	VERB	_	VerbForm=Part|Voice=Act	24	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 26	à	à	ADP	_	_	25	comp:obl	_	_
@@ -543,7 +543,7 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg|Shared=No	5	subj	_	_
 3	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
-4	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	5	comp:obl	_	_
+4	me	moi	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	comp:obl	_	Emph=No
 5	plaisait	plaire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	ni	ni	CCONJ	_	_	9	cc	_	_
@@ -577,13 +577,13 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	premier	premier	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
+3	premier	premier	ADJ	_	Gender=Masc	4	mod	_	Number[ctxt]=Sing
 4	moment	moment	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	InIdiom=Yes
-6	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	7	mod	_	Gender[lex]=Masc|Idiom=Yes
+6	peu	peu	NOUN	_	ExtPos=ADV	7	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 7	de	de	ADP	_	_	4	udep	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
-9	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	subj	_	_
+9	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	Emph=No
 10	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	discourse	_	_
 11	pas	pas	ADV	_	Polarity=Neg	10	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
@@ -600,7 +600,7 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	SpaceAfter=No
+5	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	Emph=No|SpaceAfter=No
 6	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
 8	envie	envie	NOUN	_	_	6	comp:obj@lvc	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -612,19 +612,19 @@
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	parce	parce	ADV	_	ExtPos=SCONJ	6	mod	_	Idiom=Yes
 16	que	que	SCONJ	_	_	15	unk	_	InIdiom=Yes
-17	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	subj	_	_
+17	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	subj	_	Emph=No
 18	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	_
 19	deux	deux	NUM	_	ExtPos=DET	20	det	_	Number[lex]=Plur
 20	ans	an	NOUN	_	_	18	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 21	de	de	ADP	_	_	20	udep	_	_
 22	prépa	prépa	NOUN	_	_	21	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
-24	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	25	subj	_	_
+24	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	25	subj	_	Emph=No
 25	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj:coord	_	_
 26	à	à	ADP	_	_	25	mod	_	_
 27	mort	mort	NOUN	_	_	26	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
-29	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	30	subj	_	_
+29	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	30	subj	_	Emph=No
 30	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj:coord	_	_
 31	pas	pas	ADV	_	Polarity=Neg	30	mod	_	_
 32	envie	envie	NOUN	_	_	30	comp:obj@lvc	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -652,7 +652,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	donc	donc	ADV	_	_	4	mod	_	_
-3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
+3	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	Emph=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	trouvé	trouver	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 6	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem|Shared=No	7	det	_	_
@@ -717,7 +717,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	_
+5	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	Emph=No
 6	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	d'	de	ADP	_	_	6	comp:obl	_	SpaceAfter=No
 8	aller	aller	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
@@ -732,7 +732,7 @@
 3	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	donc	donc	ADV	_	_	7	cc	_	_
-6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	_
+6	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	subj	_	Emph=No
 7	pars	partir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	là-bas	là-bas	ADV	_	_	7	mod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
@@ -742,15 +742,15 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	première	premier	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	_
+3	première	premier	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	Liaison=Yes
 4	année	année	NOUN	_	_	12	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 5	d'	de	ADP	_	_	4	udep	_	SpaceAfter=No
 6	école	école	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 7	d'	de	ADP	_	_	6	udep	_	SpaceAfter=No
-8	ingé	ingé	NOUN	_	Number=Sing	7	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
+8	ingé	ingé	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	_
-10	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	12	subj	_	_
-11	m'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	12	comp@expl	_	SpaceAfter=No
+10	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	subj	_	Emph=No
+11	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	comp@expl	_	Emph=No|SpaceAfter=No
 12	ennuie	ennuyer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	22	punct	_	_
 14	mais	mais	CCONJ	_	_	22	cc	_	SpaceAfter=No
@@ -764,7 +764,7 @@
 22	ennuie	ennuyer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj:coord	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	InIdiom=Yes
 24	petit	petit	ADJ	_	Gender=Masc	25	mod	_	InIdiom=Yes|Number[ctxt]=Sing
-25	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	22	mod	_	Gender[lex]=Masc|Idiom=Yes|SpaceAfter=No
+25	peu	peu	NOUN	_	ExtPos=ADV	22	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	parce	parce	ADV	_	ExtPos=SCONJ	22	mod	_	Idiom=Yes
 28	que	que	SCONJ	_	_	27	unk	_	InIdiom=Yes
@@ -782,7 +782,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	voilà	voilà	VERB	_	ExtPos=INTJ	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	4	subj	_	_
+3	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	4	subj	_	Emph=No
 4	refait	refaire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 6	mêmes	même	ADJ	_	_	7	mod	_	Gender[ctxt]=Fem|Number[ctxt]=Plur
@@ -810,7 +810,7 @@
 # text = mais on s'amuse beaucoup, c'est l'école d'ingénieur, euh, le retour des, de la vie sociale, de les amis, et tout ça, donc ça c'était chouette.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	mais	mais	CCONJ	_	_	4	cc	_	_
-2	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
+2	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	Emph=No
 3	s'	soi	PRON	_	Person=3|PronType=Prs	4	comp@expl	_	SpaceAfter=No
 4	amuse	amuser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	beaucoup	beaucoup	ADV	_	_	4	mod	_	SpaceAfter=No
@@ -854,7 +854,7 @@
 # text = donc première année OK.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	donc	donc	ADV	_	_	3	mod	_	_
-2	première	premier	ADJ	_	Gender=Fem|Number=Sing	3	mod	_	_
+2	première	premier	ADJ	_	Gender=Fem|Number=Sing	3	mod	_	Liaison=Yes
 3	année	année	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing
 4	OK	ok	ADV	_	_	3	mod	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
@@ -862,7 +862,7 @@
 # sent_id = ParisStories_2019_prepaScientifique_34
 # text = je fais un stage en, en océanographie, enfin en océanographie spatiale à Toulouse, euh, pendant un mois.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
-1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+1	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	Emph=No
 2	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	stage	stage	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -882,7 +882,7 @@
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	pendant	pendant	ADP	_	_	2	mod	_	_
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	mois	mois	NOUN	_	Number=Sing	19	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
+21	mois	mois	NOUN	_	_	19	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 22	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_35
@@ -901,10 +901,10 @@
 11	vocation	vocation	NOUN	_	_	8	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	18	punct	_	_
 13	enfin	enfin	ADV	_	ExtPos=INTJ	18	discourse	_	_
-14	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	18	subj	_	SpaceAfter=No
+14	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	subj	_	Emph=No|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	conj:dicto	_	_
-17	me	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	18	comp@expl	_	_
+16	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	conj:dicto	_	Emph=No
+17	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	comp@expl	_	Emph=No
 18	découvre	découvrir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj:dicto	_	_
 19	pas	pas	ADV	_	Polarity=Neg	18	mod	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -929,10 +929,10 @@
 6	donc	donc	ADV	_	_	10	mod	_	_
 7	ensuite	ensuite	ADV	_	_	10	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
+9	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	Emph=No
 10	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-12	deuxième	deuxième	ADJ	_	_	13	mod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+12	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	Liaison=Yes
 13	année	année	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	très	très	ADV	_	_	16	mod	_	_
@@ -942,7 +942,7 @@
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	où	où	PRON	_	PronType=Rel	23	mod	_	_
 21	là	là	ADV	_	_	23	mod	_	_
-22	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	23	subj	_	_
+22	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	23	subj	_	Emph=No
 23	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	_
 24	à	à	ADP	_	_	23	comp:obl	_	_
 25	se	soi	PRON	_	Person=3|PronType=Prs	26	comp:obj	_	_
@@ -960,7 +960,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	là	là	ADV	_	_	2	conj:dicto	_	_
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	_
-6	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	9	comp:obl	_	SpaceAfter=No
+6	m'	moi	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	comp:obl	_	Emph=No|SpaceAfter=No
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
 9	plu	plaire	VERB	_	VerbForm=Part|Voice=Act	7	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
@@ -977,25 +977,25 @@
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	SpaceAfter=No
 7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
-9	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	10	mod@scrap	_	Gender[lex]=Masc|Idiom=Yes
+9	peu	peu	NOUN	_	ExtPos=ADV	10	mod@scrap	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	comp:pred@scrap	_	_
 11	oh	oh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
-13	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	15	subj	_	_
-14	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	16	comp:obl	_	SpaceAfter=No
+13	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	subj	_	Emph=No
+14	m'	moi	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	16	comp:obl	_	Emph=No|SpaceAfter=No
 15	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	conj:dicto	_	_
 16	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	15	comp:aux@pass	_	Number[ctxt]=Sing|Tense[denom]=Past
 17	que	que	SCONJ	_	_	16	comp:obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	24	punct	_	_
 19	oh	oh	INTJ	_	_	24	discourse	_	_
 20	en	en	ADP	_	_	24	mod	_	_
-21	deuxième	deuxième	ADJ	_	_	22	mod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+21	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	22	mod	_	Liaison=Yes
 22	année	année	NOUN	_	_	20	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 23	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	24	subj	_	SpaceAfter=No
 24	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
 25	cool	cool	ADJ	_	_	24	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 26	,	,	PUNCT	_	_	28	punct	_	_
-27	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	28	subj	_	_
+27	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	28	subj	_	Emph=No
 28	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj:coord	_	_
 29	se	soi	PRON	_	Person=3|PronType=Prs	30	comp:obj	_	_
 30	spécialiser	spécialiser	VERB	_	VerbForm=Inf	28	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
@@ -1017,7 +1017,7 @@
 46	euh	euh	INTJ	_	_	50	discourse	_	SpaceAfter=No
 47	,	,	PUNCT	_	_	46	punct	_	_
 48	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	50	subj	_	_
-49	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	52	comp:obl	_	SpaceAfter=No
+49	m'	moi	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	52	comp:obl	_	Emph=No|SpaceAfter=No
 50	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	conj:coord	_	_
 51	pas	pas	ADV	_	Polarity=Neg	52	mod	_	_
 52	plu	plaire	VERB	_	VerbForm=Part|Voice=Act	50	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
@@ -1037,7 +1037,7 @@
 9	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	sur	sur	ADP	_	_	7	udep	_	_
-12	ordis	ordi	NOUN	_	Number=Plur	11	comp:obj	_	Gender[lex]=Masc
+12	ordis	ordi	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 13	machin	machin	NOUN	_	ExtPos=INTJ	12	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	24	punct	_	_
 15	euh	euh	INTJ	_	_	24	discourse	_	SpaceAfter=No
@@ -1060,12 +1060,12 @@
 # text = puisqu'on avait un bateau, on faisait plein de projets en mer.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	puisqu'	puisque	SCONJ	_	_	8	mod	_	SpaceAfter=No
-2	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
+2	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	Emph=No
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	comp:obj	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	bateau	bateau	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
-7	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
+7	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	Emph=No
 8	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	plein	plein	ADV	_	_	11	mod	_	_
 10	de	de	ADP	_	_	9	comp:obl	_	_
@@ -1089,7 +1089,7 @@
 10	fait	fait	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
 12	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	subj	_	_
-13	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	14	comp:obl	_	_
+13	me	moi	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	14	comp:obl	_	Emph=No
 14	plaisait	plaire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj:coord	_	_
 15	pas	pas	ADV	_	Polarity=Neg	14	mod	_	_
 16	non	non	ADV	_	ExtPos=ADV|Polarity=Neg	14	mod	_	Idiom=Yes
@@ -1109,6 +1109,6 @@
 8	panique	panique	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	InIdiom=Yes
 10	petit	petit	ADJ	_	Gender=Masc	11	mod	_	InIdiom=Yes|Number[ctxt]=Sing
-11	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	4	mod	_	Gender[lex]=Masc|Idiom=Yes|SpaceAfter=No
+11	peu	peu	NOUN	_	ExtPos=ADV	4	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 

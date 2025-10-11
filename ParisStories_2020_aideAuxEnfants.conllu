@@ -18,13 +18,13 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	_
+6	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	subj	_	Emph=No
 7	partais	partir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	trois	trois	NUM	_	ExtPos=DET	9	det	_	Number[lex]=Plur
 9	semaines	semaine	NOUN	_	_	7	mod	_	Gender[lex]=Fem|Number[ctxt]=Plur
 10	par	par	ADP	_	_	7	mod	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	biais	biais	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
+12	biais	biais	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 13	d'	de	ADP	_	_	12	mod	_	SpaceAfter=No
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	colonie	colonie	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -94,14 +94,14 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	pour	pour	ADP	_	_	7	mod	_	_
 5	cela	cela	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	comp:obj	_	_
-6	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	_
+6	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	Emph=No
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	aide	aide	NOUN	_	_	7	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	d'	de	ADP	_	_	8	comp:obl	_	SpaceAfter=No
 10	enfants	enfant	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	de	de	ADP	_	_	9	conj:coord	_	_
-13	jeunes	jeune	ADJ	_	Number=Plur	14	mod	_	Gender[ctxt]=Masc
+13	jeunes	jeune	ADJ	_	Gender=Masc|Number=Plur	14	mod	_	Liaison=Yes
 14	adolescents	adolescent	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
@@ -152,7 +152,7 @@
 13	entre	entre	ADP	_	_	11	mod	_	_
 14	guillemets	guillemet	NOUN	_	_	13	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 15	,	,	PUNCT	_	_	7	punct	_	_
-16	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	subj	_	SpaceAfter=No
+16	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	subj	_	Emph=No|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
@@ -168,7 +168,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 1	c'est-à-dire	c'est-à-dire	CCONJ	_	ExtPos=CCONJ	4	cc	_	Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
-3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
+3	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	Emph=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	bouché	boucher	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -178,7 +178,7 @@
 # sent_id = ParisStories_2020_aideAuxEnfants_8
 # text = on a, euh, repeint les murs.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
-1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
+1	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	Emph=No
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
@@ -191,7 +191,7 @@
 # sent_id = ParisStories_2020_aideAuxEnfants_9
 # text = on a essayé de rendre les classes un petit peu plus jolies que ce qu'elles n'étaient.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
-1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
+1	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	Emph=No
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	essayé	essayer	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 4	de	de	ADP	_	_	3	comp:obl	_	_
@@ -200,13 +200,13 @@
 7	classes	classe	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	InIdiom=Yes
 9	petit	petit	ADJ	_	Gender=Masc	10	mod	_	InIdiom=Yes|Number[ctxt]=Sing
-10	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	11	mod	_	Gender[lex]=Masc|Idiom=Yes
+10	peu	peu	NOUN	_	ExtPos=ADV	11	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 11	plus	plus	ADV	_	_	12	mod	_	_
 12	jolies	joli	ADJ	_	_	7	mod	_	Gender[ctxt]=Fem|Number[ctxt]=Plur
 13	que	que	SCONJ	_	_	11	comp:obj	_	_
 14	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	comp:obj	_	_
 15	qu'	que	PRON	_	PronType=Rel	18	comp:pred	_	SpaceAfter=No
-16	elles	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|Person=3|PronType=Prs	18	subj	_	_
+16	elles	lui	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	18	subj	_	Emph=No
 17	n'	ne	ADV	_	_	18	mod	_	SpaceAfter=No
 18	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	mod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
@@ -223,19 +223,19 @@
 7	de	de	ADP	_	_	6	comp:obl	_	_
 8	cela	cela	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	_
-10	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	11	subj	_	_
+10	nous	nous	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	subj	_	Emph=No
 11	avons	avoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	21	punct	_	_
 13	dans	dans	ADP	_	_	21	mod	_	_
 14	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
-15	première	premier	ADJ	_	Gender=Fem|Number=Sing	16	mod	_	_
+15	première	premier	ADJ	_	Gender=Fem	16	mod	_	Number[ctxt]=Sing
 16	partie	partie	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	mod	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	voyage	voyage	NOUN	_	_	17	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 20	,	,	PUNCT	_	_	13	punct	_	_
-21	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	22	subj	_	_
+21	nous	nous	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	subj	_	Emph=No
 22	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	conj:dicto	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
@@ -265,10 +265,10 @@
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	comp:obl	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	temps	temps	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc
-8	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	subj	_	_
+7	temps	temps	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+8	ils	lui	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	subj	_	Emph=No
 9	créent	créer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
-10	eux-mêmes	eux-mêmes	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	9	mod	_	_
+10	eux-mêmes	eux-mêmes	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	9	mod	_	Emph=Yes
 11	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=No	12	det	_	_
 12	savon	savon	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	19	punct	_	_
@@ -305,7 +305,7 @@
 # sent_id = ParisStories_2020_aideAuxEnfants_13
 # text = j'ai bien aimé faire ça.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
-1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
+1	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	Emph=No|SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	bien	bien	ADV	_	_	2	mod	_	_
 4	aimé	aimer	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
@@ -343,7 +343,7 @@
 # sent_id = ParisStories_2020_aideAuxEnfants_15
 # text = on a mangé principalement du zébu.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
-1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
+1	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	Emph=No
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mangé	manger	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 4	principalement	principalement	ADV	_	_	3	mod	_	_
@@ -359,7 +359,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	bœuf	bœuf	NOUN	_	Number=Sing	2	comp:pred	_	Gender[lex]=Masc
+4	bœuf	bœuf	NOUN	_	_	2	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	malgache	malgache	ADJ	_	_	4	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -368,7 +368,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 1	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
+3	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	Emph=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	mangé	manger	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 6	aussi	aussi	ADV	_	_	5	mod	_	SpaceAfter=No
@@ -377,11 +377,11 @@
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	beaucoup	beaucoup	ADV	_	_	5	comp:obj	_	_
 11	de	de	ADP	_	_	10	udep	_	_
-12	riz	riz	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
+12	riz	riz	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	parce	parce	ADV	_	ExtPos=SCONJ	5	mod	_	Idiom=Yes
 15	qu'	que	SCONJ	_	_	14	unk	_	InIdiom=Yes|SpaceAfter=No
-16	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	subj@expl	_	_
+16	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	subj@expl	_	Emph=No
 17	y	y	PRON	_	Person=3|PronType=Prs	18	comp@expl	_	_
 18	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
 19	énormément	énormément	ADV	_	_	18	comp:obj	_	_
@@ -398,7 +398,7 @@
 2	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	et	et	CCONJ	_	_	1	conj:dicto	_	_
-5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	subj	_	_
+5	ils	lui	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	subj	_	Emph=No
 6	aiment	aimer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	beaucoup	beaucoup	ADV	_	_	6	mod	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
@@ -408,7 +408,7 @@
 # sent_id = ParisStories_2020_aideAuxEnfants_19
 # text = il y a beaucoup de bananes aussi, et de noix de coco.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+1	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	Emph=No
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	beaucoup	beaucoup	ADV	_	_	3	comp:obj	_	_
@@ -418,7 +418,7 @@
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	de	de	ADP	_	_	5	conj:coord	_	_
-11	noix	noix	NOUN	_	Number=Plur	10	comp:obj	_	Gender[lex]=Fem
+11	noix	noix	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 12	de	de	ADP	_	_	11	mod	_	_
 13	coco	coco	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
@@ -429,7 +429,7 @@
 1	ah	ah	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	de	de	ADP	_	_	0	root	_	_
-4	noix	noix	NOUN	_	Number=Plur	3	comp:obj	_	Gender[lex]=Fem
+4	noix	noix	NOUN	_	_	3	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 5	de	de	ADP	_	_	4	mod	_	_
 6	coco	coco	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
@@ -455,19 +455,19 @@
 15	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	subj@expl	_	_
 16	que	que	SCONJ	_	_	14	comp:pred	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
-18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj@expl	_	_
+18	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj@expl	_	Emph=No
 19	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
 20	que	que	SCONJ	_	_	19	comp:obj	_	_
-21	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	22	subj	_	_
+21	tu	toi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	subj	_	Emph=No
 22	surveilles	surveiller	VERB	_	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
 23	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	comp:obj	_	_
 24	que	que	PRON	_	PronType=Rel	26	comp:obj	_	_
-25	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	26	subj	_	_
+25	tu	toi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	26	subj	_	Emph=No
 26	manges	manger	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	mod@relcl	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	parce	parce	ADV	_	ExtPos=SCONJ	26	mod	_	Idiom=Yes
 29	que	que	SCONJ	_	_	28	unk	_	InIdiom=Yes
-30	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	31	subj	_	_
+30	tu	toi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	31	subj	_	Emph=No
 31	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	28	comp:obj	_	_
 32	rattraper	rattraper	VERB	_	VerbForm=Inf	31	comp:obj	_	Subject=SubjRaising
 33	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	34	det	_	_
@@ -481,12 +481,12 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 1	oui	oui	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
+3	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	Emph=No
 4	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
+8	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	Emph=No
 9	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	_
 10	attraper	attraper	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
 11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
@@ -498,7 +498,7 @@
 17	,	,	PUNCT	_	_	22	punct	_	_
 18	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
-20	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj@expl	_	_
+20	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj@expl	_	Emph=No
 21	ne	ne	ADV	_	Polarity=Neg	22	mod	_	_
 22	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj:coord	_	_
 23	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
@@ -546,7 +546,7 @@
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj@expl	_	_
 9	que	que	PRON	_	PronType=Rel	11	comp:obj	_	_
-10	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	11	subj	_	_
+10	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	Emph=No
 11	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	comp:cleft	_	Filler=obj
 12	dire	dire	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
 13	?	?	PUNCT	_	_	7	punct	_	_
@@ -564,10 +564,10 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	viande	viande	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	7	punct	_	_
-11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	_
+11	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	Emph=No
 12	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	qu'	que	SCONJ	_	_	12	comp:obj	_	SpaceAfter=No
-14	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	subj	_	_
+14	elle	lui	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	subj	_	Emph=No
 15	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
 16	bien	bien	ADV	_	_	17	mod	_	_
 17	cuite	cuit	ADJ	_	Gender=Fem	15	comp:pred	_	Number[ctxt]=Sing
@@ -587,7 +587,7 @@
 # sent_id = ParisStories_2020_aideAuxEnfants_26
 # text = il peut y avoir des choses à l'intérieur.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+1	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	Emph=No
 2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	y	y	PRON	_	Person=3|PronType=Prs	4	comp:obl	_	_
 4	avoir	avoir	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
@@ -603,7 +603,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 1	mais	mais	ADV	_	_	9	cc	_	_
 2	si	si	SCONJ	_	_	9	mod	_	_
-3	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+3	elle	lui	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	Emph=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	bien	bien	ADV	_	_	6	mod	_	_
 6	cuite	cuit	ADJ	_	Gender=Fem	4	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No

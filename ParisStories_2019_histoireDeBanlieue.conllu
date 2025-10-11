@@ -6,7 +6,7 @@
 1	de	de	ADP	_	_	5	discourse	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-4	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	subj	_	_
+4	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	Emph=No
 5	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	histoire	histoire	NOUN	_	_	5	comp:obl	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -18,7 +18,7 @@
 # speaker = non_native
 1	en	en	ADP	_	ExtPos=ADV	4	discourse	_	Idiom=Yes
 2	fait	fait	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
-3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
+3	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	Emph=No|SpaceAfter=No
 4	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	dans	dans	ADP	_	_	4	comp:obl	_	_
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -41,12 +41,12 @@
 4	propriétaire	propriétaire	NOUN	_	_	5	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	7	det	_	_
-7	Chinois	Chinois	NOUN	_	Number=Sing	5	comp:pred	_	Gender[lex]=Masc|SpaceAfter=No
+7	Chinois	Chinois	NOUN	_	_	5	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	enfin	enfin	ADV	_	ExtPos=INTJ	12	discourse	_	wordform=fin
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 11	euh	euh	INTJ	_	_	10	discourse	_	_
-12	Français-Chinois	Français-Chinois	NOUN	_	Number=Sing	7	conj:dicto	_	Gender[lex]=Masc|SpaceAfter=No
+12	Français-Chinois	Français-Chinois	NOUN	_	_	7	conj:dicto	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = et on est, on était six dans le maison.
@@ -54,10 +54,10 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/d50bf89027694d4326915ff6e90cc525b2e3ea00
 # speaker = non_native
 1	et	et	CCONJ	_	_	3	cc	_	_
-2	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
+2	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	Emph=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
-5	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
+5	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	Emph=No
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj:dicto	_	_
 7	six	six	NUM	_	ExtPos=PRON	6	mod	_	Number[lex]=Plur
 8	dans	dans	ADP	_	_	6	comp:pred	_	_
@@ -90,7 +90,7 @@
 # sent_id = ParisStories_2019_histoireDeBanlieue_6
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/d50bf89027694d4326915ff6e90cc525b2e3ea00
 # speaker = non_native
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+1	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	Emph=No
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	5	det	_	_
@@ -109,7 +109,7 @@
 2	dans	dans	ADP	_	_	7	mod	_	_
 3	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 4	cour	cour	NOUN	_	_	2	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
+5	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	Emph=No
 6	y	y	PRON	_	Person=3|PronType=Prs	7	comp@expl	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	quatre	quatre	NUM	_	ExtPos=DET	9	det	_	Number[lex]=Plur
@@ -123,7 +123,7 @@
 1	donc	donc	ADV	_	_	24	mod	_	_
 2	en	en	ADP	_	ExtPos=ADV	1	discourse	_	Idiom=Yes
 3	fait	fait	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
-4	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	24	dislocated:subj	_	SpaceAfter=No
+4	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	24	dislocated:subj	_	Emph=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	Gender[ctxt]=Fem
 7	amie	ami	NOUN	_	_	4	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -138,13 +138,13 @@
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	fils	fils	NOUN	_	Number=Sing	11	conj:coord	_	Gender[lex]=Masc
+18	fils	fils	NOUN	_	_	11	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Sing
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	18	udep	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	propriétaire	propriétaire	NOUN	_	_	19	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 22	,	,	PUNCT	_	_	4	punct	_	_
-23	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	subj	_	_
+23	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	subj	_	Emph=No
 24	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 25	dans	dans	ADP	_	_	24	comp:obl	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -156,7 +156,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/d50bf89027694d4326915ff6e90cc525b2e3ea00
 # speaker = non_native
 1	et	et	CCONJ	_	_	4	cc	_	_
-2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
+2	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	Emph=No
 3	y	y	PRON	_	Person=3|PronType=Prs	4	comp@expl	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -179,22 +179,22 @@
 # sent_id = ParisStories_2019_histoireDeBanlieue_10
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/d50bf89027694d4326915ff6e90cc525b2e3ea00
 # speaker = non_native
-1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
+1	on	on	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	Emph=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	euh	euh	INTJ	_	_	6	discourse	_	_
 4	tous	tout	ADJ	_	Gender=Masc	6	mod	_	Number[ctxt]=Plur
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	6	det	_	_
-6	Chinois	Chinois	NOUN	_	Number=Plur	2	comp:pred	_	Gender[lex]=Masc|SpaceAfter=No
+6	Chinois	Chinois	NOUN	_	_	2	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	enfin	enfin	ADV	_	ExtPos=INTJ	6	discourse	_	SpaceAfter=No|wordform=fin
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	soit	soit	CCONJ	_	_	12	cc	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-12	Chinois	Chinois	NOUN	_	Number=Plur	6	conj:dicto	_	Gender[lex]=Masc
+12	Chinois	Chinois	NOUN	_	_	6	conj:dicto	_	Gender[lex]=Masc|Number[ctxt]=Plur
 13	soit	soit	CCONJ	_	_	16	cc	_	_
 14	euh	euh	INTJ	_	_	13	discourse	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-16	Français-Chinois	Français-Chinois	NOUN	_	Number=Plur	12	conj:coord	_	Gender[lex]=Masc|SpaceAfter=No
+16	Français-Chinois	Français-Chinois	NOUN	_	_	12	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = un jour, euh enfin un mardi, tu sais que je rentre tard le mardi puisque j'ai, j'ai cours jusqu'à dix-neuf heures.
@@ -207,23 +207,23 @@
 4	euh	euh	INTJ	_	_	7	discourse	_	_
 5	enfin	enfin	ADV	_	ExtPos=INTJ	7	discourse	_	wordform=fin
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	mardi	mardi	NOUN	_	Number=Sing	2	conj:dicto	_	Gender[lex]=Masc|SpaceAfter=No
+7	mardi	mardi	NOUN	_	_	2	conj:dicto	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	_
-9	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	10	subj	_	_
+9	tu	toi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	subj	_	Emph=No
 10	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	que	que	SCONJ	_	_	10	comp:obj	_	_
-12	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	subj	_	_
+12	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	subj	_	Emph=No
 13	rentre	rentrer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
 14	tard	tard	ADV	_	_	13	mod	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	mardi	mardi	NOUN	_	Number=Sing	13	mod	_	Gender[lex]=Masc
+16	mardi	mardi	NOUN	_	_	13	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 17	puisque	puisque	SCONJ	_	_	13	mod	_	_
-18	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	19	subj	_	SpaceAfter=No
+18	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	subj	_	Emph=No|SpaceAfter=No
 19	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
-21	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	22	subj	_	SpaceAfter=No
+21	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	subj	_	Emph=No|SpaceAfter=No
 22	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	conj:dicto	_	_
-23	cours	cours	NOUN	_	Number=Sing	22	comp:obj	_	Gender[lex]=Masc
+23	cours	cours	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 24	jusqu'	jusque	ADV	_	_	25	mod	_	SpaceAfter=No
 25	à	à	ADP	_	_	23	udep	_	_
 26	dix-neuf	dix-neuf	NUM	_	ExtPos=PROPN	27	det	_	Number[lex]=Sing
@@ -236,7 +236,7 @@
 # speaker = non_native
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	après	après	ADP	_	_	4	mod	_	_
-3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+3	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	Emph=No
 4	rentre	rentrer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	vers	vers	ADP	_	_	4	mod	_	_
 6	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
@@ -254,9 +254,9 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	InIdiom=Yes
-5	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	3	mod	_	Gender[lex]=Masc|Idiom=Yes
+5	peu	peu	NOUN	_	ExtPos=ADV	3	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 6	tard	tard	ADV	_	_	3	mod	_	_
-7	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	8	subj	_	_
+7	tu	toi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	subj	_	Emph=No
 8	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	discourse	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -311,7 +311,7 @@
 7	petite	petit	ADJ	_	Gender=Fem	8	mod	_	Number[ctxt]=Sing
 8	rue	rue	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	que	que	PRON	_	PronType=Rel	11	comp:obj	_	_
-10	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	11	subj	_	_
+10	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	Emph=No
 11	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
 12	normalement	normalement	ADV	_	_	11	mod	_	_
 13	pour	pour	ADP	_	_	11	mod	_	_
@@ -319,9 +319,9 @@
 15	pour	pour	ADP	_	_	13	conj:dicto	_	_
 16	rentrer	rentrer	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=NoRaising
 17	chez	chez	ADP	_	_	16	mod	_	_
-18	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	17	comp:obj	_	SpaceAfter=No
+18	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	17	comp:obj	_	Emph=Yes|SpaceAfter=No
 19	,	,	PUNCT	_	_	5	punct	_	_
-20	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj@expl	_	_
+20	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj@expl	_	Emph=No
 21	n'	ne	ADV	_	Polarity=Neg	23	mod	_	SpaceAfter=No
 22	y	y	PRON	_	Person=3|PronType=Prs	23	comp@expl	_	_
 23	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -341,7 +341,7 @@
 7	de	de	ADP	_	_	6	udep	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	rue	rue	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	_
+10	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	Emph=No
 11	y	y	PRON	_	Person=3|PronType=Prs	12	comp@expl	_	_
 12	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	quelques	quelque	DET	_	Number=Plur|PronType=Ind	14	det	_	_
@@ -394,7 +394,7 @@
 2	de	de	ADP	_	_	6	discourse	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-5	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	SpaceAfter=No
+5	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	Emph=No|SpaceAfter=No
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	pensé	penser	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 8	de	de	ADP	_	_	7	comp:obl	_	_
@@ -417,17 +417,17 @@
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	parce	parce	ADV	_	ExtPos=SCONJ	7	mod	_	Idiom=Yes
 27	que	que	SCONJ	_	_	26	unk	_	InIdiom=Yes
-28	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	subj@expl	_	_
+28	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	subj@expl	_	Emph=No
 29	y	y	PRON	_	Person=3|PronType=Prs	30	comp@expl	_	_
 30	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	comp:obj	_	_
 31	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 32	autre	autre	ADJ	_	_	33	mod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
 33	rue	rue	NOUN	_	_	30	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 34	plus	plus	ADV	_	_	35	mod	_	_
-35	grande	grand	ADJ	_	Gender=Fem|Number=Sing	33	mod	_	_
+35	grande	grand	ADJ	_	Gender=Fem	33	mod	_	Number[ctxt]=Sing
 36	vers	vers	ADP	_	_	33	udep	_	_
 37	chez	chez	ADP	_	_	36	comp:obj	_	_
-38	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	37	comp:obj	_	SpaceAfter=No
+38	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	37	comp:obj	_	Emph=Yes|SpaceAfter=No
 39	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = c'est seulement c'est un peu c'est un peu plus loin.
@@ -440,11 +440,11 @@
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	InIdiom=Yes
-7	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	5	mod	_	Gender[lex]=Masc|Idiom=Yes
+7	peu	peu	NOUN	_	ExtPos=ADV	5	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	subj	_	SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj:dicto	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	InIdiom=Yes
-11	peu	peu	NOUN	_	ExtPos=ADV|Number=Sing	9	mod	_	Gender[lex]=Masc|Idiom=Yes
+11	peu	peu	NOUN	_	ExtPos=ADV	9	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 12	plus	plus	ADV	_	_	13	mod	_	_
 13	loin	loin	ADV	_	_	9	comp:pred	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
@@ -455,7 +455,7 @@
 # speaker = non_native
 1	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	que	que	SCONJ	_	_	1	comp:obj	_	_
-3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+3	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	Emph=No
 4	marche	marcher	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	euh	euh	INTJ	_	_	7	discourse	_	_
 6	dix	dix	NUM	_	ExtPos=DET	7	det	_	Number[lex]=Plur
@@ -474,11 +474,11 @@
 4	moment	moment	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	-là	là	ADV	_	_	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
-7	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	subj	_	SpaceAfter=No
+7	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	subj	_	Emph=No|SpaceAfter=No
 8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	vu	voir	VERB	_	VerbForm=Part|Voice=Act	8	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 10	qu'	que	SCONJ	_	_	9	comp:obj	_	SpaceAfter=No
-11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj@expl	_	_
+11	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj@expl	_	Emph=No
 12	y	y	PRON	_	Person=3|PronType=Prs	13	comp@expl	_	_
 13	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	comp:obj	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -491,7 +491,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/d50bf89027694d4326915ff6e90cc525b2e3ea00
 # speaker = non_native
 1	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	wordform=fin
-2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
+2	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	Emph=No
 3	y	y	PRON	_	Person=3|PronType=Prs	4	comp@expl	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -514,7 +514,7 @@
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	conj:dicto	_	_
 23	sac	sac	NOUN	_	_	19	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 24	à	à	ADP	_	_	23	udep	_	_
-25	dos	dos	NOUN	_	Number=Sing	24	comp:obj	_	Gender[lex]=Masc
+25	dos	dos	NOUN	_	_	24	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 26	et	et	CCONJ	_	_	29	cc	_	_
 27	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	26	punct	_	_
@@ -534,12 +534,12 @@
 # speaker = non_native
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
-3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+3	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	Emph=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	venu	venir	VERB	_	VerbForm=Part	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 6	et	et	CCONJ	_	_	9	cc	_	_
 7	euh	euh	INTJ	_	_	6	discourse	_	_
-8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
+8	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	Emph=No
 9	passé	passer	VERB	_	Person=3|VerbForm=Part	4	conj:dicto	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 10	par	par	ADP	_	_	9	comp:obl	_	_
 11	euh	euh	INTJ	_	_	15	discourse	_	_
@@ -554,22 +554,22 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/d50bf89027694d4326915ff6e90cc525b2e3ea00
 # speaker = non_native
 1	donc	donc	ADV	_	_	3	mod	_	_
-2	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
+2	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	Emph=No|SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	subj	_	_
-7	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	SpaceAfter=No
+6	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	subj	_	Emph=No
+7	l'	lui	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	Emph=No|SpaceAfter=No
 8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	_
 9	suivi	suivre	VERB	_	VerbForm=Part|Voice=Act	8	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 10	et	et	CCONJ	_	_	12	cc	_	_
-11	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	12	subj	_	SpaceAfter=No
+11	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	subj	_	Emph=No|SpaceAfter=No
 12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj:coord	_	_
 13	passé	passer	VERB	_	VerbForm=Part|Voice=Act	12	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 14	par	par	ADP	_	_	13	comp:obl	_	_
 15	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
-17	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	18	subj	_	SpaceAfter=No
+17	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	subj	_	Emph=No|SpaceAfter=No
 18	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	conj:dicto	_	_
 19	passé	passer	VERB	_	VerbForm=Part|Voice=Act	18	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 20	par	par	ADP	_	_	19	comp:obl	_	_
@@ -583,8 +583,8 @@
 # speaker = non_native
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	donc	donc	ADV	_	_	1	cc	_	_
-3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	subj	_	_
-4	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	SpaceAfter=No
+3	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	Emph=No
+4	l'	lui	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	Emph=No|SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	suivi	suivre	VERB	_	VerbForm=Part|Voice=Act	5	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 7	.	.	PUNCT	_	_	5	punct	_	_
@@ -602,19 +602,19 @@
 6	de	de	ADP	_	_	5	udep	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	rue	rue	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj@expl	_	_
+9	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj@expl	_	Emph=No
 10	y	y	PRON	_	Person=3|PronType=Prs	11	comp@expl	_	_
 11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	euh	euh	INTJ	_	_	12	discourse	_	_
-14	fourché	fourché	NOUN	_	Number=Sing	11	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
+14	fourché	fourché	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = il tourne vers là-bas.
 # sent_id = ParisStories_2019_histoireDeBanlieue_27
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/d50bf89027694d4326915ff6e90cc525b2e3ea00
 # speaker = non_native
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+1	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	Emph=No
 2	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	vers	vers	ADP	_	_	2	mod	_	_
 4	là-bas	là-bas	ADV	_	_	3	comp:obj	_	SpaceAfter=No
@@ -625,10 +625,10 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/d50bf89027694d4326915ff6e90cc525b2e3ea00
 # speaker = non_native
 1	et	et	CCONJ	_	_	3	cc	_	_
-2	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+2	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	Emph=No
 3	do~	do~	X	_	ExtPos=VERB	0	root	_	_
 4	et	et	CCONJ	_	_	6	cc	_	_
-5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	_
+5	je	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	Emph=No
 6	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	_
 7	tourner	tourner	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 8	vers	vers	ADP	_	_	7	mod	_	_
@@ -645,7 +645,7 @@
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	rue	rue	NOUN	_	_	18	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
 21	où	où	PRON	_	PronType=Rel	23	mod	_	_
-22	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	23	subj	_	SpaceAfter=No
+22	j'	moi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	subj	_	Emph=No|SpaceAfter=No
 23	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -657,10 +657,10 @@
 2	dans	dans	ADP	_	_	6	mod	_	_
 3	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 4	rue	rue	NOUN	_	_	2	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
+5	il	lui	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	Emph=No
 6	marche	marcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	toujours	toujours	ADV	_	_	6	mod	_	_
 8	devant	devant	ADP	_	_	6	mod	_	_
-9	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	SpaceAfter=No
+9	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	Emph=Yes|SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	_
 
