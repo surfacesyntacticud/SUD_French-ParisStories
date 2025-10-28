@@ -16,7 +16,7 @@
 13	huit	huit	NUM	_	ExtPos=DET	16	det	_	Number[lex]=Plur|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	dix	dix	NUM	_	ExtPos=DET	13	conj:dicto	_	Number[lex]=Plur
-16	ans	an	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+16	ans	an	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 17	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_descenteCanoe_2
@@ -27,12 +27,12 @@
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	avec	avec	ADP	_	_	4	comp:obl	_	_
-6	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	7	det	_	_
+6	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	parents	parent	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	7	conj:coord	_	_
 10	de	de	ADP	_	_	9	udep	_	_
-11	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	det	_	_
+11	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 12	copines	copine	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 13	qui	qui	PRON	_	PronType=Rel	15	subj	_	_
 14	s'	soi	PRON	_	Person=3|PronType=Prs	15	comp@expl	_	InIdiom=Yes|SpaceAfter=No
@@ -59,14 +59,14 @@
 5	décidé	décider	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	faire	faire	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
-8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 9	journée	journée	NOUN	_	_	7	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 10	là	là	ADV	_	_	9	mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
-12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 13	descente	descente	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 14	de	de	ADP	_	_	13	mod	_	_
-15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 16	Ardèche	Ardèche	PROPN	_	_	14	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -77,12 +77,12 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	13	discourse	_	_
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 5	coup	coup	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 10	veille	veille	NOUN	_	_	13	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	subj	_	_
@@ -99,31 +99,31 @@
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	soit	être	CCONJ	_	_	6	cc	_	_
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	6	det	_	_
-6	horaires	horaire	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+6	horaires	horaire	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 7	,	,	PUNCT	_	_	15	punct	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	15	discourse	_	_
-9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 10	coup	coup	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	8	punct	_	_
 12	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	deux	deux	NUM	_	ExtPos=DET	15	det	_	Number[lex]=Plur
-15	heures	heure	NOUN	_	_	6	conj:dicto	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+15	heures	heure	NOUN	_	_	6	conj:dicto	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	quatre	quatre	NUM	_	ExtPos=DET	18	det	_	Number[lex]=Plur
-18	heures	heure	NOUN	_	_	15	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Plur
+18	heures	heure	NOUN	_	_	15	conj:coord	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 19	ou	ou	CCONJ	_	_	21	cc	_	_
 20	huit	huit	NUM	_	ExtPos=DET	21	det	_	Number[lex]=Plur
-21	heures	heure	NOUN	_	_	18	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+21	heures	heure	NOUN	_	_	18	conj:coord	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_descenteCanoe_7
 # text = et mon père, il voulait absolument faire huit heures.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 1	et	et	CCONJ	_	_	6	cc	_	_
-2	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	_
+2	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 3	père	père	NOUN	_	_	6	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
@@ -131,7 +131,7 @@
 7	absolument	absolument	ADV	_	_	6	mod	_	_
 8	faire	faire	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 9	huit	huit	NUM	_	ExtPos=DET	10	det	_	Number[lex]=Plur
-10	heures	heure	NOUN	_	_	8	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+10	heures	heure	NOUN	_	_	8	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_descenteCanoe_8
@@ -146,7 +146,7 @@
 7	dégoûté	dégoûter	VERB	_	VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	avec	avec	ADP	_	_	7	mod	_	_
-10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	_
+10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	mère	mère	NOUN	_	_	9	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -158,7 +158,7 @@
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	InIdiom=Yes
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
 6	tout	tout	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 7	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
 8	faire	faire	VERB	_	VerbForm=Inf	2	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
@@ -191,7 +191,7 @@
 1	et	et	CCONJ	_	_	10	cc	_	_
 2-3	au	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	10	mod	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	final	final	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	bon	bon	INTJ	_	_	10	discourse	_	_
@@ -243,7 +243,7 @@
 8	pas	pas	ADV	_	Polarity=Neg	6	conj:dicto	_	_
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	InIdiom=Yes
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
 11	tout	tout	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	que	que	ADV	_	ExtPos=ADV|Polarity=Neg	8	conj:dicto	_	Idiom=Yes
@@ -254,14 +254,14 @@
 # text = donc le lendemain matin, donc on était prêt.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 1	donc	donc	ADV	_	_	3	mod	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 3	lendemain	lendemain	NOUN	_	_	8	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	matin	matin	NOUN	_	_	3	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	donc	donc	ADV	_	_	8	mod	_	_
 7	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-9	prêt	prêt	ADJ	_	Gender=Masc	8	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
+9	prêt	prêt	ADJ	_	Gender=Masc	8	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2020_descenteCanoe_15
@@ -269,7 +269,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	_
+3	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	canoës	canoë	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	_
@@ -309,16 +309,16 @@
 12	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	justement	justement	ADV	_	_	16	mod	_	_
-15	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	16	det	_	Gender[ctxt]=Fem
-16	amie	ami	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+15	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	16	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+16	amie	ami	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 17	et	et	CCONJ	_	_	22	cc	_	_
-18	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	_
+18	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 19	parents	parent	NOUN	_	_	22	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	subj	_	_
 22	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	conj:coord	_	_
-23	tous	tout	ADJ	_	Gender=Masc	25	mod	_	Number[ctxt]=Plur
-24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+23	tous	tout	ADJ	_	Gender=Masc	25	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Plur
+24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 25	deux	deux	NUM	_	ExtPos=PRON	22	comp:pred	_	Number[lex]=Plur
 26	ensemble	ensemble	ADV	_	_	25	mod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	7	punct	_	_
@@ -337,8 +337,8 @@
 9	moment	moment	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 10	où	où	ADV	_	PronType=Rel	17	mod	_	_
 11	avec	avec	ADP	_	_	17	mod	_	_
-12	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	Gender[ctxt]=Fem
-13	amie	ami	NOUN	_	_	11	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+12	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+13	amie	ami	NOUN	_	_	11	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	11	punct	_	_
 15	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	subj	_	_
 16	s'	soi	PRON	_	Person=3|PronType=Prs	18	comp@expl	_	SpaceAfter=No
@@ -352,7 +352,7 @@
 24	,	,	PUNCT	_	_	28	punct	_	_
 25	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
-27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 28	rivage	rivage	NOUN	_	_	23	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 29	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -364,7 +364,7 @@
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	bloqué	bloquer	VERB	_	VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 5	par	par	ADP	_	_	4	comp:obl	_	_
-6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	cailloux	caillou	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -405,7 +405,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	9	discourse	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
@@ -440,7 +440,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	12	discourse	_	_
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 5	coup	coup	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
@@ -462,7 +462,7 @@
 5	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:coord	_	_
 7	poussé	pousser	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 9	canoë	canoë	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -488,7 +488,7 @@
 1	donc	donc	ADV	_	_	7	mod	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	discourse	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	coup	coup	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
@@ -527,7 +527,7 @@
 1	et	et	CCONJ	_	_	8	cc	_	_
 2-3	au	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	8	mod	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	final	final	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj@expl	_	_
@@ -551,7 +551,7 @@
 3	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
-6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	rapide	rapide	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -576,7 +576,7 @@
 1	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
-4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 5	cascade	cascade	NOUN	_	_	3	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 6	toute	tout	ADV	_	_	7	mod	_	_
 7	seule	seul	ADJ	_	_	5	mod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -619,7 +619,7 @@
 12	en	en	ADP	_	_	11	comp:pred	_	_
 13	début	début	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 14	d'	de	ADP	_	_	13	mod	_	SpaceAfter=No
-15	après-midi	après-midi	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+15	après-midi	après-midi	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_descenteCanoe_34
@@ -684,8 +684,8 @@
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	Gender[ctxt]=Fem
-17	amie	ami	NOUN	_	_	12	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+16	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+17	amie	ami	NOUN	_	_	12	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 18	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2020_descenteCanoe_37
@@ -693,7 +693,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 1	par	par	ADP	_	ExtPos=ADV	8	mod	_	Idiom=Yes
 2	contre	contre	NOUN	_	_	1	comp:obj	_	InIdiom=Yes
-3	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	_
+3	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	parents	parent	NOUN	_	_	8	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	subj	_	_
@@ -704,10 +704,10 @@
 11	éjecter	éjecter	VERB	_	VerbForm=Inf	10	comp:aux@caus	_	Subject=SubjRaising
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	11	udep	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	unk@scrap	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	unk@scrap	_	HasSpokenGender=OnlySingExceptWithLiaison
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	12	conj:dicto	_	_
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 16	canoë	canoë	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 17	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -715,7 +715,7 @@
 # text = et mon père s'était, euh, il était vraiment loin de la barque.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 1	et	et	CCONJ	_	_	5	cc	_	_
-2	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	_
+2	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 3	père	père	NOUN	_	_	5	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	s'	soi	PRON	_	Person=3|PronType=Prs	5	comp@scrap	_	InIdiom=Yes|SpaceAfter=No
 5	était	être	AUX	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Idiom=Yes|SpaceAfter=No
@@ -727,7 +727,7 @@
 11	vraiment	vraiment	ADV	_	_	12	mod	_	_
 12	loin	loin	ADV	_	_	10	comp:pred	_	_
 13	de	de	ADP	_	_	12	mod	_	_
-14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 15	barque	barque	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -743,7 +743,7 @@
 7	essayer	essayer	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=NoRaising
 8	de	de	ADP	_	_	7	comp:obl	_	_
 9	rejoindre	rejoindre	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
-10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	_
+10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	mère	mère	NOUN	_	_	9	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	6	punct	_	_
 13	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
@@ -758,7 +758,7 @@
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	marcher	marcher	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
 24	sur	sur	ADP	_	_	23	comp:obl	_	_
-25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 26	cailloux	caillou	NOUN	_	_	24	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 27	,	,	PUNCT	_	_	14	punct	_	_
 
@@ -776,7 +776,7 @@
 9	y	y	PRON	_	Person=3|PronType=Prs	10	comp@expl	_	_
 10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	comp:obj	_	_
 11	de	de	ADP	_	ExtPos=DET	13	det	_	Idiom=Yes
-12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	unk	_	InIdiom=Yes
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	unk	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
 13	mousse	mousse	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 14	dessus	dessus	ADV	_	_	10	mod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
@@ -786,14 +786,14 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	15	discourse	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	à	à	ADP	_	_	15	mod	_	_
 6	chaque	chaque	DET	_	PronType=Ind	7	det	_	Number[lex]=Sing
 7	fois	fois	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
-9	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	10	det	_	_
+9	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 10	tête	tête	NOUN	_	_	15	dislocated:subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 11	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	subj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
@@ -801,8 +801,8 @@
 14	,	,	PUNCT	_	_	11	punct	_	_
 15	sortait	sortir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 16	de	de	ADP	_	_	15	comp:obl	_	_
-17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-18	eau	eau	NOUN	_	_	16	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+18	eau	eau	NOUN	_	_	16	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 19	puis	puis	ADV	_	_	21	cc	_	_
 20	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	subj	_	_
 21	remontait	remonter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	conj:coord	_	SpaceAfter=No
@@ -848,7 +848,7 @@
 10	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:coord	_	_
 11	retrouvée	retrouver	VERB	_	VerbForm=Part	10	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
 12	avec	avec	ADP	_	_	11	comp:obl	_	_
-13	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	_
+13	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 14	mère	mère	NOUN	_	_	12	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -874,17 +874,17 @@
 17	rocher	rocher	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	InIdiom=Yes
 19	peu	peu	NOUN	_	ExtPos=ADV	20	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
-20	particulier	particulier	ADJ	_	Gender=Masc	17	mod	_	Number[ctxt]=Sing
+20	particulier	particulier	ADJ	_	Gender=Masc	17	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
 21	qui	qui	PRON	_	PronType=Rel	22	subj	_	_
 22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	mod@relcl	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	euh	euh	INTJ	_	_	27	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
-26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 27	caillou	caillou	NOUN	_	_	22	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	27	mod	_	_
-29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
+29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 30	nudistes	nudiste	NOUN	_	_	28	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 31	.	.	PUNCT	_	_	7	punct	_	_
 

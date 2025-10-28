@@ -6,21 +6,21 @@
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	fini	finir	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
-6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	cours	cours	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 8	à	à	ADP	_	_	5	mod	_	_
 9	dix-neuf	dix-neuf	NUM	_	ExtPos=PROPN	10	det	_	Number[lex]=Sing
-10	heures	heure	NOUN	_	_	8	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+10	heures	heure	NOUN	_	_	8	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 11	,	,	PUNCT	_	_	18	punct	_	_
 12	et	et	CCONJ	_	_	18	cc	_	_
 13	comme	comme	ADP	_	_	18	mod	_	_
 14	d'	de	ADP	_	_	13	comp:obj	_	SpaceAfter=No
-15	habitude	habitude	NOUN	_	_	14	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+15	habitude	habitude	NOUN	_	_	14	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 16	,	,	PUNCT	_	_	13	punct	_	_
 17	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	18	subj	_	SpaceAfter=No
 18	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
 19	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	18	comp:aux@tense	_	Tense[denom]=Past
-20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 21	bus	bus	NOUN	_	_	19	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 22	pour	pour	ADP	_	_	19	mod	_	_
 23	pouvoir	pouvoir	VERB	_	VerbForm=Inf	22	comp:obj	_	Subject=NoRaising
@@ -33,7 +33,7 @@
 # text = alors le bus me dépose, et en marchant vers chez moi, dans la rue il y avait une très bonne odeur une odeur de pizza,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61b04e77cad8421a64e2531daae8e46efb6e0f37
 1	alors	alors	ADV	_	_	5	discourse	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 3	bus	bus	NOUN	_	Shared=No	5	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	me	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	_
 5	dépose	déposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -46,17 +46,17 @@
 12	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	11	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	dans	dans	ADP	_	_	9	mod	_	_
-15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 16	rue	rue	NOUN	_	_	14	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 17	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj@expl	_	_
 18	y	y	PRON	_	Person=3|PronType=Prs	19	comp@expl	_	_
 19	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj:coord	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	23	det	_	_
 21	très	très	ADV	_	_	22	mod	_	_
-22	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	23	mod	_	_
-23	odeur	odeur	NOUN	_	_	19	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	odeur	odeur	NOUN	_	_	23	conj:dicto	_	Gender[lex]=Fem|Number[ctxt]=Sing
+22	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	23	mod	_	HasSpokenGender=YesExceptSingWithLiaison|LiaisonAfter=Yes
+23	odeur	odeur	NOUN	_	_	19	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	LiaisonAfter=Yes
+25	odeur	odeur	NOUN	_	_	23	conj:dicto	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 26	de	de	ADP	_	_	25	udep	_	_
 27	pizza	pizza	NOUN	_	_	26	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 28	,	,	PUNCT	_	_	5	punct	_	_
@@ -78,14 +78,14 @@
 12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	mod@relcl	_	_
 13	exactement	exactement	ADV	_	_	12	mod	_	_
 14	comme	comme	ADP	_	_	10	mod	_	_
-15	odeur	odeur	NOUN	_	_	14	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+15	odeur	odeur	NOUN	_	_	14	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	mais	mais	CCONJ	_	_	19	cc	_	_
 18	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	subj	_	_
 19	sentait	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj:coord	_	_
 20	vraiment	vraiment	ADV	_	_	21	mod	_	_
 21	très	très	ADV	_	_	22	mod	_	_
-22	bon	bon	ADJ	_	Gender=Masc	19	mod	_	Number[ctxt]=Sing|SpaceAfter=No
+22	bon	bon	ADJ	_	Gender=Masc	19	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 23	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_4
@@ -102,23 +102,23 @@
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	que	que	SCONJ	_	_	9	comp:pred	_	_
 11	sur	sur	ADP	_	_	24	mod	_	_
-12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 13	façade	façade	NOUN	_	_	11	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	13	udep	_	_
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 16	restaurant	restaurant	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 17	d'	de	ADP	_	_	19	comp:obl	_	SpaceAfter=No
 18	où	où	PRON	_	PronType=Rel	17	comp:obj	_	_
 19	provenait	provenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	mod@relcl	_	_
-20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-21	odeur	odeur	NOUN	_	_	19	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+21	odeur	odeur	NOUN	_	_	19	subj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 22	,	,	PUNCT	_	_	11	punct	_	_
 23	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	24	subj	_	SpaceAfter=No
 24	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	comp:obj	_	_
 25	écrit	écrire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	24	comp:aux@pass	_	Number[ctxt]=Sing|Tense[denom]=Past
 26	pâtisserie	pâtisserie	NOUN	_	_	25	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-27	fine	fin	ADJ	_	Gender=Fem	26	mod	_	Number[ctxt]=Sing|SpaceAfter=No
+27	fine	fin	ADJ	_	Gender=Fem	26	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 28	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_5
@@ -130,7 +130,7 @@
 4	sentait	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	tout	tout	ADV	_	_	4	comp:obj	_	_
 6	sauf	sauf	CCONJ	_	_	5	conj:appos	_	_
-7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	pâtisserie	pâtisserie	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	en	en	ADP	_	ExtPos=ADV	4	discourse	_	Idiom=Yes
 10	fait	fait	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
@@ -161,7 +161,7 @@
 20	me	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	21	comp@expl	_	_
 21	préparer	préparer	VERB	_	VerbForm=Inf	19	comp:pred	_	Subject=SubjRaising
 22	pour	pour	ADP	_	_	21	mod	_	_
-23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 24	dîner	dîner	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 25	,	,	PUNCT	_	_	2	punct	_	_
 26	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	27	subj	_	_
@@ -186,7 +186,7 @@
 4	,	,	PUNCT	_	_	10	punct	_	_
 5	et	et	CCONJ	_	_	10	cc	_	_
 6	directement	directement	ADV	_	_	10	mod	_	_
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	serveur	serveur	NOUN	_	_	10	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 9	m'	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	10	comp:obj	_	SpaceAfter=No
 10	accoste	accoster	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
@@ -213,7 +213,7 @@
 8	viens	venir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
 9	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
 10	dans	dans	ADP	_	_	8	mod	_	_
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 12	but	but	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 13	de	de	ADP	_	_	12	udep	_	_
 14	consommer	consommer	VERB	_	VerbForm=Inf	13	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
@@ -225,13 +225,13 @@
 20	parce	parce	ADV	_	ExtPos=SCONJ	8	mod	_	Idiom=Yes
 21	que	que	SCONJ	_	_	20	unk	_	InIdiom=Yes
 22	de	de	ADP	_	_	26	mod	_	_
-23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-24	extérieur	extérieur	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+24	extérieur	extérieur	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 25	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	subj	_	_
 26	sent	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
 27	vraiment	vraiment	ADV	_	_	28	mod	_	_
 28	très	très	ADV	_	_	29	mod	_	_
-29	bon	bon	ADJ	_	Gender=Masc	26	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
+29	bon	bon	ADJ	_	Gender=Masc	26	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 30	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_9
@@ -248,10 +248,10 @@
 9	euh	euh	INTJ	_	_	10	discourse	_	_
 10	spécialisés	spécialiser	VERB	_	VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|Tense[denom]=Past
 11	dans	dans	ADP	_	_	10	mod	_	_
-12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 13	pâtisserie	pâtisserie	NOUN	_	_	11	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-14	fine	fin	ADJ	_	Gender=Fem	13	mod	_	Number[ctxt]=Sing
-15	libanaise	libanais	ADJ	_	Gender=Fem	13	mod	_	Number[ctxt]=Sing
+14	fine	fin	ADJ	_	Gender=Fem	13	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
+15	libanaise	libanais	ADJ	_	Gender=Fem	13	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
 16	mais	mais	CCONJ	_	_	17	cc	_	_
 17	qu'	que	SCONJ	_	_	5	conj:coord	_	SpaceAfter=No
 18	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	subj	_	_
@@ -273,7 +273,7 @@
 6	de	de	ADP	_	_	5	udep	_	_
 7	frites	frite	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 8	à	à	ADP	_	_	3	mod	_	_
-9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 10	main	main	NOUN	_	_	8	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	3	punct	_	_
 
@@ -309,7 +309,7 @@
 2	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	goûté	goûter	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 6	frites	frite	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 
@@ -318,7 +318,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61b04e77cad8421a64e2531daae8e46efb6e0f37
 1	elles	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	bonnes	bon	ADJ	_	Gender=Fem	2	comp:pred	_	Number[ctxt]=Plur|SpaceAfter=No
+3	bonnes	bon	ADJ	_	Gender=Fem	2	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_15
@@ -357,7 +357,7 @@
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	orientée	orienter	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
 6	vers	vers	ADP	_	_	5	mod	_	_
-7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	caisse	caisse	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	pour	pour	ADP	_	_	5	mod	_	_
 10	pouvoir	pouvoir	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=NoRaising
@@ -372,7 +372,7 @@
 2	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
 3	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	3	mod	_	_
-5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 6	caisse	caisse	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 
@@ -381,11 +381,11 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61b04e77cad8421a64e2531daae8e46efb6e0f37
 1	et	et	CCONJ	_	_	11	cc	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	serveur	serveur	NOUN	_	_	11	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	qui	qui	PRON	_	PronType=Rel	6	subj	_	_
 6	réceptionne	réceptionner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
-7	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	_
+7	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	commande	commande	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	11	comp:obl	_	_
@@ -423,7 +423,7 @@
 16	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	ExtPos=ADV	16	mod	_	Idiom=Yes
-18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	InIdiom=Yes
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
 19	tout	tout	NOUN	_	_	17	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -436,7 +436,7 @@
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 5	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	6	comp:obl	_	_
 6	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	plateau	plateau	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 9	d'	de	ADP	_	_	8	udep	_	SpaceAfter=No
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -454,9 +454,9 @@
 22	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	subj	_	_
 23	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	_
 24	dans	dans	ADP	_	_	23	mod	_	_
-25	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	26	det	_	_
+25	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 26	plateau	plateau	NOUN	_	_	24	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 28	dame	dame	NOUN	_	_	23	dislocated:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 29	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -521,11 +521,11 @@
 44	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	conj:dicto	_	_
 45	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	44	comp:aux@pass	_	Number[ctxt]=Sing|Tense[denom]=Past
 46	avec	avec	ADP	_	_	45	comp:obl	_	_
-47	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+47	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 48	peau	peau	NOUN	_	_	46	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 49-50	des	_	_	_	_	_	_	_	_
 49	de	de	ADP	_	_	48	udep	_	_
-50	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	51	det	_	_
+50	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	51	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 51	nems	nem	NOUN	_	_	49	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 52	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -542,8 +542,8 @@
 8	y	y	PRON	_	Person=3|PronType=Prs	9	comp@expl	_	InIdiom=Yes
 9	a	avoir	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	Idiom=Yes
 10	à	à	ADP	_	_	9	mod	_	_
-11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-12	intérieur	intérieur	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+12	intérieur	intérieur	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_24
@@ -572,7 +572,7 @@
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	laitue	laitue	NOUN	_	_	20	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	avocat	avocat	NOUN	_	_	22	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+24	avocat	avocat	NOUN	_	_	22	conj:coord	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	champignon	champignon	NOUN	_	Gender=Masc	24	conj:coord	_	Number[ctxt]=Sing
 27	et	et	CCONJ	_	_	29	cc	_	_
@@ -602,7 +602,7 @@
 2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	balancé	balancer	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
-5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	_
+5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 6	commande	commande	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 7	en	en	ADP	_	_	4	mod	_	_
 8	cuisine	cuisine	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -617,10 +617,10 @@
 17	en	en	ADP	_	_	16	mod	_	_
 18	attendant	attendre	VERB	_	VerbForm=Part	17	comp:obj	_	Subject=OblRaising|Tense[denom]=Pres
 19	que	que	SCONJ	_	_	18	comp:obj	_	_
-20	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	21	det	_	_
+20	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	21	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 21	commande	commande	NOUN	_	_	22	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 22	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
-23	prête	prêt	ADJ	_	Gender=Fem	22	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
+23	prête	prêt	ADJ	_	Gender=Fem	22	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_27
@@ -663,8 +663,8 @@
 12	jolie	joli	ADJ	_	_	11	comp:pred	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
 13	et	et	CCONJ	_	_	18	cc	_	_
 14	de	de	ADP	_	_	18	comp:pred	_	_
-15	quelle	quel	DET	_	Gender=Fem|Number=Sing|PronType=Int	16	det	_	_
-16	origine	origine	NOUN	_	_	14	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+15	quelle	quel	DET	_	Gender=Fem|Number=Sing|PronType=Int	16	det	_	LiaisonAfter=Yes
+16	origine	origine	NOUN	_	_	14	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 17	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	18	subj	_	_
 18	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	conj:coord	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
@@ -679,13 +679,13 @@
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	_
 7	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	Reported=Yes
-8	antillaise	antillais	ADJ	_	Gender=Fem	7	comp:pred	_	Number[ctxt]=Sing
+8	antillaise	antillais	ADJ	_	Gender=Fem	7	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
 9	plus	plus	ADV	_	_	10	mod	_	_
 10	préci~	préci~	X	_	ExtPos=ADV	13	mod	_	_
 11	plus	plus	ADV	_	_	12	mod	_	_
 12	précisément	précisément	ADV	_	_	10	conj:dicto	_	_
 13	de	de	ADP	_	_	8	mod	_	_
-14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 15	Guadeloupe	Guadeloupe	PROPN	_	_	13	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -703,7 +703,7 @@
 9	bon	bon	INTJ	_	_	8	unk	_	_
 10	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	11	subj	_	Polite=Yes
 11	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	comp:obj	_	Reported=Yes
-12	antillaise	antillais	ADJ	_	Gender=Fem	11	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
+12	antillaise	antillais	ADJ	_	Gender=Fem	11	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_32
@@ -724,7 +724,7 @@
 4	monsieur	monsieur	NOUN	_	_	6	vocative	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	comp:obj	_	Reported=Yes
-7	antillaise	antillais	NOUN	_	_	6	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+7	antillaise	antillais	NOUN	_	_	6	comp:pred	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_34
@@ -745,8 +745,8 @@
 13	de	de	ADP	_	_	12	mod	_	_
 14	peau	peau	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 15	pour	pour	ADP	_	_	12	mod	_	_
-16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	antillaise	antillais	NOUN	_	_	15	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	LiaisonAfter=Yes
+17	antillaise	antillais	NOUN	_	_	15	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_35
@@ -759,8 +759,8 @@
 5	réponds	répondre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	monsieur	monsieur	NOUN	_	_	11	vocative	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	euh	euh	INTJ	_	_	6	discourse	_	_
-8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
-9	antillais	antillais	NOUN	_	_	11	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+9	antillais	antillais	NOUN	_	_	11	dislocated:subj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 10	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Shared=No	11	subj	_	_
 11	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Reported=Yes
 12	pas	pas	ADV	_	Polarity=Neg	13	mod	_	_
@@ -772,8 +772,8 @@
 18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	_
 19	y	y	PRON	_	Person=3|PronType=Prs	20	comp@expl	_	_
 20	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj:coord	_	_
-21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
-22	antillais	antillais	NOUN	_	_	20	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	LiaisonAfter=Yes
+22	antillais	antillais	NOUN	_	_	20	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 23	qui	qui	PRON	_	PronType=Rel	24	subj	_	_
 24	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	mod@relcl	_	_
 25	plus	plus	ADV	_	_	26	mod	_	_
@@ -794,8 +794,8 @@
 5	bon	bon	INTJ	_	_	4	unk	_	InIdiom=Yes
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	_
 7	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	Reported=Yes
-8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
-9	antillais	antillais	NOUN	_	_	7	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	LiaisonAfter=Yes
+9	antillais	antillais	NOUN	_	_	7	dislocated:subj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
 11	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 12	clairs	clair	ADJ	_	_	11	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Plur
@@ -815,7 +815,7 @@
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	subj	_	SpaceAfter=No
 9	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
-10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	_
+10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	sœur	sœur	NOUN	_	_	9	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 12	qui	qui	PRON	_	PronType=Rel	15	subj	_	_
 13	euh	euh	INTJ	_	_	14	discourse	_	_

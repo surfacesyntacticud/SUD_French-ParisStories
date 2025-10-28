@@ -8,8 +8,8 @@
 5	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	6	subj	_	_
 6	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
-9	été	été	NOUN	_	_	14	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+8	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+9	été	été	NOUN	_	_	14	mod	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	9	punct	_	_
@@ -38,12 +38,12 @@
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	fait	faire	VERB	_	Gender=Masc|VerbForm=Part	7	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	10	det	_	_
-10	petit	petit	ADJ	_	Gender=Masc	8	comp:obj	_	Number[ctxt]=Sing|SpaceAfter=No
+10	petit	petit	ADJ	_	Gender=Masc	8	comp:obj	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-15	petit	petit	ADJ	_	Gender=Masc	16	mod	_	Number[ctxt]=Sing
+15	petit	petit	ADJ	_	Gender=Masc	16	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
 16	road	road	NOUN	_	ExtPos=NOUN	10	conj:dicto	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 17	trip	trip	NOUN	_	_	16	flat	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
@@ -76,8 +76,8 @@
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-11	île	île	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+11	île	île	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 12	d'	de	ADP	_	_	11	udep	_	SpaceAfter=No
 13	Elbe	Elbe	PROPN	_	_	12	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
@@ -98,7 +98,7 @@
 29	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	30	subj	_	_
 30	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj:coord	_	_
 31	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	30	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
-32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
+32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 33	Cinq	cinq	PROPN	_	Number=Plur	34	mod	_	Gender[lex]=Unknown
 34	Terres	terre	PROPN	_	Gender=Fem|Number=Plur	31	comp:obj	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	5	punct	_	_
@@ -110,7 +110,7 @@
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	trop	trop	ADV	_	_	5	mod	_	_
 4	trop	trop	ADV	_	_	3	conj:coord	_	_
-5	beau	beau	ADJ	_	Gender=Masc	2	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
+5	beau	beau	ADJ	_	Gender=Masc	2	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_6
@@ -148,8 +148,8 @@
 13	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	subj	_	_
 14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:dicto	_	_
 15	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	14	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
-16	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	_
-17	avion	avion	NOUN	_	_	15	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+16	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+17	avion	avion	NOUN	_	_	15	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 18	à	à	ADP	_	_	15	mod	_	_
 19	Gênes	Gênes	PROPN	_	_	18	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	_
@@ -170,7 +170,7 @@
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	1	punct	_	_
-14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 15	Italie	Italie	PROPN	_	_	20	dislocated:subj	_	Gender[lex]=Unknown|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	mais	mais	CCONJ	_	_	15	discourse	_	SpaceAfter=No
@@ -193,12 +193,12 @@
 34	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	35	subj	_	SpaceAfter=No
 35	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj:coord	_	_
 36	vraiment	vraiment	ADV	_	_	35	mod	_	_
-37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 38	pays	pays	NOUN	_	_	35	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 39-40	des	_	_	_	_	_	_	_	_
 39	de	de	ADP	_	_	38	udep	_	_
-40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
-41	arnaques	arnaque	NOUN	_	_	39	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+41	arnaques	arnaque	NOUN	_	_	39	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 42	.	.	PUNCT	_	_	20	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_9
@@ -237,7 +237,7 @@
 31	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	32	subj	_	SpaceAfter=No
 32	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj:coord	_	_
 33	peut-être	peut-être	ADV	_	_	34	mod	_	_
-34	normal	normal	ADJ	_	Number=Sing	32	comp:pred	_	Gender[ctxt]=Masc|SpaceAfter=No
+34	normal	normal	ADJ	_	Number=Sing	32	comp:pred	_	Gender[ctxt]=Masc|HasSpokenNumber=AlwaysMasc|SpaceAfter=No
 35	,	,	PUNCT	_	_	43	punct	_	_
 36	mais	mais	CCONJ	_	_	43	cc	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	_
@@ -248,7 +248,7 @@
 42	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	38	conj:dicto	_	SpaceAfter=No
 43	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	32	conj:coord	_	_
 44	pas	pas	ADV	_	Polarity=Neg	43	mod	_	_
-45	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+45	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 46	souvenir	souvenir	NOUN	_	_	43	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 47	qu'	que	SCONJ	_	_	46	mod	_	SpaceAfter=No
 48	à	à	ADP	_	_	51	mod	_	_
@@ -273,7 +273,7 @@
 10	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj	_	_
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj:dicto	_	_
 12	dans	dans	ADP	_	_	11	comp:pred	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 14	centre-ville	centre-ville	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	subj	_	_
@@ -343,8 +343,8 @@
 18	,	,	PUNCT	_	_	23	punct	_	_
 19	euh	euh	INTJ	_	_	23	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
-21	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	23	det	_	_
-22	petite	petit	ADJ	_	Gender=Fem	23	mod	_	Number[ctxt]=Sing
+21	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+22	petite	petit	ADJ	_	Gender=Fem	23	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
 23	boule	boule	NOUN	_	_	17	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 24	de	de	ADP	_	_	23	udep	_	_
 25	glace	glace	NOUN	_	_	24	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -357,7 +357,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 6	gars	gars	NOUN	_	_	8	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
 8	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -443,7 +443,7 @@
 23	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
 24	pas	pas	ADV	_	Polarity=Neg	23	mod	_	_
 25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-26	petit	petit	ADJ	_	Gender=Masc	27	mod	_	Number[ctxt]=Sing
+26	petit	petit	ADJ	_	Gender=Masc	27	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
 27	souci	souci	NOUN	_	_	23	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 28	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -461,7 +461,7 @@
 9	fait	fait	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	Reported=Yes
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 13	même	même	ADJ	_	_	14	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
 14	prix	prix	NOUN	_	_	11	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	3	punct	_	_
@@ -479,7 +479,7 @@
 8	,	,	PUNCT	_	_	3	punct	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	SpaceAfter=No
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 12	même	même	ADJ	_	_	13	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
 13	prix	prix	NOUN	_	_	10	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	.	.	PUNCT	_	_	10	punct	_	_
@@ -509,7 +509,7 @@
 4	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	sept	sept	NUM	_	ExtPos=DET	7	det	_	Number[lex]=Plur
-7	euros	euro	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|Reported=Yes
+7	euros	euro	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|Reported=Yes
 8	!	!	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_22
@@ -521,29 +521,29 @@
 4	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 5	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	_
+7	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	euh	euh	INTJ	_	_	7	discourse	_	_
-9	petite	petit	ADJ	_	Gender=Fem	15	mod	_	Number[ctxt]=Sing
+9	petite	petit	ADJ	_	Gender=Fem	15	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
 10	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
-12	première	premier	ADJ	_	Gender=Fem	15	mod	_	Number[ctxt]=Sing
+12	première	premier	ADJ	_	Gender=Fem	15	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
 13	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	12	punct	_	_
-15	arnaque	arnaque	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+15	arnaque	arnaque	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 16	à	à	ADP	_	_	15	udep	_	_
 17	Florence	Florence	PROPN	_	_	16	comp:obj	_	Gender[lex]=Unknown
 18	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	à	à	ADP	_	_	15	udep	_	_
 21	sept	sept	NUM	_	ExtPos=DET	22	det	_	Number[lex]=Plur
-22	euros	euro	NOUN	_	_	20	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+22	euros	euro	NOUN	_	_	20	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_23
 # text = donc le prix d'un, enfin ouais c'était, le prix d'un repas en fait hein.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	donc	donc	ADV	_	_	10	mod	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 3	prix	prix	NOUN	_	_	10	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	d'	de	ADP	_	_	3	udep	_	SpaceAfter=No
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	comp:obj@scrap	_	SpaceAfter=No
@@ -553,7 +553,7 @@
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	SpaceAfter=No
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 13	prix	prix	NOUN	_	_	10	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 14	d'	de	ADP	_	_	13	udep	_	SpaceAfter=No
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -571,7 +571,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	8	mod	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 6	final	final	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -589,8 +589,8 @@
 2	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	laisser	laisser	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 4	euh	euh	INTJ	_	_	6	discourse	_	_
-5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
-6	avis	avis	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	LiaisonAfter=Yes
+6	avis	avis	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	sur	sur	ADP	_	_	6	udep	_	_
 9	Google	Google	PROPN	_	_	8	comp:obj	_	Gender[lex]=Unknown
@@ -611,12 +611,12 @@
 8	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	comp:obj	_	_
 9	que	que	ADV	_	Polarity=Neg	12	mod	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
-11	mauvais	mauvais	ADJ	_	Gender=Masc	12	mod	_	Number[ctxt]=Plur
-12	avis	avis	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+11	mauvais	mauvais	ADJ	_	Gender=Masc	12	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFem|LiaisonAfter=Yes|Number[ctxt]=Plur
+12	avis	avis	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 13	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	sur	sur	ADP	_	_	12	udep	_	_
-16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 17	truc	truc	NOUN	_	_	15	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 18	.	.	PUNCT	_	_	20	punct	_	_
 19	mais	mais	CCONJ	_	_	20	cc	_	_
@@ -629,7 +629,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1-2	au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	7	mod	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 3	final	final	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
@@ -654,7 +654,7 @@
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	vraiment	vraiment	ADV	_	_	11	mod	_	_
 10	trop	trop	ADV	_	_	11	mod	_	_
-11	beau	beau	ADJ	_	Gender=Masc	8	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
+11	beau	beau	ADJ	_	Gender=Masc	8	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_29
@@ -686,16 +686,16 @@
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	parce	parce	ADV	_	ExtPos=SCONJ	23	mod	_	Idiom=Yes
 26	que	que	SCONJ	_	_	25	unk	_	InIdiom=Yes
-27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
+27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 28	trucs	truc	NOUN	_	_	31	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 29	,	,	PUNCT	_	_	28	punct	_	_
 30	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	31	subj	_	SpaceAfter=No
 31	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	comp:obj	_	_
-32	complet	complet	ADJ	_	Gender=Masc	31	comp:pred	_	Number[ctxt]=Sing
+32	complet	complet	ADJ	_	Gender=Masc	31	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
 33	jusqu'	jusque	ADV	_	_	34	mod	_	SpaceAfter=No
 34-35	au	_	_	_	_	_	_	_	SpaceAfter=No
 34	à	à	ADP	_	_	32	mod	_	_
-35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	unk@scrap	_	_
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	unk@scrap	_	HasSpokenGender=OnlySingExceptWithLiaison
 36	,	,	PUNCT	_	_	37	punct	_	_
 37	pendant	pendant	ADP	_	_	34	conj:dicto	_	_
 38	trois	trois	NUM	_	ExtPos=DET	39	det	_	Number[lex]=Plur
@@ -721,11 +721,11 @@
 12	et	et	CCONJ	_	_	14	cc	_	_
 13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	subj	_	SpaceAfter=No
 14	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj:coord	_	_
-15	complet	complet	ADJ	_	Gender=Masc	14	comp:pred	_	Number[ctxt]=Sing
+15	complet	complet	ADJ	_	Gender=Masc	14	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
 16	jusqu'	jusque	ADV	_	_	17	mod	_	SpaceAfter=No
 17-18	au	_	_	_	_	_	_	_	_
 17	à	à	ADP	_	_	15	mod	_	_
-18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 19	lundi	lundi	NOUN	_	_	17	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -787,8 +787,8 @@
 16	hum	hum	INTJ	_	_	18	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	sur	sur	ADP	_	_	15	conj:dicto	_	_
-19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-20	île	île	NOUN	_	_	18	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+20	île	île	NOUN	_	_	18	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 21	d'	de	ADP	_	_	20	udep	_	SpaceAfter=No
 22	Elbe	Elbe	PROPN	_	_	21	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 23	,	,	PUNCT	_	_	11	punct	_	_
@@ -806,15 +806,15 @@
 35	pas	pas	ADV	_	Polarity=Neg	34	mod	_	_
 36	vraiment	vraiment	ADV	_	_	37	mod	_	_
 37	regardé	regarder	VERB	_	VerbForm=Part|Voice=Act	34	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
-38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	SpaceAfter=No
+38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 39	,	,	PUNCT	_	_	40	punct	_	_
-40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	conj:dicto	_	_
+40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	conj:dicto	_	HasSpokenGender=OnlySingExceptWithLiaison
 41	photos	photo	NOUN	_	_	37	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 42	de	de	ADP	_	_	41	udep	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	44	punct	_	_
 44	de	de	ADP	_	_	42	conj:dicto	_	_
-45	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	46	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-46	appart	appart	NOUN	_	_	44	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+45	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	46	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+46	appart	appart	NOUN	_	_	44	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 47	qu'	que	PRON	_	PronType=Rel	50	comp:obj	_	SpaceAfter=No
 48	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	49	subj	_	_
 49	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	46	mod@relcl	_	_
@@ -829,7 +829,7 @@
 3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	devant	devant	ADP	_	_	4	mod	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	truc	truc	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	_
 
@@ -840,10 +840,10 @@
 2	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 3	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	longer	longer	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
-5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	espèce	espèce	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	LiaisonAfter=Yes
+6	espèce	espèce	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 7	d'	de	ADP	_	_	6	udep	_	SpaceAfter=No
-8	autoroute	autoroute	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+8	autoroute	autoroute	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	_
@@ -852,8 +852,8 @@
 14	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	devant	devant	ADP	_	_	13	conj:dicto	_	_
-17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-18	appart	appart	NOUN	_	_	16	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+18	appart	appart	NOUN	_	_	16	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_36
@@ -861,8 +861,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	espèce	espèce	NOUN	_	_	2	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
+3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	LiaisonAfter=Yes
+4	espèce	espèce	NOUN	_	_	2	comp:pred	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 5	de	de	ADP	_	_	4	udep	_	_
 6	maison	maison	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
@@ -870,7 +870,7 @@
 # sent_id = ParisStories_2019_voyageItalie_37
 # text = le truc il y avait d'un côté il y avait une euh, une voie rapide, de l'autre côté il y avait une autre voie rapide, à côté d'un rond-point, et il y avait la station service.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
-1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 2	truc	truc	NOUN	_	Shared=No	5	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	InIdiom=Yes
 4	y	y	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	InIdiom=Yes
@@ -889,14 +889,14 @@
 17	rapide	rapide	ADJ	_	_	16	mod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	25	punct	_	_
 19	de	de	ADP	_	_	25	mod	_	_
-20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-21	autre	autre	ADJ	_	_	22	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
+20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+21	autre	autre	ADJ	_	_	22	mod	_	Gender[ctxt]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 22	côté	côté	NOUN	_	_	19	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 23	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	subj@expl	_	InIdiom=Yes
 24	y	y	PRON	_	Person=3|PronType=Prs	25	comp@expl	_	InIdiom=Yes
 25	avait	avoir	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj:coord	_	Idiom=Yes
-26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-27	autre	autre	ADJ	_	_	28	mod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	LiaisonAfter=Yes
+27	autre	autre	ADJ	_	_	28	mod	_	Gender[ctxt]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 28	voie	voie	NOUN	_	_	25	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 29	rapide	rapide	ADJ	_	_	28	mod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
@@ -910,7 +910,7 @@
 38	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	subj@expl	_	InIdiom=Yes
 39	y	y	PRON	_	Person=3|PronType=Prs	40	comp@expl	_	InIdiom=Yes
 40	avait	avoir	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	conj:coord	_	Idiom=Yes
-41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 42	station	station	NOUN	_	_	40	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 43	service	service	NOUN	_	_	42	compound	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 44	.	.	PUNCT	_	_	5	punct	_	_
@@ -918,9 +918,9 @@
 # sent_id = ParisStories_2019_voyageItalie_38
 # text = la station essence, qui était juste en face.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
-1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 2	station	station	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing
-3	essence	essence	NOUN	_	_	2	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+3	essence	essence	NOUN	_	_	2	mod	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	qui	qui	PRON	_	PronType=Rel	6	subj	_	_
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	mod@relcl	_	_
@@ -946,16 +946,16 @@
 12	genre	genre	NOUN	_	ExtPos=INTJ	13	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	10	dislocated:obj	_	_
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 15	bruit	bruit	NOUN	_	_	13	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 16	,	,	PUNCT	_	_	20	punct	_	_
 17	mais	mais	CCONJ	_	_	20	discourse	_	_
-18	toute	tout	ADJ	_	Gender=Fem	20	mod	_	Number[ctxt]=Sing
-19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	20	det	_	_
+18	toute	tout	ADJ	_	Gender=Fem	20	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 20	journée	journée	NOUN	_	_	13	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
-22	toute	tout	ADJ	_	Gender=Fem	24	mod	_	Number[ctxt]=Sing
-23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+22	toute	tout	ADJ	_	Gender=Fem	24	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
+23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 24	nuit	nuit	NOUN	_	_	20	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 25	,	,	PUNCT	_	_	7	punct	_	_
 
@@ -979,16 +979,16 @@
 3	plus	plus	ADV	_	_	2	comp:obj	_	_
 4	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
-6	tous	tout	ADJ	_	Gender=Masc	8	mod	_	Number[ctxt]=Plur
-7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+6	tous	tout	ADJ	_	Gender=Masc	8	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Plur
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	matins	matin	NOUN	_	_	12	mod	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	_
 11	se	soi	PRON	_	Person=3|PronType=Prs	12	comp:obj	_	_
 12	réveillait	réveiller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 13	avec	avec	ADP	_	_	12	mod	_	_
-14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
-15	espèces	espèce	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
+14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	LiaisonAfter=Yes
+15	espèces	espèce	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 16	de	de	ADP	_	_	15	udep	_	_
 17	piqûres	piqûre	NOUN	_	_	16	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 18	de	de	ADP	_	_	17	udep	_	_
@@ -1017,7 +1017,7 @@
 2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 3	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	trop	trop	ADV	_	_	5	mod	_	_
-5	chaud	chaud	ADJ	_	Gender=Masc	3	comp:pred	_	Number[ctxt]=Sing|SpaceAfter=No
+5	chaud	chaud	ADJ	_	Gender=Masc	3	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_44
@@ -1029,11 +1029,11 @@
 4	siestes	sieste	NOUN	_	_	2	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 5	de	de	ADP	_	_	4	udep	_	_
 6	trois	trois	NUM	_	ExtPos=DET	7	det	_	Number[lex]=Plur
-7	heures	heure	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
+7	heures	heure	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 8	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	pendant	pendant	ADP	_	_	2	mod	_	_
-11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 12	journée	journée	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	enfin	enfin	ADV	_	ExtPos=INTJ	16	discourse	_	_
@@ -1051,14 +1051,14 @@
 4	mais	mais	CCONJ	_	_	10	cc	_	_
 5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	10	mod	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	final	final	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	euh	euh	INTJ	_	_	5	discourse	_	_
 9	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	10	comp:aux@tense	_	Number[ctxt]=Sing|Tense[denom]=Past
-12	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	_
-13	petite	petit	ADJ	_	Gender=Fem	14	mod	_	Number[ctxt]=Sing
+12	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+13	petite	petit	ADJ	_	Gender=Fem	14	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
 14	réclamation	réclamation	NOUN	_	_	11	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 15	sur	sur	ADP	_	_	14	udep	_	_
 16	Airbnb	Airbnb	PROPN	_	_	15	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
@@ -1077,7 +1077,7 @@
 29	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	28	punct	_	_
 31	quatre-vingt	quatre-vingt	NUM	_	ExtPos=DET	32	det	_	Number[lex]=Plur
-32	euros	euro	NOUN	_	_	25	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+32	euros	euro	NOUN	_	_	25	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 33	mais	mais	CCONJ	_	_	34	cc	_	_
 34	bon	bon	INTJ	_	_	22	discourse	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	10	punct	_	_
@@ -1090,14 +1090,14 @@
 3	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	pour	pour	ADP	_	_	2	conj:dicto	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	prix	prix	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	général	général	ADJ	_	Number=Sing	7	mod	_	Gender[ctxt]=Masc
+10	général	général	ADJ	_	Number=Sing	7	mod	_	Gender[ctxt]=Masc|HasSpokenNumber=AlwaysMasc
 11-12	du	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	7	mod	_	_
-12	le	le	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	le	le	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 13	truc	truc	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 14	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	2	punct	_	_
@@ -1136,29 +1136,29 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	franchement	franchement	ADV	_	_	13	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	conj:dicto	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	conj:dicto	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	truc	truc	NOUN	_	_	13	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	qui	qui	PRON	_	PronType=Rel	9	subj	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
-10	génial	génial	ADJ	_	Number=Sing	9	comp:pred	_	Gender[ctxt]=Masc|SpaceAfter=No
+10	génial	génial	ADJ	_	Number=Sing	9	comp:pred	_	Gender[ctxt]=Masc|HasSpokenNumber=AlwaysMasc|SpaceAfter=No
 11	,	,	PUNCT	_	_	7	punct	_	_
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	subj	_	SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	conj:dicto	_	_
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	conj:dicto	_	HasSpokenGender=OnlySingExceptWithLiaison
 16	pizzas	pizza	NOUN	_	_	13	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Plur
 17	à	à	ADP	_	_	16	udep	_	_
 18	cinq	cinq	NUM	_	ExtPos=DET	19	det	_	Number[lex]=Plur
-19	euros	euro	NOUN	_	_	17	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+19	euros	euro	NOUN	_	_	17	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 20	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_49
 # text = les pizzas énormes, qui font genre euh, toute l'assiette quoi.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
-1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 2	pizzas	pizza	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Plur
 3	énormes	énorme	ADJ	_	_	2	mod	_	Gender[ctxt]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
@@ -1167,9 +1167,9 @@
 7	genre	genre	NOUN	_	ExtPos=INTJ	12	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	toute	tout	ADJ	_	Gender=Fem	12	mod	_	Number[ctxt]=Sing
-11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-12	assiette	assiette	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+10	toute	tout	ADJ	_	Gender=Fem	12	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
+11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+12	assiette	assiette	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 13	quoi	quoi	INTJ	_	_	2	discourse	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -1184,7 +1184,7 @@
 6	Paris	Paris	PROPN	_	_	8	dislocated:subj	_	Gender[lex]=Unknown
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 10	double	double	NOUN	_	_	8	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 11	quoi	quoi	INTJ	_	_	8	discourse	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	8	punct	_	_
@@ -1209,9 +1209,9 @@
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	pareil	pareil	ADJ	_	_	12	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	SpaceAfter=No
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	conj:dicto	_	_
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	conj:dicto	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	spritz	spritz	NOUN	_	_	12	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	là-bas	là-bas	ADV	_	_	12	mod	_	_
@@ -1221,7 +1221,7 @@
 14	à	à	ADP	_	_	12	comp:pred	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	six	six	NUM	_	ExtPos=DET	17	det	_	Number[lex]=Plur
-17	euros	euro	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+17	euros	euro	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 18	,	,	PUNCT	_	_	22	punct	_	_
 19	et	et	CCONJ	_	_	22	cc	_	_
 20	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	subj	_	_
@@ -1229,13 +1229,13 @@
 22	amènent	amener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj:coord	_	_
 23	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
-25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-26	apéro	apéro	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+26	apéro	apéro	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 27	avec	avec	ADP	_	_	26	udep	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	32	punct	_	_
 29	genre	genre	NOUN	_	ExtPos=INTJ	32	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 30	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	32	det	_	_
-31	petits	petit	ADJ	_	Gender=Masc	32	mod	_	Number[ctxt]=Plur
+31	petits	petit	ADJ	_	Gender=Masc	32	mod	_	HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Plur
 32	trucs	truc	NOUN	_	_	27	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 33	à	à	ADP	_	_	32	udep	_	_
 34	manger	manger	VERB	_	VerbForm=Inf	33	comp:obj	_	Subject=NoRaising

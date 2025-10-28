@@ -18,10 +18,10 @@
 1	donc	donc	ADV	_	_	10	mod	_	AlignBegin=1454|AlignEnd=1818
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	10	discourse	_	AlignBegin=1818|AlignEnd=2181|wordform=du
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	coup	coup	NOUN	_	_	2	comp:obj	_	AlignBegin=2181|AlignEnd=2545|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	AlignBegin=2545|AlignEnd=2545
-6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=2545|AlignEnd=2908
+6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=2545|AlignEnd=2908|HasSpokenGender=OnlySingExceptWithLiaison
 7	père	père	NOUN	_	_	10	dislocated:subj	_	AlignBegin=2908|AlignEnd=3272|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=3272|AlignEnd=3272
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	AlignBegin=3272|AlignEnd=3635
@@ -42,7 +42,7 @@
 2	quelque	quelque	DET	_	Number=Sing|PronType=Ind	3	det	_	AlignBegin=5700|AlignEnd=5948
 3	temps	temps	NOUN	_	_	1	comp:obj	_	AlignBegin=5948|AlignEnd=6195|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=6195|AlignEnd=6195
-5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	AlignBegin=6195|AlignEnd=6442
+5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	AlignBegin=6195|AlignEnd=6442|HasSpokenGender=OnlySingExceptWithLiaison
 6	mère	mère	NOUN	_	_	9	dislocated:subj	_	AlignBegin=6442|AlignEnd=6690|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=6690|AlignEnd=6690
 8	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	subj	_	AlignBegin=6690|AlignEnd=6937
@@ -69,24 +69,24 @@
 1	après	après	ADP	_	_	35	mod	_	AlignBegin=11251|AlignEnd=11612
 2	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=11612|AlignEnd=11973|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=11973|AlignEnd=11973
-4	quelques	quelque	DET	_	Number=Plur|PronType=Ind	5	det	_	AlignBegin=11973|AlignEnd=12334
-5	années	année	NOUN	_	_	1	comp:obj	_	AlignBegin=12334|AlignEnd=12696|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+4	quelques	quelque	DET	_	Number=Plur|PronType=Ind	5	det	_	AlignBegin=11973|AlignEnd=12334|LiaisonAfter=Yes
+5	années	année	NOUN	_	_	1	comp:obj	_	AlignBegin=12334|AlignEnd=12696|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=12696|AlignEnd=12696
 7	quand	quand	SCONJ	_	_	35	mod	_	AlignBegin=12696|AlignEnd=13057
 8	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	subj	_	AlignBegin=13057|AlignEnd=13418|SpaceAfter=No
 9	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	comp:obj	_	AlignBegin=13418|AlignEnd=13779
 10	sept	sept	NUM	_	ExtPos=DET	11	det	_	AlignBegin=13779|AlignEnd=14140|Number[lex]=Plur
-11	ans	an	NOUN	_	_	9	comp:obj	_	AlignBegin=14140|AlignEnd=14501|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+11	ans	an	NOUN	_	_	9	comp:obj	_	AlignBegin=14140|AlignEnd=14501|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 12	,	,	PUNCT	_	_	7	punct	_	AlignBegin=14501|AlignEnd=14501
 13	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=14501|AlignEnd=14917|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=14917|AlignEnd=14917
-15	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	16	det	_	AlignBegin=14917|AlignEnd=15333
+15	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	16	det	_	AlignBegin=14917|AlignEnd=15333|HasSpokenGender=OnlySingExceptWithLiaison
 16	frère	frère	NOUN	_	_	19	dislocated:subj	_	AlignBegin=15333|AlignEnd=15749|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	AlignBegin=15749|AlignEnd=15749
 18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj	_	AlignBegin=15749|AlignEnd=16165
 19	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	parataxis	_	AlignBegin=16165|AlignEnd=16582
-20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	AlignBegin=16582|AlignEnd=16998
-21	an	an	NOUN	_	_	19	comp:obj	_	AlignBegin=16998|AlignEnd=17414|Gender[lex]=Masc|Number[ctxt]=Sing
+20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	AlignBegin=16582|AlignEnd=16998|LiaisonAfter=Yes
+21	an	an	NOUN	_	_	19	comp:obj	_	AlignBegin=16998|AlignEnd=17414|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 22	de	de	ADP	_	_	21	mod	_	AlignBegin=17414|AlignEnd=17830
 23	m~	m~	X	_	_	22	comp:obj	_	AlignBegin=17830|AlignEnd=18246|SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	AlignBegin=18246|AlignEnd=18246
@@ -96,7 +96,7 @@
 28	,	,	PUNCT	_	_	27	punct	_	AlignBegin=19263|AlignEnd=19263
 29	bah	bah	INTJ	_	_	35	discourse	_	AlignBegin=19263|AlignEnd=19864|SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	AlignBegin=19864|AlignEnd=19864
-31	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	32	det	_	AlignBegin=19864|AlignEnd=20464
+31	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	32	det	_	AlignBegin=19864|AlignEnd=20464|HasSpokenGender=OnlySingExceptWithLiaison
 32	père	père	NOUN	_	_	35	dislocated:subj	_	AlignBegin=20464|AlignEnd=21065|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 33	,	,	PUNCT	_	_	32	punct	_	AlignBegin=21065|AlignEnd=21065
 34	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	subj	_	AlignBegin=21065|AlignEnd=21666
@@ -113,8 +113,8 @@
 45	euh	euh	INTJ	_	_	43	discourse	_	AlignBegin=25270|AlignEnd=25871
 46	et	et	CCONJ	_	_	47	cc	_	AlignBegin=25871|AlignEnd=26228
 47	aller	aller	VERB	_	VerbForm=Inf	43	conj:coord	_	AlignBegin=26228|AlignEnd=26585|Subject=SubjRaising
-48	tous	tout	DET	_	Gender=Masc|Number=Plur|PronType=Ind	49	det	_	AlignBegin=26585|AlignEnd=26942
-49	ensemble	ensemble	NOUN	_	_	47	mod	_	AlignBegin=26942|AlignEnd=27298|Gender[lex]=Masc|Number[ctxt]=Plur
+48	tous	tout	DET	_	Gender=Masc|Number=Plur|PronType=Ind	49	det	_	AlignBegin=26585|AlignEnd=26942|LiaisonAfter=Yes
+49	ensemble	ensemble	NOUN	_	_	47	mod	_	AlignBegin=26942|AlignEnd=27298|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 50	en	en	ADP	_	_	47	comp:obl	_	AlignBegin=27298|AlignEnd=27655
 51	Équateur	Équateur	PROPN	_	_	50	comp:obj	_	AlignBegin=27655|AlignEnd=28012|Gender[lex]=Unknown|SpaceAfter=No
 52	.	.	PUNCT	_	_	35	punct	_	AlignBegin=28012|AlignEnd=28012
@@ -123,7 +123,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/86b98d9610ef59da002ccadd00d7c0f4c16202d8
 # speaker = 0
 # text = ma mère, elle nous attendait en Espagne.
-1	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	AlignBegin=28012|AlignEnd=28287
+1	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	AlignBegin=28012|AlignEnd=28287|HasSpokenGender=OnlySingExceptWithLiaison
 2	mère	mère	NOUN	_	_	6	dislocated:subj	_	AlignBegin=28287|AlignEnd=28563|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=28563|AlignEnd=28563
 4	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	subj	_	AlignBegin=28563|AlignEnd=28838
@@ -139,7 +139,7 @@
 # text = euh, mon père, bah, il est, il, il est venu à la maison.
 1	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=29939|AlignEnd=30472|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=30472|AlignEnd=30472
-3	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	AlignBegin=30472|AlignEnd=31004
+3	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	AlignBegin=30472|AlignEnd=31004|HasSpokenGender=OnlySingExceptWithLiaison
 4	père	père	NOUN	_	_	9	dislocated:subj	_	AlignBegin=31004|AlignEnd=31537|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=31537|AlignEnd=31537
 6	bah	bah	INTJ	_	_	9	discourse	_	AlignBegin=31537|AlignEnd=32070|SpaceAfter=No
@@ -153,7 +153,7 @@
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj:dicto	_	AlignBegin=34200|AlignEnd=34733
 15	venu	venir	VERB	_	VerbForm=Part	14	comp:aux@tense	_	AlignBegin=34733|AlignEnd=35266|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 16	à	à	ADP	_	_	15	comp:obl	_	AlignBegin=35266|AlignEnd=35266
-17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	AlignBegin=35266|AlignEnd=35798
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	AlignBegin=35266|AlignEnd=35798|HasSpokenGender=OnlySingExceptWithLiaison
 18	maison	maison	NOUN	_	_	16	comp:obj	_	AlignBegin=35798|AlignEnd=36331|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 19	.	.	PUNCT	_	_	9	punct	_	AlignBegin=36331|AlignEnd=36331
 
@@ -169,12 +169,12 @@
 6	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=37121|AlignEnd=37384|SpaceAfter=No
 7	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	conj:dicto	_	AlignBegin=37384|AlignEnd=37648
 8	de	de	ADP	_	ExtPos=DET	10	det	_	AlignBegin=37648|AlignEnd=37911|Idiom=Yes
-9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	unk	_	AlignBegin=37911|AlignEnd=38174|InIdiom=Yes
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	unk	_	AlignBegin=37911|AlignEnd=38174|HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
 10	conscience	conscience	NOUN	_	_	7	comp:obj	_	AlignBegin=38174|AlignEnd=38438|Gender[lex]=Fem|Number[ctxt]=Sing
 11	que	que	SCONJ	_	_	10	mod	_	AlignBegin=38438|AlignEnd=38701
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	subj	_	AlignBegin=38701|AlignEnd=38964|SpaceAfter=No
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	comp:obj	_	AlignBegin=38964|AlignEnd=39228
-14	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	AlignBegin=39228|AlignEnd=39491
+14	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	AlignBegin=39228|AlignEnd=39491|HasSpokenGender=OnlySingExceptWithLiaison
 15	père	père	NOUN	_	_	13	comp:pred	_	AlignBegin=39491|AlignEnd=39754|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	AlignBegin=39754|AlignEnd=39754
 
@@ -254,7 +254,7 @@
 14	quand	quand	SCONJ	_	_	3	mod	_	AlignBegin=54551|AlignEnd=54880
 15	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	16	subj	_	AlignBegin=54880|AlignEnd=55209|SpaceAfter=No
 16	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	comp:obj	_	AlignBegin=55209|AlignEnd=55538
-17	petite	petit	ADJ	_	Gender=Fem	16	comp:pred	_	AlignBegin=55538|AlignEnd=55867|Number[ctxt]=Sing|SpaceAfter=No
+17	petite	petit	ADJ	_	Gender=Fem	16	comp:pred	_	AlignBegin=55538|AlignEnd=55867|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	AlignBegin=55867|AlignEnd=55867
 
 # sent_id = ParisStories_2022_20_LesParentsInconnus__12
@@ -272,14 +272,14 @@
 9	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=57597|AlignEnd=57885|SpaceAfter=No
 10	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	comp:obj	_	AlignBegin=57885|AlignEnd=58173
 11	avec	avec	ADP	_	_	10	comp:obl	_	AlignBegin=58173|AlignEnd=58461
-12	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	17	det	_	AlignBegin=58461|AlignEnd=58750|SpaceAfter=No
+12	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	17	det	_	AlignBegin=58461|AlignEnd=58750|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=58750|AlignEnd=58750
-14	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	conj:dicto	_	AlignBegin=58750|AlignEnd=59038|SpaceAfter=No
+14	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	conj:dicto	_	AlignBegin=58750|AlignEnd=59038|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=59038|AlignEnd=59038
-16	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	conj:dicto	_	AlignBegin=59038|AlignEnd=59326
-17	oncles	oncle	NOUN	_	_	11	comp:obj	_	AlignBegin=59326|AlignEnd=59614|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+16	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	conj:dicto	_	AlignBegin=59038|AlignEnd=59326|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+17	oncles	oncle	NOUN	_	_	11	comp:obj	_	AlignBegin=59326|AlignEnd=59614|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	AlignBegin=59614|AlignEnd=59614
-19	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	AlignBegin=59614|AlignEnd=59903
+19	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	AlignBegin=59614|AlignEnd=59903|HasSpokenGender=OnlySingExceptWithLiaison
 20	cousins	cousin	NOUN	_	_	17	conj:coord	_	AlignBegin=59903|AlignEnd=60191|Gender[lex]=Masc|Number[ctxt]=Plur
 21	…	…	PUNCT	_	_	3	punct	_	AlignBegin=60191|AlignEnd=60191
 
@@ -299,7 +299,7 @@
 10	quand	quand	SCONJ	_	_	4	mod	_	AlignBegin=62962|AlignEnd=63309
 11	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	12	subj	_	AlignBegin=63309|AlignEnd=63655|SpaceAfter=No
 12	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	comp:obj	_	AlignBegin=63655|AlignEnd=64002
-13	petite	petit	ADJ	_	Gender=Fem	12	comp:pred	_	AlignBegin=64002|AlignEnd=64348|Number[ctxt]=Sing|SpaceAfter=No
+13	petite	petit	ADJ	_	Gender=Fem	12	comp:pred	_	AlignBegin=64002|AlignEnd=64348|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	AlignBegin=64348|AlignEnd=64348
 
 # sent_id = ParisStories_2022_20_LesParentsInconnus__14
@@ -321,8 +321,8 @@
 13	de	de	ADP	_	_	12	comp:obl	_	AlignBegin=67092|AlignEnd=67480|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=67480|AlignEnd=67480
 15	de	de	ADP	_	_	13	conj:dicto	_	AlignBegin=67480|AlignEnd=67868
-16	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	18	det	_	AlignBegin=67868|AlignEnd=68256
-17	nouvelle	nouveau	ADJ	_	Gender=Fem	18	mod	_	AlignBegin=68256|AlignEnd=68643|Number[ctxt]=Sing
+16	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	18	det	_	AlignBegin=67868|AlignEnd=68256|HasSpokenGender=OnlySingExceptWithLiaison
+17	nouvelle	nouveau	ADJ	_	Gender=Fem	18	mod	_	AlignBegin=68256|AlignEnd=68643|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
 18	vie	vie	NOUN	_	_	15	comp:obj	_	AlignBegin=68643|AlignEnd=69031|Gender[lex]=Fem|Number[ctxt]=Sing
 19	en	en	ADP	_	_	18	udep	_	AlignBegin=69031|AlignEnd=69419
 20	Espagne	Espagne	PROPN	_	_	19	comp:obj	_	AlignBegin=69419|AlignEnd=69807|Gender[lex]=Unknown|SpaceAfter=No
@@ -335,7 +335,7 @@
 1	euh	euh	INTJ	_	_	3	discourse	_	AlignBegin=69807|AlignEnd=70371|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=70371|AlignEnd=70371
 3	voilà	voilà	VERB	_	_	0	root	_	AlignBegin=70371|AlignEnd=70934
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=70934|AlignEnd=71498
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=70934|AlignEnd=71498|HasSpokenGender=OnlySingExceptWithLiaison
 5	jour	jour	NOUN	_	_	3	comp:obj	_	AlignBegin=71498|AlignEnd=72061|Gender[lex]=Masc|Number[ctxt]=Sing
 6	où	où	PRON	_	PronType=Rel	10	mod	_	AlignBegin=72061|AlignEnd=72625|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=72625|AlignEnd=72625
@@ -358,7 +358,7 @@
 24	,	,	PUNCT	_	_	26	punct	_	AlignBegin=78467|AlignEnd=78467
 25	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	26	subj	_	AlignBegin=78467|AlignEnd=78912|SpaceAfter=No
 26	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	23	conj:coord	_	AlignBegin=78912|AlignEnd=79356
-27	consciente	conscient	ADJ	_	Gender=Fem	26	comp:pred	_	AlignBegin=79356|AlignEnd=79801|Number[ctxt]=Sing|SpaceAfter=No
+27	consciente	conscient	ADJ	_	Gender=Fem	26	comp:pred	_	AlignBegin=79356|AlignEnd=79801|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 28	.	.	PUNCT	_	_	3	punct	_	AlignBegin=79801|AlignEnd=79801
 
 # sent_id = ParisStories_2022_20_LesParentsInconnus__16
@@ -366,9 +366,9 @@
 # speaker = 0
 # text = mais mon, mon frère, il savait pas, parce que il était plus petit que moi, et il savait pas vraiment qui, euh, c'était, mon père.
 1	mais	mais	CCONJ	_	_	8	cc	_	AlignBegin=79801|AlignEnd=80127
-2	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	5	det	_	AlignBegin=80127|AlignEnd=80452|SpaceAfter=No
+2	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	5	det	_	AlignBegin=80127|AlignEnd=80452|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=80452|AlignEnd=80452
-4	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	conj:dicto	_	AlignBegin=80452|AlignEnd=80778
+4	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	conj:dicto	_	AlignBegin=80452|AlignEnd=80778|HasSpokenGender=OnlySingExceptWithLiaison
 5	frère	frère	NOUN	_	_	8	dislocated:subj	_	AlignBegin=80778|AlignEnd=81104|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=81104|AlignEnd=81104
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	AlignBegin=81104|AlignEnd=81429
@@ -380,7 +380,7 @@
 13	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj	_	AlignBegin=82732|AlignEnd=83058
 14	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	comp:obj	_	AlignBegin=83058|AlignEnd=83383
 15	plus	plus	ADV	_	_	16	mod	_	AlignBegin=83383|AlignEnd=83709
-16	petit	petit	ADJ	_	Gender=Masc	14	comp:pred	_	AlignBegin=83709|AlignEnd=84034|Number[ctxt]=Sing
+16	petit	petit	ADJ	_	Gender=Masc	14	comp:pred	_	AlignBegin=83709|AlignEnd=84034|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
 17	que	que	SCONJ	_	_	15	comp:obj	_	AlignBegin=84034|AlignEnd=84360
 18	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	17	comp:obj	_	AlignBegin=84360|AlignEnd=84686|SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	AlignBegin=84686|AlignEnd=84686
@@ -396,7 +396,7 @@
 29	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	subj	_	AlignBegin=87748|AlignEnd=88466|SpaceAfter=No
 30	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	comp:obj	_	AlignBegin=88466|AlignEnd=89183|SpaceAfter=No
 31	,	,	PUNCT	_	_	30	punct	_	AlignBegin=89183|AlignEnd=89183
-32	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	33	det	_	AlignBegin=89183|AlignEnd=89900
+32	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	33	det	_	AlignBegin=89183|AlignEnd=89900|HasSpokenGender=OnlySingExceptWithLiaison
 33	père	père	NOUN	_	_	30	comp:pred	_	AlignBegin=89900|AlignEnd=90617|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 34	.	.	PUNCT	_	_	8	punct	_	AlignBegin=90617|AlignEnd=90617
 
@@ -411,8 +411,8 @@
 5	,	,	PUNCT	_	_	3	punct	_	AlignBegin=92231|AlignEnd=92231
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	AlignBegin=92231|AlignEnd=92768|SpaceAfter=No
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=92768|AlignEnd=93306
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=93306|AlignEnd=93844
-9	inconnu	inconnu	NOUN	_	_	7	comp:pred	_	AlignBegin=93844|AlignEnd=94382|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=93306|AlignEnd=93844|LiaisonAfter=Yes
+9	inconnu	inconnu	NOUN	_	_	7	comp:pred	_	AlignBegin=93844|AlignEnd=94382|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	AlignBegin=94382|AlignEnd=94382
 
 # sent_id = ParisStories_2022_20_LesParentsInconnus__18
@@ -429,17 +429,17 @@
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=97071|AlignEnd=97071
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	7	mod	_	AlignBegin=97071|AlignEnd=97682|wordform=au
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	dessous	dessous	NOUN	_	_	9	comp:obj	_	AlignBegin=97682|AlignEnd=98292|Gender[lex]=Masc|Number[ctxt]=Sing
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	11	udep	_	AlignBegin=98292|AlignEnd=98903|wordform=du
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 14	lit	lit	NOUN	_	_	12	comp:obj	_	AlignBegin=98903|AlignEnd=99513|Gender[lex]=Masc|Number[ctxt]=Sing
 15	pour	pour	ADP	_	_	7	mod	_	AlignBegin=99513|AlignEnd=100124|SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=100124|AlignEnd=100124
 17	pour	pour	ADP	_	_	15	conj:dicto	_	AlignBegin=100124|AlignEnd=100734
 18	que	que	SCONJ	_	_	17	comp:obj	_	AlignBegin=100734|AlignEnd=101345
-19	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	AlignBegin=101345|AlignEnd=101955
+19	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	AlignBegin=101345|AlignEnd=101955|HasSpokenGender=OnlySingExceptWithLiaison
 20	père	père	NOUN	_	_	25	dislocated:subj	_	AlignBegin=101955|AlignEnd=102566|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	AlignBegin=102566|AlignEnd=102566
 22	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	subj	_	AlignBegin=102566|AlignEnd=103176|SpaceAfter=No
@@ -516,13 +516,13 @@
 12	,	,	PUNCT	_	_	16	punct	_	AlignBegin=117646|AlignEnd=117646
 13	euh	euh	INTJ	_	_	16	discourse	_	AlignBegin=117646|AlignEnd=118053|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	AlignBegin=118053|AlignEnd=118053
-15	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=No	16	det	_	AlignBegin=119275|AlignEnd=119682
+15	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=No	16	det	_	AlignBegin=119275|AlignEnd=119682|HasSpokenGender=OnlySingExceptWithLiaison
 16	maison	maison	NOUN	_	_	11	comp:obj	_	AlignBegin=119682|AlignEnd=120090|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	AlignBegin=120090|AlignEnd=120090
-18	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	AlignBegin=120090|AlignEnd=120497
+18	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	AlignBegin=120090|AlignEnd=120497|HasSpokenGender=OnlySingExceptWithLiaison
 19	parents	parent	NOUN	_	_	16	conj:coord	_	AlignBegin=120497|AlignEnd=120904|Number[ctxt]=Plur|SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	AlignBegin=120904|AlignEnd=120904
-21	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	22	det	_	AlignBegin=120904|AlignEnd=121312
+21	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	22	det	_	AlignBegin=120904|AlignEnd=121312|HasSpokenGender=OnlySingExceptWithLiaison
 22	vie	vie	NOUN	_	_	19	conj:coord	_	AlignBegin=121312|AlignEnd=121719|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	AlignBegin=121719|AlignEnd=121719
 
@@ -531,7 +531,7 @@
 # speaker = L1
 # text = comme ses parents ?
 1	comme	comme	ADP	_	_	0	root	_	AlignBegin=118053|AlignEnd=118461
-2	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	3	det	_	AlignBegin=118461|AlignEnd=118868
+2	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	3	det	_	AlignBegin=118461|AlignEnd=118868|HasSpokenGender=OnlySingExceptWithLiaison
 3	parents	parent	NOUN	_	_	1	comp:obj	_	AlignBegin=118868|AlignEnd=119275|Number[ctxt]=Plur
 4	?	?	PUNCT	_	_	1	punct	_	AlignBegin=119275|AlignEnd=119275
 
@@ -554,11 +554,11 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=123654|AlignEnd=123654
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	AlignBegin=123654|AlignEnd=123977|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=123977|AlignEnd=124299
-5	normal	normal	ADJ	_	Number=Sing	4	comp:pred	_	AlignBegin=124299|AlignEnd=124622|Gender[ctxt]=Masc|SpaceAfter=No
+5	normal	normal	ADJ	_	Number=Sing	4	comp:pred	_	AlignBegin=124299|AlignEnd=124622|Gender[ctxt]=Masc|HasSpokenNumber=AlwaysMasc|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	AlignBegin=124622|AlignEnd=124622
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	AlignBegin=124622|AlignEnd=124944
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj:coord	_	AlignBegin=124944|AlignEnd=125267
-9	petit	petit	ADJ	_	Gender=Masc	8	comp:pred	_	AlignBegin=125267|AlignEnd=125589|Number[ctxt]=Sing|SpaceAfter=No
+9	petit	petit	ADJ	_	Gender=Masc	8	comp:pred	_	AlignBegin=125267|AlignEnd=125589|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	AlignBegin=125589|AlignEnd=125589
 
 # sent_id = ParisStories_2022_20_LesParentsInconnus__27
@@ -590,7 +590,7 @@
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	AlignBegin=133293|AlignEnd=133589
 13	parti	partir	VERB	_	VerbForm=Part	12	comp:aux@tense	_	AlignBegin=133589|AlignEnd=133886|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 14	avec	avec	ADP	_	_	13	mod	_	AlignBegin=133886|AlignEnd=134183
-15	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	16	det	_	AlignBegin=134183|AlignEnd=134479
+15	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	16	det	_	AlignBegin=134183|AlignEnd=134479|HasSpokenGender=OnlySingExceptWithLiaison
 16	père	père	NOUN	_	_	14	comp:obj	_	AlignBegin=134479|AlignEnd=134776|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 17	.	.	PUNCT	_	_	6	punct	_	AlignBegin=134776|AlignEnd=134776
 
@@ -619,9 +619,9 @@
 19	rencontré	rencontrer	VERB	_	VerbForm=Part|Voice=Act	18	comp:aux@tense	_	AlignBegin=139705|AlignEnd=140042|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 20	m~	m~	X	_	_	19	comp:obj	_	AlignBegin=140042|AlignEnd=140378|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=140378|AlignEnd=140378
-22	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	25	det	_	AlignBegin=140378|AlignEnd=140714|SpaceAfter=No
+22	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	25	det	_	AlignBegin=140378|AlignEnd=140714|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=140714|AlignEnd=140714
-24	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	22	conj:dicto	_	AlignBegin=140714|AlignEnd=141051
+24	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	22	conj:dicto	_	AlignBegin=140714|AlignEnd=141051|HasSpokenGender=OnlySingExceptWithLiaison
 25	mère	mère	NOUN	_	_	20	conj:dicto	_	AlignBegin=141051|AlignEnd=141387|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 26	.	.	PUNCT	_	_	18	punct	_	AlignBegin=141387|AlignEnd=141387
 
@@ -641,8 +641,8 @@
 10	si	si	SCONJ	_	_	9	comp:obj	_	AlignBegin=144839|AlignEnd=145187
 11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	AlignBegin=145187|AlignEnd=145535|SpaceAfter=No
 12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	comp:obj	_	AlignBegin=145535|AlignEnd=145883
-13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=145883|AlignEnd=146231
-14	inconnu	inconnu	NOUN	_	_	12	comp:pred	_	AlignBegin=146231|AlignEnd=146579|Gender[lex]=Masc|Number[ctxt]=Sing
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=145883|AlignEnd=146231|LiaisonAfter=Yes
+14	inconnu	inconnu	NOUN	_	_	12	comp:pred	_	AlignBegin=146231|AlignEnd=146579|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 15	aussi	aussi	ADV	_	_	9	mod	_	AlignBegin=146579|AlignEnd=146927|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	AlignBegin=146927|AlignEnd=146927
 17	parce	parce	ADV	_	ExtPos=SCONJ	4	conj:dicto	_	AlignBegin=146927|AlignEnd=147275|Idiom=Yes
@@ -673,13 +673,13 @@
 10	s'	soi	PRON	_	Person=3|PronType=Prs	11	comp@pass	_	AlignBegin=161448|AlignEnd=161830|SpaceAfter=No
 11	apprend	apprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=161830|AlignEnd=162212
 12	avec	avec	ADP	_	_	11	mod	_	AlignBegin=162212|AlignEnd=162594
-13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	AlignBegin=162594|AlignEnd=162977
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	AlignBegin=162594|AlignEnd=162977|HasSpokenGender=OnlySingExceptWithLiaison
 14	vie	vie	NOUN	_	_	12	comp:obj	_	AlignBegin=162977|AlignEnd=163359|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=163359|AlignEnd=163359
 16	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	conj:dicto	_	AlignBegin=163359|AlignEnd=163741|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=163741|AlignEnd=163741
 18	avec	avec	ADP	_	_	12	conj:dicto	_	AlignBegin=163741|AlignEnd=164123
-19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	AlignBegin=164123|AlignEnd=164506
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	AlignBegin=164123|AlignEnd=164506|HasSpokenGender=OnlySingExceptWithLiaison
 20	temps	temps	NOUN	_	_	18	comp:obj	_	AlignBegin=164506|AlignEnd=164888|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=164888|AlignEnd=164888
 22	avec	avec	ADP	_	_	18	conj:dicto	_	AlignBegin=164888|AlignEnd=165583|SpaceAfter=No
@@ -698,7 +698,7 @@
 5	,	,	PUNCT	_	_	2	punct	_	AlignBegin=148555|AlignEnd=148555
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	2	discourse	_	AlignBegin=148555|AlignEnd=148633|wordform=du
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	coup	coup	NOUN	_	_	6	comp:obj	_	AlignBegin=148633|AlignEnd=148711|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	AlignBegin=148711|AlignEnd=148711
 10	après	après	ADV	_	_	2	mod	_	AlignBegin=148711|AlignEnd=148788|SpaceAfter=No
@@ -709,14 +709,14 @@
 15	s'	soi	PRON	_	Person=3|PronType=Prs	16	comp:obj	_	AlignBegin=148944|AlignEnd=149022|SpaceAfter=No
 16	habituer	habituer	VERB	_	VerbForm=Inf	14	comp:obj	_	AlignBegin=149022|AlignEnd=149099|SpaceAfter=No|Subject=NoRaising
 17	,	,	PUNCT	_	_	16	punct	_	AlignBegin=149099|AlignEnd=149099
-18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	AlignBegin=149099|AlignEnd=149177|Gender[ctxt]=Fem|SpaceAfter=No
-19	école	école	NOUN	_	_	16	mod	_	AlignBegin=149177|AlignEnd=149255|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	AlignBegin=149099|AlignEnd=149177|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+19	école	école	NOUN	_	_	16	mod	_	AlignBegin=149177|AlignEnd=149255|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	AlignBegin=149255|AlignEnd=149255
 21	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=149255|AlignEnd=149332|SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	AlignBegin=149332|AlignEnd=149332
 23	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=149332|AlignEnd=149410
 24	tout	tout	ADJ	_	_	26	mod	_	AlignBegin=149410|AlignEnd=149488|Number[ctxt]=Sing
-25	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	AlignBegin=149488|AlignEnd=149565
+25	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	AlignBegin=149488|AlignEnd=149565|HasSpokenGender=OnlySingExceptWithLiaison
 26	changement	changement	NOUN	_	_	33	dislocated:obj	_	AlignBegin=149565|AlignEnd=149643|Gender[lex]=Masc|Number[ctxt]=Sing
 27	de	de	ADP	_	_	26	udep	_	AlignBegin=149643|AlignEnd=149721
 28	vie	vie	NOUN	_	_	27	comp:obj	_	AlignBegin=149721|AlignEnd=149799|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
