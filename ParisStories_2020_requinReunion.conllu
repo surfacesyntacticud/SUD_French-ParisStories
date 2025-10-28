@@ -222,7 +222,7 @@
 # text = donc super voyage de noces euh, pour lui quoi.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/35931c521095ff436db20d6625bfa67a6fdde6f7
 1	donc	donc	ADV	_	_	3	mod	_	_
-2	super	super	ADJ	_	_	3	mod	_	_
+2	super	super	ADJ	_	_	3	mod	_	Number[ctxt]=Sing
 3	voyage	voyage	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	de	de	ADP	_	_	3	mod	_	_
 5	noces	noce	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
@@ -283,7 +283,7 @@
 8	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-11	superbe	superbe	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	Liaison=Yes
+11	superbe	superbe	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
 12	expérience	expérience	NOUN	_	_	7	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -293,7 +293,7 @@
 1	euh	euh	INTJ	_	_	3	discourse	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	5	det	_	_
+4	plusieurs	plusieurs	DET	_	PronType=Ind	5	det	_	Number[lex]=Plur
 5	heures	heure	NOUN	_	_	3	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Plur
 6	de	de	ADP	_	_	5	mod	_	_
 7	randonnée	randonner	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
