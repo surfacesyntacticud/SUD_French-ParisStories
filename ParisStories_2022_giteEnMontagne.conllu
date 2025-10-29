@@ -20,7 +20,7 @@
 16	gîte	gîte	NOUN	_	_	14	comp:obj	_	AlignBegin=3850|AlignEnd=4239|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	AlignBegin=4239|AlignEnd=4239
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	AlignBegin=4239|AlignEnd=4745
-19	grand	grand	ADJ	_	Gender=Masc	20	mod	_	AlignBegin=4745|AlignEnd=5250|HasSpokenGender=Yes|Number[ctxt]=Sing
+19	grand	grand	ADJ	_	Gender=Masc	20	mod	_	AlignBegin=4745|AlignEnd=5250|HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 20	gîte	gîte	NOUN	_	_	16	conj:dicto	_	AlignBegin=5250|AlignEnd=5756|Gender[lex]=Masc|Number[ctxt]=Sing
 21	euh	euh	INTJ	_	_	23	discourse	_	AlignBegin=6234|AlignEnd=6615|SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	AlignBegin=6615|AlignEnd=6615
@@ -40,7 +40,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=8900|AlignEnd=9281
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	AlignBegin=9281|AlignEnd=9662|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 4	idée	idée	NOUN	_	_	2	comp:pred	_	AlignBegin=9662|AlignEnd=10043|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-5	première	premier	ADJ	_	Gender=Fem	4	mod	_	AlignBegin=10043|AlignEnd=10424|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+5	première	premier	ADJ	_	Gender=Fem	4	mod	_	AlignBegin=10043|AlignEnd=10424|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	AlignBegin=10424|AlignEnd=10424
 
 # sent_id = ParisStories_2022_5_gîteEnMontagne__3
@@ -169,7 +169,7 @@
 33	euh	euh	INTJ	_	_	35	discourse	_	AlignBegin=41031|AlignEnd=41296|SpaceAfter=No
 34	,	,	PUNCT	_	_	33	punct	_	AlignBegin=41296|AlignEnd=41296
 35	perdre	perdre	VERB	_	VerbForm=Inf	32	comp:obj	_	AlignBegin=41296|AlignEnd=41634|Subject=SubjRaising
-36	toute	tout	ADJ	_	Gender=Fem	37	mod	_	AlignBegin=41634|AlignEnd=41972|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
+36	toute	tout	ADJ	_	Gender=Fem	37	mod	_	AlignBegin=41634|AlignEnd=41972|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 37	notion	notion	NOUN	_	_	35	comp:obj	_	AlignBegin=41972|AlignEnd=42309|Gender[lex]=Fem|Number[ctxt]=Sing
 38	euh	euh	INTJ	_	_	40	discourse	_	AlignBegin=42309|AlignEnd=42647|SpaceAfter=No
 39	,	,	PUNCT	_	_	38	punct	_	AlignBegin=42647|AlignEnd=42647
@@ -282,7 +282,7 @@
 2	quand	quand	SCONJ	_	_	1	comp:obj	_	AlignBegin=68305|AlignEnd=68465
 3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	AlignBegin=68465|AlignEnd=68624
 4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	comp:obj	_	AlignBegin=68624|AlignEnd=68783
-5	été	être	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	AlignBegin=68783|AlignEnd=68942|Tense[denom]=Past
+5	été	être	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	AlignBegin=68783|AlignEnd=68942|Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 6	à	à	ADP	_	_	5	comp:obl	_	AlignBegin=68942|AlignEnd=68942
 7	Tignes	Tignes	PROPN	_	_	6	comp:obj	_	AlignBegin=68942|AlignEnd=69102|Gender[lex]=Unknown
 8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	AlignBegin=69102|AlignEnd=69261|InIdiom=Yes
@@ -302,7 +302,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=71019|AlignEnd=71019
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	AlignBegin=72016|AlignEnd=72272|SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	AlignBegin=72272|AlignEnd=72528
-7	beau	beau	ADJ	_	Gender=Masc	6	comp:pred	_	AlignBegin=72528|AlignEnd=72784|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+7	beau	beau	ADJ	_	Gender=Masc	6	comp:pred	_	AlignBegin=72528|AlignEnd=72784|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=72784|AlignEnd=72784
 
 # sent_id = ParisStories_2022_5_gîteEnMontagne__16
@@ -314,7 +314,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=73296|AlignEnd=73296
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	AlignBegin=73296|AlignEnd=73603|SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=73603|AlignEnd=73910
-6	dépaysant	dépaysant	ADJ	_	Gender=Masc	5	comp:pred	_	AlignBegin=73910|AlignEnd=74218|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
+6	dépaysant	dépaysant	ADJ	_	Gender=Masc	5	comp:pred	_	AlignBegin=73910|AlignEnd=74218|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	6	mod	_	AlignBegin=74218|AlignEnd=74525|wordform=au
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -342,7 +342,7 @@
 15	,	,	PUNCT	_	_	14	punct	_	AlignBegin=78330|AlignEnd=78330
 16	d'	de	ADP	_	_	12	comp:obl	_	AlignBegin=78330|AlignEnd=78570|SpaceAfter=No
 17	être	être	AUX	_	VerbForm=Inf	16	comp:obj	_	AlignBegin=78570|AlignEnd=78811|Subject=SubjRaising
-18	montée	monter	VERB	_	VerbForm=Part	17	comp:aux@tense	_	AlignBegin=78811|AlignEnd=79051|Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
+18	montée	monter	VERB	_	VerbForm=Part	17	comp:aux@tense	_	AlignBegin=78811|AlignEnd=79051|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 19	à	à	ADP	_	_	18	comp:obl	_	AlignBegin=79051|AlignEnd=79051
 20	trois	trois	NUM	_	ExtPos=PRON	19	comp:obj@scrap	_	AlignBegin=79051|AlignEnd=79292
 21	mille	mille	NUM	_	_	20	flat	_	AlignBegin=79292|AlignEnd=79532|SpaceAfter=No
@@ -390,7 +390,7 @@
 7	juste	juste	ADV	_	_	6	mod	_	AlignBegin=90437|AlignEnd=90701
 8	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=90701|AlignEnd=90966|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=90966|AlignEnd=90966
-10	magique	magique	ADJ	_	_	6	comp:pred	_	AlignBegin=90966|AlignEnd=91230|Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+10	magique	magique	ADJ	_	_	6	comp:pred	_	AlignBegin=90966|AlignEnd=91230|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=91230|AlignEnd=91230
 12	quoi	quoi	INTJ	_	_	6	discourse	_	AlignBegin=91230|AlignEnd=91495|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	AlignBegin=91495|AlignEnd=91495
@@ -401,7 +401,7 @@
 # text = c'était lunaire.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=91495|AlignEnd=91772|SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=91772|AlignEnd=92048
-3	lunaire	lunaire	ADJ	_	_	2	comp:pred	_	AlignBegin=92048|AlignEnd=92325|Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+3	lunaire	lunaire	ADJ	_	_	2	comp:pred	_	AlignBegin=92048|AlignEnd=92325|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	AlignBegin=92325|AlignEnd=92325
 
 # sent_id = ParisStories_2022_5_gîteEnMontagne__20
@@ -418,9 +418,9 @@
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	subj	_	AlignBegin=94160|AlignEnd=94328|SpaceAfter=No
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=94328|AlignEnd=94496
 10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	AlignBegin=94496|AlignEnd=94664
-11	top	top	ADJ	_	_	9	comp:pred	_	AlignBegin=94664|AlignEnd=94831|Gender[ctxt]=Masc|Number[ctxt]=Sing
+11	top	top	ADJ	_	_	9	comp:pred	_	AlignBegin=94664|AlignEnd=94831|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 12	pour	pour	ADP	_	_	9	mod	_	AlignBegin=94831|AlignEnd=94999
-13	tout	tout	ADJ	_	Gender=Masc	15	mod	_	AlignBegin=94999|AlignEnd=95167|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
+13	tout	tout	ADJ	_	Gender=Masc	15	mod	_	AlignBegin=94999|AlignEnd=95167|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=95167|AlignEnd=95335|HasSpokenGender=OnlySingExceptWithLiaison
 15	monde	monde	NOUN	_	_	12	comp:obj	_	AlignBegin=95335|AlignEnd=95503|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	AlignBegin=95503|AlignEnd=95503
@@ -449,7 +449,7 @@
 3	par	par	ADP	_	_	2	mod	_	AlignBegin=98010|AlignEnd=98267
 4	contre	contre	NOUN	_	_	3	comp:obj	_	AlignBegin=98267|AlignEnd=98525
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=98525|AlignEnd=98782
-6	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	AlignBegin=98782|AlignEnd=99039|HasSpokenGender=YesExceptSingWithLiaison|LiaisonAfter=Yes
+6	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	AlignBegin=98782|AlignEnd=99039|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
 7	aventure	aventure	NOUN	_	_	2	comp:pred	_	AlignBegin=99039|AlignEnd=99297|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 8	de	de	ADP	_	_	2	mod	_	AlignBegin=99297|AlignEnd=99554
 9	partir	partir	VERB	_	VerbForm=Inf	8	comp:obj	_	AlignBegin=99554|AlignEnd=99812|Subject=NoRaising
@@ -561,9 +561,9 @@
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=117038|AlignEnd=117038
 15	d'	de	ADP	_	_	11	udep	_	AlignBegin=117038|AlignEnd=117287|SpaceAfter=No
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	AlignBegin=117287|AlignEnd=117536
-17	petit	petit	ADJ	_	Gender=Masc	18	mod	_	AlignBegin=117536|AlignEnd=117785|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
+17	petit	petit	ADJ	_	Gender=Masc	18	mod	_	AlignBegin=117536|AlignEnd=117785|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 18	peu	peu	NOUN	_	_	15	comp:obj	_	AlignBegin=117785|AlignEnd=118034|Gender[lex]=Masc|Number[ctxt]=Sing
-19	exceptionnel	exceptionnel	ADJ	_	_	15	comp:obj	_	AlignBegin=118034|AlignEnd=118283|Gender[ctxt]=Fem|Number[ctxt]=Sing
+19	exceptionnel	exceptionnel	ADJ	_	_	15	comp:obj	_	AlignBegin=118034|AlignEnd=118283|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 20	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	AlignBegin=118283|AlignEnd=118532|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 21	année	année	NOUN	_	_	9	mod	_	AlignBegin=118532|AlignEnd=118781|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 22	?	?	PUNCT	_	_	2	punct	_	AlignBegin=118781|AlignEnd=118781
@@ -584,7 +584,7 @@
 10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=122264|AlignEnd=122264
 11	faire	faire	VERB	_	VerbForm=Inf	8	comp:obj	_	AlignBegin=122264|AlignEnd=122542|Subject=SubjRaising
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=122542|AlignEnd=122819
-13	vrai	vrai	ADJ	_	_	14	mod	_	AlignBegin=122819|AlignEnd=123097|Gender[ctxt]=Masc|Number[ctxt]=Sing
+13	vrai	vrai	ADJ	_	_	14	mod	_	AlignBegin=122819|AlignEnd=123097|Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 14	repas	repas	NOUN	_	_	11	comp:obj	_	AlignBegin=123097|AlignEnd=123375|Gender[lex]=Masc|Number[ctxt]=Sing
 15	de	de	ADP	_	_	14	udep	_	AlignBegin=123375|AlignEnd=123653
 16	Noël	Noël	PROPN	_	_	15	comp:obj	_	AlignBegin=123653|AlignEnd=123930|Gender[lex]=Unknown
@@ -643,7 +643,7 @@
 68	,	,	PUNCT	_	_	70	punct	_	AlignBegin=138993|AlignEnd=138993
 69	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	70	subj	_	AlignBegin=139554|AlignEnd=139974
 70	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	AlignBegin=139974|AlignEnd=140395
-71	génial	génial	ADJ	_	Number=Sing	70	comp:pred	_	AlignBegin=140395|AlignEnd=140815|Gender[ctxt]=Masc|HasSpokenNumber=AlwaysMasc|SpaceAfter=No
+71	génial	génial	ADJ	_	Number=Sing	70	comp:pred	_	AlignBegin=140395|AlignEnd=140815|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|SpaceAfter=No
 72	,	,	PUNCT	_	_	73	punct	_	AlignBegin=140815|AlignEnd=140815
 73	parce	parce	ADV	_	ExtPos=SCONJ	70	mod	_	AlignBegin=141008|AlignEnd=141284|Idiom=Yes
 74	que	que	SCONJ	_	_	73	unk	_	AlignBegin=141284|AlignEnd=141560|InIdiom=Yes
@@ -657,7 +657,7 @@
 82	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	83	det	_	AlignBegin=144339|AlignEnd=144597|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 83	enfants	enfant	NOUN	_	_	84	subj	_	AlignBegin=144597|AlignEnd=144855|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 84	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	81	comp:obj	_	AlignBegin=144855|AlignEnd=145113
-85	nés	naître	VERB	_	VerbForm=Part	84	comp:aux@tense	_	AlignBegin=145113|AlignEnd=145371|Gender[ctxt]=Masc|Number[ctxt]=Plur|SpaceAfter=No|Tense[denom]=Past
+85	nés	naître	VERB	_	VerbForm=Part	84	comp:aux@tense	_	AlignBegin=145113|AlignEnd=145371|Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 86	,	,	PUNCT	_	_	88	punct	_	AlignBegin=145371|AlignEnd=145371
 87	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	88	subj	_	AlignBegin=145371|AlignEnd=145629
 88	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	79	comp:obj	_	AlignBegin=145629|AlignEnd=145886
@@ -667,7 +667,7 @@
 92	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	93	subj	_	AlignBegin=146790|AlignEnd=147010
 93	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	88	conj:dicto	_	AlignBegin=147010|AlignEnd=147229
 94	pas	pas	ADV	_	Polarity=Neg	93	mod	_	AlignBegin=147229|AlignEnd=147449
-95	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	93	comp:aux@tense	_	AlignBegin=147449|AlignEnd=147669|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+95	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	93	comp:aux@tense	_	AlignBegin=147449|AlignEnd=147669|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 96	trop	trop	ADV	_	_	95	mod	_	AlignBegin=147669|AlignEnd=147889
 97	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	98	det	_	AlignBegin=147889|AlignEnd=148108|HasSpokenGender=OnlySingExceptWithLiaison
 98	tradition	tradition	NOUN	_	_	95	comp:obj	_	AlignBegin=148108|AlignEnd=148328|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No

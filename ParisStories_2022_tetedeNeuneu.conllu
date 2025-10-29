@@ -50,7 +50,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=6293|AlignEnd=6616|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=6616|AlignEnd=6940
 3	tellement	tellement	ADV	_	_	4	mod	_	AlignBegin=6940|AlignEnd=7263
-4	bizarre	bizarre	ADJ	_	_	2	comp:pred	_	AlignBegin=7263|AlignEnd=7586|Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+4	bizarre	bizarre	ADJ	_	_	2	comp:pred	_	AlignBegin=7263|AlignEnd=7586|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=7586|AlignEnd=7586
 
 # sent_id = ParisStories_2022_6_tetedeNeuneu__6
@@ -177,7 +177,7 @@
 5	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=21366|AlignEnd=21579|SpaceAfter=No
 6	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=21579|AlignEnd=21793
 7	jamais	jamais	ADV	_	_	6	mod	_	AlignBegin=21793|AlignEnd=22007
-8	vu	voir	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	AlignBegin=22007|AlignEnd=22221|Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+8	vu	voir	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	AlignBegin=22007|AlignEnd=22221|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 9	.	.	PUNCT	_	_	6	punct	_	AlignBegin=22221|AlignEnd=22221
 
 # sent_id = ParisStories_2022_6_tetedeNeuneu__17
@@ -226,7 +226,7 @@
 7	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	subj	_	AlignBegin=27382|AlignEnd=27605
 8	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=27605|AlignEnd=27828|SpaceAfter=No
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=27828|AlignEnd=28050
-10	rencontré	rencontrer	VERB	_	VerbForm=Part|Voice=Act	9	comp:aux@tense	_	AlignBegin=28050|AlignEnd=28273|Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+10	rencontré	rencontrer	VERB	_	VerbForm=Part|Voice=Act	9	comp:aux@tense	_	AlignBegin=28050|AlignEnd=28273|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=28273|AlignEnd=28273
 12	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	dislocated:obj	_	AlignBegin=28273|AlignEnd=28496|SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	AlignBegin=28496|AlignEnd=28496
@@ -370,7 +370,7 @@
 24	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	subj	_	AlignBegin=44830|AlignEnd=45008
 25	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	27	comp:obl	_	AlignBegin=45008|AlignEnd=45185|SpaceAfter=No
 26	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=45185|AlignEnd=45363
-27	envoyé	envoyer	VERB	_	VerbForm=Part|Voice=Act	26	comp:aux@tense	_	AlignBegin=45363|AlignEnd=45540|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+27	envoyé	envoyer	VERB	_	VerbForm=Part|Voice=Act	26	comp:aux@tense	_	AlignBegin=45363|AlignEnd=45540|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 28	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	AlignBegin=45540|AlignEnd=45718
 29	message	message	NOUN	_	_	27	comp:obj	_	AlignBegin=45718|AlignEnd=45895|Gender[lex]=Masc|Number[ctxt]=Sing
 30	en	en	ADP	_	_	29	udep	_	AlignBegin=45895|AlignEnd=46073
@@ -433,7 +433,7 @@
 18	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	19	subj	_	AlignBegin=51376|AlignEnd=51713
 19	devais	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	conj:dicto	_	AlignBegin=51713|AlignEnd=52050
 20	en	en	ADP	_	_	19	mod	_	AlignBegin=52050|AlignEnd=52387
-21	gros	gros	ADJ	_	Gender=Masc	20	comp:obj	_	AlignBegin=52387|AlignEnd=52723|HasSpokenGender=Yes|Number[ctxt]=Sing|SpaceAfter=No
+21	gros	gros	ADJ	_	Gender=Masc	20	comp:obj	_	AlignBegin=52387|AlignEnd=52723|HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=52723|AlignEnd=52723
 23	dé~	dé~	X	_	ExtPos=VERB	19	comp:obj	_	AlignBegin=52723|AlignEnd=53060
 24	comment	comment	ADV	_	_	26	mod	_	AlignBegin=53060|AlignEnd=53606
@@ -458,7 +458,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=57176|AlignEnd=57604
 2	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=57604|AlignEnd=58032
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=58032|AlignEnd=58461
-4	venue	venir	VERB	_	VerbForm=Part	3	comp:aux@tense	_	AlignBegin=58461|AlignEnd=58889|Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
+4	venue	venir	VERB	_	VerbForm=Part	3	comp:aux@tense	_	AlignBegin=58461|AlignEnd=58889|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 5	à	à	ADP	_	_	4	comp:obl	_	AlignBegin=58889|AlignEnd=58889
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=58889|AlignEnd=59317|HasSpokenGender=OnlySingExceptWithLiaison
 7	maison	maison	NOUN	_	_	5	comp:obj	_	AlignBegin=59317|AlignEnd=59745|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -468,13 +468,13 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/1e3c003fb1cc9a7787c17100ba141af556e72824
 # speaker = L2
 # text = toute la journée, elle était venue ?
-1	toute	tout	ADJ	_	Gender=Fem	3	mod	_	AlignBegin=59684|AlignEnd=59919|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
+1	toute	tout	ADJ	_	Gender=Fem	3	mod	_	AlignBegin=59684|AlignEnd=59919|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	AlignBegin=59919|AlignEnd=60153|HasSpokenGender=OnlySingExceptWithLiaison
 3	journée	journée	NOUN	_	_	6	mod	_	AlignBegin=60153|AlignEnd=60388|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=60388|AlignEnd=60388
 5	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	subj	_	AlignBegin=60388|AlignEnd=60622
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=60622|AlignEnd=60857
-7	venue	venir	VERB	_	VerbForm=Part	6	comp:aux@tense	_	AlignBegin=60857|AlignEnd=61091|Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
+7	venue	venir	VERB	_	VerbForm=Part	6	comp:aux@tense	_	AlignBegin=60857|AlignEnd=61091|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 8	?	?	PUNCT	_	_	6	punct	_	AlignBegin=61091|AlignEnd=61091
 
 # sent_id = ParisStories_2022_6_tetedeNeuneu__37
@@ -491,7 +491,7 @@
 # text = ouais, tout l'aprèm.
 1	ouais	ouais	INTJ	_	_	5	discourse	_	AlignBegin=60509|AlignEnd=60744|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=60744|AlignEnd=60744
-3	tout	tout	ADJ	_	Gender=Masc	5	mod	_	AlignBegin=60744|AlignEnd=60978|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
+3	tout	tout	ADJ	_	Gender=Masc	5	mod	_	AlignBegin=60744|AlignEnd=60978|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	AlignBegin=60978|AlignEnd=61213|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 5	aprèm	aprèm	NOUN	_	_	0	root	_	AlignBegin=61213|AlignEnd=61447|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=61447|AlignEnd=61447
@@ -506,7 +506,7 @@
 4	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	5	det	_	AlignBegin=61774|AlignEnd=61938|HasSpokenGender=OnlySingExceptWithLiaison
 5	mère	mère	NOUN	_	_	6	subj	_	AlignBegin=61938|AlignEnd=62102|Gender[lex]=Fem|Number[ctxt]=Sing
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=62102|AlignEnd=62266
-7	venue	venir	VERB	_	VerbForm=Part	6	comp:aux@tense	_	AlignBegin=62266|AlignEnd=62429|Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
+7	venue	venir	VERB	_	VerbForm=Part	6	comp:aux@tense	_	AlignBegin=62266|AlignEnd=62429|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 8	nous	nous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=1|PronType=Prs	9	comp:obj	_	AlignBegin=62429|AlignEnd=62593
 9	chercher	chercher	VERB	_	VerbForm=Inf	7	comp:obj	_	AlignBegin=62593|AlignEnd=62757|SpaceAfter=No|Subject=SubjRaising
 10	.	.	PUNCT	_	_	6	punct	_	AlignBegin=62757|AlignEnd=62757
@@ -596,7 +596,7 @@
 10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	AlignBegin=72209|AlignEnd=72410
 11	y	y	PRON	_	Person=3|PronType=Prs	12	comp@expl	_	AlignBegin=72410|AlignEnd=72611
 12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	comp:obj	_	AlignBegin=72611|AlignEnd=72812
-13	tout	tout	ADJ	_	Gender=Masc	15	mod	_	AlignBegin=72812|AlignEnd=73013|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Plur
+13	tout	tout	ADJ	_	Gender=Masc	15	mod	_	AlignBegin=72812|AlignEnd=73013|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 14	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	AlignBegin=73013|AlignEnd=73214|HasSpokenGender=OnlySingExceptWithLiaison
 15	potes	pote	NOUN	_	_	12	comp:obj	_	AlignBegin=73214|AlignEnd=73415|Gender[lex]=Masc|Number[ctxt]=Plur
 16	qui	qui	PRON	_	PronType=Rel	17	subj	_	AlignBegin=73415|AlignEnd=73616
@@ -659,7 +659,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=81022|AlignEnd=81022
 3	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=81022|AlignEnd=81248
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=81248|AlignEnd=81475
-5	mis	mettre	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	AlignBegin=81475|AlignEnd=81701|Tense[denom]=Past
+5	mis	mettre	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	AlignBegin=81475|AlignEnd=81701|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 6	huit	huit	NUM	_	ExtPos=DET	7	det	_	AlignBegin=81701|AlignEnd=81928
 7	ans	an	NOUN	_	_	5	comp:obj	_	AlignBegin=81928|AlignEnd=82154|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 8	à	à	ADP	_	_	5	comp:obl	_	AlignBegin=82154|AlignEnd=82154
@@ -769,7 +769,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=93080|AlignEnd=93080
 4	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	AlignBegin=93080|AlignEnd=93289
 5	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=93289|AlignEnd=93498
-6	tout	tout	ADJ	_	Gender=Masc	8	mod	_	AlignBegin=93498|AlignEnd=93707|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Plur
+6	tout	tout	ADJ	_	Gender=Masc	8	mod	_	AlignBegin=93498|AlignEnd=93707|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 7	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	8	det	_	AlignBegin=93707|AlignEnd=93916|HasSpokenGender=OnlySingExceptWithLiaison
 8	potes	pote	NOUN	_	_	5	comp:obj	_	AlignBegin=93916|AlignEnd=94125|Gender[lex]=Masc|Number[ctxt]=Plur
 9	qui	qui	PRON	_	PronType=Rel	10	subj	_	AlignBegin=94125|AlignEnd=94573
@@ -777,7 +777,7 @@
 11	genre	genre	NOUN	_	ExtPos=INTJ	10	discourse	_	AlignBegin=95021|AlignEnd=95469|Gender[lex]=Masc|Number[ctxt]=Sing
 12	ah	ah	INTJ	_	_	15	discourse	_	AlignBegin=95469|AlignEnd=95917|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=95917|AlignEnd=95917
-14	bon	bon	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	AlignBegin=95917|AlignEnd=96365|HasSpokenGender=YesExceptSingWithLiaison|LiaisonAfter=Yes
+14	bon	bon	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	AlignBegin=95917|AlignEnd=96365|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
 15	anniversaire	anniversaire	NOUN	_	_	10	comp:obj	_	AlignBegin=96365|AlignEnd=96813|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 16	!	!	PUNCT	_	_	5	punct	_	AlignBegin=96813|AlignEnd=96813
 
@@ -786,7 +786,7 @@
 # speaker = L2
 # text = trop mignon.
 1	trop	trop	ADV	_	_	2	mod	_	AlignBegin=96743|AlignEnd=97211
-2	mignon	mignon	ADJ	_	Gender=Masc	0	root	_	AlignBegin=97211|AlignEnd=97679|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+2	mignon	mignon	ADJ	_	Gender=Masc	0	root	_	AlignBegin=97211|AlignEnd=97679|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=97679|AlignEnd=97679
 
 # sent_id = ParisStories_2022_6_tetedeNeuneu__57
@@ -815,7 +815,7 @@
 12	de	de	ADP	_	_	11	comp:obl	_	AlignBegin=99519|AlignEnd=99711|wordform=du
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 14	mur	mur	NOUN	_	_	12	comp:obj	_	AlignBegin=99711|AlignEnd=99904|Gender[lex]=Masc|Number[ctxt]=Sing
-15	bon	bon	ADJ	_	Gender=Masc|Number=Sing	16	mod	_	AlignBegin=99904|AlignEnd=100838|HasSpokenGender=YesExceptSingWithLiaison|LiaisonAfter=Yes
+15	bon	bon	ADJ	_	Gender=Masc|Number=Sing	16	mod	_	AlignBegin=99904|AlignEnd=100838|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
 16	anniversaire	anniversaire	NOUN	_	_	5	parataxis	_	AlignBegin=100838|AlignEnd=101772|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|Reported=Yes
 17	!	!	PUNCT	_	_	16	punct	_	AlignBegin=101772|AlignEnd=101772
 
@@ -827,7 +827,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=102070|AlignEnd=102070
 3	avec	avec	ADP	_	_	0	root	_	AlignBegin=102070|AlignEnd=102367
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=102367|AlignEnd=102665
-5	grosse	gros	ADJ	_	Gender=Fem	6	mod	_	AlignBegin=102665|AlignEnd=102962|HasSpokenGender=Yes|Number[ctxt]=Sing
+5	grosse	gros	ADJ	_	Gender=Fem	6	mod	_	AlignBegin=102665|AlignEnd=102962|HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing
 6	tête	tête	NOUN	_	_	3	comp:obj	_	AlignBegin=102962|AlignEnd=103260|Gender[lex]=Fem|Number[ctxt]=Sing
 7	de	de	ADP	_	_	6	udep	_	AlignBegin=103260|AlignEnd=103557
 8	neuneu	neuneu	NOUN	_	_	7	comp:obj	_	AlignBegin=103557|AlignEnd=103855|SpaceAfter=No
@@ -842,7 +842,7 @@
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	AlignBegin=104358|AlignEnd=104610|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 4	air	air	NOUN	_	_	2	comp:obj@lvc	_	AlignBegin=104610|AlignEnd=104861|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 5	trop	trop	ADV	_	_	6	mod	_	AlignBegin=104861|AlignEnd=105113
-6	débile	débile	ADJ	_	_	4	comp:pred	_	AlignBegin=105113|AlignEnd=105364|Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+6	débile	débile	ADJ	_	_	4	comp:pred	_	AlignBegin=105113|AlignEnd=105364|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=105364|AlignEnd=105364
 
 # sent_id = ParisStories_2022_6_tetedeNeuneu__61
@@ -865,7 +865,7 @@
 13	,	,	PUNCT	_	_	11	punct	_	AlignBegin=109120|AlignEnd=109120
 14	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	AlignBegin=109120|AlignEnd=109418
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=109418|AlignEnd=109715
-16	rencontré	rencontrer	VERB	_	VerbForm=Part|Voice=Act	15	comp:aux@tense	_	AlignBegin=109715|AlignEnd=110013|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+16	rencontré	rencontrer	VERB	_	VerbForm=Part|Voice=Act	15	comp:aux@tense	_	AlignBegin=109715|AlignEnd=110013|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 17	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	18	det	_	AlignBegin=110013|AlignEnd=110310|HasSpokenGender=OnlySingExceptWithLiaison
 18	potes	pote	NOUN	_	_	16	comp:obj	_	AlignBegin=110310|AlignEnd=110608|Number[ctxt]=Plur|SpaceAfter=No
 19	.	.	PUNCT	_	_	15	punct	_	AlignBegin=110608|AlignEnd=110608
@@ -877,7 +877,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=110608|AlignEnd=110843
 2	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=110843|AlignEnd=111077|SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=111077|AlignEnd=111312
-4	rencontré	rencontrer	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	AlignBegin=111312|AlignEnd=111547|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+4	rencontré	rencontrer	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	AlignBegin=111312|AlignEnd=111547|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 5	Kévin	Kévin	PROPN	_	_	4	comp:obj	_	AlignBegin=111547|AlignEnd=111781|Gender[lex]=Unknown|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	AlignBegin=111781|AlignEnd=111781
 
@@ -886,7 +886,7 @@
 # speaker = L1
 # text = mais vu que je l'aime pas déjà de base …
 1	mais	mais	CCONJ	_	_	2	cc	_	AlignBegin=111781|AlignEnd=112016
-2	vu	voir	VERB	_	ExtPos=ADP|VerbForm=Part	0	root	_	AlignBegin=112016|AlignEnd=112251|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+2	vu	voir	VERB	_	ExtPos=ADP|VerbForm=Part	0	root	_	AlignBegin=112016|AlignEnd=112251|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 3	que	que	SCONJ	_	_	2	comp:obj	_	AlignBegin=112251|AlignEnd=112485
 4	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=112485|AlignEnd=112720
 5	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=112720|AlignEnd=112955|SpaceAfter=No

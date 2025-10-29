@@ -61,7 +61,7 @@
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	train	train	NOUN	_	_	33	subj@pass	_	Gender[lex]=Masc|Number[ctxt]=Sing
 33	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	Reported=Yes
-34	maintenu	maintenir	VERB	_	VerbForm=Part|Voice=Pass	33	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+34	maintenu	maintenir	VERB	_	VerbForm=Part|Voice=Pass	33	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 35	à	à	ADP	_	_	34	comp:obl	_	_
 36	quai	quai	NOUN	_	_	35	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 37	,	,	PUNCT	_	_	40	punct	_	_
@@ -75,7 +75,7 @@
 45	qu'	que	SCONJ	_	_	42	comp:obj	_	SpaceAfter=No
 46	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	47	subj	_	_
 47	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	comp:obj	_	_
-48	tiré	tirer	VERB	_	VerbForm=Part|Voice=Act	47	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+48	tiré	tirer	VERB	_	VerbForm=Part|Voice=Act	47	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 49	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 50	signal	signal	NOUN	_	Number=Sing	48	comp:obj	_	Gender[lex]=Masc
 51	d'	de	ADP	_	_	50	mod	_	SpaceAfter=No
@@ -164,7 +164,7 @@
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
 12	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	_
-13	tiré	tirer	VERB	_	VerbForm=Part|Voice=Pass	12	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+13	tiré	tirer	VERB	_	VerbForm=Part|Voice=Pass	12	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_8
@@ -184,7 +184,7 @@
 12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
 14	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
-15	tiré	tirer	VERB	_	VerbForm=Part|Voice=Pass	14	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+15	tiré	tirer	VERB	_	VerbForm=Part|Voice=Pass	14	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 16	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_9
@@ -233,7 +233,7 @@
 8	femmes	femme	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 9	avec	avec	ADP	_	_	8	mod	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	12	det	_	LiaisonAfter=Yes
-11	autre	autre	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	HasSpokenGender=YesExceptSingWithLiaison|LiaisonAfter=Yes|LiaisonPossibleBefore=Yes
+11	autre	autre	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|LiaisonPossibleBefore=Yes
 12	homme	homme	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -272,11 +272,11 @@
 22	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 24	brassard	brassard	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-25	orange	orange	ADJ	_	_	24	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
+25	orange	orange	ADJ	_	_	24	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 26	avec	avec	ADP	_	_	24	mod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	avec	avec	ADP	_	_	26	conj:dicto	_	_
-29	écrit	écrire	VERB	_	Gender=Masc|VerbForm=Part	28	comp:obj	_	Number[ctxt]=Sing|Tense[denom]=Past
+29	écrit	écrire	VERB	_	Gender=Masc|VerbForm=Part	28	comp:obj	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 30	police	police	NOUN	_	_	29	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 31	au-dessus	au-dessus	ADV	_	_	29	mod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	8	punct	_	_
@@ -398,14 +398,14 @@
 23	nous	nous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=1|PronType=Prs	26	comp:obl	_	_
 24	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	26	comp:obj	_	SpaceAfter=No
 25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:cleft	_	Filler=subj
-26	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	25	comp:aux@tense	_	Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+26	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	25	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	enfin	enfin	ADV	_	ExtPos=INTJ	30	discourse	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	qu'	que	SCONJ	_	_	13	conj:dicto	_	SpaceAfter=No
 31	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	32	subj	_	_
 32	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	comp:obj	_	_
-33	su	savoir	VERB	_	VerbForm=Part|Voice=Act	32	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+33	su	savoir	VERB	_	VerbForm=Part|Voice=Act	32	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 34	grâce	grâce	ADV	_	_	33	mod	_	_
 35	à	à	ADP	_	_	34	comp:obl	_	_
 36	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
@@ -431,7 +431,7 @@
 14	alarme	alarme	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	Reported=Yes
 16	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@tense	_	_
-17	tiré	tirer	VERB	_	VerbForm=Part|Voice=Pass	16	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+17	tiré	tirer	VERB	_	VerbForm=Part|Voice=Pass	16	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 18	à	à	ADP	_	_	17	mod	_	_
 19	cause	cause	NOUN	_	_	18	comp:obj@scrap	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
@@ -446,7 +446,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8970b764f6e6a69f0aa9b79c868c9ac5e23d1941
 1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+3	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	ah	ah	INTJ	_	_	3	comp:obj	_	Reported=Yes|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
