@@ -35,7 +35,7 @@
 11	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 12	copines	copine	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 13	qui	qui	PRON	_	PronType=Rel	15	subj	_	_
-14	s'	soi	PRON	_	Person=3|PronType=Prs	15	comp@expl	_	InIdiom=Yes|SpaceAfter=No
+14	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	15	comp@expl	_	InIdiom=Yes|SpaceAfter=No
 15	appelait	appeler	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	mod@relcl	_	Idiom=Yes
 16	Juliette	Juliette	PROPN	_	_	15	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
@@ -197,7 +197,7 @@
 6	bon	bon	INTJ	_	_	10	discourse	_	_
 7	bah	bah	INTJ	_	_	10	discourse	_	_
 8	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
-9	s'	soi	PRON	_	Person=3|PronType=Prs	11	comp:obj	_	SpaceAfter=No
+9	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	comp:obj	_	SpaceAfter=No
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	lancé	lancer	VERB	_	VerbForm=Part	10	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 12	.	.	PUNCT	_	_	10	punct	_	_
@@ -341,7 +341,7 @@
 13	amie	ami	NOUN	_	_	11	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	11	punct	_	_
 15	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	subj	_	_
-16	s'	soi	PRON	_	Person=3|PronType=Prs	18	comp@expl	_	SpaceAfter=No
+16	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	18	comp@expl	_	SpaceAfter=No
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 18	échoué	échouer	VERB	_	VerbForm=Part	17	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 19	sur	sur	ADP	_	_	18	comp:obl	_	SpaceAfter=No
@@ -388,7 +388,7 @@
 15	deux	deux	NUM	_	ExtPos=PRON	14	mod	_	Number[lex]=Plur
 16	qui	qui	PRON	_	PronType=Rel	17	subj	_	_
 17	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	mod@relcl	_	_
-18	s'	soi	PRON	_	Person=3|PronType=Prs	20	comp@expl	_	SpaceAfter=No
+18	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	20	comp@expl	_	SpaceAfter=No
 19	y	y	PRON	_	Person=3|PronType=Prs	20	comp:obl	_	_
 20	coller	coller	VERB	_	VerbForm=Inf	17	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 21	,	,	PUNCT	_	_	22	punct	_	_
@@ -596,7 +596,7 @@
 4	après	après	ADV	_	_	1	conj:dicto	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
-7	s'	soi	PRON	_	Person=3|PronType=Prs	9	comp@expl	_	SpaceAfter=No
+7	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	9	comp@expl	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	passé	passer	VERB	_	VerbForm=Part	8	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 10	quoi	quoi	PRON	_	PronType=Int	9	comp:obj	_	_
@@ -697,7 +697,7 @@
 4	parents	parent	NOUN	_	_	8	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	subj	_	_
-7	se	soi	PRON	_	Person=3|PronType=Prs	10	comp@pass	_	_
+7	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	comp@pass	_	_
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	carrément	carrément	ADV	_	_	8	mod	_	_
 10	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
@@ -717,7 +717,7 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 3	père	père	NOUN	_	_	5	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-4	s'	soi	PRON	_	Person=3|PronType=Prs	5	comp@scrap	_	InIdiom=Yes|SpaceAfter=No
+4	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	comp@scrap	_	InIdiom=Yes|SpaceAfter=No
 5	était	être	AUX	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Idiom=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
@@ -860,7 +860,7 @@
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	_
-6	s'	soi	PRON	_	Person=3|PronType=Prs	8	comp@expl	_	SpaceAfter=No
+6	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	comp@expl	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	échoué	échouer	VERB	_	VerbForm=Part	7	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 9	,	,	PUNCT	_	_	12	punct	_	_
