@@ -18,7 +18,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	donc	donc	ADV	_	_	6	mod	_	_
 2	euh	euh	INTJ	_	_	6	discourse	_	_
-3	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+3	cet	ce	DET	_	Number=Sing|PronType=Dem	4	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 4	été	été	NOUN	_	_	6	mod	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 5	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	SpaceAfter=No
 6	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -177,7 +177,7 @@
 2	donc	donc	ADV	_	_	5	discourse	_	_
 3	voilà	voilà	VERB	_	ExtPos=INTJ	5	discourse	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	SpaceAfter=No
-5	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	était	être	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=3|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	SpaceAfter=No
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj:dicto	_	_
@@ -210,7 +210,7 @@
 # text = il faisait beau, je suis allée à La Rochelle, hum, à l'Île d'Oleron aussi.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
-2	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=3
 3	beau	beau	ADJ	_	Gender=Masc	2	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	_
@@ -246,7 +246,7 @@
 11	bon	bon	INTJ	_	_	14	discourse	_	_
 12	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs|Shared=No	14	subj	_	_
 13	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	comp:obj	_	_
-14	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	discourse	_	_
+14	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	7	discourse	_	Person[ctxt]=2
 15	mais	mais	CCONJ	_	_	17	cc	_	_
 16	bon	bon	INTJ	_	_	15	discourse	_	_
 17	voilà	voilà	VERB	_	_	14	conj:coord	_	SpaceAfter=No
@@ -264,7 +264,7 @@
 7	de	de	ADP	_	_	6	udep	_	_
 8	juillet	juillet	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
-10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=3
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	LiaisonAfter=Yes
 12	exposition	exposition	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 13	euh	euh	INTJ	_	_	14	discourse	_	_
@@ -295,11 +295,11 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	euh	euh	INTJ	_	_	3	discourse	_	_
 2	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	3	comp:obl	_	_
-3	demande	demander	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	demande	demander	VERB	_	Mood=Imp|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=2
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 5	pourquoi	pourquoi	ADV	_	_	7	mod	_	_
 6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
-7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	comp:obj	_	_
+7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	3	comp:obj	_	Person[ctxt]=3
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	LiaisonAfter=Yes
 9	exposition	exposition	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 10	là-bas	là-bas	ADV	_	_	7	mod	_	SpaceAfter=No
@@ -315,7 +315,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	donc	donc	ADV	_	_	3	mod	_	_
 2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
-3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=3
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	LiaisonAfter=Yes
 5	exposition	exposition	NOUN	_	_	3	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 6	de	de	ADP	_	_	5	udep	_	_
@@ -625,7 +625,7 @@
 22	lac	lac	NOUN	_	_	20	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	25	subj	_	_
-25	retournait	retourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	conj:coord	_	_
+25	retournait	retourner	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	18	conj:coord	_	Person[ctxt]=3
 26-27	au	_	_	_	_	_	_	_	_
 26	à	à	ADP	_	_	25	comp:obl	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -782,7 +782,7 @@
 2	gros	gros	ADJ	_	Gender=Masc	1	comp:obj	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	_
-5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=3
 6	colo	colo	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 7	manga	manga	NOUN	_	_	6	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	euh	euh	INTJ	_	_	9	discourse	_	_
@@ -833,7 +833,7 @@
 10	parce	parce	ADV	_	ExtPos=SCONJ	8	mod	_	Idiom=Yes
 11	que	que	SCONJ	_	_	10	unk	_	InIdiom=Yes
 12	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	subj	_	_
-13	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
+13	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	comp:obj	_	Person[ctxt]=3
 14	bien	bien	ADV	_	_	13	mod	_	_
 15	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	comp:obj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_

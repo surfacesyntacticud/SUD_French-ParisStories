@@ -19,7 +19,7 @@
 14	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	subj@expl	_	AlignBegin=1896|AlignEnd=2091
 15	que	que	PRON	_	PronType=Rel	19	comp:obj	_	AlignBegin=2091|AlignEnd=2286
 16	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	17	subj	_	AlignBegin=2286|AlignEnd=2480
-17	pourrais	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	comp:cleft	_	AlignBegin=2480|AlignEnd=2675|Filler=obj
+17	pourrais	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin	13	comp:cleft	_	AlignBegin=2480|AlignEnd=2675|Filler=obj|Person[ctxt]=1
 18	te	toi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=2|PronType=Prs	19	comp:obl	_	AlignBegin=2675|AlignEnd=2869
 19	raconter	raconter	VERB	_	VerbForm=Inf	17	comp:obj	_	AlignBegin=2869|AlignEnd=3064|SpaceAfter=No|Subject=SubjRaising
 20	.	.	PUNCT	_	_	7	punct	_	AlignBegin=3064|AlignEnd=3064
@@ -33,7 +33,7 @@
 3	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=3291|AlignEnd=3519|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=3519|AlignEnd=3519
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=3519|AlignEnd=3746
-6	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=3746|AlignEnd=3973
+6	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=3746|AlignEnd=3973|Person[ctxt]=1
 7	que	que	SCONJ	_	_	6	comp:obj	_	AlignBegin=3973|AlignEnd=4201
 8	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	subj	_	AlignBegin=4201|AlignEnd=4428
 9	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	comp:obj	_	AlignBegin=4428|AlignEnd=4655
@@ -88,7 +88,7 @@
 10	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	13	dislocated:subj	_	AlignBegin=11022|AlignEnd=11204|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=11204|AlignEnd=11204
 12	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs|Shared=No	13	subj	_	AlignBegin=11204|AlignEnd=11387|SpaceAfter=No
-13	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	comp:obj	_	AlignBegin=11387|AlignEnd=11570|SpaceAfter=No
+13	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	8	comp:obj	_	AlignBegin=11387|AlignEnd=11570|Person[ctxt]=1|SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	AlignBegin=11570|AlignEnd=11570
 15	euh	euh	INTJ	_	_	18	discourse	_	AlignBegin=11570|AlignEnd=11752|SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=11752|AlignEnd=11752
@@ -108,9 +108,9 @@
 # speaker = L2
 # text = tu t'en souviens encore ?
 1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	4	subj	_	AlignBegin=13720|AlignEnd=13860
-2	t'	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	4	comp	_	AlignBegin=13860|AlignEnd=14000|SpaceAfter=No
+2	t'	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	4	comp@expl	_	AlignBegin=13860|AlignEnd=14000|SpaceAfter=No
 3	en	en	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=14000|AlignEnd=14139
-4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=14139|AlignEnd=14279
+4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=14139|AlignEnd=14279|Person[ctxt]=2
 5	encore	encore	ADV	_	_	4	mod	_	AlignBegin=14279|AlignEnd=14419
 6	?	?	PUNCT	_	_	4	punct	_	AlignBegin=14419|AlignEnd=14419
 
@@ -121,7 +121,7 @@
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=14667|AlignEnd=14939
 2	m'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	4	comp@expl	_	AlignBegin=14939|AlignEnd=15212|SpaceAfter=No
 3	en	en	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=15212|AlignEnd=15484
-4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=15484|AlignEnd=15756|SpaceAfter=No
+4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=15484|AlignEnd=15756|Person[ctxt]=1|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=15756|AlignEnd=15756
 
 # sent_id = ParisStories_2022_10_frèreHyperDifférent__8
@@ -131,11 +131,11 @@
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=15756|AlignEnd=15920
 2	m'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	4	comp@expl	_	AlignBegin=15920|AlignEnd=16084|SpaceAfter=No
 3	en	en	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=16084|AlignEnd=16248
-4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16248|AlignEnd=16412
+4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16248|AlignEnd=16412|Person[ctxt]=1
 5	parce	parce	ADV	_	ExtPos=SCONJ	4	mod	_	AlignBegin=16412|AlignEnd=16576|Idiom=Yes
 6	que	que	SCONJ	_	_	5	unk	_	AlignBegin=16576|AlignEnd=16739|InIdiom=Yes
 7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	subj	_	AlignBegin=16739|AlignEnd=16903
-8	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=16903|AlignEnd=17067
+8	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=16903|AlignEnd=17067|Person[ctxt]=1
 9	que	que	SCONJ	_	_	8	comp:obj	_	AlignBegin=17067|AlignEnd=17231
 10	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=17231|AlignEnd=17395|SpaceAfter=No
 11	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	comp:obj	_	AlignBegin=17395|AlignEnd=17559
@@ -150,10 +150,10 @@
 20	parce	parce	ADV	_	ExtPos=SCONJ	9	conj:coord	_	AlignBegin=20456|AlignEnd=20720|Idiom=Yes
 21	que	que	SCONJ	_	_	20	unk	_	AlignBegin=20720|AlignEnd=20984|InIdiom=Yes
 22	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	23	subj	_	AlignBegin=20984|AlignEnd=21248
-23	trouvais	trouver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	20	comp:obj	_	AlignBegin=21248|AlignEnd=21512
+23	trouvais	trouver	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	20	comp:obj	_	AlignBegin=21248|AlignEnd=21512|Person[ctxt]=1
 24	que	que	SCONJ	_	_	23	comp:obj	_	AlignBegin=21512|AlignEnd=21776
 25	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	subj	_	AlignBegin=21776|AlignEnd=22041
-26	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	comp:obj	_	AlignBegin=22041|AlignEnd=22305
+26	allait	aller	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	24	comp:obj	_	AlignBegin=22041|AlignEnd=22305|Person[ctxt]=3
 27	tout	tout	ADV	_	_	28	mod	_	AlignBegin=22305|AlignEnd=22569
 28	changer	changer	VERB	_	VerbForm=Inf	26	comp:obj	_	AlignBegin=22569|AlignEnd=22833|Subject=SubjRaising
 29	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	30	det	_	AlignBegin=22833|AlignEnd=23097|HasSpokenGender=OnlySingExceptWithLiaison
@@ -171,7 +171,7 @@
 5	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	8	dislocated:subj	_	AlignBegin=23821|AlignEnd=23975|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=23975|AlignEnd=23975
 7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	subj	_	AlignBegin=23975|AlignEnd=24128
-8	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=24128|AlignEnd=24282
+8	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=24128|AlignEnd=24282|Person[ctxt]=1
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=24282|AlignEnd=24435
 10	soeur	soeur	NOUN	_	_	8	comp:obj	_	AlignBegin=24435|AlignEnd=24589|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	AlignBegin=24589|AlignEnd=24589
@@ -212,7 +212,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=26902|AlignEnd=26902
 4	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=26902|AlignEnd=27139
 5	me	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	comp@expl	_	AlignBegin=27139|AlignEnd=27375
-6	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=27375|AlignEnd=27611
+6	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=27375|AlignEnd=27611|Person[ctxt]=1
 7	que	que	SCONJ	_	_	6	comp:obj	_	AlignBegin=27611|AlignEnd=27847
 8	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	subj	_	AlignBegin=27847|AlignEnd=28083
 9	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	comp:obj	_	AlignBegin=28083|AlignEnd=28319
@@ -248,12 +248,12 @@
 39	euh	euh	INTJ	_	_	42	discourse	_	AlignBegin=33907|AlignEnd=34165|SpaceAfter=No
 40	,	,	PUNCT	_	_	39	punct	_	AlignBegin=34165|AlignEnd=34165
 41	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	42	subj	_	AlignBegin=34165|AlignEnd=34424
-42	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	comp:obj	_	AlignBegin=34424|AlignEnd=34682
+42	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	33	comp:obj	_	AlignBegin=34424|AlignEnd=34682|Person[ctxt]=3
 43	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	comp:obj	_	AlignBegin=34682|AlignEnd=34941
 44	changer	changer	VERB	_	VerbForm=Inf	42	comp:obj	_	AlignBegin=34941|AlignEnd=35199|SpaceAfter=No|Subject=SubjRaising
 45	,	,	PUNCT	_	_	47	punct	_	AlignBegin=35199|AlignEnd=35199
 46	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	47	subj	_	AlignBegin=35199|AlignEnd=35457
-47	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	conj:coord	_	AlignBegin=35457|AlignEnd=35716
+47	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	42	conj:coord	_	AlignBegin=35457|AlignEnd=35716|Person[ctxt]=3
 48	changer	changer	VERB	_	VerbForm=Inf	47	comp:obj	_	AlignBegin=35716|AlignEnd=35974|Subject=SubjRaising
 49	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	50	det	_	AlignBegin=35974|AlignEnd=36233|HasSpokenGender=OnlySingExceptWithLiaison
 50	couche	couche	NOUN	_	_	48	comp:obj	_	AlignBegin=36233|AlignEnd=36491|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -272,7 +272,7 @@
 7	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	comp:obj	_	AlignBegin=37428|AlignEnd=37584
 8	qui	qui	PRON	_	PronType=Rel	10	subj	_	AlignBegin=37584|AlignEnd=37740
 9	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	comp@expl	_	AlignBegin=37740|AlignEnd=37896
-10	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	mod@relcl	_	AlignBegin=37896|AlignEnd=38052|SpaceAfter=No
+10	passait	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	7	mod@relcl	_	AlignBegin=37896|AlignEnd=38052|Person[ctxt]=3|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	AlignBegin=38052|AlignEnd=38052
 
 # sent_id = ParisStories_2022_10_frèreHyperDifférent__14
@@ -312,7 +312,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=42364|AlignEnd=42364
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=42364|AlignEnd=42504
 6	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	7	comp:obl	_	AlignBegin=42504|AlignEnd=42643
-7	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=42643|AlignEnd=42783|SpaceAfter=No
+7	dis	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=42643|AlignEnd=42783|Person[ctxt]=1|SpaceAfter=No
 8	,	,	PUNCT	_	_	22	punct	_	AlignBegin=42783|AlignEnd=42783
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	AlignBegin=42783|AlignEnd=42922|HasSpokenGender=OnlySingExceptWithLiaison
 10	première	premier	ADJ	_	Gender=Fem	11	mod	_	AlignBegin=42922|AlignEnd=43062|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
@@ -336,7 +336,7 @@
 # speaker = L1
 # text = je sais pas si c'est un, un très bon début de relation quand même.
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=47435|AlignEnd=47608
-2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47608|AlignEnd=47781
+2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47608|AlignEnd=47781|Person[ctxt]=1
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=47781|AlignEnd=47954
 4	si	si	SCONJ	_	_	2	comp:obj	_	AlignBegin=47954|AlignEnd=48126
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	AlignBegin=48126|AlignEnd=48299|SpaceAfter=No
@@ -387,7 +387,7 @@
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=55044|AlignEnd=55319|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	AlignBegin=55319|AlignEnd=55319
 6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=55319|AlignEnd=55562
-7	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis:parenth	_	AlignBegin=55562|AlignEnd=55805
+7	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	parataxis:parenth	_	AlignBegin=55562|AlignEnd=55805|Person[ctxt]=1
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	AlignBegin=55805|AlignEnd=56049
 9	si	si	SCONJ	_	_	7	comp:obj	_	AlignBegin=56049|AlignEnd=56292
 10	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj	_	AlignBegin=56292|AlignEnd=56535
@@ -410,7 +410,7 @@
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=58288|AlignEnd=58288
 7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	subj	_	AlignBegin=58288|AlignEnd=58422
 8	me	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	9	comp@expl	_	AlignBegin=58422|AlignEnd=58556
-9	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=58556|AlignEnd=58691
+9	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=58556|AlignEnd=58691|Person[ctxt]=1
 10	de	de	ADP	_	_	9	comp:obl	_	AlignBegin=58691|AlignEnd=58825
 11	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	AlignBegin=58825|AlignEnd=58959|HasSpokenGender=OnlySingExceptWithLiaison
 12	scène	scène	NOUN	_	_	10	comp:obj	_	AlignBegin=58959|AlignEnd=59093|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -441,7 +441,7 @@
 # speaker = L1
 # text = je sais qu'on a une photo, où on est tous les deux avec, euh, moi avec lui dans les bras, comme ça, comme un petit bébé.
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=60521|AlignEnd=60742
-2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=60742|AlignEnd=60964
+2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=60742|AlignEnd=60964|Person[ctxt]=1
 3	qu'	que	SCONJ	_	_	2	comp:obj	_	AlignBegin=60964|AlignEnd=61185|SpaceAfter=No
 4	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	AlignBegin=61185|AlignEnd=61407
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=61407|AlignEnd=61628
@@ -529,12 +529,12 @@
 # speaker = L2
 # text = ça fait, ça, ça change, hein ?
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=No	2	subj	_	AlignBegin=73424|AlignEnd=73639
-2	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=73639|AlignEnd=73854|SpaceAfter=No
+2	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=73639|AlignEnd=73854|Person[ctxt]=3|SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	AlignBegin=73854|AlignEnd=73854
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	dislocated:subj	_	AlignBegin=73854|AlignEnd=74069|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=74069|AlignEnd=74069
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	conj:dicto	_	AlignBegin=74069|AlignEnd=74283
-7	change	changer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	AlignBegin=74283|AlignEnd=74498|SpaceAfter=No
+7	change	changer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	AlignBegin=74283|AlignEnd=74498|Person[ctxt]=3|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=74498|AlignEnd=74498
 9	hein	hein	INTJ	_	_	7	discourse	_	AlignBegin=74498|AlignEnd=74713
 10	?	?	PUNCT	_	_	2	punct	_	AlignBegin=74713|AlignEnd=74713
@@ -572,16 +572,16 @@
 5	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=81370|AlignEnd=81655|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	AlignBegin=81655|AlignEnd=81655
 7	à	à	ADP	_	_	13	mod	_	AlignBegin=81655|AlignEnd=81655
-8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	AlignBegin=81655|AlignEnd=82014|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+8	cette	ce	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=81655|AlignEnd=82014|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 9	époque	époque	NOUN	_	_	7	comp:obj	_	AlignBegin=82014|AlignEnd=82373|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 10	-là	là	ADV	_	_	9	mod	_	AlignBegin=82373|AlignEnd=82732|SpaceAfter=No
 11	,	,	PUNCT	_	_	7	punct	_	AlignBegin=82732|AlignEnd=82732
 12	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	subj	_	AlignBegin=82732|AlignEnd=83090
-13	habitait	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=83090|AlignEnd=83449
+13	habitait	habiter	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=83090|AlignEnd=83449|Person[ctxt]=3
 14	euh	euh	INTJ	_	_	17	discourse	_	AlignBegin=83449|AlignEnd=83808|SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	AlignBegin=83808|AlignEnd=83808
 16	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	subj	_	AlignBegin=83808|AlignEnd=84016
-17	habitait	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj:dicto	_	AlignBegin=84016|AlignEnd=84223
+17	habitait	habiter	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	13	conj:dicto	_	AlignBegin=84016|AlignEnd=84223|Person[ctxt]=3
 18	dans	dans	ADP	_	_	17	mod	_	AlignBegin=84223|AlignEnd=84431
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	AlignBegin=84431|AlignEnd=84639|HasSpokenGender=OnlySingExceptWithLiaison
 20	Bouches	Bouches	PROPN	_	_	18	comp:obj	_	AlignBegin=84639|AlignEnd=84846|Gender[lex]=Unknown
@@ -630,7 +630,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=89751|AlignEnd=89751
 5	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	AlignBegin=89751|AlignEnd=89949
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=89949|AlignEnd=90148
-7	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:aux@tense	_	AlignBegin=90148|AlignEnd=90346
+7	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	6	comp:aux@tense	_	AlignBegin=90148|AlignEnd=90346|Person[ctxt]=3
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=90346|AlignEnd=90545
 9	peu	peu	NOUN	_	_	7	mod	_	AlignBegin=90545|AlignEnd=90743|Gender[lex]=Masc|Number[ctxt]=Sing
 10	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	AlignBegin=90743|AlignEnd=90942|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
@@ -701,7 +701,7 @@
 35	si	si	SCONJ	_	_	28	mod	_	AlignBegin=99179|AlignEnd=99305
 36	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	38	subj	_	AlignBegin=99305|AlignEnd=99431
 37	n'	ne	ADV	_	Polarity=Neg	38	mod	_	AlignBegin=99431|AlignEnd=99558|SpaceAfter=No
-38	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	comp:obj	_	AlignBegin=99558|AlignEnd=99684
+38	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	35	comp:obj	_	AlignBegin=99558|AlignEnd=99684|Person[ctxt]=3
 39	pas	pas	ADV	_	Polarity=Neg	38	mod	_	AlignBegin=99684|AlignEnd=99810
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	AlignBegin=99810|AlignEnd=99936|HasSpokenGender=OnlySingExceptWithLiaison
 41	mêmes	même	ADJ	_	_	42	mod	_	AlignBegin=99936|AlignEnd=100062|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
@@ -812,7 +812,7 @@
 # text = et ça correspond assez à nos personnalités que, lui, bah maintenant il est plus euh, bah, il va plus bouger partout et tout.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=113470|AlignEnd=113720
 2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	AlignBegin=113720|AlignEnd=113969
-3	correspond	correspondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=113969|AlignEnd=114219
+3	correspond	correspondre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=113969|AlignEnd=114219|Person[ctxt]=3
 4	assez	assez	ADV	_	_	3	mod	_	AlignBegin=114219|AlignEnd=114468
 5	à	à	ADP	_	_	3	comp:obl	_	AlignBegin=114468|AlignEnd=114468
 6	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=114468|AlignEnd=114718|HasSpokenGender=OnlySingExceptWithLiaison
@@ -878,7 +878,7 @@
 # speaker = L2
 # text = tu sais que, moi, j'ai marché à neuf mois et demi ?
 1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	subj	_	AlignBegin=125913|AlignEnd=126062
-2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=126062|AlignEnd=126212
+2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=126062|AlignEnd=126212|Person[ctxt]=2
 3	que	que	SCONJ	_	_	2	comp:obj	_	AlignBegin=126212|AlignEnd=126361|SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	AlignBegin=126361|AlignEnd=126361
 5	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	8	dislocated:subj	_	AlignBegin=126361|AlignEnd=126510|SpaceAfter=No
@@ -923,7 +923,7 @@
 2	carrément	carrément	ADV	_	_	5	mod	_	AlignBegin=132499|AlignEnd=132668|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=132668|AlignEnd=132668
 4	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	5	subj	_	AlignBegin=132668|AlignEnd=132838
-5	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=132838|AlignEnd=133008
+5	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=132838|AlignEnd=133008|Person[ctxt]=2
 6	envie	envie	NOUN	_	_	5	comp:obj@lvc	_	AlignBegin=133008|AlignEnd=133177|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 7	de	de	ADP	_	_	6	comp:obl	_	AlignBegin=133177|AlignEnd=133347
 8	courir	courir	VERB	_	VerbForm=Inf	7	comp:obj	_	AlignBegin=133347|AlignEnd=133516|SpaceAfter=No|Subject=SubjRaising
@@ -946,7 +946,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=134810|AlignEnd=134810
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=134810|AlignEnd=134964
 4	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	comp:obl	_	AlignBegin=134964|AlignEnd=135119
-5	prenais	prendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=135119|AlignEnd=135273
+5	prenais	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=135119|AlignEnd=135273|Person[ctxt]=1
 6	tous	tout	ADJ	_	Gender=Masc	8	mod	_	AlignBegin=135273|AlignEnd=135428|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	AlignBegin=135428|AlignEnd=135582|HasSpokenGender=OnlySingExceptWithLiaison
 8	murs	mur	NOUN	_	_	5	comp:obj	_	AlignBegin=135582|AlignEnd=135737|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
@@ -956,7 +956,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/ff57166d99cd01b05e5d1e18f910e1794a93a246
 # speaker = L1
 # text = faut essayer, hein ?
-1	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=137597|AlignEnd=137712
+1	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=137597|AlignEnd=137712|Person[ctxt]=3
 2	essayer	essayer	VERB	_	VerbForm=Inf	1	comp:obj	_	AlignBegin=137712|AlignEnd=137827|SpaceAfter=No|Subject=NoRaising
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=137827|AlignEnd=137827
 4	hein	hein	INTJ	_	_	2	discourse	_	AlignBegin=137827|AlignEnd=137942
@@ -972,7 +972,7 @@
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	comp:obj	_	AlignBegin=138287|AlignEnd=138402
 5	qu'	que	SCONJ	_	_	2	comp:cleft	_	AlignBegin=138402|AlignEnd=138517|SpaceAfter=No
 6	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	AlignBegin=138517|AlignEnd=138632
-7	apprend	apprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=138632|AlignEnd=138747|Filler=mod|SpaceAfter=No
+7	apprend	apprendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=138632|AlignEnd=138747|Filler=mod|Person[ctxt]=3|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=138747|AlignEnd=138747
 
 # sent_id = ParisStories_2022_10_frèreHyperDifférent__55
@@ -999,7 +999,7 @@
 # text = j'en sais rien.
 1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=141387|AlignEnd=141519|SpaceAfter=No
 2	en	en	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	AlignBegin=141519|AlignEnd=141650
-3	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=141650|AlignEnd=141782
+3	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=141650|AlignEnd=141782|Person[ctxt]=1
 4	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	3	comp:obj	_	AlignBegin=141782|AlignEnd=141913|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	AlignBegin=141913|AlignEnd=141913
 
@@ -1010,7 +1010,7 @@
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	dislocated:obj	_	AlignBegin=141913|AlignEnd=142050|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=142050|AlignEnd=142050
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=142050|AlignEnd=142186
-4	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=142186|AlignEnd=142323
+4	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=142186|AlignEnd=142323|Person[ctxt]=1
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=142323|AlignEnd=142459|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	AlignBegin=142459|AlignEnd=142459
 
@@ -1022,7 +1022,7 @@
 2	m'	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=142596|AlignEnd=142732|SpaceAfter=No
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=142732|AlignEnd=142869
 4	pas	pas	ADV	_	Polarity=Neg	5	mod	_	AlignBegin=142869|AlignEnd=143005
-5	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:aux@tense	_	AlignBegin=143005|AlignEnd=143142|SpaceAfter=No
+5	dit	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	comp:aux@tense	_	AlignBegin=143005|AlignEnd=143142|Person[ctxt]=3|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	AlignBegin=143142|AlignEnd=143142
 
 # sent_id = ParisStories_2022_10_frèreHyperDifférent__60
@@ -1035,7 +1035,7 @@
 4	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	subj	_	AlignBegin=143577|AlignEnd=143714
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=143714|AlignEnd=143850
 6	juste	juste	ADV	_	_	5	mod	_	AlignBegin=143850|AlignEnd=143987
-7	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:aux@tense	_	AlignBegin=143987|AlignEnd=144123
+7	dit	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	comp:aux@tense	_	AlignBegin=143987|AlignEnd=144123|Person[ctxt]=3
 8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	dislocated:subj	_	AlignBegin=144123|AlignEnd=144286|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=144286|AlignEnd=144286
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	AlignBegin=144286|AlignEnd=144448|SpaceAfter=No
@@ -1070,10 +1070,10 @@
 # speaker = L1
 # text = il faut qu'il sache que c'était un bout-en-train.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=146619|AlignEnd=146758
-2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=146758|AlignEnd=146896
+2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=146758|AlignEnd=146896|Person[ctxt]=3
 3	qu'	que	SCONJ	_	_	2	comp:obj	_	AlignBegin=146896|AlignEnd=147035|SpaceAfter=No
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	AlignBegin=147035|AlignEnd=147173
-5	sache	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=147173|AlignEnd=147312
+5	sache	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=147173|AlignEnd=147312|Person[ctxt]=3
 6	que	que	SCONJ	_	_	5	comp:obj	_	AlignBegin=147312|AlignEnd=147450
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	AlignBegin=147450|AlignEnd=147589|SpaceAfter=No
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	comp:obj	_	AlignBegin=147589|AlignEnd=147727
@@ -1092,10 +1092,10 @@
 5	fière	fier	ADJ	_	_	4	comp:pred	_	AlignBegin=148410|AlignEnd=148546|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	AlignBegin=148546|AlignEnd=148546
 7	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	8	subj	_	AlignBegin=148546|AlignEnd=148681
-8	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	discourse	_	AlignBegin=148681|AlignEnd=148817|SpaceAfter=No
+8	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	12	discourse	_	AlignBegin=148681|AlignEnd=148817|Person[ctxt]=2|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=148817|AlignEnd=148817
 10	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	12	subj	_	AlignBegin=148817|AlignEnd=148952
 11	m'	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	12	comp:obj	_	AlignBegin=148952|AlignEnd=149088|SpaceAfter=No
-12	étonnes	étonner	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	discourse	_	AlignBegin=149088|AlignEnd=149223|SpaceAfter=No
+12	étonnes	étonner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	discourse	_	AlignBegin=149088|AlignEnd=149223|Person[ctxt]=2|SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	AlignBegin=149223|AlignEnd=149223
 

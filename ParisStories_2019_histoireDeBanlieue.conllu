@@ -7,7 +7,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	subj	_	_
-5	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	parle	parler	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	LiaisonAfter=Yes
 7	histoire	histoire	NOUN	_	_	5	comp:obl	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
@@ -19,7 +19,7 @@
 1	en	en	ADP	_	ExtPos=ADV	4	discourse	_	Idiom=Yes
 2	fait	fait	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
-4	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
 5	dans	dans	ADP	_	_	4	comp:obl	_	_
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	maison	maison	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -145,7 +145,7 @@
 21	propriétaire	propriétaire	NOUN	_	_	19	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 22	,	,	PUNCT	_	_	4	punct	_	_
 23	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	subj	_	_
-24	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3
 25	dans	dans	ADP	_	_	24	comp:obl	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 27	maison	maison	NOUN	_	_	25	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -163,7 +163,7 @@
 6	garçon	garçon	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	qui	qui	PRON	_	PronType=Rel	9	subj	_	_
-9	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
+9	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	Person[ctxt]=3
 10	dans	dans	ADP	_	_	9	comp:obl	_	_
 11	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	comp:obj	_	_
 12	de	de	ADP	_	_	11	mod	_	_
@@ -210,10 +210,10 @@
 7	mardi	mardi	NOUN	_	_	2	conj:dicto	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	_
 9	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	10	subj	_	_
-10	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=2
 11	que	que	SCONJ	_	_	10	comp:obj	_	_
 12	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	subj	_	_
-13	rentre	rentrer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
+13	rentre	rentrer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	11	comp:obj	_	Person[ctxt]=1
 14	tard	tard	ADV	_	_	13	mod	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 16	mardi	mardi	NOUN	_	_	13	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -237,7 +237,7 @@
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	après	après	ADP	_	_	4	mod	_	_
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-4	rentre	rentrer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	rentre	rentrer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
 5	vers	vers	ADP	_	_	4	mod	_	_
 6	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
@@ -257,7 +257,7 @@
 5	peu	peu	NOUN	_	ExtPos=ADV	3	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 6	tard	tard	ADV	_	_	3	mod	_	_
 7	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	8	subj	_	_
-8	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	discourse	_	SpaceAfter=No
+8	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	discourse	_	Person[ctxt]=2|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = et mon quartier c'est pas un, c'est pas un quartier très bon.
@@ -312,7 +312,7 @@
 8	rue	rue	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	que	que	PRON	_	PronType=Rel	11	comp:obj	_	_
 10	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	11	subj	_	_
-11	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
+11	passe	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	Person[ctxt]=1
 12	normalement	normalement	ADV	_	_	11	mod	_	_
 13	pour	pour	ADP	_	_	11	mod	_	_
 14	euh	euh	INTJ	_	_	15	discourse	_	_
@@ -453,10 +453,10 @@
 # sent_id = ParisStories_2019_histoireDeBanlieue_20
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/d50bf89027694d4326915ff6e90cc525b2e3ea00
 # speaker = non_native
-1	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+1	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3
 2	que	que	SCONJ	_	_	1	comp:obj	_	_
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-4	marche	marcher	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+4	marche	marcher	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	2	comp:obj	_	Person[ctxt]=1
 5	euh	euh	INTJ	_	_	7	discourse	_	_
 6	dix	dix	NUM	_	ExtPos=DET	7	det	_	Number[lex]=Plur
 7	minutes	minute	NOUN	_	_	4	mod	_	Gender[lex]=Fem|Number[ctxt]=Plur
@@ -480,7 +480,7 @@
 10	qu'	que	SCONJ	_	_	9	comp:obj	_	SpaceAfter=No
 11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj@expl	_	_
 12	y	y	PRON	_	Person=3|PronType=Prs	13	comp@expl	_	_
-13	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	comp:obj	_	_
+13	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	10	comp:obj	_	Person[ctxt]=3
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	euh	euh	INTJ	_	_	14	discourse	_	_
 16	garçon	garçon	NOUN	_	_	13	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -493,7 +493,7 @@
 1	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	wordform=fin
 2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
 3	y	y	PRON	_	Person=3|PronType=Prs	4	comp@expl	_	_
-4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=3
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 6	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
@@ -508,7 +508,7 @@
 16	port	port	X	_	ExtPos=VERB	15	conj:dicto	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	subj	_	_
-19	portait	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj:dicto	_	_
+19	portait	porter	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	16	conj:dicto	_	Person[ctxt]=3
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	conj:dicto	_	_
@@ -615,7 +615,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/d50bf89027694d4326915ff6e90cc525b2e3ea00
 # speaker = non_native
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
-2	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3
 3	vers	vers	ADP	_	_	2	mod	_	_
 4	là-bas	là-bas	ADV	_	_	3	comp:obj	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
@@ -629,7 +629,7 @@
 3	do~	do~	X	_	ExtPos=VERB	0	root	_	_
 4	et	et	CCONJ	_	_	6	cc	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	_
-6	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	_
+6	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	Person[ctxt]=1
 7	tourner	tourner	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 8	vers	vers	ADP	_	_	7	mod	_	_
 9	là-bas	là-bas	ADV	_	_	8	comp:obj	_	_
@@ -646,7 +646,7 @@
 20	rue	rue	NOUN	_	_	18	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
 21	où	où	PRON	_	PronType=Rel	23	mod	_	_
 22	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	23	subj	_	SpaceAfter=No
-23	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	SpaceAfter=No
+23	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	Person[ctxt]=1|SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = et dans cette rue il marche toujours devant moi.
@@ -658,7 +658,7 @@
 3	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	rue	rue	NOUN	_	_	2	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
-6	marche	marcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	marche	marcher	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3
 7	toujours	toujours	ADV	_	_	6	mod	_	_
 8	devant	devant	ADP	_	_	6	mod	_	_
 9	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	SpaceAfter=No

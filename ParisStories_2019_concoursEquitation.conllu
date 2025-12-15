@@ -11,18 +11,18 @@
 # sent_id = ParisStories_2019_concoursEquitation_2
 # text = cette année-là, je passais mon bac, et je devais me qualifier pour les championnats.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
-1	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+1	cette	ce	DET	_	Number=Sing|PronType=Dem	2	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 2	année	année	NOUN	_	_	6	mod	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 3	-là	là	ADV	_	_	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	_
-6	passais	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	passais	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
 7	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	bac	bac	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	12	subj	_	_
-12	devais	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	conj:coord	_	_
+12	devais	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	6	conj:coord	_	Person[ctxt]=1
 13	me	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	14	comp:obj	_	_
 14	qualifier	qualifier	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
 15	pour	pour	ADP	_	_	14	comp:obl	_	_
@@ -33,7 +33,7 @@
 # sent_id = ParisStories_2019_concoursEquitation_3
 # text = faut savoir que c'est assez compliqué.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
-1	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+1	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3
 2	savoir	savoir	VERB	_	VerbForm=Inf	1	comp:obj	_	Subject=SubjRaising
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	SpaceAfter=No
@@ -51,7 +51,7 @@
 4	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	_
-7	passais	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	passais	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 9	trois	trois	NUM	_	ExtPos=DET	10	mod	_	Number[lex]=Plur
 10	quarts	quart	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
@@ -84,7 +84,7 @@
 2	à	à	ADP	_	_	5	mod	_	_
 3	côté	côté	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	subj	_	_
-5	faisais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	faisais	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	cours	cours	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
@@ -132,7 +132,7 @@
 # text = je venais de changer de club.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
-2	venais	venir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	venais	venir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	changer	changer	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
 5	de	de	ADP	_	_	4	comp:obl	_	_
@@ -150,7 +150,7 @@
 6	que	que	SCONJ	_	_	2	comp:cleft	_	_
 7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	subj	_	_
 8	me	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	9	comp:obj	_	_
-9	mettais	mettre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	comp:obj	_	Filler=mod
+9	mettais	mettre	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	6	comp:obj	_	Filler=mod|Person[ctxt]=1
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	9	comp:obl	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -163,7 +163,7 @@
 1	avant	avant	ADV	_	_	4	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-4	faisais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	faisais	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
 5	que	que	ADV	_	Polarity=Neg	8	mod	_	_
 6	de	de	ADP	_	ExtPos=DET	8	det	_	Idiom=Yes
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	unk	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes|LiaisonAfter=Yes|SpaceAfter=No
@@ -174,7 +174,7 @@
 # text = je connaissais pas forcément ce domaine.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
-2	connaissais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	connaissais	connaître	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
 3	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 4	forcément	forcément	ADV	_	_	2	mod	_	_
 5	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -251,7 +251,7 @@
 9	épreuves	épreuve	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 10	quand	quand	SCONJ	_	_	7	mod	_	_
 11	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	12	subj	_	_
-12	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
+12	fais	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	comp:obj	_	Person[ctxt]=2
 13	du	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	dressage	dressage	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	7	punct	_	_
@@ -272,7 +272,7 @@
 1	donc	donc	ADV	_	_	4	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	4	subj	_	_
-4	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	fais	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=2
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	reprise	reprise	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 7	que	que	PRON	_	PronType=Rel	10	comp:obj	_	_
@@ -295,7 +295,7 @@
 1	que	que	SCONJ	_	_	0	root	_	SpaceAfter=No
 2	…	…	PUNCT	_	_	4	punct	_	_
 3	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	4	subj	_	_
-4	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
+4	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	1	comp:obj	_	Person[ctxt]=2
 5	connaître	connaître	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising
 6	par	par	ADP	_	_	5	mod	_	_
 7	cœur	cœur	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -328,10 +328,10 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
 1	donc	donc	ADV	_	_	3	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=3
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	_
-6	choisisse	choisir	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
+6	choisisse	choisir	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	4	comp:obj	_	Person[ctxt]=1
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	thème	thème	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
@@ -339,7 +339,7 @@
 # sent_id = ParisStories_2019_concoursEquitation_25
 # text = cette épreuve, tu la fais costumé à cheval.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
-1	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+1	cette	ce	DET	_	Number=Sing|PronType=Dem	2	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 2	épreuve	épreuve	NOUN	_	_	6	dislocated:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	6	subj	_	_
@@ -441,7 +441,7 @@
 3	fallu	falloir	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	_
-6	fasse	faire	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
+6	fasse	faire	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	4	comp:obj	_	Person[ctxt]=1
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	montages	montage	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 9	musicaux	musical	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|SpaceAfter=No
@@ -476,7 +476,7 @@
 24	pendant	pendant	ADP	_	ExtPos=ADV	20	mod	_	Idiom=Yes
 25	que	que	SCONJ	_	_	24	unk	_	InIdiom=Yes
 26	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	27	subj	_	_
-27	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	24	comp:obj	_	_
+27	fais	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	24	comp:obj	_	Person[ctxt]=2
 28	ta	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs|Shared=No	29	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 29	truc	truc	NOUN	_	_	27	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 30	,	,	PUNCT	_	_	34	punct	_	_
@@ -494,7 +494,7 @@
 # text = il faut que ça soit calé en fonction de tes allures, en fonction de tes mouvements dans la carrière, en fonction de tout ce que tu fais.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
-2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 5	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
@@ -521,7 +521,7 @@
 26	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	24	comp:obj	_	_
 27	que	que	PRON	_	PronType=Rel	29	mod	_	_
 28	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	29	subj	_	_
-29	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	26	mod@relcl	_	SpaceAfter=No
+29	fais	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	26	mod@relcl	_	Person[ctxt]=2|SpaceAfter=No
 30	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_35
@@ -529,7 +529,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
-3	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	6	subj	_	_
 6	sois	être	AUX	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
@@ -538,7 +538,7 @@
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	_
-12	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
+12	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	conj:coord	_	Person[ctxt]=3
 13	que	que	SCONJ	_	_	12	comp:obj	_	_
 14	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	15	subj	_	_
 15	sois	être	AUX	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
@@ -562,7 +562,7 @@
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	_
-12	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj:coord	_	_
+12	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	7	conj:coord	_	Person[ctxt]=3
 13	trouver	trouver	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=NoRaising
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 15	costume	costume	NOUN	_	_	13	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -593,17 +593,17 @@
 15	mais	mais	CCONJ	_	_	36	cc	_	_
 16	quand	quand	SCONJ	_	_	36	mod	_	_
 17	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	subj@expl	_	_
-18	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
+18	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	16	comp:obj	_	Person[ctxt]=3
 19	que	que	SCONJ	_	_	18	comp:obj	_	_
 20	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	21	subj	_	_
-21	accompagnes	accompagner	VERB	_	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	comp:obj	_	SpaceAfter=No
+21	accompagnes	accompagner	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	19	comp:obj	_	Person[ctxt]=2|SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	_
 23	enfin	enfin	ADV	_	ExtPos=INTJ	25	discourse	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
 25	pour	pour	ADP	_	ExtPos=ADV	21	mod	_	Idiom=Yes
 26	que	que	SCONJ	_	_	25	unk	_	InIdiom=Yes
 27	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	28	subj	_	_
-28	mettes	mettre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	25	comp:obj	_	_
+28	mettes	mettre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	25	comp:obj	_	Person[ctxt]=2
 29	ton	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 30	cheval	cheval	NOUN	_	Number=Sing	28	comp:obj	_	Gender[lex]=Masc
 31	avec	avec	ADP	_	_	30	udep	_	_
@@ -626,7 +626,7 @@
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	2	conj:dicto	_	_
 7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	subj	_	_
-8	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
 9	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	comp:obj	_	_
 10	que	que	PRON	_	PronType=Rel	12	comp:obj	_	_
 11	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	12	subj	_	SpaceAfter=No
@@ -640,7 +640,7 @@
 19	,	,	PUNCT	_	_	22	punct	_	_
 20	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj@expl	_	_
 21	y	y	PRON	_	Person=3|PronType=Prs	22	comp@expl	_	_
-22	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj:dicto	_	_
+22	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	16	conj:dicto	_	Person[ctxt]=3
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	genre	genre	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 25	de	de	ADP	_	_	24	udep	_	SpaceAfter=No
@@ -713,12 +713,12 @@
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	truc	truc	NOUN	_	_	4	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	qui	qui	PRON	_	PronType=Rel	8	subj	_	_
-8	relie	relier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
+8	relie	relier	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	Person[ctxt]=3
 9	ta	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 10	selle	selle	NOUN	_	_	8	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 11	et	et	CCONJ	_	_	13	cc	_	_
 12	qui	qui	PRON	_	PronType=Rel	13	subj	_	_
-13	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:coord	_	_
+13	passe	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	conj:coord	_	Person[ctxt]=3
 14	sur	sur	ADP	_	_	13	mod	_	_
 15	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	16	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 16	encôlure	encôlure	NOUN	_	_	14	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
@@ -753,7 +753,7 @@
 7	pour	pour	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes
 8	que	que	SCONJ	_	_	7	unk	_	InIdiom=Yes
 9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	_
-10	fasse	faire	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
+10	fasse	faire	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	7	comp:obj	_	Person[ctxt]=3
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	InIdiom=Yes
 12	peu	peu	NOUN	_	ExtPos=ADV	16	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	11	punct	_	_
@@ -771,7 +771,7 @@
 3	queue	queue	NOUN	_	_	1	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
-6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=3
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
 8	fausses	faux	ADJ	_	Gender=Fem	9	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Plur
 9	pièces	pièce	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
@@ -786,7 +786,7 @@
 1	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	4	dislocated:subj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
-4	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	LiaisonAfter=Yes
 6	immense	immense	ADJ	_	_	7	mod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 7	ju~	ju~	X	_	ExtPos=NOUN|Gender=Fem|Number=Sing	4	comp:obj	_	_
@@ -796,7 +796,7 @@
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	qui	qui	PRON	_	PronType=Rel	14	subj	_	_
 13	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	14	comp:obl	_	_
-14	couvrait	couvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	mod@relcl	_	_
+14	couvrait	couvrir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	8	mod@relcl	_	Person[ctxt]=3
 15	toutes	tout	ADJ	_	Gender=Fem	17	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 17	fesses	fesse	NOUN	_	_	14	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
@@ -810,7 +810,7 @@
 3	qu'	que	SCONJ	_	_	1	comp:obj	_	SpaceAfter=No
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	_
 5	y	y	PRON	_	Person=3|PronType=Prs	6	comp@expl	_	_
-6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	comp:obj	_	_
+6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	3	comp:obj	_	Person[ctxt]=3
 7	pleins	plein	ADJ	_	Gender=Masc	6	comp:obj	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 8	de	de	ADP	_	_	7	comp:obl	_	_
 9	petits	petit	ADJ	_	Gender=Masc|Number=Plur	10	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
@@ -869,7 +869,7 @@
 1	donc	donc	ADV	_	_	4	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
-4	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	haut	haut	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
@@ -877,7 +877,7 @@
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	dentelé	dentelé	ADJ	_	_	6	mod	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 11	qui	qui	PRON	_	PronType=Rel	12	subj	_	_
-12	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	mod@relcl	_	_
+12	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	6	mod@relcl	_	Person[ctxt]=3
 13	assez	assez	ADV	_	_	14	mod	_	_
 14	pirate	pirate	NOUN	_	_	12	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
@@ -907,7 +907,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
-3	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	chapeau	chapeau	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 6	que	que	PRON	_	PronType=Rel	10	comp:pred	_	_
