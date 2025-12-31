@@ -4,7 +4,7 @@
 # text = ok, c'est quoi le plus, le souvenir, le premier souvenir, le plus clair que tu as en tête, de nous deux ?
 1	ok	ok	ADV	_	_	4	discourse	_	AlignBegin=0|AlignEnd=384|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=384|AlignEnd=384
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	AlignBegin=384|AlignEnd=769|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	4	subj	_	AlignBegin=384|AlignEnd=769|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=769|AlignEnd=1153
 5	quoi	quoi	PRON	_	PronType=Int	4	comp:pred	_	AlignBegin=1153|AlignEnd=1537
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	10	det	_	AlignBegin=1537|AlignEnd=1921|HasSpokenGender=OnlySingExceptWithLiaison
@@ -21,13 +21,13 @@
 17	plus	plus	ADV	_	_	18	mod	_	AlignBegin=4611|AlignEnd=4996
 18	clair	clair	ADJ	_	_	14	conj:dicto	_	AlignBegin=4996|AlignEnd=5380|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 19	que	que	PRON	_	PronType=Rel	21	comp:obj	_	AlignBegin=5955|AlignEnd=6249
-20	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	21	subj	_	AlignBegin=6249|AlignEnd=6543
+20	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	21	subj	_	AlignBegin=6249|AlignEnd=6543|Number[lex]=Sing|Person[lex]=2
 21	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	AlignBegin=6543|AlignEnd=6836
 22	en	en	ADP	_	_	21	comp:obl	_	AlignBegin=6836|AlignEnd=7130
 23	tête	tête	NOUN	_	_	22	comp:obj	_	AlignBegin=7130|AlignEnd=7424|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	AlignBegin=7424|AlignEnd=7424
 25	de	de	ADP	_	_	14	udep	_	AlignBegin=7424|AlignEnd=7718
-26	nous	nous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=1|PronType=Prs	25	comp:obj	_	AlignBegin=7718|AlignEnd=8011
+26	nous	nous	PRON	_	Case=Acc|Emph=No|PronType=Prs	25	comp:obj	_	AlignBegin=7718|AlignEnd=8011|Number[lex]=Plur|Person[lex]=1
 27	deux	deux	NUM	_	ExtPos=PRON	26	mod	_	AlignBegin=8011|AlignEnd=8305
 28	?	?	PUNCT	_	_	4	punct	_	AlignBegin=8305|AlignEnd=8305
 
@@ -47,7 +47,7 @@
 2	premier	premier	ADJ	_	Gender=Masc	3	mod	_	AlignBegin=10059|AlignEnd=10280|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 3	souvenir	souvenir	NOUN	_	_	0	root	_	AlignBegin=10280|AlignEnd=10500|Gender[lex]=Masc|Number[ctxt]=Sing
 4	de	de	ADP	_	_	3	udep	_	AlignBegin=10500|AlignEnd=10721
-5	nous	nous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=10721|AlignEnd=10941
+5	nous	nous	PRON	_	Case=Acc|Emph=No|PronType=Prs	4	comp:obj	_	AlignBegin=10721|AlignEnd=10941|Number[lex]=Plur|Person[lex]=1
 6	en	en	ADP	_	ExtPos=ADV	3	discourse	_	AlignBegin=10941|AlignEnd=11162|Idiom=Yes
 7	fait	fait	NOUN	_	_	6	comp:obj	_	AlignBegin=11162|AlignEnd=11382|Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	AlignBegin=11382|AlignEnd=11382
@@ -60,20 +60,20 @@
 2	premier	premier	ADJ	_	Gender=Masc	3	mod	_	AlignBegin=11779|AlignEnd=12137|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 3	souvenir	souvenir	NOUN	_	_	16	dislocated:obj	_	AlignBegin=12137|AlignEnd=12494|Gender[lex]=Masc|Number[ctxt]=Sing
 4	de	de	ADP	_	_	3	udep	_	AlignBegin=12494|AlignEnd=12852
-5	nous	nous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=12852|AlignEnd=13210
+5	nous	nous	PRON	_	Case=Acc|Emph=No|PronType=Prs	4	comp:obj	_	AlignBegin=12852|AlignEnd=13210|Number[lex]=Plur|Person[lex]=1
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=13210|AlignEnd=13568|HasSpokenGender=OnlySingExceptWithLiaison
 7	plus	plus	ADV	_	_	8	mod	_	AlignBegin=13568|AlignEnd=13926
 8	clair	clair	ADJ	_	_	3	mod	_	AlignBegin=13926|AlignEnd=14284|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 9	que	que	PRON	_	PronType=Rel	11	comp:obj	_	AlignBegin=14284|AlignEnd=14641
-10	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=14641|AlignEnd=14999|SpaceAfter=No
+10	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	subj	_	AlignBegin=14641|AlignEnd=14999|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 11	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	AlignBegin=14999|AlignEnd=15357|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=15357|AlignEnd=15357
 13	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=15357|AlignEnd=15655|SpaceAfter=No
 14	,	,	PUNCT	_	_	3	punct	_	AlignBegin=15655|AlignEnd=15655
-15	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	16	subj	_	AlignBegin=15655|AlignEnd=15953
+15	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	16	subj	_	AlignBegin=15655|AlignEnd=15953|Number[lex]=Sing|Person[lex]=1
 16	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=15953|AlignEnd=16251|Person[ctxt]=1
 17	que	que	SCONJ	_	_	16	comp:obj	_	AlignBegin=16251|AlignEnd=16549
-18	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	subj	_	AlignBegin=16549|AlignEnd=16847|SpaceAfter=No
+18	c'	ce	PRON	_	PronType=Dem	19	subj	_	AlignBegin=16549|AlignEnd=16847|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	AlignBegin=16847|AlignEnd=17145
 20	en	en	ADP	_	_	19	comp:pred	_	AlignBegin=17145|AlignEnd=17443
 21	Algérie	Algérie	PROPN	_	_	20	comp:obj	_	AlignBegin=17443|AlignEnd=17741|Gender[lex]=Unknown|SpaceAfter=No
@@ -83,10 +83,10 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
 # speaker = L2
 # text = je crois que c'est en Algérie.
-1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=17741|AlignEnd=18039
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=17741|AlignEnd=18039|Number[lex]=Sing|Person[lex]=1
 2	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=18039|AlignEnd=18337|Person[ctxt]=1
 3	que	que	SCONJ	_	_	2	comp:obj	_	AlignBegin=18337|AlignEnd=18635
-4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	AlignBegin=18635|AlignEnd=18933|SpaceAfter=No
+4	c'	ce	PRON	_	PronType=Dem	5	subj	_	AlignBegin=18635|AlignEnd=18933|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=18933|AlignEnd=19231
 6	en	en	ADP	_	_	5	comp:pred	_	AlignBegin=19231|AlignEnd=19529
 7	Algérie	Algérie	PROPN	_	_	6	comp:obj	_	AlignBegin=19529|AlignEnd=19827|Gender[lex]=Unknown|SpaceAfter=No
@@ -97,13 +97,13 @@
 # speaker = L2
 # text = et je sais pas, si tu te souviens.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=19827|AlignEnd=20057
-2	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=20057|AlignEnd=20287
+2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=20057|AlignEnd=20287|Number[lex]=Sing|Person[lex]=1
 3	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=20287|AlignEnd=20517|Person[ctxt]=1
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=20517|AlignEnd=20747|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=20747|AlignEnd=20747
 6	si	si	SCONJ	_	_	3	comp:obj	_	AlignBegin=20747|AlignEnd=20977
-7	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	9	subj	_	AlignBegin=20977|AlignEnd=21207
-8	te	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	9	comp@expl	_	AlignBegin=21207|AlignEnd=21436
+7	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	subj	_	AlignBegin=20977|AlignEnd=21207|Number[lex]=Sing|Person[lex]=2
+8	te	toi	PRON	_	Emph=No|PronType=Prs|Reflex=Yes	9	comp@expl	_	AlignBegin=21207|AlignEnd=21436|Number[lex]=Sing|Person[lex]=2
 9	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	6	comp:obj	_	AlignBegin=21436|AlignEnd=21666|Person[ctxt]=2|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	AlignBegin=21666|AlignEnd=21666
 
@@ -111,7 +111,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
 # speaker = L2
 # text = on était sur la place.
-1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	AlignBegin=21666|AlignEnd=21896
+1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	subj	_	AlignBegin=21666|AlignEnd=21896|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=21896|AlignEnd=22126
 3	sur	sur	ADP	_	_	2	comp:pred	_	AlignBegin=22126|AlignEnd=22356
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=22356|AlignEnd=22586|HasSpokenGender=OnlySingExceptWithLiaison
@@ -127,16 +127,16 @@
 3	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=23164|AlignEnd=23513|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=23513|AlignEnd=23513
 5	et	et	CCONJ	_	_	1	conj:dicto	_	AlignBegin=23513|AlignEnd=23861
-6	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	AlignBegin=23861|AlignEnd=24209
-7	courait	courir	VERB	_	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=24209|AlignEnd=24558|Person[ctxt]=3|SpaceAfter=No
+6	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	7	subj	_	AlignBegin=23861|AlignEnd=24209|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+7	courait	courir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=24209|AlignEnd=24558|Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	AlignBegin=24558|AlignEnd=24558
 
 # sent_id = ParisStories_2022_16_hamacTahiti__9
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
 # speaker = L2
 # text = on jouait, comme des …
-1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	AlignBegin=24558|AlignEnd=24906
-2	jouait	jouer	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=24906|AlignEnd=25254|Person[ctxt]=3|SpaceAfter=No
+1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	subj	_	AlignBegin=24558|AlignEnd=24906|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+2	jouait	jouer	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=24906|AlignEnd=25254|Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=25254|AlignEnd=25254
 4	comme	comme	ADP	_	_	2	mod	_	AlignBegin=25254|AlignEnd=25603
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	comp:obj@scrap	_	AlignBegin=25603|AlignEnd=25951
@@ -172,7 +172,7 @@
 13	tour	tour	NOUN	_	_	11	comp:obj	_	AlignBegin=28728|AlignEnd=29023|Gender[lex]=Fem|Number[ctxt]=Sing
 14	là	là	ADV	_	_	13	mod	_	AlignBegin=29023|AlignEnd=29317
 15	comme	comme	ADP	_	_	14	mod	_	AlignBegin=29317|AlignEnd=29612
-16	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	comp:obj	_	AlignBegin=29612|AlignEnd=29906|SpaceAfter=No
+16	ça	ça	PRON	_	PronType=Dem	15	comp:obj	_	AlignBegin=29612|AlignEnd=29906|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 17	.	.	PUNCT	_	_	1	punct	_	AlignBegin=29906|AlignEnd=29906
 
 # sent_id = ParisStories_2022_16_hamacTahiti__12
@@ -205,9 +205,9 @@
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=30390|AlignEnd=30690
 3	là	là	ADV	_	_	2	comp:pred	_	AlignBegin=30690|AlignEnd=30991|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	AlignBegin=30991|AlignEnd=30991
-5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	AlignBegin=30991|AlignEnd=31291
-6	me	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	AlignBegin=31291|AlignEnd=31592
-7	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	2	discourse	_	AlignBegin=31592|AlignEnd=31892|Person[ctxt]=3|SpaceAfter=No
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	7	subj	_	AlignBegin=30991|AlignEnd=31291|Person[lex]=3
+6	me	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	7	comp:obj	_	AlignBegin=31291|AlignEnd=31592|Number[lex]=Sing|Person[lex]=1
+7	semble	sembler	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	discourse	_	AlignBegin=31592|AlignEnd=31892|Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=31892|AlignEnd=31892
 
 # sent_id = ParisStories_2022_16_hamacTahiti__16
@@ -223,10 +223,10 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
 # speaker = L2
 # text = c'était il y a très, très, bah oui, euh …
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=33251|AlignEnd=33465|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	2	subj	_	AlignBegin=33251|AlignEnd=33465|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=33465|AlignEnd=33678
-3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	AlignBegin=33678|AlignEnd=33892|InIdiom=Yes
-4	y	y	PRON	_	Person=3|PronType=Prs	5	comp	_	AlignBegin=33892|AlignEnd=34105|InIdiom=Yes
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	subj	_	AlignBegin=33678|AlignEnd=33892|InIdiom=Yes|Person[lex]=3
+4	y	y	PRON	_	PronType=Prs	5	comp	_	AlignBegin=33892|AlignEnd=34105|InIdiom=Yes|Person[lex]=3
 5	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod	_	AlignBegin=34105|AlignEnd=34319|Idiom=Yes
 6	très	très	ADV	_	_	5	mod@scrap	_	AlignBegin=34319|AlignEnd=34532|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=34532|AlignEnd=34532
@@ -256,8 +256,8 @@
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=36227|AlignEnd=36227
 5	Morgane	Morgane	PROPN	_	_	9	dislocated:obl	_	AlignBegin=36227|AlignEnd=36395|Gender[lex]=Unknown|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=36395|AlignEnd=36395
-7	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	AlignBegin=36395|AlignEnd=36563
-8	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	9	comp:obj	_	AlignBegin=36563|AlignEnd=36731
+7	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	9	subj	_	AlignBegin=36395|AlignEnd=36563|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+8	se	soi	PRON	_	PronType=Prs|Reflex=Yes	9	comp:obj	_	AlignBegin=36563|AlignEnd=36731|Person[lex]=3
 9	connaît	connaître	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=36731|AlignEnd=36899|Person[ctxt]=3
 10	depuis	depuis	ADP	_	_	9	mod	_	AlignBegin=36899|AlignEnd=37114
 11-12	au	_	_	_	_	_	_	_	_
@@ -279,9 +279,9 @@
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=40451|AlignEnd=40451
 5	ouais	ouais	INTJ	_	_	1	discourse	_	AlignBegin=40451|AlignEnd=40660|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	AlignBegin=40660|AlignEnd=40660
-7	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	dislocated:subj	_	AlignBegin=40660|AlignEnd=40869|SpaceAfter=No
+7	ça	ça	PRON	_	PronType=Dem	10	dislocated:subj	_	AlignBegin=40660|AlignEnd=40869|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=40869|AlignEnd=40869
-9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	AlignBegin=40869|AlignEnd=41077|SpaceAfter=No
+9	c'	ce	PRON	_	PronType=Dem	10	subj	_	AlignBegin=40869|AlignEnd=41077|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=41077|AlignEnd=41286
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=41286|AlignEnd=41495
 12	souvenir	souvenir	NOUN	_	_	10	comp:pred	_	AlignBegin=41495|AlignEnd=41703|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -290,7 +290,7 @@
 15	très	très	ADV	_	_	13	conj:coord	_	AlignBegin=41912|AlignEnd=42120
 16	clair	clair	ADJ	_	_	12	mod	_	AlignBegin=42120|AlignEnd=42329|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 17	que	que	PRON	_	PronType=Rel	19	comp:obj	_	AlignBegin=42329|AlignEnd=42538
-18	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	19	subj	_	AlignBegin=42538|AlignEnd=42746|SpaceAfter=No
+18	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	19	subj	_	AlignBegin=42538|AlignEnd=42746|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 19	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	AlignBegin=42746|AlignEnd=42955|SpaceAfter=No
 20	.	.	PUNCT	_	_	10	punct	_	AlignBegin=42955|AlignEnd=42955
 
@@ -298,7 +298,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
 # speaker = L2
 # text = on était en train de jouer, euh, sur cette grande place.
-1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	AlignBegin=42955|AlignEnd=43204
+1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	subj	_	AlignBegin=42955|AlignEnd=43204|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=43204|AlignEnd=43452
 3	en	en	ADP	_	_	2	comp:pred	_	AlignBegin=43452|AlignEnd=43701
 4	train	train	NOUN	_	_	3	comp:obj	_	AlignBegin=43701|AlignEnd=43949|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -317,8 +317,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
 # speaker = L2
 # text = il faisait chaud.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=46320|AlignEnd=46726
-2	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=46726|AlignEnd=47132|Person[ctxt]=3
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	2	subj	_	AlignBegin=46320|AlignEnd=46726|Person[lex]=3
+2	faisait	faire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=46726|AlignEnd=47132|Number[ctxt]=Sing|Person[ctxt]=3
 3	chaud	chaud	ADJ	_	Gender=Masc	2	comp:pred	_	AlignBegin=47132|AlignEnd=47538|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	AlignBegin=47538|AlignEnd=47538
 
@@ -328,19 +328,19 @@
 # text = euh, il, il, dans mes souvenirs, il n'y avait personne.
 1	euh	euh	INTJ	_	_	14	discourse	_	AlignBegin=47538|AlignEnd=47878|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=47878|AlignEnd=47878
-3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj@expl	_	AlignBegin=47878|AlignEnd=48217|SpaceAfter=No
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	14	subj@expl	_	AlignBegin=47878|AlignEnd=48217|Person[lex]=3|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=48217|AlignEnd=48217
-5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	conj:dicto	_	AlignBegin=48217|AlignEnd=48557|SpaceAfter=No
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	conj:dicto	_	AlignBegin=48217|AlignEnd=48557|Person[lex]=3|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=48557|AlignEnd=48557
 7	dans	dans	ADP	_	_	14	mod	_	AlignBegin=48557|AlignEnd=48897
 8	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	AlignBegin=48897|AlignEnd=49237|HasSpokenGender=OnlySingExceptWithLiaison
 9	souvenirs	souvenir	NOUN	_	_	7	comp:obj	_	AlignBegin=49237|AlignEnd=49576|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 10	,	,	PUNCT	_	_	7	punct	_	AlignBegin=49576|AlignEnd=49576
-11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj@expl	_	AlignBegin=49576|AlignEnd=49916
+11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	14	subj@expl	_	AlignBegin=49576|AlignEnd=49916|Person[lex]=3
 12	n'	ne	ADV	_	_	14	mod	_	AlignBegin=49916|AlignEnd=50256|SpaceAfter=No
-13	y	y	PRON	_	Person=3|PronType=Prs	14	comp@expl	_	AlignBegin=50256|AlignEnd=50596
-14	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=50596|AlignEnd=50935|Person[ctxt]=3
-15	personne	personne	PRON	_	Number=Sing|PronType=Neg	14	comp:obj	_	AlignBegin=50935|AlignEnd=51275|SpaceAfter=No
+13	y	y	PRON	_	PronType=Prs	14	comp@expl	_	AlignBegin=50256|AlignEnd=50596|Person[lex]=3
+14	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=50596|AlignEnd=50935|Number[ctxt]=Sing|Person[ctxt]=3
+15	personne	personne	PRON	_	PronType=Neg	14	comp:obj	_	AlignBegin=50935|AlignEnd=51275|Gender[lex]=Masc|Number[lex]=Sing|SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	_	AlignBegin=51275|AlignEnd=51275
 
 # sent_id = ParisStories_2022_16_hamacTahiti__24
@@ -349,21 +349,21 @@
 # text = enfin, c'était comme si, euh, il n'y avait personne à part nous et, euh …
 1	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	AlignBegin=51275|AlignEnd=51516|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=51516|AlignEnd=51516
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	AlignBegin=51516|AlignEnd=51758|SpaceAfter=No
-4	était	être	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=51758|AlignEnd=51999|Person[ctxt]=3
+3	c'	ce	PRON	_	PronType=Dem	4	subj	_	AlignBegin=51516|AlignEnd=51758|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+4	était	être	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=51758|AlignEnd=51999|Number[ctxt]=Sing|Person[ctxt]=3
 5	comme	comme	ADP	_	_	4	comp:obl	_	AlignBegin=51999|AlignEnd=52240
 6	si	si	SCONJ	_	_	5	comp:obj	_	AlignBegin=52240|AlignEnd=52482|SpaceAfter=No
 7	,	,	PUNCT	_	_	13	punct	_	AlignBegin=52482|AlignEnd=52482
 8	euh	euh	INTJ	_	_	13	discourse	_	AlignBegin=52482|AlignEnd=52723|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=52723|AlignEnd=52723
-10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj@expl	_	AlignBegin=52723|AlignEnd=52964
+10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	13	subj@expl	_	AlignBegin=52723|AlignEnd=52964|Person[lex]=3
 11	n'	ne	ADV	_	_	13	mod	_	AlignBegin=52964|AlignEnd=53206|SpaceAfter=No
-12	y	y	PRON	_	Person=3|PronType=Prs	13	comp@expl	_	AlignBegin=53206|AlignEnd=53447
-13	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	6	comp:obj	_	AlignBegin=53447|AlignEnd=53688|Person[ctxt]=3
-14	personne	personne	PRON	_	Number=Sing|PronType=Neg	13	comp:obj	_	AlignBegin=53688|AlignEnd=53930
+12	y	y	PRON	_	PronType=Prs	13	comp@expl	_	AlignBegin=53206|AlignEnd=53447|Person[lex]=3
+13	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	6	comp:obj	_	AlignBegin=53447|AlignEnd=53688|Number[ctxt]=Sing|Person[ctxt]=3
+14	personne	personne	PRON	_	PronType=Neg	13	comp:obj	_	AlignBegin=53688|AlignEnd=53930|Gender[lex]=Masc|Number[lex]=Sing
 15	à	à	ADP	_	ExtPos=ADP	14	mod	_	AlignBegin=53930|AlignEnd=53930|Idiom=Yes
 16	part	part	ADP	_	_	15	comp:obj	_	AlignBegin=53930|AlignEnd=54171|InIdiom=Yes
-17	nous	nous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=1|PronType=Prs	15	comp:obj	_	AlignBegin=54171|AlignEnd=54412
+17	nous	nous	PRON	_	Case=Acc|Emph=No|PronType=Prs	15	comp:obj	_	AlignBegin=54171|AlignEnd=54412|Number[lex]=Plur|Person[lex]=1
 18	et	et	CCONJ	_	_	17	cc	_	AlignBegin=54412|AlignEnd=54654|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=54654|AlignEnd=54654
 20	euh	euh	INTJ	_	_	17	discourse	_	AlignBegin=54654|AlignEnd=54895
@@ -373,20 +373,20 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
 # speaker = L2
 # text = c'est quoi ton souvenir à toi ?
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=57154|AlignEnd=57454|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	2	subj	_	AlignBegin=57154|AlignEnd=57454|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=57454|AlignEnd=57754
 3	quoi	quoi	PRON	_	PronType=Int	2	comp:pred	_	AlignBegin=57754|AlignEnd=58054
 4	ton	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	5	det	_	AlignBegin=58054|AlignEnd=58353|HasSpokenGender=OnlySingExceptWithLiaison
 5	souvenir	souvenir	NOUN	_	_	2	dislocated:subj	_	AlignBegin=58353|AlignEnd=58653|Gender[lex]=Masc|Number[ctxt]=Sing
 6	à	à	ADP	_	_	5	mod	_	AlignBegin=58653|AlignEnd=58653
-7	toi	toi	PRON	_	Emph=Yes|Number=Sing|Person=2|PronType=Prs	6	comp:obj	_	AlignBegin=58653|AlignEnd=58953
+7	toi	toi	PRON	_	Emph=Yes|PronType=Prs	6	comp:obj	_	AlignBegin=58653|AlignEnd=58953|Number[lex]=Sing|Person[lex]=2
 8	?	?	PUNCT	_	_	2	punct	_	AlignBegin=58953|AlignEnd=58953
 
 # sent_id = ParisStories_2022_16_hamacTahiti__26
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
 # speaker = L1
 # text = c'est drôle.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=55018|AlignEnd=55768|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	2	subj	_	AlignBegin=55018|AlignEnd=55768|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=55768|AlignEnd=56517
 3	drôle	drôle	ADJ	_	_	2	comp:pred	_	AlignBegin=56517|AlignEnd=57267|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	AlignBegin=57267|AlignEnd=57267
@@ -397,13 +397,13 @@
 # text = euh, je sais pas, parce que j'ai peur que mes souvenirs les plus jeunes soient des, des, euh, des créations de, de photos que j'ai vues, de nous.
 1	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=58953|AlignEnd=59778|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=59778|AlignEnd=59778
-3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=59778|AlignEnd=60602
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	AlignBegin=59778|AlignEnd=60602|Number[lex]=Sing|Person[lex]=1
 4	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=60602|AlignEnd=61427|Person[ctxt]=1
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=61427|AlignEnd=62251|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=62251|AlignEnd=62251
 7	parce	parce	ADV	_	ExtPos=SCONJ	4	mod	_	AlignBegin=62251|AlignEnd=63076|Idiom=Yes
 8	que	que	SCONJ	_	_	7	unk	_	AlignBegin=63076|AlignEnd=63900|InIdiom=Yes
-9	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=63900|AlignEnd=64258|SpaceAfter=No
+9	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	AlignBegin=63900|AlignEnd=64258|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 10	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	comp:obj	_	AlignBegin=64258|AlignEnd=64616
 11	peur	peur	NOUN	_	_	10	comp:obj@lvc	_	AlignBegin=64616|AlignEnd=64973|Gender[lex]=Fem|Number[ctxt]=Sing
 12	que	que	SCONJ	_	_	11	comp:obl	_	AlignBegin=64973|AlignEnd=65331
@@ -426,12 +426,12 @@
 29	de	de	ADP	_	_	27	conj:dicto	_	AlignBegin=72445|AlignEnd=72837
 30	photos	photo	NOUN	_	_	29	comp:obj	_	AlignBegin=72837|AlignEnd=73229|Gender[lex]=Fem|Number[ctxt]=Plur
 31	que	que	PRON	_	PronType=Rel	34	comp:obj	_	AlignBegin=73229|AlignEnd=73621
-32	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	33	subj	_	AlignBegin=73621|AlignEnd=74013|SpaceAfter=No
+32	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	33	subj	_	AlignBegin=73621|AlignEnd=74013|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 33	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	mod@relcl	_	AlignBegin=74013|AlignEnd=74405
 34	vues	voir	VERB	_	VerbForm=Part|Voice=Act	33	comp:aux@tense	_	AlignBegin=74405|AlignEnd=74797|Gender[ctxt]=Fem|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 35	,	,	PUNCT	_	_	36	punct	_	AlignBegin=74797|AlignEnd=74797
 36	de	de	ADP	_	_	34	mod	_	AlignBegin=74797|AlignEnd=75189
-37	nous	nous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=1|PronType=Prs	36	comp:obj	_	AlignBegin=75189|AlignEnd=75581|SpaceAfter=No
+37	nous	nous	PRON	_	Case=Acc|Emph=No|PronType=Prs	36	comp:obj	_	AlignBegin=75189|AlignEnd=75581|Number[lex]=Plur|Person[lex]=1|SpaceAfter=No
 38	.	.	PUNCT	_	_	4	punct	_	AlignBegin=75581|AlignEnd=75581
 
 # sent_id = ParisStories_2022_16_hamacTahiti__28
@@ -444,7 +444,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	coup	coup	NOUN	_	_	2	comp:obj	_	AlignBegin=76365|AlignEnd=76757|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	AlignBegin=76757|AlignEnd=76757
-6	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=76757|AlignEnd=77149|SpaceAfter=No
+6	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	AlignBegin=76757|AlignEnd=77149|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 7	aurais	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=77149|AlignEnd=77541
 8	dit	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	7	comp:aux@tense	_	AlignBegin=77541|AlignEnd=77933|Person[ctxt]=3
 9	Tahiti	Tahiti	PROPN	_	_	8	comp:obj	_	AlignBegin=77933|AlignEnd=78325|Gender[lex]=Unknown|SpaceAfter=No
@@ -456,7 +456,7 @@
 # text = ah, c'est possible.
 1	ah	ah	INTJ	_	_	4	discourse	_	AlignBegin=74132|AlignEnd=74512|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=74512|AlignEnd=74512
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	AlignBegin=74512|AlignEnd=74891|SpaceAfter=No
+3	c'	ce	PRON	_	PronType=Dem	4	subj	_	AlignBegin=74512|AlignEnd=74891|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=74891|AlignEnd=75271
 5	possible	possible	ADJ	_	_	4	comp:pred	_	AlignBegin=75271|AlignEnd=75650|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	AlignBegin=75650|AlignEnd=75650
@@ -482,10 +482,10 @@
 1	mais	mais	CCONJ	_	_	19	cc	_	AlignBegin=78325|AlignEnd=78588
 2	vu	voir	VERB	_	ExtPos=ADP|VerbForm=Part	19	mod	_	AlignBegin=78588|AlignEnd=78852|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 3	que	que	SCONJ	_	_	2	comp:obj	_	AlignBegin=78852|AlignEnd=79115
-4	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs|Shared=No	5	subj	_	AlignBegin=79115|AlignEnd=79378|SpaceAfter=No
+4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs|Shared=No	5	subj	_	AlignBegin=79115|AlignEnd=79378|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 5	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=79378|AlignEnd=79642|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=79642|AlignEnd=79642
-7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	conj:dicto	_	AlignBegin=79642|AlignEnd=79905
+7	on	on	PRON	_	PronType=Ind	5	conj:dicto	_	AlignBegin=79642|AlignEnd=79905|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 8	énormément	énormément	ADV	_	_	5	comp:obj	_	AlignBegin=79905|AlignEnd=80168
 9	de	de	ADP	_	_	8	comp:obl	_	AlignBegin=80168|AlignEnd=80432
 10	photos	photo	NOUN	_	_	9	comp:obj	_	AlignBegin=80432|AlignEnd=80695|Gender[lex]=Fem|Number[ctxt]=Plur
@@ -496,11 +496,11 @@
 15	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	AlignBegin=81748|AlignEnd=82012|HasSpokenGender=OnlySingExceptWithLiaison
 16	voyage	voyage	NOUN	_	_	14	comp:obj	_	AlignBegin=82012|AlignEnd=82275|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	2	punct	_	AlignBegin=82275|AlignEnd=82275
-18	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	19	subj	_	AlignBegin=82275|AlignEnd=82538|SpaceAfter=No
+18	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	19	subj	_	AlignBegin=82275|AlignEnd=82538|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 19	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=82538|AlignEnd=82802
 20	peur	peur	NOUN	_	_	19	comp:obj@lvc	_	AlignBegin=82802|AlignEnd=83065|Gender[lex]=Fem|Number[ctxt]=Sing
 21	que	que	SCONJ	_	_	20	comp:obl	_	AlignBegin=83065|AlignEnd=83328
-22	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	24	subj	_	AlignBegin=83328|AlignEnd=83592
+22	ce	ce	PRON	_	PronType=Dem	24	subj	_	AlignBegin=83328|AlignEnd=83592|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 23	ne	ne	ADV	_	Polarity=Neg	24	mod	_	AlignBegin=83592|AlignEnd=83855
 24	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	comp:obj	_	AlignBegin=83855|AlignEnd=84118
 25	pas	pas	ADV	_	Polarity=Neg	24	mod	_	AlignBegin=84118|AlignEnd=84382
@@ -522,7 +522,7 @@
 3	ok	ok	ADJ	_	Gender=Masc	7	discourse	_	AlignBegin=87031|AlignEnd=87352|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=87352|AlignEnd=87352
 5	que	que	SCONJ	_	_	0	root	_	AlignBegin=87352|AlignEnd=87673
-6	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	AlignBegin=87673|AlignEnd=87994
+6	ce	ce	PRON	_	PronType=Dem	7	subj	_	AlignBegin=87673|AlignEnd=87994|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 7	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=87994|AlignEnd=88314
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=88314|AlignEnd=88635
 9	souvenir	souvenir	NOUN	_	_	7	comp:pred	_	AlignBegin=88635|AlignEnd=88956|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -554,9 +554,9 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	coup	coup	NOUN	_	_	5	comp:obj	_	AlignBegin=91541|AlignEnd=91986|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	AlignBegin=91986|AlignEnd=91986
-9	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	AlignBegin=91986|AlignEnd=92430
+9	ce	ce	PRON	_	PronType=Dem	10	subj	_	AlignBegin=91986|AlignEnd=92430|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 10	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=92430|AlignEnd=92874
-11	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	comp:pred	_	AlignBegin=92874|AlignEnd=93318|SpaceAfter=No
+11	ça	ça	PRON	_	PronType=Dem	10	comp:pred	_	AlignBegin=92874|AlignEnd=93318|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 12	.	.	PUNCT	_	_	10	punct	_	AlignBegin=93318|AlignEnd=93318
 
 # sent_id = ParisStories_2022_16_hamacTahiti__37
@@ -564,12 +564,12 @@
 # speaker = L1
 # text = et ce serait, euh, moi qui suis dans le, le hamac et toi qui m'aides à essayer de sortir.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=93318|AlignEnd=93763
-2	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	AlignBegin=93763|AlignEnd=94207
+2	ce	ce	PRON	_	PronType=Dem	3	subj	_	AlignBegin=93763|AlignEnd=94207|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 3	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=94207|AlignEnd=94651|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	AlignBegin=94651|AlignEnd=94651
 5	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=94651|AlignEnd=95422|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=95422|AlignEnd=95422
-7	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	3	dislocated:obj	_	AlignBegin=95422|AlignEnd=96193
+7	moi	moi	PRON	_	Emph=Yes|PronType=Prs	3	dislocated:obj	_	AlignBegin=95422|AlignEnd=96193|Number[lex]=Sing|Person[lex]=1
 8	qui	qui	PRON	_	PronType=Rel	9	subj	_	AlignBegin=96193|AlignEnd=96964
 9	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	AlignBegin=96964|AlignEnd=97735
 10	dans	dans	ADP	_	_	9	comp:obl	_	AlignBegin=97735|AlignEnd=98505
@@ -578,9 +578,9 @@
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	conj:dicto	_	AlignBegin=99276|AlignEnd=100047|HasSpokenGender=OnlySingExceptWithLiaison
 14	hamac	hamac	NOUN	_	_	10	comp:obj	_	AlignBegin=100047|AlignEnd=100818|Gender[lex]=Masc|Number[ctxt]=Sing
 15	et	et	CCONJ	_	_	16	cc	_	AlignBegin=100818|AlignEnd=101183
-16	toi	toi	PRON	_	Emph=Yes|Number=Sing|Person=2|PronType=Prs	7	conj:coord	_	AlignBegin=101183|AlignEnd=101547
+16	toi	toi	PRON	_	Emph=Yes|PronType=Prs	7	conj:coord	_	AlignBegin=101183|AlignEnd=101547|Number[lex]=Sing|Person[lex]=2
 17	qui	qui	PRON	_	PronType=Rel	19	subj	_	AlignBegin=101547|AlignEnd=101912
-18	m'	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	19	comp:obj	_	AlignBegin=101912|AlignEnd=102276|SpaceAfter=No
+18	m'	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	19	comp:obj	_	AlignBegin=101912|AlignEnd=102276|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 19	aides	aider	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	AlignBegin=102276|AlignEnd=102641|Person[ctxt]=2
 20	à	à	ADP	_	_	19	comp:obl	_	AlignBegin=102641|AlignEnd=102641
 21	essayer	essayer	VERB	_	VerbForm=Inf	20	comp:obj	_	AlignBegin=102641|AlignEnd=103005|Subject=SubjRaising
@@ -592,7 +592,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
 # speaker = L1
 # text = tu n'étais pas loin, en tous cas, moi j'ai galéré.
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	3	subj	_	AlignBegin=103734|AlignEnd=103952
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=103734|AlignEnd=103952|Number[lex]=Sing|Person[lex]=2
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=103952|AlignEnd=104171|SpaceAfter=No
 3	étais	être	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=104171|AlignEnd=104389|Person[ctxt]=2
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=104389|AlignEnd=104608
@@ -602,8 +602,8 @@
 8	tous	tout	ADJ	_	Gender=Masc	9	mod	_	AlignBegin=105045|AlignEnd=105263|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 9	cas	cas	NOUN	_	_	7	comp:obj	_	AlignBegin=105263|AlignEnd=105481|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 10	,	,	PUNCT	_	_	7	punct	_	AlignBegin=105481|AlignEnd=105481
-11	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	13	dislocated:subj	_	AlignBegin=105481|AlignEnd=105700
-12	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	subj	_	AlignBegin=105700|AlignEnd=105918|SpaceAfter=No
+11	moi	moi	PRON	_	Emph=Yes|PronType=Prs	13	dislocated:subj	_	AlignBegin=105481|AlignEnd=105700|Number[lex]=Sing|Person[lex]=1
+12	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	AlignBegin=105700|AlignEnd=105918|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 13	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:coord	_	AlignBegin=105918|AlignEnd=106137
 14	galéré	galérer	VERB	_	VerbForm=Part|Voice=Act	13	comp:aux@tense	_	AlignBegin=106137|AlignEnd=106355|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 15	.	.	PUNCT	_	_	3	punct	_	AlignBegin=106355|AlignEnd=106355
@@ -613,10 +613,10 @@
 # speaker = L1
 # text = et je vous voyais tous.
 1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=106355|AlignEnd=106574
-2	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=106574|AlignEnd=106792
-3	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	4	comp:obj	_	AlignBegin=106792|AlignEnd=107010|Polite=No
+2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	AlignBegin=106574|AlignEnd=106792|Number[lex]=Sing|Person[lex]=1
+3	vous	vous	PRON	_	Case=Acc|Emph=No|PronType=Prs	4	comp:obj	_	AlignBegin=106792|AlignEnd=107010|Number[lex]=Plur|Person[lex]=2|Polite=No
 4	voyais	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=107010|AlignEnd=107229|Person[ctxt]=1
-5	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	4	mod	_	AlignBegin=107229|AlignEnd=107447|SpaceAfter=No
+5	tous	tous	PRON	_	Gender=Masc|PronType=Ind	4	mod	_	AlignBegin=107229|AlignEnd=107447|Number[lex]=Plur|Person[lex]=3|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	AlignBegin=107447|AlignEnd=107447
 
 # sent_id = ParisStories_2022_16_hamacTahiti__40
@@ -624,8 +624,8 @@
 # speaker = L1
 # text = et vous me regardiez.
 1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=107447|AlignEnd=107666
-2	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	subj	_	AlignBegin=107666|AlignEnd=107884|Polite=Unknown
-3	me	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=107884|AlignEnd=108103
+2	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	AlignBegin=107666|AlignEnd=107884|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+3	me	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	4	comp:obj	_	AlignBegin=107884|AlignEnd=108103|Number[lex]=Sing|Person[lex]=1
 4	regardiez	regarder	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=108103|AlignEnd=108321|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=108321|AlignEnd=108321
 
@@ -634,7 +634,7 @@
 # speaker = L1
 # text = et je galérais à sortir de ce putain de hamac.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=108321|AlignEnd=108666
-2	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=108666|AlignEnd=109011
+2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=108666|AlignEnd=109011|Number[lex]=Sing|Person[lex]=1
 3	galérais	galérer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=109011|AlignEnd=109356|Person[ctxt]=1
 4	à	à	ADP	_	_	3	comp:obl	_	AlignBegin=109356|AlignEnd=109356
 5	sortir	sortir	VERB	_	VerbForm=Inf	4	comp:obj	_	AlignBegin=109356|AlignEnd=109701|Subject=SubjRaising
@@ -650,7 +650,7 @@
 # speaker = L1
 # text = et tu étais pas loin.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=111427|AlignEnd=111772
-2	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	3	subj	_	AlignBegin=111772|AlignEnd=112117
+2	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=111772|AlignEnd=112117|Number[lex]=Sing|Person[lex]=2
 3	étais	être	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=112117|AlignEnd=112462|Person[ctxt]=2
 4	pas	pas	ADV	_	Polarity=Neg	5	mod	_	AlignBegin=112462|AlignEnd=112807
 5	loin	loin	ADV	_	_	3	mod	_	AlignBegin=112807|AlignEnd=113152|SpaceAfter=No
@@ -667,7 +667,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
 # speaker = L1
 # text = tu étais pas loin.
-1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	subj	_	AlignBegin=113152|AlignEnd=113397
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=113152|AlignEnd=113397|Number[lex]=Sing|Person[lex]=2
 2	étais	être	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=113397|AlignEnd=113642|Person[ctxt]=2
 3	pas	pas	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=113642|AlignEnd=113887
 4	loin	loin	ADV	_	_	2	mod	_	AlignBegin=113887|AlignEnd=114133|SpaceAfter=No
@@ -683,7 +683,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	coup	coup	NOUN	_	_	2	comp:obj	_	AlignBegin=114623|AlignEnd=114868|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	AlignBegin=114868|AlignEnd=114868
-6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	AlignBegin=114868|AlignEnd=115113|SpaceAfter=No
+6	c'	ce	PRON	_	PronType=Dem	7	subj	_	AlignBegin=114868|AlignEnd=115113|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=115113|AlignEnd=115358
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=115358|AlignEnd=115603
 9	truc	truc	NOUN	_	_	7	comp:pred	_	AlignBegin=115603|AlignEnd=115849|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -712,7 +712,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
 # speaker = L2
 # text = c'est pas du tout le même.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=118909|AlignEnd=119108|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	2	subj	_	AlignBegin=118909|AlignEnd=119108|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=119108|AlignEnd=119307
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=119307|AlignEnd=119507
 4-5	du	_	_	_	_	_	_	_	_
@@ -727,7 +727,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
 # speaker = L2
 # text = c'est pas du tout le même, parce que, pour le coup, euh, j'ai l'impression que, euh, la scène du hamac, on était quand même très très très très jeunes.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=120303|AlignEnd=120503|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	2	subj	_	AlignBegin=120303|AlignEnd=120503|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=120503|AlignEnd=120702
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=120702|AlignEnd=120901
 4-5	du	_	_	_	_	_	_	_	_
@@ -746,7 +746,7 @@
 16	,	,	PUNCT	_	_	13	punct	_	AlignBegin=122694|AlignEnd=122694
 17	euh	euh	INTJ	_	_	20	discourse	_	AlignBegin=122694|AlignEnd=122893|SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	AlignBegin=122893|AlignEnd=122893
-19	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	20	subj	_	AlignBegin=122893|AlignEnd=123152|SpaceAfter=No
+19	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	20	subj	_	AlignBegin=122893|AlignEnd=123152|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 20	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	comp:obj	_	AlignBegin=123152|AlignEnd=123411
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	AlignBegin=123411|AlignEnd=123670|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 22	impression	impression	NOUN	_	_	20	comp:obj@lvc	_	AlignBegin=123670|AlignEnd=123928|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -761,7 +761,7 @@
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 31	hamac	hamac	NOUN	_	_	29	comp:obj	_	AlignBegin=125223|AlignEnd=125481|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 32	,	,	PUNCT	_	_	28	punct	_	AlignBegin=125481|AlignEnd=125481
-33	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	34	subj	_	AlignBegin=125481|AlignEnd=125740
+33	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	34	subj	_	AlignBegin=125481|AlignEnd=125740|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 34	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	comp:obj	_	AlignBegin=125740|AlignEnd=125999
 35	quand	quand	SCONJ	_	ExtPos=ADV	34	mod	_	AlignBegin=125999|AlignEnd=126258|Idiom=Yes
 36	même	même	ADV	_	_	35	unk	_	AlignBegin=126258|AlignEnd=126517|InIdiom=Yes
@@ -788,7 +788,7 @@
 3	en	en	ADP	_	_	7	mod	_	AlignBegin=128302|AlignEnd=128548
 4	Algérie	Algérie	PROPN	_	_	3	comp:obj	_	AlignBegin=128548|AlignEnd=128793|Gender[lex]=Unknown|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	AlignBegin=128793|AlignEnd=128793
-6	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	AlignBegin=128793|AlignEnd=129039
+6	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	7	subj	_	AlignBegin=128793|AlignEnd=129039|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	comp:obj	_	AlignBegin=129039|AlignEnd=129284
 8	déjà	déjà	ADV	_	_	7	mod	_	AlignBegin=129284|AlignEnd=129530
 9	plus	plus	ADV	_	_	10	mod	_	AlignBegin=129530|AlignEnd=129775
@@ -808,16 +808,16 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
 # speaker = L1
 # text = c'est pour ça que je me demande si ce n'est pas, euh, si ce n'est pas une, euh, une création.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	AlignBegin=130363|AlignEnd=130578|SpaceAfter=No
+1	c'	ce	PRON	_	PronType=Dem	2	subj@expl	_	AlignBegin=130363|AlignEnd=130578|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=130578|AlignEnd=130793
 3	pour	pour	ADP	_	_	2	comp:pred	_	AlignBegin=130793|AlignEnd=131009
-4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	comp:obj	_	AlignBegin=131009|AlignEnd=131224
+4	ça	ça	PRON	_	PronType=Dem	3	comp:obj	_	AlignBegin=131009|AlignEnd=131224|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 5	que	que	SCONJ	_	_	2	comp:cleft	_	AlignBegin=131224|AlignEnd=131439
-6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	subj	_	AlignBegin=131439|AlignEnd=131654
-7	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	8	comp:obl	_	AlignBegin=131654|AlignEnd=131869
+6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	AlignBegin=131439|AlignEnd=131654|Number[lex]=Sing|Person[lex]=1
+7	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs|Reflex=Yes	8	comp:obl	_	AlignBegin=131654|AlignEnd=131869|Number[lex]=Sing|Person[lex]=1
 8	demande	demander	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=131869|AlignEnd=132084|Filler=mod|Person[ctxt]=1
 9	si	si	SCONJ	_	_	8	comp:obj	_	AlignBegin=132084|AlignEnd=132300
-10	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	AlignBegin=132300|AlignEnd=132515
+10	ce	ce	PRON	_	PronType=Dem	12	subj	_	AlignBegin=132300|AlignEnd=132515|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 11	n'	ne	ADV	_	Polarity=Neg	12	mod	_	AlignBegin=132515|AlignEnd=132730|SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	AlignBegin=132730|AlignEnd=132945
 13	pas	pas	ADV	_	Polarity=Neg	12	mod	_	AlignBegin=132945|AlignEnd=133160|SpaceAfter=No
@@ -825,7 +825,7 @@
 15	euh	euh	INTJ	_	_	13	discourse	_	AlignBegin=133160|AlignEnd=133375|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	AlignBegin=133375|AlignEnd=133375
 17	si	si	SCONJ	_	_	9	conj:dicto	_	AlignBegin=133375|AlignEnd=133591
-18	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	subj	_	AlignBegin=133591|AlignEnd=133806
+18	ce	ce	PRON	_	PronType=Dem	20	subj	_	AlignBegin=133591|AlignEnd=133806|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 19	n'	ne	ADV	_	_	20	mod	_	AlignBegin=133806|AlignEnd=134021|SpaceAfter=No
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	AlignBegin=134021|AlignEnd=134236
 21	pas	pas	ADV	_	Polarity=Neg	20	mod	_	AlignBegin=134236|AlignEnd=134451
