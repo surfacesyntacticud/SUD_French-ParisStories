@@ -41,7 +41,7 @@
 8	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj@caus	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 9	en	en	PRON	_	PronType=Prs	11	comp:obl	_	Person[lex]=3
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:coord	_	_
-11	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
+11	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	Tense[denom]=Past
 12	vivre	vivre	VERB	_	VerbForm=Inf	11	comp:aux@caus	_	Subject=ObjRaising
 13	de	de	ADP	_	_	12	comp:obl	_	_
 14	toutes	tout	ADJ	_	Gender=Fem	16	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
@@ -308,7 +308,7 @@
 2	père	père	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 3	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
 4	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	5	comp:obl	_	Number[lex]=Sing|Person[lex]=1
-5	dit	dire	VERB	_	Gender=Masc|Person=3|VerbForm=Part	2	mod@relcl	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes
+5	dit	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	Person[ctxt]=3
 6	non	non	ADV	_	ExtPos=INTJ	5	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	non	non	ADV	_	ExtPos=INTJ	6	discourse	_	SpaceAfter=No

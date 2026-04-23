@@ -175,7 +175,7 @@
 7	et	et	CCONJ	_	_	9	cc	_	_
 8	on	on	PRON	_	PronType=Ind	9	subj@pass	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj:coord	_	_
-10	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	SpaceAfter=No
+10	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	SpaceAfter=No|Tense[denom]=Past
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
@@ -292,7 +292,7 @@
 15	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 16	fille	fille	NOUN	_	Shared=No	17	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 17	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	comp:obj	_	_
-18	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	_
+18	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	comp:aux@tense	_	Tense[denom]=Past
 19	tuée	tuer	VERB	_	VerbForm=Part|Voice=Pass	18	comp:aux@pass	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 20	,	,	PUNCT	_	_	17	punct	_	_
 21	euh	euh	INTJ	_	_	19	discourse	_	SpaceAfter=No
@@ -306,7 +306,7 @@
 29	qu'	que	SCONJ	_	_	14	conj:dicto	_	SpaceAfter=No
 30	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	31	subj@pass	_	Person[lex]=3
 31	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	comp:obj	_	_
-32	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	comp:aux@tense	_	SpaceAfter=No
+32	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	comp:aux@tense	_	SpaceAfter=No|Tense[denom]=Past
 33	,	,	PUNCT	_	_	36	punct	_	_
 34	euh	euh	INTJ	_	_	36	discourse	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	34	punct	_	_
@@ -326,8 +326,8 @@
 8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
 9	compris	comprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	8	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	vu	voir	VERB	_	ExtPos=ADP|VerbForm=Part	2	mod	_	Gender[ctxt]=Masc|Idiom=Yes|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-12	que	que	SCONJ	_	_	11	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+11	vu	voir	VERB	_	VerbForm=Part	2	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+12	que	que	SCONJ	_	_	11	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	subj	_	Number[lex]=Sing|Person[lex]=1
 15	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
