@@ -84,7 +84,7 @@
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 9	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	pu	pouvoir	VERB	_	VerbForm=Part|Voice=Act	9	comp:aux@tense	_	Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+10	pu	pouvoir	VERB	_	VerbForm=Part|Voice=Act	9	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 11	me	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	12	comp:obj	_	Number[lex]=Sing|Person[lex]=1
 12	lancer	lancer	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
 13	dans	dans	ADP	_	_	12	comp:obl	_	_
@@ -278,7 +278,7 @@
 22	,	,	PUNCT	_	_	13	punct	_	_
 23	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	24	subj	_	Person[lex]=3
 24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj:appos	_	_
-25	fallu	falloir	VERB	_	VerbForm=Part|Voice=Act	24	comp:aux@tense	_	Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+25	fallu	falloir	VERB	_	VerbForm=Part|Voice=Act	24	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 26	que	que	SCONJ	_	_	25	comp:obj	_	_
 27	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	28	subj	_	Number[lex]=Sing|Person[lex]=1
 28	passe	passer	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	26	comp:obj	_	Person[ctxt]=1
@@ -615,7 +615,7 @@
 3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	repris	reprendre	VERB	_	VerbForm=Part|Voice=Act	5	comp:aux@tense	_	Gender[ctxt]=Gender|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+6	repris	reprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	5	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	train	train	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 9	pour	pour	ADP	_	_	6	mod	_	_
@@ -671,7 +671,7 @@
 # text = j'ai pu… du coup, dans la voiture elle m'a beaucoup aidée à réviser, à travailler… euh parce que quand on passe le permis il y a des questions en plus euh, théoriques, en plus de la pratique.
 1	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	pu	pouvoir	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+3	pu	pouvoir	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 4	…	…	PUNCT	_	_	14	punct	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	13	discourse	_	_

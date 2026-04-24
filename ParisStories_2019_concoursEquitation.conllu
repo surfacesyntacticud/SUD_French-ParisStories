@@ -195,7 +195,7 @@
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
-5	redécouvert	redécouvrir	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Gender[ctxt]=Gender|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+5	redécouvert	redécouvrir	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	cheval	cheval	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
@@ -405,7 +405,7 @@
 # text = il a fallu que je fasse les montages musicaux.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	2	subj	_	Person[lex]=3
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	fallu	falloir	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+3	fallu	falloir	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=1
 6	fasse	faire	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	4	comp:obj	_	Person[ctxt]=1
@@ -692,7 +692,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	re~	re~	X	_	ExtPos=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	recouvert	recouvrir	VERB	_	VerbForm=Part	7	conj:dicto	_	Gender[ctxt]=Gender|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+9	recouvert	recouvrir	VERB	_	Gender=Masc|VerbForm=Part	7	conj:dicto	_	Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 10	de	de	ADP	_	_	9	comp:obl	_	_
 11	tissu	tissu	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 12	doré	doré	ADJ	_	_	11	mod	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
