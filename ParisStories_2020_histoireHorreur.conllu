@@ -98,7 +98,7 @@
 2	en	en	ADP	_	ExtPos=ADV	13	discourse	_	Idiom=Yes
 3	fait	fait	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	conj:dicto	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	repair	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 6	histoire	histoire	NOUN	_	_	13	dislocated:subj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	6	mod	_	_
@@ -193,7 +193,7 @@
 
 # sent_id = ParisStories_2020_histoireHorreur_9
 # text = euh.
-1	euh	euh	INTJ	_	_	0	root	_	Backchannel=<sent_id>::<tok_id>|SpaceAfter=No
+1	euh	euh	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2020_histoireHorreur_10
@@ -421,7 +421,7 @@
 3	et	et	CCONJ	_	_	1	conj:dicto	_	_
 4	genre	genre	NOUN	_	ExtPos=INTJ	7	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-6	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	5	conj:dicto	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	5	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	cousins	cousin	NOUN	_	_	8	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 8	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	restés	rester	VERB	_	VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past

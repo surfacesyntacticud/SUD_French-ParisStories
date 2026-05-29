@@ -618,7 +618,7 @@
 34	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_stagePrimaire_24
-# text = et euh ça m'a vraiment choquée parce que enfait euh un maître de passion était devenu un maître euh dégouté de~ de ce qu'il faisait.
+# text = et euh ça m'a vraiment choquée parce que en fait euh un maître de passion était devenu un maître euh dégouté de~ de ce qu'il faisait.
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	ça	ça	PRON	_	PronType=Dem	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -628,25 +628,26 @@
 7	choquée	choquer	VERB	_	VerbForm=Part|Voice=Act	5	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 8	parce	parce	ADV	_	ExtPos=SCONJ	7	mod	_	Idiom=Yes
 9	que	que	SCONJ	_	_	8	unk	_	InIdiom=Yes
-10	enfait	enfait	X	_	_	16	discourse	_	_
-11	euh	euh	INTJ	_	_	16	discourse	_	_
-12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	maître	maître	NOUN	_	_	16	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-14	de	de	ADP	_	_	13	udep	_	_
-15	passion	passion	NOUN	_	_	14	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-16	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	comp:obj	_	_
-17	devenu	devenir	VERB	_	VerbForm=Part|Voice=Pass	16	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	maître	maître	NOUN	_	_	17	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-20	euh	euh	INTJ	_	_	21	discourse	_	_
-21	dégouté	dégouter	VERB	_	VerbForm=Part	19	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-22	de~	de~	X	_	ExtPos=ADP	21	mod	_	_
-23	de	de	ADP	_	_	22	conj:dicto	_	_
-24	ce	ce	PRON	_	PronType=Dem	23	comp:obj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-25	qu'	que	PRON	_	PronType=Rel	27	comp:obj	_	SpaceAfter=No
-26	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	27	subj	_	Person[lex]=3
-27	faisait	faire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	24	mod@relcl	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
-28	.	.	PUNCT	_	_	5	punct	_	_
+10	en	en	ADP	_	ExtPos=ADV	17	discourse	_	Idiom=Yes
+11	fait	fait	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
+12	euh	euh	INTJ	_	_	17	discourse	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	maître	maître	NOUN	_	_	17	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+15	de	de	ADP	_	_	14	udep	_	_
+16	passion	passion	NOUN	_	_	15	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+17	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	comp:obj	_	_
+18	devenu	devenir	VERB	_	VerbForm=Part|Voice=Pass	17	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	maître	maître	NOUN	_	_	18	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+21	euh	euh	INTJ	_	_	22	discourse	_	_
+22	dégouté	dégouter	VERB	_	VerbForm=Part	20	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+23	de~	de~	X	_	ExtPos=ADP	22	mod	_	_
+24	de	de	ADP	_	_	23	conj:dicto	_	_
+25	ce	ce	PRON	_	PronType=Dem	24	comp:obj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+26	qu'	que	PRON	_	PronType=Rel	28	comp:obj	_	SpaceAfter=No
+27	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	28	subj	_	Person[lex]=3
+28	faisait	faire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	25	mod@relcl	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
+29	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_stagePrimaire_25
 # text = dégouté, pas dégouté de son métier parce qu'il aime ce qu'il fait.
