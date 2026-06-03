@@ -138,11 +138,9 @@
 12	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	7	comp:obj	_	Number[ctxt]=Sing|Person[ctxt]=3
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	LiaisonAfter=Yes
 14	ergots	ergot	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
-15-16	aux	_	_	_	_	_	_	_	_
-15	à	aux	ADP	_	_	14	comp:obl	_	wordform=aux
-16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
-17	pattes	patte	NOUN	_	_	15	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
-18	.	.	PUNCT	_	_	4	punct	_	_
+15	aux	au	ADP	_	_	14	comp:obl	_	_
+16	pattes	patte	NOUN	_	_	15	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_adoptionMouts_12
 # text = c'est des espèces de petites excroissances, euh, sur les pattes, en gros un ongle en plus, quoi, enfin, et un doigt en plus, un ongle en plus.
@@ -185,16 +183,14 @@
 
 # sent_id = ParisStories_2021_adoptionMouts_13
 # text = et du coup personne voulait la prendre.
-1	et	et	CCONJ	_	_	6	cc	_	_
-2-3	du	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	6	discourse	_	wordform=du
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-4	coup	coup	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-5	personne	personne	PRON	_	PronType=Neg	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing
-6	voulait	vouloir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
-7	la	lui	PRON	_	Case=Acc|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	8	comp:obj	_	Person[lex]=3
-8	prendre	prendre	VERB	_	VerbForm=Inf	6	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
-9	.	.	PUNCT	_	_	6	punct	_	_
+1	et	et	CCONJ	_	_	5	cc	_	_
+2	du	du	ADP	_	_	5	discourse	_	_
+3	coup	coup	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+4	personne	personne	PRON	_	PronType=Neg	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing
+5	voulait	vouloir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
+6	la	lui	PRON	_	Case=Acc|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	7	comp:obj	_	Person[lex]=3
+7	prendre	prendre	VERB	_	VerbForm=Inf	5	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
+8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_adoptionMouts_14
 # text = et, nous on s'est dit, bah, c'est notre chien quoi!
@@ -317,26 +313,24 @@
 
 # sent_id = ParisStories_2021_adoptionMouts_21
 # text = du coup, on a dit, bah, voilà, quoi, c'est notre chien!
-1-2	du	_	_	_	_	_	_	_	_
-1	de	de	ADP	_	_	6	discourse	_	wordform=du
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-4	,	,	PUNCT	_	_	1	punct	_	_
-5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
-8	,	,	PUNCT	_	_	16	punct	_	_
-9	bah	bah	INTJ	_	_	16	discourse	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	9	punct	_	_
-11	voilà	voilà	VERB	_	ExtPos=INTJ	16	discourse	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	11	punct	_	_
-13	quoi	quoi	INTJ	_	_	16	discourse	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	13	punct	_	_
-15	c'	ce	PRON	_	PronType=Dem	16	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	Reported=Yes
-17	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-18	chien	chien	NOUN	_	_	16	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-19	!	!	PUNCT	_	_	6	punct	_	_
+1	du	du	ADP	_	_	5	discourse	_	_
+2	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	5	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	5	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
+7	,	,	PUNCT	_	_	15	punct	_	_
+8	bah	bah	INTJ	_	_	15	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	voilà	voilà	VERB	_	ExtPos=INTJ	15	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	quoi	quoi	INTJ	_	_	15	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	c'	ce	PRON	_	PronType=Dem	15	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	Reported=Yes
+16	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+17	chien	chien	NOUN	_	_	15	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+18	!	!	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_adoptionMouts_22
 # text = et pour le prénom on avait déjà décidé.
@@ -356,13 +350,11 @@
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 4	année	année	NOUN	_	_	2	comp:pred	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-5-6	des	_	_	_	_	_	_	_	_
-5	de	des	ADP	_	_	4	mod	_	wordform=des
-6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	M	M	PROPN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	_
-9	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	2	punct	_	_
+5	des	des	ADP	_	_	4	mod	_	_
+6	M	M	PROPN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_adoptionMouts_24
 # text = et, moi, mon surnom, depuis que je suis toute petite, que mon papa me donnait, c'était Mouts.
@@ -545,16 +537,14 @@
 
 # sent_id = ParisStories_2021_adoptionMouts_37
 # text = euh, au début elle avait peur.
-1	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+1	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3-4	au	_	_	_	_	_	_	_	_
-3	à	à	ADP	_	_	7	mod	_	wordform=au
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-5	début	début	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-6	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	7	subj	_	Person[lex]=3
-7	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
-8	peur	peur	NOUN	_	_	7	comp:obj@lvc	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-9	.	.	PUNCT	_	_	7	punct	_	_
+3	au	au	ADP	_	_	6	mod	_	_
+4	début	début	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+5	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	6	subj	_	Person[lex]=3
+6	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
+7	peur	peur	NOUN	_	_	6	comp:obj@lvc	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2021_adoptionMouts_38
 # text = elle osait pas marcher tout ça.
@@ -568,18 +558,16 @@
 
 # sent_id = ParisStories_2021_adoptionMouts_39
 # text = et au bout de quelques heures, elle a enfin aboyé.
-1	et	et	CCONJ	_	_	10	cc	_	_
-2-3	au	_	_	_	_	_	_	_	_
-2	à	à	ADP	_	_	10	mod	_	wordform=au
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-4	bout	bout	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-5	de	de	ADP	_	_	4	mod	_	_
-6	quelques	quelques	DET	_	PronType=Ind	7	det	_	LiaisonAfter=Yes|Number[lex]=Plur
-7	heures	heure	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
-8	,	,	PUNCT	_	_	2	punct	_	_
-9	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	10	subj	_	Person[lex]=3
-10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	enfin	enfin	ADV	_	_	10	mod	_	_
-12	aboyé	aboyer	VERB	_	VerbForm=Part|Voice=Act	10	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
-13	.	.	PUNCT	_	_	10	punct	_	_
+1	et	et	CCONJ	_	_	9	cc	_	_
+2	au	au	ADP	_	_	9	mod	_	_
+3	bout	bout	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+4	de	de	ADP	_	_	3	mod	_	_
+5	quelques	quelques	DET	_	PronType=Ind	6	det	_	LiaisonAfter=Yes|Number[lex]=Plur
+6	heures	heure	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	9	subj	_	Person[lex]=3
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	enfin	enfin	ADV	_	_	9	mod	_	_
+11	aboyé	aboyer	VERB	_	VerbForm=Part|Voice=Act	9	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+12	.	.	PUNCT	_	_	9	punct	_	_
 

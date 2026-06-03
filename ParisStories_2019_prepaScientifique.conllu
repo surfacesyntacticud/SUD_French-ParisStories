@@ -76,19 +76,17 @@
 13	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	subj	_	Number[lex]=Sing|Person[lex]=1
 14	savais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	2	conj:coord	_	Person[ctxt]=1
 15	pas	pas	ADV	_	Polarity=Neg	14	mod	_	_
-16-17	du	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	ExtPos=ADV	15	mod	_	Idiom=Yes
-17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
-18	tout	tout	NOUN	_	_	16	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
-19	quoi	quoi	PRON	_	PronType=Int	20	comp:obj	_	Person[lex]=3
-20	faire	faire	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
-21	quand	quand	SCONJ	_	_	14	mod	_	_
-22	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	23	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-23	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
-24	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	23	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-25	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-26	bac	bac	NOUN	_	_	24	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-27	.	.	PUNCT	_	_	2	punct	_	_
+16	du	du	ADP	_	ExtPos=ADV	15	mod	_	Idiom=Yes
+17	tout	tout	NOUN	_	_	16	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
+18	quoi	quoi	PRON	_	PronType=Int	19	comp:obj	_	Person[lex]=3
+19	faire	faire	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
+20	quand	quand	SCONJ	_	_	14	mod	_	_
+21	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	22	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+22	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
+23	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	22	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+24	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	25	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+25	bac	bac	NOUN	_	_	23	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_4
 # text = de le coup, avec ma maman, on a demandé un peu conseil à mes profs, qui euh…
@@ -794,29 +792,27 @@
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 17	retour	retour	NOUN	_	_	8	conj:dicto	_	Gender[lex]=Masc|Number[ctxt]=Sing
-18-19	des	_	_	_	_	_	_	_	SpaceAfter=No
-18	de	de	ADP	_	_	17	udep	_	_
-19	les	le	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	comp:obj@scrap	_	HasSpokenGender=OnlySingExceptWithLiaison
-20	,	,	PUNCT	_	_	21	punct	_	_
-21	de	de	ADP	_	_	18	conj:dicto	_	_
-22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-23	vie	vie	NOUN	_	_	21	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-24	sociale	social	ADJ	_	_	23	mod	_	Gender[ctxt]=Fem|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Number[ctxt]=Sing|SpaceAfter=No
-25	,	,	PUNCT	_	_	26	punct	_	_
-26	de	de	ADP	_	_	18	conj:appos	_	_
-27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-28	amis	ami	NOUN	_	_	26	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
-29	,	,	PUNCT	_	_	32	punct	_	_
-30	et	et	CCONJ	_	_	32	cc	_	_
-31	tout	tout	ADJ	_	Gender=Masc	32	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-32	ça	ça	PRON	_	PronType=Dem	26	conj:coord	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-33	,	,	PUNCT	_	_	37	punct	_	_
-34	donc	donc	ADV	_	_	37	mod	_	_
-35	ça	ça	PRON	_	PronType=Dem	37	dislocated:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-36	c'	ce	PRON	_	PronType=Dem	37	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-37	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	conj:coord	_	_
-38	chouette	chouette	ADJ	_	_	37	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
-39	.	.	PUNCT	_	_	4	punct	_	_
+18	des	de	ADP	_	_	17	udep	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	de	de	ADP	_	_	18	conj:dicto	_	_
+21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+22	vie	vie	NOUN	_	_	20	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+23	sociale	social	ADJ	_	_	22	mod	_	Gender[ctxt]=Fem|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Number[ctxt]=Sing|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	de	de	ADP	_	_	18	conj:appos	_	_
+26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+27	amis	ami	NOUN	_	_	25	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
+28	,	,	PUNCT	_	_	31	punct	_	_
+29	et	et	CCONJ	_	_	31	cc	_	_
+30	tout	tout	ADJ	_	Gender=Masc	31	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+31	ça	ça	PRON	_	PronType=Dem	25	conj:coord	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+32	,	,	PUNCT	_	_	36	punct	_	_
+33	donc	donc	ADV	_	_	36	mod	_	_
+34	ça	ça	PRON	_	PronType=Dem	36	dislocated:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+35	c'	ce	PRON	_	PronType=Dem	36	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+36	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	conj:coord	_	_
+37	chouette	chouette	ADJ	_	_	36	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+38	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_33
 # text = donc première année OK.
