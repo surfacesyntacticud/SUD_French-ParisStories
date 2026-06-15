@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2022_7_chienGourmand__1
 # speaker = L1
 # text = bah ouais, ça fait un moment.
@@ -25,8 +26,8 @@
 10	,	,	PUNCT	_	_	5	punct	_	AlignBegin=2740|AlignEnd=2740
 11	déjà	déjà	ADV	_	_	12	mod	_	AlignBegin=2887|AlignEnd=3131
 12-13	au	_	_	_	_	_	_	_	_
-12	à	à	ADP	_	_	5	conj:dicto	_	AlignBegin=3131|AlignEnd=3375|wordform=au
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+12	à	à	ADP	_	_	5	conj:dicto	_	AlignBegin=3131|AlignEnd=3375
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=3131|AlignEnd=3375
 14	moment	moment	NOUN	_	_	12	comp:obj	_	AlignBegin=3375|AlignEnd=3619|Gender[lex]=Masc|Number[ctxt]=Sing
 15	où	où	ADV	_	PronType=Rel	19	mod	_	AlignBegin=3619|AlignEnd=3863|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	AlignBegin=3863|AlignEnd=3863
@@ -60,31 +61,33 @@
 # speaker = L1
 # text = du coup, on est allé au, euh, au chenil pour l'adopter, enfin, pour le chercher.
 1-2	du	_	_	_	_	_	_	_	_
-1	de	de	ADP	_	_	6	discourse	_	AlignBegin=8122|AlignEnd=8273|wordform=du
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	de	de	ADP	_	_	6	discourse	_	AlignBegin=8122|AlignEnd=8273
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=8122|AlignEnd=8273
 3	coup	coup	NOUN	_	_	1	comp:obj	_	AlignBegin=8273|AlignEnd=8425|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=8425|AlignEnd=8425
 5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	subj	_	AlignBegin=8425|AlignEnd=8576|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=8576|AlignEnd=8728
 7	allé	aller	VERB	_	VerbForm=Part	6	comp:aux@tense	_	AlignBegin=8728|AlignEnd=8879|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-8	au	au	ADP	_	_	7	comp:obl	_	AlignBegin=8879|AlignEnd=9031|SpaceAfter=No
-9	,	,	PUNCT	_	_	12	punct	_	AlignBegin=9031|AlignEnd=9031
-10	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=9031|AlignEnd=9182|SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=9182|AlignEnd=9182
-12-13	au	_	_	_	_	_	_	_	_
-12	à	à	ADP	_	_	8	conj:dicto	_	AlignBegin=9182|AlignEnd=9334|wordform=au
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-14	chenil	chenil	NOUN	_	_	12	comp:obj	_	AlignBegin=9334|AlignEnd=9485|Gender[lex]=Masc|Number[ctxt]=Sing
-15	pour	pour	ADP	_	_	6	mod	_	AlignBegin=9981|AlignEnd=10155
-16	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	17	comp:obj	_	AlignBegin=10155|AlignEnd=10328|Person[lex]=3|SpaceAfter=No
-17	adopter	adopter	VERB	_	VerbForm=Inf	15	comp:obj	_	AlignBegin=10328|AlignEnd=10502|SpaceAfter=No|Subject=NoRaising
-18	,	,	PUNCT	_	_	21	punct	_	AlignBegin=10502|AlignEnd=10502
-19	enfin	enfin	ADV	_	ExtPos=INTJ	21	discourse	_	AlignBegin=10968|AlignEnd=11213|SpaceAfter=No
-20	,	,	PUNCT	_	_	19	punct	_	AlignBegin=11213|AlignEnd=11213
-21	pour	pour	ADP	_	_	15	conj:dicto	_	AlignBegin=11213|AlignEnd=11458
-22	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	23	comp:obj	_	AlignBegin=11458|AlignEnd=11702|Person[lex]=3
-23	chercher	chercher	VERB	_	VerbForm=Inf	21	comp:obj	_	AlignBegin=11702|AlignEnd=11947|SpaceAfter=No|Subject=NoRaising
-24	.	.	PUNCT	_	_	6	punct	_	AlignBegin=11947|AlignEnd=11947
+8-9	au	_	_	_	_	_	_	_	SpaceAfter=No
+8	à	à	ADP	_	_	7	comp:obl	_	AlignBegin=8879|AlignEnd=9031|SpaceAfter=No
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	comp:obj@scrap	_	AlignBegin=8879|AlignEnd=9031
+10	,	,	PUNCT	_	_	13	punct	_	AlignBegin=9031|AlignEnd=9031
+11	euh	euh	INTJ	_	_	13	discourse	_	AlignBegin=9031|AlignEnd=9182|SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	AlignBegin=9182|AlignEnd=9182
+13-14	au	_	_	_	_	_	_	_	_
+13	à	à	ADP	_	_	8	conj:dicto	_	AlignBegin=9182|AlignEnd=9334
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=9182|AlignEnd=9334
+15	chenil	chenil	NOUN	_	_	13	comp:obj	_	AlignBegin=9334|AlignEnd=9485|Gender[lex]=Masc|Number[ctxt]=Sing
+16	pour	pour	ADP	_	_	6	mod	_	AlignBegin=9981|AlignEnd=10155
+17	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	18	comp:obj	_	AlignBegin=10155|AlignEnd=10328|Person[lex]=3|SpaceAfter=No
+18	adopter	adopter	VERB	_	VerbForm=Inf	16	comp:obj	_	AlignBegin=10328|AlignEnd=10502|SpaceAfter=No|Subject=NoRaising
+19	,	,	PUNCT	_	_	22	punct	_	AlignBegin=10502|AlignEnd=10502
+20	enfin	enfin	ADV	_	ExtPos=INTJ	22	discourse	_	AlignBegin=10968|AlignEnd=11213|SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	AlignBegin=11213|AlignEnd=11213
+22	pour	pour	ADP	_	_	16	conj:dicto	_	AlignBegin=11213|AlignEnd=11458
+23	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	24	comp:obj	_	AlignBegin=11458|AlignEnd=11702|Person[lex]=3
+24	chercher	chercher	VERB	_	VerbForm=Inf	22	comp:obj	_	AlignBegin=11702|AlignEnd=11947|SpaceAfter=No|Subject=NoRaising
+25	.	.	PUNCT	_	_	6	punct	_	AlignBegin=11947|AlignEnd=11947
 
 # sent_id = ParisStories_2022_7_chienGourmand__4
 # speaker = L1
@@ -127,8 +130,8 @@
 20	choisir	choisir	VERB	_	VerbForm=Inf	14	conj:dicto	_	AlignBegin=17205|AlignEnd=17398|SpaceAfter=No|Subject=SubjRaising
 21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=17398|AlignEnd=17398
 22-23	du	_	_	_	_	_	_	_	_
-22	de	de	ADP	_	_	20	discourse	_	AlignBegin=17398|AlignEnd=17592|wordform=du
-23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+22	de	de	ADP	_	_	20	discourse	_	AlignBegin=17398|AlignEnd=17592
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	AlignBegin=17398|AlignEnd=17592
 24	coup	coup	NOUN	_	_	22	comp:obj	_	AlignBegin=17592|AlignEnd=17785|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	AlignBegin=17785|AlignEnd=17785
 
@@ -140,8 +143,8 @@
 3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=18724|AlignEnd=18724
 4	donc	donc	ADV	_	_	11	cc	_	AlignBegin=18724|AlignEnd=18909
 5-6	du	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	11	discourse	_	AlignBegin=18909|AlignEnd=19093|wordform=du
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	de	de	ADP	_	_	11	discourse	_	AlignBegin=18909|AlignEnd=19093
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=18909|AlignEnd=19093
 7	coup	coup	NOUN	_	_	5	comp:obj	_	AlignBegin=19093|AlignEnd=19278|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	AlignBegin=19278|AlignEnd=19278
 9	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	11	subj	_	AlignBegin=19278|AlignEnd=19462|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -224,8 +227,8 @@
 2	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=31302|AlignEnd=31443|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=31443|AlignEnd=31443
 4-5	du	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	10	discourse	_	AlignBegin=31443|AlignEnd=31584|wordform=du
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+4	de	de	ADP	_	_	10	discourse	_	AlignBegin=31443|AlignEnd=31584
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=31443|AlignEnd=31584
 6	coup	coup	NOUN	_	_	4	comp:obj	_	AlignBegin=31584|AlignEnd=31725|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	AlignBegin=31725|AlignEnd=31725
 8	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	10	subj	_	AlignBegin=31725|AlignEnd=31866|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -284,7 +287,7 @@
 # sent_id = ParisStories_2022_7_chienGourmand__14
 # speaker = L1
 # text = parce qu'on a déménagé entre temps, tu sais, tu te rappelles ?
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=38110|AlignEnd=38244|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=38110|AlignEnd=38244|Automated=Yes|Coconstruct=mod::ParisStories_2022_7_chienGourmand__13::4|Idiom=Yes|SingleSpeaker=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	AlignBegin=38244|AlignEnd=38379|InIdiom=Yes|SpaceAfter=No
 3	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	4	subj	_	AlignBegin=38379|AlignEnd=38513|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	AlignBegin=38513|AlignEnd=38647
@@ -307,8 +310,8 @@
 2	donc	donc	ADV	_	_	9	mod	_	AlignBegin=40354|AlignEnd=40504|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=40504|AlignEnd=40504
 4-5	du	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	9	discourse	_	AlignBegin=40504|AlignEnd=40654|wordform=du
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+4	de	de	ADP	_	_	9	discourse	_	AlignBegin=40504|AlignEnd=40654
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=40504|AlignEnd=40654
 6	coup	coup	NOUN	_	_	4	comp:obj	_	AlignBegin=40654|AlignEnd=40804|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	AlignBegin=40804|AlignEnd=40804
 8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	9	subj	_	AlignBegin=40804|AlignEnd=40955|Person[lex]=3
@@ -339,7 +342,7 @@
 # text = hum, parce qu'il a un peu de mal à avancer.
 1	hum	hum	INTJ	_	_	6	discourse	_	AlignBegin=44337|AlignEnd=44617|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=44617|AlignEnd=44617
-3	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=44617|AlignEnd=44897|Idiom=Yes
+3	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=44617|AlignEnd=44897|Automated=Yes|Coconstruct=mod::ParisStories_2022_7_chienGourmand__16::8|Idiom=Yes|SingleSpeaker=Yes
 4	qu'	que	SCONJ	_	_	3	unk	_	AlignBegin=44897|AlignEnd=45178|InIdiom=Yes|SpaceAfter=No
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	subj	_	AlignBegin=45178|AlignEnd=45458|Person[lex]=3
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=45458|AlignEnd=45738
@@ -507,7 +510,7 @@
 # sent_id = ParisStories_2022_7_chienGourmand__29
 # speaker = L1
 # text = mon père, il veut pas trop.
-1	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	AlignBegin=66299|AlignEnd=66429|HasSpokenGender=OnlySingExceptWithLiaison
+1	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	AlignBegin=66299|AlignEnd=66429|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 2	père	père	NOUN	_	_	5	dislocated:subj	_	AlignBegin=66429|AlignEnd=66559|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=66559|AlignEnd=66559
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	subj	_	AlignBegin=66559|AlignEnd=66690|Person[lex]=3
@@ -524,7 +527,7 @@
 3	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	comp:obj	_	AlignBegin=67229|AlignEnd=67303|Person[lex]=3
 4	fais	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=67303|AlignEnd=67378|Person[ctxt]=1
 5	quand	quand	SCONJ	_	_	4	mod	_	AlignBegin=67378|AlignEnd=67452
-6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=67452|AlignEnd=67526|HasSpokenGender=OnlySingExceptWithLiaison
+6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=67452|AlignEnd=67526|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 7	père	père	NOUN	_	_	8	subj	_	AlignBegin=67526|AlignEnd=67601|Gender[lex]=Masc|Number[ctxt]=Sing
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=67601|AlignEnd=67675
 9	pas	pas	ADV	_	Polarity=Neg	8	mod	_	AlignBegin=67675|AlignEnd=67750
@@ -716,8 +719,8 @@
 1	donc	donc	ADV	_	_	12	mod	_	AlignBegin=92348|AlignEnd=92476|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=92476|AlignEnd=92476
 3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	12	discourse	_	AlignBegin=92476|AlignEnd=92604|wordform=du
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	de	de	ADP	_	_	12	discourse	_	AlignBegin=92476|AlignEnd=92604
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=92476|AlignEnd=92604
 5	coup	coup	NOUN	_	_	3	comp:obj	_	AlignBegin=92604|AlignEnd=92733|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=92733|AlignEnd=92733
 7	avec	avec	ADP	_	_	12	mod	_	AlignBegin=92733|AlignEnd=92861
@@ -878,8 +881,8 @@
 1	donc	donc	ADV	_	_	11	mod	_	AlignBegin=114607|AlignEnd=114773|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=114773|AlignEnd=114773
 3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	11	discourse	_	AlignBegin=114773|AlignEnd=114940|wordform=du
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	de	de	ADP	_	_	11	discourse	_	AlignBegin=114773|AlignEnd=114940
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=114773|AlignEnd=114940
 5	coup	coup	NOUN	_	_	3	comp:obj	_	AlignBegin=114940|AlignEnd=115106|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=115106|AlignEnd=115106
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=115106|AlignEnd=115273
@@ -910,8 +913,8 @@
 # speaker = L1
 # text = au début, ça fait beaucoup de conneries, parce qu'au tout début, quand il était tout petit, et bah, il mangeait nos chaussures.
 1-2	au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	6	mod	_	AlignBegin=117731|AlignEnd=117862|wordform=au
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	à	à	ADP	_	_	6	mod	_	AlignBegin=117731|AlignEnd=117862
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=117731|AlignEnd=117862
 3	début	début	NOUN	_	_	1	comp:obj	_	AlignBegin=117862|AlignEnd=117993|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=117993|AlignEnd=117993
 5	ça	ça	PRON	_	PronType=Dem	6	subj	_	AlignBegin=117993|AlignEnd=118124|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -923,8 +926,8 @@
 11	parce	parce	ADV	_	ExtPos=SCONJ	6	mod	_	AlignBegin=118809|AlignEnd=118935|Idiom=Yes
 12	qu'	que	SCONJ	_	_	11	unk	_	AlignBegin=118935|AlignEnd=119062|InIdiom=Yes|SpaceAfter=No
 13-14	au	_	_	_	_	_	_	_	_
-13	à	à	ADP	_	_	28	mod	_	AlignBegin=119062|AlignEnd=119188|wordform=au
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+13	à	à	ADP	_	_	28	mod	_	AlignBegin=119062|AlignEnd=119188
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	AlignBegin=119062|AlignEnd=119188
 15	tout	tout	ADJ	_	Gender=Masc	16	mod	_	AlignBegin=119188|AlignEnd=119315|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 16	début	début	NOUN	_	_	13	comp:obj	_	AlignBegin=119315|AlignEnd=119441|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	13	punct	_	AlignBegin=119441|AlignEnd=119441
@@ -1047,8 +1050,8 @@
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=135279|AlignEnd=135279
 7	rien	rien	PRON	_	PronType=Neg	5	mod	_	AlignBegin=135279|AlignEnd=135442|Gender[lex]=Masc|Number[lex]=Sing
 8-9	du	_	_	_	_	_	_	_	_
-8	de	de	ADP	_	_	7	mod	_	AlignBegin=135442|AlignEnd=135604|wordform=du
-9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+8	de	de	ADP	_	_	7	mod	_	AlignBegin=135442|AlignEnd=135604
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=135442|AlignEnd=135604
 10	tout	tout	NOUN	_	_	8	comp:obj	_	AlignBegin=135604|AlignEnd=135767|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	AlignBegin=135767|AlignEnd=135767
 
@@ -1069,7 +1072,7 @@
 12	d'	de	ADP	_	_	11	comp:obj	_	AlignBegin=138552|AlignEnd=138672|SpaceAfter=No
 13	être	être	VERB	_	VerbForm=Inf	12	comp:obj	_	AlignBegin=138672|AlignEnd=138791|Subject=SubjRaising
 14	dans	dans	ADP	_	_	13	comp:obl	_	AlignBegin=138791|AlignEnd=138910
-15	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	16	det	_	AlignBegin=138910|AlignEnd=139029|HasSpokenGender=OnlySingExceptWithLiaison
+15	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	16	det	_	AlignBegin=138910|AlignEnd=139029|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 16	panier	panier	NOUN	_	_	14	comp:obj	_	AlignBegin=139029|AlignEnd=139149|Gender[lex]=Masc|Number[ctxt]=Sing
 17	et	et	CCONJ	_	_	18	cc	_	AlignBegin=139149|AlignEnd=139268
 18	tout	tout	ADV	_	_	13	conj:coord	_	AlignBegin=139268|AlignEnd=139387|SpaceAfter=No
@@ -1110,7 +1113,7 @@
 30	mais	mais	CCONJ	_	_	32	cc	_	AlignBegin=142841|AlignEnd=142969
 31	toujours	toujours	ADV	_	_	32	mod	_	AlignBegin=143131|AlignEnd=143297
 32	sur	sur	ADP	_	_	24	conj:dicto	_	AlignBegin=143297|AlignEnd=143463
-33	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	34	det	_	AlignBegin=143463|AlignEnd=143628|HasSpokenGender=OnlySingExceptWithLiaison
+33	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	34	det	_	AlignBegin=143463|AlignEnd=143628|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 34	tapis	tapis	NOUN	_	_	32	comp:obj	_	AlignBegin=143628|AlignEnd=143794|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 35	.	.	PUNCT	_	_	15	punct	_	AlignBegin=143794|AlignEnd=143794
 

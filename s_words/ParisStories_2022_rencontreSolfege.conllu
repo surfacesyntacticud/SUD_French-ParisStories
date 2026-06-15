@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2022_1_rencontreSolfège__1
 # speaker = L1
 # text = et à la fin du cours, je lui ai demandé mais au fait, euh, bah, euh, comment je te enfin, euh, j'ai l'impression de te connaître !
@@ -6,8 +7,8 @@
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=206|AlignEnd=412|HasSpokenGender=OnlySingExceptWithLiaison
 4	fin	fin	NOUN	_	_	2	comp:obj	_	AlignBegin=412|AlignEnd=618|Gender[lex]=Fem|Number[ctxt]=Sing
 5-6	du	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	4	udep	_	AlignBegin=618|AlignEnd=824|wordform=du
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	de	de	ADP	_	_	4	udep	_	AlignBegin=618|AlignEnd=824
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=618|AlignEnd=824
 7	cours	cours	NOUN	_	_	5	comp:obj	_	AlignBegin=824|AlignEnd=1030|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	AlignBegin=1030|AlignEnd=1030
 9	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	subj	_	AlignBegin=1030|AlignEnd=1236|Number[lex]=Sing|Person[lex]=1
@@ -16,8 +17,8 @@
 12	demandé	demander	VERB	_	VerbForm=Part|Voice=Act	11	comp:aux@tense	_	AlignBegin=1648|AlignEnd=1854|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 13	mais	mais	CCONJ	_	_	32	cc	_	AlignBegin=1854|AlignEnd=2076
 14-15	au	_	_	_	_	_	_	_	_
-14	à	à	ADP	_	_	32	discourse	_	AlignBegin=2076|AlignEnd=2298|wordform=au
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+14	à	à	ADP	_	_	32	discourse	_	AlignBegin=2076|AlignEnd=2298
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	AlignBegin=2076|AlignEnd=2298
 16	fait	fait	NOUN	_	_	14	comp:obj	_	AlignBegin=2298|AlignEnd=2520|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	14	punct	_	AlignBegin=2520|AlignEnd=2520
 18	euh	euh	INTJ	_	_	32	discourse	_	AlignBegin=2520|AlignEnd=2742|SpaceAfter=No
@@ -103,7 +104,7 @@
 1	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	2	subj	_	AlignBegin=15855|AlignEnd=16030|Person[lex]=3
 2	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16030|AlignEnd=16206|Person[ctxt]=3
 3	non	non	ADV	_	_	2	comp:obj	_	AlignBegin=16206|AlignEnd=16381|Reported=Yes
-4	non	non	ADV	_	_	3	conj:dicto	_	AlignBegin=16381|AlignEnd=16557|SpaceAfter=No
+4	non	non	ADV	_	_	3	conj:coord	_	AlignBegin=16381|AlignEnd=16557|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	AlignBegin=16557|AlignEnd=16557
 
 # sent_id = ParisStories_2022_1_rencontreSolfège__8
@@ -248,8 +249,8 @@
 1	mais	mais	CCONJ	_	_	8	cc	_	AlignBegin=36749|AlignEnd=36926|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=36926|AlignEnd=36926
 3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	8	discourse	_	AlignBegin=36926|AlignEnd=37102|wordform=du
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	de	de	ADP	_	_	8	discourse	_	AlignBegin=36926|AlignEnd=37102
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=36926|AlignEnd=37102
 5	coup	coup	NOUN	_	_	3	comp:obj	_	AlignBegin=37102|AlignEnd=37279|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=37279|AlignEnd=37279
 7	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	8	subj	_	AlignBegin=37279|AlignEnd=37455|Person[lex]=3
@@ -428,17 +429,19 @@
 8	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	10	comp:obj	_	AlignBegin=59825|AlignEnd=60003|Person[lex]=3|SpaceAfter=No
 9	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	AlignBegin=60003|AlignEnd=60182|Reported=Yes
 10	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	9	comp:aux@tense	_	AlignBegin=60182|AlignEnd=60360|Person[ctxt]=3
-11	au	au	ADP	_	_	10	comp:obl	_	AlignBegin=60360|AlignEnd=60539|SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=60539|AlignEnd=60539
-13	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=60539|AlignEnd=60717|SpaceAfter=No
-14	...	...	PUNCT	_	_	9	punct	_	AlignBegin=60717|AlignEnd=60717
+11-12	au	_	_	_	_	_	_	_	SpaceAfter=No
+11	à	à	ADP	_	_	10	comp:obl	_	AlignBegin=60360|AlignEnd=60539|SpaceAfter=No
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	comp:obj@scrap	_	AlignBegin=60360|AlignEnd=60539
+13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=60539|AlignEnd=60539
+14	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=60539|AlignEnd=60717|SpaceAfter=No
+15	...	...	PUNCT	_	_	9	punct	_	AlignBegin=60717|AlignEnd=60717
 
 # sent_id = ParisStories_2022_1_rencontreSolfège__36
 # speaker = L2
 # text = au conservatoire ?
 1-2	au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	0	root	_	AlignBegin=60717|AlignEnd=61205|wordform=au
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	à	à	ADP	_	_	0	root	_	AlignBegin=60717|AlignEnd=61205
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=60717|AlignEnd=61205
 3	conservatoire	conservatoire	NOUN	_	_	1	comp:obj	_	AlignBegin=61205|AlignEnd=61692|Gender[lex]=Masc|Number[ctxt]=Sing
 4	?	?	PUNCT	_	_	1	punct	_	AlignBegin=61692|AlignEnd=61692
 
@@ -450,8 +453,8 @@
 3	voilà	voilà	VERB	_	_	5	discourse	_	AlignBegin=61958|AlignEnd=62227|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=62227|AlignEnd=62227
 5-6	au	_	_	_	_	_	_	_	_
-5	à	à	ADP	_	_	0	root	_	AlignBegin=62227|AlignEnd=62497|wordform=au
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	à	à	ADP	_	_	0	root	_	AlignBegin=62227|AlignEnd=62497
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=62227|AlignEnd=62497
 7	conservatoire	conservatoire	NOUN	_	_	5	comp:obj	_	AlignBegin=62497|AlignEnd=62767|Gender[lex]=Masc|Number[ctxt]=Sing
 8	d'	de	ADP	_	_	7	udep	_	AlignBegin=62767|AlignEnd=63037|SpaceAfter=No
 9	Athis	Athis	PROPN	_	_	8	comp:obj	_	AlignBegin=63037|AlignEnd=63306|Gender[lex]=Unknown|SpaceAfter=No
@@ -487,8 +490,8 @@
 1	ah	ah	INTJ	_	_	13	discourse	_	AlignBegin=65865|AlignEnd=66009|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=66009|AlignEnd=66009
 3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	13	discourse	_	AlignBegin=66009|AlignEnd=66153|wordform=du
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	de	de	ADP	_	_	13	discourse	_	AlignBegin=66009|AlignEnd=66153
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=66009|AlignEnd=66153
 5	coup	coup	NOUN	_	_	3	comp:obj	_	AlignBegin=66153|AlignEnd=66297|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=66297|AlignEnd=66297
 7	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	AlignBegin=66297|AlignEnd=66440|Number[lex]=Sing|Person[lex]=2
@@ -552,7 +555,7 @@
 16	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	comp:obj	_	AlignBegin=75830|AlignEnd=76058
 17	rencontrée	rencontrer	VERB	_	VerbForm=Part|Voice=Act	16	comp:aux@tense	_	AlignBegin=76058|AlignEnd=76286|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=76286|AlignEnd=76286
-19	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=76286|AlignEnd=76517|Idiom=Yes
+19	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=76286|AlignEnd=76517|Automated=Yes|Coconstruct=mod::ParisStories_2022_1_rencontreSolfège__42::1|Idiom=Yes|SingleSpeaker=Yes
 20	que	que	SCONJ	_	_	19	unk	_	AlignBegin=76517|AlignEnd=76747|InIdiom=Yes
 21	après	après	ADV	_	_	24	mod	_	AlignBegin=76747|AlignEnd=76978|SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	AlignBegin=76978|AlignEnd=76978
@@ -601,7 +604,7 @@
 # sent_id = ParisStories_2022_1_rencontreSolfège__46
 # speaker = L1
 # text = parce que ce qui était bien, c'est que, bon, ça dépendait des activités, hein, mais quand, en fait, euh, on faisait, euh, c'était quoi, le conservatoire, on avait la chance, comme à l'école, d'avoir des photos d'années.
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=85324|AlignEnd=85616|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=85324|AlignEnd=85616|Automated=Yes|Coconstruct=mod::ParisStories_2022_1_rencontreSolfège__45::1|Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=85616|AlignEnd=85908|InIdiom=Yes
 3	ce	ce	PRON	_	PronType=Dem	10	dislocated:subj	_	AlignBegin=85908|AlignEnd=86081|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	AlignBegin=86081|AlignEnd=86254
@@ -617,8 +620,8 @@
 14	ça	ça	PRON	_	PronType=Dem	15	subj	_	AlignBegin=87682|AlignEnd=88002|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 15	dépendait	dépendre	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	10	parataxis:parenth	_	AlignBegin=88002|AlignEnd=88323|Number[ctxt]=Sing|Person[ctxt]=3
 16-17	des	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	_	15	comp:obl	_	AlignBegin=88323|AlignEnd=88643|wordform=des
-17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+16	de	de	ADP	_	_	15	comp:obl	_	AlignBegin=88323|AlignEnd=88643
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	AlignBegin=88323|AlignEnd=88643
 18	activités	activité	NOUN	_	_	16	comp:obj	_	AlignBegin=88643|AlignEnd=88963|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=88963|AlignEnd=88963
 20	hein	hein	INTJ	_	_	15	discourse	_	AlignBegin=88963|AlignEnd=89283|SpaceAfter=No
@@ -781,15 +784,15 @@
 5	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=115846|AlignEnd=116070|Person[ctxt]=1
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	AlignBegin=116070|AlignEnd=116294
 7-8	des	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	5	comp:obl	_	AlignBegin=116294|AlignEnd=116517|wordform=des
-8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+7	de	de	ADP	_	_	5	comp:obl	_	AlignBegin=116294|AlignEnd=116517
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	AlignBegin=116294|AlignEnd=116517
 9	années	année	NOUN	_	_	7	comp:obj	_	AlignBegin=116517|AlignEnd=116741|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	AlignBegin=116741|AlignEnd=116741
 11	mais	mais	CCONJ	_	_	13	cc	_	AlignBegin=116741|AlignEnd=117035
 12	plutôt	plutôt	ADV	_	_	13	mod	_	AlignBegin=117035|AlignEnd=117328
 13-14	des	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	7	conj:coord	_	AlignBegin=117328|AlignEnd=117622|wordform=des
-14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+13	de	de	ADP	_	_	7	conj:coord	_	AlignBegin=117328|AlignEnd=117622
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	AlignBegin=117328|AlignEnd=117622
 15	années	année	NOUN	_	_	13	comp:obj	_	AlignBegin=117622|AlignEnd=117915|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 16	scolaires	scolaire	ADJ	_	_	15	mod	_	AlignBegin=117915|AlignEnd=118209|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	AlignBegin=118209|AlignEnd=118209
@@ -803,8 +806,8 @@
 25	mais	mais	CCONJ	_	_	27	cc	_	AlignBegin=119303|AlignEnd=119499
 26	plus	plus	ADV	_	_	27	mod	_	AlignBegin=119499|AlignEnd=119696
 27-28	des	_	_	_	_	_	_	_	_
-27	de	de	ADP	_	_	21	conj:dicto	_	AlignBegin=119696|AlignEnd=119892|wordform=des
-28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+27	de	de	ADP	_	_	21	conj:dicto	_	AlignBegin=119696|AlignEnd=119892
+28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	AlignBegin=119696|AlignEnd=119892
 29	années	année	NOUN	_	_	27	comp:obj	_	AlignBegin=119892|AlignEnd=120089|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 30	scolaires	scolaire	ADJ	_	_	29	mod	_	AlignBegin=120089|AlignEnd=120285|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
 31	.	.	PUNCT	_	_	5	punct	_	AlignBegin=120285|AlignEnd=120285
@@ -902,8 +905,8 @@
 18	bah	bah	INTJ	_	_	20	discourse	_	AlignBegin=132578|AlignEnd=132926|SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	AlignBegin=132926|AlignEnd=132926
 20-21	au	_	_	_	_	_	_	_	_
-20	à	à	ADP	_	_	14	comp:pred	_	AlignBegin=132926|AlignEnd=133273|wordform=au
-21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+20	à	à	ADP	_	_	14	comp:pred	_	AlignBegin=132926|AlignEnd=133273
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	AlignBegin=132926|AlignEnd=133273
 22	conservatoire	conservatoire	NOUN	_	_	20	comp:obj	_	AlignBegin=133273|AlignEnd=133621|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	AlignBegin=133621|AlignEnd=133621
 24	et	et	CCONJ	_	_	27	cc	_	AlignBegin=134120|AlignEnd=134386

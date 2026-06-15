@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2021_maintenantJeSais_1
 # text = que j'étais assise sur mon lit.
 1	que	que	SCONJ	_	_	0	root	_	_
@@ -5,7 +6,7 @@
 3	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	comp:obj	_	_
 4	assise	asseoir	VERB	_	Gender=Fem|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 5	sur	sur	ADP	_	_	4	mod	_	_
-6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 7	lit	lit	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -22,11 +23,11 @@
 9	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
 10	dépassait	dépasser	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	8	mod@relcl	_	Number[ctxt]=Sing|Person[ctxt]=3
 11-12	du	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	10	comp:obl	_	wordform=du
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	unk@scrap	_	HasSpokenGender=OnlySingExceptWithLiaison
+11	de	de	ADP	_	_	10	comp:obl	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	comp:obj@scrap	_	_
 13-14	du	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	11	conj:dicto	_	wordform=du
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+13	de	de	ADP	_	_	11	repair	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	berceau	berceau	NOUN	_	_	13	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -86,8 +87,8 @@
 4	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	penchée	pencher	VERB	_	VerbForm=Part	4	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 6-7	au	_	_	_	_	_	_	_	_
-6	à	à	ADP	_	_	5	mod	_	wordform=au
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	à	à	ADP	_	_	5	mod	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	dessus	dessus	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 9	pour	pour	ADP	_	_	4	mod	_	_
 10	voir	voir	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=NoRaising
@@ -106,7 +107,7 @@
 3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	vu	voir	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-6	ton	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	ton	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	7	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 7	visage	visage	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	_
 9	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	Number[lex]=Sing|Person[lex]=2
@@ -200,8 +201,8 @@
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	sortie	sortir	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 6-7	du	_	_	_	_	_	_	_	_
-6	de	de	ADP	_	_	5	comp:obl	_	wordform=du
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	de	de	ADP	_	_	5	comp:obl	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	berceau	berceau	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -251,11 +252,11 @@
 # text = et au moment où mon regard, euh, a traversé le tien, c'était quelque chose de très très très particulier: de l'étonnement, de la fascination, ouais, c'est vraiment le mot qui convient, de la fascination.
 1	et	et	CCONJ	_	_	17	cc	_	_
 2-3	au	_	_	_	_	_	_	_	_
-2	à	à	ADP	_	_	17	mod	_	wordform=au
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+2	à	à	ADP	_	_	17	mod	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	moment	moment	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	où	où	ADV	_	PronType=Rel	11	mod	_	_
-6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 7	regard	regard	NOUN	_	_	11	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No

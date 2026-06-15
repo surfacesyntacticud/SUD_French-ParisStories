@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2022_5_gîteEnMontagne__1
 # speaker = L1
 # text = honnêtement, je pense que, le mieux ce serait euh, de louer un gîte, un grand gîte euh, en montagne euh, essentiellement euh.
@@ -45,8 +46,8 @@
 # speaker = L1
 # text = au calme.
 1-2	au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	0	root	_	AlignBegin=11356|AlignEnd=11708|wordform=au
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	à	à	ADP	_	_	0	root	_	AlignBegin=11356|AlignEnd=11708
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=11356|AlignEnd=11708
 3	calme	calme	NOUN	_	_	1	comp:obj	_	AlignBegin=11708|AlignEnd=12059|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=12059|AlignEnd=12059
 
@@ -300,8 +301,8 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=73603|AlignEnd=73910
 6	dépaysant	dépaysant	ADJ	_	Gender=Masc	5	comp:pred	_	AlignBegin=73910|AlignEnd=74218|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 7-8	au	_	_	_	_	_	_	_	_
-7	à	à	ADP	_	_	6	mod	_	AlignBegin=74218|AlignEnd=74525|wordform=au
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	à	à	ADP	_	_	6	mod	_	AlignBegin=74218|AlignEnd=74525
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=74218|AlignEnd=74525
 9	possible	possible	NOUN	_	_	7	comp:obj	_	AlignBegin=74525|AlignEnd=74832|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	AlignBegin=74832|AlignEnd=74832
 
@@ -435,8 +436,8 @@
 11	Tignes	Tignes	PROPN	_	_	10	comp:obj	_	AlignBegin=99812|AlignEnd=100069|Gender[lex]=Unknown
 12	pendant	pendant	ADP	_	_	9	mod	_	AlignBegin=100612|AlignEnd=100852
 13-14	au	_	_	_	_	_	_	_	_
-13	à	à	ADP	_	_	17	mod	_	AlignBegin=100852|AlignEnd=101091|wordform=au
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+13	à	à	ADP	_	_	17	mod	_	AlignBegin=100852|AlignEnd=101091
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=100852|AlignEnd=101091
 15	moins	moins	ADV	_	_	13	comp:obj	_	AlignBegin=101091|AlignEnd=101331
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	AlignBegin=101331|AlignEnd=101570
 17	semaine	semaine	NOUN	_	_	12	comp:obj	_	AlignBegin=101570|AlignEnd=101810|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -575,8 +576,8 @@
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	29	det	_	AlignBegin=127912|AlignEnd=128367|HasSpokenGender=OnlySingExceptWithLiaison
 29	dinde	dinde	NOUN	_	_	25	comp:obj	_	AlignBegin=128367|AlignEnd=128822|Gender[lex]=Fem|Number[ctxt]=Sing
 30-31	aux	_	_	_	_	_	_	_	_
-30	à	à	ADP	_	_	29	mod	_	AlignBegin=128822|AlignEnd=129277|wordform=aux
-31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
+30	à	à	ADP	_	_	29	mod	_	AlignBegin=128822|AlignEnd=129277
+31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	AlignBegin=128822|AlignEnd=129277
 32	marrons	marron	NOUN	_	_	30	comp:obj	_	AlignBegin=129277|AlignEnd=129732|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 33	,	,	PUNCT	_	_	38	punct	_	AlignBegin=129732|AlignEnd=129732
 34	euh	euh	INTJ	_	_	38	discourse	_	AlignBegin=129732|AlignEnd=130140|SpaceAfter=No
@@ -586,7 +587,7 @@
 38	repas	repas	NOUN	_	_	29	conj:coord	_	AlignBegin=130955|AlignEnd=131363|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 39	,	,	PUNCT	_	_	43	punct	_	AlignBegin=131363|AlignEnd=131363
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	43	det	_	AlignBegin=131363|AlignEnd=131771|HasSpokenGender=OnlySingExceptWithLiaison
-41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	40	conj:dicto	_	AlignBegin=132063|AlignEnd=132367|HasSpokenGender=OnlySingExceptWithLiaison
+41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	40	repair	_	AlignBegin=132063|AlignEnd=132367|HasSpokenGender=OnlySingExceptWithLiaison
 42	dix	dix	NUM	_	ExtPos=DET	43	mod	_	AlignBegin=132367|AlignEnd=132671|Number[lex]=Plur
 43	plats	plat	NOUN	_	_	38	conj:dicto	_	AlignBegin=132671|AlignEnd=132975|Gender[lex]=Masc|Number[ctxt]=Plur
 44	euh	euh	INTJ	_	_	46	discourse	_	AlignBegin=132975|AlignEnd=133280|SpaceAfter=No

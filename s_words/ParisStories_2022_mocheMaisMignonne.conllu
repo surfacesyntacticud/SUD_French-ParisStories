@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__1
 # speaker = 0
 # text = le jour où j'ai rencontré ma petite soeur, euh, bah, déjà, ça faisait longtemps que je l'attendais, plus que neuf mois quand même, parce que je l'avais demandée avant.
@@ -95,8 +96,8 @@
 # speaker = 0
 # text = du coup moi, ce soir-là, j'étais chez mon oncle et ma tante.
 1-2	du	_	_	_	_	_	_	_	_
-1	de	de	ADP	_	_	11	discourse	_	AlignBegin=14509|AlignEnd=14723|wordform=du
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	de	de	ADP	_	_	11	discourse	_	AlignBegin=14509|AlignEnd=14723
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=14509|AlignEnd=14723
 3	coup	coup	NOUN	_	_	1	comp:obj	_	AlignBegin=14723|AlignEnd=14937|Gender[lex]=Masc|Number[ctxt]=Sing
 4	moi	moi	PRON	_	Emph=Yes|PronType=Prs	11	dislocated:subj	_	AlignBegin=14937|AlignEnd=15151|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=15151|AlignEnd=15151
@@ -139,8 +140,8 @@
 8	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=21237|AlignEnd=21624
 9	autour	autour	ADV	_	_	3	comp:obl	_	AlignBegin=21624|AlignEnd=22010
 10-11	du	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	9	comp:obl	_	AlignBegin=22010|AlignEnd=22397|wordform=du
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+10	de	de	ADP	_	_	9	comp:obl	_	AlignBegin=22010|AlignEnd=22397
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=22010|AlignEnd=22397
 12	téléphone	téléphone	NOUN	_	_	10	comp:obj	_	AlignBegin=22397|AlignEnd=22784|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	AlignBegin=22784|AlignEnd=22784
 
@@ -218,7 +219,7 @@
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__12
 # speaker = 0
 # text = mon cousin, il devait avoir huit ans, mon autre petit cousin, quatre.
-1	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	AlignBegin=32420|AlignEnd=32628|HasSpokenGender=OnlySingExceptWithLiaison
+1	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	AlignBegin=32420|AlignEnd=32628|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 2	cousin	cousin	NOUN	_	_	5	dislocated:subj	_	AlignBegin=32628|AlignEnd=32837|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=32837|AlignEnd=32837
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs|Shared=No	5	subj	_	AlignBegin=32837|AlignEnd=33045|Person[lex]=3
@@ -239,8 +240,8 @@
 # speaker = 0
 # text = du coup, bah, on est tous allé se coucher.
 1-2	du	_	_	_	_	_	_	_	_
-1	de	de	ADP	_	_	8	discourse	_	AlignBegin=35646|AlignEnd=35824|wordform=du
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	de	de	ADP	_	_	8	discourse	_	AlignBegin=35646|AlignEnd=35824
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=35646|AlignEnd=35824
 3	coup	coup	NOUN	_	_	1	comp:obj	_	AlignBegin=35824|AlignEnd=36001|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=36001|AlignEnd=36001
 5	bah	bah	INTJ	_	_	8	discourse	_	AlignBegin=36001|AlignEnd=36179|SpaceAfter=No
@@ -282,8 +283,8 @@
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=41173|AlignEnd=41453
 5	vraiment	vraiment	ADV	_	_	3	mod	_	AlignBegin=41453|AlignEnd=41734
 6-7	du	_	_	_	_	_	_	_	_
-6	de	de	ADP	_	_	3	comp:obl	_	AlignBegin=41734|AlignEnd=42014|wordform=du
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	de	de	ADP	_	_	3	comp:obl	_	AlignBegin=41734|AlignEnd=42014
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=41734|AlignEnd=42014
 8	jour	jour	NOUN	_	_	6	comp:obj	_	AlignBegin=42014|AlignEnd=42295|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	AlignBegin=42295|AlignEnd=42295
 
@@ -573,14 +574,14 @@
 12	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	13	subj	_	AlignBegin=79926|AlignEnd=80174|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj:dicto	_	AlignBegin=80174|AlignEnd=80423
 14-15	du	_	_	_	_	_	_	_	_
-14	de	de	ADP	_	_	13	discourse	_	AlignBegin=80423|AlignEnd=80671|wordform=du
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+14	de	de	ADP	_	_	13	discourse	_	AlignBegin=80423|AlignEnd=80671
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	AlignBegin=80423|AlignEnd=80671
 16	coup	coup	NOUN	_	_	14	comp:obj	_	AlignBegin=80671|AlignEnd=80919|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	AlignBegin=80919|AlignEnd=80919
 18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	20	subj@expl	_	AlignBegin=80919|AlignEnd=81146|Person[lex]=3
 19	y	y	PRON	_	PronType=Prs	20	comp@expl	_	AlignBegin=81146|AlignEnd=81373|Person[lex]=3
 20	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	13	conj:dicto	_	AlignBegin=81373|AlignEnd=81600|Number[ctxt]=Sing|Person[ctxt]=3
-21	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	22	det	_	AlignBegin=81600|AlignEnd=81826|HasSpokenGender=OnlySingExceptWithLiaison
+21	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	22	det	_	AlignBegin=81600|AlignEnd=81826|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 22	père	père	NOUN	_	_	20	comp:obj	_	AlignBegin=81826|AlignEnd=82053|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	AlignBegin=82053|AlignEnd=82053
 24	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	25	det	_	AlignBegin=82053|AlignEnd=82280|HasSpokenGender=OnlySingExceptWithLiaison
@@ -594,8 +595,8 @@
 # text = mais du coup, il y avait aussi mon oncle et ma tante, vu qu'ils m'avaient emmenée, vu que j'avais dormi chez eux la veille.
 1	mais	mais	CCONJ	_	_	8	cc	_	AlignBegin=83265|AlignEnd=83406
 2-3	du	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	8	discourse	_	AlignBegin=83406|AlignEnd=83547|wordform=du
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+2	de	de	ADP	_	_	8	discourse	_	AlignBegin=83406|AlignEnd=83547
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=83406|AlignEnd=83547
 4	coup	coup	NOUN	_	_	2	comp:obj	_	AlignBegin=83547|AlignEnd=83687|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	AlignBegin=83687|AlignEnd=83687
 6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	8	subj@expl	_	AlignBegin=83687|AlignEnd=83828|Person[lex]=3
@@ -738,7 +739,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=102065|AlignEnd=102065
 10	parce	parce	ADV	_	ExtPos=SCONJ	6	mod	_	AlignBegin=102065|AlignEnd=102402|Idiom=Yes
 11	que	que	SCONJ	_	_	10	unk	_	AlignBegin=102402|AlignEnd=102738|InIdiom=Yes
-12	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	AlignBegin=102738|AlignEnd=103075|HasSpokenGender=OnlySingExceptWithLiaison
+12	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	AlignBegin=102738|AlignEnd=103075|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 13	cousin	cousin	NOUN	_	_	22	dislocated:subj	_	AlignBegin=103075|AlignEnd=103411|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=103411|AlignEnd=103411
 15	donc	donc	ADV	_	_	17	mod	_	AlignBegin=103411|AlignEnd=103641
@@ -825,8 +826,8 @@
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	conj:dicto	_	AlignBegin=114150|AlignEnd=114316|HasSpokenGender=OnlySingExceptWithLiaison
 6	moitié	moitié	NOUN	_	_	15	dislocated:subj	_	AlignBegin=114316|AlignEnd=114482|Gender[lex]=Fem|Number[ctxt]=Plur
 7-8	des	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	6	udep	_	AlignBegin=114482|AlignEnd=114649|wordform=des
-8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	de	de	ADP	_	_	6	udep	_	AlignBegin=114482|AlignEnd=114649
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	AlignBegin=114482|AlignEnd=114649
 9	souvenirs	souvenir	NOUN	_	_	7	comp:obj	_	AlignBegin=114649|AlignEnd=114815|Gender[lex]=Masc|Number[ctxt]=Plur
 10	que	que	PRON	_	PronType=Rel	12	comp:obj	_	AlignBegin=114815|AlignEnd=114981
 11	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	subj	_	AlignBegin=114981|AlignEnd=115147|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
@@ -843,8 +844,8 @@
 22	et	et	CCONJ	_	_	29	cc	_	AlignBegin=116568|AlignEnd=116717|SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	AlignBegin=116717|AlignEnd=116717
 24-25	du	_	_	_	_	_	_	_	_
-24	de	de	ADP	_	_	29	discourse	_	AlignBegin=116717|AlignEnd=116865|wordform=du
-25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+24	de	de	ADP	_	_	29	discourse	_	AlignBegin=116717|AlignEnd=116865
+25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	AlignBegin=116717|AlignEnd=116865
 26	coup	coup	NOUN	_	_	24	comp:obj	_	AlignBegin=116865|AlignEnd=117014|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 27	,	,	PUNCT	_	_	24	punct	_	AlignBegin=117014|AlignEnd=117014
 28	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	29	subj	_	AlignBegin=117014|AlignEnd=117162|Number[lex]=Sing|Person[lex]=1

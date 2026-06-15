@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2021_pluieEtMamie_1
 # text = donc, euh, le premier jour où j'ai rencontré XXX, c'était un jeudi.
 1	donc	donc	ADV	_	_	15	mod	_	SpaceAfter=No
@@ -48,8 +49,8 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	plus	plus	ADV	_	_	5	comp:obj	_	_
 10-11	du	_	_	_	_	_	_	_	SpaceAfter=No
-10	de	de	ADP	_	_	9	comp:obj@scrap	_	_
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	unk@scrap	_	HasSpokenGender=OnlySingExceptWithLiaison
+10	de	de	ADP	_	_	9	comp:obj@scrap	_	SpaceAfter=No
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	comp:obj@scrap	_	_
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	plus	plus	ADV	_	_	9	conj:dicto	_	_
 14	de	de	ADP	_	_	13	udep	_	_
@@ -133,8 +134,8 @@
 8	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	_
 10-11	du	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	17	discourse	_	wordform=du
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+10	de	de	ADP	_	_	17	discourse	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	coup	coup	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	_
 14	bah	bah	INTJ	_	_	17	discourse	_	SpaceAfter=No
@@ -161,8 +162,8 @@
 35	euh	euh	INTJ	_	_	40	discourse	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	35	punct	_	_
 37-38	du	_	_	_	_	_	_	_	_
-37	de	de	ADP	_	_	40	discourse	_	wordform=du
-38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+37	de	de	ADP	_	_	40	discourse	_	_
+38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	coup	coup	NOUN	_	_	37	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 40	rejoindre	rejoindre	VERB	_	VerbForm=Inf	33	comp:obj	_	Subject=SubjRaising
 41	XXX	XXX	X	_	_	40	comp:obj	_	SpaceAfter=No
@@ -175,8 +176,8 @@
 3	euh	euh	INTJ	_	_	33	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5-6	du	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	33	discourse	_	wordform=du
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	de	de	ADP	_	_	33	discourse	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	coup	coup	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	bah	bah	INTJ	_	_	33	discourse	_	SpaceAfter=No
@@ -199,8 +200,8 @@
 26	vu	voir	VERB	_	VerbForm=Part|Voice=Act	25	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 27	,	,	PUNCT	_	_	21	punct	_	_
 28-29	du	_	_	_	_	_	_	_	_
-28	de	de	ADP	_	_	34	discourse	_	wordform=du
-29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+28	de	de	ADP	_	_	34	discourse	_	_
+29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	coup	coup	NOUN	_	_	28	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 31	,	,	PUNCT	_	_	28	punct	_	_
 32	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	33	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
@@ -258,17 +259,17 @@
 # text = tu te rappelles pas, il avait un peu les cheveux courts.
 1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Person[lex]=2
 2	te	toi	PRON	_	Case=Acc|Emph=No|PronType=Prs	3	comp:obj	_	Number[lex]=Sing|Person[lex]=2
-3	rappelles	rappeler	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=2
+3	rappelles	rappeler	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	7	discourse	_	Person[ctxt]=2
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	7	subj	_	Person[lex]=3
-7	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	3	dislocated:obj	_	Number[ctxt]=Sing|Person[ctxt]=3
+7	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	peu	peu	NOUN	_	_	7	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	cheveux	cheveu	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 12	courts	court	ADJ	_	Gender=Masc	11	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
-13	.	.	PUNCT	_	_	3	punct	_	_
+13	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_12
 # text = il avait les cheveux courts, euh.
@@ -358,8 +359,8 @@
 9	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
 10	rencontré	rencontrer	VERB	_	VerbForm=Part|Voice=Act	9	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 11-12	du	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	17	discourse	_	wordform=du
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+11	de	de	ADP	_	_	17	discourse	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	coup	coup	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	11	punct	_	_
 15	bah	bah	INTJ	_	_	17	discourse	_	_
@@ -403,8 +404,8 @@
 2	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4-5	du	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	13	discourse	_	wordform=du
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+4	de	de	ADP	_	_	13	discourse	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	coup	coup	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
@@ -464,13 +465,13 @@
 7	en	en	ADP	_	_	6	mod	_	_
 8	direction	direction	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9-10	du	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	8	mod	_	wordform=du
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+9	de	de	ADP	_	_	8	mod	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	bus	bus	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13-14	du	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	9	conj:dicto	_	wordform=du
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+13	de	de	ADP	_	_	9	conj:dicto	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	XXX	XXX	X	_	_	13	comp:obj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -517,8 +518,8 @@
 # sent_id = ParisStories_2021_pluieEtMamie_27
 # text = du coup euh, on attend le bus, etc.
 1-2	du	_	_	_	_	_	_	_	_
-1	de	de	ADP	_	_	7	discourse	_	wordform=du
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	de	de	ADP	_	_	7	discourse	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
@@ -574,8 +575,8 @@
 # sent_id = ParisStories_2021_pluieEtMamie_31
 # text = du coup, après on va à XXX.
 1-2	du	_	_	_	_	_	_	_	_
-1	de	de	ADP	_	_	7	discourse	_	wordform=du
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	de	de	ADP	_	_	7	discourse	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	après	après	ADP	_	_	7	mod	_	_

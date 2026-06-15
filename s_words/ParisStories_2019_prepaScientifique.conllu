@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2019_prepaScientifique_1
 # text = alors, euh, pas de le tout.
 1	alors	alors	ADV	_	_	5	discourse	_	SpaceAfter=No
@@ -78,7 +79,7 @@
 15	pas	pas	ADV	_	Polarity=Neg	14	mod	_	_
 16-17	du	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	ExtPos=ADV	15	mod	_	Idiom=Yes
-17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	InIdiom=Yes
 18	tout	tout	NOUN	_	_	16	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 19	quoi	quoi	PRON	_	PronType=Int	20	comp:obj	_	Person[lex]=3
 20	faire	faire	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
@@ -86,7 +87,7 @@
 22	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	23	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 23	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
 24	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	23	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-25	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+25	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	26	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 26	bac	bac	NOUN	_	_	24	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 27	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -795,8 +796,8 @@
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 17	retour	retour	NOUN	_	_	8	conj:dicto	_	Gender[lex]=Masc|Number[ctxt]=Sing
 18-19	des	_	_	_	_	_	_	_	SpaceAfter=No
-18	de	de	ADP	_	_	17	udep	_	_
-19	les	le	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	comp:obj@scrap	_	HasSpokenGender=OnlySingExceptWithLiaison
+18	de	de	ADP	_	_	17	udep	_	SpaceAfter=No
+19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	comp:obj@scrap	_	_
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	de	de	ADP	_	_	18	conj:dicto	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison

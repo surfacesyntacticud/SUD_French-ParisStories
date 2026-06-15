@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # text = ouais alors en fait euh Rafi il a, il a rencontré une, une fille, euh à l'Île Maurice.
 # sent_id = ParisStories_2019_mauriceAventure_1
 1	ouais	ouais	INTJ	_	_	8	discourse	_	_
@@ -104,7 +105,7 @@
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	zoo	zoo	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 12	et	et	CCONJ	_	_	14	cc	_	_
-13	et	et	CCONJ	_	_	12	conj:dicto	_	_
+13	et	et	CCONJ	_	_	12	repair	_	_
 14	d'	de	ADP	_	_	9	conj:coord	_	SpaceAfter=No
 15	attractions	attraction	NOUN	_	_	14	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
@@ -176,7 +177,7 @@
 8	c'	ce	PRON	_	PronType=Dem	9	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	conj:dicto	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	repair	_	_
 12	parc	parc	NOUN	_	_	9	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 13	d'	de	ADP	_	_	12	udep	_	SpaceAfter=No
 14	aventures	aventure	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
@@ -224,8 +225,8 @@
 36	découvrir	découvrir	VERB	_	VerbForm=Inf	35	comp:obj	_	Subject=SubjRaising
 37	en	en	ADP	_	ExtPos=ADV	41	discourse	_	Idiom=Yes
 38	fait	fait	NOUN	_	_	37	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
-39	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	41	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-40	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	39	conj:dicto	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+39	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	41	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
+40	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	39	repair	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 41	univers	univers	NOUN	_	_	36	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 42	avec	avec	ADP	_	_	36	mod	_	_
 43	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|PronType=Prs	42	comp:obj	_	Person[lex]=3
@@ -238,7 +239,7 @@
 2	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind|Shared=No	3	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	choisi	choisir	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-5	choisi	choisir	VERB	_	VerbForm=Part	4	conj:dicto	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+5	choisi	choisir	VERB	_	VerbForm=Part	4	repair	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	jour	jour	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	tous	tous	PRON	_	Gender=Masc|PronType=Ind	9	mod	_	Number[lex]=Plur|Person[lex]=3
@@ -319,7 +320,7 @@
 # sent_id = ParisStories_2019_mauriceAventure_18
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	4	discourse	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	fallait	falloir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 5	vraiment	vraiment	ADV	_	_	4	mod	_	_
@@ -401,7 +402,7 @@
 # text = et et Papi et Mamie avaient pris un buggy pour être avec nous.
 # sent_id = ParisStories_2019_mauriceAventure_24
 1	et	et	CCONJ	_	_	6	cc	_	_
-2	et	et	CCONJ	_	_	1	conj:dicto	_	_
+2	et	et	CCONJ	_	_	1	repair	_	_
 3	Papi	Papi	NOUN	_	_	6	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	et	et	CCONJ	_	_	5	cc	_	_
 5	Mamie	Mamie	NOUN	_	_	3	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -420,7 +421,7 @@
 1	et	et	CCONJ	_	_	6	cc	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	6	discourse	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -430,7 +431,7 @@
 10	heures	heure	NOUN	_	_	8	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 11	euh	euh	INTJ	_	_	12	discourse	_	_
 12	dans	dans	ADP	_	_	7	mod	_	_
-13	dans	dans	ADP	_	_	12	conj:dicto	_	_
+13	dans	dans	ADP	_	_	12	repair	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	domaine	domaine	NOUN	_	_	13	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 16	hyper	hyper	ADV	_	_	17	mod	_	_
@@ -697,7 +698,7 @@
 1	donc	donc	ADV	_	_	7	mod	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	7	discourse	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	bah	bah	INTJ	_	_	7	discourse	_	_
 6	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	7	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -735,7 +736,7 @@
 2	y	y	PRON	_	PronType=Prs	3	comp@expl	_	Person[lex]=3
 3	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	conj:dicto	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
 6	deux	deux	NUM	_	ExtPos=DET	7	mod	_	Number[lex]=Plur
 7	cousines	cousine	NOUN	_	_	3	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 8	d'	de	ADP	_	_	7	udep	_	SpaceAfter=No
@@ -755,8 +756,8 @@
 9	copains	copain	NOUN	_	_	4	conj:dicto	_	Gender[lex]=Masc|Number[ctxt]=Plur
 10	de	de	ADP	_	_	9	udep	_	_
 11-12	des	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	10	conj:dicto	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+11	de	de	ADP	_	_	10	repair	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	cousines	cousine	NOUN	_	_	11	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -796,7 +797,7 @@
 
 # text = parce que lui il a le vertige, mais il s'est lancé un défi.
 # sent_id = ParisStories_2019_mauriceAventure_52
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::ParisStories_2019_mauriceAventure_51::5|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|PronType=Prs	5	dislocated:subj	_	Person[lex]=3
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	subj	_	Person[lex]=3
@@ -843,7 +844,7 @@
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	7	discourse	_	_
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	coup	coup	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 6	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=2
 7	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=2
@@ -896,7 +897,7 @@
 4	bien	bien	ADV	_	_	5	mod	_	_
 5	organisé	organiser	VERB	_	VerbForm=Part	3	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 6	pour	pour	ADP	_	_	3	mod	_	_
-7	pour	pour	ADP	_	_	6	conj:dicto	_	_
+7	pour	pour	ADP	_	_	6	repair	_	_
 8	être	être	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=NoRaising
 9	là	là	ADV	_	_	8	mod	_	_
 10	dedans	dedans	ADV	_	_	8	mod	_	_

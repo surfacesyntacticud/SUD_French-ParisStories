@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2022_6_tetedeNeuneu__1
 # speaker = L1
 # text = bah, donc, Eva, elle m'a dit qu'elle avait un mec.
@@ -146,8 +147,8 @@
 # text = et du coup ?
 1	et	et	CCONJ	_	_	2	cc	_	AlignBegin=20016|AlignEnd=20209
 2-3	du	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	0	root	_	AlignBegin=20209|AlignEnd=20402|wordform=du
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+2	de	de	ADP	_	_	0	root	_	AlignBegin=20209|AlignEnd=20402
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=20209|AlignEnd=20402
 4	coup	coup	NOUN	_	_	2	comp:obj	_	AlignBegin=20402|AlignEnd=20595|Gender[lex]=Masc|Number[ctxt]=Sing
 5	?	?	PUNCT	_	_	2	punct	_	AlignBegin=20595|AlignEnd=20595
 
@@ -230,7 +231,7 @@
 # sent_id = ParisStories_2022_6_tetedeNeuneu__23
 # speaker = L1
 # text = parce que ça m'intéresse pas !
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=31058|AlignEnd=31256|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=31058|AlignEnd=31256|Automated=Yes|Coconstruct=mod::ParisStories_2022_6_tetedeNeuneu__22::4|Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=31256|AlignEnd=31454|InIdiom=Yes
 3	ça	ça	PRON	_	PronType=Dem	5	subj	_	AlignBegin=31454|AlignEnd=31652|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 4	m'	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	5	comp:obj	_	AlignBegin=31652|AlignEnd=31850|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
@@ -320,8 +321,8 @@
 5	et	et	CCONJ	_	_	26	cc	_	AlignBegin=41987|AlignEnd=42213|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	AlignBegin=42213|AlignEnd=42213
 7-8	du	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	26	discourse	_	AlignBegin=42213|AlignEnd=42439|wordform=du
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	de	de	ADP	_	_	26	discourse	_	AlignBegin=42213|AlignEnd=42439
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=42213|AlignEnd=42439
 9	coup	coup	NOUN	_	_	7	comp:obj	_	AlignBegin=42439|AlignEnd=42666|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	7	punct	_	AlignBegin=42666|AlignEnd=42666
 11	pour	pour	ADP	_	_	27	mod	_	AlignBegin=42666|AlignEnd=42892
@@ -386,8 +387,8 @@
 5	et	et	CCONJ	_	_	1	conj:dicto	_	AlignBegin=49747|AlignEnd=49938|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	AlignBegin=49938|AlignEnd=49938
 7-8	du	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	12	discourse	_	AlignBegin=49938|AlignEnd=50129|wordform=du
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	de	de	ADP	_	_	12	discourse	_	AlignBegin=49938|AlignEnd=50129
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=49938|AlignEnd=50129
 9	coup	coup	NOUN	_	_	7	comp:obj	_	AlignBegin=50129|AlignEnd=50321|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	7	punct	_	AlignBegin=50321|AlignEnd=50321
 11	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	12	subj	_	AlignBegin=50321|AlignEnd=50512|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -446,8 +447,10 @@
 # speaker = L1
 # text = et du …
 1	et	et	CCONJ	_	_	2	cc	_	AlignBegin=59745|AlignEnd=60063
-2	du	du	ADP	_	_	0	root	_	AlignBegin=60063|AlignEnd=60380
-3	…	…	PUNCT	_	_	2	punct	_	AlignBegin=60380|AlignEnd=60380
+2-3	du	_	_	_	_	_	_	_	SpaceAfter=No
+2	de	de	ADP	_	_	0	root	_	AlignBegin=60063|AlignEnd=60380
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	comp:obj@scrap	_	AlignBegin=60063|AlignEnd=60380
+4	…	…	PUNCT	_	_	2	punct	_	AlignBegin=60380|AlignEnd=60380
 
 # sent_id = ParisStories_2022_6_tetedeNeuneu__38
 # speaker = L1
@@ -513,8 +516,8 @@
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=67675|AlignEnd=67675
 4	et	et	CCONJ	_	_	10	cc	_	AlignBegin=67675|AlignEnd=67918
 5-6	du	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	10	discourse	_	AlignBegin=67918|AlignEnd=68162|wordform=du
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	de	de	ADP	_	_	10	discourse	_	AlignBegin=67918|AlignEnd=68162
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=67918|AlignEnd=68162
 7	coup	coup	NOUN	_	_	5	comp:obj	_	AlignBegin=68162|AlignEnd=68406|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	AlignBegin=68406|AlignEnd=68406
 9	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	AlignBegin=68406|AlignEnd=68650|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
@@ -569,8 +572,8 @@
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=75231|AlignEnd=75231
 5	et	et	CCONJ	_	_	1	conj:dicto	_	AlignBegin=75231|AlignEnd=75463
 6-7	du	_	_	_	_	_	_	_	_
-6	de	de	ADP	_	_	13	discourse	_	AlignBegin=75463|AlignEnd=75694|wordform=du
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	de	de	ADP	_	_	13	discourse	_	AlignBegin=75463|AlignEnd=75694
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=75463|AlignEnd=75694
 8	coup	coup	NOUN	_	_	6	comp:obj	_	AlignBegin=75694|AlignEnd=75926|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	AlignBegin=75926|AlignEnd=75926
 10	ben	ben	INTJ	_	_	13	discourse	_	AlignBegin=75926|AlignEnd=76157|SpaceAfter=No
@@ -754,8 +757,8 @@
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	AlignBegin=99133|AlignEnd=99326
 11	dépasse	dépasser	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	AlignBegin=99326|AlignEnd=99519|Number[ctxt]=Sing|Person[ctxt]=3
 12-13	du	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	11	comp:obl	_	AlignBegin=99519|AlignEnd=99711|wordform=du
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+12	de	de	ADP	_	_	11	comp:obl	_	AlignBegin=99519|AlignEnd=99711
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=99519|AlignEnd=99711
 14	mur	mur	NOUN	_	_	12	comp:obj	_	AlignBegin=99711|AlignEnd=99904|Gender[lex]=Masc|Number[ctxt]=Sing
 15	bon	bon	ADJ	_	Gender=Masc|Number=Sing	16	mod	_	AlignBegin=99904|AlignEnd=100838|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
 16	anniversaire	anniversaire	NOUN	_	_	5	parataxis	_	AlignBegin=100838|AlignEnd=101772|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|Reported=Yes
@@ -795,8 +798,8 @@
 5	bah	bah	INTJ	_	_	4	discourse	_	AlignBegin=107124|AlignEnd=107591|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=107591|AlignEnd=107591
 7-8	du	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	15	discourse	_	AlignBegin=107591|AlignEnd=108058|wordform=du
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	de	de	ADP	_	_	15	discourse	_	AlignBegin=107591|AlignEnd=108058
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=107591|AlignEnd=108058
 9	coup	coup	NOUN	_	_	7	comp:obj	_	AlignBegin=108058|AlignEnd=108525|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	7	punct	_	AlignBegin=108525|AlignEnd=108525
 11	après	après	ADP	_	_	15	mod	_	AlignBegin=108525|AlignEnd=108823
@@ -858,7 +861,7 @@
 # sent_id = ParisStories_2022_6_tetedeNeuneu__66
 # speaker = L1
 # text = parce que je savais ce qu'il faisait.
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=116154|AlignEnd=116338|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=116154|AlignEnd=116338|Automated=Yes|Coconstruct=mod::ParisStories_2022_6_tetedeNeuneu__65::2|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=116338|AlignEnd=116523|InIdiom=Yes
 3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	AlignBegin=116523|AlignEnd=116707|Number[lex]=Sing|Person[lex]=1
 4	savais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	1	comp:obj	_	AlignBegin=116707|AlignEnd=116892|Person[ctxt]=1

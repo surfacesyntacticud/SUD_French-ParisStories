@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2020_requinReunion_1
 # text = il y a un truc qui m'a marquée.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	subj@expl	_	Person[lex]=3
@@ -71,7 +72,7 @@
 8	faisait	faire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	comp:obl	_	_
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	surf	surf	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -130,7 +131,7 @@
 14	euh	euh	INTJ	_	_	13	discourse	_	_
 15-16	aux	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	13	mod	_	_
-16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	attaques	attaque	NOUN	_	_	15	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 18	de	de	ADP	_	_	17	mod	_	_
 19	requins	requin	NOUN	_	_	18	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
@@ -159,7 +160,7 @@
 19	personnes	personne	NOUN	_	_	15	subj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	conj:dicto	_	HasSpokenGender=OnlySingExceptWithLiaison
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
 23	personnes	personne	NOUN	_	_	19	conj:dicto	_	Gender[lex]=Fem|Number[ctxt]=Plur
 24	à	à	ADP	_	_	15	mod	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -225,7 +226,7 @@
 # text = du coup ça nous a un peu choqués d'entendre ça.
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	6	discourse	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	ça	ça	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 5	nous	nous	PRON	_	Case=Acc|Emph=No|PronType=Prs	9	comp:obj	_	Number[lex]=Plur|Person[lex]=1
@@ -294,8 +295,8 @@
 7	en	en	ADP	_	ExtPos=ADV	5	comp:obl	_	Idiom=Yes
 8	haut	haut	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 9-10	du	_	_	_	_	_	_	_	_
-9	de	le	ADP	_	_	8	mod	_	_
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+9	de	de	ADP	_	_	8	mod	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Piton	Piton	PROPN	_	_	9	comp:obj	_	Gender[lex]=Unknown
 12	de	de	ADP	_	_	11	mod	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -417,7 +418,7 @@
 
 # sent_id = ParisStories_2020_requinReunion_27
 # text = mon père il me port~ enfin il me tenait s~ enfin je me tenais à l~ à son épaule.
-1	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 2	père	père	NOUN	_	_	5	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	subj	_	Person[lex]=3
 4	me	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	5	comp:obj	_	Number[lex]=Sing|Person[lex]=1
@@ -475,7 +476,7 @@
 
 # sent_id = ParisStories_2020_requinReunion_30
 # text = parce qu'il y a des belles choses à voir.
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::ParisStories_2020_requinReunion_29::4|Idiom=Yes|SingleSpeaker=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	subj@expl	_	Person[lex]=3
 4	y	y	PRON	_	PronType=Prs	5	comp@expl	_	Person[lex]=3
@@ -511,7 +512,7 @@
 20	venais	venir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	18	conj:dicto	_	Person[ctxt]=1
 21	de	de	ADP	_	_	20	comp:obl	_	_
 22	passer	passer	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=SubjRaising
-23	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+23	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	24	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 24	niveau	niveau	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 25	un	un	NUM	_	ExtPos=PROPN|Gender=Masc	24	mod	_	Number[lex]=Sing
 26	de	de	ADP	_	_	24	mod	_	_

@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2021_prenomDeVieille_1
 # text = donc, euh, ce que je voulais te raconter c'est, le, euh, la fois où, où j'ai rencontré ma meilleure copine actuelle, qui s'appelle Cynthia.
 1	donc	donc	ADV	_	_	12	mod	_	SpaceAfter=No
@@ -52,8 +53,8 @@
 12	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14-15	au	_	_	_	_	_	_	_	_
-14	à	à	ADP	_	_	8	mod	_	wordform=au
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+14	à	à	ADP	_	_	8	mod	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	lycée	lycée	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	dans	dans	ADP	_	_	14	conj:dicto	_	_
@@ -82,8 +83,8 @@
 16	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18-19	du	_	_	_	_	_	_	_	_
-18	de	de	ADP	_	_	14	mod	_	wordform=du
-19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+18	de	de	ADP	_	_	14	mod	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	secrétariat	secrétariat	NOUN	_	_	18	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 21	,	,	PUNCT	_	_	9	punct	_	_
 22	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	23	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -137,7 +138,7 @@
 23	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=No	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 24	mère	mère	NOUN	_	_	22	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 25	et	et	CCONJ	_	_	28	cc	_	_
-26	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	28	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+26	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	28	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 27	petit	petit	ADJ	_	Gender=Masc	28	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 28	frère	frère	NOUN	_	_	24	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 29	.	.	PUNCT	_	_	12	punct	_	_
@@ -152,7 +153,7 @@
 6	bien	bien	ADV	_	_	4	mod	_	_
 7	parce	parce	ADV	_	ExtPos=SCONJ	4	mod	_	Idiom=Yes
 8	que	que	SCONJ	_	_	7	unk	_	InIdiom=Yes
-9	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+9	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	11	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 10	petit	petit	ADJ	_	Gender=Masc	11	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 11	frère	frère	NOUN	_	_	16	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
@@ -218,8 +219,8 @@
 32	d'	de	ADP	_	_	31	mod	_	SpaceAfter=No
 33	attente	attente	NOUN	_	_	32	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 34-35	du	_	_	_	_	_	_	_	_
-34	de	de	ADP	_	_	31	mod	_	wordform=du
-35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+34	de	de	ADP	_	_	31	mod	_	_
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	docteur	docteur	NOUN	_	_	34	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 37	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -251,7 +252,7 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	donc	donc	ADV	_	_	6	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
-10	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+10	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 11	tour	tour	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -324,12 +325,12 @@
 57	m'	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	58	comp:obj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 58	affecter	affecter	VERB	_	VerbForm=Inf	56	comp:obj	_	Subject=NoRaising
 59-60	au	_	_	_	_	_	_	_	_
-59	à	à	ADP	_	_	58	comp:obl	_	wordform=au
-60	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+59	à	à	ADP	_	_	58	comp:obl	_	_
+60	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
 61	lycée	lycée	NOUN	_	_	59	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 62-63	du	_	_	_	_	_	_	_	_
-62	de	de	ADP	_	_	61	udep	_	wordform=du
-63	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+62	de	de	ADP	_	_	61	udep	_	_
+63	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
 64	quartier	quartier	NOUN	_	_	62	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 65	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -474,8 +475,8 @@
 7	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	8	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 8	emploi	emploi	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 9-10	du	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	8	mod	_	wordform=du
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+9	de	de	ADP	_	_	8	mod	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	temps	temps	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 12	et	et	CCONJ	_	_	14	cc	_	_
 13	tout	tout	ADJ	_	Gender=Masc	14	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
@@ -530,8 +531,8 @@
 5	demandé	demander	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 6	,	,	PUNCT	_	_	7	punct	_	_
 7-8	du	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	5	discourse	_	wordform=du
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	de	de	ADP	_	_	5	discourse	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	coup	coup	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	si	si	SCONJ	_	_	5	comp:obj	_	_
@@ -620,8 +621,8 @@
 # sent_id = ParisStories_2021_prenomDeVieille_29
 # text = du coup, elle s'est vraiment vexée.
 1-2	du	_	_	_	_	_	_	_	_
-1	de	de	ADP	_	_	7	discourse	_	wordform=du
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	de	de	ADP	_	_	7	discourse	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	7	subj	_	Person[lex]=3

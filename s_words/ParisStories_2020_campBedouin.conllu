@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2020_campBedouin_1
 # text = c'était le vingt-six décembre je crois, euh, c'était le père euh de mon copain qui m'avait nous avait emmenés à l'aéroport.
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
@@ -16,7 +17,7 @@
 14	père	père	NOUN	_	_	12	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 15	euh	euh	INTJ	_	_	14	discourse	_	_
 16	de	de	ADP	_	_	14	mod	_	_
-17	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+17	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	18	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 18	copain	copain	NOUN	_	_	16	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 19	qui	qui	PRON	_	PronType=Rel|Shared=No	21	subj	_	_
 20	m'	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	21	comp:obj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
@@ -144,7 +145,7 @@
 20	y	y	PRON	_	PronType=Prs	22	comp:obl	_	Person[lex]=3
 21	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	comp:obj	_	_
 22	écrit	écrire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	21	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
-23	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+23	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	24	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 24	prénom	prénom	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 25	Julie	Julie	PROPN	_	_	24	mod@appos	_	Gender[lex]=Unknown
 26	YYY	YYY	PROPN	_	_	25	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
@@ -223,7 +224,7 @@
 10	été	être	VERB	_	VerbForm=Part|Voice=Act	9	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	10	comp:obl	_	_
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Dubaï	Dubaï	PROPN	_	_	11	comp:obj	_	Gender[lex]=Unknown
 14	Creek	Creek	PROPN	_	_	13	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_

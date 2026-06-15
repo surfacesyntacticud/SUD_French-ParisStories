@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2020_aideAuxEnfants_1
 # text = c'était un voyage solidaire à Madagascar.
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
@@ -132,7 +133,7 @@
 # text = du coup, euh, pendant cette, cette construction, entre guillemets, on, euh, on a retapé les murs.
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	21	discourse	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	euh	euh	INTJ	_	_	21	discourse	_	SpaceAfter=No
@@ -222,7 +223,7 @@
 16	partie	partie	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	16	mod	_	_
-18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	voyage	voyage	NOUN	_	_	17	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 20	,	,	PUNCT	_	_	13	punct	_	_
 21	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	22	subj	_	Number[lex]=Plur|Person[lex]=1
@@ -241,19 +242,19 @@
 34	créer	créer	VERB	_	VerbForm=Inf	30	comp:obj	_	Subject=NoRaising
 35-36	du	_	_	_	_	_	_	_	_
 35	de	de	ADP	_	_	34	comp:obj	_	_
-36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	savon	savon	NOUN	_	_	35	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 38	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2020_aideAuxEnfants_11
 # text = parce que la plupart du temps ils créent eux-mêmes leur savon, et euh, et le dentifrice, à base d'argile.
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::ParisStories_2020_aideAuxEnfants_10::11|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	plupart	plupart	NOUN	_	_	1	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	comp:obl	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	temps	temps	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	9	subj	_	Person[lex]=3
 9	créent	créer	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	Number[ctxt]=Plur
@@ -334,7 +335,7 @@
 4	principalement	principalement	ADV	_	_	3	mod	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	3	comp:obl	_	_
-6	le	le	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	zébu	zébu	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -419,7 +420,7 @@
 1	mais	mais	CCONJ	_	_	10	cc	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	10	discourse	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	pour	pour	ADP	_	_	10	mod	_	_
@@ -486,7 +487,7 @@
 27	eau	eau	NOUN	_	_	24	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 28-29	du	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	27	mod	_	_
-29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	robinet	robinet	NOUN	_	_	28	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 31	.	.	PUNCT	_	_	4	punct	_	_
 

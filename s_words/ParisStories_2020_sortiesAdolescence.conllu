@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2020_sortiesAdolescence_1
 # text = non mais franchement l'adolescence c'est, c'est quelque chose quand même, de bizarre.
 1	non	non	ADV	_	ExtPos=INTJ	7	discourse	_	_
@@ -142,7 +143,7 @@
 
 # sent_id = ParisStories_2020_sortiesAdolescence_6
 # text = parce qu'en fait il y avait ce qu'on appelait les concerts boom.
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::ParisStories_2020_sortiesAdolescence_5::19|Idiom=Yes|SingleSpeaker=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	en	en	ADP	_	ExtPos=ADV	7	discourse	_	Idiom=Yes
 4	fait	fait	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
@@ -184,7 +185,7 @@
 22	maison	maison	NOUN	_	_	20	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 23-24	des	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	22	mod	_	_
-24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
 25	jeunes	jeune	NOUN	_	_	23	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	qu'	que	SCONJ	_	_	19	conj:coord	_	SpaceAfter=No
@@ -226,7 +227,7 @@
 11	gens	gens	NOUN	_	_	8	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Plur
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	11	udep	_	_
-13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	îles	île	NOUN	_	_	12	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	etc	etc	ADV	_	_	12	conj:coord	_	SpaceAfter=No
@@ -295,7 +296,7 @@
 11	cheval	cheval	NOUN	_	Number=Sing	10	comp:obj	_	Gender[lex]=Masc
 12-13	au	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	11	mod	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	niveau	niveau	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 15	de	de	ADP	_	_	14	mod	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -304,7 +305,7 @@
 
 # sent_id = ParisStories_2020_sortiesAdolescence_13
 # text = mon père qui me dit non, non, c'est pas bien au niveau de la religion, j'accepte pas, tu sors pas.
-1	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 2	père	père	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 3	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
 4	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	5	comp:obl	_	Number[lex]=Sing|Person[lex]=1
@@ -319,7 +320,7 @@
 13	bien	bien	ADV	_	_	11	mod	_	_
 14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	11	mod	_	_
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	niveau	niveau	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 17	de	de	ADP	_	_	16	mod	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -368,7 +369,7 @@
 11	cas	cas	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 12-13	au	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	16	mod	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	moins	moins	ADV	_	_	12	comp:obj	_	_
 15	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	16	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 16	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj:coord	_	_
@@ -390,11 +391,11 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	3	conj:dicto	_	_
-9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	niveau	niveau	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	mod	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	relations	relation	NOUN	_	_	11	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 14	sociales	social	ADJ	_	_	13	mod	_	Gender[ctxt]=Fem|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Number[ctxt]=Plur
 15	à	à	ADP	_	_	13	mod	_	_
@@ -438,7 +439,7 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	aller	aller	VERB	_	VerbForm=Inf	11	conj:coord	_	Subject=SubjRaising
 17	voir	voir	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
-18	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+18	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 19	cousin	cousin	NOUN	_	_	17	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|PronType=Prs	22	comp:obl	_	Person[lex]=3
@@ -447,7 +448,7 @@
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	Reported=Yes
 26	voir	voir	VERB	_	VerbForm=Inf	25	comp:obj	_	Subject=NoRaising
-27	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	28	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+27	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	28	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 28	père	père	NOUN	_	_	26	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 29	,	,	PUNCT	_	_	31	punct	_	_
 30	et	et	CCONJ	_	_	31	cc	_	InIdiom=Yes
@@ -567,7 +568,7 @@
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3-4	au	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	8	mod	_	_
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	fond	fond	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	Number[lex]=Sing|Person[lex]=1

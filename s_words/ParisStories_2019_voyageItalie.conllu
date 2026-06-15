@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2019_voyageItalie_1
 # text = euh, ouais, tu sais, cet été, euh, j'étais, euh, en Italie là, avec Pauline.
 1	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
@@ -189,7 +190,7 @@
 38	pays	pays	NOUN	_	_	35	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 39-40	des	_	_	_	_	_	_	_	_
 39	de	de	ADP	_	_	38	udep	_	_
-40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
 41	arnaques	arnaque	NOUN	_	_	39	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 42	.	.	PUNCT	_	_	20	punct	_	_
 
@@ -547,7 +548,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	8	mod	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	final	final	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	8	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -602,7 +603,7 @@
 # text = au final euh, c'est un peu partout pareil.
 1-2	au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	7	mod	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	final	final	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
@@ -665,8 +666,8 @@
 32	complet	complet	ADJ	_	Gender=Masc	31	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 33	jusqu'	jusque	ADV	_	_	34	mod	_	SpaceAfter=No
 34-35	au	_	_	_	_	_	_	_	SpaceAfter=No
-34	à	à	ADP	_	_	32	mod	_	_
-35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	unk@scrap	_	HasSpokenGender=OnlySingExceptWithLiaison
+34	à	à	ADP	_	_	32	mod	_	SpaceAfter=No
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	comp:obj@scrap	_	_
 36	,	,	PUNCT	_	_	37	punct	_	_
 37	pendant	pendant	ADP	_	_	34	conj:dicto	_	_
 38	trois	trois	NUM	_	ExtPos=DET	39	det	_	Number[lex]=Plur
@@ -695,7 +696,7 @@
 16	jusqu'	jusque	ADV	_	_	17	mod	_	SpaceAfter=No
 17-18	au	_	_	_	_	_	_	_	_
 17	à	à	ADP	_	_	15	mod	_	_
-18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	lundi	lundi	NOUN	_	_	17	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -907,7 +908,7 @@
 12	genre	genre	NOUN	_	ExtPos=INTJ	13	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	10	dislocated:obj	_	_
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	bruit	bruit	NOUN	_	_	13	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 16	,	,	PUNCT	_	_	20	punct	_	_
 17	mais	mais	CCONJ	_	_	20	discourse	_	_
@@ -1006,7 +1007,7 @@
 4	mais	mais	CCONJ	_	_	10	cc	_	_
 5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	10	mod	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	final	final	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	euh	euh	INTJ	_	_	5	discourse	_	_
 9	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	10	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -1051,7 +1052,7 @@
 10	général	général	ADJ	_	Number=Sing	7	mod	_	Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc
 11-12	du	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	7	mod	_	_
-12	le	le	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	truc	truc	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 14	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	2	punct	_	_
@@ -1100,7 +1101,7 @@
 12	c'	ce	PRON	_	PronType=Dem	13	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	conj:dicto	_	HasSpokenGender=OnlySingExceptWithLiaison
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
 16	pizzas	pizza	NOUN	_	_	13	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Plur
 17	à	à	ADP	_	_	16	udep	_	_
 18	cinq	cinq	NUM	_	ExtPos=DET	19	det	_	Number[lex]=Plur

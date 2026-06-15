@@ -1,10 +1,11 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__1
 # speaker = L1
 # text = et du coup, tu l'as rencontrée quand ta demi-soeur ?
 1	et	et	CCONJ	_	_	8	cc	_	AlignBegin=278|AlignEnd=425
 2-3	du	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	8	discourse	_	AlignBegin=425|AlignEnd=571|wordform=du
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+2	de	de	ADP	_	_	8	discourse	_	AlignBegin=425|AlignEnd=571
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=425|AlignEnd=571
 4	coup	coup	NOUN	_	_	2	comp:obj	_	AlignBegin=571|AlignEnd=718|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	AlignBegin=718|AlignEnd=718
 6	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	AlignBegin=718|AlignEnd=864|Number[lex]=Sing|Person[lex]=2
@@ -135,7 +136,7 @@
 # text = et, mon père, euh, je pense qu'il avait organisé, euh, le voyage de ma soeur, euh, de la Martinique à, à ici.
 1	et	et	CCONJ	_	_	9	cc	_	AlignBegin=26796|AlignEnd=27122|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=27122|AlignEnd=27122
-3	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	AlignBegin=27122|AlignEnd=27448|HasSpokenGender=OnlySingExceptWithLiaison
+3	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	AlignBegin=27122|AlignEnd=27448|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 4	père	père	NOUN	_	_	9	dislocated:obj	_	AlignBegin=27448|AlignEnd=27773|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=27773|AlignEnd=27773
 6	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=27773|AlignEnd=28099|SpaceAfter=No
@@ -169,7 +170,7 @@
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__11
 # speaker = L2
 # text = parce que bon, bah, elle habite un peu loin, hein.
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=35710|AlignEnd=35849|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=35710|AlignEnd=35849|Automated=Yes|Coconstruct=mod::ParisStories_2022_9_demiSoeurMartiniquaise__10::9|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=35849|AlignEnd=35989|InIdiom=Yes
 3	bon	bon	INTJ	_	_	8	discourse	_	AlignBegin=35989|AlignEnd=36128|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=36128|AlignEnd=36128
@@ -225,8 +226,8 @@
 # text = mais du coup, après bah, on va dire, c'était spécial un peu comme rencontre, parce que, bah, forcément, j'ai six ans donc, euh je me la suis imaginée, on va dire.
 1	mais	mais	CCONJ	_	_	14	cc	_	AlignBegin=45944|AlignEnd=46252
 2-3	du	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	14	discourse	_	AlignBegin=46252|AlignEnd=46560|wordform=du
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+2	de	de	ADP	_	_	14	discourse	_	AlignBegin=46252|AlignEnd=46560
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=46252|AlignEnd=46560
 4	coup	coup	NOUN	_	_	2	comp:obj	_	AlignBegin=46560|AlignEnd=46867|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	AlignBegin=46867|AlignEnd=46867
 6	après	après	ADV	_	_	14	mod	_	AlignBegin=46867|AlignEnd=47175
@@ -331,8 +332,8 @@
 6	petit	petit	ADJ	_	Gender=Masc	7	mod	_	AlignBegin=71140|AlignEnd=71421|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 7	peu	peu	NOUN	_	_	4	mod	_	AlignBegin=71421|AlignEnd=71702|Gender[lex]=Masc|Number[ctxt]=Sing
 8-9	au	_	_	_	_	_	_	_	_
-8	à	à	ADP	_	_	3	mod	_	AlignBegin=71702|AlignEnd=71983|wordform=au
-9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+8	à	à	ADP	_	_	3	mod	_	AlignBegin=71702|AlignEnd=71983
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=71702|AlignEnd=71983
 10	téléphone	téléphone	NOUN	_	_	8	comp:obj	_	AlignBegin=71983|AlignEnd=72264|Gender[lex]=Masc|Number[ctxt]=Sing
 11	et	et	CCONJ	_	_	12	cc	_	AlignBegin=72266|AlignEnd=72471
 12	tout	tout	ADV	_	_	4	conj:coord	_	AlignBegin=72471|AlignEnd=72675|SpaceAfter=No
@@ -377,7 +378,7 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=80277|AlignEnd=80431|HasSpokenGender=OnlySingExceptWithLiaison
 7	lien	lien	NOUN	_	_	4	comp:obj	_	AlignBegin=80431|AlignEnd=80585|Gender[lex]=Masc|Number[ctxt]=Sing
 8	que	que	PRON	_	PronType=Rel	11	comp:obj	_	AlignBegin=80613|AlignEnd=80912
-9	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	10	det	_	AlignBegin=80912|AlignEnd=81212|HasSpokenGender=OnlySingExceptWithLiaison
+9	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	10	det	_	AlignBegin=80912|AlignEnd=81212|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 10	père	père	NOUN	_	Shared=Yes	11	subj	_	AlignBegin=81212|AlignEnd=81511|Gender[lex]=Masc|Number[ctxt]=Sing
 11	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	AlignBegin=81511|AlignEnd=81811|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=81811|AlignEnd=81811
@@ -553,16 +554,16 @@
 32	euh	euh	INTJ	_	_	30	discourse	_	AlignBegin=123127|AlignEnd=123325|SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	AlignBegin=123325|AlignEnd=123325
 34-35	du	_	_	_	_	_	_	_	_
-34	de	de	ADP	_	_	30	udep	_	AlignBegin=123331|AlignEnd=123560|wordform=du
-35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+34	de	de	ADP	_	_	30	udep	_	AlignBegin=123331|AlignEnd=123560
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	AlignBegin=123331|AlignEnd=123560
 36	visage	visage	NOUN	_	_	34	comp:obj	_	AlignBegin=123560|AlignEnd=123789|Gender[lex]=Masc|Number[ctxt]=Sing
 37	de	de	ADP	_	_	36	udep	_	AlignBegin=123789|AlignEnd=124018
-38	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	39	det	_	AlignBegin=124018|AlignEnd=124247|HasSpokenGender=OnlySingExceptWithLiaison
+38	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	39	det	_	AlignBegin=124018|AlignEnd=124247|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 39	père	père	NOUN	_	_	37	comp:obj	_	AlignBegin=124247|AlignEnd=124476|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 40	,	,	PUNCT	_	_	41	punct	_	AlignBegin=124476|AlignEnd=124476
 41-42	du	_	_	_	_	_	_	_	_
-41	de	de	ADP	_	_	34	conj:coord	_	AlignBegin=124476|AlignEnd=124705|wordform=du
-42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+41	de	de	ADP	_	_	34	conj:coord	_	AlignBegin=124476|AlignEnd=124705
+42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	AlignBegin=124476|AlignEnd=124705
 43	mien	sien	PRON	_	PronType=Prs	41	comp:obj	_	AlignBegin=124705|AlignEnd=124934|SpaceAfter=No
 44	.	.	PUNCT	_	_	4	punct	_	AlignBegin=124934|AlignEnd=124934
 

@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2020_galereNice_1
 # text = donc euh j'étais avec ma meilleure amie à Nice.
 1	donc	donc	ADV	_	_	4	mod	_	_
@@ -206,7 +207,7 @@
 4	pas	pas	ADV	_	Polarity=Neg	0	root	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	ExtPos=ADV	4	mod	_	Idiom=Yes
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	InIdiom=Yes
 7	tout	tout	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -249,7 +250,7 @@
 7	jour	jour	NOUN	_	_	3	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	7	mod	_	_
-9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	concours	concours	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -306,7 +307,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	8	discourse	_	_
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	coup	coup	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 6	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	8	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 7	se	soi	PRON	_	PronType=Prs|Reflex=Yes	8	comp:obl	_	Person[lex]=3
@@ -368,7 +369,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	9	discourse	_	_
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	coup	coup	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	9	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -394,7 +395,7 @@
 # sent_id = ParisStories_2020_galereNice_29
 # text = on on achète notre petit goûter, tout ça.
 1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	3	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-2	on	on	PRON	_	PronType=Ind	1	conj:dicto	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+2	on	on	PRON	_	PronType=Ind	1	repair	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 3	achète	acheter	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 4	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 5	petit	petit	ADJ	_	Gender=Masc	6	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
@@ -484,7 +485,7 @@
 8	promenade	promenade	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	mod	_	_
-10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	Anglais	anglais	PROPN	_	Number=Plur	9	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -530,7 +531,7 @@
 11	promenade	promenade	NOUN	_	_	9	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	11	mod	_	_
-13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	Anglais	anglais	PROPN	_	Number=Plur	12	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	voilà	voilà	VERB	_	ExtPos=INTJ	7	discourse	_	SpaceAfter=No
@@ -561,7 +562,7 @@
 5	route	route	NOUN	_	_	3	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
 6-7	des	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	5	mod	_	_
-7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	Anglais	anglais	NOUN	_	Number=Plur	6	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -578,7 +579,7 @@
 9	promenade	promenade	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	9	mod	_	_
-11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	Anglais	anglais	NOUN	_	Number=Plur	10	comp:obj	_	Gender[lex]=Masc
 13	c'	ce	PRON	_	PronType=Dem	14	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_

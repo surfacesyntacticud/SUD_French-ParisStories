@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2020_concoursInstagram_1
 # text = je t'ai envoyé le lien de, d'Insta, où je t'ai dit, euh, il y a un concours d'Amir sur la chanson Les rues de ma peine.
 1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Person[lex]=1
@@ -77,7 +78,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	8	discourse	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	coup	coup	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	de	de	ADP	_	_	0	root	_	_
@@ -106,7 +107,7 @@
 31	,	,	PUNCT	_	_	32	punct	_	_
 32	parce	parce	ADV	_	ExtPos=SCONJ	28	mod	_	Idiom=Yes
 33	que	que	SCONJ	_	_	32	unk	_	InIdiom=Yes
-34	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	35	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+34	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	35	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 35	clip	clip	NOUN	_	_	37	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 36	c'	ce	PRON	_	PronType=Dem	37	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 37	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	comp:obj	_	_
@@ -162,14 +163,14 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	10	discourse	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	coup	coup	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	10	subj	_	Person[lex]=3
 10	disait	dire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
-11-12	aux	_	_	_	_	_	_	_	SpaceAfter=No
-11	à	à	ADP	_	_	10	comp:obl	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	unk@scrap	_	HasSpokenGender=OnlySingExceptWithLiaison
+11-12	aux	_	_	_	_	_	_	_	_
+11	à	à	ADP	_	_	10	comp:obl	_	SpaceAfter=No
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	comp:obj@scrap	_	_
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	à	à	ADP	_	_	11	conj:dicto	_	_
 15	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -184,7 +185,7 @@
 24	,	,	PUNCT	_	_	25	punct	_	_
 25-26	du	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	29	discourse	_	_
-26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	coup	coup	NOUN	_	_	25	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	d'	de	ADP	_	_	23	conj:dicto	_	SpaceAfter=No
@@ -202,7 +203,7 @@
 41	,	,	PUNCT	_	_	40	punct	_	_
 42-43	du	_	_	_	_	_	_	_	_
 42	de	de	ADP	_	_	48	discourse	_	_
-43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	coup	coup	NOUN	_	_	42	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 45	,	,	PUNCT	_	_	42	punct	_	_
 46	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	48	subj	_	Number[lex]=Sing|Person[lex]=1
@@ -244,7 +245,7 @@
 3	oui	oui	INTJ	_	_	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	évidemment	évidemment	ADV	_	_	6	discourse	_	_
-6	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
+6	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::ParisStories_2020_concoursInstagram_11::1|Idiom=Yes|SingleSpeaker=Yes
 7	que	que	SCONJ	_	_	6	unk	_	InIdiom=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	moi	moi	PRON	_	Emph=Yes|PronType=Prs	12	dislocated:subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
@@ -273,7 +274,7 @@
 # text = du coup, j'ai accepté de le mettre sur mon Insta.
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	6	discourse	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
@@ -292,7 +293,7 @@
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	soi-disant	soi-disant	ADV	_	_	4	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
+4	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::ParisStories_2020_concoursInstagram_14::5|Idiom=Yes|SingleSpeaker=Yes
 5	que	que	SCONJ	_	_	4	unk	_	InIdiom=Yes
 6	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 7	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
@@ -301,7 +302,7 @@
 10	chance	chance	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 11-12	aux	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	7	mod	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	concours	concours	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -319,7 +320,7 @@
 # text = du coup, je t'ai filmée.
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	7	discourse	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=1
@@ -337,7 +338,7 @@
 5	vidéo	vidéo	NOUN	_	_	3	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	9	mod	_	_
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	moins	moins	ADV	_	_	6	comp:obj	_	_
 9	quinze	quinze	NUM	_	ExtPos=DET	10	det	_	Number[lex]=Plur
 10	fois	fois	NOUN	_	_	3	mod	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
@@ -352,7 +353,7 @@
 5	télé	télé	NOUN	_	_	1	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	5	mod	_	_
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	salon	salon	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -362,7 +363,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	au	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	19	mod	_	_
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	final	final	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	en	en	ADP	_	ExtPos=ADV	19	discourse	_	Idiom=Yes
@@ -400,7 +401,7 @@
 2	gagnant	gagnant	NOUN	_	_	8	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	mod	_	_
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	concours	concours	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	8	subj	_	Person[lex]=3
@@ -493,7 +494,7 @@
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	7	comp:obl	_	_
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	début	début	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -581,7 +582,7 @@
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
 4	très	très	ADV	_	_	5	mod	_	_
 5	clair	clair	ADJ	_	_	2	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-6	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 7	truc	truc	NOUN	_	_	2	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -600,7 +601,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	13	discourse	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	coup	coup	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
@@ -628,7 +629,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	12	discourse	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	coup	coup	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No

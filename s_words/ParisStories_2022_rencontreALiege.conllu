@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2022_8_rencontreALiège__1
 # speaker = 0
 # text = oui, c'est ça.
@@ -25,8 +26,8 @@
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	AlignBegin=3246|AlignEnd=3427|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	était	être	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=3427|AlignEnd=3608|Number[ctxt]=Sing|Person[ctxt]=3
 3-4	au	_	_	_	_	_	_	_	_
-3	à	à	ADP	_	_	2	comp:obl	_	AlignBegin=3608|AlignEnd=3789|wordform=au
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	à	à	ADP	_	_	2	comp:obl	_	AlignBegin=3608|AlignEnd=3789
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=3608|AlignEnd=3789
 5	tout	tout	ADJ	_	Gender=Masc	6	mod	_	AlignBegin=3789|AlignEnd=3970|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 6	début	début	NOUN	_	_	3	comp:obj	_	AlignBegin=3970|AlignEnd=4151|Gender[lex]=Masc|Number[ctxt]=Sing
 7	de	de	ADP	_	_	6	udep	_	AlignBegin=4151|AlignEnd=4332
@@ -315,11 +316,11 @@
 # sent_id = ParisStories_2022_8_rencontreALiège__16
 # speaker = 0
 # text = parce que du coup Marine, en fait, elle est, elle est originaire de Monaco, hein ?
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=66336|AlignEnd=66545|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=66336|AlignEnd=66545|Automated=Yes|Coconstruct=mod::ParisStories_2022_8_rencontreALiège__15::9|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=66545|AlignEnd=66753|InIdiom=Yes
 3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	12	discourse	_	AlignBegin=66753|AlignEnd=66962|wordform=du
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	de	de	ADP	_	_	12	discourse	_	AlignBegin=66753|AlignEnd=66962
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=66753|AlignEnd=66962
 5	coup	coup	NOUN	_	_	3	comp:obj	_	AlignBegin=66962|AlignEnd=67170|Gender[lex]=Masc|Number[ctxt]=Sing
 6	Marine	Marine	PROPN	_	_	12	dislocated:subj	_	AlignBegin=67170|AlignEnd=67379|Gender[lex]=Unknown|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=67379|AlignEnd=67379
@@ -349,7 +350,7 @@
 6	parlait	parler	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=71247|AlignEnd=71579|Number[ctxt]=Sing|Person[ctxt]=3
 7	de	de	ADP	_	_	6	comp:obl	_	AlignBegin=71579|AlignEnd=71911
 8	tout	tout	ADJ	_	Gender=Masc	10	mod	_	AlignBegin=71911|AlignEnd=72243|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-9	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	10	det	_	AlignBegin=72243|AlignEnd=72575|HasSpokenGender=OnlySingExceptWithLiaison
+9	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	10	det	_	AlignBegin=72243|AlignEnd=72575|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 10	voyage	voyage	NOUN	_	_	7	comp:obj	_	AlignBegin=72575|AlignEnd=72907|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	AlignBegin=72907|AlignEnd=72907
 
@@ -466,8 +467,8 @@
 # speaker = 0
 # text = du coup, c'est la première fois de ma vie que je faisais ça.
 1-2	du	_	_	_	_	_	_	_	_
-1	de	de	ADP	_	_	6	discourse	_	AlignBegin=92195|AlignEnd=92341|wordform=du
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	de	de	ADP	_	_	6	discourse	_	AlignBegin=92195|AlignEnd=92341
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=92195|AlignEnd=92341
 3	coup	coup	NOUN	_	_	1	comp:obj	_	AlignBegin=92341|AlignEnd=92487|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=92487|AlignEnd=92487
 5	c'	ce	PRON	_	PronType=Dem	6	subj@expl	_	AlignBegin=92487|AlignEnd=92633|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
@@ -594,7 +595,7 @@
 # sent_id = ParisStories_2022_8_rencontreALiège__31
 # speaker = 0
 # text = parce qu'en fait, on a fait que parler de plein de choses euh, bah, de, de nos écoles, dans lesquelles on était avant, euh, Liège euh, l'orthophonie.
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=112342|AlignEnd=112503|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=112342|AlignEnd=112503|Automated=Yes|Coconstruct=mod::ParisStories_2022_8_rencontreALiège__30::13|Idiom=Yes|SingleSpeaker=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	AlignBegin=112503|AlignEnd=112664|InIdiom=Yes|SpaceAfter=No
 3	en	en	ADP	_	ExtPos=ADV	7	discourse	_	AlignBegin=112664|AlignEnd=112825|Idiom=Yes
 4	fait	fait	NOUN	_	_	3	comp:obj	_	AlignBegin=112825|AlignEnd=112986|Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No

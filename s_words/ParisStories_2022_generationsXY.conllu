@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2022_2_générationsXY__1
 # speaker = L1
 # text = Nicolas peut-être qui regardait.
@@ -15,8 +16,8 @@
 3	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=2226|AlignEnd=2403|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=2403|AlignEnd=2403
 5-6	du	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	12	discourse	_	AlignBegin=2403|AlignEnd=2579|wordform=du
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	de	de	ADP	_	_	12	discourse	_	AlignBegin=2403|AlignEnd=2579
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=2403|AlignEnd=2579
 7	coup	coup	NOUN	_	_	5	comp:obj	_	AlignBegin=2579|AlignEnd=2755|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	AlignBegin=2755|AlignEnd=2755
 9	moi	moi	PRON	_	Emph=Yes|PronType=Prs	12	dislocated:subj	_	AlignBegin=2758|AlignEnd=2912|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
@@ -97,7 +98,7 @@
 # sent_id = ParisStories_2022_2_générationsXY__8
 # speaker = L1
 # text = parce qu'il se passait des trucs bizarres.
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=10464|AlignEnd=10598|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=10464|AlignEnd=10598|Automated=Yes|Coconstruct=mod::ParisStories_2022_2_générationsXY__7::2|Idiom=Yes|SingleSpeaker=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	AlignBegin=10598|AlignEnd=10731|InIdiom=Yes|SpaceAfter=No
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	subj	_	AlignBegin=10731|AlignEnd=10865|Person[lex]=3
 4	se	soi	PRON	_	PronType=Prs|Reflex=Yes	5	comp@expl	_	AlignBegin=10865|AlignEnd=10999|Person[lex]=3
@@ -133,8 +134,8 @@
 10	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	11	comp:obj	_	AlignBegin=13198|AlignEnd=13441|Person[lex]=3|SpaceAfter=No
 11	opérait	opérer	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	5	conj:dicto	_	AlignBegin=13441|AlignEnd=13683|Number[ctxt]=Sing|Person[ctxt]=3
 12-13	du	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	11	comp:obl	_	AlignBegin=13683|AlignEnd=13926|wordform=du
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+12	de	de	ADP	_	_	11	comp:obl	_	AlignBegin=13683|AlignEnd=13926
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=13683|AlignEnd=13926
 14	cerveau	cerveau	NOUN	_	_	12	comp:obj	_	AlignBegin=13926|AlignEnd=14169|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	_	AlignBegin=14169|AlignEnd=14169
 
@@ -201,8 +202,8 @@
 5	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=19843|AlignEnd=19997|Person[ctxt]=1
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	AlignBegin=19997|AlignEnd=20151
 7-8	du	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	6	mod	_	AlignBegin=20151|AlignEnd=20306|wordform=du
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	de	de	ADP	_	_	6	mod	_	AlignBegin=20151|AlignEnd=20306
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=20151|AlignEnd=20306
 9	tout	tout	NOUN	_	_	7	comp:obj	_	AlignBegin=20306|AlignEnd=20460|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	AlignBegin=20460|AlignEnd=20460
 
@@ -410,7 +411,7 @@
 # sent_id = ParisStories_2022_2_générationsXY__29
 # speaker = L2
 # text = parce que elle était pas censée faire comme moi.
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=47092|AlignEnd=47403|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=47092|AlignEnd=47403|Automated=Yes|Coconstruct=mod::ParisStories_2022_2_générationsXY__28::26|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=47403|AlignEnd=47714|InIdiom=Yes
 3	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	4	subj	_	AlignBegin=48379|AlignEnd=48555|Person[lex]=3
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	comp:obj	_	AlignBegin=48555|AlignEnd=48731
@@ -614,7 +615,7 @@
 # sent_id = ParisStories_2022_2_générationsXY__50
 # speaker = L1
 # text = parce que je pensais qu'on était pas Z.
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=66699|AlignEnd=66841|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=66699|AlignEnd=66841|Automated=Yes|Coconstruct=mod::ParisStories_2022_2_générationsXY__49::1|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=66841|AlignEnd=66983|InIdiom=Yes
 3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	AlignBegin=66983|AlignEnd=67125|Number[lex]=Sing|Person[lex]=1
 4	pensais	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	1	comp:obj	_	AlignBegin=67125|AlignEnd=67268|Person[ctxt]=1
@@ -662,7 +663,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=71483|AlignEnd=71483
 3	ok	ok	ADV	_	_	10	discourse	_	AlignBegin=71483|AlignEnd=71640|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=71640|AlignEnd=71640
-5	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=71640|AlignEnd=71796|Idiom=Yes
+5	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=71640|AlignEnd=71796|Automated=Yes|Coconstruct=mod::ParisStories_2022_2_générationsXY__52::6|Idiom=Yes
 6	que	que	SCONJ	_	_	5	unk	_	AlignBegin=71796|AlignEnd=71953|InIdiom=Yes
 7	moi	moi	PRON	_	Emph=Yes|PronType=Prs	10	dislocated:subj	_	AlignBegin=71953|AlignEnd=72109|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=72109|AlignEnd=72109
@@ -684,8 +685,8 @@
 24	Z	Z	PROPN	_	_	20	comp:obj	_	AlignBegin=74629|AlignEnd=74909|Gender[lex]=Unknown|SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	AlignBegin=74909|AlignEnd=74909
 26-27	au	_	_	_	_	_	_	_	_
-26	à	à	ADP	_	_	15	mod	_	AlignBegin=74909|AlignEnd=75190|wordform=au
-27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+26	à	à	ADP	_	_	15	mod	_	AlignBegin=74909|AlignEnd=75190
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	AlignBegin=74909|AlignEnd=75190
 28	final	final	NOUN	_	_	26	comp:obj	_	AlignBegin=75190|AlignEnd=75471|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 29	.	.	PUNCT	_	_	5	punct	_	AlignBegin=75471|AlignEnd=75471
 
@@ -735,7 +736,7 @@
 # sent_id = ParisStories_2022_2_générationsXY__57
 # speaker = L1
 # text = parce que moi, je parle de ça.
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=79422|AlignEnd=79566|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=79422|AlignEnd=79566|Automated=Yes|Coconstruct=mod::ParisStories_2022_2_générationsXY__56::1|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=79566|AlignEnd=79711|InIdiom=Yes
 3	moi	moi	PRON	_	Emph=Yes|PronType=Prs	6	dislocated:subj	_	AlignBegin=79711|AlignEnd=79855|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=79855|AlignEnd=79855
@@ -755,8 +756,8 @@
 5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	AlignBegin=80808|AlignEnd=80933|Number[lex]=Sing|Person[lex]=1
 6	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	AlignBegin=80933|AlignEnd=81059|Person[ctxt]=1
 7-8	aux	_	_	_	_	_	_	_	_
-7	à	au	ADP	_	_	6	comp:obl	_	AlignBegin=81059|AlignEnd=81184|wordform=aux
-8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+7	à	à	ADP	_	_	6	comp:obl	_	AlignBegin=81059|AlignEnd=81184
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	AlignBegin=81059|AlignEnd=81184
 9	filles	fille	NOUN	_	_	7	comp:obj	_	AlignBegin=81184|AlignEnd=81309|Gender[lex]=Fem|Number[ctxt]=Plur
 10	que	que	PRON	_	PronType=Rel	12	comp:obj	_	AlignBegin=81309|AlignEnd=81434
 11	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	subj	_	AlignBegin=81434|AlignEnd=81559|Number[lex]=Sing|Person[lex]=1
@@ -886,8 +887,8 @@
 14	génération	génération	NOUN	_	_	11	comp:obj	_	AlignBegin=95244|AlignEnd=95431|Gender[lex]=Fem|Number[ctxt]=Sing
 15	jusqu'	jusque	ADP	_	_	10	mod	_	AlignBegin=95431|AlignEnd=95819|SpaceAfter=No
 16-17	aux	_	_	_	_	_	_	_	_
-16	à	à	ADP	_	_	15	comp:obj	_	AlignBegin=95819|AlignEnd=96206|wordform=aux
-17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+16	à	à	ADP	_	_	15	comp:obj	_	AlignBegin=95819|AlignEnd=96206
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	AlignBegin=95819|AlignEnd=96206
 18	personnes	personne	NOUN	_	_	16	comp:obj	_	AlignBegin=96206|AlignEnd=96594|Gender[lex]=Fem|Number[ctxt]=Plur
 19	qui	qui	PRON	_	PronType=Rel	20	subj	_	AlignBegin=96594|AlignEnd=96808
 20	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	AlignBegin=96808|AlignEnd=97023|SpaceAfter=No
@@ -911,7 +912,7 @@
 # sent_id = ParisStories_2022_2_générationsXY__68
 # speaker = L1
 # text = parce qu'en fait, pour moi, le truc qui fait une génération, c'est vraiment, genre, euh.
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=99885|AlignEnd=100067|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=99885|AlignEnd=100067|Automated=Yes|Coconstruct=mod::ParisStories_2022_2_générationsXY__67::1|Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	AlignBegin=100067|AlignEnd=100250|InIdiom=Yes|SpaceAfter=No
 3	en	en	ADP	_	ExtPos=ADV	17	discourse	_	AlignBegin=100250|AlignEnd=100432|Idiom=Yes
 4	fait	fait	NOUN	_	_	3	comp:obj	_	AlignBegin=100432|AlignEnd=100614|Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No

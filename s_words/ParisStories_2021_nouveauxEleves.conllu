@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2021_nouveauxEleves_1
 # text = et, euh, il faut savoir que c'est un lycée qui faisait aussi collège.
 1	et	et	CCONJ	_	_	6	cc	_	SpaceAfter=No
@@ -24,8 +25,8 @@
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 3	plupart	plupart	NOUN	_	Shared=No	7	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 4-5	des	_	_	_	_	_	_	_	_
-4	de	des	ADP	_	_	3	mod	_	wordform=des
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	LiaisonAfter=Yes
+4	de	de	ADP	_	_	3	mod	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	élèves	élève	NOUN	_	Shared=Yes	4	comp:obj	_	Gender[lex]=Unknown|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	déjà	déjà	ADV	_	_	7	mod	_	_
@@ -45,8 +46,8 @@
 # sent_id = ParisStories_2021_nouveauxEleves_3
 # text = du coup, on était que quatre ou cinq, euh, réels nouveaux, à vraiment, euh, ne connaître, euh, ni, euh, professeurs, ni élèves.
 1-2	du	_	_	_	_	_	_	_	_
-1	de	de	ADP	_	_	6	discourse	_	wordform=du
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	de	de	ADP	_	_	6	discourse	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -181,8 +182,8 @@
 8	donc	donc	ADV	_	_	3	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10-11	du	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	16	discourse	_	wordform=du
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+10	de	de	ADP	_	_	16	discourse	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	coup	coup	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	_
 14	pour	pour	ADP	_	_	3	mod	_	_
@@ -190,14 +191,12 @@
 16	poser	poser	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=NoRaising
 17	ces	ce	DET	_	Number=Plur|PronType=Dem	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 18	questions	question	NOUN	_	_	16	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
-19	,	,	PUNCT	_	_	23	punct	_	_
-20-21	auxquelles	_	_	_	_	_	_	_	_
-20	à	à	ADP	_	_	24	comp:obl	_	_
-21	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	20	comp:obj	_	_
-22	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	23	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-23	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
-24	répondu	répondre	VERB	_	VerbForm=Part|Voice=Act	23	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
-25	.	.	PUNCT	_	_	3	punct	_	_
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	auxquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	23	comp:obl	_	_
+21	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	22	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+22	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
+23	répondu	répondre	VERB	_	VerbForm=Part|Voice=Act	22	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+24	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_nouveauxEleves_10
 # text = et, je lui ai retourné la question.
@@ -228,8 +227,8 @@
 13	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	9	punct	_	_
 15-16	au	_	_	_	_	_	_	_	_
-15	à	à	ADP	_	_	20	mod	_	wordform=au
-16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+15	à	à	ADP	_	_	20	mod	_	_
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	contraire	contraire	NOUN	_	_	15	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs|Shared=No	20	subj	_	Person[lex]=3
 19	n'	ne	ADV	_	Polarity=Neg	20	mod	_	SpaceAfter=No
@@ -300,8 +299,8 @@
 1	donc	donc	ADV	_	_	17	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	17	discourse	_	wordform=du
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	de	de	ADP	_	_	17	discourse	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	coup	coup	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
@@ -464,8 +463,8 @@
 3	donc	donc	ADV	_	_	11	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5-6	du	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	11	discourse	_	wordform=du
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	de	de	ADP	_	_	11	discourse	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	coup	coup	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	11	subj	_	Person[lex]=3
@@ -492,8 +491,8 @@
 1	donc	donc	ADV	_	_	10	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	10	discourse	_	wordform=du
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	de	de	ADP	_	_	10	discourse	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	coup	coup	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
@@ -508,8 +507,8 @@
 # text = et au début il, il a pas trop compris.
 1	et	et	CCONJ	_	_	8	cc	_	_
 2-3	au	_	_	_	_	_	_	_	_
-2	à	à	ADP	_	_	8	mod	_	wordform=au
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+2	à	à	ADP	_	_	8	mod	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	début	début	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	8	subj	_	Person[lex]=3|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
@@ -554,8 +553,8 @@
 14	connaîtrais	connaître	VERB	_	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin	12	comp:obj	_	Person[ctxt]=1
 15	pas	pas	ADV	_	Polarity=Neg	14	mod	_	_
 16-17	du	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	ExtPos=ADV	15	mod	_	Idiom=Yes|wordform=du
-17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
+16	de	de	ADP	_	ExtPos=ADV	15	mod	_	Idiom=Yes
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	InIdiom=Yes
 18	tout	tout	NOUN	_	_	16	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 19	,	,	PUNCT	_	_	28	punct	_	_
 20	et	et	CCONJ	_	_	28	cc	_	_
@@ -579,8 +578,8 @@
 3	donc	donc	ADV	_	_	12	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5-6	du	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	12	discourse	_	wordform=du
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	de	de	ADP	_	_	12	discourse	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	coup	coup	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
@@ -596,8 +595,8 @@
 19	euh	euh	INTJ	_	_	21	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21-22	du	_	_	_	_	_	_	_	_
-21	de	de	ADP	_	_	16	mod	_	wordform=du
-22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+21	de	de	ADP	_	_	16	mod	_	_
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	style	style	NOUN	_	_	21	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 24	,	,	PUNCT	_	_	27	punct	_	_
 25	euh	euh	INTJ	_	_	27	discourse	_	SpaceAfter=No

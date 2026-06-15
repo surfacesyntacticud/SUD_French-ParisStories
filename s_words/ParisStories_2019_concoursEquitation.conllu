@@ -1,9 +1,10 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2019_concoursEquitation_1
 # text = l'année de mon bac.
 1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 2	année	année	NOUN	_	_	0	root	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 3	de	de	ADP	_	_	2	udep	_	_
-4	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+4	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	5	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 5	bac	bac	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -15,7 +16,7 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=1
 6	passais	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
-7	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 8	bac	bac	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
@@ -52,11 +53,11 @@
 9	trois	trois	NUM	_	ExtPos=DET	10	mod	_	Number[lex]=Plur
 10	quarts	quart	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 11	de	de	ADP	_	_	10	udep	_	_
-12	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+12	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 13	temps	temps	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	7	mod	_	_
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	cheval	cheval	NOUN	_	Number=Sing	14	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 17	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -141,7 +142,7 @@
 9	mettais	mettre	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	6	comp:obj	_	Filler=mod|Person[ctxt]=1
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	9	comp:obl	_	_
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	dressage	dressage	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -196,7 +197,7 @@
 3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
 5	redécouvert	redécouvrir	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 7	cheval	cheval	NOUN	_	Number=Sing	5	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -205,7 +206,7 @@
 1	donc	donc	ADV	_	_	8	mod	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	discourse	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	8	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -261,7 +262,7 @@
 11	tout	tout	ADV	_	_	12	mod	_	_
 12-13	au	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	10	mod	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	long	long	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 15	de	de	ADP	_	_	14	udep	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
@@ -283,7 +284,7 @@
 11	bout	bout	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	11	udep	_	_
-13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	doigts	doigt	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 15	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -338,13 +339,13 @@
 9	Pirates	pirate	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|Title=Yes
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	9	udep	_	InTitle=Yes
-11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|InTitle=Yes
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	InTitle=Yes
 12	Caraïbes	Caraïbes	PROPN	_	Number=Plur	10	comp:obj	_	Gender[lex]=Fem|InTitle=Yes|SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_27
 # text = parce que déjà les, les musiques, enfin c'est…
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::ParisStories_2019_concoursEquitation_26::5|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	déjà	déjà	ADV	_	_	11	discourse	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
@@ -388,7 +389,7 @@
 1	donc	donc	ADV	_	_	6	mod	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	discourse	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -397,7 +398,7 @@
 9	Pirates	pirate	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|Title=Yes
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	9	udep	_	InTitle=Yes
-11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|InTitle=Yes
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	InTitle=Yes
 12	Caraïbes	Caraïbes	PROPN	_	Number=Plur	10	comp:obj	_	Gender[lex]=Fem|InTitle=Yes|SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -416,7 +417,7 @@
 
 # sent_id = ParisStories_2019_concoursEquitation_33
 # text = parce qu'on a pas le droit d'avoir, euh, de prendre une musique et de la laisser, euh, pendant que tu fais ta truc, ta, ta reprise, c'est interdit !
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::ParisStories_2019_concoursEquitation_32::2|Idiom=Yes|SingleSpeaker=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	4	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
@@ -516,7 +517,7 @@
 1	donc	donc	ADV	_	_	7	mod	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	discourse	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs|Shared=No	7	subj	_	Person[lex]=3
@@ -532,51 +533,48 @@
 16	adapté	adapter	VERB	_	VerbForm=Part	15	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 17-18	au	_	_	_	_	_	_	_	_
 17	à	à	ADP	_	_	16	mod	_	_
-18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	cheval	cheval	NOUN	_	Number=Sing	17	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No
 20	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_37
-# text = c'est à dire que, te déguiser en pirate c'est bien, mais quand il faut que tu accompagnes, enfin, pour que tu mettes ton cheval avec ça, ça c'est assez compliqué.
-1	c'	ce	PRON	_	PronType=Dem	2	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	à	à	ADP	_	_	2	comp:pred	_	_
-4	dire	dire	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=NoRaising
-5	que	que	SCONJ	_	_	4	comp:obj	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	12	punct	_	_
-7	te	toi	PRON	_	Case=Acc|Emph=No|PronType=Prs	8	comp:obj	_	Number[lex]=Sing|Person[lex]=2
-8	déguiser	déguiser	VERB	_	VerbForm=Inf	12	dislocated:subj	_	Subject=NoRaising
-9	en	en	ADP	_	_	8	mod	_	_
-10	pirate	pirate	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-11	c'	ce	PRON	_	PronType=Dem	12	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-12	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
-13	bien	bien	ADV	_	_	12	mod	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	36	punct	_	_
-15	mais	mais	CCONJ	_	_	36	cc	_	_
-16	quand	quand	SCONJ	_	_	36	mod	_	_
-17	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	18	subj@expl	_	Person[lex]=3
-18	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	16	comp:obj	_	Person[ctxt]=3
-19	que	que	SCONJ	_	_	18	comp:obj	_	_
-20	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	21	subj	_	Number[lex]=Sing|Person[lex]=2
-21	accompagnes	accompagner	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	19	comp:obj	_	Person[ctxt]=2|SpaceAfter=No
-22	,	,	PUNCT	_	_	25	punct	_	_
-23	enfin	enfin	ADV	_	ExtPos=INTJ	25	discourse	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	23	punct	_	_
-25	pour	pour	ADP	_	ExtPos=ADV	21	mod	_	Idiom=Yes
-26	que	que	SCONJ	_	_	25	unk	_	InIdiom=Yes
-27	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	28	subj	_	Number[lex]=Sing|Person[lex]=2
-28	mettes	mettre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	25	comp:obj	_	Person[ctxt]=2
-29	ton	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-30	cheval	cheval	NOUN	_	Number=Sing	28	comp:obj	_	Gender[lex]=Masc
-31	avec	avec	ADP	_	_	30	udep	_	_
-32	ça	ça	PRON	_	PronType=Dem	31	comp:obj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-33	,	,	PUNCT	_	_	16	punct	_	_
-34	ça	ça	PRON	_	PronType=Dem	36	dislocated:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-35	c'	ce	PRON	_	PronType=Dem	36	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-36	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj:coord	_	_
-37	assez	assez	ADV	_	_	38	mod	_	_
-38	compliqué	compliquer	VERB	_	VerbForm=Part	36	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
-39	.	.	PUNCT	_	_	2	punct	_	_
+# text = c'est-à-dire que, te déguiser en pirate c'est bien, mais quand il faut que tu accompagnes, enfin, pour que tu mettes ton cheval avec ça, ça c'est assez compliqué.
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	9	cc	_	Idiom=Yes
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	te	toi	PRON	_	Case=Acc|Emph=No|PronType=Prs	5	comp:obj	_	Number[lex]=Sing|Person[lex]=2
+5	déguiser	déguiser	VERB	_	VerbForm=Inf	9	dislocated:subj	_	Subject=NoRaising
+6	en	en	ADP	_	_	5	mod	_	_
+7	pirate	pirate	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+8	c'	ce	PRON	_	PronType=Dem	9	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+9	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	bien	bien	ADV	_	_	9	mod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	mais	mais	CCONJ	_	_	33	cc	_	_
+13	quand	quand	SCONJ	_	_	33	mod	_	_
+14	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	15	subj@expl	_	Person[lex]=3
+15	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	13	comp:obj	_	Person[ctxt]=3
+16	que	que	SCONJ	_	_	15	comp:obj	_	_
+17	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	subj	_	Number[lex]=Sing|Person[lex]=2
+18	accompagnes	accompagner	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	16	comp:obj	_	Person[ctxt]=2|SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	enfin	enfin	ADV	_	ExtPos=INTJ	22	discourse	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	pour	pour	ADP	_	ExtPos=ADV	18	mod	_	Idiom=Yes
+23	que	que	SCONJ	_	_	22	unk	_	InIdiom=Yes
+24	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	25	subj	_	Number[lex]=Sing|Person[lex]=2
+25	mettes	mettre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	22	comp:obj	_	Person[ctxt]=2
+26	ton	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	27	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
+27	cheval	cheval	NOUN	_	Number=Sing	25	comp:obj	_	Gender[lex]=Masc
+28	avec	avec	ADP	_	_	27	udep	_	_
+29	ça	ça	PRON	_	PronType=Dem	28	comp:obj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+30	,	,	PUNCT	_	_	13	punct	_	_
+31	ça	ça	PRON	_	PronType=Dem	33	dislocated:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+32	c'	ce	PRON	_	PronType=Dem	33	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+33	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj:coord	_	_
+34	assez	assez	ADV	_	_	35	mod	_	_
+35	compliqué	compliquer	VERB	_	VerbForm=Part	33	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+36	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_38
 # text = donc moi en fait, moi je crois ce que j'avais fait, j'avait acheté un, il y avait un genre de, c'est un chapeau en mousse de pirate qu'on lui a collé sur la tête.
@@ -647,7 +645,7 @@
 19	perles	perle	NOUN	_	_	17	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 20-21	au	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	_	19	udep	_	_
-21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	bout	bout	NOUN	_	_	20	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -876,7 +874,7 @@
 1	donc	donc	ADV	_	_	11	mod	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	discourse	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	bah	bah	INTJ	_	_	1	discourse	_	SpaceAfter=No

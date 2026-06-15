@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2021_pireSoireeHorrible_1
 # speaker = L2
 # text = mais euh, quand tu l'as rencontré XXX, c'était comment?
@@ -119,8 +120,8 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	et	et	CCONJ	_	_	1	conj:dicto	_	_
 6-7	au	_	_	_	_	_	_	_	_
-6	à	à	ADP	_	_	13	mod	_	wordform=au
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	à	à	ADP	_	_	13	mod	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	bout	bout	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 9	d'	de	ADP	_	_	8	mod	_	SpaceAfter=No
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -210,7 +211,7 @@
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	c'	ce	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+8	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	9	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 9	mec	mec	NOUN	_	_	7	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -316,29 +317,29 @@
 # speaker = L1
 # text = du coup, je l'ai rencontré pour la première fois, genre, il est venu nous chercher en voiture.
 1-2	du	_	_	_	_	_	_	_	_
-1	de	de	ADP	_	_	7	discourse	_	wordform=du
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	de	de	ADP	_	_	17	discourse	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=1
 6	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	8	comp:obj	_	Person[lex]=3|SpaceAfter=No
-7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	mod	_	_
 8	rencontré	rencontrer	VERB	_	VerbForm=Part|Voice=Act	7	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-9	pour	pour	ADP	_	_	7	mod	_	_
+9	pour	pour	ADP	_	_	8	mod	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	première	premier	ADJ	_	Gender=Fem	12	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 12	fois	fois	NOUN	_	_	9	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-13	,	,	PUNCT	_	_	17	punct	_	_
+13	,	,	PUNCT	_	_	7	punct	_	_
 14	genre	genre	NOUN	_	ExtPos=INTJ	17	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	17	subj@pass	_	Person[lex]=3
-17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	dislocated:mod	_	_
+16	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	17	subj	_	Person[lex]=3
+17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	venu	venir	VERB	_	VerbForm=Part	17	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 19	nous	nous	PRON	_	Case=Acc|Emph=No|PronType=Prs	20	comp:obj	_	Number[lex]=Plur|Person[lex]=1
 20	chercher	chercher	VERB	_	VerbForm=Inf	18	comp:obj	_	Subject=SubjRaising
 21	en	en	ADP	_	_	18	mod	_	_
 22	voiture	voiture	NOUN	_	_	21	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-23	.	.	PUNCT	_	_	7	punct	_	_
+23	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_22
 # speaker = L1
@@ -361,7 +362,7 @@
 16	notes	note	NOUN	_	_	14	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 17	scolaires	scolaire	ADJ	_	_	16	mod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 18	de	de	ADP	_	_	16	udep	_	_
-19	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+19	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 20	frère	frère	NOUN	_	_	18	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 21	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -396,7 +397,7 @@
 # speaker = L1
 # text = donc mon frère, il y a un des deux , était déjà braqué.
 1	donc	donc	ADV	_	_	13	mod	_	_
-2	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+2	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 3	frère	frère	NOUN	_	_	13	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	7	subj@expl	_	Person[lex]=3
@@ -404,7 +405,7 @@
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis:parenth	_	_
 8	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	7	comp:obj	_	Person[lex]=3
 9-10	des	_	_	_	_	_	_	_	_
-9	de	des	ADP	_	_	8	udep	_	wordform=des
+9	de	de	ADP	_	_	8	udep	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	deux	deux	NUM	_	ExtPos=PRON	9	comp:obj	_	_
 12	,	,	PUNCT	_	_	7	punct	_	_
@@ -421,8 +422,8 @@
 3	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	4	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 4	débarque	débarquer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 5-6	au	_	_	_	_	_	_	_	_
-5	à	à	ADP	_	_	4	mod	_	wordform=au
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	à	à	ADP	_	_	4	mod	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	bowling	bowling	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -469,7 +470,7 @@
 10	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	là	là	ADV	_	_	10	comp:pred	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	_
-13	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+13	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 14	dieu	dieu	NOUN	_	ExtPos=INTJ	17	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 15	mais	mais	CCONJ	_	_	17	cc	_	_
 16	c'	ce	PRON	_	PronType=Dem	17	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
@@ -529,7 +530,7 @@
 11	d'	de	ADP	_	_	10	mod	_	SpaceAfter=No
 12	autre	autre	ADJ	_	_	11	comp:obj	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 13	que	que	SCONJ	_	_	12	mod	_	_
-14	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+14	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 15	père	père	NOUN	_	_	13	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 16	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -574,8 +575,8 @@
 # speaker = L1
 # text = au final, le bowling se passe.
 1-2	au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	8	mod	_	wordform=au
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	à	à	ADP	_	_	8	mod	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	final	final	NOUN	_	_	1	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -823,8 +824,8 @@
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 8	eau	eau	NOUN	_	_	3	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 9-10	au	_	_	_	_	_	_	_	_
-9	à	à	ADP	_	_	3	mod	_	wordform=au
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+9	à	à	ADP	_	_	3	mod	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	frig~	frig~	X	_	ExtPos=NOUN|Gender=Masc|Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	enfin	enfin	ADV	_	ExtPos=INTJ	2	discourse	_	SpaceAfter=No
