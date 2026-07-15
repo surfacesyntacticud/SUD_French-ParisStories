@@ -130,7 +130,7 @@
 2	jouait	jouer	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=24906|AlignEnd=25254|Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=25254|AlignEnd=25254
 4	comme	comme	ADP	_	_	2	mod	_	AlignBegin=25254|AlignEnd=25603
-5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	comp:obj@scrap	_	AlignBegin=25603|AlignEnd=25951
+5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	comp:obj	_	AlignBegin=25603|AlignEnd=25951|Scrap=Yes
 6	…	…	PUNCT	_	_	2	punct	_	AlignBegin=25951|AlignEnd=25951
 
 # sent_id = ParisStories_2022_16_hamacTahiti__10
@@ -200,8 +200,8 @@
 # text = ok, donc c~…
 1	ok	ok	INTJ	_	_	0	root	_	AlignBegin=32051|AlignEnd=32414|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=32414|AlignEnd=32414
-3	donc	donc	ADV	_	_	1	conj:dicto	_	AlignBegin=32414|AlignEnd=32776
-4	c~…	c~…	X	_	_	1	conj:dicto	_	AlignBegin=32776|AlignEnd=33139
+3	donc	donc	ADV	_	_	1	repair	_	AlignBegin=32414|AlignEnd=32776
+4	c~…	c~…	X	_	_	1	repair	_	AlignBegin=32776|AlignEnd=33139
 
 # sent_id = ParisStories_2022_16_hamacTahiti__17
 # speaker = L2
@@ -211,7 +211,7 @@
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	subj	_	AlignBegin=33678|AlignEnd=33892|InIdiom=Yes|Person[lex]=3
 4	y	y	PRON	_	PronType=Prs	5	comp	_	AlignBegin=33892|AlignEnd=34105|InIdiom=Yes|Person[lex]=3
 5	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod	_	AlignBegin=34105|AlignEnd=34319|Idiom=Yes
-6	très	très	ADV	_	_	5	mod@scrap	_	AlignBegin=34319|AlignEnd=34532|SpaceAfter=No
+6	très	très	ADV	_	_	5	mod	_	AlignBegin=34319|AlignEnd=34532|Scrap=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=34532|AlignEnd=34532
 8	très	très	ADV	_	_	6	conj:coord	_	AlignBegin=34532|AlignEnd=34746|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=34746|AlignEnd=34746
@@ -305,7 +305,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=47878|AlignEnd=47878
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	14	subj@expl	_	AlignBegin=47878|AlignEnd=48217|Person[lex]=3|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=48217|AlignEnd=48217
-5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	conj:dicto	_	AlignBegin=48217|AlignEnd=48557|Person[lex]=3|SpaceAfter=No
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	repair	_	AlignBegin=48217|AlignEnd=48557|Person[lex]=3|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=48557|AlignEnd=48557
 7	dans	dans	ADP	_	_	14	mod	_	AlignBegin=48557|AlignEnd=48897
 8	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	AlignBegin=48897|AlignEnd=49237|HasSpokenGender=OnlySingExceptWithLiaison
@@ -386,15 +386,15 @@
 18	soient	être	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	AlignBegin=67120|AlignEnd=67478
 19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	26	det	_	AlignBegin=67478|AlignEnd=67836|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=67836|AlignEnd=67836
-21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	19	conj:dicto	_	AlignBegin=67836|AlignEnd=68758|SpaceAfter=No
+21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	19	repair	_	AlignBegin=67836|AlignEnd=68758|SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	AlignBegin=68758|AlignEnd=68758
 23	euh	euh	INTJ	_	_	25	discourse	_	AlignBegin=68758|AlignEnd=69680|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	AlignBegin=69680|AlignEnd=69680
-25	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	conj:dicto	_	AlignBegin=69680|AlignEnd=70601
+25	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	repair	_	AlignBegin=69680|AlignEnd=70601
 26	créations	création	NOUN	_	_	18	comp:pred	_	AlignBegin=70601|AlignEnd=71523|Gender[lex]=Fem|Number[ctxt]=Plur
 27	de	de	ADP	_	_	26	udep	_	AlignBegin=71523|AlignEnd=72445|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	AlignBegin=72445|AlignEnd=72445
-29	de	de	ADP	_	_	27	conj:dicto	_	AlignBegin=72445|AlignEnd=72837
+29	de	de	ADP	_	_	27	repair	_	AlignBegin=72445|AlignEnd=72837
 30	photos	photo	NOUN	_	_	29	comp:obj	_	AlignBegin=72837|AlignEnd=73229|Gender[lex]=Fem|Number[ctxt]=Plur
 31	que	que	PRON	_	PronType=Rel	34	comp:obj	_	AlignBegin=73229|AlignEnd=73621
 32	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	33	subj	_	AlignBegin=73621|AlignEnd=74013|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
@@ -472,7 +472,7 @@
 27	,	,	PUNCT	_	_	28	punct	_	AlignBegin=84645|AlignEnd=84645
 28	enfin	enfin	ADV	_	ExtPos=INTJ	26	discourse	_	AlignBegin=85296|AlignEnd=85757|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	AlignBegin=85757|AlignEnd=85757
-30	réel	réel	ADJ	_	_	26	conj:dicto	_	AlignBegin=85757|AlignEnd=86219|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+30	réel	réel	ADJ	_	_	26	repair	_	AlignBegin=85757|AlignEnd=86219|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	AlignBegin=86219|AlignEnd=86219
 32	quoi	quoi	INTJ	_	_	30	discourse	_	AlignBegin=86219|AlignEnd=86680|SpaceAfter=No
 33	.	.	PUNCT	_	_	19	punct	_	AlignBegin=86680|AlignEnd=86680
@@ -533,7 +533,7 @@
 10	dans	dans	ADP	_	_	9	comp:obl	_	AlignBegin=97735|AlignEnd=98505
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=98505|AlignEnd=99276|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=99276|AlignEnd=99276
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	conj:dicto	_	AlignBegin=99276|AlignEnd=100047|HasSpokenGender=OnlySingExceptWithLiaison
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	repair	_	AlignBegin=99276|AlignEnd=100047|HasSpokenGender=OnlySingExceptWithLiaison
 14	hamac	hamac	NOUN	_	_	10	comp:obj	_	AlignBegin=100047|AlignEnd=100818|Gender[lex]=Masc|Number[ctxt]=Sing
 15	et	et	CCONJ	_	_	16	cc	_	AlignBegin=100818|AlignEnd=101183
 16	toi	toi	PRON	_	Emph=Yes|PronType=Prs	7	conj:coord	_	AlignBegin=101183|AlignEnd=101547|Number[lex]=Sing|Person[lex]=2
@@ -767,7 +767,7 @@
 23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=134666|AlignEnd=134666
 24	euh	euh	INTJ	_	_	22	discourse	_	AlignBegin=134666|AlignEnd=134882|SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	AlignBegin=134882|AlignEnd=134882
-26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	conj:dicto	_	AlignBegin=134882|AlignEnd=135097
+26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	repair	_	AlignBegin=134882|AlignEnd=135097
 27	création	création	NOUN	_	_	20	comp:pred	_	AlignBegin=135097|AlignEnd=135312|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 28	.	.	PUNCT	_	_	2	punct	_	AlignBegin=135312|AlignEnd=135312
 

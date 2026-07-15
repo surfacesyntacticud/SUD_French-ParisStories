@@ -51,7 +51,7 @@
 31	,	,	PUNCT	_	_	33	punct	_	AlignBegin=8562|AlignEnd=8562
 32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	AlignBegin=8562|AlignEnd=8865
 33	peu	peu	NOUN	_	_	34	mod	_	AlignBegin=8865|AlignEnd=9167|Gender[lex]=Masc|Number[ctxt]=Sing
-34	résumé	résumer	VERB	_	VerbForm=Part	29	conj:dicto	_	AlignBegin=9167|AlignEnd=9469|Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+34	résumé	résumer	VERB	_	VerbForm=Part	29	repair	_	AlignBegin=9167|AlignEnd=9469|Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 35	.	.	PUNCT	_	_	8	punct	_	AlignBegin=9469|AlignEnd=9469
 
 # sent_id = ParisStories_2022_11_copineEnCarton__4
@@ -196,7 +196,7 @@
 6	s~	s~	X	_	ExtPos=VERB	0	root	_	AlignBegin=34133|AlignEnd=34368|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	AlignBegin=34368|AlignEnd=34368
 8	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	subj	_	AlignBegin=34368|AlignEnd=34603|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-9	aurais	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	AlignBegin=34603|AlignEnd=34837
+9	aurais	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	repair	_	AlignBegin=34603|AlignEnd=34837
 10	dû	devoir	VERB	_	VerbForm=Part|Voice=Act	9	comp:aux@tense	_	AlignBegin=34837|AlignEnd=35072|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 11	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	12	comp:obj	_	AlignBegin=35072|AlignEnd=35306|Person[lex]=3
 12	laisser	laisser	VERB	_	VerbForm=Inf	10	comp:obj	_	AlignBegin=35306|AlignEnd=35541|Subject=SubjRaising
@@ -211,7 +211,7 @@
 # text = non, parce qu'après, il l'a quitté pour moi.
 1	non	non	ADV	_	_	3	discourse	_	AlignBegin=36010|AlignEnd=36151|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=36151|AlignEnd=36151
-3	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=36151|AlignEnd=36291|Automated=Yes|Coconstruct=mod::ParisStories_2022_11_copineEnCarton__13::6|Idiom=Yes|SingleSpeaker=Yes
+3	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=36151|AlignEnd=36291|Coconstruct=mod::ParisStories_2022_11_copineEnCarton__13::9|Idiom=Yes|SingleSpeaker=Yes
 4	qu'	que	SCONJ	_	_	3	unk	_	AlignBegin=36291|AlignEnd=36432|InIdiom=Yes|SpaceAfter=No
 5	après	après	ADV	_	_	9	mod	_	AlignBegin=36432|AlignEnd=36572|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=36572|AlignEnd=36572
@@ -240,7 +240,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=37625|AlignEnd=37835|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	AlignBegin=37835|AlignEnd=37835
 4	c'	ce	PRON	_	PronType=Dem	5	subj	_	AlignBegin=37835|AlignEnd=38044|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	AlignBegin=38044|AlignEnd=38253|SpaceAfter=No
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	repair	_	AlignBegin=38044|AlignEnd=38253|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=38253|AlignEnd=38253
 7	compliqué	compliqué	ADJ	_	_	5	comp:pred	_	AlignBegin=38253|AlignEnd=38462|Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 8	tout	tout	ADJ	_	Gender=Masc|PronType=Ind	9	mod	_	AlignBegin=38462|AlignEnd=38672|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
@@ -254,7 +254,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=39090|AlignEnd=39300|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	AlignBegin=39300|AlignEnd=39300
 4	c'	ce	PRON	_	PronType=Dem	5	subj	_	AlignBegin=39300|AlignEnd=39509|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	AlignBegin=39509|AlignEnd=39718
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	repair	_	AlignBegin=39509|AlignEnd=39718
 6	très	très	ADV	_	_	9	mod	_	AlignBegin=39718|AlignEnd=39927|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=39927|AlignEnd=39927
 8	très	très	ADV	_	_	6	conj:coord	_	AlignBegin=39927|AlignEnd=40137
@@ -339,7 +339,7 @@
 # sent_id = ParisStories_2022_11_copineEnCarton__21
 # speaker = L1
 # text = parce que, du coup, j'étais sa chose.
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=52911|AlignEnd=53112|Automated=Yes|Coconstruct=mod::ParisStories_2022_11_copineEnCarton__20::21|Idiom=Yes|SingleSpeaker=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=52911|AlignEnd=53112|Coconstruct=mod::ParisStories_2022_11_copineEnCarton__20::21|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=53112|AlignEnd=53313|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	AlignBegin=53313|AlignEnd=53313
 4	du	du	ADP	_	_	8	discourse	_	AlignBegin=53313|AlignEnd=53514
@@ -506,7 +506,7 @@
 18	c'	ce	PRON	_	PronType=Dem	19	subj	_	AlignBegin=73345|AlignEnd=73466|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	AlignBegin=73466|AlignEnd=73587|Reported=Yes
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	AlignBegin=73587|AlignEnd=73707
-21	pot	pot	NOUN	_	_	19	comp:pred	_	AlignBegin=73707|AlignEnd=73828|Gender[lex]=Masc|Number[ctxt]=Sing
+21	pot	pot	NOUN	_	_	19	comp:pred	_	AlignBegin=73707|AlignEnd=73828|cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 22	de	de	ADP	_	_	21	udep	_	AlignBegin=73828|AlignEnd=73949
 23	colle	colle	NOUN	_	_	22	comp:obj	_	AlignBegin=73949|AlignEnd=74070|Gender[lex]=Fem|Number[ctxt]=Sing
 24	en	en	ADP	_	ExtPos=ADV	19	discourse	_	AlignBegin=74070|AlignEnd=74191|Idiom=Yes
@@ -610,7 +610,7 @@
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=84288|AlignEnd=84510|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	AlignBegin=84510|AlignEnd=84510
 9	c'	ce	PRON	_	PronType=Dem	10	subj	_	AlignBegin=84510|AlignEnd=84732|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj:dicto	_	AlignBegin=84732|AlignEnd=84954
+10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	repair	_	AlignBegin=84732|AlignEnd=84954
 11	invivable	invivable	ADJ	_	_	10	comp:pred	_	AlignBegin=84954|AlignEnd=85176|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	7	punct	_	AlignBegin=85176|AlignEnd=85176
 
@@ -738,7 +738,7 @@
 7	d'	de	ADP	_	_	6	udep	_	AlignBegin=97751|AlignEnd=97888|SpaceAfter=No
 8	indé~	indé~	X	_	ExtPos=NOUN	7	comp:obj	_	AlignBegin=97888|AlignEnd=98026|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=98026|AlignEnd=98026
-10	d'	de	ADP	_	_	7	conj:dicto	_	AlignBegin=98026|AlignEnd=98163|SpaceAfter=No
+10	d'	de	ADP	_	_	7	repair	_	AlignBegin=98026|AlignEnd=98163|SpaceAfter=No
 11	indépendance	indépendance	NOUN	_	_	10	comp:obj	_	AlignBegin=98163|AlignEnd=98301|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	AlignBegin=98301|AlignEnd=98301
 
@@ -960,15 +960,15 @@
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=121566|AlignEnd=121814
 6	peu	peu	NOUN	_	_	4	comp:obj	_	AlignBegin=121814|AlignEnd=122062|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=122062|AlignEnd=122062
-8	de	de	ADP	_	_	4	conj:dicto	_	AlignBegin=122062|AlignEnd=122310
+8	de	de	ADP	_	_	4	repair	_	AlignBegin=122062|AlignEnd=122310
 9	voilà	voilà	VERB	_	_	8	discourse	_	AlignBegin=122310|AlignEnd=122557|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=122557|AlignEnd=122557
-11	de	de	ADP	_	_	8	conj:dicto	_	AlignBegin=122557|AlignEnd=122805|SpaceAfter=No
+11	de	de	ADP	_	_	8	repair	_	AlignBegin=122557|AlignEnd=122805|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=122805|AlignEnd=122805
-13	de	de	ADP	_	_	11	conj:dicto	_	AlignBegin=122805|AlignEnd=123053
+13	de	de	ADP	_	_	11	repair	_	AlignBegin=122805|AlignEnd=123053
 14	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	AlignBegin=123053|AlignEnd=123301|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=123301|AlignEnd=123301
-16	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	conj:dicto	_	AlignBegin=123301|AlignEnd=123549|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+16	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	repair	_	AlignBegin=123301|AlignEnd=123549|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 17	espace	espace	NOUN	_	_	13	comp:obj	_	AlignBegin=123549|AlignEnd=123797|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=123797|AlignEnd=123797
 19	quoi	quoi	INTJ	_	_	17	discourse	_	AlignBegin=123797|AlignEnd=124045|SpaceAfter=No

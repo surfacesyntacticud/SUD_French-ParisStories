@@ -136,10 +136,10 @@
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	de	de	ADP	_	_	12	conj:dicto	_	_
+16	de	de	ADP	_	_	12	repair	_	_
 17	saut	saut	NOUN	_	_	16	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 18	d'	de	ADP	_	_	17	mod	_	SpaceAfter=No
-19	obstacles	obstacle	NOUN	_	_	18	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
+19	obstacles	obstacle	NOUN	_	_	18	comp:obj	_	cdet=No|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 20	de	de	ADP	_	_	19	udep	_	_
 21	cheval	cheval	NOUN	_	Number=Sing	20	comp:obj	_	Gender[lex]=Masc
 22	heu	heu	INTJ	_	_	21	discourse	_	SpaceAfter=No
@@ -174,7 +174,7 @@
 1	et	et	CCONJ	_	_	11	cc	_	_
 2	heu	heu	INTJ	_	_	4	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	et	et	CCONJ	_	_	1	conj:dicto	_	_
+4	et	et	CCONJ	_	_	1	repair	_	_
 5	du	du	ADP	_	_	11	discourse	_	_
 6	coup	coup	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
@@ -331,7 +331,7 @@
 12	où	où	ADV	_	PronType=Rel	16	mod	_	_
 13	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	16	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
-15	on	on	PRON	_	PronType=Ind	13	conj:dicto	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+15	on	on	PRON	_	PronType=Ind	13	repair	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 16	goûtait	goûter	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	2	mod@relcl	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	où	où	ADV	_	PronType=Rel	20	mod	_	_
@@ -500,7 +500,7 @@
 6	bientôt	bientôt	ADV	_	_	7	mod	_	_
 7	vingt	vingt	NUM	_	ExtPos=PROPN	2	comp:obj	_	Number[lex]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	et	et	CCONJ	_	_	7	unk@scrap	_	SpaceAfter=No
+9	et	et	CCONJ	_	_	7	unk	_	Scrap=Yes|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_

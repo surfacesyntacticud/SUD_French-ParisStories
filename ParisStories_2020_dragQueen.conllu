@@ -184,10 +184,10 @@
 14	pile	pile	NOUN	_	_	16	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	sur	sur	ADP	_	_	13	comp:obl	_	_
-17	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	comp:obj@scrap	_	HasSpokenGender=OnlySingExceptWithLiaison
+17	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	comp:obj	_	HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes
 18	pile	pile	NOUN	_	_	20	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
-20	sur	sur	ADP	_	_	16	conj:dicto	_	_
+20	sur	sur	ADP	_	_	16	repair	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 22	date	date	NOUN	_	_	20	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
@@ -272,7 +272,7 @@
 2	,	,	PUNCT	_	_	5	punct	_	_
 3	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	mais	mais	CCONJ	_	_	1	conj:dicto	_	_
+5	mais	mais	CCONJ	_	_	1	repair	_	_
 6	voilà	voilà	VERB	_	ExtPos=INTJ	13	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	du	du	ADP	_	_	13	discourse	_	_
@@ -294,7 +294,7 @@
 4	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	c'	ce	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj:dicto	_	_
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	repair	_	_
 8	quand	quand	ADV	_	_	7	comp:pred	_	_
 9	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	Number[lex]=Sing|Person[lex]=1
 10	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	parataxis:parenth	_	Person[ctxt]=1
@@ -354,7 +354,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	à	à	ADP	_	_	8	conj:appos	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	à	à	ADP	_	_	10	conj:dicto	_	SpaceAfter=No
+12	à	à	ADP	_	_	10	repair	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	Etoile	Etoile	PROPN	_	_	12	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	_	_
@@ -623,7 +623,7 @@
 
 # sent_id = ParisStories_2020_dragQueen_34
 # text = parce qu'au milieu on aurait été vraiment trop bas.
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::ParisStories_2020_dragQueen_33::2|Idiom=Yes|SingleSpeaker=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Coconstruct=mod::ParisStories_2020_dragQueen_33::2|Idiom=Yes|SingleSpeaker=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	au	au	ADP	_	_	6	mod	_	_
 4	milieu	milieu	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing

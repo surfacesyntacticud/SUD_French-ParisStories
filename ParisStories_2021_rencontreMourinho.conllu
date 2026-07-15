@@ -211,8 +211,8 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	arrêté	arrêter	VERB	_	VerbForm=Part	5	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 7	pour	pour	ADP	_	_	5	mod	_	_
-8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	unk@scrap	_	HasSpokenGender=OnlySingExceptWithLiaison
-9	pour	pour	ADP	_	_	7	conj:dicto	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	unk	_	HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes
+9	pour	pour	ADP	_	_	7	repair	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	fans	fan	NOUN	_	_	9	comp:obj	_	Gender[lex]=Unknown|Number[ctxt]=Plur
 12	du	du	ADP	_	_	11	udep	_	_
@@ -320,7 +320,7 @@
 # text = et euh et donc ma mère, comme, bah, on est portugais et tout, elle commence à lui parler portugais.
 1	et	et	CCONJ	_	_	19	cc	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
-3	et	et	CCONJ	_	_	1	conj:dicto	_	_
+3	et	et	CCONJ	_	_	1	repair	_	_
 4	donc	donc	ADV	_	_	3	discourse	_	_
 5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 6	mère	mère	NOUN	_	_	19	dislocated:subj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -577,7 +577,7 @@
 4	signé	signer	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 5	sur	sur	ADP	_	_	3	mod	_	_
 6	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=No	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-7	coque	coque	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+7	coque	coque	NOUN	_	_	5	comp:obj	_	cdet=No|Gender[lex]=Fem|Number[ctxt]=Sing
 8	de	de	ADP	_	_	7	udep	_	_
 9	téléphone	téléphone	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 10	et	et	CCONJ	_	_	11	cc	_	_

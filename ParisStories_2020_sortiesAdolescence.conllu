@@ -9,7 +9,7 @@
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	c'	ce	PRON	_	PronType=Dem	10	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj:dicto	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	repair	_	_
 11	quelque	quelque	DET	_	PronType=Ind	12	det	_	Number[lex]=Sing
 12	chose	chose	NOUN	_	_	10	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
 13	quand	quand	SCONJ	_	ExtPos=ADV	10	mod	_	Idiom=Yes
@@ -25,7 +25,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	c'	ce	PRON	_	PronType=Dem	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	repair	_	_
 6	fascinant	fascinant	ADJ	_	Gender=Masc	5	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -132,9 +132,9 @@
 18	qui	qui	PRON	_	PronType=Rel	19	subj	_	_
 19	vont	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	dans	dans	ADP	_	_	19	comp:obl	_	_
-21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	conj:dicto	_	SpaceAfter=No
+21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	comp:obj	_	Scrap=Yes|SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
-23	dans	dans	ADP	_	_	21	conj:dicto	_	_
+23	dans	dans	ADP	_	_	20	repair	_	_
 24	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	26	det	_	_
 25	petites	petit	ADJ	_	Gender=Fem	26	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 26	soirées	soirée	NOUN	_	_	23	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
@@ -142,7 +142,7 @@
 
 # sent_id = ParisStories_2020_sortiesAdolescence_6
 # text = parce qu'en fait il y avait ce qu'on appelait les concerts boom.
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::ParisStories_2020_sortiesAdolescence_5::19|Idiom=Yes|SingleSpeaker=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Coconstruct=mod::ParisStories_2020_sortiesAdolescence_5::19|Idiom=Yes|SingleSpeaker=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	en	en	ADP	_	ExtPos=ADV	7	discourse	_	Idiom=Yes
 4	fait	fait	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
@@ -221,7 +221,7 @@
 8	légende	légende	NOUN	_	_	3	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-11	gens	gens	NOUN	_	_	8	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Plur
+11	gens	gens	NOUN	_	_	8	conj:coord	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Plur
 12	des	de	ADP	_	_	11	udep	_	_
 13	îles	île	NOUN	_	_	12	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
@@ -445,7 +445,7 @@
 1	dis	dire	VERB	_	Mood=Imp|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=2
 2	lui	lui	PRON	_	Case=Dat|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	1	comp:obl	_	Person[lex]=3|SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
-4	s~	s~	X	_	_	6	unk@scrap	_	SpaceAfter=No
+4	s~	s~	X	_	_	6	unk	_	Scrap=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	dis	dire	VERB	_	Mood=Imp|Number=Sing|Tense=Pres|VerbForm=Fin	1	conj:dicto	_	Person[ctxt]=2
 7	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|PronType=Prs	6	comp:obl	_	Person[lex]=3
@@ -504,7 +504,7 @@
 7	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	cette	ce	DET	_	Number=Sing|PronType=Dem	7	conj:dicto	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+10	cette	ce	DET	_	Number=Sing|PronType=Dem	7	repair	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 11	histoire	histoire	NOUN	_	_	5	dislocated:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 

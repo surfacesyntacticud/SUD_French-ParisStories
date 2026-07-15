@@ -14,11 +14,11 @@
 # sent_id = ParisStories_2020_requinReunion_2
 # text = on était euh, on était dans la voiture.
 1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-2	était	être	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
+2	était	être	AUX	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj:dicto	_	_
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	repair	_	_
 7	dans	dans	ADP	_	_	6	comp:obl	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 9	voiture	voiture	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -35,7 +35,7 @@
 7	entendu	entendre	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	11	det	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	conj:dicto	_	LiaisonAfter=Yes
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	repair	_	LiaisonAfter=Yes
 11	événement	événement	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 12	avec	avec	ADP	_	_	11	mod	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -64,7 +64,7 @@
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 2	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	conj:dicto	_	HasSpokenGender=OnlySingExceptWithLiaison
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
 5	mari	mari	NOUN	_	_	8	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	8	subj	_	Person[lex]=3
@@ -162,7 +162,7 @@
 26	radio	radio	NOUN	_	_	24	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	sauf	sauf	CCONJ	_	_	29	cc	_	_
-29	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|PronType=Prs	7	dislocated:mod	_	Person[lex]=3|SpaceAfter=No
+29	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|PronType=Prs	6	conj:appos	_	Person[lex]=3|SpaceAfter=No
 30	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_requinReunion_10
@@ -197,7 +197,7 @@
 13	de	de	ADP	_	_	12	mod	_	_
 14	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	de	de	ADP	_	_	13	conj:dicto	_	_
+16	de	de	ADP	_	_	13	repair	_	_
 17	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 18	femme	femme	NOUN	_	_	16	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 19	apparemment	apparemment	ADV	_	_	10	mod	_	SpaceAfter=No
@@ -358,7 +358,7 @@
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	c'	ce	PRON	_	PronType=Dem	10	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj:dicto	_	_
+10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	repair	_	_
 11	long	long	ADJ	_	Gender=Masc	10	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 12	hein	hein	INTJ	_	_	11	discourse	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -398,7 +398,7 @@
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	c'	ce	PRON	_	PronType=Dem	8	subj@expl	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj:dicto	_	_
+8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	repair	_	_
 9	assez	assez	ADV	_	_	8	mod	_	_
 10	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
@@ -417,15 +417,15 @@
 6	enfin	enfin	ADV	_	ExtPos=INTJ	5	discourse	_	_
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	9	subj	_	Person[lex]=3
 8	me	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	9	comp:obj	_	Number[lex]=Sing|Person[lex]=1
-9	tenait	tenir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	5	conj:dicto	_	Number[ctxt]=Sing|Person[ctxt]=3
-10	s~	s~	X	_	_	9	unk@scrap	_	_
+9	tenait	tenir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	5	repair	_	Number[ctxt]=Sing|Person[ctxt]=3
+10	s~	s~	X	_	_	9	unk	_	Scrap=Yes
 11	enfin	enfin	ADV	_	ExtPos=INTJ	10	discourse	_	_
 12	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	subj	_	Number[lex]=Sing|Person[lex]=1
 13	me	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	14	comp:obj	_	Number[lex]=Sing|Person[lex]=1
-14	tenais	tenir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	9	conj:dicto	_	Person[ctxt]=1
+14	tenais	tenir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	9	repair	_	Person[ctxt]=1
 15	à	à	ADP	_	_	14	mod	_	_
-16	l~	l~	X	_	_	15	unk@scrap	_	_
-17	à	à	ADP	_	_	15	conj:dicto	_	_
+16	l~	l~	X	_	_	15	unk	_	Scrap=Yes
+17	à	à	ADP	_	_	15	repair	_	_
 18	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 19	épaule	épaule	NOUN	_	_	17	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
@@ -467,7 +467,7 @@
 
 # sent_id = ParisStories_2020_requinReunion_30
 # text = parce qu'il y a des belles choses à voir.
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::ParisStories_2020_requinReunion_29::4|Idiom=Yes|SingleSpeaker=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Coconstruct=mod::ParisStories_2020_requinReunion_29::4|Idiom=Yes|SingleSpeaker=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	subj@expl	_	Person[lex]=3
 4	y	y	PRON	_	PronType=Prs	5	comp@expl	_	Person[lex]=3
@@ -500,7 +500,7 @@
 17	c'	ce	PRON	_	PronType=Dem	18	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 18	e~	e~	X	_	ExtPos=VERB	0	root	_	_
 19	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	20	subj	_	Number[lex]=Sing|Person[lex]=1
-20	venais	venir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	18	conj:dicto	_	Person[ctxt]=1
+20	venais	venir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	18	repair	_	Person[ctxt]=1
 21	de	de	ADP	_	_	20	comp:obl	_	_
 22	passer	passer	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=SubjRaising
 23	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison

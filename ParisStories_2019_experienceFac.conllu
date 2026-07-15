@@ -31,7 +31,7 @@
 7	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	magnifique	magnifique	ADJ	_	_	10	mod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-10	voix	voix	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+10	voix	voix	NOUN	_	_	7	comp:obj	_	cdet=No|Gender[lex]=Fem|Number[ctxt]=Sing
 11	de	de	ADP	_	_	10	udep	_	_
 12	canard	canard	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	_
@@ -145,7 +145,7 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 12	matin	matin	NOUN	_	_	18	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 13	aux	au	ADP	_	_	12	udep	_	_
-14	heures	heure	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
+14	heures	heure	NOUN	_	_	13	comp:obj	_	cdet=No|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 15	de	de	ADP	_	_	14	udep	_	_
 16	pointe	pointe	NOUN	_	_	15	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 17	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown
@@ -296,7 +296,7 @@
 5	remarqué	remarquer	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 6	qu'	que	SCONJ	_	_	5	comp:obj	_	SpaceAfter=No
 7	en	en	ADP	_	_	12	mod	_	_
-8	période	période	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+8	période	période	NOUN	_	_	7	comp:obj	_	cdet=No|Gender[lex]=Fem|Number[ctxt]=Sing
 9	d'	de	ADP	_	_	8	udep	_	SpaceAfter=No
 10	examens	examen	NOUN	_	_	9	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 11	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	12	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -367,7 +367,7 @@
 11	euh	euh	INTJ	_	_	13	discourse	_	_
 12	complètement	complètement	ADV	_	_	13	mod	_	_
 13	dispro~	dispro~	X	_	ExtPos=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:pred	_	_
-14	disproportionné	disproportionné	ADJ	_	_	13	conj:dicto	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+14	disproportionné	disproportionné	ADJ	_	_	13	repair	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_experienceFac_25
@@ -428,7 +428,7 @@
 1	même	même	ADV	_	_	2	mod	_	_
 2	pour	pour	ADP	_	_	8	mod	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-4	fonctionnement	fonctionnement	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+4	fonctionnement	fonctionnement	NOUN	_	_	2	comp:obj	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 5	des	de	ADP	_	_	4	udep	_	_
 6	cours	cours	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
@@ -617,9 +617,9 @@
 3	enfin	enfin	ADV	_	ExtPos=INTJ	1	discourse	_	_
 4	voilà	voilà	VERB	_	ExtPos=INTJ	1	discourse	_	_
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	c'	ce	PRON	_	PronType=Dem	8	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	repair	_	_
 9	sympa	sympa	ADJ	_	_	8	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -738,7 +738,7 @@
 3	beaucoup	beaucoup	ADV	_	_	2	mod	_	_
 4	euh	euh	INTJ	_	_	6	discourse	_	_
 5	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
+6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	repair	_	_
 7	beaucoup	beaucoup	ADV	_	_	6	mod	_	_
 8	apprécié	apprécier	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 9	.	.	PUNCT	_	_	2	punct	_	_
@@ -889,7 +889,7 @@
 # sent_id = ParisStories_2019_experienceFac_60
 # text = donc que ouais euh je pense que euh c'est un truc sympa à à côté de l'enseignement.
 1	donc	donc	ADV	_	_	6	mod	_	_
-2	que	que	SCONJ	_	_	1	unk@scrap	_	_
+2	que	que	SCONJ	_	_	1	unk	_	Scrap=Yes
 3	ouais	ouais	INTJ	_	_	6	discourse	_	_
 4	euh	euh	INTJ	_	_	6	discourse	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=1
@@ -1012,7 +1012,7 @@
 17	autres	autre	ADJ	_	_	13	comp:obj	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 18	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	LiaisonAfter=Yes|SpaceAfter=No
 19	autres	autre	ADJ	_	_	20	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
-20	mondes	monde	NOUN	_	_	17	conj:dicto	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+20	mondes	monde	NOUN	_	_	17	repair	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
 23	gens	gens	NOUN	_	_	20	conj:appos	_	Gender[lex]=Masc|Number[ctxt]=Plur
@@ -1044,7 +1044,7 @@
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
 9	nouvelles	nouveau	ADJ	_	Gender=Fem	10	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
-10	méthodes	méthode	NOUN	_	_	6	conj:appos	_	Gender[lex]=Fem|Number[ctxt]=Plur
+10	méthodes	méthode	NOUN	_	_	6	conj:appos	_	cdet=No|Gender[lex]=Fem|Number[ctxt]=Plur
 11	d'	de	ADP	_	_	10	udep	_	SpaceAfter=No
 12	apprentissage	apprentissage	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
@@ -1177,7 +1177,7 @@
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	c'	ce	PRON	_	PronType=Dem	14	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj:dicto	_	_
+14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	repair	_	_
 15	quelque	quelque	DET	_	PronType=Ind	16	det	_	Number[lex]=Sing
 16	chose	chose	NOUN	_	_	14	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
 17	d'	de	ADP	_	_	16	udep	_	SpaceAfter=No
@@ -1230,7 +1230,7 @@
 30	ouais	ouais	INTJ	_	_	31	discourse	_	_
 31	d'	de	ADP	_	_	28	udep	_	SpaceAfter=No
 32	hu~	hu~	X	_	ExtPos=NOUN|Gender=Masc|Number=Sing	31	comp:obj	_	_
-33	d'	de	ADP	_	_	31	conj:dicto	_	SpaceAfter=No
+33	d'	de	ADP	_	_	31	repair	_	SpaceAfter=No
 34	humain	humain	ADJ	_	Gender=Masc	33	comp:obj	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 35	.	.	PUNCT	_	_	24	punct	_	_
 
@@ -1255,7 +1255,7 @@
 # text = et euh et j'aime beaucoup la notion de de partage.
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	euh	euh	INTJ	_	_	3	discourse	_	_
-3	et	et	CCONJ	_	_	1	conj:dicto	_	_
+3	et	et	CCONJ	_	_	1	repair	_	_
 4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 5	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
 6	beaucoup	beaucoup	ADV	_	_	5	mod	_	_
@@ -1327,7 +1327,7 @@
 16	qui	qui	PRON	_	PronType=Rel	15	comp:obj	_	_
 17	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	19	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 18	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	19	comp@expl	_	Person[lex]=3|SpaceAfter=No
-19	entend	entendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	9	conj:dicto	_	Person[ctxt]=3
+19	entend	entendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	9	conj:appos	_	Person[ctxt]=3
 20	bien	bien	ADV	_	_	19	mod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -1370,7 +1370,7 @@
 1	enfin	enfin	ADV	_	ExtPos=INTJ	2	discourse	_	_
 2	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	voilà	voilà	VERB	_	_	2	conj:dicto	_	_
+4	voilà	voilà	VERB	_	_	2	repair	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 6	expérience	expérience	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 7	que	que	PRON	_	PronType=Rel	9	comp:obj	_	_

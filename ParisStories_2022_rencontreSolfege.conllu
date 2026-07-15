@@ -22,9 +22,9 @@
 19	,	,	PUNCT	_	_	18	punct	_	AlignBegin=4124|AlignEnd=4124
 20	euh	euh	INTJ	_	_	22	discourse	_	AlignBegin=4124|AlignEnd=4354|SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	AlignBegin=4354|AlignEnd=4354
-22	comment	comment	ADV	_	_	23	mod@scrap	_	AlignBegin=5365|AlignEnd=5687|Reported=Yes
-23	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	29	conj:dicto	_	AlignBegin=5687|AlignEnd=6008|Number[lex]=Sing|Person[lex]=1
-24	te	toi	PRON	_	Emph=No|PronType=Prs|Reflex=Yes	23	comp:obj@scrap	_	AlignBegin=6008|AlignEnd=6330|Number[lex]=Sing|Person[lex]=2
+22	comment	comment	ADV	_	_	23	mod	_	AlignBegin=5365|AlignEnd=5687|Reported=Yes|Scrap=Yes
+23	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	29	repair	_	AlignBegin=5687|AlignEnd=6008|Number[lex]=Sing|Person[lex]=1
+24	te	toi	PRON	_	Emph=No|PronType=Prs|Reflex=Yes	23	comp:obj	_	AlignBegin=6008|AlignEnd=6330|Number[lex]=Sing|Person[lex]=2|Scrap=Yes
 25	enfin	enfin	ADV	_	ExtPos=INTJ	23	discourse	_	AlignBegin=6330|AlignEnd=6651|SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	AlignBegin=6651|AlignEnd=6651
 27	euh	euh	INTJ	_	_	23	discourse	_	AlignBegin=6651|AlignEnd=6848|SpaceAfter=No
@@ -36,7 +36,7 @@
 33	de	de	ADP	_	_	32	udep	_	AlignBegin=7636|AlignEnd=7833
 34	te	toi	PRON	_	Case=Acc|Emph=No|PronType=Prs	35	comp:obj	_	AlignBegin=7833|AlignEnd=8030|Number[lex]=Sing|Person[lex]=2
 35	connaître	connaître	VERB	_	VerbForm=Inf	33	comp:obj	_	AlignBegin=8030|AlignEnd=8227|Subject=SubjRaising
-36	!	!	PUNCT	_	_	22	punct	_	AlignBegin=8227|AlignEnd=8227
+36	!	!	PUNCT	_	_	10	punct	_	AlignBegin=8227|AlignEnd=8227
 
 # sent_id = ParisStories_2022_1_rencontreSolfège__3
 # speaker = L1
@@ -481,15 +481,15 @@
 5	,	,	PUNCT	_	_	3	punct	_	AlignBegin=66297|AlignEnd=66297
 6	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	subj	_	AlignBegin=66297|AlignEnd=66440|Number[lex]=Sing|Person[lex]=2
 7	t'	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	comp:cleft	_	AlignBegin=66440|AlignEnd=66584|Number[lex]=Sing|Person[lex]=2|SpaceAfter=No
-8	en	en	PRON	_	PronType=Prs	6	unk@scrap	_	AlignBegin=66584|AlignEnd=66728|Person[lex]=3|SpaceAfter=No
+8	en	en	PRON	_	PronType=Prs	6	unk	_	AlignBegin=66584|AlignEnd=66728|Person[lex]=3|Scrap=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=66728|AlignEnd=66728
-10	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	conj:dicto	_	AlignBegin=66728|AlignEnd=66967|Number[lex]=Sing|Person[lex]=2
+10	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	repair	_	AlignBegin=66728|AlignEnd=66967|Number[lex]=Sing|Person[lex]=2
 11	t'	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	comp@expl	_	AlignBegin=66967|AlignEnd=67205|Number[lex]=Sing|Person[lex]=2|SpaceAfter=No
 12	es	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=67205|AlignEnd=67444
 13	souvenue	souvenir	VERB	_	VerbForm=Part	12	comp:aux@tense	_	AlignBegin=67444|AlignEnd=67682|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 14	de	de	ADP	_	_	13	comp:obl	_	AlignBegin=67682|AlignEnd=67921|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=67921|AlignEnd=67921
-16	de	de	ADP	_	_	14	conj:dicto	_	AlignBegin=67921|AlignEnd=68120
+16	de	de	ADP	_	_	14	repair	_	AlignBegin=67921|AlignEnd=68120
 17	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	19	comp:obj	_	AlignBegin=68120|AlignEnd=68319|Person[lex]=3|SpaceAfter=No
 18	avoir	avoir	AUX	_	VerbForm=Inf	16	comp:obj	_	AlignBegin=68319|AlignEnd=68518|Subject=SubjRaising
 19	vue	voir	VERB	_	VerbForm=Part|Voice=Act	18	comp:aux@tense	_	AlignBegin=68518|AlignEnd=68717|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
@@ -548,7 +548,7 @@
 24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	AlignBegin=77209|AlignEnd=77439
 25	regardé	regarder	VERB	_	VerbForm=Part|Voice=Act	24	comp:aux@tense	_	AlignBegin=77439|AlignEnd=77670|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 26	dans	dans	ADP	_	_	25	comp:obl	_	AlignBegin=78102|AlignEnd=78533
-27	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	26	comp:obj@scrap	_	AlignBegin=78533|AlignEnd=78963|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+27	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	26	comp:obj	_	AlignBegin=78533|AlignEnd=78963|HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	AlignBegin=78963|AlignEnd=78963
 29	hum	hum	INTJ	_	_	32	discourse	_	AlignBegin=78963|AlignEnd=79394|SpaceAfter=No
 30	,	,	PUNCT	_	_	32	punct	_	AlignBegin=79394|AlignEnd=79394
@@ -561,7 +561,7 @@
 37	chez	chez	ADP	_	_	33	comp:obl	_	AlignBegin=81426|AlignEnd=81766
 38	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	37	comp:obj	_	AlignBegin=81766|AlignEnd=82107|Person[lex]=3
 39	dans	dans	ADP	_	_	33	mod	_	AlignBegin=82107|AlignEnd=82447
-40	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	39	comp:obj@scrap	_	AlignBegin=82447|AlignEnd=82787|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+40	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	39	comp:obj	_	AlignBegin=82447|AlignEnd=82787|HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
 41	,	,	PUNCT	_	_	45	punct	_	AlignBegin=82787|AlignEnd=82787
 42	comment	comment	ADV	_	_	45	mod	_	AlignBegin=82787|AlignEnd=82982
 43	ça	ça	PRON	_	PronType=Dem	45	subj	_	AlignBegin=82982|AlignEnd=83178|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -653,7 +653,7 @@
 1	et	et	CCONJ	_	_	8	cc	_	AlignBegin=99351|AlignEnd=99745
 2	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=99745|AlignEnd=100138|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=100138|AlignEnd=100138
-4	et	et	CCONJ	_	_	1	conj:dicto	_	AlignBegin=100138|AlignEnd=100382
+4	et	et	CCONJ	_	_	1	repair	_	AlignBegin=100138|AlignEnd=100382
 5	là	là	ADV	_	_	8	mod	_	AlignBegin=100382|AlignEnd=100625|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=100625|AlignEnd=100625
 7	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	8	subj	_	AlignBegin=100625|AlignEnd=100869|Person[lex]=3
@@ -678,9 +678,9 @@
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=103370|AlignEnd=103370
 12	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	17	subj	_	AlignBegin=103370|AlignEnd=103535|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=103535|AlignEnd=103535
-14	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	conj:dicto	_	AlignBegin=103535|AlignEnd=103701|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+14	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	repair	_	AlignBegin=103535|AlignEnd=103701|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=103701|AlignEnd=103701
-16	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	conj:dicto	_	AlignBegin=103999|AlignEnd=104154|Number[lex]=Sing|Person[lex]=1
+16	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	repair	_	AlignBegin=103999|AlignEnd=104154|Number[lex]=Sing|Person[lex]=1
 17	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	comp:obj	_	AlignBegin=104154|AlignEnd=104309|Person[ctxt]=1|Reported=Yes
 18	que	que	SCONJ	_	_	17	comp:obj	_	AlignBegin=104309|AlignEnd=104465
 19	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	20	subj	_	AlignBegin=104465|AlignEnd=104620|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
@@ -748,7 +748,7 @@
 19	quand	quand	SCONJ	_	_	15	comp:obj	_	AlignBegin=112908|AlignEnd=113164
 20	c'	ce	PRON	_	PronType=Dem	21	subj	_	AlignBegin=113164|AlignEnd=113420|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 21	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	comp:obj	_	AlignBegin=113420|AlignEnd=113675
-22	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	comp:pred@scrap	_	AlignBegin=113675|AlignEnd=113931|SpaceAfter=No
+22	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	comp:pred	_	AlignBegin=113675|AlignEnd=113931|Scrap=Yes|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=113931|AlignEnd=113931
 24	euh	euh	INTJ	_	_	22	discourse	_	AlignBegin=113931|AlignEnd=114187|SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	AlignBegin=114187|AlignEnd=114187
@@ -827,8 +827,8 @@
 13	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	subj	_	AlignBegin=124682|AlignEnd=124786|Number[lex]=Sing|Person[lex]=1
 14	te	toi	PRON	_	Case=Acc|Emph=No|PronType=Prs	19	comp:obj	_	AlignBegin=124786|AlignEnd=124890|Number[lex]=Sing|Person[lex]=2|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=124890|AlignEnd=124890
-16	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	conj:dicto	_	AlignBegin=124890|AlignEnd=125061|Number[lex]=Sing|Person[lex]=1
-17	t'	toi	PRON	_	Case=Acc|Emph=No|PronType=Prs	14	conj:dicto	_	AlignBegin=125061|AlignEnd=125233|Number[lex]=Sing|Person[lex]=2|SpaceAfter=No
+16	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	repair	_	AlignBegin=124890|AlignEnd=125061|Number[lex]=Sing|Person[lex]=1
+17	t'	toi	PRON	_	Case=Acc|Emph=No|PronType=Prs	14	repair	_	AlignBegin=125061|AlignEnd=125233|Number[lex]=Sing|Person[lex]=2|SpaceAfter=No
 18	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	comp:obj	_	AlignBegin=125233|AlignEnd=125404|Reported=Yes
 19	reconnue	reconnaître	VERB	_	VerbForm=Part|Voice=Act	18	comp:aux@tense	_	AlignBegin=125404|AlignEnd=125575|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 20	de	de	ADP	_	_	19	mod	_	AlignBegin=125575|AlignEnd=125747

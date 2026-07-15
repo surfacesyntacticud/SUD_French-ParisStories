@@ -102,9 +102,9 @@
 6	se	soi	PRON	_	PronType=Prs|Reflex=Yes	7	comp:obl	_	AlignBegin=25540|AlignEnd=25838|Person[lex]=3
 7	faire	faire	VERB	_	VerbForm=Inf	3	comp:obj	_	AlignBegin=25838|AlignEnd=26136|Subject=NoRaising
 8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	AlignBegin=26136|AlignEnd=26435
-9	batailles	bataille	NOUN	_	_	7	comp:obj	_	AlignBegin=26435|AlignEnd=26733|Gender[lex]=Fem|Number[ctxt]=Plur
+9	batailles	bataille	NOUN	_	_	7	comp:obj	_	AlignBegin=26435|AlignEnd=26733|cdet=No|Gender[lex]=Fem|Number[ctxt]=Plur
 10	de	de	ADP	_	_	9	udep	_	AlignBegin=26733|AlignEnd=27031
-11	boules	boule	NOUN	_	_	10	comp:obj	_	AlignBegin=27031|AlignEnd=27329|Gender[lex]=Fem|Number[ctxt]=Plur
+11	boules	boule	NOUN	_	_	10	comp:obj	_	AlignBegin=27031|AlignEnd=27329|cdet=No|Gender[lex]=Fem|Number[ctxt]=Plur
 12	de	de	ADP	_	_	11	udep	_	AlignBegin=27329|AlignEnd=27627
 13	neige	neige	NOUN	_	_	12	comp:obj	_	AlignBegin=27627|AlignEnd=27925|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=27925|AlignEnd=27925
@@ -148,7 +148,7 @@
 22	ça	ça	PRON	_	PronType=Dem	21	comp:obj	_	AlignBegin=37639|AlignEnd=37918|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 23	pendant	pendant	ADP	_	_	19	mod	_	AlignBegin=37918|AlignEnd=38198|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	AlignBegin=38198|AlignEnd=38198
-25	pendant	pendant	ADP	_	_	23	conj:dicto	_	AlignBegin=39207|AlignEnd=39464
+25	pendant	pendant	ADP	_	_	23	repair	_	AlignBegin=39207|AlignEnd=39464
 26	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	27	det	_	AlignBegin=39464|AlignEnd=39722
 27	jours	jour	NOUN	_	_	25	comp:obj	_	AlignBegin=39722|AlignEnd=39979|Gender[lex]=Masc|Number[ctxt]=Plur
 28	euh	euh	INTJ	_	_	27	discourse	_	AlignBegin=39979|AlignEnd=40236|SpaceAfter=No
@@ -284,7 +284,7 @@
 3	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=70697|AlignEnd=71019|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=71019|AlignEnd=71019
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	AlignBegin=72016|AlignEnd=72272|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	AlignBegin=72272|AlignEnd=72528
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	repair	_	AlignBegin=72272|AlignEnd=72528
 7	beau	beau	ADJ	_	Gender=Masc	6	comp:pred	_	AlignBegin=72528|AlignEnd=72784|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=72784|AlignEnd=72784
 
@@ -323,7 +323,7 @@
 17	être	être	AUX	_	VerbForm=Inf	16	comp:obj	_	AlignBegin=78570|AlignEnd=78811|Subject=SubjRaising
 18	montée	monter	VERB	_	VerbForm=Part	17	comp:aux@tense	_	AlignBegin=78811|AlignEnd=79051|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 19	à	à	ADP	_	_	18	comp:obl	_	AlignBegin=79051|AlignEnd=79051
-20	trois	trois	NUM	_	ExtPos=PRON	19	comp:obj@scrap	_	AlignBegin=79051|AlignEnd=79292
+20	trois	trois	NUM	_	ExtPos=PRON	19	comp:obj	_	AlignBegin=79051|AlignEnd=79292|Scrap=Yes
 21	mille	mille	NUM	_	_	20	flat	_	AlignBegin=79292|AlignEnd=79532|SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	AlignBegin=79532|AlignEnd=79532
 23	c'	ce	PRON	_	PronType=Dem	24	subj	_	AlignBegin=79532|AlignEnd=79772|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
@@ -331,17 +331,17 @@
 25	ça	ça	PRON	_	PronType=Dem	24	comp:pred	_	AlignBegin=80013|AlignEnd=80253|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 26	trois	trois	NUM	_	ExtPos=DET	28	det	_	AlignBegin=80253|AlignEnd=80530
 27	mille	mille	NUM	_	_	26	flat	_	AlignBegin=80530|AlignEnd=80807
-28	mètres	mètre	NOUN	_	_	20	conj:dicto	_	AlignBegin=80807|AlignEnd=81084|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+28	mètres	mètre	NOUN	_	_	20	repair	_	AlignBegin=80807|AlignEnd=81084|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 29	,	,	PUNCT	_	_	28	punct	_	AlignBegin=81084|AlignEnd=81084
 30	et	et	CCONJ	_	_	34	cc	_	AlignBegin=82441|AlignEnd=82783
 31	euh	euh	INTJ	_	_	30	discourse	_	AlignBegin=82783|AlignEnd=83126|SpaceAfter=No
 32	,	,	PUNCT	_	_	31	punct	_	AlignBegin=83126|AlignEnd=83126
-33	et	et	CCONJ	_	_	30	conj:dicto	_	AlignBegin=83126|AlignEnd=83468
+33	et	et	CCONJ	_	_	30	repair	_	AlignBegin=83126|AlignEnd=83468
 34	de	de	ADP	_	_	16	conj:coord	_	AlignBegin=83468|AlignEnd=83811
 35	voir	voir	VERB	_	VerbForm=Inf	34	comp:obj	_	AlignBegin=83811|AlignEnd=84153|Subject=SubjRaising
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	AlignBegin=84153|AlignEnd=84495|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	AlignBegin=84495|AlignEnd=84495
-38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	conj:dicto	_	AlignBegin=84495|AlignEnd=84838|HasSpokenGender=OnlySingExceptWithLiaison
+38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	repair	_	AlignBegin=84495|AlignEnd=84838|HasSpokenGender=OnlySingExceptWithLiaison
 39	glaciers	glacier	NOUN	_	_	35	comp:obj	_	AlignBegin=84838|AlignEnd=85180|Gender[lex]=Masc|Number[ctxt]=Plur
 40	avec	avec	ADP	_	_	39	mod	_	AlignBegin=85180|AlignEnd=85531
 41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	AlignBegin=85531|AlignEnd=85882|HasSpokenGender=OnlySingExceptWithLiaison
@@ -364,7 +364,7 @@
 3	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=89643|AlignEnd=89908|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=89908|AlignEnd=89908
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	AlignBegin=89908|AlignEnd=90172|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj:dicto	_	AlignBegin=90172|AlignEnd=90437
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	repair	_	AlignBegin=90172|AlignEnd=90437
 7	juste	juste	ADV	_	_	6	mod	_	AlignBegin=90437|AlignEnd=90701
 8	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=90701|AlignEnd=90966|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=90966|AlignEnd=90966
@@ -474,7 +474,7 @@
 15	idées	idée	NOUN	_	_	12	comp:obj	_	AlignBegin=109394|AlignEnd=109635|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	AlignBegin=109635|AlignEnd=109635
 17	de	de	ADP	_	_	15	udep	_	AlignBegin=110021|AlignEnd=110294
-18	repas	repas	NOUN	_	_	17	comp:obj	_	AlignBegin=110294|AlignEnd=110567|Gender[lex]=Masc|Number[ctxt]=Sing
+18	repas	repas	NOUN	_	_	17	comp:obj	_	AlignBegin=110294|AlignEnd=110567|cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 19	de	de	ADP	_	_	18	udep	_	AlignBegin=110567|AlignEnd=110839
 20	famille	famille	NOUN	_	_	19	comp:obj	_	AlignBegin=110839|AlignEnd=111112|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=111112|AlignEnd=111112
@@ -489,9 +489,9 @@
 3	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	AlignBegin=111697|AlignEnd=111853|Number[lex]=Sing|Person[lex]=2
 4	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	AlignBegin=111853|AlignEnd=112009
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	AlignBegin=112009|AlignEnd=112165|LiaisonAfter=Yes
-6	idées	idée	NOUN	_	_	4	comp:obj	_	AlignBegin=112165|AlignEnd=112321|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
+6	idées	idée	NOUN	_	_	4	comp:obj	_	AlignBegin=112165|AlignEnd=112321|cdet=No|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 7	de	de	ADP	_	_	6	udep	_	AlignBegin=112321|AlignEnd=112477
-8	repas	repas	NOUN	_	_	7	comp:obj	_	AlignBegin=112477|AlignEnd=112633|Gender[lex]=Masc|Number[ctxt]=Sing
+8	repas	repas	NOUN	_	_	7	comp:obj	_	AlignBegin=112477|AlignEnd=112633|cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 9	de	de	ADP	_	_	8	udep	_	AlignBegin=112633|AlignEnd=112789
 10	famille	famille	NOUN	_	_	9	comp:obj	_	AlignBegin=112789|AlignEnd=112945|Gender[lex]=Fem|Number[ctxt]=Sing
 11	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=112945|AlignEnd=113101|SpaceAfter=No
@@ -560,7 +560,7 @@
 19	comme	comme	ADP	_	_	14	mod	_	AlignBegin=124373|AlignEnd=124768
 20	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=124768|AlignEnd=125162|SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	AlignBegin=125162|AlignEnd=125162
-22	comme	comme	ADP	_	_	19	conj:dicto	_	AlignBegin=125162|AlignEnd=125557
+22	comme	comme	ADP	_	_	19	repair	_	AlignBegin=125162|AlignEnd=125557
 23	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	24	det	_	AlignBegin=125557|AlignEnd=125951|HasSpokenGender=OnlySingExceptWithLiaison
 24	grands-parents	grand-parent	NOUN	_	_	22	comp:obj	_	AlignBegin=125951|AlignEnd=126346|Gender[lex]=Masc|Number[ctxt]=Plur
 25	avec	avec	ADP	_	_	14	mod	_	AlignBegin=127002|AlignEnd=127457
@@ -583,12 +583,12 @@
 42	plats	plat	NOUN	_	_	37	conj:dicto	_	AlignBegin=132671|AlignEnd=132975|Gender[lex]=Masc|Number[ctxt]=Plur
 43	euh	euh	INTJ	_	_	45	discourse	_	AlignBegin=132975|AlignEnd=133280|SpaceAfter=No
 44	,	,	PUNCT	_	_	43	punct	_	AlignBegin=133280|AlignEnd=133280
-45	pendant	pendant	ADP	_	_	19	conj:dicto	_	AlignBegin=133280|AlignEnd=133584
+45	pendant	pendant	ADP	_	_	19	repair	_	AlignBegin=133280|AlignEnd=133584
 46	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	AlignBegin=133584|AlignEnd=133888|HasSpokenGender=OnlySingExceptWithLiaison
 47	repas	repas	NOUN	_	_	45	comp:obj	_	AlignBegin=133888|AlignEnd=134192|Gender[lex]=Masc|Number[ctxt]=Sing
 48	où	où	ADV	_	PronType=Rel	54	mod	_	AlignBegin=134192|AlignEnd=134496|SpaceAfter=No
 49	,	,	PUNCT	_	_	50	punct	_	AlignBegin=134496|AlignEnd=134496
-50	où	où	ADV	_	PronType=Rel	48	conj:dicto	_	AlignBegin=135429|AlignEnd=135642
+50	où	où	ADV	_	PronType=Rel	48	repair	_	AlignBegin=135429|AlignEnd=135642
 51	euh	euh	INTJ	_	_	50	discourse	_	AlignBegin=135642|AlignEnd=135855|SpaceAfter=No
 52	,	,	PUNCT	_	_	51	punct	_	AlignBegin=135855|AlignEnd=135855
 53	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	54	subj	_	AlignBegin=135855|AlignEnd=136068|Number[lex]=Sing|Person[lex]=2
@@ -616,7 +616,7 @@
 75	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	72	comp:obj	_	AlignBegin=141837|AlignEnd=142113|Person[ctxt]=1
 76	que	que	SCONJ	_	_	75	comp:obj	_	AlignBegin=142113|AlignEnd=142389|SpaceAfter=No
 77	,	,	PUNCT	_	_	76	punct	_	AlignBegin=142389|AlignEnd=142389
-78	que	que	SCONJ	_	_	76	conj:dicto	_	AlignBegin=143566|AlignEnd=143824
+78	que	que	SCONJ	_	_	76	repair	_	AlignBegin=143566|AlignEnd=143824
 79	depuis	depuis	ADP	_	_	87	mod	_	AlignBegin=143824|AlignEnd=144082
 80	que	que	SCONJ	_	_	79	comp:obj	_	AlignBegin=144082|AlignEnd=144339
 81	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	82	det	_	AlignBegin=144339|AlignEnd=144597|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
@@ -625,12 +625,12 @@
 84	nés	naître	VERB	_	VerbForm=Part	83	comp:aux@tense	_	AlignBegin=145113|AlignEnd=145371|Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 85	,	,	PUNCT	_	_	87	punct	_	AlignBegin=145371|AlignEnd=145371
 86	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	87	subj	_	AlignBegin=145371|AlignEnd=145629|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-87	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	78	comp:obj	_	AlignBegin=145629|AlignEnd=145886
+87	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	78	comp:obj	_	AlignBegin=145629|AlignEnd=145886
 88	pas	pas	ADV	_	Polarity=Neg	87	mod	_	AlignBegin=145886|AlignEnd=146144
 89	euh	euh	INTJ	_	_	92	discourse	_	AlignBegin=146144|AlignEnd=146402|SpaceAfter=No
 90	,	,	PUNCT	_	_	89	punct	_	AlignBegin=146402|AlignEnd=146402
 91	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	92	subj	_	AlignBegin=146790|AlignEnd=147010|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-92	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	87	conj:dicto	_	AlignBegin=147010|AlignEnd=147229
+92	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	87	repair	_	AlignBegin=147010|AlignEnd=147229
 93	pas	pas	ADV	_	Polarity=Neg	92	mod	_	AlignBegin=147229|AlignEnd=147449
 94	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	92	comp:aux@tense	_	AlignBegin=147449|AlignEnd=147669|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 95	trop	trop	ADV	_	_	94	mod	_	AlignBegin=147669|AlignEnd=147889

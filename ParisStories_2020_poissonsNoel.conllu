@@ -14,7 +14,7 @@
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
-15	de	de	ADP	_	_	11	conj:dicto	_	_
+15	de	de	ADP	_	_	11	repair	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 17	Réunion	Réunion	PROPN	_	_	15	comp:obj	_	Gender[lex]=Unknown
 18	qu'	que	PRON	_	PronType=Rel	20	comp:obj	_	SpaceAfter=No
@@ -267,7 +267,7 @@
 4	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	rire	rire	VERB	_	VerbForm=Inf	4	comp:aux@caus	_	SpaceAfter=No|Subject=SubjRaising
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	parce	parce	ADV	_	ExtPos=SCONJ	4	mod@scrap	_	Idiom=Yes
+7	parce	parce	ADV	_	ExtPos=SCONJ	4	mod	_	Idiom=Yes|Scrap=Yes
 8	que	que	SCONJ	_	_	7	unk	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	maintenant	maintenant	ADV	_	_	7	mod	_	_
@@ -336,7 +336,7 @@
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
-17	traditionnel	traditionnel	ADJ	_	_	13	conj:dicto	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+17	traditionnel	traditionnel	ADJ	_	_	13	repair	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 18	d'	de	ADP	_	_	11	comp:obj@agent	_	SpaceAfter=No
 19	emmener	emmener	VERB	_	VerbForm=Inf	18	comp:obj	_	SpaceAfter=No|Subject=NoRaising
 20	,	,	PUNCT	_	_	25	punct	_	_
@@ -461,14 +461,14 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	quand	quand	SCONJ	_	_	18	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	quand	quand	SCONJ	_	_	4	conj:dicto	_	_
+6	quand	quand	SCONJ	_	_	4	repair	_	_
 7	vraiment	vraiment	ADV	_	_	10	mod	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 9	plage	plage	NOUN	_	_	10	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
 11	remplie	remplir	VERB	_	VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	remplie	remplir	VERB	_	VerbForm=Part	11	conj:dicto	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+13	remplie	remplir	VERB	_	VerbForm=Part	11	repair	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 14	de	de	ADP	_	_	13	mod	_	_
 15	monde	monde	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
@@ -493,7 +493,7 @@
 # text = même, même aux gens que tu connais pas, tu leur souhaites la bonne année.
 1	même	même	ADV	_	_	13	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	même	même	ADV	_	_	1	conj:dicto	_	_
+3	même	même	ADV	_	_	1	repair	_	_
 4	aux	au	ADP	_	_	3	comp:obl	_	_
 5	gens	gens	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 6	que	que	PRON	_	PronType=Rel	8	comp:obj	_	_

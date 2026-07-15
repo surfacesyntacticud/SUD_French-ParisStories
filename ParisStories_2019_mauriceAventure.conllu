@@ -7,14 +7,14 @@
 5	euh	euh	INTJ	_	_	8	discourse	_	_
 6	Rafi	Rafi	PROPN	_	_	8	dislocated:subj	_	Gender[lex]=Unknown
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	8	subj	_	Person[lex]=3
-8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	11	subj	_	Person[lex]=3
-11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:dicto	_	_
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	repair	_	_
 12	rencontré	rencontrer	VERB	_	VerbForm=Part|Voice=Act	11	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	conj:dicto	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	repair	_	_
 16	fille	fille	NOUN	_	_	12	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	euh	euh	INTJ	_	_	19	discourse	_	_
@@ -28,17 +28,17 @@
 # sent_id = ParisStories_2019_mauriceAventure_2
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	euh	euh	INTJ	_	_	3	discourse	_	_
-3	et	et	CCONJ	_	_	1	conj:dicto	_	_
+3	et	et	CCONJ	_	_	1	repair	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 5	fille	fille	NOUN	_	_	7	dislocated:subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 6	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	7	subj	_	Person[lex]=3
 7	travaille	travailler	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 8	dans	dans	ADP	_	_	7	comp:obl	_	_
-9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	comp:obj@scrap	_	SpaceAfter=No
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	comp:obj	_	Scrap=Yes|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	dans	dans	ADP	_	_	8	conj:dicto	_	_
+11	dans	dans	ADP	_	_	8	repair	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Parc	parc	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+13	Parc	parc	NOUN	_	_	11	comp:obj	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 14	d'	de	ADP	_	_	13	udep	_	SpaceAfter=No
 15	aventure	aventure	NOUN	_	_	14	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 16	euh	euh	INTJ	_	_	17	discourse	_	_
@@ -76,7 +76,7 @@
 14	plein	plein	ADV	_	_	19	mod	_	_
 15	de	de	ADP	_	_	14	comp:obl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	plein	plein	ADV	_	_	14	conj:dicto	_	_
+17	plein	plein	ADV	_	_	14	repair	_	_
 18	d'	de	ADP	_	_	17	comp:obl	_	SpaceAfter=No
 19	activités	activité	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
@@ -171,13 +171,13 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	repair	_	_
 7	ouais	ouais	INTJ	_	_	9	discourse	_	_
 8	c'	ce	PRON	_	PronType=Dem	9	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	_
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	repair	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	repair	_	_
-12	parc	parc	NOUN	_	_	9	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
+12	parc	parc	NOUN	_	_	9	comp:pred	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 13	d'	de	ADP	_	_	12	udep	_	SpaceAfter=No
 14	aventures	aventure	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 15	super	super	ADV	_	_	16	mod	_	_
@@ -210,14 +210,14 @@
 22	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	21	comp:obj	_	Person[lex]=3
 23	de	de	ADP	_	_	22	mod	_	_
 24	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	25	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-25	jours	jour	NOUN	_	_	23	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+25	jours	jour	NOUN	_	_	23	comp:obj	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Plur
 26	de	de	ADP	_	_	25	udep	_	_
 27	repos	repos	NOUN	_	_	26	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	pour	pour	ADP	_	_	14	mod	_	_
 30	euh	euh	INTJ	_	_	32	discourse	_	_
 31	bah	bah	INTJ	_	_	32	discourse	_	_
-32	pour	pour	ADP	_	ExtPos=ADV	29	conj:dicto	_	Idiom=Yes
+32	pour	pour	ADP	_	ExtPos=ADV	29	repair	_	Idiom=Yes
 33	qu'	que	SCONJ	_	_	32	unk	_	InIdiom=Yes|SpaceAfter=No
 34	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	35	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 35	puisse	pouvoir	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	32	comp:obj	_	Person[ctxt]=3
@@ -294,7 +294,7 @@
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 15	endroit	endroit	NOUN	_	_	16	subj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-16	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj:dicto	_	_
+16	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	repair	_	_
 17	très	très	ADV	_	_	19	mod	_	_
 18	très	très	ADV	_	_	17	conj:coord	_	_
 19	vaste	vaste	ADJ	_	_	16	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
@@ -437,10 +437,10 @@
 # text = on s'est s'est vraiment cru dans la savane euh.
 # sent_id = ParisStories_2019_mauriceAventure_26
 1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind|Shared=No	3	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-2	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	3	comp@scrap	_	Person[lex]=3|SpaceAfter=No
+2	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	3	comp	_	Person[lex]=3|Scrap=Yes|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	5	comp@expl	_	Person[lex]=3|SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	repair	_	_
 6	vraiment	vraiment	ADV	_	_	7	mod	_	_
 7	cru	croire	VERB	_	VerbForm=Part	5	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 8	dans	dans	ADP	_	_	7	comp:obl	_	_
@@ -539,7 +539,7 @@
 2	c'	ce	PRON	_	PronType=Dem	3	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	c'	ce	PRON	_	PronType=Dem	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	repair	_	_
 6	vraiment	vraiment	ADV	_	_	7	mod	_	_
 7	super	super	ADV	_	_	8	mod	_	_
 8	joli	joli	ADJ	_	_	5	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
@@ -562,7 +562,7 @@
 3	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	4	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	repair	_	_
 7	dejeuné	déjeuner	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 8	tous	tous	PRON	_	Gender=Masc|PronType=Ind	9	mod	_	Number[lex]=Plur|Person[lex]=3
 9	ensemble	ensemble	ADV	_	_	7	mod	_	SpaceAfter=No
@@ -699,7 +699,7 @@
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
 8	très	très	ADV	_	_	6	mod	_	_
 9	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	10	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj:dicto	_	_
+10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	repair	_	_
 11	plus	plus	ADV	_	_	12	mod	_	_
 12	très	très	ADV	_	_	13	mod	_	_
 13	nombreux	nombreux	ADJ	_	Gender=Masc	10	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Plur
@@ -788,7 +788,7 @@
 
 # text = parce que lui il a le vertige, mais il s'est lancé un défi.
 # sent_id = ParisStories_2019_mauriceAventure_52
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::ParisStories_2019_mauriceAventure_51::5|Idiom=Yes|SingleSpeaker=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Coconstruct=mod::ParisStories_2019_mauriceAventure_51::5|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|PronType=Prs	5	dislocated:subj	_	Person[lex]=3
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	subj	_	Person[lex]=3
@@ -811,12 +811,12 @@
 2	voilà	voilà	VERB	_	ExtPos=INTJ	3	discourse	_	_
 3	et	et	CCONJ	_	_	16	cc	_	_
 4	euh	euh	INTJ	_	_	5	discourse	_	_
-5	et	et	CCONJ	_	_	3	conj:dicto	_	_
+5	et	et	CCONJ	_	_	3	repair	_	_
 6	donc	donc	ADV	_	_	3	cc	_	_
 7	en	en	ADP	_	ExtPos=ADV	3	discourse	_	Idiom=Yes
 8	fait	fait	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	3	punct	_	_
-10	on	on	PRON	_	PronType=Ind	3	unk@scrap	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+10	on	on	PRON	_	PronType=Ind	3	unk	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|Scrap=Yes
 11	comme	comme	ADP	_	_	16	discourse	_	_
 12	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	Number[lex]=Sing|Person[lex]=1
 13	disais	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	11	comp:obj	_	Person[ctxt]=1|SpaceAfter=No

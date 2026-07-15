@@ -3,7 +3,7 @@
 # text = je, je pensais vraiment qu'il était vieux.
 1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	AlignBegin=97|AlignEnd=313|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=313|AlignEnd=313
-3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	1	conj:dicto	_	AlignBegin=313|AlignEnd=529|Number[lex]=Sing|Person[lex]=1
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	1	repair	_	AlignBegin=313|AlignEnd=529|Number[lex]=Sing|Person[lex]=1
 4	pensais	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=529|AlignEnd=744|Person[ctxt]=1
 5	vraiment	vraiment	ADV	_	_	4	mod	_	AlignBegin=744|AlignEnd=960
 6	qu'	que	SCONJ	_	_	4	comp:obj	_	AlignBegin=960|AlignEnd=1176|SpaceAfter=No
@@ -44,7 +44,7 @@
 2	faisait	faire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=5465|AlignEnd=5700|Number[ctxt]=Sing|Person[ctxt]=3
 3	tout	tout	ADV	_	_	5	mod	_	AlignBegin=5700|AlignEnd=5934
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=5934|AlignEnd=6169|HasSpokenGender=OnlySingExceptWithLiaison
-5	temps	temps	NOUN	_	_	2	comp:mod	_	AlignBegin=6169|AlignEnd=6403|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+5	temps	temps	NOUN	_	_	2	mod	_	AlignBegin=6169|AlignEnd=6403|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=6403|AlignEnd=6403
 7	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=6403|AlignEnd=6637|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=6637|AlignEnd=6637
@@ -114,7 +114,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=15173|AlignEnd=15173
 5	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=15173|AlignEnd=15925|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=15925|AlignEnd=15925
-7	à	à	ADP	_	_	3	conj:dicto	_	AlignBegin=15925|AlignEnd=15925
+7	à	à	ADP	_	_	3	repair	_	AlignBegin=15925|AlignEnd=15925
 8	Chaville	Chaville	PROPN	_	_	7	comp:obj	_	AlignBegin=15925|AlignEnd=16677|Gender[lex]=Unknown|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	AlignBegin=16677|AlignEnd=16677|wordform=."
 
@@ -161,7 +161,7 @@
 # sent_id = ParisStories_2022_14_râteauAuTravail__13
 # speaker = L1
 # text = j~ et il me dit euh ouais euh, je te, je te raccompagne un jour, et tout.
-1	j~	j~	X	_	ExtPos=PRON	5	unk@scrap	_	AlignBegin=19812|AlignEnd=20239
+1	j~	j~	X	_	ExtPos=PRON	5	unk	_	AlignBegin=19812|AlignEnd=20239|Scrap=Yes
 2	et	et	CCONJ	_	_	5	cc	_	AlignBegin=20239|AlignEnd=20666
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	subj	_	AlignBegin=20666|AlignEnd=21092|Person[lex]=3
 4	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	5	comp:obl	_	AlignBegin=21092|AlignEnd=21519|Number[lex]=Sing|Person[lex]=1
@@ -173,8 +173,8 @@
 10	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	subj	_	AlignBegin=22844|AlignEnd=23079|Number[lex]=Sing|Person[lex]=1
 11	te	toi	PRON	_	Case=Acc|Emph=No|PronType=Prs	15	comp:obj	_	AlignBegin=23079|AlignEnd=23315|Number[lex]=Sing|Person[lex]=2|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=23315|AlignEnd=23315
-13	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	conj:dicto	_	AlignBegin=23315|AlignEnd=23550|Number[lex]=Sing|Person[lex]=1
-14	te	toi	PRON	_	Case=Acc|Emph=No|PronType=Prs	11	conj:dicto	_	AlignBegin=23550|AlignEnd=23786|Number[lex]=Sing|Person[lex]=2
+13	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	repair	_	AlignBegin=23315|AlignEnd=23550|Number[lex]=Sing|Person[lex]=1
+14	te	toi	PRON	_	Case=Acc|Emph=No|PronType=Prs	11	repair	_	AlignBegin=23550|AlignEnd=23786|Number[lex]=Sing|Person[lex]=2
 15	raccompagne	raccompagner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=23786|AlignEnd=24021|Person[ctxt]=1|Reported=Yes
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	17	det	_	AlignBegin=24021|AlignEnd=24257
 17	jour	jour	NOUN	_	_	15	mod	_	AlignBegin=24257|AlignEnd=24492|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -249,7 +249,7 @@
 5	taré	taré	NOUN	_	_	3	comp:obj	_	AlignBegin=32584|AlignEnd=32843|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	AlignBegin=32843|AlignEnd=32843
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	8	subj	_	AlignBegin=32843|AlignEnd=33198|Person[lex]=3
-8	conduit	conduire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	AlignBegin=33198|AlignEnd=33553|Person[ctxt]=3
+8	conduit	conduire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	2	repair	_	AlignBegin=33198|AlignEnd=33553|Person[ctxt]=3
 9	n'	ne	ADV	_	_	8	mod	_	AlignBegin=33553|AlignEnd=33907|SpaceAfter=No
 10	importe	importer	VERB	_	Mood=Ind|VerbForm=Fin	9	unk	_	AlignBegin=33907|AlignEnd=34262
 11	comment	comment	ADV	_	_	10	unk	_	AlignBegin=34262|AlignEnd=34617|SpaceAfter=No
@@ -297,9 +297,9 @@
 4	,	,	PUNCT	_	_	9	punct	_	AlignBegin=38995|AlignEnd=38995
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=38995|AlignEnd=39300|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=39300|AlignEnd=39300
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	conj:dicto	_	AlignBegin=39300|AlignEnd=39605|HasSpokenGender=OnlySingExceptWithLiaison
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	repair	_	AlignBegin=39300|AlignEnd=39605|HasSpokenGender=OnlySingExceptWithLiaison
 8	même	même	ADJ	_	_	9	mod	_	AlignBegin=39605|AlignEnd=39910|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-9	style	style	NOUN	_	_	3	conj:coord	_	AlignBegin=39910|AlignEnd=40215|Gender[lex]=Masc|Number[ctxt]=Sing
+9	style	style	NOUN	_	_	3	conj:coord	_	AlignBegin=39910|AlignEnd=40215|cdet=Ambiguous|Gender[lex]=Masc|Number[ctxt]=Sing
 10	de	de	ADP	_	_	9	udep	_	AlignBegin=40215|AlignEnd=40520
 11	mec	mec	NOUN	_	_	10	comp:obj	_	AlignBegin=40520|AlignEnd=40825|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	AlignBegin=40825|AlignEnd=40825
@@ -328,7 +328,7 @@
 19	re~	re~	X	_	ExtPos=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:obj	_	AlignBegin=43199|AlignEnd=43369|SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	AlignBegin=43369|AlignEnd=43369
 21	me	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs|Reflex=Yes	22	comp:obj	_	AlignBegin=43369|AlignEnd=43630|Number[lex]=Sing|Person[lex]=1
-22	remettre	remettre	VERB	_	VerbForm=Inf	19	conj:dicto	_	AlignBegin=43630|AlignEnd=43890|Subject=SubjRaising
+22	remettre	remettre	VERB	_	VerbForm=Inf	19	repair	_	AlignBegin=43630|AlignEnd=43890|Subject=SubjRaising
 23	avec	avec	ADP	_	_	22	mod	_	AlignBegin=43890|AlignEnd=44151
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	AlignBegin=44151|AlignEnd=44412|HasSpokenGender=OnlySingExceptWithLiaison
 25	même	même	NOUN	_	_	23	comp:obj	_	AlignBegin=44412|AlignEnd=44673|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -357,7 +357,7 @@
 11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs|Shared=No	16	subj	_	AlignBegin=46867|AlignEnd=47146|Person[lex]=3
 12	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs|Reflex=Yes	16	comp:obl	_	AlignBegin=47146|AlignEnd=47424|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=47424|AlignEnd=47424
-14	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	11	conj:dicto	_	AlignBegin=47424|AlignEnd=47703|Person[lex]=3
+14	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	11	repair	_	AlignBegin=47424|AlignEnd=47703|Person[lex]=3
 15	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	16	comp:obl	_	AlignBegin=47703|AlignEnd=47982|Number[lex]=Sing|Person[lex]=1
 16	demande	demander	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47982|AlignEnd=48226|Number[ctxt]=Sing|Person[ctxt]=3
 17	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	18	det	_	AlignBegin=48226|AlignEnd=48471|HasSpokenGender=OnlySingExceptWithLiaison
@@ -521,7 +521,7 @@
 4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=65289|AlignEnd=65465|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 5	apprends	apprendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=65465|AlignEnd=65640|Person[ctxt]=1
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	AlignBegin=65640|AlignEnd=65816
-7	choses	chose	NOUN	_	_	5	comp:obj	_	AlignBegin=65816|AlignEnd=65991|Gender[lex]=Fem|Number[ctxt]=Plur
+7	choses	chose	NOUN	_	_	5	comp:obj	_	AlignBegin=65816|AlignEnd=65991|cdet=Ambiguous|Gender[lex]=Fem|Number[ctxt]=Plur
 8	de	de	ADP	_	_	7	udep	_	AlignBegin=65991|AlignEnd=66167
 9	ouf	ouf	NOUN	_	_	8	comp:obj	_	AlignBegin=66167|AlignEnd=66342|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	AlignBegin=66342|AlignEnd=66342
@@ -647,7 +647,7 @@
 5	,	,	PUNCT	_	_	9	punct	_	AlignBegin=84563|AlignEnd=84563
 6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	9	subj	_	AlignBegin=84563|AlignEnd=84896|Person[lex]=3|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=84896|AlignEnd=84896
-8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	conj:dicto	_	AlignBegin=84896|AlignEnd=85228|Person[lex]=3
+8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	repair	_	AlignBegin=84896|AlignEnd=85228|Person[lex]=3
 9	demandait	demander	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=85228|AlignEnd=85561|Number[ctxt]=Sing|Person[ctxt]=3
 10	à	à	ADP	_	_	9	comp:obl	_	AlignBegin=85561|AlignEnd=85561
 11	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	det	_	AlignBegin=85561|AlignEnd=85893|HasSpokenGender=OnlySingExceptWithLiaison
@@ -773,7 +773,7 @@
 # speaker = L1
 # text = des trucs de gamins.
 1	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	AlignBegin=103903|AlignEnd=104357
-2	trucs	truc	NOUN	_	_	0	root	_	AlignBegin=104357|AlignEnd=104811|Gender[lex]=Masc|Number[ctxt]=Plur
+2	trucs	truc	NOUN	_	_	0	root	_	AlignBegin=104357|AlignEnd=104811|cdet=Ambiguous|Gender[lex]=Masc|Number[ctxt]=Plur
 3	de	de	ADP	_	_	2	udep	_	AlignBegin=104811|AlignEnd=105264
 4	gamins	gamin	NOUN	_	_	3	comp:obj	_	AlignBegin=105264|AlignEnd=105718|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=105718|AlignEnd=105718

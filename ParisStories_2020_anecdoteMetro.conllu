@@ -75,8 +75,8 @@
 
 # sent_id = ParisStories_2020_anecdoteMetro_8
 # text = je me, en fait au départ tu vois, j'ai hésité entre aller aller à la fac en bus, ou aller à la fac à pied jusqu'au métro.
-1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	unk@scrap	_	Number[lex]=Sing|Person[lex]=1
-2	me	moi	PRON	_	Emph=No|PronType=Prs	1	unk@scrap	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	unk	_	Number[lex]=Sing|Person[lex]=1|Scrap=Yes
+2	me	moi	PRON	_	Emph=No|PronType=Prs	1	unk	_	Number[lex]=Sing|Person[lex]=1|Scrap=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	en	en	ADP	_	ExtPos=ADV	12	discourse	_	Idiom=Yes
 5	fait	fait	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
@@ -181,7 +181,7 @@
 4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 5	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
 6	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-7	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	conj:dicto	_	Person[ctxt]=1
+7	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	repair	_	Person[ctxt]=1
 8	pile	pile	NOUN	_	ExtPos=ADV	7	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 9	poil	poil	NOUN	_	_	8	unk	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 10	pour	pour	ADP	_	_	7	mod	_	_
@@ -277,7 +277,7 @@
 1	et	et	CCONJ	_	_	2	cc	_	_
 2	en	en	ADP	_	ExtPos=ADV	0	root	_	Idiom=Yes
 3	fait	fait	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	unk@scrap	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	unk	_	HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
 5	…	…	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_anecdoteMetro_17

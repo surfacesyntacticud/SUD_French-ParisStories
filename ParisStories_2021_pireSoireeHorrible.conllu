@@ -71,7 +71,7 @@
 7	faisait	faire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	11	det	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	conj:dicto	_	_
+10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	repair	_	_
 11	semaines	semaine	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 12	et	et	CCONJ	_	_	14	cc	_	_
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
@@ -117,7 +117,7 @@
 2	,	,	PUNCT	_	_	5	punct	_	_
 3	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	et	et	CCONJ	_	_	1	conj:dicto	_	_
+5	et	et	CCONJ	_	_	1	repair	_	_
 6	au	au	ADP	_	_	12	mod	_	_
 7	bout	bout	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	d'	de	ADP	_	_	7	mod	_	SpaceAfter=No
@@ -341,7 +341,7 @@
 # text = la, la première discussion qu'on a eue, c'est il critiquait les notes scolaires de mon frère.
 1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	conj:dicto	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	première	premier	ADJ	_	Gender=Fem	5	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 5	discussion	discussion	NOUN	_	_	12	dislocated:subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 6	qu'	que	PRON	_	PronType=Rel	9	comp:obj	_	SpaceAfter=No
@@ -455,9 +455,9 @@
 4	moi	moi	PRON	_	Emph=Yes|PronType=Prs	10	dislocated:subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	Number[lex]=Sing|Person[lex]=1
-7	me	moi	PRON	_	Emph=No|PronType=Prs	6	unk@scrap	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+7	me	moi	PRON	_	Emph=No|PronType=Prs	6	unk	_	Number[lex]=Sing|Person[lex]=1|Scrap=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
-9	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	conj:dicto	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+9	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	repair	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 10	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	là	là	ADV	_	_	10	comp:pred	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	_
@@ -540,11 +540,11 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	dislocated:subj	_	Number[lex]=Plur|Person[lex]=1|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	conj:dicto	_	Number[lex]=Plur|Person[lex]=1|SpaceAfter=No
+5	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	repair	_	Number[lex]=Plur|Person[lex]=1|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	tous	tout	ADJ	_	Gender=Masc	9	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-9	trois	trois	NUM	_	ExtPos=PRON	5	conj:dicto	_	Number[lex]=Plur|SpaceAfter=No
+9	trois	trois	NUM	_	ExtPos=PRON	5	conj:reform	_	Number[lex]=Plur|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	12	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -611,7 +611,7 @@
 # text = le, le supplice s'est arrêté là.
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	conj:dicto	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	supplice	supplice	NOUN	_	_	6	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	7	comp:obj	_	Person[lex]=3|SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -626,12 +626,12 @@
 2	ensuite	ensuite	ADV	_	_	5	mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	subj	_	Person[lex]=3
-5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	mère	mère	NOUN	_	_	10	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	11	comp:obj	_	Person[lex]=3|SpaceAfter=No
-10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj:dicto	_	_
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	repair	_	_
 11	invité	inviter	VERB	_	VerbForm=Part|Voice=Act	10	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 12	à	à	ADP	_	_	11	comp:obl	_	_
 13	manger	manger	VERB	_	VerbForm=Inf	12	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
@@ -796,7 +796,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	avec	avec	ADP	_	_	3	conj:dicto	_	_
+7	avec	avec	ADP	_	_	3	repair	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 9	assiettes	assiette	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_

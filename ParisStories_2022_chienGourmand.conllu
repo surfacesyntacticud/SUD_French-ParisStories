@@ -67,7 +67,7 @@
 8	,	,	PUNCT	_	_	11	punct	_	AlignBegin=9031|AlignEnd=9031
 9	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=9031|AlignEnd=9182|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=9182|AlignEnd=9182
-11	au	au	ADP	_	_	7	conj:dicto	_	AlignBegin=9182|AlignEnd=9334
+11	au	au	ADP	_	_	7	repair	_	AlignBegin=9182|AlignEnd=9334
 12	chenil	chenil	NOUN	_	_	11	comp:obj	_	AlignBegin=9334|AlignEnd=9485|Gender[lex]=Masc|Number[ctxt]=Sing
 13	pour	pour	ADP	_	_	5	mod	_	AlignBegin=9981|AlignEnd=10155
 14	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	15	comp:obj	_	AlignBegin=10155|AlignEnd=10328|Person[lex]=3|SpaceAfter=No
@@ -114,11 +114,11 @@
 13	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	14	subj	_	AlignBegin=16431|AlignEnd=16625|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 14	choisit	choisir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=16625|AlignEnd=16818|Person[ctxt]=3|SpaceAfter=No
 15	,	,	PUNCT	_	_	20	punct	_	AlignBegin=16818|AlignEnd=16818
-16	on	on	PRON	_	PronType=Ind	13	conj:dicto	_	AlignBegin=16818|AlignEnd=17011|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+16	on	on	PRON	_	PronType=Ind	13	repair	_	AlignBegin=16818|AlignEnd=17011|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	AlignBegin=17011|AlignEnd=17011
 18	euh	euh	INTJ	_	_	16	discourse	_	AlignBegin=17011|AlignEnd=17205|SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	AlignBegin=17205|AlignEnd=17205
-20	choisir	choisir	VERB	_	VerbForm=Inf	14	conj:dicto	_	AlignBegin=17205|AlignEnd=17398|SpaceAfter=No|Subject=SubjRaising
+20	choisir	choisir	VERB	_	VerbForm=Inf	14	repair	_	AlignBegin=17205|AlignEnd=17398|SpaceAfter=No|Subject=SubjRaising
 21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=17398|AlignEnd=17398
 22	du	du	ADP	_	_	20	discourse	_	AlignBegin=17398|AlignEnd=17592
 23	coup	coup	NOUN	_	_	22	comp:obj	_	AlignBegin=17592|AlignEnd=17785|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -176,7 +176,7 @@
 8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	12	subj	_	AlignBegin=26981|AlignEnd=27140|Person[lex]=3
 9	nous	nous	PRON	_	Case=Dat|Emph=No|PronType=Prs	12	comp:obl	_	AlignBegin=27140|AlignEnd=27299|Number[lex]=Plur|Person[lex]=1|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=27299|AlignEnd=27299
-11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	8	conj:dicto	_	AlignBegin=27299|AlignEnd=27458|Person[lex]=3
+11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	8	repair	_	AlignBegin=27299|AlignEnd=27458|Person[lex]=3
 12	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	7	comp:obj	_	AlignBegin=27458|AlignEnd=27617|Person[ctxt]=3
 13	pipi	pipi	NOUN	_	_	12	comp:obj	_	AlignBegin=27617|AlignEnd=27777|Gender[lex]=Masc|Number[ctxt]=Sing
 14	dessus	dessus	ADV	_	_	12	mod	_	AlignBegin=27777|AlignEnd=27936|SpaceAfter=No
@@ -272,7 +272,7 @@
 # sent_id = ParisStories_2022_7_chienGourmand__14
 # speaker = L1
 # text = parce qu'on a déménagé entre temps, tu sais, tu te rappelles ?
-1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=38110|AlignEnd=38244|Automated=Yes|Coconstruct=mod::ParisStories_2022_7_chienGourmand__13::4|Idiom=Yes|SingleSpeaker=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=38110|AlignEnd=38244|Coconstruct=mod::ParisStories_2022_7_chienGourmand__13::4|Idiom=Yes|SingleSpeaker=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	AlignBegin=38244|AlignEnd=38379|InIdiom=Yes|SpaceAfter=No
 3	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	4	subj	_	AlignBegin=38379|AlignEnd=38513|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	AlignBegin=38513|AlignEnd=38647
@@ -325,12 +325,12 @@
 # text = hum, parce qu'il a un peu de mal à avancer.
 1	hum	hum	INTJ	_	_	6	discourse	_	AlignBegin=44337|AlignEnd=44617|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=44617|AlignEnd=44617
-3	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=44617|AlignEnd=44897|Automated=Yes|Coconstruct=mod::ParisStories_2022_7_chienGourmand__16::8|Idiom=Yes|SingleSpeaker=Yes
+3	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	AlignBegin=44617|AlignEnd=44897|Coconstruct=mod::ParisStories_2022_7_chienGourmand__16::8|Idiom=Yes|SingleSpeaker=Yes
 4	qu'	que	SCONJ	_	_	3	unk	_	AlignBegin=44897|AlignEnd=45178|InIdiom=Yes|SpaceAfter=No
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	subj	_	AlignBegin=45178|AlignEnd=45458|Person[lex]=3
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=45458|AlignEnd=45738
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=45738|AlignEnd=46018
-8	peu	peu	NOUN	_	_	6	comp:obj	_	AlignBegin=46018|AlignEnd=46298|Gender[lex]=Masc|Number[ctxt]=Sing
+8	peu	peu	NOUN	_	_	6	comp:obj	_	AlignBegin=46018|AlignEnd=46298|cdet=Yes|Gender[lex]=Masc|Number[ctxt]=Sing
 9	de	de	ADP	_	_	8	udep	_	AlignBegin=46298|AlignEnd=46579
 10	mal	mal	NOUN	_	Number=Sing	9	comp:obj	_	AlignBegin=46579|AlignEnd=46859|Gender[lex]=Masc
 11	à	à	ADP	_	_	10	comp:obl	_	AlignBegin=46859|AlignEnd=46859
@@ -345,7 +345,7 @@
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	subj	_	AlignBegin=47288|AlignEnd=47436|Person[lex]=3
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47436|AlignEnd=47585
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=47585|AlignEnd=47734
-6	peu	peu	NOUN	_	_	4	comp:obj	_	AlignBegin=47734|AlignEnd=47883|Gender[lex]=Masc|Number[ctxt]=Sing
+6	peu	peu	NOUN	_	_	4	comp:obj	_	AlignBegin=47734|AlignEnd=47883|cdet=Yes|Gender[lex]=Masc|Number[ctxt]=Sing
 7	d'	de	ADP	_	_	6	udep	_	AlignBegin=47883|AlignEnd=48031|SpaceAfter=No
 8	arthrose	arthrose	NOUN	_	_	7	comp:obj	_	AlignBegin=48031|AlignEnd=48180|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	AlignBegin=48180|AlignEnd=48180
@@ -656,16 +656,16 @@
 10	de	de	ADP	_	ExtPos=DET|Shared=No	14	det	_	AlignBegin=87539|AlignEnd=87713|Idiom=Yes
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	unk	_	AlignBegin=87713|AlignEnd=87886|HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=87886|AlignEnd=87886
-13	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	conj:dicto	_	AlignBegin=87886|AlignEnd=88060
+13	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	repair	_	AlignBegin=87886|AlignEnd=88060
 14	cyanure	cyanure	NOUN	_	_	9	comp:pred	_	AlignBegin=88060|AlignEnd=88233|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=88233|AlignEnd=88233
 16	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	AlignBegin=88493|AlignEnd=88657|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=88657|AlignEnd=88657
-18	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	conj:dicto	_	AlignBegin=88657|AlignEnd=88821|SpaceAfter=No
+18	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	repair	_	AlignBegin=88657|AlignEnd=88821|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=88821|AlignEnd=88821
 20	ouais	ouais	INTJ	_	_	18	discourse	_	AlignBegin=88821|AlignEnd=88985|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=88985|AlignEnd=88985
-22	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	conj:dicto	_	AlignBegin=88985|AlignEnd=89149
+22	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	repair	_	AlignBegin=88985|AlignEnd=89149
 23	cyanure	cyanure	NOUN	_	_	14	conj:dicto	_	AlignBegin=89149|AlignEnd=89312|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 24	.	.	PUNCT	_	_	9	punct	_	AlignBegin=89312|AlignEnd=89312
 
@@ -734,7 +734,7 @@
 5	donné	donner	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	AlignBegin=95376|AlignEnd=95520|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	AlignBegin=95520|AlignEnd=95663
 7	petits	petit	ADJ	_	Gender=Masc	8	mod	_	AlignBegin=95663|AlignEnd=95806|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
-8	quartiers	quartier	NOUN	_	_	5	comp:obj	_	AlignBegin=95806|AlignEnd=95949|Gender[lex]=Masc|Number[ctxt]=Plur
+8	quartiers	quartier	NOUN	_	_	5	comp:obj	_	AlignBegin=95806|AlignEnd=95949|cdet=Ambiguous|Gender[lex]=Masc|Number[ctxt]=Plur
 9	de	de	ADP	_	_	8	udep	_	AlignBegin=95949|AlignEnd=96093
 10	pêche	pêche	NOUN	_	_	9	comp:obj	_	AlignBegin=96093|AlignEnd=96236|Gender[lex]=Fem|Number[ctxt]=Sing
 11	comme	comme	ADP	_	_	5	mod	_	AlignBegin=96236|AlignEnd=96469
@@ -871,7 +871,7 @@
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=115606|AlignEnd=115772|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	AlignBegin=115772|AlignEnd=115772
 12	c'	ce	PRON	_	PronType=Dem	13	subj	_	AlignBegin=116057|AlignEnd=116186|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj:dicto	_	AlignBegin=116186|AlignEnd=116315
+13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	repair	_	AlignBegin=116186|AlignEnd=116315
 14	beaucoup	beaucoup	ADV	_	_	13	comp:pred	_	AlignBegin=116315|AlignEnd=116444
 15	d'	de	ADP	_	_	14	comp:obl	_	AlignBegin=116444|AlignEnd=116573|SpaceAfter=No
 16	amour	amour	NOUN	_	_	15	comp:obj	_	AlignBegin=116573|AlignEnd=116702|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
@@ -952,11 +952,11 @@
 # text = il, il, ouais, il mangeait le coin de l'escalier.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	8	subj	_	AlignBegin=124610|AlignEnd=125403|Person[lex]=3|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=125403|AlignEnd=125403
-3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	1	conj:dicto	_	AlignBegin=125950|AlignEnd=126159|Person[lex]=3|SpaceAfter=No
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	1	repair	_	AlignBegin=125950|AlignEnd=126159|Person[lex]=3|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=126159|AlignEnd=126159
 5	ouais	ouais	INTJ	_	_	3	discourse	_	AlignBegin=126159|AlignEnd=126367|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=126367|AlignEnd=126367
-7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	conj:dicto	_	AlignBegin=126367|AlignEnd=126576|Person[lex]=3
+7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	repair	_	AlignBegin=126367|AlignEnd=126576|Person[lex]=3
 8	mangeait	manger	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=126576|AlignEnd=126785|Number[ctxt]=Sing|Person[ctxt]=3
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=126785|AlignEnd=126993|HasSpokenGender=OnlySingExceptWithLiaison
 10	coin	coin	NOUN	_	_	8	comp:obj	_	AlignBegin=126993|AlignEnd=127202|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -1150,9 +1150,9 @@
 18	accourt	accourir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=150200|AlignEnd=150390|Person[ctxt]=3|SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	AlignBegin=150390|AlignEnd=150390
 20	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	21	subj	_	AlignBegin=150390|AlignEnd=150581|Person[lex]=3
-21	accourt	accourir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	18	conj:dicto	_	AlignBegin=150581|AlignEnd=150771|Person[ctxt]=3|SpaceAfter=No
+21	accourt	accourir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	18	repair	_	AlignBegin=150581|AlignEnd=150771|Person[ctxt]=3|SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	AlignBegin=150771|AlignEnd=150771
 23	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	24	subj	_	AlignBegin=150771|AlignEnd=150961|Person[lex]=3
-24	accourt	accourir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	21	conj:dicto	_	AlignBegin=150961|AlignEnd=151151|Person[ctxt]=3|SpaceAfter=No
+24	accourt	accourir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	21	repair	_	AlignBegin=150961|AlignEnd=151151|Person[ctxt]=3|SpaceAfter=No
 25	.	.	PUNCT	_	_	18	punct	_	AlignBegin=151151|AlignEnd=151151
 

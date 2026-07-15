@@ -212,7 +212,7 @@
 2	chmeliers	chmelier	NOUN	_	_	0	root	_	AlignBegin=33700|AlignEnd=33883|Gender[lex]=Unknown|Number[ctxt]=Plur|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	AlignBegin=33883|AlignEnd=33883
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	AlignBegin=35350|AlignEnd=35717|HasSpokenGender=OnlySingExceptWithLiaison
-5	Chevaliers	chevalier	NOUN	_	Number=Plur	2	conj:appos	_	AlignBegin=35717|AlignEnd=36084|Gender[lex]=Masc
+5	Chevaliers	chevalier	NOUN	_	Number=Plur	2	conj:appos	_	AlignBegin=35717|AlignEnd=36084|cdet=No|Gender[lex]=Masc
 6	d'	de	ADP	_	_	5	udep	_	AlignBegin=36084|AlignEnd=36451|SpaceAfter=No
 7	Émeraude	émeraude	NOUN	_	_	6	comp:obj	_	AlignBegin=36451|AlignEnd=36818|Gender[lex]=Fem|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=36818|AlignEnd=36818
@@ -262,7 +262,7 @@
 3	c'	ce	PRON	_	PronType=Dem	4	subj@expl	_	AlignBegin=42395|AlignEnd=42597|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=42597|AlignEnd=42799
 5	moi	moi	PRON	_	Emph=Yes|PronType=Prs	4	comp:pred	_	AlignBegin=42799|AlignEnd=43000|Number[lex]=Sing|Person[lex]=1
-6	qui	qui	PRON	_	PronType=Rel	4	comp:cleft@scrap	_	AlignBegin=43000|AlignEnd=43202
+6	qui	qui	PRON	_	PronType=Rel	4	comp:cleft	_	AlignBegin=43000|AlignEnd=43202|Scrap=Yes
 7	…	…	PUNCT	_	_	4	punct	_	AlignBegin=43202|AlignEnd=43202
 
 # sent_id = ParisStories_2022_15_onEnParleAPersonne__17
@@ -292,7 +292,7 @@
 4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs|Shared=No	5	subj	_	AlignBegin=45822|AlignEnd=46251|Number[lex]=Sing|Person[lex]=1
 5	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=46251|AlignEnd=46679|Person[ctxt]=1|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=46679|AlignEnd=46679
-7	j~	j~	X	_	ExtPos=PRON	5	conj:dicto	_	AlignBegin=46679|AlignEnd=47107
+7	j~	j~	X	_	ExtPos=PRON	5	repair	_	AlignBegin=46679|AlignEnd=47107
 8	…	…	PUNCT	_	_	5	punct	_	AlignBegin=47107|AlignEnd=47107
 
 # sent_id = ParisStories_2022_15_onEnParleAPersonne__19
@@ -461,7 +461,7 @@
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=76647|AlignEnd=76647
 12	tous	tout	ADJ	_	Gender=Masc	14	mod	_	AlignBegin=76647|AlignEnd=76974|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 13	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	AlignBegin=76974|AlignEnd=77302|HasSpokenGender=OnlySingExceptWithLiaison
-14	sacs	sac	NOUN	_	_	7	conj:coord	_	AlignBegin=77302|AlignEnd=77629|Gender[lex]=Masc|Number[ctxt]=Plur
+14	sacs	sac	NOUN	_	_	7	conj:coord	_	AlignBegin=77302|AlignEnd=77629|cdet=No|Gender[lex]=Masc|Number[ctxt]=Plur
 15	de	de	ADP	_	_	14	udep	_	AlignBegin=77629|AlignEnd=77957
 16	déménagement	déménagement	NOUN	_	_	15	comp:obj	_	AlignBegin=77957|AlignEnd=78284|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	AlignBegin=78284|AlignEnd=78284
@@ -474,7 +474,7 @@
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=78857|AlignEnd=79144
 4	essayé	essayer	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	AlignBegin=79144|AlignEnd=79430|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 5	quatorze	quatorze	NUM	_	ExtPos=DET	6	det	_	AlignBegin=79430|AlignEnd=79717|Number[lex]=Plur
-6	millions	million	NOUN	_	_	4	comp:obj	_	AlignBegin=79717|AlignEnd=80003|Gender[lex]=Masc|Number[ctxt]=Plur
+6	millions	million	NOUN	_	_	4	comp:obj	_	AlignBegin=79717|AlignEnd=80003|cdet=Ambiguous|Gender[lex]=Masc|Number[ctxt]=Plur
 7	de	de	ADP	_	_	6	udep	_	AlignBegin=80003|AlignEnd=80290
 8	tenues	tenue	NOUN	_	_	7	comp:obj	_	AlignBegin=80290|AlignEnd=80576|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	AlignBegin=80576|AlignEnd=80576
@@ -569,7 +569,7 @@
 1	et	et	CCONJ	_	_	5	cc	_	AlignBegin=92560|AlignEnd=92833
 2	j~	j~	X	_	ExtPos=PRON	5	subj	_	AlignBegin=92833|AlignEnd=93107|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=93107|AlignEnd=93107
-4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	conj:dicto	_	AlignBegin=93107|AlignEnd=93380|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	repair	_	AlignBegin=93107|AlignEnd=93380|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 5	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=93380|AlignEnd=93653
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	AlignBegin=93653|AlignEnd=93926
 7	arrêtée	arrêter	VERB	_	VerbForm=Part	5	comp:aux@tense	_	AlignBegin=93926|AlignEnd=94200|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
@@ -634,7 +634,7 @@
 # text = s~, sauf que, du coup, ça va pas du tout avec le on en parle à personne, hein qu'on disait au début.
 1	s~	s~	X	_	_	0	root	_	AlignBegin=102640|AlignEnd=102842|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=102842|AlignEnd=102842
-3	sauf	sauf	ADP	_	_	1	conj:dicto	_	AlignBegin=102842|AlignEnd=103044
+3	sauf	sauf	ADP	_	_	1	repair	_	AlignBegin=102842|AlignEnd=103044
 4	que	que	SCONJ	_	_	3	unk	_	AlignBegin=103044|AlignEnd=103246|SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	AlignBegin=103246|AlignEnd=103246
 6	du	du	ADP	_	_	10	discourse	_	AlignBegin=103246|AlignEnd=103447
@@ -696,7 +696,7 @@
 7	plus	plus	ADV	_	_	6	mod	_	AlignBegin=111911|AlignEnd=112125
 8	comment	comment	ADV	_	_	6	comp:obj	_	AlignBegin=112125|AlignEnd=112339|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=112339|AlignEnd=112339
-10	on	on	PRON	_	PronType=Ind	3	conj:dicto	_	AlignBegin=112339|AlignEnd=112553|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+10	on	on	PRON	_	PronType=Ind	3	repair	_	AlignBegin=112339|AlignEnd=112553|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 11	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=112553|AlignEnd=112767
 12	décidé	décider	VERB	_	VerbForm=Part|Voice=Act	11	comp:aux@tense	_	AlignBegin=112767|AlignEnd=112981|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 13	qu'	que	SCONJ	_	_	12	comp:obj	_	AlignBegin=112981|AlignEnd=113239|SpaceAfter=No

@@ -24,7 +24,7 @@
 9	en	en	ADP	_	ExtPos=ADV	13	discourse	_	AlignBegin=3959|AlignEnd=4211|Idiom=Yes
 10	fait	fait	NOUN	_	_	9	comp:obj	_	AlignBegin=4211|AlignEnd=4463|Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	AlignBegin=4463|AlignEnd=4463
-12	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	conj:dicto	_	AlignBegin=4463|AlignEnd=4714|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+12	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	repair	_	AlignBegin=4463|AlignEnd=4714|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 13	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	AlignBegin=4714|AlignEnd=4966
 14	adoré	adorer	VERB	_	VerbForm=Part|Voice=Act	13	comp:aux@tense	_	AlignBegin=4966|AlignEnd=5218|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 15	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	AlignBegin=5218|AlignEnd=5470|HasSpokenGender=OnlySingExceptWithLiaison
@@ -181,7 +181,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=30312|AlignEnd=30557|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	AlignBegin=30557|AlignEnd=30557
 8	c'	ce	PRON	_	PronType=Dem	9	subj	_	AlignBegin=30557|AlignEnd=30802|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	AlignBegin=30802|AlignEnd=31046
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	repair	_	AlignBegin=30802|AlignEnd=31046
 10	vraiment	vraiment	ADV	_	_	9	mod	_	AlignBegin=31046|AlignEnd=31291|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	AlignBegin=31291|AlignEnd=31291
 12	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	AlignBegin=31291|AlignEnd=31536|Number[lex]=Sing|Person[lex]=1
@@ -311,18 +311,18 @@
 18	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	comp:obj	_	AlignBegin=51008|AlignEnd=51192
 19	demandé	demander	VERB	_	VerbForm=Part|Voice=Act	18	comp:aux@tense	_	AlignBegin=51192|AlignEnd=51377|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	AlignBegin=51377|AlignEnd=51562
-21	jus	jus	NOUN	_	_	19	comp:obj	_	AlignBegin=51562|AlignEnd=51747|Gender[lex]=Masc|Number[ctxt]=Sing
+21	jus	jus	NOUN	_	_	19	comp:obj	_	AlignBegin=51562|AlignEnd=51747|cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 22	d'	de	ADP	_	_	21	udep	_	AlignBegin=51747|AlignEnd=51931|SpaceAfter=No
 23	orange	orange	NOUN	_	_	22	comp:obj	_	AlignBegin=51931|AlignEnd=52116|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	AlignBegin=52116|AlignEnd=52116
-25	de	un	DET	_	PronType=Art	21	unk@scrap	_	AlignBegin=52598|AlignEnd=52945
-26	jus	jus	NOUN	_	_	21	conj:appos	_	AlignBegin=52945|AlignEnd=53292|Gender[lex]=Masc|Number[ctxt]=Sing
+25	de	un	DET	_	PronType=Art	21	unk	_	AlignBegin=52598|AlignEnd=52945|Scrap=Yes
+26	jus	jus	NOUN	_	_	21	conj:appos	_	AlignBegin=52945|AlignEnd=53292|cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 27	d'	de	ADP	_	_	26	udep	_	AlignBegin=53292|AlignEnd=53638|SpaceAfter=No
 28	orange	orange	NOUN	_	_	27	comp:obj	_	AlignBegin=53638|AlignEnd=53985|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 29	avec	avec	ADP	_	_	21	udep	_	AlignBegin=53985|AlignEnd=54332
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	AlignBegin=54332|AlignEnd=54679|SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	AlignBegin=54679|AlignEnd=54679
-32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	conj:dicto	_	AlignBegin=54679|AlignEnd=55026|LiaisonAfter=Yes
+32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	repair	_	AlignBegin=54679|AlignEnd=55026|LiaisonAfter=Yes
 33	autre	autre	ADJ	_	_	34	mod	_	AlignBegin=55026|AlignEnd=55372|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 34	jus	jus	NOUN	_	_	29	comp:obj	_	AlignBegin=55372|AlignEnd=55719|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 35	,	,	PUNCT	_	_	37	punct	_	AlignBegin=55719|AlignEnd=55719
@@ -524,7 +524,7 @@
 18	repense	repenser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	15	comp:obj	_	AlignBegin=85556|AlignEnd=85743|Person[ctxt]=1|SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	AlignBegin=85743|AlignEnd=85743
 20	c'	ce	PRON	_	PronType=Dem	21	subj	_	AlignBegin=85743|AlignEnd=85931|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj:dicto	_	AlignBegin=85931|AlignEnd=86118
+21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	repair	_	AlignBegin=85931|AlignEnd=86118
 22	grâce	grâce	NOUN	_	ExtPos=ADV	21	comp:pred	_	AlignBegin=86118|AlignEnd=86305|Gender[lex]=Fem
 23	à	à	ADP	_	_	22	comp:obl	_	AlignBegin=86305|AlignEnd=86305
 24	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|PronType=Prs	23	comp:obj	_	AlignBegin=86305|AlignEnd=86492|Person[lex]=3|SpaceAfter=No
@@ -560,7 +560,7 @@
 3	fois	fois	NOUN	_	_	1	comp:obj	_	AlignBegin=90124|AlignEnd=90345|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=90345|AlignEnd=90345
 5	en	en	ADP	_	_	11	mod	_	AlignBegin=90345|AlignEnd=90565
-6	fin	fin	NOUN	_	_	5	comp:obj	_	AlignBegin=90565|AlignEnd=90785|Gender[lex]=Fem|Number[ctxt]=Sing
+6	fin	fin	NOUN	_	_	5	comp:obj	_	AlignBegin=90565|AlignEnd=90785|cdet=No|Gender[lex]=Fem|Number[ctxt]=Sing
 7	de	de	ADP	_	_	6	udep	_	AlignBegin=90785|AlignEnd=91006
 8	service	service	NOUN	_	_	7	comp:obj	_	AlignBegin=91006|AlignEnd=91226|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	AlignBegin=91226|AlignEnd=91226
@@ -593,7 +593,7 @@
 4	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=94728|AlignEnd=94946|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=94946|AlignEnd=94946
 6	c'	ce	PRON	_	PronType=Dem	7	subj	_	AlignBegin=94946|AlignEnd=95164|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj:dicto	_	AlignBegin=95164|AlignEnd=95382
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	repair	_	AlignBegin=95164|AlignEnd=95382
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=95382|AlignEnd=95600
 9	délice	délice	NOUN	_	_	7	comp:pred	_	AlignBegin=95600|AlignEnd=95818|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	AlignBegin=95818|AlignEnd=95818
@@ -646,7 +646,7 @@
 6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	comp:obj	_	AlignBegin=103730|AlignEnd=104023
 7	demandé	demander	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	AlignBegin=104023|AlignEnd=104317|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	9	det	_	AlignBegin=104317|AlignEnd=104611
-9	mélange	mélange	NOUN	_	_	7	comp:obj	_	AlignBegin=104611|AlignEnd=104904|Gender[lex]=Masc|Number[ctxt]=Sing
+9	mélange	mélange	NOUN	_	_	7	comp:obj	_	AlignBegin=104611|AlignEnd=104904|cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 10	de	de	ADP	_	_	9	udep	_	AlignBegin=104904|AlignEnd=105198
 11	banane	banane	NOUN	_	_	10	comp:obj	_	AlignBegin=105198|AlignEnd=105491|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	AlignBegin=105491|AlignEnd=105491
@@ -656,7 +656,7 @@
 16	,	,	PUNCT	_	_	19	punct	_	AlignBegin=106078|AlignEnd=106078
 17	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=106078|AlignEnd=106372|SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	AlignBegin=106372|AlignEnd=106372
-19	sirop	sirop	NOUN	_	_	15	conj:coord	_	AlignBegin=106372|AlignEnd=106665|Gender[lex]=Masc|Number[ctxt]=Sing
+19	sirop	sirop	NOUN	_	_	15	conj:coord	_	AlignBegin=106372|AlignEnd=106665|cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 20	de	de	ADP	_	_	19	udep	_	AlignBegin=106665|AlignEnd=106959
 21	fraise	fraise	NOUN	_	_	20	comp:obj	_	AlignBegin=106959|AlignEnd=107253|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	AlignBegin=107253|AlignEnd=107253
