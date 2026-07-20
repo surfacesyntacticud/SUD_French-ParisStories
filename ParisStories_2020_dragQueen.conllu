@@ -27,18 +27,18 @@
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
 11	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	10	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 12	de	de	ADP	_	_	11	comp:obl	_	_
-13	regarder	regarder	VERB	_	VerbForm=Inf	12	comp:obj	_	Subject=ObjRaising
+13	regarder	regarder	VERB	_	VerbForm=Inf	12	comp	_	Subject=ObjRaising
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	LiaisonAfter=Yes
 15	émission	émission	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 16	de	de	ADP	_	_	15	mod	_	_
-17	RuPaul	RuPaul	PROPN	_	_	16	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
+17	RuPaul	RuPaul	PROPN	_	_	16	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_dragQueen_3
 # text = enfin de drag queen, qui s'appelle RuPaul's Drag Race.
 1	enfin	enfin	ADV	_	ExtPos=INTJ	2	discourse	_	_
 2	de	de	ADP	_	_	0	root	_	_
-3	drag	drag	NOUN	_	ExtPos=NOUN	2	comp:obj	_	Gender[lex]=Fem|Idiom=Yes|Number[ctxt]=Sing
+3	drag	drag	NOUN	_	ExtPos=NOUN	2	comp	_	Gender[lex]=Fem|Idiom=Yes|Number[ctxt]=Sing
 4	queen	queen	NOUN	_	_	3	flat	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	qui	qui	PRON	_	PronType=Rel	8	subj	_	_
@@ -97,7 +97,7 @@
 1	et	et	CCONJ	_	_	12	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	du	du	ADP	_	_	12	discourse	_	_
-4	coup	coup	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+4	coup	coup	NOUN	_	_	3	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	jour	jour	NOUN	_	_	12	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -107,7 +107,7 @@
 11	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 12	étais	être	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
 13	chez	chez	ADP	_	_	12	comp:obl	_	_
-14	moi	moi	PRON	_	Emph=Yes|PronType=Prs	13	comp:obj	_	Number[lex]=Sing|Person[lex]=1
+14	moi	moi	PRON	_	Emph=Yes|PronType=Prs	13	comp	_	Number[lex]=Sing|Person[lex]=1
 15	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	16	subj	_	Number[lex]=Sing|Person[lex]=1
 16	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	12	discourse	_	Person[ctxt]=1|SpaceAfter=No
 17	.	.	PUNCT	_	_	12	punct	_	_
@@ -128,11 +128,11 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	qu'	que	SCONJ	_	_	8	comp:obj	_	SpaceAfter=No
 14	elles	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|PronType=Prs	15	subj	_	Person[lex]=3
-15	devaient	devoir	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	13	comp:obj	_	Number[ctxt]=Plur
+15	devaient	devoir	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	13	comp	_	Number[ctxt]=Plur
 16	aller	aller	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 17	à	à	ADP	_	_	16	comp:obl	_	_
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	spectacle	spectacle	NOUN	_	_	17	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+19	spectacle	spectacle	NOUN	_	_	17	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 20	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_dragQueen_8
@@ -140,14 +140,14 @@
 1	justement	justement	ADV	_	_	2	mod	_	_
 2	avec	avec	ADP	_	_	0	root	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-4	drags	drag	NOUN	_	_	2	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
+4	drags	drag	NOUN	_	_	2	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur
 5	queens	queen	NOUN	_	_	4	flat@name	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	qui	qui	PRON	_	PronType=Rel	8	subj	_	_
 8	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
 9	dans	dans	ADP	_	_	8	comp:obl	_	_
 10	cette	ce	DET	_	Number=Sing|PronType=Dem	11	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-11	émission	émission	NOUN	_	_	9	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
+11	émission	émission	NOUN	_	_	9	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_dragQueen_9
@@ -175,25 +175,25 @@
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
-8	partait	partir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	1	comp:obj	_	Number[ctxt]=Sing|Person[ctxt]=3
+8	partait	partir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	1	comp	_	Number[ctxt]=Sing|Person[ctxt]=3
 9	au	au	ADP	_	_	8	comp:obl	_	_
-10	Portugal	Portugal	PROPN	_	_	9	comp:obj	_	Gender[lex]=Unknown
+10	Portugal	Portugal	PROPN	_	_	9	comp	_	Gender[lex]=Unknown
 11	et	et	CCONJ	_	_	13	cc	_	_
 12	ça	ça	PRON	_	PronType=Dem	13	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 13	tombait	tomber	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	8	conj:coord	_	Number[ctxt]=Sing|Person[ctxt]=3
 14	pile	pile	NOUN	_	_	16	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	sur	sur	ADP	_	_	13	comp:obl	_	_
-17	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	comp:obj	_	HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes
+17	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	comp	_	HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes
 18	pile	pile	NOUN	_	_	20	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	sur	sur	ADP	_	_	16	repair	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-22	date	date	NOUN	_	_	20	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+22	date	date	NOUN	_	_	20	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	de	de	ADP	_	_	22	mod	_	_
 25	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-26	spectacle	spectacle	NOUN	_	_	24	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+26	spectacle	spectacle	NOUN	_	_	24	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 27	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2020_dragQueen_11
@@ -212,7 +212,7 @@
 12	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 13	date	date	NOUN	_	_	10	conj:dicto	_	Gender[lex]=Fem|Number[ctxt]=Sing
 14	de	de	ADP	_	_	13	mod	_	_
-15	séjour	séjour	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+15	séjour	séjour	NOUN	_	_	14	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_dragQueen_12
@@ -233,11 +233,11 @@
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	que	que	SCONJ	_	_	9	comp:obj	_	_
 16	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	17	subj	_	Number[lex]=Sing|Person[lex]=1
-17	récupère	récupèrer	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	15	comp:obj	_	Person[ctxt]=1
+17	récupère	récupèrer	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	15	comp	_	Person[ctxt]=1
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 19	place	place	NOUN	_	_	17	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 20	de	de	ADP	_	_	19	mod	_	_
-21	Maude	Maude	PROPN	_	_	20	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
+21	Maude	Maude	PROPN	_	_	20	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 22	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2020_dragQueen_13
@@ -276,14 +276,14 @@
 6	voilà	voilà	VERB	_	ExtPos=INTJ	13	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	du	du	ADP	_	_	13	discourse	_	_
-9	coup	coup	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+9	coup	coup	NOUN	_	_	8	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	8	punct	_	_
 11	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 12	y	y	PRON	_	PronType=Prs	14	comp:obl	_	Person[lex]=3
 13	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	allé	aller	VERB	_	VerbForm=Part	13	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 15	avec	avec	ADP	_	_	14	mod	_	_
-16	Eleanor	Eleanor	PROPN	_	_	15	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
+16	Eleanor	Eleanor	PROPN	_	_	15	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 17	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2020_dragQueen_16
@@ -314,10 +314,10 @@
 5	devait	devoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	2	conj:dicto	_	Number[ctxt]=Sing|Person[ctxt]=3
 6	être	être	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
 7	en	en	ADP	_	_	6	comp:obl	_	_
-8	avril	avril	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+8	avril	avril	NOUN	_	_	7	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 9	ou	ou	CCONJ	_	_	10	cc	_	_
 10	en	en	ADP	_	_	7	conj:coord	_	_
-11	mai	mai	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+11	mai	mai	NOUN	_	_	10	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 12	enfin	enfin	ADV	_	ExtPos=INTJ	2	discourse	_	_
 13	voilà	voilà	VERB	_	ExtPos=INTJ	2	discourse	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
@@ -356,7 +356,7 @@
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	à	à	ADP	_	_	10	repair	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	Etoile	Etoile	PROPN	_	_	12	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No
+14	Etoile	Etoile	PROPN	_	_	12	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2020_dragQueen_20
@@ -370,7 +370,7 @@
 7	commençait	commencer	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 8	vers	vers	ADP	_	_	7	mod	_	_
 9	vingt	vingt	NUM	_	ExtPos=PROPN	10	det	_	Number[lex]=Sing
-10	heures	heure	NOUN	_	_	8	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
+10	heures	heure	NOUN	_	_	8	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 11	quelque	quelque	DET	_	PronType=Ind	12	det	_	Number[lex]=Sing
 12	chose	chose	NOUN	_	_	10	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	7	punct	_	_
@@ -410,7 +410,7 @@
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	truc	truc	NOUN	_	_	2	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	de	de	ADP	_	_	4	mod	_	_
-6	ouf	ouf	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
+6	ouf	ouf	NOUN	_	_	5	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_dragQueen_23
@@ -433,13 +433,13 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	pendant	pendant	ADP	_	_	0	root	_	_
 4	au	au	ADP	_	_	11	mod	_	_
-5	moins	moins	ADV	_	_	4	comp:obj	_	_
+5	moins	moins	ADV	_	_	4	comp	_	_
 6	peut-être	peut-être	ADV	_	_	11	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	11	det	_	LiaisonAfter=Yes
-11	heure	heure	NOUN	_	_	3	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
+11	heure	heure	NOUN	_	_	3	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	LiaisonAfter=Yes
 14	heure	heure	NOUN	_	_	11	conj:dicto	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -457,7 +457,7 @@
 2	jouait	jouer	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 3	sur	sur	ADP	_	_	2	mod	_	_
 4	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-5	téléphones	téléphone	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+5	téléphones	téléphone	NOUN	_	_	3	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur
 6	etc	etc	ADV	_	_	2	conj:coord	_	SpaceAfter=No|wordform=cetera
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	bref	bref	INTJ	_	_	2	discourse	_	SpaceAfter=No
@@ -491,7 +491,7 @@
 12	queens	queen	NOUN	_	_	11	flat	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Plur
 13	à	à	ADP	_	_	7	mod	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-15	base	base	NOUN	_	_	13	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+15	base	base	NOUN	_	_	13	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	qui	qui	PRON	_	PronType=Rel	18	subj	_	_
 18	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	mod@relcl	_	_
@@ -558,7 +558,7 @@
 9	allé	aller	VERB	_	VerbForm=Part	8	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 10	dans	dans	ADP	_	_	9	comp:obl	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-12	salle	salle	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+12	salle	salle	NOUN	_	_	10	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing
 13	et	et	CCONJ	_	_	14	cc	_	InIdiom=Yes
 14	tout	tout	ADV	_	ExtPos=ADV	12	conj:coord	_	Idiom=Yes
 15	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	16	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -566,10 +566,10 @@
 17	essayé	essayer	VERB	_	VerbForm=Part|Voice=Act	16	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 18	de	de	ADP	_	_	17	comp:obl	_	_
 19	se	soi	PRON	_	PronType=Prs|Reflex=Yes	20	comp:obj	_	Person[lex]=3
-20	mettre	mettre	VERB	_	ExtPos=VERB|VerbForm=Inf	18	comp:obj	_	Subject=SubjRaising
+20	mettre	mettre	VERB	_	ExtPos=VERB|VerbForm=Inf	18	comp	_	Subject=SubjRaising
 21	sur	sur	ADP	_	_	20	comp:obl	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-23	côté	côté	NOUN	_	_	21	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+23	côté	côté	NOUN	_	_	21	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 24	vraiment	vraiment	ADV	_	_	23	mod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -578,10 +578,10 @@
 1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	InIdiom=Yes
 2	peu	peu	NOUN	_	ExtPos=ADV	3	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 3	en	en	ADP	_	_	0	root	_	_
-4	hauteur	hauteur	NOUN	_	_	3	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+4	hauteur	hauteur	NOUN	_	_	3	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing
 5	pour	pour	ADP	_	_	3	mod	_	_
 6	bien	bien	ADV	_	_	7	mod	_	_
-7	voir	voir	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=NoRaising
+7	voir	voir	VERB	_	VerbForm=Inf	5	comp	_	Subject=NoRaising
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 9	scène	scène	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
@@ -589,7 +589,7 @@
 12	si	si	SCONJ	_	_	3	mod	_	_
 13	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	15	subj@expl	_	Person[lex]=3
 14	y	y	PRON	_	PronType=Prs	15	comp@expl	_	Person[lex]=3
-15	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	12	comp:obj	_	Number[ctxt]=Sing|Person[ctxt]=3
+15	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	12	comp	_	Number[ctxt]=Sing|Person[ctxt]=3
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	18	det	_	_
 17	bon	bon	ADJ	_	Gender=Masc	18	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 18	gros	gros	ADJ	_	Gender=Masc	15	comp:obj	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
@@ -599,7 +599,7 @@
 22	grosse	gros	ADJ	_	Gender=Fem	23	mod	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing
 23	sono	sono	NOUN	_	_	18	conj:dicto	_	Gender[lex]=Fem|Number[ctxt]=Sing
 24	au	au	ADP	_	_	15	mod	_	_
-25	milieu	milieu	NOUN	_	_	24	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+25	milieu	milieu	NOUN	_	_	24	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 26	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = ParisStories_2020_dragQueen_32
@@ -626,7 +626,7 @@
 1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Coconstruct=mod::ParisStories_2020_dragQueen_33::2|Idiom=Yes|SingleSpeaker=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	au	au	ADP	_	_	6	mod	_	_
-4	milieu	milieu	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+4	milieu	milieu	NOUN	_	_	3	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 6	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	Tense[denom]=Past
@@ -648,7 +648,7 @@
 9	beaucoup	beaucoup	ADV	_	_	10	mod	_	_
 10	trop	trop	ADV	_	_	7	conj:dicto	_	_
 11	de	de	ADP	_	_	10	udep	_	_
-12	monde	monde	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+12	monde	monde	NOUN	_	_	11	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 13	donc	donc	ADV	_	_	15	mod	_	_
 14	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	15	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 15	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:coord	_	_
