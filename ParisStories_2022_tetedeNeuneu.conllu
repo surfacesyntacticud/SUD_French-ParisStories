@@ -298,7 +298,7 @@
 17	sens	sentir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=39973|AlignEnd=40238|Person[ctxt]=1|SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	AlignBegin=40238|AlignEnd=40238
 19	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	20	subj	_	AlignBegin=40238|AlignEnd=40504|Number[lex]=Sing|Person[lex]=2
-20	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	17	discourse	_	AlignBegin=40504|AlignEnd=40769|Person[ctxt]=2
+20	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	17	discourse:tag	_	AlignBegin=40504|AlignEnd=40769|Person[ctxt]=2
 21	?	?	PUNCT	_	_	17	punct	_	AlignBegin=40769|AlignEnd=40769
 
 # sent_id = ParisStories_2022_6_tetedeNeuneu__29
@@ -313,10 +313,10 @@
 # text = et, euh, et, du coup, pour son anniversaire là, pour ses 20 ans, sa mère, elle m'a envoyé un message en mode on va faire l'anniversaire surprise.
 1	et	et	CCONJ	_	_	25	cc	_	AlignBegin=41059|AlignEnd=41523|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=41523|AlignEnd=41523
-3	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=41523|AlignEnd=41987|SpaceAfter=No
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	AlignBegin=41523|AlignEnd=41987|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=41987|AlignEnd=41987
 5	et	et	CCONJ	_	_	25	cc	_	AlignBegin=41987|AlignEnd=42213|SpaceAfter=No
-6	,	,	PUNCT	_	_	1	punct	_	AlignBegin=42213|AlignEnd=42213
+6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=42213|AlignEnd=42213
 7	du	du	ADP	_	_	25	discourse	_	AlignBegin=42213|AlignEnd=42439
 8	coup	coup	NOUN	_	_	7	comp	_	AlignBegin=42439|AlignEnd=42666|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	AlignBegin=42666|AlignEnd=42666
@@ -377,7 +377,7 @@
 # text = et, euh, et, du coup, on devait, enfin, moi, je devais en gros, dé~ comment on dit, euh, genre, détourner l'attention d'Eva.
 1	et	et	CCONJ	_	_	11	cc	_	AlignBegin=49042|AlignEnd=49395|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=49395|AlignEnd=49395
-3	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=49395|AlignEnd=49747|SpaceAfter=No
+3	euh	euh	INTJ	_	_	5	discourse:filler	_	AlignBegin=49395|AlignEnd=49747|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=49747|AlignEnd=49747
 5	et	et	CCONJ	_	_	1	repair	_	AlignBegin=49747|AlignEnd=49938|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	AlignBegin=49938|AlignEnd=49938
@@ -401,7 +401,7 @@
 24	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	25	subj	_	AlignBegin=53606|AlignEnd=54151|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 25	dit	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	22	discourse	_	AlignBegin=54151|AlignEnd=54697|Person[ctxt]=3|SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	AlignBegin=54697|AlignEnd=54697
-27	euh	euh	INTJ	_	_	25	discourse	_	AlignBegin=54697|AlignEnd=55242|SpaceAfter=No
+27	euh	euh	INTJ	_	_	25	discourse:filler	_	AlignBegin=54697|AlignEnd=55242|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	AlignBegin=55242|AlignEnd=55242
 29	genre	genre	NOUN	_	ExtPos=INTJ	22	discourse	_	AlignBegin=55242|AlignEnd=55564|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	AlignBegin=55564|AlignEnd=55564
@@ -438,9 +438,9 @@
 
 # sent_id = ParisStories_2022_6_tetedeNeuneu__37
 # speaker = L1
-# text = et du …
+# text = et du…
 1	et	et	CCONJ	_	_	2	cc	_	AlignBegin=59745|AlignEnd=60063
-2	du	du	ADP	_	_	0	root	_	AlignBegin=60063|AlignEnd=60380
+2	du	du	ADP	_	_	0	root	_	AlignBegin=60063|AlignEnd=60380|SpaceAfter=No
 3	…	…	PUNCT	_	_	2	punct	_	AlignBegin=60380|AlignEnd=60380
 
 # sent_id = ParisStories_2022_6_tetedeNeuneu__38
@@ -503,7 +503,7 @@
 # speaker = L1
 # text = et euh, et du coup, j'étais là oh, bah, oui, tiens, pourquoi pas !
 1	et	et	CCONJ	_	_	9	cc	_	AlignBegin=67187|AlignEnd=67431
-2	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=67431|AlignEnd=67675|SpaceAfter=No
+2	euh	euh	INTJ	_	_	1	discourse:filler	_	AlignBegin=67431|AlignEnd=67675|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=67675|AlignEnd=67675
 4	et	et	CCONJ	_	_	9	cc	_	AlignBegin=67675|AlignEnd=67918
 5	du	du	ADP	_	_	9	discourse	_	AlignBegin=67918|AlignEnd=68162
@@ -557,7 +557,7 @@
 # text = et, euh, et du coup, ben, on arrive à l'anniversaire.
 1	et	et	CCONJ	_	_	12	cc	_	AlignBegin=73817|AlignEnd=74524|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=74524|AlignEnd=74524
-3	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=74524|AlignEnd=75231|SpaceAfter=No
+3	euh	euh	INTJ	_	_	5	discourse:filler	_	AlignBegin=74524|AlignEnd=75231|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=75231|AlignEnd=75231
 5	et	et	CCONJ	_	_	1	repair	_	AlignBegin=75231|AlignEnd=75463
 6	du	du	ADP	_	_	12	discourse	_	AlignBegin=75463|AlignEnd=75694
@@ -777,7 +777,7 @@
 # speaker = L1
 # text = et euh, et bah, du coup, après euh, on a rencontré ses potes.
 1	et	et	CCONJ	_	_	14	cc	_	AlignBegin=105364|AlignEnd=106011
-2	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=106011|AlignEnd=106657|SpaceAfter=No
+2	euh	euh	INTJ	_	_	1	discourse:filler	_	AlignBegin=106011|AlignEnd=106657|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=106657|AlignEnd=106657
 4	et	et	CCONJ	_	_	14	cc	_	AlignBegin=106657|AlignEnd=107124
 5	bah	bah	INTJ	_	_	4	discourse	_	AlignBegin=107124|AlignEnd=107591|SpaceAfter=No
@@ -786,7 +786,7 @@
 8	coup	coup	NOUN	_	_	7	comp	_	AlignBegin=108058|AlignEnd=108525|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	AlignBegin=108525|AlignEnd=108525
 10	après	après	ADP	_	_	14	mod	_	AlignBegin=108525|AlignEnd=108823
-11	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=108823|AlignEnd=109120|SpaceAfter=No
+11	euh	euh	INTJ	_	_	10	discourse:filler	_	AlignBegin=108823|AlignEnd=109120|SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	AlignBegin=109120|AlignEnd=109120
 13	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	14	subj	_	AlignBegin=109120|AlignEnd=109418|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=109418|AlignEnd=109715
@@ -864,7 +864,7 @@
 # speaker = L1
 # text = donc euh, j'avais pas envie de le connaître.
 1	donc	donc	ADV	_	_	5	mod	_	AlignBegin=117791|AlignEnd=118003
-2	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=118003|AlignEnd=118214|SpaceAfter=No
+2	euh	euh	INTJ	_	_	1	discourse:filler	_	AlignBegin=118003|AlignEnd=118214|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=118214|AlignEnd=118214
 4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=118214|AlignEnd=118426|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 5	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=118426|AlignEnd=118638|Person[ctxt]=1

@@ -31,7 +31,7 @@
 18	primaire	primaire	NOUN	_	_	16	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing
 19	jus~	jus~	X	_	ExtPos=ADJ	18	mod	_	_
 20	enfin	enfin	ADV	_	ExtPos=INTJ	21	discourse	_	_
-21	du	du	ADP	_	_	16	conj:dicto	_	_
+21	du	du	ADP	_	_	16	conj:reform	_	_
 22	CP	CP	PROPN	_	_	21	comp	_	Gender[lex]=Unknown
 23	pardon	pardon	NOUN	_	ExtPos=INTJ	25	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 24	jusqu'	jusque	ADV	_	_	25	mod	_	SpaceAfter=No
@@ -42,14 +42,14 @@
 # sent_id = ParisStories_2019_stagePrimaire_3
 # text = alors euh tout d'abord j'ai commencé euh au CP, comme ça j'ai suivi un ordre chronologique.
 1	alors	alors	ADV	_	_	7	discourse	_	_
-2	euh	euh	INTJ	_	_	7	discourse	_	_
+2	euh	euh	INTJ	_	_	7	discourse:filler	_	_
 3	tout	tout	ADV	_	_	4	mod	_	_
 4	d'	de	ADP	_	_	7	mod	_	SpaceAfter=No
 5	abord	abord	NOUN	_	_	4	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 6	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	commencé	commencer	VERB	_	VerbForm=Part|Voice=Act	7	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-9	euh	euh	INTJ	_	_	10	discourse	_	_
+9	euh	euh	INTJ	_	_	10	discourse:filler	_	_
 10	au	au	ADP	_	_	8	comp:obl	_	_
 11	CP	CP	PROPN	_	_	10	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	_
@@ -73,7 +73,7 @@
 6	CP	CP	PROPN	_	_	5	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 7	,	,	PUNCT	_	_	17	punct	_	_
 8	et	et	CCONJ	_	_	17	cc	_	_
-9	euh	euh	INTJ	_	_	8	discourse	_	_
+9	euh	euh	INTJ	_	_	8	discourse:filler	_	_
 10	ce	ce	PRON	_	PronType=Dem	17	dislocated:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 11	que	que	PRON	_	PronType=Rel	13	comp:obj	_	_
 12	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
@@ -85,25 +85,25 @@
 18	que	que	SCONJ	_	_	17	comp:pred	_	_
 19	les~	les~	X	_	_	18	comp	_	_
 20	pour	pour	ADP	_	_	27	mod	_	_
-21	euh	euh	INTJ	_	_	22	discourse	_	_
+21	euh	euh	INTJ	_	_	22	discourse:filler	_	_
 22	pour	pour	ADP	_	_	20	repair	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 24	petits	petit	NOUN	_	_	22	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 25	,	,	PUNCT	_	_	20	punct	_	_
 26	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	27	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 27	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	repair	_	_
-28	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
+28	euh	euh	INTJ	_	_	31	discourse:filler	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	28	punct	_	_
 30	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	31	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 31	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	repair	_	_
 32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	InIdiom=Yes
 33	peu	peu	NOUN	_	ExtPos=ADV	31	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
-34	euh	euh	INTJ	_	_	36	discourse	_	_
+34	euh	euh	INTJ	_	_	36	discourse:filler	_	_
 35	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	36	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 36	point	point	NOUN	_	_	31	comp:pred	_	cdet=Yes|Gender[lex]=Masc|Number[ctxt]=Sing
 37	de	de	ADP	_	_	36	udep	_	_
 38	repère	repère	NOUN	_	_	37	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
-39	euh	euh	INTJ	_	_	43	discourse	_	SpaceAfter=No
+39	euh	euh	INTJ	_	_	43	discourse:filler	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	39	punct	_	_
 41	tout	tout	PRON	_	PronType=Ind	43	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 42	se	soi	PRON	_	PronType=Prs|Reflex=Yes	43	comp@expl	_	Person[lex]=3
@@ -135,12 +135,12 @@
 4	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 5	repère	repère	NOUN	_	_	2	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
-7	euh	euh	INTJ	_	_	8	discourse	_	_
+7	euh	euh	INTJ	_	_	8	discourse:filler	_	_
 8	parce	parce	ADV	_	ExtPos=SCONJ	2	mod	_	Idiom=Yes
 9	que	que	SCONJ	_	_	8	unk	_	InIdiom=Yes
 10	par	par	ADP	_	_	25	mod	_	_
 11	exemple	exemple	NOUN	_	_	10	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-12	euh	euh	INTJ	_	_	10	discourse	_	_
+12	euh	euh	INTJ	_	_	10	discourse:filler	_	_
 13	lorsque	lorsque	SCONJ	_	_	25	mod	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 15	maîtresse	maître	NOUN	_	_	16	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -201,7 +201,7 @@
 13	travaillais	travailler	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	6	conj:coord	_	Person[ctxt]=1
 14	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_
 15	forcément	forcément	ADV	_	_	13	mod	_	_
-16	euh	euh	INTJ	_	_	17	discourse	_	_
+16	euh	euh	INTJ	_	_	17	discourse:filler	_	_
 17	comme	comme	ADP	_	_	13	mod	_	_
 18	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 19	maîtresse	maître	NOUN	_	_	17	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -213,7 +213,7 @@
 2	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	3	subj	_	Person[lex]=3
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	Tense[denom]=Past
-5	euh	euh	INTJ	_	_	6	discourse	_	_
+5	euh	euh	INTJ	_	_	6	discourse:filler	_	_
 6	perturbés	perturber	VERB	_	VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	9	subj	_	Person[lex]=3
@@ -252,7 +252,7 @@
 7	étonnant	étonnant	ADJ	_	Gender=Masc	6	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 8	parce	parce	ADV	_	ExtPos=SCONJ	6	mod	_	Idiom=Yes
 9	que	que	SCONJ	_	_	8	unk	_	InIdiom=Yes
-10	euh	euh	INTJ	_	_	14	discourse	_	_
+10	euh	euh	INTJ	_	_	14	discourse:filler	_	_
 11	bah	bah	INTJ	_	_	14	discourse	_	_
 12	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	14	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 13	se	soi	PRON	_	PronType=Prs|Reflex=Yes	14	comp@expl	_	Person[lex]=3
@@ -277,7 +277,7 @@
 # text = en plus euh ce qui est trop mignon, c'est que c'est vraiment euh elle qui est à la base de tout.
 1	en	en	ADP	_	_	11	mod	_	_
 2	plus	plus	ADV	_	_	1	comp	_	_
-3	euh	euh	INTJ	_	_	1	discourse	_	_
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	_
 4	ce	ce	PRON	_	PronType=Dem	11	dislocated:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 5	qui	qui	PRON	_	PronType=Rel	6	subj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
@@ -290,7 +290,7 @@
 13	c'	ce	PRON	_	PronType=Dem	14	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp	_	_
 15	vraiment	vraiment	ADV	_	_	14	mod	_	_
-16	euh	euh	INTJ	_	_	17	discourse	_	_
+16	euh	euh	INTJ	_	_	17	discourse:filler	_	_
 17	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|PronType=Prs	14	comp:pred	_	Person[lex]=3
 18	qui	qui	PRON	_	PronType=Rel	19	subj	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:cleft	_	Filler=subj
@@ -307,7 +307,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|PronType=Prs	2	comp:pred	_	Person[lex]=3
 4	qui	qui	PRON	_	PronType=Rel|Shared=No	11	subj	_	_
-5	euh	euh	INTJ	_	_	6	discourse	_	_
+5	euh	euh	INTJ	_	_	6	discourse:filler	_	_
 6	qui	qui	PRON	_	PronType=Rel	4	repair	_	_
 7	comment	comment	ADV	_	_	8	mod	_	_
 8	dire	dire	VERB	_	VerbForm=Inf	4	discourse	_	SpaceAfter=No|Subject=NoRaising
@@ -337,15 +337,15 @@
 1	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	2	subj	_	Person[lex]=3
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	vraiment	vraiment	ADV	_	_	2	mod	_	_
-4	euh	euh	INTJ	_	_	16	discourse	_	_
+4	euh	euh	INTJ	_	_	16	discourse:filler	_	_
 5	pour	pour	ADP	_	_	16	comp:obl	_	_
-6	euh	euh	INTJ	_	_	7	discourse	_	_
+6	euh	euh	INTJ	_	_	7	discourse:filler	_	_
 7	pour	pour	ADP	_	_	5	repair	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 9	élèves	élève	NOUN	_	_	7	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 10	euh~	euh~	X	_	ExtPos=INTJ	12	discourse	_	_
 11	enfin	enfin	ADV	_	ExtPos=INTJ	12	discourse	_	_
-12	pour	pour	ADP	_	_	7	conj:dicto	_	_
+12	pour	pour	ADP	_	_	7	repair	_	_
 13	nous	nous	PRON	_	Case=Acc|Emph=No|PronType=Prs	12	comp	_	Number[lex]=Plur|Person[lex]=1|SpaceAfter=No
 14	,	,	PUNCT	_	_	5	punct	_	_
 15	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	16	subj	_	Person[lex]=3
@@ -359,7 +359,7 @@
 # sent_id = ParisStories_2019_stagePrimaire_15
 # text = et euh c'est vraiment ce que j'ai j'ai vraiment adoré ce côté là.
 1	et	et	CCONJ	_	_	4	cc	_	_
-2	euh	euh	INTJ	_	_	1	discourse	_	_
+2	euh	euh	INTJ	_	_	1	discourse:filler	_	_
 3	c'	ce	PRON	_	PronType=Dem	4	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	vraiment	vraiment	ADV	_	_	4	mod	_	_
@@ -385,7 +385,7 @@
 5	protecteur	protecteur	ADJ	_	Gender=Masc	2	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
-8	euh	euh	INTJ	_	_	7	discourse	_	_
+8	euh	euh	INTJ	_	_	7	discourse:filler	_	_
 9	coocooning	coocooning	NOUN	_	_	5	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Sing
 10	qu'	que	PRON	_	PronType=Rel	13	comp:obj	_	SpaceAfter=No
 11	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	12	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -453,7 +453,7 @@
 14	dire	dire	VERB	_	VerbForm=Inf	13	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 15	,	,	PUNCT	_	_	13	punct	_	_
 16	contrairement	contrairement	ADV	_	_	9	mod	_	_
-17	euh	euh	INTJ	_	_	18	discourse	_	_
+17	euh	euh	INTJ	_	_	18	discourse:filler	_	_
 18	au	au	ADP	_	_	16	mod	_	_
 19	primaire	primaire	NOUN	_	_	18	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 20	et	et	CCONJ	_	_	21	cc	_	_
@@ -463,13 +463,13 @@
 
 # sent_id = ParisStories_2019_stagePrimaire_19
 # text = euh après, j'ai fait euh CE1 CE2.
-1	euh	euh	INTJ	_	_	5	discourse	_	_
+1	euh	euh	INTJ	_	_	5	discourse:filler	_	_
 2	après	après	ADV	_	_	5	mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	5	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
-7	euh	euh	INTJ	_	_	8	discourse	_	_
+7	euh	euh	INTJ	_	_	8	discourse:filler	_	_
 8	CE1	CE1	PROPN	_	_	6	comp:obj	_	Gender[lex]=Unknown
 9	CE2	CE2	PROPN	_	_	8	mod	_	Gender[lex]=Unknown|SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
@@ -493,7 +493,7 @@
 15	établissement	établissement	NOUN	_	_	12	comp:pred	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 16	,	,	PUNCT	_	_	9	punct	_	_
 17	bah	bah	INTJ	_	_	21	discourse	_	_
-18	euh	euh	INTJ	_	_	21	discourse	_	_
+18	euh	euh	INTJ	_	_	21	discourse:filler	_	_
 19	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	21	subj@expl	_	Person[lex]=3
 20	y	y	PRON	_	PronType=Prs	21	comp@expl	_	Person[lex]=3
 21	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp	_	_
@@ -524,7 +524,7 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	parce	parce	ADV	_	ExtPos=SCONJ	9	mod	_	Idiom=Yes
 17	que	que	SCONJ	_	_	16	unk	_	InIdiom=Yes
-18	euh	euh	INTJ	_	_	20	discourse	_	_
+18	euh	euh	INTJ	_	_	20	discourse:filler	_	_
 19	elles	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|PronType=Prs	20	subj	_	Person[lex]=3
 20	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
 21	confron~	confron~	X	_	ExtPos=VERB	20	comp:aux@pass	_	_
@@ -551,7 +551,7 @@
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	AVS	AVS	PROPN	_	_	10	comp	_	Gender[lex]=Unknown
 13	et	et	CCONJ	_	_	18	cc	_	_
-14	euh	euh	INTJ	_	_	13	discourse	_	_
+14	euh	euh	INTJ	_	_	13	discourse:filler	_	_
 15	pour	pour	ADP	_	_	18	mod	_	_
 16	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|PronType=Prs	15	comp	_	Person[lex]=3
 17	c'	ce	PRON	_	PronType=Dem	18	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
@@ -565,30 +565,30 @@
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	ensuite	ensuite	ADV	_	_	7	mod	_	_
 3	bah	bah	INTJ	_	_	7	discourse	_	_
-4	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+4	euh	euh	INTJ	_	_	7	discourse:filler	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=1
 7	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	retournée	retourner	VERB	_	VerbForm=Part	7	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-9	euh	euh	INTJ	_	_	10	discourse	_	_
+9	euh	euh	INTJ	_	_	10	discourse:filler	_	_
 10	voir	voir	VERB	_	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
 11	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 12	professeur	professeur	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	enfin	enfin	ADV	_	ExtPos=INTJ	16	discourse	_	_
 15	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-16	maître	maître	NOUN	_	_	12	conj:dicto	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
+16	maître	maître	NOUN	_	_	12	conj:reform	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 17	d'	de	ADP	_	_	16	udep	_	SpaceAfter=No
 18	école	école	NOUN	_	_	17	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-19	euh	euh	INTJ	_	_	20	discourse	_	_
-20	de	de	ADP	_	_	17	conj:dicto	_	_
+19	euh	euh	INTJ	_	_	20	discourse:filler	_	_
+20	de	de	ADP	_	_	17	conj:reform	_	_
 21	CME	CME	PROPN	_	_	20	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	celui	celui	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	16	mod	_	Person[lex]=3
 24	qui	qui	PRON	_	PronType=Rel	26	subj	_	_
 25	m'	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	28	comp:obl	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 26	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	mod@relcl	_	_
-27	euh	euh	INTJ	_	_	28	discourse	_	_
+27	euh	euh	INTJ	_	_	28	discourse:filler	_	_
 28	donné	donner	VERB	_	VerbForm=Part|Voice=Act	26	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 30	goût	goût	NOUN	_	_	28	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -600,7 +600,7 @@
 # sent_id = ParisStories_2019_stagePrimaire_24
 # text = et euh ça m'a vraiment choquée parce que en fait euh un maître de passion était devenu un maître euh dégouté de~ de ce qu'il faisait.
 1	et	et	CCONJ	_	_	5	cc	_	_
-2	euh	euh	INTJ	_	_	1	discourse	_	_
+2	euh	euh	INTJ	_	_	1	discourse:filler	_	_
 3	ça	ça	PRON	_	PronType=Dem	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 4	m'	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	7	comp:obj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -610,7 +610,7 @@
 9	que	que	SCONJ	_	_	8	unk	_	InIdiom=Yes
 10	en	en	ADP	_	ExtPos=ADV	17	discourse	_	Idiom=Yes
 11	fait	fait	NOUN	_	_	10	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
-12	euh	euh	INTJ	_	_	17	discourse	_	_
+12	euh	euh	INTJ	_	_	17	discourse:filler	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	maître	maître	NOUN	_	_	17	subj	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 15	de	de	ADP	_	_	14	udep	_	_
@@ -619,7 +619,7 @@
 18	devenu	devenir	VERB	_	VerbForm=Part|Voice=Pass	17	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	maître	maître	NOUN	_	_	18	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-21	euh	euh	INTJ	_	_	22	discourse	_	_
+21	euh	euh	INTJ	_	_	22	discourse:filler	_	_
 22	dégouté	dégouter	VERB	_	VerbForm=Part	20	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 23	de~	de~	X	_	ExtPos=ADP	22	mod	_	_
 24	de	de	ADP	_	_	23	repair	_	_
@@ -651,15 +651,15 @@
 # sent_id = ParisStories_2019_stagePrimaire_26
 # text = mais euh plus avec autant euh comment dire plus avec autant de passion qu'il avait auparavant.
 1	mais	mais	CCONJ	_	_	4	cc	_	_
-2	euh	euh	INTJ	_	_	1	discourse	_	_
+2	euh	euh	INTJ	_	_	1	discourse:filler	_	_
 3	plus	plus	ADV	_	_	4	mod	_	_
 4	avec	avec	ADP	_	_	0	root	_	_
 5	autant	autant	ADV	_	_	4	comp	_	_
-6	euh	euh	INTJ	_	_	10	discourse	_	_
+6	euh	euh	INTJ	_	_	10	discourse:filler	_	_
 7	comment	comment	ADV	_	_	8	mod	_	_
 8	dire	dire	VERB	_	VerbForm=Inf	10	discourse	_	Subject=NoRaising
 9	plus	plus	ADV	_	_	10	mod	_	_
-10	avec	avec	ADP	_	_	4	conj:dicto	_	_
+10	avec	avec	ADP	_	_	4	repair	_	_
 11	autant	autant	ADV	_	_	10	comp	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	_
 13	passion	passion	NOUN	_	_	12	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -677,11 +677,11 @@
 4	dire	dire	VERB	_	VerbForm=Inf	3	comp	_	Subject=NoRaising
 5	que	que	SCONJ	_	_	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	16	punct	_	_
-7	euh	euh	INTJ	_	_	16	discourse	_	_
+7	euh	euh	INTJ	_	_	16	discourse:filler	_	_
 8	maintenant	maintenant	ADV	_	_	16	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	bah	bah	INTJ	_	_	8	discourse	_	_
-11	euh	euh	INTJ	_	_	8	discourse	_	_
+11	euh	euh	INTJ	_	_	8	discourse:filler	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 13	parents	parent	NOUN	_	_	16	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
@@ -745,9 +745,9 @@
 8	classe	classe	NOUN	_	_	6	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	18	punct	_	_
 10	où	où	ADV	_	PronType=Rel	18	mod	_	_
-11	euh	euh	INTJ	_	_	12	discourse	_	_
-12	où	où	ADV	_	PronType=Rel	10	conj:dicto	_	_
-13	euh	euh	INTJ	_	_	18	discourse	_	_
+11	euh	euh	INTJ	_	_	12	discourse:filler	_	_
+12	où	où	ADV	_	PronType=Rel	10	repair	_	_
+13	euh	euh	INTJ	_	_	18	discourse:filler	_	_
 14	en	en	ADP	_	_	18	mod	_	_
 15	CM2	CM2	PROPN	_	_	14	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	_

@@ -2,7 +2,7 @@
 # text = alors, euh, pas de le tout.
 1	alors	alors	ADV	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	pas	pas	ADV	_	Polarity=Neg	0	root	_	_
 6	de	de	ADP	_	ExtPos=ADV	5	mod	_	Idiom=Yes
@@ -11,53 +11,51 @@
 9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_2
-# text = en fait, euh, quand j'étais, euh, à le lycée, enfin même à le collège, enfin, et surtout en terminale, euh, ce que j'aimais le plus c'était les sciences, et surtout les maths.
-1	en	en	ADP	_	ExtPos=ADV	38	discourse	_	Idiom=Yes
+# text = en fait, euh, quand j'étais, euh, au lycée, enfin même au collège, enfin, et surtout en terminale, euh, ce que j'aimais le plus c'était les sciences, et surtout les maths.
+1	en	en	ADP	_	ExtPos=ADV	36	discourse	_	Idiom=Yes
 2	fait	fait	NOUN	_	_	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	euh	euh	INTJ	_	_	38	discourse	_	SpaceAfter=No
+4	euh	euh	INTJ	_	_	36	discourse:filler	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	quand	quand	SCONJ	_	_	31	mod	_	_
+6	quand	quand	SCONJ	_	_	29	mod	_	_
 7	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 8	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	comp	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
-10	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+10	euh	euh	INTJ	_	_	12	discourse:filler	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
-12	à	à	ADP	_	_	8	comp:pred	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-14	lycée	lycée	NOUN	_	_	12	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-15	,	,	PUNCT	_	_	18	punct	_	_
-16	enfin	enfin	ADV	_	ExtPos=INTJ	18	discourse	_	_
-17	même	même	ADV	_	_	18	cc	_	_
-18	à	à	ADP	_	_	12	conj:coord	_	_
-19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-20	collège	collège	NOUN	_	_	18	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-21	,	,	PUNCT	_	_	26	punct	_	_
-22	enfin	enfin	ADV	_	ExtPos=INTJ	26	discourse	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	22	punct	_	_
-24	et	et	CCONJ	_	_	26	cc	_	_
-25	surtout	surtout	ADV	_	_	26	mod	_	_
-26	en	en	ADP	_	_	18	conj:coord	_	_
-27	terminale	terminal	NOUN	_	Number=Sing	26	comp	_	Gender[lex]=Fem|SpaceAfter=No
-28	,	,	PUNCT	_	_	29	punct	_	_
-29	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	6	punct	_	_
-31	ce	ce	PRON	_	PronType=Dem	38	dislocated:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-32	que	que	PRON	_	PronType=Rel	34	comp:obj	_	_
-33	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	34	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-34	aimais	aimer	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	31	mod@relcl	_	Person[ctxt]=1
-35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-36	plus	plus	ADV	_	_	34	mod	_	_
-37	c'	ce	PRON	_	PronType=Dem	38	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-38	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	40	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-40	sciences	science	NOUN	_	_	38	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
-41	,	,	PUNCT	_	_	45	punct	_	_
-42	et	et	CCONJ	_	_	45	cc	_	_
-43	surtout	surtout	ADV	_	_	45	mod	_	_
-44	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	45	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-45	maths	maths	NOUN	_	_	40	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
-46	.	.	PUNCT	_	_	38	punct	_	_
+12	au	au	ADP	_	_	8	comp:pred	_	_
+13	lycée	lycée	NOUN	_	_	12	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	enfin	enfin	ADV	_	ExtPos=INTJ	17	discourse	_	_
+16	même	même	ADV	_	_	17	cc	_	_
+17	au	au	ADP	_	_	12	conj:coord	_	_
+18	collège	collège	NOUN	_	_	17	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+19	,	,	PUNCT	_	_	24	punct	_	_
+20	enfin	enfin	ADV	_	ExtPos=INTJ	24	discourse	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	et	et	CCONJ	_	_	24	cc	_	_
+23	surtout	surtout	ADV	_	_	24	mod	_	_
+24	en	en	ADP	_	_	17	conj:coord	_	_
+25	terminale	terminal	NOUN	_	Number=Sing	24	comp	_	Gender[lex]=Fem|SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	euh	euh	INTJ	_	_	6	discourse:filler	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	6	punct	_	_
+29	ce	ce	PRON	_	PronType=Dem	36	dislocated:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+30	que	que	PRON	_	PronType=Rel	32	comp:obj	_	_
+31	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	32	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+32	aimais	aimer	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	29	mod@relcl	_	Person[ctxt]=1
+33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+34	plus	plus	ADV	_	_	32	mod	_	_
+35	c'	ce	PRON	_	PronType=Dem	36	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+36	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	38	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+38	sciences	science	NOUN	_	_	36	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+39	,	,	PUNCT	_	_	43	punct	_	_
+40	et	et	CCONJ	_	_	43	cc	_	_
+41	surtout	surtout	ADV	_	_	43	mod	_	_
+42	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	43	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+43	maths	maths	NOUN	_	_	38	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+44	.	.	PUNCT	_	_	36	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_3
 # text = c'était ma grande passion et tout, (. ) et je savais pas du tout quoi faire quand j'ai eu mon bac.
@@ -109,7 +107,7 @@
 17	profs	prof	NOUN	_	_	15	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	qui	qui	PRON	_	PronType=Rel	17	mod	_	_
-20	euh	euh	INTJ	_	_	19	discourse	_	SpaceAfter=No
+20	euh	euh	INTJ	_	_	19	discourse:filler	_	SpaceAfter=No
 21	…	…	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_5
@@ -126,7 +124,7 @@
 10	prépa	prépa	NOUN	_	_	8	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	prépa	prépa	NOUN	_	_	10	conj:dicto	_	Gender[lex]=Fem|Number[ctxt]=Sing
+13	prépa	prépa	NOUN	_	_	10	conj:reform	_	Gender[lex]=Fem|Number[ctxt]=Sing
 14	scientifique	scientifique	ADJ	_	_	13	mod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -134,7 +132,7 @@
 # text = donc, euh, moi, XXX, enfin ça me semblait parfait, parce que déjà, euh, ça permettait de pas se spécialiser de le tout tout de suite, de continuer à faire un peu de tout.
 1	donc	donc	ADV	_	_	12	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	12	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	moi	moi	PRON	_	Emph=Yes|PronType=Prs	12	discourse	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
@@ -150,7 +148,7 @@
 16	que	que	SCONJ	_	_	15	unk	_	InIdiom=Yes
 17	déjà	déjà	ADV	_	_	22	mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
+19	euh	euh	INTJ	_	_	17	discourse:filler	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	17	punct	_	_
 21	ça	ça	PRON	_	PronType=Dem	22	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 22	permettait	permettre	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	15	comp:obj	_	Number[ctxt]=Sing|Person[ctxt]=3
@@ -179,7 +177,7 @@
 # text = et puis euh, j'étais hyper fière d'aller en prépa aussi.
 1	et	et	CCONJ	_	ExtPos=CCONJ	6	cc	_	Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
-3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	6	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 6	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -233,19 +231,19 @@
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_10
-# text = et, euh, c'était euh, en fait, en fait, ni moi ni ma famille, on avait réfléchi à le fait que ça menait à des études d'ingénieur.
+# text = et, euh, c'était euh, en fait, en fait, ni moi ni ma famille, on avait réfléchi au fait que ça menait à des études d'ingénieur.
 1	et	et	CCONJ	_	_	6	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-7	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
+7	euh	euh	INTJ	_	_	16	discourse:filler	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	en	en	ADP	_	ExtPos=ADV	16	discourse	_	Idiom=Yes
 10	fait	fait	NOUN	_	_	9	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	en	en	ADP	_	ExtPos=ADV	9	conj:dicto	_	Idiom=Yes
+12	en	en	ADP	_	ExtPos=ADV	9	repair	_	Idiom=Yes
 13	fait	fait	NOUN	_	_	12	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	9	punct	_	_
 15	ni	ni	CCONJ	_	_	16	cc	_	_
@@ -257,18 +255,17 @@
 21	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	22	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 22	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj:coord	_	_
 23	réfléchi	réfléchir	VERB	_	VerbForm=Part|Voice=Act	22	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-24	à	à	ADP	_	_	23	comp:obj	_	_
-25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-26	fait	fait	NOUN	_	_	24	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
-27	que	que	SCONJ	_	_	26	mod	_	_
-28	ça	ça	PRON	_	PronType=Dem	29	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-29	menait	mener	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	27	comp	_	Number[ctxt]=Sing|Person[ctxt]=3
-30	à	à	ADP	_	_	29	comp:obl	_	_
-31	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	32	det	_	LiaisonAfter=Yes
-32	études	étude	NOUN	_	_	30	comp	_	cdet=No|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
-33	d'	de	ADP	_	_	32	udep	_	SpaceAfter=No
-34	ingénieur	ingénieur	NOUN	_	_	33	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
-35	.	.	PUNCT	_	_	6	punct	_	_
+24	au	au	ADP	_	_	23	comp:obl	_	_
+25	fait	fait	NOUN	_	_	24	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
+26	que	que	SCONJ	_	_	25	mod	_	_
+27	ça	ça	PRON	_	PronType=Dem	28	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+28	menait	mener	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	26	comp	_	Number[ctxt]=Sing|Person[ctxt]=3
+29	à	à	ADP	_	_	28	comp:obl	_	_
+30	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	31	det	_	LiaisonAfter=Yes
+31	études	étude	NOUN	_	_	29	comp	_	cdet=No|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
+32	d'	de	ADP	_	_	31	udep	_	SpaceAfter=No
+33	ingénieur	ingénieur	NOUN	_	_	32	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
+34	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_11
 # text = on s'était pas de le tout rendu compte de ça.
@@ -289,11 +286,11 @@
 # text = personne, euh, enfin, on nous l'avait pas dit.
 1	personne	personne	NOUN	_	_	10	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 2	,	,	PUNCT	_	_	7	punct	_	_
-3	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	7	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	enfin	enfin	ADV	_	ExtPos=INTJ	7	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	on	on	PRON	_	PronType=Ind	1	conj:dicto	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+7	on	on	PRON	_	PronType=Ind	1	repair	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 8	nous	nous	PRON	_	Case=Dat|Emph=No|PronType=Prs	12	comp:obl	_	Number[lex]=Plur|Person[lex]=1
 9	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	12	comp:obj	_	Person[lex]=3|SpaceAfter=No
 10	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -341,7 +338,7 @@
 # text = et, euh, ensuite pendant deux ans, ben, j'ai fait que travailler, parce que, enfin, en prépa, euh, tu as pas le temps de réfléchir, euh.
 1	et	et	CCONJ	_	_	13	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	ensuite	ensuite	ADV	_	_	13	mod	_	_
 6	pendant	pendant	ADP	_	_	13	mod	_	_
@@ -364,7 +361,7 @@
 23	en	en	ADP	_	_	29	mod	_	_
 24	prépa	prépa	NOUN	_	_	23	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 25	,	,	PUNCT	_	_	23	punct	_	_
-26	euh	euh	INTJ	_	_	29	discourse	_	SpaceAfter=No
+26	euh	euh	INTJ	_	_	29	discourse:filler	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	_
 28	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	29	subj	_	Number[lex]=Sing|Person[lex]=2
 29	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	comp:obj	_	_
@@ -374,7 +371,7 @@
 33	de	de	ADP	_	_	32	udep	_	_
 34	réfléchir	réfléchir	VERB	_	VerbForm=Inf	33	comp	_	SpaceAfter=No|Subject=SubjRaising
 35	,	,	PUNCT	_	_	36	punct	_	_
-36	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
+36	euh	euh	INTJ	_	_	13	discourse:filler	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_16
@@ -420,26 +417,26 @@
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_19
-# text = et, euh, à le moment, enfin en gros après, j'ai passé les concours.
-1	et	et	CCONJ	_	_	15	cc	_	SpaceAfter=No
+# text = et, euh, au moment, enfin en gros après, j'ai passé les concours.
+# validated_by = bguil
+1	et	et	CCONJ	_	_	14	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	à	à	ADP	_	_	15	mod	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-7	moment	moment	NOUN	_	_	5	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-8	,	,	PUNCT	_	_	12	punct	_	_
-9	enfin	enfin	ADV	_	ExtPos=INTJ	12	discourse	_	_
-10	en	en	ADP	_	_	12	discourse	_	_
-11	gros	gros	ADJ	_	Gender=Masc	10	comp	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing
-12	après	après	ADV	_	_	5	conj:dicto	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	5	punct	_	_
-14	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-15	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-16	passé	passer	VERB	_	VerbForm=Part|Voice=Act	15	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-18	concours	concours	NOUN	_	_	16	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
-19	.	.	PUNCT	_	_	15	punct	_	_
+5	au	au	ADP	_	_	14	mod	_	_
+6	moment	moment	NOUN	_	_	5	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	enfin	enfin	ADV	_	ExtPos=INTJ	11	discourse	_	_
+9	en	en	ADP	_	_	11	discourse	_	_
+10	gros	gros	ADJ	_	Gender=Masc	9	comp	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing
+11	après	après	ADV	_	_	5	conj:dicto	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	5	punct	_	_
+13	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+14	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	passé	passer	VERB	_	VerbForm=Part|Voice=Act	14	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+17	concours	concours	NOUN	_	_	15	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+18	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_20
 # text = et, et là, et ben, il fallait donc classer les écoles, un peu comme dans APB pour, euh, le bac, fallait classer les écoles.
@@ -465,7 +462,7 @@
 20	APB	APB	PROPN	_	_	19	comp	_	Gender[lex]=Unknown
 21	pour	pour	ADP	_	_	20	mod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	26	punct	_	_
-23	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
+23	euh	euh	INTJ	_	_	26	discourse:filler	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 26	bac	bac	NOUN	_	_	21	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -492,7 +489,7 @@
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 13	brochures	brochure	NOUN	_	_	11	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
-15	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
+15	euh	euh	INTJ	_	_	17	discourse:filler	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	avec	avec	ADP	_	_	11	mod	_	_
 18	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -501,7 +498,7 @@
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	XXX	XXX	X	_	_	19	conj:coord	_	wordform=X
 23	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	24	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:dicto	_	_
+24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:reform	_	_
 25	commencé	commencer	VERB	_	VerbForm=Part|Voice=Act	24	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 26	à	à	ADP	_	_	25	comp:obl	_	_
 27	regarder	regarder	VERB	_	VerbForm=Inf	26	comp	_	Subject=SubjRaising
@@ -524,7 +521,7 @@
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	ni	ni	CCONJ	_	_	9	cc	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-9	écoles	école	NOUN	_	_	5	conj:coord	_	cdet=No|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
+9	écoles	école	NOUN	_	_	2	conj:appos	_	cdet=No|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 10	de	de	ADP	_	_	9	udep	_	_
 11	robotique	robotique	NOUN	_	_	10	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
@@ -533,24 +530,24 @@
 15	trucs	truc	NOUN	_	_	9	conj:coord	_	cdet=Yes|Gender[lex]=Masc|Number[ctxt]=Plur
 16	d'	de	ADP	_	_	15	udep	_	SpaceAfter=No
 17	environnement	environnement	NOUN	_	_	16	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
-18	,	,	PUNCT	_	_	21	punct	_	_
-19	ni	ni	CCONJ	_	_	21	cc	_	_
-20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-21	XXX	XXX	X	_	_	15	conj:coord	_	wordform=X
-22	voitures	voiture	NOUN	_	_	21	mod	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+18	,	,	PUNCT	_	_	22	punct	_	_
+19	ni	ni	CCONJ	_	_	22	cc	_	_
+20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+21	XXX	XXX	X	_	_	22	unk	_	wordform=X
+22	voitures	voiture	NOUN	_	_	15	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 23	,	,	PUNCT	_	_	29	punct	_	_
 24	enfin	enfin	ADV	_	ExtPos=INTJ	29	discourse	_	_
 25	bref	bref	INTJ	_	_	29	discourse	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
-27	euh	euh	INTJ	_	_	29	discourse	_	SpaceAfter=No
+27	euh	euh	INTJ	_	_	29	discourse:filler	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
-29	rien	rien	PRON	_	PronType=Neg	21	conj:dicto	_	Gender[lex]=Masc|Number[lex]=Sing
+29	rien	rien	PRON	_	PronType=Neg	9	conj:appos	_	Gender[lex]=Masc|Number[lex]=Sing
 30	là	là	ADV	_	_	29	mod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_23
 # text = euh, premier moment un peu de, je sais pas, de panique quoi enfin.
-1	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
+1	euh	euh	INTJ	_	_	4	discourse:filler	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	premier	premier	ADJ	_	Gender=Masc	4	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 4	moment	moment	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -572,7 +569,7 @@
 # text = mais, euh, j'avais pas envie d'arrêter tout de suite, parce que on fait deux ans de prépa, on travaille à mort, on a pas envie de, euh, d'abandonner quoi, surtout que ça donne aucune équivalence, enfin voilà.
 1	mais	mais	CCONJ	_	_	6	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 6	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
@@ -604,7 +601,7 @@
 32	envie	envie	NOUN	_	_	30	comp:obj@lvc	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 33	de	de	ADP	_	_	32	comp:obl	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	37	punct	_	_
-35	euh	euh	INTJ	_	_	37	discourse	_	SpaceAfter=No
+35	euh	euh	INTJ	_	_	37	discourse:filler	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	35	punct	_	_
 37	d'	de	ADP	_	_	33	repair	_	SpaceAfter=No
 38	abandonner	abandonner	VERB	_	VerbForm=Inf	37	comp	_	Subject=SubjRaising
@@ -631,7 +628,7 @@
 6	cette	ce	DET	_	Number=Sing|PronType=Dem|Shared=No	7	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 7	école	école	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
-9	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+9	euh	euh	INTJ	_	_	12	discourse:filler	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 12	ENSTA	ENSTA	PROPN	_	_	7	conj:appos	_	Gender[lex]=Unknown
@@ -643,12 +640,12 @@
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	LiaisonAfter=Yes
 19	option	option	NOUN	_	_	17	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
-21	euh	euh	INTJ	_	_	23	discourse	_	SpaceAfter=No
+21	euh	euh	INTJ	_	_	23	discourse:filler	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	océanographie	océanographie	NOUN	_	_	19	mod	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
 25	enfin	enfin	ADV	_	ExtPos=INTJ	26	discourse	_	_
-26	hydrographie	hydrographie	NOUN	_	_	23	conj:dicto	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+26	hydrographie	hydrographie	NOUN	_	_	23	conj:reform	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 27	océanographie	océanographie	NOUN	_	_	26	mod	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 28	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -665,7 +662,7 @@
 
 # sent_id = ParisStories_2019_prepaScientifique_27
 # text = euh, notre famille est en Bretagne, et tout, euh, parfait.
-1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+1	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	famille	famille	NOUN	_	Shared=No	5	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -676,7 +673,7 @@
 9	et	et	CCONJ	_	_	10	cc	_	InIdiom=Yes
 10	tout	tout	ADV	_	ExtPos=ADV	5	conj:coord	_	Idiom=Yes|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+12	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	parfait	parfait	INTJ	_	_	5	discourse	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	_	_
@@ -685,7 +682,7 @@
 # text = hop, euh, je décide d'aller là-bas.
 1	hop	hop	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	6	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=1
 6	décide	décider	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
@@ -698,7 +695,7 @@
 # text = et, euh, donc je pars là-bas.
 1	et	et	CCONJ	_	_	7	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	7	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	donc	donc	ADV	_	_	7	cc	_	_
 6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=1
@@ -708,7 +705,7 @@
 
 # sent_id = ParisStories_2019_prepaScientifique_30
 # text = euh, première année d'école d'ingé, je m'ennuie, mais, euh, tout le monde s'ennuie un petit peu, parce que c'est encore très général comme enseignement.
-1	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+1	euh	euh	INTJ	_	_	12	discourse:filler	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	première	premier	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
 4	année	année	NOUN	_	_	12	mod	_	cdet=No|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -723,7 +720,7 @@
 13	,	,	PUNCT	_	_	22	punct	_	_
 14	mais	mais	CCONJ	_	_	22	cc	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
+16	euh	euh	INTJ	_	_	22	discourse:filler	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	tout	tout	ADJ	_	Gender=Masc	20	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -767,7 +764,7 @@
 18	,	,	PUNCT	_	_	16	punct	_	_
 19	tout	tout	ADJ	_	Gender=Masc	23	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	tout	tout	ADJ	_	Gender=Masc	19	conj:dicto	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+21	tout	tout	ADJ	_	Gender=Masc	19	repair	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 23	monde	monde	NOUN	_	_	24	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 24	déteste	détester	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj:coord	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
@@ -788,7 +785,7 @@
 11	d'	de	ADP	_	_	10	udep	_	SpaceAfter=No
 12	ingénieur	ingénieur	NOUN	_	_	11	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
-14	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
+14	euh	euh	INTJ	_	_	17	discourse:filler	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 17	retour	retour	NOUN	_	_	8	conj:dicto	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -834,13 +831,13 @@
 8	océanographie	océanographie	NOUN	_	_	7	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	enfin	enfin	ADV	_	ExtPos=INTJ	11	discourse	_	_
-11	en	en	ADP	_	_	7	conj:dicto	_	_
+11	en	en	ADP	_	_	7	conj:reform	_	_
 12	océanographie	océanographie	NOUN	_	_	11	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 13	spatiale	spatial	ADJ	_	_	12	mod	_	Gender[ctxt]=Fem|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Number[ctxt]=Sing
 14	à	à	ADP	_	_	2	mod	_	_
 15	Toulouse	Toulouse	PROPN	_	_	14	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
-17	euh	euh	INTJ	_	_	19	discourse	_	SpaceAfter=No
+17	euh	euh	INTJ	_	_	19	discourse:filler	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	pendant	pendant	ADP	_	_	2	mod	_	_
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -853,7 +850,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sympa	sympa	ADV	_	Number=Sing	2	comp:pred	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
-5	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
+5	euh	euh	INTJ	_	_	8	discourse:filler	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	c'	ce	PRON	_	PronType=Dem	8	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:coord	_	_
@@ -883,7 +880,7 @@
 # text = et, euh, et donc ensuite, on commence la deuxième année, très bien, euh, où là on commence à se spécialiser en hydrographie océanographie.
 1	et	et	CCONJ	_	_	10	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	et	et	CCONJ	_	_	1	repair	_	_
 6	donc	donc	ADV	_	_	10	mod	_	_
@@ -898,7 +895,7 @@
 15	très	très	ADV	_	_	16	mod	_	_
 16	bien	bien	ADV	_	_	13	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
-18	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
+18	euh	euh	INTJ	_	_	20	discourse:filler	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	où	où	ADV	_	PronType=Rel	23	mod	_	_
 21	là	là	ADV	_	_	23	mod	_	_
@@ -917,7 +914,7 @@
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	là	là	ADV	_	_	7	mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	là	là	ADV	_	_	2	conj:dicto	_	_
+4	là	là	ADV	_	_	2	repair	_	_
 5	ça	ça	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 6	m'	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	9	comp:obl	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -968,11 +965,11 @@
 39	,	,	PUNCT	_	_	50	punct	_	_
 40	et	et	CCONJ	_	_	50	cc	_	SpaceAfter=No
 41	,	,	PUNCT	_	_	42	punct	_	_
-42	et	et	CCONJ	_	_	40	conj:dicto	_	_
+42	et	et	CCONJ	_	_	40	repair	_	_
 43	en	en	ADP	_	ExtPos=ADV	50	discourse	_	Idiom=Yes
 44	fait	fait	NOUN	_	_	43	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 45	,	,	PUNCT	_	_	43	punct	_	_
-46	euh	euh	INTJ	_	_	50	discourse	_	SpaceAfter=No
+46	euh	euh	INTJ	_	_	50	discourse:filler	_	SpaceAfter=No
 47	,	,	PUNCT	_	_	46	punct	_	_
 48	ça	ça	PRON	_	PronType=Dem	50	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 49	m'	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	52	comp:obl	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
@@ -991,17 +988,17 @@
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	projets	projet	NOUN	_	_	3	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
-9	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
+9	euh	euh	INTJ	_	_	11	discourse:filler	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	sur	sur	ADP	_	_	7	udep	_	_
 12	ordis	ordi	NOUN	_	_	11	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 13	machin	machin	NOUN	_	ExtPos=INTJ	12	discourse	_	Gender[lex]=Masc|SpaceAfter=No
 14	,	,	PUNCT	_	_	24	punct	_	_
-15	euh	euh	INTJ	_	_	24	discourse	_	SpaceAfter=No
+15	euh	euh	INTJ	_	_	24	discourse:filler	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	ni	ni	CCONJ	_	_	24	cc	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
+19	euh	euh	INTJ	_	_	17	discourse:filler	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	17	punct	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
@@ -1058,7 +1055,7 @@
 3	moment	moment	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	de	de	ADP	_	_	3	udep	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
-6	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
+6	euh	euh	INTJ	_	_	8	discourse:filler	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	panique	panique	NOUN	_	_	4	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	InIdiom=Yes

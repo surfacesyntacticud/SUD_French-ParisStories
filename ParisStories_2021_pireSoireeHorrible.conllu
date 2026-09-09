@@ -2,7 +2,7 @@
 # speaker = L2
 # text = mais euh, quand tu l'as rencontré XXX, c'était comment?
 1	mais	mais	CCONJ	_	_	12	cc	_	_
-2	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+2	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	quand	quand	SCONJ	_	_	12	mod	_	_
 5	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=2
@@ -65,7 +65,7 @@
 1	en	en	ADP	_	_	7	mod	_	_
 2	gros	gros	ADJ	_	Gender=Masc	1	comp	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+4	euh	euh	INTJ	_	_	7	discourse:filler	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	ça	ça	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 7	faisait	faire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
@@ -88,7 +88,7 @@
 24	parce	parce	ADV	_	ExtPos=SCONJ	7	mod	_	Idiom=Yes
 25	que	que	SCONJ	_	_	24	unk	_	InIdiom=Yes|SpaceAfter=No
 26	,	,	PUNCT	_	_	30	punct	_	_
-27	euh	euh	INTJ	_	_	30	discourse	_	SpaceAfter=No
+27	euh	euh	INTJ	_	_	30	discourse:filler	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	30	det	_	LiaisonAfter=Yes
 30	envie	envie	NOUN	_	_	24	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -115,7 +115,7 @@
 # text = et, euh, et au bout d'un moment on a craqué parce que, bah, elle est, elle forçait, elle forçait, puis, elle était plus jamais à la maison et tout.
 1	et	et	CCONJ	_	_	12	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	5	punct	_	_
-3	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	et	et	CCONJ	_	_	1	repair	_	_
 6	au	au	ADP	_	_	12	mod	_	_
@@ -636,7 +636,7 @@
 12	à	à	ADP	_	_	11	comp:obl	_	_
 13	manger	manger	VERB	_	VerbForm=Inf	12	comp	_	SpaceAfter=No|Subject=SubjRaising
 14	,	,	PUNCT	_	_	17	punct	_	_
-15	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
+15	euh	euh	INTJ	_	_	17	discourse:filler	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	chez	chez	ADP	_	_	13	mod	_	_
 18	nous	nous	PRON	_	Case=Acc|Emph=No|PronType=Prs	17	comp	_	Number[lex]=Plur|Person[lex]=1|SpaceAfter=No
@@ -679,7 +679,7 @@
 3	c'	ce	PRON	_	PronType=Dem	4	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
+6	euh	euh	INTJ	_	_	10	discourse:filler	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	six	six	NUM	_	ExtPos=DET	9	mod	_	Number[lex]=Plur
 9	mois	mois	NOUN	_	_	10	mod	_	Gender[lex]=Masc|Number[ctxt]=Plur
@@ -698,7 +698,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	donc	donc	ADV	_	_	10	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
+6	euh	euh	INTJ	_	_	10	discourse:filler	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	ouais	ouais	INTJ	_	_	10	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
@@ -778,13 +778,13 @@
 # text = il, euh, préparait la bouffe, euh.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	subj	_	Person[lex]=3|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	préparait	préparer	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	bouffe	bouffe	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+9	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_52
@@ -794,7 +794,7 @@
 2	arrivait	arriver	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 3	avec	avec	ADP	_	_	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
+5	euh	euh	INTJ	_	_	3	discourse:filler	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	avec	avec	ADP	_	_	3	repair	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
@@ -808,7 +808,7 @@
 2	allait	aller	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 3	chercher	chercher	VERB	_	VerbForm=Inf	2	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
+5	euh	euh	INTJ	_	_	3	discourse:filler	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 8	eau	eau	NOUN	_	_	3	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
