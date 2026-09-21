@@ -168,7 +168,7 @@
 9	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	première	premier	ADJ	_	Gender=Fem	12	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-12	fois	fois	NOUN	_	_	7	conj:dicto	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+12	fois	fois	NOUN	_	_	7	repair	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	mais	mais	CCONJ	_	_	18	cc	_	_
 15	peut-être	peut-être	ADV	_	_	17	mod	_	_
@@ -179,7 +179,7 @@
 20	fois	fois	NOUN	_	_	18	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur
 21	où	où	ADV	_	PronType=Rel	25	mod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
-23	où	où	ADV	_	PronType=Rel	21	conj:dicto	_	_
+23	où	où	ADV	_	PronType=Rel	21	repair	_	_
 24	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	25	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 25	arrivais	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	20	mod@relcl	_	Person[ctxt]=1
 26	à	à	ADP	_	_	25	comp:obl	_	_
@@ -408,7 +408,7 @@
 24	,	,	PUNCT	_	_	21	punct	_	_
 25	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	27	subj	_	Number[lex]=Sing|Person[lex]=1
 26	me	moi	PRON	_	Emph=No|PronType=Prs|Reflex=Yes	27	comp@expl	_	Number[lex]=Sing|Person[lex]=1
-27	rends	rendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	17	conj:dicto	_	Person[ctxt]=1
+27	rends	rendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	17	repair	_	Person[ctxt]=1
 28	compte	compte	NOUN	_	_	27	comp:obj@lvc	_	Gender[lex]=Masc|Number[ctxt]=Sing
 29	qu'	que	SCONJ	_	_	27	comp:obl	_	SpaceAfter=No
 30	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	32	subj@expl	_	Person[lex]=3

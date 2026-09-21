@@ -144,7 +144,7 @@
 13	groupes	groupe	NOUN	_	_	10	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur
 14	différents	différent	ADJ	_	Gender=Masc	13	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	dans	dans	ADP	_	_	10	conj:dicto	_	_
+16	dans	dans	ADP	_	_	10	conj:reform	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 18	deux	deux	NUM	_	ExtPos=DET	19	mod	_	Number[lex]=Plur
 19	classes	classe	NOUN	_	_	16	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur
@@ -208,7 +208,7 @@
 35	,	,	PUNCT	_	_	38	punct	_	_
 36	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	38	subj@expl	_	Person[lex]=3
 37	y	y	PRON	_	PronType=Prs	39	comp@expl	_	Person[lex]=3
-38	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	conj:dicto	_	_
+38	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	repair	_	_
 39	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	38	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 40	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 41	truc	truc	NOUN	_	_	39	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -301,7 +301,7 @@
 13	amies	amie	NOUN	_	_	19	subj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 14	de	de	ADP	_	_	13	udep	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	de	de	ADP	_	_	14	conj:dicto	_	SpaceAfter=No
+16	de	de	ADP	_	_	14	repair	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	respectives	respectif	ADJ	_	Gender=Fem	16	conj:dicto	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 19	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	comp:obj	_	_
@@ -354,7 +354,7 @@
 1	et	et	CCONJ	_	_	10	cc	_	_
 2	euh	euh	INTJ	_	_	10	discourse:filler	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	et	et	CCONJ	_	_	1	conj:dicto	_	_
+4	et	et	CCONJ	_	_	1	conj:coord	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=1
 6	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	discourse	_	Person[ctxt]=1
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
@@ -422,7 +422,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	donc	donc	ADV	_	_	1	conj:dicto	_	SpaceAfter=No
+5	donc	donc	ADV	_	_	1	conj:coord	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	subj	_	Number[lex]=Sing|Person[lex]=2
 8	lui	lui	PRON	_	Case=Dat|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	10	comp:obl	_	Person[lex]=3
@@ -433,7 +433,7 @@
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	16	subj	_	Number[lex]=Sing|Person[lex]=2
 15	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|PronType=Prs	17	comp:obl	_	Person[lex]=3
-16	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	conj:dicto	_	_
+16	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	repair	_	_
 17	parlé	parler	VERB	_	VerbForm=Part|Voice=Act	16	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 18	comme	comme	ADP	_	_	17	mod	_	_
 19	ça	ça	PRON	_	PronType=Dem	18	comp	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -561,7 +561,7 @@
 43	traine	trainer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	41	comp	_	Number[ctxt]=Sing|Person[ctxt]=3
 44	ensemble	ensemble	ADV	_	_	43	mod	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	46	punct	_	_
-46	qu'	que	SCONJ	_	_	41	conj:dicto	_	SpaceAfter=No
+46	qu'	que	SCONJ	_	_	41	conj:coord	_	SpaceAfter=No
 47	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind|Shared=No	48	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 48	parle	parler	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	46	comp	_	Number[ctxt]=Sing|Person[ctxt]=3
 49	et	et	CCONJ	_	_	50	cc	_	InIdiom=Yes

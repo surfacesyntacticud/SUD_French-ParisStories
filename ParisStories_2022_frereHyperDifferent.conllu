@@ -87,7 +87,7 @@
 19	demi	demi	ADJ	_	_	17	conj:coord	_	AlignBegin=12300|AlignEnd=12483|Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	AlignBegin=12483|AlignEnd=12483
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	AlignBegin=12483|AlignEnd=12665
-22	truc	truc	NOUN	_	_	12	conj:dicto	_	AlignBegin=12665|AlignEnd=12848|Gender[lex]=Masc|Number[ctxt]=Sing
+22	truc	truc	NOUN	_	_	17	repair	_	AlignBegin=12665|AlignEnd=12848|Gender[lex]=Masc|Number[ctxt]=Sing
 23	comme	comme	ADP	_	_	22	udep	_	AlignBegin=12848|AlignEnd=13030
 24	ça	ça	PRON	_	PronType=Dem	23	comp	_	AlignBegin=13030|AlignEnd=13213|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 25	.	.	PUNCT	_	_	5	punct	_	AlignBegin=13213|AlignEnd=13213
@@ -672,7 +672,7 @@
 8	personnes	personne	NOUN	_	_	6	comp:obl	_	AlignBegin=102230|AlignEnd=102443|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	AlignBegin=102443|AlignEnd=102443
 10	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	11	subj	_	AlignBegin=102443|AlignEnd=102704|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj:dicto	_	AlignBegin=102704|AlignEnd=102964
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	repair	_	AlignBegin=102704|AlignEnd=102964
 12	rapidement	rapidement	ADV	_	_	11	mod	_	AlignBegin=102964|AlignEnd=103225
 13	devenu	devenir	VERB	_	VerbForm=Part	11	comp:aux@tense	_	AlignBegin=103225|AlignEnd=103486|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	AlignBegin=103486|AlignEnd=103746
@@ -732,7 +732,7 @@
 # speaker = L2
 # text = ah ouais ?
 1	ah	ah	INTJ	_	_	0	root	_	AlignBegin=111311|AlignEnd=111622
-2	ouais	ouais	INTJ	_	_	1	discourse	_	AlignBegin=111622|AlignEnd=111932
+2	ouais	ouais	INTJ	_	_	1	unk	_	AlignBegin=111622|AlignEnd=111932
 3	?	?	PUNCT	_	_	1	punct	_	AlignBegin=111932|AlignEnd=111932
 
 # sent_id = ParisStories_2022_10_frèreHyperDifférent__41
@@ -774,7 +774,7 @@
 19	bah	bah	INTJ	_	_	22	discourse	_	AlignBegin=117436|AlignEnd=117758|SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	AlignBegin=117758|AlignEnd=117758
 21	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	22	subj	_	AlignBegin=117758|AlignEnd=118080|Person[lex]=3
-22	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj:dicto	_	AlignBegin=118080|AlignEnd=118401
+22	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	repair	_	AlignBegin=118080|AlignEnd=118401
 23	plus	plus	ADV	_	_	22	mod	_	AlignBegin=118401|AlignEnd=118723
 24	bouger	bouger	VERB	_	VerbForm=Inf	22	comp:obj	_	AlignBegin=118723|AlignEnd=119045|Subject=SubjRaising
 25	partout	partout	ADV	_	_	24	mod	_	AlignBegin=119045|AlignEnd=119367
@@ -788,11 +788,11 @@
 1	alors	alors	ADV	_	_	0	root	_	AlignBegin=120010|AlignEnd=120775
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=120775|AlignEnd=121539|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=121539|AlignEnd=121539
-4	que	que	SCONJ	_	_	1	conj:dicto	_	AlignBegin=121539|AlignEnd=121748
+4	que	que	SCONJ	_	_	1	repair	_	AlignBegin=121539|AlignEnd=121748
 5	moi	moi	PRON	_	Emph=Yes|PronType=Prs	8	dislocated:subj	_	AlignBegin=121748|AlignEnd=121957|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=121957|AlignEnd=121957
 7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	AlignBegin=121957|AlignEnd=122166|Number[lex]=Sing|Person[lex]=1
-8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	comp:obj	_	AlignBegin=122166|AlignEnd=122376
+8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp	_	AlignBegin=122166|AlignEnd=122376
 9	plus	plus	ADV	_	_	12	mod	_	AlignBegin=122376|AlignEnd=122585
 10	euh	euh	INTJ	_	_	9	discourse:filler	_	AlignBegin=122585|AlignEnd=122794|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=122794|AlignEnd=122794

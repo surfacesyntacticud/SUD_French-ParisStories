@@ -58,7 +58,7 @@
 22	rendre	rendre	VERB	_	VerbForm=Inf	20	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	ça	ça	PRON	_	PronType=Dem	25	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-25	pouvait	pouvoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	20	conj:dicto	_	Number[ctxt]=Sing|Person[ctxt]=3
+25	pouvait	pouvoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	20	repair	_	Number[ctxt]=Sing|Person[ctxt]=3
 26	rendre	rendre	VERB	_	VerbForm=Inf	25	comp:obj	_	Subject=SubjRaising
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 28	animal	animal	NOUN	_	Number=Sing	26	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes
@@ -113,7 +113,7 @@
 13	présence	présence	NOUN	_	_	14	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 14	continuait	continuer	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	10	repair	_	Number[ctxt]=Sing|Person[ctxt]=3
 15	toujours	toujours	ADV	_	_	14	mod	_	_
-16	toujours	toujours	ADV	_	_	15	conj:dicto	_	_
+16	toujours	toujours	ADV	_	_	15	repair	_	_
 17	de	de	ADP	_	_	14	comp:obl	_	_
 18	roder	roder	VERB	_	VerbForm=Inf	17	comp	_	SpaceAfter=No|Subject=SubjRaising
 19	,	,	PUNCT	_	_	20	punct	_	_
@@ -197,7 +197,7 @@
 # text = et, et, là, j'ai, j'ai crié.
 1	et	et	CCONJ	_	_	8	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	et	et	CCONJ	_	_	1	conj:dicto	_	SpaceAfter=No
+3	et	et	CCONJ	_	_	1	conj:coord	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	là	là	ADV	_	_	8	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
@@ -220,7 +220,7 @@
 7	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
-10	sac	sac	NOUN	_	_	5	conj:dicto	_	Gender[lex]=Masc|Number[ctxt]=Sing
+10	sac	sac	NOUN	_	_	5	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Sing
 11	de	de	ADP	_	_	10	mod	_	_
 12	couchage	couchage	NOUN	_	_	11	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 13	sur	sur	ADP	_	_	12	mod	_	SpaceAfter=No
@@ -492,7 +492,7 @@
 # text = et, et, en fait, le lendemain matin, quand on s'est levée, euh, bah, du coup, ils étaient toujours restés sur cette histoire.
 1	et	et	CCONJ	_	_	26	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	et	et	CCONJ	_	_	1	conj:dicto	_	SpaceAfter=No
+3	et	et	CCONJ	_	_	1	conj:coord	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	en	en	ADP	_	ExtPos=ADV	1	discourse	_	Idiom=Yes
 6	fait	fait	NOUN	_	_	5	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
@@ -639,7 +639,7 @@
 39	chose	chose	NOUN	_	_	37	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 40	,	,	PUNCT	_	_	42	punct	_	_
 41	qui	qui	PRON	_	PronType=Rel	42	subj	_	_
-42	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	conj:dicto	_	_
+42	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	repair	_	_
 43	senti	sentir	VERB	_	VerbForm=Part|Voice=Act	42	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 44	quelque	quelque	DET	_	PronType=Ind	45	det	_	Number[lex]=Sing
 45	chose	chose	NOUN	_	_	43	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -679,7 +679,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	vraiment	vraiment	ADV	_	_	3	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	peut-être	peut-être	ADV	_	_	5	conj:dicto	_	SpaceAfter=No
+7	peut-être	peut-être	ADV	_	_	5	repair	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	LiaisonAfter=Yes

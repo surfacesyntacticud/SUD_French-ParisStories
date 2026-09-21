@@ -43,7 +43,7 @@
 15	euh	euh	INTJ	_	_	18	discourse:filler	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	LiaisonAfter=Yes
-18	événement	événement	NOUN	_	_	11	conj:dicto	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+18	événement	événement	NOUN	_	_	11	conj:reform	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 19	grave	grave	ADJ	_	_	18	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 20	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -156,7 +156,7 @@
 20	,	,	PUNCT	_	_	23	punct	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
-23	personnes	personne	NOUN	_	_	19	conj:dicto	_	Gender[lex]=Fem|Number[ctxt]=Plur
+23	personnes	personne	NOUN	_	_	19	repair	_	Gender[lex]=Fem|Number[ctxt]=Plur
 24	à	à	ADP	_	_	15	mod	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 26	radio	radio	NOUN	_	_	24	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -317,10 +317,10 @@
 
 # sent_id = ParisStories_2020_requinReunion_20
 # text = d'ailleurs euh, on est monté tout en haut.
-1	d'	de	ADP	_	_	6	mod	_	SpaceAfter=No
-2	ailleurs	ailleurs	ADV	_	_	1	comp	_	_
-3	euh	euh	INTJ	_	_	2	discourse:filler	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	2	punct	_	_
+1	d'	de	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes|SpaceAfter=No
+2	ailleurs	ailleurs	ADV	_	_	1	comp	_	InIdiom=Yes
+3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
 5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	monté	monter	VERB	_	VerbForm=Part	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
