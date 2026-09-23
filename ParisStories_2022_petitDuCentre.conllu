@@ -51,7 +51,7 @@
 # text = et, et la semaine dernière, j'ai rencontré un petit garçon.
 1	et	et	CCONJ	_	_	9	cc	_	AlignBegin=12095|AlignEnd=12433|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=12433|AlignEnd=12433
-3	et	et	CCONJ	_	_	1	conj:dicto	_	AlignBegin=12433|AlignEnd=12771
+3	et	et	CCONJ	_	_	1	conj:coord	_	AlignBegin=12433|AlignEnd=12771
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=12771|AlignEnd=13109|HasSpokenGender=OnlySingExceptWithLiaison
 5	semaine	semaine	NOUN	_	_	10	mod	_	AlignBegin=13109|AlignEnd=13447|Gender[lex]=Fem|Number[ctxt]=Sing
 6	dernière	dernier	ADJ	_	Gender=Fem	5	mod	_	AlignBegin=13447|AlignEnd=13785|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
@@ -345,7 +345,7 @@
 5	que	que	SCONJ	_	_	4	comp:obj	_	AlignBegin=76185|AlignEnd=76393|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	AlignBegin=76393|AlignEnd=76393
 7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	AlignBegin=76393|AlignEnd=76601|Number[lex]=Sing|Person[lex]=1
-8	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	AlignBegin=76601|AlignEnd=76810|Person[ctxt]=1
+8	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	repair	_	AlignBegin=76601|AlignEnd=76810|Person[ctxt]=1
 9	que	que	SCONJ	_	_	8	comp:obj	_	AlignBegin=76810|AlignEnd=77018
 10	c'	ce	PRON	_	PronType=Dem	11	subj@expl	_	AlignBegin=77018|AlignEnd=77226|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp	_	AlignBegin=77226|AlignEnd=77434
@@ -433,7 +433,7 @@
 16	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	15	comp:obj	_	AlignBegin=96296|AlignEnd=96518|Person[lex]=3|SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	AlignBegin=96518|AlignEnd=96518
 18	qui	qui	PRON	_	PronType=Rel	19	subj@pass	_	AlignBegin=96518|AlignEnd=96739
-19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj:dicto	_	AlignBegin=96739|AlignEnd=96961
+19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	repair	_	AlignBegin=96739|AlignEnd=96961
 20	venue	venir	VERB	_	VerbForm=Part	19	comp:aux@tense	_	AlignBegin=96961|AlignEnd=97182|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 21	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	22	comp:obj	_	AlignBegin=97182|AlignEnd=97404|Person[lex]=3
 22	chercher	chercher	VERB	_	VerbForm=Inf	20	comp:obj	_	AlignBegin=97404|AlignEnd=97625|SpaceAfter=No|Subject=SubjRaising
@@ -535,7 +535,7 @@
 10	euh	euh	INTJ	_	_	8	discourse:filler	_	AlignBegin=117533|AlignEnd=117736|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	AlignBegin=117736|AlignEnd=117736
 12	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	13	subj	_	AlignBegin=117736|AlignEnd=117939|Person[lex]=3
-13	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	AlignBegin=117939|AlignEnd=118142
+13	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	AlignBegin=117939|AlignEnd=118142
 14	pas	pas	ADV	_	Polarity=Neg	13	mod	_	AlignBegin=118142|AlignEnd=118345
 15	comme	comme	ADP	_	_	13	comp:pred	_	AlignBegin=118345|AlignEnd=118549
 16	ça	ça	PRON	_	PronType=Dem	15	comp	_	AlignBegin=118549|AlignEnd=118752|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No

@@ -745,7 +745,7 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=80683|AlignEnd=80808|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	AlignBegin=80808|AlignEnd=80808
 5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	AlignBegin=80808|AlignEnd=80933|Number[lex]=Sing|Person[lex]=1
-6	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	AlignBegin=80933|AlignEnd=81059|Person[ctxt]=1
+6	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	repair	_	AlignBegin=80933|AlignEnd=81059|Person[ctxt]=1
 7	aux	au	ADP	_	_	6	comp:obl	_	AlignBegin=81059|AlignEnd=81184
 8	filles	fille	NOUN	_	_	7	comp	_	AlignBegin=81184|AlignEnd=81309|Gender[lex]=Fem|Number[ctxt]=Plur
 9	que	que	PRON	_	PronType=Rel	11	comp:obj	_	AlignBegin=81309|AlignEnd=81434
@@ -754,7 +754,7 @@
 12	quand	quand	SCONJ	_	_	11	mod	_	AlignBegin=81684|AlignEnd=81869
 13	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	comp	_	AlignBegin=81869|AlignEnd=82055|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=82055|AlignEnd=82055
-15	quand	quand	SCONJ	_	_	12	conj:dicto	_	AlignBegin=82055|AlignEnd=82240
+15	quand	quand	SCONJ	_	_	12	repair	_	AlignBegin=82055|AlignEnd=82240
 16	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	17	subj	_	AlignBegin=82240|AlignEnd=82425|Number[lex]=Sing|Person[lex]=1
 17	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	12	comp	_	AlignBegin=82425|AlignEnd=82611|Person[ctxt]=1
 18	à	à	ADP	_	_	17	comp:obl	_	AlignBegin=82611|AlignEnd=82611
@@ -785,7 +785,7 @@
 4	ans	an	NOUN	_	_	2	comp:pred	_	AlignBegin=85480|AlignEnd=85651|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	AlignBegin=85651|AlignEnd=85651
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=85651|AlignEnd=85823
-7	génération	génération	NOUN	_	_	4	conj:dicto	_	AlignBegin=85823|AlignEnd=85995|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+7	génération	génération	NOUN	_	_	4	conj:reform	_	AlignBegin=85823|AlignEnd=85995|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=85995|AlignEnd=85995
 
 # sent_id = ParisStories_2022_2_générationsXY__61
@@ -795,7 +795,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=85447|AlignEnd=85447
 3	mais	mais	CCONJ	_	_	5	cc	_	AlignBegin=85447|AlignEnd=85799|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=85799|AlignEnd=85799
-5	en	en	ADP	_	ExtPos=ADV	1	conj:dicto	_	AlignBegin=87008|AlignEnd=87216|Idiom=Yes
+5	en	en	ADP	_	ExtPos=ADV	1	conj:coord	_	AlignBegin=87008|AlignEnd=87216|Idiom=Yes
 6	fait	fait	NOUN	_	_	5	comp	_	AlignBegin=87216|AlignEnd=87423|Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 7	…	…	PUNCT	_	_	1	punct	_	AlignBegin=87423|AlignEnd=87423
 
@@ -827,7 +827,7 @@
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	AlignBegin=89634|AlignEnd=89775|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	AlignBegin=89775|AlignEnd=89775
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	AlignBegin=89775|AlignEnd=89916
-16	génération	génération	NOUN	_	_	4	conj:dicto	_	AlignBegin=89916|AlignEnd=90058|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+16	génération	génération	NOUN	_	_	4	comp:obj	_	AlignBegin=89916|AlignEnd=90058|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	AlignBegin=90058|AlignEnd=90058
 
 # sent_id = ParisStories_2022_2_générationsXY__64
@@ -886,7 +886,7 @@
 24	,	,	PUNCT	_	_	23	punct	_	AlignBegin=97452|AlignEnd=97452
 25	vingt-cinq	vingt-cinq	NUM	_	ExtPos=DET	28	det	_	AlignBegin=97452|AlignEnd=97666|Number[lex]=Plur|SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	AlignBegin=97880|AlignEnd=97880
-27	vingt-six	vingt-six	NUM	_	ExtPos=DET	25	conj:dicto	_	AlignBegin=97880|AlignEnd=98095|Number[lex]=Plur
+27	vingt-six	vingt-six	NUM	_	ExtPos=DET	25	conj:reform	_	AlignBegin=97880|AlignEnd=98095|Number[lex]=Plur
 28	ans	an	NOUN	_	_	19	comp:obj	_	AlignBegin=98095|AlignEnd=98309|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 29	.	.	PUNCT	_	_	6	punct	_	AlignBegin=98309|AlignEnd=98309
 
@@ -1057,10 +1057,10 @@
 15	si	si	SCONJ	_	_	14	comp	_	AlignBegin=117137|AlignEnd=117324|SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	AlignBegin=117324|AlignEnd=117324
 17	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	subj	_	AlignBegin=117352|AlignEnd=117510|Number[lex]=Sing|Person[lex]=2
-18	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	15	conj:dicto	_	AlignBegin=117510|AlignEnd=117668|Person[ctxt]=2|SpaceAfter=No
+18	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	15	discourse	_	AlignBegin=117510|AlignEnd=117668|Person[ctxt]=2|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=117668|AlignEnd=117668
 20	par	par	ADP	_	_	18	mod	_	AlignBegin=117668|AlignEnd=117825
-21	rapport	rapport	NOUN	_	_	20	comp	_	AlignBegin=117825|AlignEnd=117983|Gender[lex]=Masc|Number[ctxt]=Sing
+21	rapport	rapport	NOUN	_	_	15	repair	_	AlignBegin=117825|AlignEnd=117983|Gender[lex]=Masc|Number[ctxt]=Sing
 22	à	à	ADP	_	_	21	udep	_	AlignBegin=117983|AlignEnd=117983
 23	…	…	PUNCT	_	_	11	punct	_	AlignBegin=117983|AlignEnd=117983
 

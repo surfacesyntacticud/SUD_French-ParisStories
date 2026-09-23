@@ -16,7 +16,7 @@
 14	du	du	ADP	_	_	10	repair	_	_
 15	jour	jour	NOUN	_	_	14	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 16	où	où	ADV	_	PronType=Rel	15	mod@relcl	_	_
-17	quand	quand	SCONJ	_	_	16	conj:dicto	_	_
+17	quand	quand	SCONJ	_	_	16	repair	_	_
 18	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	19	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 19	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	17	comp	_	Person[ctxt]=1
 20	quatorze	quatorze	NUM	_	ExtPos=DET	21	det	_	Number[lex]=Plur
@@ -457,7 +457,7 @@
 19	celui-là	celui-là	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	18	comp	_	Person[lex]=3
 20	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	22	subj@expl	_	Person[lex]=3
 21	y	y	PRON	_	PronType=Prs	22	comp@expl	_	Person[lex]=3
-22	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	10	conj:dicto	_	Number[ctxt]=Sing|Person[ctxt]=3
+22	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	10	repair	_	Number[ctxt]=Sing|Person[ctxt]=3
 23	que	que	SCONJ	_	_	22	mod	_	_
 24	quarante-deux	quarante-deux	NUM	_	ExtPos=DET	25	det	_	Number[lex]=Plur
 25	places	place	NOUN	_	_	22	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
@@ -724,9 +724,9 @@
 29	faire	faire	VERB	_	VerbForm=Inf	28	comp:obj	_	Subject=SubjRaising
 30	une	un	NUM	_	ExtPos=DET|Shared=No	31	det	_	Number[lex]=Plur
 31	heure	heure	NOUN	_	_	29	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-32	de	de	ADP	_	_	31	mod	_	_
+32	de	de	ADP	_	_	31	mod	_	Scrap=Yes
 33	deux	deux	NUM	_	ExtPos=DET	34	det	_	Number[lex]=Plur
-34	heures	heure	NOUN	_	_	31	conj:dicto	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
+34	heures	heure	NOUN	_	_	31	repair	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 35	de	de	ADP	_	_	34	mod	_	_
 36	route	route	NOUN	_	_	35	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing
 37	pour	pour	ADP	_	_	29	mod	_	_
@@ -1407,7 +1407,7 @@
 14	en	en	PRON	_	PronType=Prs	13	unk	_	Person[lex]=3|Scrap=Yes|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	repair	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-17	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	conj:dicto	_	_
+17	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	repair	_	_
 18	pas	pas	ADV	_	Polarity=Neg	19	mod	_	_
 19	très	très	ADV	_	_	20	mod	_	_
 20	fière	fier	ADJ	_	_	17	comp:pred	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing

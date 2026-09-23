@@ -25,7 +25,7 @@
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	hum	hum	INTJ	_	_	26	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
-26	du	du	ADP	_	_	20	conj:dicto	_	_
+26	du	du	ADP	_	_	20	repair	_	_
 27	parlement	parlement	NOUN	_	_	26	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 28	français	français	ADJ	_	Gender=Masc	27	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
@@ -43,7 +43,7 @@
 41	euh	euh	INTJ	_	_	44	discourse:filler	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	41	punct	_	_
 43	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-44	tour	tour	NOUN	_	_	39	conj:dicto	_	Gender[lex]=Fem|Number[ctxt]=Sing
+44	tour	tour	NOUN	_	_	39	repair	_	Gender[lex]=Fem|Number[ctxt]=Sing
 45	de	de	ADP	_	_	44	udep	_	_
 46	Brandenburg	Brandenburg	PROPN	_	_	45	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 47	.	.	PUNCT	_	_	12	punct	_	_
@@ -91,7 +91,7 @@
 25	de	de	ADP	_	_	21	repair	_	_
 26	Berlin	Berlin	PROPN	_	_	25	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 27	,	,	PUNCT	_	_	25	punct	_	_
-28	euh	euh	INTJ	_	_	38	discourse:filler	_	SpaceAfter=No
+28	euh	euh	INTJ	_	_	30	discourse	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	pour	pour	ADP	_	_	3	mod	_	_
 31	voir	voir	VERB	_	VerbForm=Inf	30	comp	_	Subject=NoRaising
@@ -101,10 +101,10 @@
 35	,	,	PUNCT	_	_	36	punct	_	_
 36	euh	euh	INTJ	_	_	34	discourse:filler	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	_
-38	ce	ce	PRON	_	PronType=Dem	34	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-39	,	,	PUNCT	_	_	41	punct	_	_
-40	cet	ce	DET	_	Number=Sing|PronType=Dem	41	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-41	endroit	endroit	NOUN	_	_	38	conj:dicto	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+38	ce	ce	PRON	_	PronType=Dem	41	det	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+39	,	,	PUNCT	_	_	40	punct	_	_
+40	cet	ce	DET	_	Number=Sing|PronType=Dem	38	repair	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+41	endroit	endroit	NOUN	_	_	34	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 42	iconique	iconique	ADJ	_	_	41	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 43	,	,	PUNCT	_	_	44	punct	_	_
 44	enfin	enfin	ADV	_	ExtPos=INTJ	41	discourse	_	SpaceAfter=No
@@ -559,7 +559,7 @@
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	bonne	bonne	ADJ	_	_	10	mod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-10	quarantaine	quarantaine	NOUN	_	_	4	conj:dicto	_	Gender[lex]=Fem|Number[ctxt]=Sing
+10	quarantaine	quarantaine	NOUN	_	_	4	repair	_	Gender[lex]=Fem|Number[ctxt]=Sing
 11	autour	autour	ADV	_	_	10	mod	_	_
 12	d'	de	ADP	_	_	11	comp:obl	_	SpaceAfter=No
 13	Angela	Angela	PROPN	_	_	12	comp	_	Gender[lex]=Unknown

@@ -175,11 +175,11 @@
 39	,	,	PUNCT	_	_	40	punct	_	_
 40	euh	euh	INTJ	_	_	38	discourse:filler	_	SpaceAfter=No
 41	,	,	PUNCT	_	_	42	punct	_	_
-42	à	à	ADP	_	_	38	conj:dicto	_	SpaceAfter=No
+42	à	à	ADP	_	_	38	mod	_	Scrap=Yes|SpaceAfter=No
 43	,	,	PUNCT	_	_	46	punct	_	_
 44	toujours	toujours	ADV	_	_	46	mod	_	_
 45	tout	tout	ADV	_	_	46	mod	_	_
-46	seul	seul	ADJ	_	_	38	comp:obj	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+46	seul	seul	ADJ	_	_	42	repair	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 47	,	,	PUNCT	_	_	54	punct	_	_
 48	donc	donc	ADV	_	_	54	mod	_	SpaceAfter=No
 49	,	,	PUNCT	_	_	48	punct	_	_
@@ -370,7 +370,7 @@
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	euh	euh	INTJ	_	_	19	discourse:filler	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
-19	de	de	ADP	_	_	14	conj:dicto	_	_
+19	de	de	ADP	_	_	14	repair	_	_
 20	travailler	travailler	VERB	_	VerbForm=Inf	19	comp	_	SpaceAfter=No|Subject=NoRaising
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	avec	avec	ADP	_	_	20	comp:obl	_	_
@@ -497,7 +497,7 @@
 8	vraiment	vraiment	ADV	_	_	7	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-11	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj:dicto	_	_
+11	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	repair	_	_
 12	pas	pas	ADV	_	Polarity=Neg	11	mod	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 14	impression	impression	NOUN	_	_	11	comp:obj@lvc	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -731,7 +731,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	8	subj	_	Person[lex]=3
-8	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj:dicto	_	_
+8	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	repair	_	_
 9	qu'	que	SCONJ	_	_	8	comp:obj	_	SpaceAfter=No
 10	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	11	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp	_	_
