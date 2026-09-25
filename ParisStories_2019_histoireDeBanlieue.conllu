@@ -49,35 +49,35 @@
 # speaker = non_native
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	3	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	6	punct	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
 5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	repair	_	_
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	six	six	NUM	_	ExtPos=PRON	6	mod	_	Number[lex]=Plur
 8	dans	dans	ADP	_	_	6	comp:pred	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 10	maison	maison	NOUN	_	_	8	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-11	.	.	PUNCT	_	_	3	punct	_	_
+11	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = enfin c'est pas, c'est pas dans la maison, c'est euh.
 # sent_id = ParisStories_2019_histoireDeBanlieue_5
 # speaker = non_native
 1	enfin	enfin	ADV	_	ExtPos=INTJ	3	discourse	_	wordform=fin
 2	c'	ce	PRON	_	PronType=Dem	3	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	_	_
+5	,	,	PUNCT	_	_	3	punct	_	_
 6	c'	ce	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	repair	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	reparandum	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	dans	dans	ADP	_	_	7	comp:pred	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	maison	maison	NOUN	_	_	9	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-12	,	,	PUNCT	_	_	14	punct	_	_
+12	,	,	PUNCT	_	_	7	punct	_	_
 13	c'	ce	PRON	_	PronType=Dem	14	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	repair	_	_
+14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	euh	euh	INTJ	_	_	3	discourse:filler	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	3	punct	_	_
+16	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = il y a une maison, et une cour.
 # sent_id = ParisStories_2019_histoireDeBanlieue_6
@@ -202,10 +202,10 @@
 16	mardi	mardi	NOUN	_	_	13	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 17	puisque	puisque	SCONJ	_	_	13	mod	_	_
 18	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	19	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-19	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	comp	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	22	punct	_	_
+19	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	reparandum	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
 21	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	22	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-22	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	repair	_	_
+22	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	comp	_	_
 23	cours	cours	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 24	jusqu'	jusque	ADV	_	_	25	mod	_	SpaceAfter=No
 25	à	à	ADP	_	_	23	udep	_	_
@@ -220,10 +220,10 @@
 2	après	après	ADP	_	_	4	mod	_	_
 3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=1
 4	rentre	rentrer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
-5	vers	vers	ADP	_	_	4	mod	_	_
+5	vers	vers	ADP	_	_	8	reparandum	_	_
 6	euh	euh	INTJ	_	_	8	discourse:filler	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	vers	vers	ADP	_	_	5	repair	_	_
+8	vers	vers	ADP	_	_	4	mod	_	_
 9	vingt	vingt	NUM	_	ExtPos=PROPN	10	det	_	Number[lex]=Sing
 10	heures	heure	NOUN	_	_	8	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	_
@@ -248,18 +248,18 @@
 2	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 3	quartier	quartier	NOUN	_	_	5	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	c'	ce	PRON	_	PronType=Dem	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	reparandum	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	comp:pred	_	Scrap=Yes|SpaceAfter=No
-8	,	,	PUNCT	_	_	10	punct	_	_
+8	,	,	PUNCT	_	_	5	punct	_	_
 9	c'	ce	PRON	_	PronType=Dem	10	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	repair	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	quartier	quartier	NOUN	_	_	10	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 14	très	très	ADV	_	_	15	mod	_	_
 15	bon	bon	ADJ	_	Gender=Masc	13	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
-16	.	.	PUNCT	_	_	5	punct	_	_
+16	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = euh enfin c'est pas un quartier de très bonne sécurité.
 # sent_id = ParisStories_2019_histoireDeBanlieue_15
@@ -292,9 +292,9 @@
 10	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	subj	_	Number[lex]=Sing|Person[lex]=1
 11	passe	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	Person[ctxt]=1
 12	normalement	normalement	ADV	_	_	11	mod	_	_
-13	pour	pour	ADP	_	_	11	mod	_	_
+13	pour	pour	ADP	_	_	15	reparandum	_	_
 14	euh	euh	INTJ	_	_	15	discourse:filler	_	_
-15	pour	pour	ADP	_	_	13	repair	_	_
+15	pour	pour	ADP	_	_	11	mod	_	_
 16	rentrer	rentrer	VERB	_	VerbForm=Inf	15	comp	_	Subject=NoRaising
 17	chez	chez	ADP	_	_	16	mod	_	_
 18	moi	moi	PRON	_	Emph=Yes|PronType=Prs	17	comp	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
@@ -323,22 +323,22 @@
 12	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	quelques	quelques	DET	_	PronType=Ind	14	det	_	LiaisonAfter=Yes|Number[lex]=Plur
 14	hommes	homme	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	_
-16	qui	qui	PRON	_	PronType=Rel	14	mod@relcl	_	_
+15	,	,	PUNCT	_	_	25	punct	_	_
+16	qui	qui	PRON	_	PronType=Rel	21	reparandum	_	_
 17	euh	euh	INTJ	_	_	21	discourse:filler	_	_
 18	hum	hum	INTJ	_	_	21	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	qui	qui	PRON	_	PronType=Rel	21	subj	_	_
-21	étaient	être	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	16	repair	_	Number[ctxt]=Plur
+21	étaient	être	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	25	reparandum	_	Number[ctxt]=Plur
 22	euh	euh	INTJ	_	_	25	discourse:filler	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
 24	qui	qui	PRON	_	PronType=Rel	25	subj	_	_
-25	restaient	rester	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	21	repair	_	Number[ctxt]=Plur
+25	restaient	rester	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	14	mod@relcl	_	Number[ctxt]=Plur
 26	ici	ici	ADV	_	_	25	mod	_	_
 27	et	et	CCONJ	_	_	31	cc	_	_
 28	euh	euh	INTJ	_	_	27	discourse:filler	_	_
-29	qui	qui	PRON	_	PronType=Rel	31	subj	_	_
-30	qui	qui	PRON	_	PronType=Rel	29	repair	_	_
+29	qui	qui	PRON	_	PronType=Rel	30	reparandum	_	_
+30	qui	qui	PRON	_	PronType=Rel	31	subj	_	_
 31	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	conj:coord	_	_
 32	en	en	ADP	_	_	31	comp:pred	_	_
 33	train	train	NOUN	_	_	32	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -346,20 +346,20 @@
 35	boire	boire	VERB	_	VerbForm=Inf	34	comp	_	SpaceAfter=No|Subject=SubjRaising
 36	,	,	PUNCT	_	_	42	punct	_	_
 37	enfin	enfin	ADV	_	ExtPos=INTJ	42	discourse	_	wordform=fin
-38	qui	qui	PRON	_	PronType=Rel	42	subj	_	_
+38	qui	qui	PRON	_	PronType=Rel	41	reparandum	_	_
 39	euh	euh	INTJ	_	_	41	discourse:filler	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	39	punct	_	_
-41	qui	qui	PRON	_	PronType=Rel	38	repair	_	_
+41	qui	qui	PRON	_	PronType=Rel	42	subj	_	_
 42	avaient	avoir	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	31	conj:reform	_	Number[ctxt]=Plur
 43	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	44	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 44	air	air	NOUN	_	_	42	comp:obj@lvc	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 45	pas	pas	ADV	_	Polarity=Neg	46	mod	_	_
-46	très	très	ADV	_	_	44	mod	_	_
+46	très	très	ADV	_	_	51	reparandum	_	_
 47	euh	euh	INTJ	_	_	51	discourse:filler	_	SpaceAfter=No
 48	,	,	PUNCT	_	_	47	punct	_	_
 49	pas	pas	ADV	_	Polarity=Neg	50	mod	_	_
 50	très	très	ADV	_	_	51	mod	_	_
-51	amicaux	amical	ADJ	_	Gender=Masc|Number=Plur	46	repair	_	HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|SpaceAfter=No
+51	amicaux	amical	ADJ	_	Gender=Masc|Number=Plur	44	mod	_	HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|SpaceAfter=No
 52	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = et du coup j'ai pensé de ne pas passer par euh cette rue-là, mais plutôt faire un bout de détour, parce que il y a une autre rue plus grande vers chez moi.
@@ -408,19 +408,19 @@
 # sent_id = ParisStories_2019_histoireDeBanlieue_19
 # speaker = non_native
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	reparandum	_	_
 3	seulement	seulement	ADV	_	_	2	mod	_	_
 4	c'	ce	PRON	_	PronType=Dem	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	repair	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	reparandum	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	InIdiom=Yes
 7	peu	peu	NOUN	_	ExtPos=ADV	5	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 8	c'	ce	PRON	_	PronType=Dem	9	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	repair	_	_
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	InIdiom=Yes
 11	peu	peu	NOUN	_	ExtPos=ADV	9	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 12	plus	plus	ADV	_	_	13	mod	_	_
 13	loin	loin	ADV	_	_	9	comp:pred	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	2	punct	_	_
+14	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = faut que je marche euh dix minutes en plus.
 # sent_id = ParisStories_2019_histoireDeBanlieue_20
@@ -464,24 +464,24 @@
 2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	subj@expl	_	Person[lex]=3
 3	y	y	PRON	_	PronType=Prs	4	comp@expl	_	Person[lex]=3
 4	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
-5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	reparandum	_	_
 6	euh	euh	INTJ	_	_	8	discourse:filler	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	repair	_	LiaisonAfter=Yes
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	LiaisonAfter=Yes
 9	étudiant	étudiant	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
-10	,	,	PUNCT	_	_	15	punct	_	_
-11	qui	qui	PRON	_	PronType=Rel|Shared=No	15	subj	_	_
+10	,	,	PUNCT	_	_	19	punct	_	_
+11	qui	qui	PRON	_	PronType=Rel|Shared=No	14	reparandum	_	_
 12	euh	euh	INTJ	_	_	14	discourse:filler	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
-14	qui	qui	PRON	_	PronType=Rel	11	repair	_	_
-15	po~	po~	X	_	ExtPos=VERB	9	mod@relcl	_	_
-16	port	port	X	_	ExtPos=VERB	15	repair	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	19	punct	_	_
+14	qui	qui	PRON	_	PronType=Rel	15	subj	_	_
+15	po~	po~	X	_	ExtPos=VERB	16	reparandum	_	_
+16	port	port	X	_	ExtPos=VERB	19	reparandum	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	subj	_	_
-19	portait	porter	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	16	repair	_	Number[ctxt]=Sing|Person[ctxt]=3
-20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	22	punct	_	_
-22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	repair	_	_
+19	portait	porter	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	9	mod@relcl	_	Number[ctxt]=Sing|Person[ctxt]=3
+20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	reparandum	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	sac	sac	NOUN	_	_	19	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 24	à	à	ADP	_	_	23	udep	_	_
 25	dos	dos	NOUN	_	_	24	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -523,27 +523,27 @@
 # speaker = non_native
 1	donc	donc	ADV	_	_	3	mod	_	_
 2	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	reparandum	_	_
 4	euh	euh	INTJ	_	_	8	discourse:filler	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	Number[lex]=Sing|Person[lex]=1
 7	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	9	comp:obj	_	Person[lex]=3|SpaceAfter=No
-8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	repair	_	_
+8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	suivi	suivre	VERB	_	VerbForm=Part|Voice=Act	8	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj:coord	_	_
+12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	reparandum	_	_
 13	passé	passer	VERB	_	VerbForm=Part|Voice=Act	12	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 14	par	par	ADP	_	_	13	comp:obl	_	_
 15	euh	euh	INTJ	_	_	18	discourse:filler	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-18	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	repair	_	_
+18	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj:coord	_	_
 19	passé	passer	VERB	_	VerbForm=Part|Voice=Act	18	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 20	par	par	ADP	_	_	19	comp:obl	_	_
 21	là	là	ADV	_	_	20	comp	_	_
 22	aussi	aussi	ADV	_	_	19	mod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	3	punct	_	_
+23	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = et donc je l'ai suivi.
 # sent_id = ParisStories_2019_histoireDeBanlieue_25
@@ -588,10 +588,10 @@
 # speaker = non_native
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Person[lex]=1
-3	do~	do~	X	_	ExtPos=VERB	0	root	_	_
+3	do~	do~	X	_	ExtPos=VERB	6	reparandum	_	_
 4	et	et	CCONJ	_	_	6	cc	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=1
-6	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	repair	_	Person[ctxt]=1
+6	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
 7	tourner	tourner	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
 8	vers	vers	ADP	_	_	7	mod	_	_
 9	là-bas	là-bas	ADV	_	_	8	comp	_	_
@@ -600,16 +600,16 @@
 12	parce	parce	ADV	_	ExtPos=SCONJ	7	mod	_	Idiom=Yes
 13	que	que	SCONJ	_	_	12	unk	_	InIdiom=Yes
 14	c'	ce	PRON	_	PronType=Dem	15	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	reparandum	_	_
 16	euh	euh	INTJ	_	_	18	discourse:filler	_	_
 17	c'	ce	PRON	_	PronType=Dem	18	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	repair	_	_
+18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 20	rue	rue	NOUN	_	_	18	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
 21	où	où	ADV	_	PronType=Rel	23	mod	_	_
 22	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	23	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 23	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	Person[ctxt]=1|SpaceAfter=No
-24	.	.	PUNCT	_	_	3	punct	_	_
+24	.	.	PUNCT	_	_	6	punct	_	_
 
 # text = et dans cette rue il marche toujours devant moi.
 # sent_id = ParisStories_2019_histoireDeBanlieue_29

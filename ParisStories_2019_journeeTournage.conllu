@@ -55,10 +55,10 @@
 7	enfin	enfin	ADV	_	ExtPos=INTJ	3	discourse	_	_
 8	franchement	franchement	ADV	_	_	10	mod	_	_
 9	c'	ce	PRON	_	PronType=Dem	10	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	13	punct	_	_
+10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	reparandum	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
 12	c'	ce	PRON	_	PronType=Dem	13	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	repair	_	_
+13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 14	vraiment	vraiment	ADV	_	_	16	mod	_	_
 15	vraiment	vraiment	ADV	_	_	14	conj:coord	_	_
 16	cool	cool	ADJ	_	_	13	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
@@ -66,9 +66,9 @@
 18	que	que	SCONJ	_	_	17	unk	_	InIdiom=Yes
 19	enfin	enfin	ADV	_	ExtPos=INTJ	25	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
-21	ça	ça	PRON	_	PronType=Dem	25	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	_
-23	ça	ça	PRON	_	PronType=Dem	21	repair	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+21	ça	ça	PRON	_	PronType=Dem	23	reparandum	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	ça	ça	PRON	_	PronType=Dem	25	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 24	m'	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	26	comp:obl	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
 26	permis	permettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	25	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
@@ -92,7 +92,7 @@
 44	tournait	tourner	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	38	conj:coord	_	Number[ctxt]=Sing|Person[ctxt]=3
 45	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 46	film	film	NOUN	_	_	44	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-47	.	.	PUNCT	_	_	10	punct	_	_
+47	.	.	PUNCT	_	_	13	punct	_	_
 
 # text = et puis en plus c'était super bien payé.
 # sent_id = ParisStories_2019_journeeTournage_3
@@ -111,10 +111,10 @@
 # sent_id = ParisStories_2019_journeeTournage_4
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	subj@expl	_	Person[lex]=3
 2	y	y	PRON	_	PronType=Prs	3	comp@expl	_	Person[lex]=3
-3	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
+3	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	22	reparandum	_	Number[ctxt]=Sing|Person[ctxt]=3
 4	d'	de	ADP	_	_	3	mod	_	SpaceAfter=No
 5	abord	abord	NOUN	_	_	4	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
-6	,	,	PUNCT	_	_	22	punct	_	_
+6	,	,	PUNCT	_	_	3	punct	_	_
 7	euh	euh	INTJ	_	_	22	discourse:filler	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	10	det	_	_
@@ -130,7 +130,7 @@
 19	tournage	tournage	NOUN	_	_	17	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 20	,	,	PUNCT	_	_	10	punct	_	_
 21	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	22	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-22	devait	devoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	3	repair	_	Number[ctxt]=Sing|Person[ctxt]=3
+22	devait	devoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 23	aller	aller	VERB	_	VerbForm=Inf	22	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 24	,	,	PUNCT	_	_	27	punct	_	_
 25	euh	euh	INTJ	_	_	27	discourse:filler	_	SpaceAfter=No
@@ -143,9 +143,9 @@
 32	euh	euh	INTJ	_	_	34	discourse:filler	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	32	punct	_	_
 34	essayer	essayer	VERB	_	VerbForm=Inf	30	comp	_	Subject=NoRaising
-35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison
 36	et	et	CCONJ	_	_	37	cc	_	_
-37	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	35	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
+37	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	38	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 38	costume	costume	NOUN	_	_	34	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 39	euh	euh	INTJ	_	_	40	discourse:filler	_	_
 40	avec	avec	ADP	_	_	34	mod	_	_
@@ -175,7 +175,7 @@
 64	pouvaient	pouvoir	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	62	mod	_	Number[ctxt]=Plur
 65	nous	nous	PRON	_	Case=Dat|Emph=No|PronType=Prs	66	comp:obl	_	Number[lex]=Plur|Person[lex]=1
 66	faire	faire	VERB	_	VerbForm=Inf	64	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
-67	.	.	PUNCT	_	_	3	punct	_	_
+67	.	.	PUNCT	_	_	22	punct	_	_
 
 # text = et pour les garçons ils se faisaient un peu raser sur les côtés pour, euh, pour avoir la coupe, euh, un peu des années quarante, tout ça.
 # sent_id = ParisStories_2019_journeeTournage_5
@@ -192,11 +192,11 @@
 11	sur	sur	ADP	_	_	10	mod	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 13	côtés	côté	NOUN	_	_	11	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur
-14	pour	pour	ADP	_	_	10	mod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	18	punct	_	_
+14	pour	pour	ADP	_	_	18	reparandum	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
 16	euh	euh	INTJ	_	_	18	discourse:filler	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
-18	pour	pour	ADP	_	_	14	repair	_	_
+18	pour	pour	ADP	_	_	10	mod	_	_
 19	avoir	avoir	VERB	_	VerbForm=Inf	18	comp	_	Subject=NoRaising
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 21	coupe	coupe	NOUN	_	_	19	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -317,11 +317,11 @@
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
-9	tout	tout	ADJ	_	Gender=Masc	15	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
-10	,	,	PUNCT	_	_	13	punct	_	_
+9	tout	tout	ADJ	_	Gender=Masc	13	reparandum	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
 11	euh	euh	INTJ	_	_	13	discourse:filler	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
-13	toute	tout	ADJ	_	Gender=Fem	9	repair	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+13	toute	tout	ADJ	_	Gender=Fem	15	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 15	Promenade	promenade	PROPN	_	_	19	subj	_	Gender[lex]=Unknown|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
@@ -393,14 +393,14 @@
 8	euh	euh	INTJ	_	_	3	discourse:filler	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	3	punct	_	_
 10	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-11	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	reparandum	_	_
 12	euh	euh	INTJ	_	_	14	discourse:filler	_	_
 13	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	subj	_	Number[lex]=Sing|Person[lex]=1
-14	devais	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	11	repair	_	Person[ctxt]=1
+14	devais	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
 15	traverser	traverser	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 17	route	route	NOUN	_	_	15	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-18	.	.	PUNCT	_	_	11	punct	_	_
+18	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = Euh, en fait c'était une scène où les les deux petits traversaient la route et, euh, allaient vers la plage.
 # sent_id = ParisStories_2019_journeeTournage_13
@@ -413,8 +413,8 @@
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	scène	scène	NOUN	_	_	6	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	où	où	ADV	_	_	8	mod	_	_
-10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 12	deux	deux	NUM	_	ExtPos=DET	13	mod	_	Number[lex]=Plur
 13	petits	petit	NOUN	_	Shared=Yes	14	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 14	traversaient	traverser	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	9	comp:obj	_	Number[ctxt]=Plur
@@ -444,11 +444,11 @@
 10	une	un	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	9	comp:pred	_	Person[lex]=3
 11	des	de	ADP	_	_	10	udep	_	_
 12	passantes	passante	NOUN	_	_	11	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur
-13	avec	avec	ADP	_	_	9	conj:coord	_	_
+13	avec	avec	ADP	_	_	17	reparandum	_	_
 14	euh	euh	INTJ	_	_	17	discourse:filler	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	17	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-17	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	repair	_	_
+17	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	conj:coord	_	_
 18	avec	avec	ADP	_	_	17	comp:pred	_	_
 19	deux	deux	NUM	_	ExtPos=DET	21	det	_	Number[lex]=Plur
 20	autres	autre	ADJ	_	_	21	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
@@ -465,10 +465,10 @@
 
 # text = Et euh, et euh, du coup c'était marrant, pendant vraiment toute la matinée on a retourné cette scène, euh, je sais pas combien de fois.
 # sent_id = ParisStories_2019_journeeTournage_15
-1	Et	et	CCONJ	_	_	10	cc	_	_
+1	Et	et	CCONJ	_	_	4	reparandum	_	_
 2	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	et	et	CCONJ	_	_	1	repair	_	_
+4	et	et	CCONJ	_	_	10	cc	_	_
 5	euh	euh	INTJ	_	_	4	discourse:filler	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	du	du	ADP	_	_	10	discourse	_	_
@@ -524,11 +524,11 @@
 1	Je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1
 2	savais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
-4	que	que	SCONJ	_	_	2	comp:obj	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	8	punct	_	_
+4	que	que	SCONJ	_	_	8	reparandum	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
 6	euh	euh	INTJ	_	_	8	discourse:filler	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	qu'	que	SCONJ	_	_	4	repair	_	SpaceAfter=No
+8	qu'	que	SCONJ	_	_	2	comp:obj	_	SpaceAfter=No
 9	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	10	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 10	prenait	prendre	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	8	comp	_	Number[ctxt]=Sing|Person[ctxt]=3
 11	autant	autant	ADV	_	_	10	comp:obj	_	_
@@ -548,9 +548,9 @@
 1	Euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ensuite	ensuite	ADV	_	_	9	mod	_	_
-4	à	à	ADP	_	_	9	mod	_	_
+4	à	à	ADP	_	_	6	reparandum	_	_
 5	mid~	mid~	X	_	ExtPos=NOUN|Gender=Masc|Number=Sing	4	comp	_	_
-6	à	à	ADP	_	_	4	repair	_	_
+6	à	à	ADP	_	_	9	mod	_	_
 7	midi	midi	NOUN	_	_	6	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	9	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -569,18 +569,18 @@
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	subj@expl	_	Person[lex]=3
 2	y	y	PRON	_	PronType=Prs	3	comp@expl	_	Person[lex]=3
 3	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
-4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	repair	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	reparandum	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	petit	petit	ADJ	_	Gender=Masc	7	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 7	buffet	buffet	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = Et euh, et ensuite l'après-midi c'était, euh, une autre scène qui était tournée sur la plage.
 # sent_id = ParisStories_2019_journeeTournage_20
-1	Et	et	CCONJ	_	_	9	cc	_	_
+1	Et	et	CCONJ	_	_	4	reparandum	_	_
 2	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	_
-4	et	et	CCONJ	_	_	1	repair	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	et	et	CCONJ	_	_	9	cc	_	_
 5	ensuite	ensuite	ADV	_	_	9	mod	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 7	après-midi	après-midi	NOUN	_	_	9	mod	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -618,8 +618,8 @@
 14	et	et	CCONJ	_	_	20	cc	_	_
 15	euh	euh	INTJ	_	_	14	discourse:filler	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	_
-17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 19	trois	trois	NUM	_	ExtPos=DET	20	mod	_	Number[lex]=Plur
 20	fils	fils	NOUN	_	_	13	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Plur
 21	qui	qui	PRON	_	PronType=Rel	22	subj	_	_
@@ -680,10 +680,10 @@
 22	de	de	ADP	_	_	21	comp:obl	_	_
 23	rester	rester	VERB	_	VerbForm=Inf	22	comp	_	Subject=SubjRaising
 24	derrière	derrière	ADP	_	_	23	mod	_	_
-25	pour	pour	ADP	_	ExtPos=ADV	23	mod	_	Idiom=Yes
+25	pour	pour	ADP	_	ExtPos=ADV	28	reparandum	_	Idiom=Yes
 26	que	que	SCONJ	_	_	25	unk	_	InIdiom=Yes|SpaceAfter=No
-27	,	,	PUNCT	_	_	28	punct	_	_
-28	pour	pour	ADP	_	_	25	repair	_	_
+27	,	,	PUNCT	_	_	25	punct	_	_
+28	pour	pour	ADP	_	_	23	mod	_	_
 29	montrer	montrer	VERB	_	VerbForm=Inf	28	comp	_	Subject=NoRaising
 30	qu'	que	SCONJ	_	_	29	comp:obj	_	SpaceAfter=No
 31	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	33	subj@expl	_	Person[lex]=3
@@ -732,8 +732,8 @@
 4	sur	sur	ADP	_	_	3	mod	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	chaise	chaise	NOUN	_	_	4	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing
-7	pendant	pendant	ADP	_	_	3	mod	_	_
-8	pendant	pendant	ADP	_	_	7	repair	_	_
+7	pendant	pendant	ADP	_	_	8	reparandum	_	_
+8	pendant	pendant	ADP	_	_	3	mod	_	_
 9	tout	tout	ADJ	_	Gender=Masc	11	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 11	après-midi	après-midi	NOUN	_	_	8	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -815,8 +815,8 @@
 35	jeux	jeu	NOUN	_	_	33	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 36	avec	avec	ADP	_	_	33	mod	_	_
 37	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|PronType=Prs	36	comp	_	Person[lex]=3
-38	pendant	pendant	ADP	_	_	33	mod	_	_
-39	pendant	pendant	ADP	_	ExtPos=ADV	38	repair	_	Idiom=Yes
+38	pendant	pendant	ADP	_	_	39	reparandum	_	_
+39	pendant	pendant	ADP	_	ExtPos=ADV	33	mod	_	Idiom=Yes
 40	qu'	que	SCONJ	_	_	39	unk	_	InIdiom=Yes|SpaceAfter=No
 41	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	42	subj	_	Person[lex]=3
 42	attendaient	attendre	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	39	comp:obj	_	Number[ctxt]=Plur
@@ -837,10 +837,10 @@
 
 # text = Et euh, et voilà donc c'était cool.
 # sent_id = ParisStories_2019_journeeTournage_30
-1	Et	et	CCONJ	_	_	8	cc	_	_
+1	Et	et	CCONJ	_	_	4	reparandum	_	_
 2	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	et	et	CCONJ	_	_	1	repair	_	_
+4	et	et	CCONJ	_	_	8	cc	_	_
 5	voilà	voilà	VERB	_	ExtPos=INTJ	8	discourse	_	_
 6	donc	donc	ADV	_	_	8	mod	_	_
 7	c'	ce	PRON	_	PronType=Dem	8	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No

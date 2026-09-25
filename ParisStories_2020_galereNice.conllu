@@ -134,9 +134,9 @@
 
 # sent_id = ParisStories_2020_galereNice_12
 # text = on, on fait notre petite vie à Nice tout tranquillement.
-1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	4	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
-3	on	on	PRON	_	PronType=Ind	1	repair	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	3	reparandum	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	on	on	PRON	_	PronType=Ind	4	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 4	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3
 5	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 6	petite	petit	ADJ	_	Gender=Fem	7	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
@@ -183,8 +183,8 @@
 7	c'	ce	PRON	_	PronType=Dem	8	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 9	vrai	vrai	ADJ	_	_	8	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-10	que	que	SCONJ	_	_	8	comp:obj@agent	_	_
-11	qu'	que	SCONJ	_	_	10	repair	_	SpaceAfter=No
+10	que	que	SCONJ	_	_	11	reparandum	_	_
+11	qu'	que	SCONJ	_	_	8	comp:obj@agent	_	SpaceAfter=No
 12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	14	subj	_	Person[lex]=3
 13	nous	nous	PRON	_	Case=Dat|Emph=No|PronType=Prs	14	comp:obl	_	Number[lex]=Plur|Person[lex]=1
 14	arrive	arriver	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	comp	_	Number[ctxt]=Sing|Person[ctxt]=3
@@ -329,11 +329,11 @@
 1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 2	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	aller	aller	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
-4	prendre	prendre	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
+4	prendre	prendre	VERB	_	VerbForm=Inf	8	reparandum	_	Subject=SubjRaising
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	petit	petit	ADJ	_	Gender=Masc	4	comp:obj	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Scrap=Yes
 7	euh	euh	INTJ	_	_	8	discourse:filler	_	_
-8	prendre	prendre	VERB	_	VerbForm=Inf	4	repair	_	Subject=SubjRaising
+8	prendre	prendre	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
 9	à	à	ADP	_	_	8	comp:obl	_	_
 10	manger	manger	VERB	_	VerbForm=Inf	9	comp	_	SpaceAfter=No|Subject=SubjRaising
 11	,	,	PUNCT	_	_	13	punct	_	_
@@ -385,8 +385,8 @@
 
 # sent_id = ParisStories_2020_galereNice_29
 # text = on on achète notre petit goûter, tout ça.
-1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	3	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-2	on	on	PRON	_	PronType=Ind	1	repair	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	reparandum	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+2	on	on	PRON	_	PronType=Ind	3	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 3	achète	acheter	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 4	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 5	petit	petit	ADJ	_	Gender=Masc	6	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing

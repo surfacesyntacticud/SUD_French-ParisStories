@@ -64,10 +64,10 @@
 1	en	en	ADP	_	ExtPos=ADV	4	discourse	_	Idiom=Yes
 2	fait	fait	NOUN	_	_	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=1
-4	s~	s~	X	_	ExtPos=VERB	0	root	_	_
-5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=1
-6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	repair	_	Number[lex]=Sing|Person[lex]=1
-7	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	repair	_	Person[ctxt]=1
+4	s~	s~	X	_	ExtPos=VERB	7	reparandum	_	_
+5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	reparandum	_	Number[lex]=Sing|Person[lex]=1
+6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=1
+7	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	ce	ce	PRON	_	PronType=Dem	7	comp:obj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 10	que	que	PRON	_	PronType=Rel	12	comp:pred	_	_
@@ -83,7 +83,7 @@
 20	vraiment	vraiment	ADV	_	_	21	mod	_	_
 21	très	très	ADV	_	_	22	mod	_	_
 22	bon	bon	ADJ	_	Gender=Masc	19	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
-23	.	.	PUNCT	_	_	4	punct	_	_
+23	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_4
 # text = et ce qui m'a intriguée, c'est que sur la façade du restaurant d'où provenait l'odeur, c'était écrit pâtisserie fine.
@@ -370,12 +370,12 @@
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	11	comp:obl	_	Number[lex]=Sing|Person[lex]=1
 11	demande	demander	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
-12	ce	ce	PRON	_	PronType=Dem	11	comp:obj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+12	ce	ce	PRON	_	PronType=Dem	17	reparandum	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 13	que	que	PRON	_	PronType=Rel	15	comp:obj	_	_
 14	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	subj	_	Number[lex]=Sing|Person[lex]=1
 15	voudrais	vouloir	VERB	_	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	Person[ctxt]=1|SpaceAfter=No
-16	,	,	PUNCT	_	_	17	punct	_	_
-17	ce	ce	PRON	_	PronType=Dem	12	repair	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+16	,	,	PUNCT	_	_	12	punct	_	_
+17	ce	ce	PRON	_	PronType=Dem	11	comp:obj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 18	que	que	PRON	_	PronType=Rel	21	comp:obj	_	_
 19	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	20	subj	_	Number[lex]=Sing|Person[lex]=1
 20	voudrais	vouloir	VERB	_	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin	17	mod@relcl	_	Person[ctxt]=1
@@ -465,10 +465,10 @@
 14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
 15	nems	nem	NOUN	_	_	13	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur
 16	mais	mais	CCONJ	_	_	22	cc	_	_
-17	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
+17	pas	pas	ADV	_	Polarity=Neg	20	reparandum	_	_
 18	vraiment	vraiment	ADV	_	_	17	mod	_	_
 19	euh	euh	INTJ	_	_	20	discourse:filler	_	_
-20	pas	pas	ADV	_	Polarity=Neg	17	repair	_	_
+20	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
 22	nems	nem	NOUN	_	_	13	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Plur
 23	euh	euh	INTJ	_	_	25	discourse:filler	_	_
@@ -489,10 +489,10 @@
 38	entre	entre	ADP	_	_	41	mod	_	_
 39	guillemets	guillemet	NOUN	_	_	38	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur
 40	c'	ce	PRON	_	PronType=Dem	41	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-41	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	comp	_	_
+41	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	reparandum	_	_
 42	euh	euh	INTJ	_	_	44	discourse:filler	_	_
 43	c'	ce	PRON	_	PronType=Dem	44	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-44	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	repair	_	_
+44	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	comp	_	_
 45	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	44	comp:aux@pass	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 46	avec	avec	ADP	_	_	45	comp:obl	_	_
 47	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -645,9 +645,9 @@
 7	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	Reported=Yes
 8	antillaise	antillais	ADJ	_	Gender=Fem	7	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing
 9	plus	plus	ADV	_	_	10	mod	_	_
-10	préci~	préci~	X	_	ExtPos=ADV	13	mod	_	_
+10	préci~	préci~	X	_	ExtPos=ADV	12	reparandum	_	_
 11	plus	plus	ADV	_	_	12	mod	_	_
-12	précisément	précisément	ADV	_	_	10	repair	_	_
+12	précisément	précisément	ADV	_	_	13	mod	_	_
 13	de	de	ADP	_	_	8	mod	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 15	Guadeloupe	Guadeloupe	PROPN	_	_	13	comp	_	Gender[lex]=Unknown|SpaceAfter=No
@@ -774,15 +774,15 @@
 9	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	sœur	sœur	NOUN	_	_	9	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-12	qui	qui	PRON	_	PronType=Rel	15	subj	_	_
+12	qui	qui	PRON	_	PronType=Rel	14	reparandum	_	_
 13	euh	euh	INTJ	_	_	14	discourse:filler	_	_
-14	qui	qui	PRON	_	PronType=Rel	12	repair	_	_
-15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
+14	qui	qui	PRON	_	PronType=Rel	15	subj	_	_
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	reparandum	_	_
 16	plus	plus	ADV	_	_	17	mod	_	_
 17	claire	clair	ADJ	_	_	15	comp:pred	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 18	que	que	ADV	_	_	16	mod	_	Scrap=Yes
 19	qui	qui	PRON	_	PronType=Rel	20	subj	_	_
-20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	repair	_	_
+20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
 21	plus	plus	ADV	_	_	22	mod	_	_
 22	claire	clair	ADJ	_	_	20	comp:pred	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 23	que	que	SCONJ	_	_	22	mod	_	_

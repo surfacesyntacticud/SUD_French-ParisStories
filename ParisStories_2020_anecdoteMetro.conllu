@@ -88,8 +88,8 @@
 12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	hésité	hésiter	VERB	_	VerbForm=Part|Voice=Act	12	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 14	entre	entre	ADP	_	_	13	comp:obl	_	_
-15	aller	aller	VERB	_	VerbForm=Inf	14	comp	_	Subject=SubjRaising
-16	aller	aller	VERB	_	VerbForm=Inf	15	repair	_	Subject=SubjRaising
+15	aller	aller	VERB	_	VerbForm=Inf	16	reparandum	_	Subject=SubjRaising
+16	aller	aller	VERB	_	VerbForm=Inf	14	comp	_	Subject=SubjRaising
 17	à	à	ADP	_	_	16	comp:obl	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 19	fac	fac	NOUN	_	_	17	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -178,9 +178,9 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 3	bus	bus	NOUN	_	_	5	dislocated:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-5	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
+5	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	7	reparandum	_	Person[ctxt]=1
 6	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-7	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	repair	_	Person[ctxt]=1
+7	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
 8	pile	pile	NOUN	_	ExtPos=ADV	7	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 9	poil	poil	NOUN	_	_	8	unk	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 10	pour	pour	ADP	_	_	7	mod	_	_
@@ -194,7 +194,7 @@
 18	contente	content	ADJ	_	Gender=Fem	7	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 19	et	et	CCONJ	_	_	20	cc	_	InIdiom=Yes
 20	tout	tout	ADV	_	ExtPos=ADV	18	conj:coord	_	Idiom=Yes|SpaceAfter=No
-21	.	.	PUNCT	_	_	5	punct	_	_
+21	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_anecdoteMetro_12
 # text = et je vois quoi, je vois qu'en fait le bus, il est blindé, blindé, blindé, blindé, blindé.
@@ -334,8 +334,8 @@
 7	euh	euh	INTJ	_	_	9	discourse:filler	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	à	à	ADP	_	_	5	comp:obl	_	_
-10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-11	deux	deux	NUM	_	ExtPos=DET	10	repair	_	Number[lex]=Plur
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison
+11	deux	deux	NUM	_	ExtPos=DET	12	det	_	Number[lex]=Plur
 12	stations	station	NOUN	_	_	9	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur
 13	après	après	ADV	_	_	5	mod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
@@ -402,15 +402,15 @@
 8	moi	moi	PRON	_	Emph=Yes|PronType=Prs	11	dislocated:subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	subj	_	Number[lex]=Sing|Person[lex]=1
-11	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	reparandum	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	subj	_	Number[lex]=Sing|Person[lex]=2
 14	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	11	discourse	_	Person[ctxt]=2
 15	genre	genre	NOUN	_	ExtPos=INTJ	14	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-18	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	repair	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	11	punct	_	_
+18	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = ParisStories_2020_anecdoteMetro_23
 # text = en fait, tu vois, je suis je commençais à descendre, j'étais à coté de la porte du bus, je voulais descendre.
@@ -421,12 +421,12 @@
 5	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	discourse	_	Person[ctxt]=2|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	Number[lex]=Sing|Person[lex]=1
-8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	reparandum	_	_
 9	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	Number[lex]=Sing|Person[lex]=1
-10	commençais	commencer	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	8	repair	_	Person[ctxt]=1
+10	commençais	commencer	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
 11	à	à	ADP	_	_	10	comp:obl	_	_
 12	descendre	descendre	VERB	_	VerbForm=Inf	11	comp	_	SpaceAfter=No|Subject=SubjRaising
-13	,	,	PUNCT	_	_	8	punct	_	_
+13	,	,	PUNCT	_	_	10	punct	_	_
 14	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 15	étais	être	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	8	conj:coord	_	Person[ctxt]=1
 16	à	à	ADP	_	_	15	comp:obl	_	_
@@ -440,7 +440,7 @@
 24	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	25	subj	_	Number[lex]=Sing|Person[lex]=1
 25	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	15	conj:coord	_	Person[ctxt]=1
 26	descendre	descendre	VERB	_	VerbForm=Inf	25	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
-27	.	.	PUNCT	_	_	8	punct	_	_
+27	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2020_anecdoteMetro_24
 # text = mais le problème c'est qu'en fait, mon pied genre, il était pas au sol encore, tu vois, j'étais encore en l'air.
@@ -652,12 +652,12 @@
 11	et	et	CCONJ	_	_	13	cc	_	_
 12	tout	tout	ADJ	_	Gender=Masc|PronType=Ind	13	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 13	ça	ça	PRON	_	PronType=Dem	9	conj:coord	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-14	,	,	PUNCT	_	_	16	punct	_	_
+14	,	,	PUNCT	_	_	19	punct	_	_
 15	qui	qui	PRON	_	PronType=Rel	16	subj	_	_
-16	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj:coord	_	SpaceAfter=No
+16	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	reparandum	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	subj	_	_
-19	disait	dire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	16	repair	_	Number[ctxt]=Sing|Person[ctxt]=3
+19	disait	dire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	6	conj:coord	_	Number[ctxt]=Sing|Person[ctxt]=3
 20	non	non	ADV	_	ExtPos=INTJ	23	discourse	_	_
 21	mais	mais	CCONJ	_	_	23	cc	_	_
 22	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	23	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Yes

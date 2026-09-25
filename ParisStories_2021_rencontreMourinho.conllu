@@ -150,11 +150,11 @@
 
 # sent_id = ParisStories_2021_rencontreMourinho_12
 # text = vraiment tous, mais vraiment, ils se sont tous arrêtés, bon, à part un, où il a fait une petite blague.
-1	vraiment	vraiment	ADV	_	_	2	mod	_	_
+1	vraiment	vraiment	ADV	_	_	5	reparandum	_	_
 2	tous	tous	PRON	_	Gender=Masc|PronType=Ind	9	mod	_	Number[lex]=Plur|Person[lex]=3|SpaceAfter=No
-3	,	,	PUNCT	_	_	5	punct	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	mais	mais	CCONJ	_	_	5	cc	_	_
-5	vraiment	vraiment	ADV	_	_	1	repair	_	SpaceAfter=No
+5	vraiment	vraiment	ADV	_	_	2	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	9	subj	_	Person[lex]=3
 8	se	soi	PRON	_	PronType=Prs|Reflex=Yes	9	comp:obj	_	Person[lex]=3
@@ -210,9 +210,9 @@
 4	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	5	comp:obj	_	Person[lex]=3|SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	arrêté	arrêter	VERB	_	VerbForm=Part	5	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-7	pour	pour	ADP	_	_	5	mod	_	_
+7	pour	pour	ADP	_	_	9	reparandum	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	unk	_	HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes
-9	pour	pour	ADP	_	_	7	repair	_	_
+9	pour	pour	ADP	_	_	5	mod	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	fans	fan	NOUN	_	_	9	comp	_	Gender[lex]=Unknown|Number[ctxt]=Plur
 12	du	du	ADP	_	_	11	udep	_	_
@@ -294,19 +294,19 @@
 14	arrive	arriver	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj:coord	_	Number[ctxt]=Sing|Person[ctxt]=3
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 16	moment	moment	NOUN	_	_	14	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-17	où	où	ADV	_	PronType=Rel	34	mod	_	_
+17	où	où	ADV	_	PronType=Rel	27	reparandum	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-19	joueur	joueur	NOUN	_	_	34	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+19	joueur	joueur	NOUN	_	_	29	reparandum	_	Gender[lex]=Masc|Number[ctxt]=Sing
 20	du	du	ADP	_	_	19	udep	_	_
 21	Portugal	Portugal	PROPN	_	_	20	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	_
 23	euh	euh	INTJ	_	_	25	discourse:filler	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
 25	Mourinho	Mourinho	PROPN	_	_	19	conj:appos	_	Gender[lex]=Unknown|SpaceAfter=No
-26	,	,	PUNCT	_	_	27	punct	_	_
-27	où	où	ADV	_	PronType=Rel	17	repair	_	_
+26	,	,	PUNCT	_	_	17	punct	_	_
+27	où	où	ADV	_	PronType=Rel	34	mod	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-29	joueur	joueur	NOUN	_	_	19	repair	_	Gender[lex]=Masc|Number[ctxt]=Sing
+29	joueur	joueur	NOUN	_	_	34	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 30	du	du	ADP	_	_	29	udep	_	_
 31	Portugal	Portugal	PROPN	_	_	30	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 32	,	,	PUNCT	_	_	34	punct	_	_
@@ -318,9 +318,9 @@
 
 # sent_id = ParisStories_2021_rencontreMourinho_20
 # text = et euh et donc ma mère, comme, bah, on est portugais et tout, elle commence à lui parler portugais.
-1	et	et	CCONJ	_	_	19	cc	_	_
+1	et	et	CCONJ	_	_	3	reparandum	_	_
 2	euh	euh	INTJ	_	_	1	discourse:filler	_	_
-3	et	et	CCONJ	_	_	1	repair	_	_
+3	et	et	CCONJ	_	_	19	cc	_	_
 4	donc	donc	ADV	_	_	3	discourse	_	_
 5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 6	mère	mère	NOUN	_	_	19	dislocated:subj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -704,15 +704,15 @@
 58	mode	mode	NOUN	_	_	57	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 59	bah	bah	INTJ	_	_	61	discourse	_	_
 60	c'	ce	PRON	_	PronType=Dem	61	subj@expl	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-61	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	comp:obj	_	Reported=Yes
+61	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	66	reparandum	_	Reported=Yes
 62	quand	quand	ADV	_	_	64	mod	_	_
 63	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	64	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 64	tour	tour	NOUN	_	_	61	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 65	c'	ce	PRON	_	PronType=Dem	66	subj@expl	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-66	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	repair	_	_
+66	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	comp:obj	_	_
 67	quand	quand	ADV	_	_	69	mod	_	_
 68	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	69	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 69	tour	tour	NOUN	_	_	66	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 70	etc	etc	ADV	_	_	69	conj:coord	_	SpaceAfter=No|wordform=et
-71	.	.	PUNCT	_	_	61	punct	_	_
+71	.	.	PUNCT	_	_	66	punct	_	_
 

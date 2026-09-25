@@ -316,11 +316,11 @@
 16	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	18	comp@expl	_	Person[lex]=3|SpaceAfter=No
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 18	échoué	échouer	VERB	_	VerbForm=Part	17	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-19	sur	sur	ADP	_	_	18	comp:obl	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	23	punct	_	_
+19	sur	sur	ADP	_	_	23	reparandum	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
 21	euh	euh	INTJ	_	_	23	discourse:filler	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
-23	sur	sur	ADP	_	_	19	repair	_	SpaceAfter=No
+23	sur	sur	ADP	_	_	18	comp:obl	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	28	punct	_	_
 25	euh	euh	INTJ	_	_	28	discourse:filler	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
@@ -556,12 +556,12 @@
 # text = il y avait, euh, je crois que c'était en début d'après-midi.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	subj@expl	_	Person[lex]=3
 2	y	y	PRON	_	PronType=Prs	3	comp@expl	_	Person[lex]=3
-3	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
-4	,	,	PUNCT	_	_	8	punct	_	_
+3	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	8	reparandum	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
 5	euh	euh	INTJ	_	_	8	discourse:filler	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	Number[lex]=Sing|Person[lex]=1
-8	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	repair	_	Person[ctxt]=1
+8	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
 9	que	que	SCONJ	_	_	8	comp:obj	_	_
 10	c'	ce	PRON	_	PronType=Dem	11	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	comp	_	_
@@ -569,7 +569,7 @@
 13	début	début	NOUN	_	_	12	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 14	d'	de	ADP	_	_	13	mod	_	SpaceAfter=No
 15	après-midi	après-midi	NOUN	_	_	14	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
-16	.	.	PUNCT	_	_	3	punct	_	_
+16	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2020_descenteCanoe_34
 # text = et, euh, en fait, tu vois, il y avait plein de rapides.
@@ -647,8 +647,8 @@
 9	carrément	carrément	ADV	_	_	8	mod	_	_
 10	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	Tense[denom]=Past
 11	éjecter	éjecter	VERB	_	VerbForm=Inf	10	comp:aux@caus	_	Subject=SubjRaising
-12	du	du	ADP	_	_	11	udep	_	_
-13	du	du	ADP	_	_	12	repair	_	_
+12	du	du	ADP	_	_	13	reparandum	_	_
+13	du	du	ADP	_	_	11	udep	_	_
 14	canoë	canoë	NOUN	_	_	13	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -658,18 +658,18 @@
 2	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 3	père	père	NOUN	_	_	5	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	5	comp	_	Person[lex]=3|Scrap=Yes|SpaceAfter=No
-5	était	être	AUX	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	10	punct	_	_
+5	était	être	AUX	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	reparandum	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
 7	euh	euh	INTJ	_	_	10	discourse:filler	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	10	subj	_	Person[lex]=3
-10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	repair	_	_
+10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	vraiment	vraiment	ADV	_	_	12	mod	_	_
 12	loin	loin	ADV	_	_	10	comp:pred	_	_
 13	de	de	ADP	_	_	12	mod	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 15	barque	barque	NOUN	_	_	13	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-16	.	.	PUNCT	_	_	5	punct	_	_
+16	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2020_descenteCanoe_39
 # text = et à chaque fois, pour essayer de rejoindre ma mère, il devait, euh, entre guillemets, euh, marcher sur les cailloux.
@@ -772,8 +772,8 @@
 1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	échangé	échanger	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-4	de	de	ADP	_	_	3	comp:obl	_	_
-5	de	de	ADP	_	_	4	repair	_	_
+4	de	de	ADP	_	_	5	reparandum	_	_
+5	de	de	ADP	_	_	3	comp:obl	_	_
 6	binôme	binôme	NOUN	_	_	5	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	Number[lex]=Sing|Person[lex]=1

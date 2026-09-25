@@ -14,11 +14,11 @@
 12	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	13	subj	_	Person[lex]=3
 13	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	comp	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	15	det	_	InIdiom=Yes
-15	peu	peu	NOUN	_	ExtPos=ADV	20	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
+15	peu	peu	NOUN	_	ExtPos=ADV	19	reparandum	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 16	euh	euh	INTJ	_	_	18	discourse:filler	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	InIdiom=Yes
-19	peu	peu	NOUN	_	ExtPos=ADV	15	repair	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
+19	peu	peu	NOUN	_	ExtPos=ADV	20	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 20	choqués	choquer	VERB	_	VerbForm=Part|Voice=Pass	13	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 21	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	22	subj	_	Number[lex]=Sing|Person[lex]=1
 22	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	13	discourse	_	Person[ctxt]=1|SpaceAfter=No
@@ -39,8 +39,8 @@
 
 # sent_id = ParisStories_2019_voyageEcosse_3
 # text = mais mais je pense que c'est plutôt par rapport aux a prioris qu'il y a sur l'Ecosse en elle-même.
-1	mais	mais	CCONJ	_	_	4	cc	_	_
-2	mais	mais	CCONJ	_	_	1	repair	_	_
+1	mais	mais	CCONJ	_	_	2	reparandum	_	_
+2	mais	mais	CCONJ	_	_	4	cc	_	_
 3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=1
 4	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
 5	que	que	SCONJ	_	_	4	comp:obj	_	_
@@ -213,10 +213,10 @@
 10	ça	ça	PRON	_	PronType=Dem	9	comp:obj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 11	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 12	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	comp	_	_
-13	vraiment	vraiment	ADV	_	_	17	mod	_	_
+13	vraiment	vraiment	ADV	_	_	16	reparandum	_	_
 14	euh	euh	INTJ	_	_	16	discourse:filler	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	vraiment	vraiment	ADV	_	_	13	repair	_	_
+16	vraiment	vraiment	ADV	_	_	17	mod	_	_
 17	contente	content	ADJ	_	Gender=Fem	12	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -230,8 +230,8 @@
 6	ça	ça	PRON	_	PronType=Dem	8	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 7	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	8	comp:obl	_	Number[lex]=Sing|Person[lex]=1
 8	permettait	permettre	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	1	comp:obj	_	Number[ctxt]=Sing|Person[ctxt]=3
-9	de	de	ADP	_	_	8	comp:obj	_	Scrap=Yes
-10	d'	de	ADP	_	_	9	repair	_	SpaceAfter=No
+9	de	de	ADP	_	_	10	reparandum	_	Scrap=Yes
+10	d'	de	ADP	_	_	8	comp:obj	_	SpaceAfter=No
 11	aller	aller	VERB	_	VerbForm=Inf	10	comp	_	Subject=OblRaising
 12	dans	dans	ADP	_	_	11	comp:obl	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -256,8 +256,8 @@
 7	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	8	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	décidé	décider	VERB	_	VerbForm=Part|Voice=Act	8	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-10	de	de	ADP	_	_	9	comp:obl	_	_
-11	de	de	ADP	_	_	10	repair	_	_
+10	de	de	ADP	_	_	11	reparandum	_	_
+11	de	de	ADP	_	_	9	comp:obl	_	_
 12	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	13	comp:obj	_	Person[lex]=3|SpaceAfter=No
 13	inscrire	inscrire	VERB	_	VerbForm=Inf	11	comp	_	SpaceAfter=No|Subject=SubjRaising
 14	.	.	PUNCT	_	_	8	punct	_	_
@@ -293,8 +293,8 @@
 4	pour	pour	ADP	_	_	3	mod	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 6	raisons	raison	NOUN	_	_	4	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur
-7	de	de	ADP	_	_	6	udep	_	_
-8	de	de	ADP	_	_	7	repair	_	_
+7	de	de	ADP	_	_	8	reparandum	_	_
+8	de	de	ADP	_	_	6	udep	_	_
 9	budget	budget	NOUN	_	_	8	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -345,9 +345,9 @@
 19	fatigue	fatigue	NOUN	_	_	17	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 20	quand	quand	SCONJ	_	ExtPos=ADV	17	mod	_	Idiom=Yes
 21	même	même	ADV	_	_	20	unk	_	InIdiom=Yes|SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	_
-23	que	que	SCONJ	_	_	17	mod	_	_
-24	que	que	SCONJ	_	_	23	repair	_	_
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	que	que	SCONJ	_	_	24	reparandum	_	_
+24	que	que	SCONJ	_	_	17	mod	_	_
 25	si	si	SCONJ	_	_	24	comp	_	_
 26	c'	ce	PRON	_	PronType=Dem	27	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 27	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	comp	_	_
@@ -448,8 +448,8 @@
 8	permis	permettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 9	de	de	ADP	_	_	8	comp:obl	_	_
 10	comprendre	comprendre	VERB	_	VerbForm=Inf	9	comp	_	Subject=OblRaising
-11	que	que	SCONJ	_	_	10	comp:obj	_	_
-12	que	que	SCONJ	_	_	11	repair	_	_
+11	que	que	SCONJ	_	_	12	reparandum	_	_
+12	que	que	SCONJ	_	_	10	comp:obj	_	_
 13	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	subj	_	Number[lex]=Sing|Person[lex]=1
 14	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	12	comp	_	Person[ctxt]=1
 15	vivre	vivre	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
@@ -486,9 +486,9 @@
 2	c'	ce	PRON	_	PronType=Dem	3	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	vraiment	vraiment	ADV	_	_	3	mod	_	_
-5	ce	ce	PRON	_	PronType=Dem	3	comp:pred	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+5	ce	ce	PRON	_	PronType=Dem	7	reparandum	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 6	qui	qui	PRON	_	PronType=Rel	5	mod	_	_
-7	ce	ce	PRON	_	PronType=Dem	5	repair	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+7	ce	ce	PRON	_	PronType=Dem	3	comp:pred	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 8	qui	qui	PRON	_	PronType=Rel	9	subj	_	_
 9	crée	créer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	Number[ctxt]=Sing|Person[ctxt]=3
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -563,8 +563,8 @@
 9	ville	ville	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 10	euh	euh	INTJ	_	_	11	discourse:filler	_	_
 11	festive	festif	ADJ	_	Gender=Fem	9	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-12	et	et	CCONJ	_	_	14	cc	_	_
-13	et	et	CCONJ	_	_	12	repair	_	_
+12	et	et	CCONJ	_	_	13	reparandum	_	_
+13	et	et	CCONJ	_	_	14	cc	_	_
 14	magique	magique	ADJ	_	_	11	conj:coord	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -604,8 +604,8 @@
 2	c'	ce	PRON	_	PronType=Dem	3	subj@expl	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	vrai	vrai	ADJ	_	_	3	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-5	q~	q~	X	_	_	22	mod	_	_
-6	quand	quand	SCONJ	_	_	5	repair	_	_
+5	q~	q~	X	_	_	6	reparandum	_	_
+6	quand	quand	SCONJ	_	_	22	mod	_	_
 7	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	8	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 8	habite	habiter	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	comp	_	Number[ctxt]=Sing|Person[ctxt]=3
 9	à	à	ADP	_	_	8	mod	_	_
@@ -619,8 +619,8 @@
 17	bâtiments	bâtiment	NOUN	_	_	16	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur
 18	modernes	moderne	ADJ	_	_	17	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
-20	ça	ça	PRON	_	PronType=Dem|Shared=No	22	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-21	ça	ça	PRON	_	PronType=Dem	20	repair	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+20	ça	ça	PRON	_	PronType=Dem|Shared=No	21	reparandum	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+21	ça	ça	PRON	_	PronType=Dem	22	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 22	choque	choquer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	mod	_	Number[ctxt]=Sing|Person[ctxt]=3
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	InIdiom=Yes
 24	peu	peu	NOUN	_	ExtPos=ADV	22	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
@@ -680,7 +680,7 @@
 2	exemple	exemple	NOUN	_	_	1	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	devant	devant	ADP	_	_	27	mod	_	_
+5	devant	devant	ADP	_	_	21	reparandum	_	_
 6	chaque	chaque	DET	_	PronType=Ind	7	det	_	Number[lex]=Sing
 7	vitrine	vitrine	NOUN	_	_	5	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
@@ -688,18 +688,18 @@
 10	quand	quand	SCONJ	_	_	21	mod	_	_
 11	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	12	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 12	allait	aller	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	10	comp	_	Number[ctxt]=Sing|Person[ctxt]=3
-13	dans	dans	ADP	_	_	12	comp:obl	_	_
-14	dans	dans	ADP	_	_	13	repair	_	_
+13	dans	dans	ADP	_	_	14	reparandum	_	_
+14	dans	dans	ADP	_	_	12	comp:obl	_	_
 15	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
 16	rues	rue	NOUN	_	_	14	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	InIdiom=Yes
 18	peu	peu	NOUN	_	ExtPos=ADV	19	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 19	commerçantes	commerçant	ADJ	_	Gender=Fem	16	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
 20	,	,	PUNCT	_	_	10	punct	_	_
-21	devant	devant	ADP	_	_	5	repair	_	_
+21	devant	devant	ADP	_	_	27	mod	_	_
 22	chaque	chaque	DET	_	PronType=Ind	23	det	_	Number[lex]=Sing
 23	vitrine	vitrine	NOUN	_	_	21	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-24	,	,	PUNCT	_	_	5	punct	_	_
+24	,	,	PUNCT	_	_	21	punct	_	_
 25	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	27	subj@expl	_	Person[lex]=3
 26	y	y	PRON	_	PronType=Prs	27	comp@expl	_	Person[lex]=3
 27	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
@@ -800,16 +800,16 @@
 1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Coconstruct=mod::ParisStories_2019_voyageEcosse_32::3|Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-4	pers~	pers~	X	_	ExtPos=NOUN	15	dislocated:subj	_	_
+4	pers~	pers~	X	_	ExtPos=NOUN	6	reparandum	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-6	personne	personne	NOUN	_	_	4	repair	_	Gender[lex]=Fem|Number[ctxt]=Sing
+6	personne	personne	NOUN	_	_	15	dislocated:subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 7	chez	chez	ADP	_	_	12	mod	_	_
 8	qui	qui	PRON	_	PronType=Rel	7	comp	_	_
 9	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	10	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	mod@relcl	_	_
 11	euh	euh	INTJ	_	_	12	discourse:filler	_	_
 12	hébergé	héberger	VERB	_	VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
-13	,	,	PUNCT	_	_	4	punct	_	_
+13	,	,	PUNCT	_	_	6	punct	_	_
 14	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	15	subj	_	Person[lex]=3
 15	habitait	habiter	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	1	comp:obj	_	Number[ctxt]=Sing|Person[ctxt]=3
 16	dans	dans	ADP	_	_	15	mod	_	_

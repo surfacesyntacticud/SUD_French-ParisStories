@@ -240,12 +240,12 @@
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	euh	euh	INTJ	_	_	16	discourse:filler	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	en	en	ADP	_	ExtPos=ADV	16	discourse	_	Idiom=Yes
+9	en	en	ADP	_	ExtPos=ADV	12	reparandum	_	Idiom=Yes
 10	fait	fait	NOUN	_	_	9	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
-11	,	,	PUNCT	_	_	12	punct	_	_
-12	en	en	ADP	_	ExtPos=ADV	9	repair	_	Idiom=Yes
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	en	en	ADP	_	ExtPos=ADV	16	discourse	_	Idiom=Yes
 13	fait	fait	NOUN	_	_	12	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
-14	,	,	PUNCT	_	_	9	punct	_	_
+14	,	,	PUNCT	_	_	12	punct	_	_
 15	ni	ni	CCONJ	_	_	16	cc	_	_
 16	moi	moi	PRON	_	Emph=Yes|PronType=Prs	6	comp:pred	_	Number[lex]=Sing|Person[lex]=1
 17	ni	ni	CCONJ	_	_	19	cc	_	_
@@ -284,13 +284,13 @@
 
 # sent_id = ParisStories_2019_prepaScientifique_12
 # text = personne, euh, enfin, on nous l'avait pas dit.
-1	personne	personne	NOUN	_	_	10	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-2	,	,	PUNCT	_	_	7	punct	_	_
+1	personne	personne	NOUN	_	_	7	reparandum	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
 3	euh	euh	INTJ	_	_	7	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	enfin	enfin	ADV	_	ExtPos=INTJ	7	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	on	on	PRON	_	PronType=Ind	1	repair	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+7	on	on	PRON	_	PronType=Ind	10	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 8	nous	nous	PRON	_	Case=Dat|Emph=No|PronType=Prs	12	comp:obl	_	Number[lex]=Plur|Person[lex]=1
 9	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	12	comp:obj	_	Person[lex]=3|SpaceAfter=No
 10	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -377,15 +377,15 @@
 # sent_id = ParisStories_2019_prepaScientifique_16
 # text = c'est, voilà, tu fais que bosser.
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	7	punct	_	_
+2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	voilà	voilà	VERB	_	ExtPos=INTJ	7	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=2
-7	fais	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	2	repair	_	Person[ctxt]=2
+7	fais	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=2
 8	que	que	ADV	_	Polarity=Neg	9	mod	_	_
 9	bosser	bosser	VERB	_	VerbForm=Inf	7	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
-10	.	.	PUNCT	_	_	2	punct	_	_
+10	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_17
 # text = tu as pas de vie sociale.
@@ -422,14 +422,14 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	au	au	ADP	_	_	14	mod	_	_
+5	au	au	ADP	_	_	11	reparandum	_	_
 6	moment	moment	NOUN	_	_	5	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-7	,	,	PUNCT	_	_	11	punct	_	_
+7	,	,	PUNCT	_	_	5	punct	_	_
 8	enfin	enfin	ADV	_	ExtPos=INTJ	11	discourse	_	_
 9	en	en	ADP	_	_	11	discourse	_	_
 10	gros	gros	ADJ	_	Gender=Masc	9	comp	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing
-11	après	après	ADV	_	_	5	repair	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	5	punct	_	_
+11	après	après	ADV	_	_	14	mod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
 13	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 14	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	passé	passer	VERB	_	VerbForm=Part|Voice=Act	14	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
@@ -552,13 +552,13 @@
 4	moment	moment	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	InIdiom=Yes
 6	peu	peu	NOUN	_	ExtPos=ADV	7	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
-7	de	de	ADP	_	_	4	udep	_	SpaceAfter=No
+7	de	de	ADP	_	_	13	reparandum	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	Number[lex]=Sing|Person[lex]=1
 10	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	7	discourse	_	Person[ctxt]=1
 11	pas	pas	ADV	_	Polarity=Neg	10	mod	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	_
-13	de	de	ADP	_	_	7	repair	_	_
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	de	de	ADP	_	_	4	udep	_	_
 14	panique	panique	NOUN	_	_	13	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing
 15	quoi	quoi	INTJ	_	_	4	discourse	_	_
 16	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	SpaceAfter=No
@@ -598,11 +598,11 @@
 30	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj:coord	_	_
 31	pas	pas	ADV	_	Polarity=Neg	30	mod	_	_
 32	envie	envie	NOUN	_	_	30	comp:obj@lvc	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-33	de	de	ADP	_	_	32	comp:obl	_	SpaceAfter=No
-34	,	,	PUNCT	_	_	37	punct	_	_
+33	de	de	ADP	_	_	37	reparandum	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
 35	euh	euh	INTJ	_	_	37	discourse:filler	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	35	punct	_	_
-37	d'	de	ADP	_	_	33	repair	_	SpaceAfter=No
+37	d'	de	ADP	_	_	32	comp:obl	_	SpaceAfter=No
 38	abandonner	abandonner	VERB	_	VerbForm=Inf	37	comp	_	Subject=SubjRaising
 39	quoi	quoi	INTJ	_	_	41	discourse	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	39	punct	_	_
@@ -761,9 +761,9 @@
 16	donc	donc	ADV	_	_	24	cc	_	_
 17	bref	bref	INTJ	_	_	16	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	16	punct	_	_
-19	tout	tout	ADJ	_	Gender=Masc	23	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
-20	,	,	PUNCT	_	_	21	punct	_	_
-21	tout	tout	ADJ	_	Gender=Masc	19	repair	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+19	tout	tout	ADJ	_	Gender=Masc	21	reparandum	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	tout	tout	ADJ	_	Gender=Masc	23	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 23	monde	monde	NOUN	_	_	24	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 24	déteste	détester	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj:coord	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
@@ -788,9 +788,9 @@
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 17	retour	retour	NOUN	_	_	8	conj:reform	_	Gender[lex]=Masc|Number[ctxt]=Sing
-18	des	de	ADP	_	_	17	udep	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	20	punct	_	_
-20	de	de	ADP	_	_	18	repair	_	_
+18	des	de	ADP	_	_	20	reparandum	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	de	de	ADP	_	_	17	udep	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 22	vie	vie	NOUN	_	_	20	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing
 23	sociale	social	ADJ	_	_	22	mod	_	Gender[ctxt]=Fem|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Number[ctxt]=Sing|SpaceAfter=No
@@ -824,9 +824,9 @@
 2	fais	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	stage	stage	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-5	en	en	ADP	_	_	4	udep	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	_
-7	en	en	ADP	_	_	5	repair	_	_
+5	en	en	ADP	_	_	7	reparandum	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	en	en	ADP	_	_	4	udep	_	_
 8	océanographie	océanographie	NOUN	_	_	7	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	enfin	enfin	ADV	_	ExtPos=INTJ	11	discourse	_	_
@@ -858,9 +858,9 @@
 11	vocation	vocation	NOUN	_	_	8	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	18	punct	_	_
 13	enfin	enfin	ADV	_	ExtPos=INTJ	18	discourse	_	_
-14	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	_
-16	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	repair	_	Number[lex]=Sing|Person[lex]=1
+14	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	16	reparandum	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	subj	_	Number[lex]=Sing|Person[lex]=1
 17	me	moi	PRON	_	Emph=No|PronType=Prs	18	comp@expl	_	Number[lex]=Sing|Person[lex]=1
 18	découvre	découvrir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	conj:reform	_	Person[ctxt]=1
 19	pas	pas	ADV	_	Polarity=Neg	18	mod	_	_
@@ -877,11 +877,11 @@
 
 # sent_id = ParisStories_2019_prepaScientifique_36
 # text = et, euh, et donc ensuite, on commence la deuxième année, très bien, euh, où là on commence à se spécialiser en hydrographie océanographie.
-1	et	et	CCONJ	_	_	10	cc	_	SpaceAfter=No
+1	et	et	CCONJ	_	_	5	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	et	et	CCONJ	_	_	1	repair	_	_
+5	et	et	CCONJ	_	_	10	cc	_	_
 6	donc	donc	ADV	_	_	10	mod	_	_
 7	ensuite	ensuite	ADV	_	_	10	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
@@ -911,9 +911,9 @@
 # sent_id = ParisStories_2019_prepaScientifique_37
 # text = et là, là ça m'a pas plu.
 1	et	et	CCONJ	_	_	7	cc	_	_
-2	là	là	ADV	_	_	7	mod	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	_
-4	là	là	ADV	_	_	2	repair	_	_
+2	là	là	ADV	_	_	4	reparandum	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	là	là	ADV	_	_	7	mod	_	_
 5	ça	ça	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 6	m'	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	9	comp:obl	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -926,10 +926,10 @@
 1	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	ce	PRON	_	PronType=Dem	4	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
 6	c'	ce	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	repair	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	reparandum	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
 9	peu	peu	NOUN	_	ExtPos=ADV	10	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing|Scrap=Yes
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	comp:pred	_	HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes
@@ -937,7 +937,7 @@
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	subj	_	Number[lex]=Sing|Person[lex]=1
 14	m'	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	16	comp:obl	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-15	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	repair	_	_
+15	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 16	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	15	comp:aux@pass	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 17	que	que	SCONJ	_	_	16	comp:obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	24	punct	_	_
@@ -962,9 +962,9 @@
 37	super	super	ADV	_	_	38	mod	_	_
 38	intéressant	intéressant	ADJ	_	Gender=Masc	36	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 39	,	,	PUNCT	_	_	50	punct	_	_
-40	et	et	CCONJ	_	_	50	cc	_	SpaceAfter=No
-41	,	,	PUNCT	_	_	42	punct	_	_
-42	et	et	CCONJ	_	_	40	repair	_	_
+40	et	et	CCONJ	_	_	42	reparandum	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	et	et	CCONJ	_	_	50	cc	_	_
 43	en	en	ADP	_	ExtPos=ADV	50	discourse	_	Idiom=Yes
 44	fait	fait	NOUN	_	_	43	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 45	,	,	PUNCT	_	_	43	punct	_	_
@@ -975,7 +975,7 @@
 50	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	conj:coord	_	_
 51	pas	pas	ADV	_	Polarity=Neg	52	mod	_	_
 52	plu	plaire	VERB	_	VerbForm=Part|Voice=Act	50	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
-53	.	.	PUNCT	_	_	4	punct	_	_
+53	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_39
 # text = ni la théorie, ni les projets, euh, sur ordis machin, euh, ni, euh, les, les projets en mer en fait.
@@ -999,9 +999,9 @@
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	euh	euh	INTJ	_	_	17	discourse:filler	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	17	punct	_	_
-21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	_
-23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
+21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 24	projets	projet	NOUN	_	_	7	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Plur
 25	en	en	ADP	_	_	24	udep	_	_
 26	mer	mer	NOUN	_	_	25	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing

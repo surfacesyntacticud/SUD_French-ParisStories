@@ -87,11 +87,11 @@
 # sent_id = ParisStories_2019_vacancesEte_5
 # text = j'ai fait enfin j'ai vu mes amies, j'ai fait des pique-niques, je suis allée à la Japan Expo, euh j'ai je suis allée dans un spa qu'on m'avait offert enfin bref voilà, très sympa.
 1	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	reparandum	_	_
 3	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 4	enfin	enfin	ADV	_	ExtPos=INTJ	6	discourse	_	_
 5	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	repair	_	_
+6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	vu	voir	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 8	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 9	amies	ami	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
@@ -109,12 +109,12 @@
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 22	Japan	Japan	PROPN	_	_	23	mod	_	Gender[lex]=Unknown
 23	Expo	Expo	PROPN	_	_	20	comp	_	Gender[lex]=Unknown|SpaceAfter=No
-24	,	,	PUNCT	_	_	27	punct	_	_
+24	,	,	PUNCT	_	_	29	punct	_	_
 25	euh	euh	INTJ	_	_	27	discourse:filler	_	_
 26	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	27	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-27	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	conj:coord	_	_
+27	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	reparandum	_	_
 28	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	29	subj	_	Number[lex]=Sing|Person[lex]=1
-29	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	repair	_	_
+29	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	conj:coord	_	_
 30	allée	aller	VERB	_	VerbForm=Part	29	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 31	dans	dans	ADP	_	_	30	comp:obl	_	_
 32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
@@ -130,7 +130,7 @@
 42	,	,	PUNCT	_	_	44	punct	_	_
 43	très	très	ADV	_	_	44	mod	_	_
 44	sympa	sympa	ADJ	_	ExtPos=INTJ	2	discourse	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
-45	.	.	PUNCT	_	_	2	punct	_	_
+45	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_6
 # text = euh et ensuite le huit juillet je suis, je suis partie euh euh dans les Charentes Maritimes juste pendant une petite semaine avec mes parents.
@@ -141,10 +141,10 @@
 5	huit	huit	NUM	_	ExtPos=PROPN	8	mod	_	Number[lex]=Sing
 6	juillet	juillet	NOUN	_	_	5	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	Number[lex]=Sing|Person[lex]=1
-8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	11	punct	_	_
+8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	reparandum	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
 10	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	subj	_	Number[lex]=Sing|Person[lex]=1
-11	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	repair	_	_
+11	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	partie	partir	VERB	_	VerbForm=Part	11	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 13	euh	euh	INTJ	_	_	15	discourse:filler	_	_
 14	euh	euh	INTJ	_	_	15	discourse:filler	_	_
@@ -160,7 +160,7 @@
 24	avec	avec	ADP	_	_	12	mod	_	_
 25	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 26	parents	parent	NOUN	_	_	24	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
-27	.	.	PUNCT	_	_	8	punct	_	_
+27	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_7
 # text = euh donc voilà c'était, c'était sympa.
@@ -168,12 +168,12 @@
 2	donc	donc	ADV	_	_	5	discourse	_	_
 3	voilà	voilà	VERB	_	ExtPos=INTJ	5	discourse	_	_
 4	c'	ce	PRON	_	PronType=Dem	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-5	était	être	AUX	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
-6	,	,	PUNCT	_	_	8	punct	_	_
+5	était	être	AUX	_	Mood=Ind|Tense=Imp|VerbForm=Fin	8	reparandum	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
 7	c'	ce	PRON	_	PronType=Dem	8	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	repair	_	_
+8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	sympa	sympa	ADJ	_	_	8	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
-10	.	.	PUNCT	_	_	5	punct	_	_
+10	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_8
 # text = euh j'ai visité l'Île de Ré, voilà, je suis allée à la plage.
@@ -242,9 +242,9 @@
 
 # sent_id = ParisStories_2019_vacancesEte_11
 # text = et euh et pendant le mois de juillet il avait une exposition euh au château de Javarzay.
-1	et	et	CCONJ	_	_	10	cc	_	_
+1	et	et	CCONJ	_	_	3	reparandum	_	_
 2	euh	euh	INTJ	_	_	1	discourse:filler	_	_
-3	et	et	CCONJ	_	_	1	repair	_	_
+3	et	et	CCONJ	_	_	10	cc	_	_
 4	pendant	pendant	ADP	_	_	10	mod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 6	mois	mois	NOUN	_	_	4	comp	_	cdet=Ambiguous|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -372,8 +372,8 @@
 4	donc	donc	ADV	_	_	3	cc	_	_
 5	au	au	ADP	_	_	11	mod	_	_
 6	retour	retour	NOUN	_	_	5	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
-7	de	de	ADP	_	_	6	udep	_	_
-8	à	à	ADP	_	_	7	repair	_	_
+7	de	de	ADP	_	_	8	reparandum	_	_
+8	à	à	ADP	_	_	6	udep	_	_
 9	Paris	Paris	PROPN	_	_	8	comp	_	Gender[lex]=Unknown
 10	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	subj	_	Number[lex]=Sing|Person[lex]=1
 11	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -403,14 +403,14 @@
 8	avec	avec	ADP	_	_	6	udep	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	LiaisonAfter=Yes
 10	amie	ami	NOUN	_	_	8	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
-11	,	,	PUNCT	_	_	15	punct	_	_
+11	,	,	PUNCT	_	_	18	punct	_	_
 12	euh	euh	INTJ	_	_	15	discourse:filler	_	_
 13	donc	donc	ADV	_	_	15	cc	_	_
 14	c'	ce	PRON	_	PronType=Dem	15	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-15	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj:coord	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	18	punct	_	_
+15	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	reparandum	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
 17	c'	ce	PRON	_	PronType=Dem	18	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	repair	_	_
+18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj:coord	_	_
 19	génial	génial	ADJ	_	Number=Sing	18	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	c'	ce	PRON	_	PronType=Dem	22	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
@@ -498,11 +498,11 @@
 5	petit	petit	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
 6	appartement	appartement	NOUN	_	_	3	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 7	euh	euh	INTJ	_	_	8	discourse:filler	_	_
-8	en	en	ADP	_	_	6	udep	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	10	punct	_	_
-10	à	à	ADP	_	_	8	repair	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	12	punct	_	_
-12	à	à	ADP	_	_	10	repair	_	_
+8	en	en	ADP	_	_	10	reparandum	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	à	à	ADP	_	_	12	reparandum	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	à	à	ADP	_	_	6	udep	_	_
 13	dix	dix	NUM	_	ExtPos=DET	14	det	_	Number[lex]=Plur
 14	mètres	mètre	NOUN	_	_	12	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur
 15	de	de	ADP	_	_	14	udep	_	_
@@ -547,16 +547,16 @@
 # sent_id = ParisStories_2019_vacancesEte_25
 # text = c'est voilà, c'est ni bien ni nul.
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	reparandum	_	_
 3	voilà	voilà	VERB	_	ExtPos=INTJ	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	repair	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	ni	ni	CCONJ	_	_	8	cc	_	_
 8	bien	bien	ADV	_	_	6	comp:pred	_	_
 9	ni	ni	CCONJ	_	_	10	cc	_	_
 10	nul	nul	ADV	_	PronType=Neg	8	conj:coord	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	2	punct	_	_
+11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_26
 # text = euh on est allé au cinéma, on a fait euh du vélo, on est allé au lac, on retournait au casino.
@@ -612,18 +612,18 @@
 4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Sing|Person[lex]=1
 5	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	rentrée	rentrer	VERB	_	VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
-7	,	,	PUNCT	_	_	10	punct	_	_
+7	,	,	PUNCT	_	_	14	punct	_	_
 8	euh	euh	INTJ	_	_	10	discourse:filler	_	_
 9	c'	ce	PRON	_	PronType=Dem	10	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	reparandum	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	comp:pred	_	HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
-12	,	,	PUNCT	_	_	14	punct	_	_
+12	,	,	PUNCT	_	_	10	punct	_	_
 13	c'	ce	PRON	_	PronType=Dem	14	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-14	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	repair	_	_
+14	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	mod	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-16	début	début	NOUN	_	_	19	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	_
-18	début	début	NOUN	_	_	16	repair	_	Gender[lex]=Masc|Number[ctxt]=Sing
+16	début	début	NOUN	_	_	18	reparandum	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	début	début	NOUN	_	_	19	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 19	août	août	NOUN	_	_	14	comp:pred	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -650,9 +650,9 @@
 # text = donc j'suis j'étais animatrice, euh dans une colo euh d'adolescents.
 1	donc	donc	ADV	_	_	3	mod	_	_
 2	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	reparandum	_	_
 4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-5	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	repair	_	_
+5	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	animatrice	animateur	NOUN	_	_	5	comp:pred	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	euh	euh	INTJ	_	_	9	discourse:filler	_	_
@@ -662,48 +662,48 @@
 12	euh	euh	INTJ	_	_	13	discourse:filler	_	_
 13	d'	de	ADP	_	_	11	udep	_	SpaceAfter=No
 14	adolescents	adolescent	NOUN	_	_	13	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
-15	.	.	PUNCT	_	_	3	punct	_	_
+15	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_31
 # text = donc c'était une colonie c'était une colonie euh, vers Agen specialisée pour euh, enfin spécialisée non, enfin le thème c'était euh euh les best sellers de l'été, colo écrivains.
 1	donc	donc	ADV	_	_	3	mod	_	_
 2	c'	ce	PRON	_	PronType=Dem	3	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	reparandum	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	colonie	colonie	NOUN	_	_	3	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
 6	c'	ce	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	repair	_	_
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	colonie	colonie	NOUN	_	_	7	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
 10	euh	euh	INTJ	_	_	12	discourse:filler	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	vers	vers	ADP	_	_	9	udep	_	_
 13	Agen	Agen	PROPN	_	_	12	comp	_	Gender[lex]=Unknown
-14	specialisée	specialiser	ADJ	_	Gender=Fem|Tense=Past|VerbForm=Part	9	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+14	specialisée	specialiser	ADJ	_	Gender=Fem|Tense=Past|VerbForm=Part	19	reparandum	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 15	pour	pour	ADP	_	_	14	mod	_	_
 16	euh	euh	INTJ	_	_	19	discourse:filler	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	enfin	enfin	ADV	_	ExtPos=INTJ	19	discourse	_	_
-19	spécialisée	specialiser	ADJ	_	Gender=Fem|Tense=Past|VerbForm=Part	14	repair	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+19	spécialisée	specialiser	ADJ	_	Gender=Fem|Tense=Past|VerbForm=Part	26	reparandum	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 20	non	non	ADV	_	ExtPos=INTJ|Polarity=Neg	26	discourse	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	enfin	enfin	ADV	_	ExtPos=INTJ	26	discourse	_	wordform=fin
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 24	thème	thème	NOUN	_	_	26	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 25	c'	ce	PRON	_	PronType=Dem	26	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-26	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	repair	_	_
+26	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	mod	_	_
 27	euh	euh	INTJ	_	_	30	discourse:filler	_	_
 28	euh	euh	INTJ	_	_	30	discourse:filler	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-30	best	best	X	_	Foreign=Yes	26	comp:pred	_	HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Lang=en
+30	best	best	X	_	Foreign=Yes	36	reparandum	_	HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Lang=en
 31	sellers	sellers	X	_	Foreign=Yes	30	flat@foreign	_	Lang=en
 32	de	de	ADP	_	_	30	udep	_	_
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 34	été	été	NOUN	_	_	32	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
-35	,	,	PUNCT	_	_	36	punct	_	_
-36	colo	colo	NOUN	_	_	30	repair	_	Gender[lex]=Fem|Number[ctxt]=Sing
+35	,	,	PUNCT	_	_	30	punct	_	_
+36	colo	colo	NOUN	_	_	26	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
 37	écrivains	écrivain	NOUN	_	_	36	mod	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
-38	.	.	PUNCT	_	_	3	punct	_	_
+38	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_32
 # text = donc oui c'est un peu bizarre mais c'était des colos à projets.

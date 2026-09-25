@@ -34,8 +34,8 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	au	au	ADP	_	_	4	mod	_	_
 14	niveau	niveau	NOUN	_	_	13	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
-15	des	de	ADP	_	_	14	mod	_	_
-16	du	du	ADP	_	_	15	repair	_	_
+15	des	de	ADP	_	_	16	reparandum	_	_
+16	du	du	ADP	_	_	14	mod	_	_
 17	tournage	tournage	NOUN	_	_	16	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -85,8 +85,8 @@
 1	et	et	CCONJ	_	_	12	cc	_	_
 2	en	en	ADP	_	ExtPos=ADV	12	discourse	_	Idiom=Yes
 3	fait	fait	NOUN	_	_	2	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	repair	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 6	histoire	histoire	NOUN	_	_	12	dislocated:subj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 7	du	du	ADP	_	_	6	mod	_	_
 8	film	film	NOUN	_	_	7	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -117,8 +117,8 @@
 33	faisait	faire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	28	conj:coord	_	Number[ctxt]=Sing|Person[ctxt]=3
 34	peur	peur	NOUN	_	_	33	comp:obj@lvc	_	Gender[lex]=Fem|Number[ctxt]=Sing
 35	aux	au	ADP	_	_	34	comp:obl	_	Scrap=Yes
-36	dans	dans	ADP	_	_	33	mod	_	_
-37	dans	dans	ADP	_	_	36	repair	_	_
+36	dans	dans	ADP	_	_	37	reparandum	_	_
+37	dans	dans	ADP	_	_	33	mod	_	_
 38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 39	jardins	jardin	NOUN	_	_	37	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 40	.	.	PUNCT	_	_	12	punct	_	_
@@ -224,22 +224,22 @@
 # text = il y avait enfin il y avait plein de personnages euh de des de films qui apparaissaient.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	subj@expl	_	Person[lex]=3
 2	y	y	PRON	_	PronType=Prs	3	comp@expl	_	Person[lex]=3
-3	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
+3	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	7	reparandum	_	Number[ctxt]=Sing|Person[ctxt]=3
 4	enfin	enfin	ADV	_	ExtPos=INTJ	7	discourse	_	_
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	7	subj@expl	_	Person[lex]=3
 6	y	y	PRON	_	PronType=Prs	7	comp@expl	_	Person[lex]=3
-7	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	3	repair	_	Number[ctxt]=Sing|Person[ctxt]=3
+7	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 8	plein	plein	ADV	_	_	7	comp:obj	_	_
 9	de	de	ADP	_	_	8	comp:obl	_	_
 10	personnages	personnage	NOUN	_	_	9	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur
 11	euh	euh	INTJ	_	_	10	discourse:filler	_	_
-12	de	de	ADP	_	_	10	mod	_	_
-13	des	un	DET	_	Number=Plur|PronType=Art	12	repair	_	_
-14	de	de	ADP	_	_	13	repair	_	_
+12	de	de	ADP	_	_	13	reparandum	_	_
+13	des	un	DET	_	Number=Plur|PronType=Art	14	reparandum	_	_
+14	de	de	ADP	_	_	10	mod	_	_
 15	films	film	NOUN	_	_	14	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur
 16	qui	qui	PRON	_	PronType=Rel	17	subj	_	_
 17	apparaissaient	apparaître	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	15	mod@relcl	_	Number[ctxt]=Plur|SpaceAfter=No
-18	.	.	PUNCT	_	_	3	punct	_	_
+18	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_histoireHorreur_14
 # text = non.
@@ -254,11 +254,11 @@
 4	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 5	euh	euh	INTJ	_	_	4	discourse:filler	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	7	det	_	_
-7	zom~	zom~	X	_	ExtPos=NOUN	4	comp:obj	_	_
+7	zom~	zom~	X	_	ExtPos=NOUN	11	reparandum	_	_
 8	enfin	enfin	ADV	_	ExtPos=INTJ	11	discourse	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	possible	possible	ADJ	_	_	11	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-11	zombie	zombie	NOUN	_	_	7	repair	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+11	zombie	zombie	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_histoireHorreur_16
@@ -312,8 +312,8 @@
 2	du	du	ADP	_	_	7	discourse	_	_
 3	coup	coup	NOUN	_	_	2	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	euh	euh	INTJ	_	_	7	discourse:filler	_	_
-5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	7	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-6	on	on	PRON	_	PronType=Ind	5	repair	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	reparandum	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+6	on	on	PRON	_	PronType=Ind	7	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	en	en	ADP	_	ExtPos=ADJ	7	comp:pred	_	Idiom=Yes
 9	train	train	NOUN	_	_	8	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
@@ -370,8 +370,8 @@
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 13	scène	scène	NOUN	_	_	11	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 14	avec	avec	ADP	_	_	11	mod	_	_
-15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 17	phares	phare	NOUN	_	_	14	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur
 18	de	de	ADP	_	_	17	mod	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -388,12 +388,12 @@
 
 # sent_id = ParisStories_2020_histoireHorreur_24
 # text = et euh et genre mon mes cousins étaient restés à l'arrière de la voiture.
-1	et	et	CCONJ	_	_	8	cc	_	_
+1	et	et	CCONJ	_	_	3	reparandum	_	_
 2	euh	euh	INTJ	_	_	3	discourse:filler	_	_
-3	et	et	CCONJ	_	_	1	repair	_	_
+3	et	et	CCONJ	_	_	8	cc	_	_
 4	genre	genre	NOUN	_	ExtPos=INTJ	7	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
-5	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-6	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	5	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison
+6	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	cousins	cousin	NOUN	_	_	8	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 8	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	restés	rester	VERB	_	VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
@@ -497,12 +497,12 @@
 5	juste	juste	ADV	_	_	4	mod	_	_
 6	par	par	ADP	_	_	4	comp:obl	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-8	fai~	fai~	X	_	ExtPos=NOUN	6	comp	_	_
-9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
+8	fai~	fai~	X	_	ExtPos=NOUN	13	reparandum	_	_
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	ah	ah	INTJ	_	_	12	discourse	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
-13	phares	phare	NOUN	_	_	8	repair	_	Gender[lex]=Masc|Number[ctxt]=Plur
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+13	phares	phare	NOUN	_	_	6	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur
 14	rouges	rouge	ADJ	_	_	13	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 15	de	de	ADP	_	_	13	mod	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No

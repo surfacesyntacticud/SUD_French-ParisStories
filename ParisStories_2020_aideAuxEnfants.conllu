@@ -62,11 +62,11 @@
 15	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 16	euh	euh	INTJ	_	_	18	discourse:filler	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
-18	d'	de	ADP	_	_	15	comp:pred	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	20	punct	_	_
-20	d'	de	ADP	_	_	18	repair	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	22	punct	_	_
-22	d'	de	ADP	_	_	20	repair	_	SpaceAfter=No
+18	d'	de	ADP	_	_	20	reparandum	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	d'	de	ADP	_	_	22	reparandum	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	d'	de	ADP	_	_	15	comp:pred	_	SpaceAfter=No
 23	aider	aider	VERB	_	VerbForm=Inf	22	comp	_	Subject=SubjRaising
 24	à	à	ADP	_	_	23	comp:obl	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -136,19 +136,19 @@
 4	euh	euh	INTJ	_	_	20	discourse:filler	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	pendant	pendant	ADP	_	_	20	mod	_	_
-7	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	_
-9	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 10	construction	construction	NOUN	_	_	6	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	entre	entre	ADP	_	_	10	mod	_	_
 13	guillemets	guillemet	NOUN	_	_	12	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 14	,	,	PUNCT	_	_	6	punct	_	_
-15	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	20	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-16	,	,	PUNCT	_	_	19	punct	_	_
+15	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	19	reparandum	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
 17	euh	euh	INTJ	_	_	19	discourse:filler	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
-19	on	on	PRON	_	PronType=Ind	15	repair	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+19	on	on	PRON	_	PronType=Ind	20	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 21	retapé	retaper	VERB	_	VerbForm=Part|Voice=Act	20	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -202,17 +202,17 @@
 
 # sent_id = ParisStories_2020_aideAuxEnfants_10
 # text = et euh, et en plus de cela, nous avons, dans cette première partie du voyage, nous avons, euh, fait plusieurs activités, comme par exemple, créer du savon.
-1	et	et	CCONJ	_	_	11	cc	_	_
+1	et	et	CCONJ	_	_	4	reparandum	_	_
 2	euh	euh	INTJ	_	_	4	discourse:filler	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	et	et	CCONJ	_	_	1	repair	_	_
+4	et	et	CCONJ	_	_	11	cc	_	_
 5	en	en	ADP	_	_	11	mod	_	_
 6	plus	plus	ADV	_	_	5	comp	_	_
 7	de	de	ADP	_	_	6	comp:obl	_	_
 8	cela	cela	PRON	_	PronType=Dem	7	comp	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	_
 10	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	subj	_	Number[lex]=Plur|Person[lex]=1
-11	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	reparandum	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	20	punct	_	_
 13	dans	dans	ADP	_	_	20	mod	_	_
 14	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -222,7 +222,7 @@
 18	voyage	voyage	NOUN	_	_	17	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 19	,	,	PUNCT	_	_	13	punct	_	_
 20	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	21	subj	_	Number[lex]=Plur|Person[lex]=1
-21	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	repair	_	SpaceAfter=No
+21	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	_
 23	euh	euh	INTJ	_	_	25	discourse:filler	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
@@ -237,7 +237,7 @@
 33	créer	créer	VERB	_	VerbForm=Inf	29	comp	_	Subject=NoRaising
 34	du	du	ADP	_	_	33	comp:obj	_	_
 35	savon	savon	NOUN	_	_	34	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-36	.	.	PUNCT	_	_	11	punct	_	_
+36	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = ParisStories_2020_aideAuxEnfants_11
 # text = parce que la plupart du temps ils créent eux-mêmes leur savon, et euh, et le dentifrice, à base d'argile.
@@ -253,10 +253,10 @@
 10	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=No	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	savon	savon	NOUN	_	_	8	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	18	punct	_	_
-13	et	et	CCONJ	_	_	18	cc	_	_
+13	et	et	CCONJ	_	_	16	reparandum	_	_
 14	euh	euh	INTJ	_	_	16	discourse:filler	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	et	et	CCONJ	_	_	13	repair	_	_
+16	et	et	CCONJ	_	_	18	cc	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 18	dentifrice	dentifrice	NOUN	_	_	11	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
@@ -270,10 +270,10 @@
 # text = euh, et euh, et voilà, c'était très instructif.
 1	euh	euh	INTJ	_	_	10	discourse:filler	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	et	et	CCONJ	_	_	10	cc	_	_
+3	et	et	CCONJ	_	_	6	reparandum	_	_
 4	euh	euh	INTJ	_	_	3	discourse:filler	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	et	et	CCONJ	_	_	3	repair	_	_
+6	et	et	CCONJ	_	_	10	cc	_	_
 7	voilà	voilà	VERB	_	ExtPos=INTJ	10	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	c'	ce	PRON	_	PronType=Dem	10	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
@@ -366,10 +366,10 @@
 
 # sent_id = ParisStories_2020_aideAuxEnfants_18
 # text = et euh, et ils aiment beaucoup les bananes.
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	4	reparandum	_	_
 2	euh	euh	INTJ	_	_	4	discourse:filler	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	et	et	CCONJ	_	_	1	repair	_	_
+4	et	et	CCONJ	_	_	6	cc	_	_
 5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	6	subj	_	Person[lex]=3
 6	aiment	aimer	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Plur
 7	beaucoup	beaucoup	ADV	_	_	6	mod	_	_
@@ -414,11 +414,11 @@
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	nourriture	nourriture	NOUN	_	_	5	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
-9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	SpaceAfter=No
 10	-ce	ce	PRON	_	PronType=Dem	9	subj@expl	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 11	que	que	SCONJ	_	_	9	comp:pred	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	_
-13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	repair	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	9	punct	_	_
+13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 14	-ce	ce	PRON	_	PronType=Dem	13	subj@expl	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 15	que	que	SCONJ	_	_	13	comp:pred	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
@@ -448,12 +448,12 @@
 1	oui	oui	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	4	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-4	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3|SpaceAfter=No
-5	,	,	PUNCT	_	_	9	punct	_	_
+4	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	9	reparandum	_	Person[ctxt]=3|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
 6	euh	euh	INTJ	_	_	9	discourse:filler	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	9	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-9	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	repair	_	Person[ctxt]=3
+9	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3
 10	attraper	attraper	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
 11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
 12	maladies	maladie	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
@@ -474,28 +474,28 @@
 27	eau	eau	NOUN	_	_	24	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 28	du	du	ADP	_	_	27	mod	_	_
 29	robinet	robinet	NOUN	_	_	28	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-30	.	.	PUNCT	_	_	4	punct	_	_
+30	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2020_aideAuxEnfants_23
 # text = ça c'est, c'est, euh, c'est la chose à ne pas faire.
 1	ça	ça	PRON	_	PronType=Dem	3	dislocated:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 2	c'	ce	PRON	_	PronType=Dem	3	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	6	punct	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	repair	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	11	punct	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	reparandum	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
 8	euh	euh	INTJ	_	_	11	discourse:filler	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	c'	ce	PRON	_	PronType=Dem	11	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	repair	_	_
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 13	chose	chose	NOUN	_	_	11	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
 14	à	à	ADP	_	_	13	mod	_	_
 15	ne	ne	ADV	_	Polarity=Neg	17	mod	_	_
 16	pas	pas	ADV	_	Polarity=Neg	17	mod	_	_
 17	faire	faire	VERB	_	VerbForm=Inf	14	comp	_	SpaceAfter=No|Subject=ObjRaising
-18	.	.	PUNCT	_	_	3	punct	_	_
+18	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2020_aideAuxEnfants_24
 # text = mais euh, euh, qu'est-ce que je voulais dire ?

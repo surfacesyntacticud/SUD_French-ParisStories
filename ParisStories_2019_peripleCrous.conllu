@@ -4,18 +4,18 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	et	et	CCONJ	_	_	5	cc	_	_
 4	c'	ce	PRON	_	PronType=Dem	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	9	punct	_	_
+5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	reparandum	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
 7	bah	bah	INTJ	_	_	9	discourse	_	_
 8	c'	ce	PRON	_	PronType=Dem	9	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	repair	_	_
+9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 10	super	super	ADV	_	_	11	mod	_	_
 11	bien	bien	ADV	_	_	9	mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	euh	euh	INTJ	_	_	15	discourse:filler	_	_
 14	super	super	ADV	_	_	15	mod	_	_
 15	spacieux	spacieux	ADJ	_	Gender=Masc	11	conj:reform	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
-16	.	.	PUNCT	_	_	5	punct	_	_
+16	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_2
 # text = la nouriture était bonne, j'ai pris une pizza encore.
@@ -52,17 +52,17 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	moi	moi	PRON	_	Emph=Yes|PronType=Prs	5	dislocated:subj	_	Number[lex]=Sing|Person[lex]=1
 4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs|Shared=No	5	subj	_	Number[lex]=Sing|Person[lex]=1
-5	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
+5	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	reparandum	_	Person[ctxt]=1
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	8	punct	_	_
-8	b~	b~	X	_	_	5	repair	_	_
-9	beaucoup	beaucoup	ADV	_	_	8	repair	_	_
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	b~	b~	X	_	_	9	reparandum	_	_
+9	beaucoup	beaucoup	ADV	_	_	0	root	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	points	point	NOUN	_	_	10	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur
 12	positifs	positif	ADJ	_	Gender=Masc	11	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 13	pour	pour	ADP	_	_	11	udep	_	_
 14	celui-là	celui-là	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	13	comp	_	Person[lex]=3|SpaceAfter=No
-15	.	.	PUNCT	_	_	5	punct	_	_
+15	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_5
 # text = aujourd'hui, euh, le but c'était d'aller au CROUS de Jussieu, parce que Thomas n'ayant pas de carte Navigo on peut pas aller plus loin pour l'instant.
@@ -119,13 +119,13 @@
 # sent_id = ParisStories_2019_peripleCrous_7
 # text = c'est c'est dans les plans.
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	reparandum	_	_
 3	c'	ce	PRON	_	PronType=Dem	4	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	repair	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	dans	dans	ADP	_	_	4	comp:pred	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	plans	plan	NOUN	_	_	5	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
-8	.	.	PUNCT	_	_	2	punct	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_8
 # text = mais avec une carte de métro ça sera beaucoup plus pratique.
@@ -332,9 +332,9 @@
 
 # sent_id = ParisStories_2019_peripleCrous_19
 # text = et, et puis, au bout d'un moment j'ai vu quand même qu'il y avait un panneau c'était Cuvier.
-1	et	et	CCONJ	_	_	12	cc	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
-3	et	et	CCONJ	_	ExtPos=CCONJ	1	repair	_	Idiom=Yes
+1	et	et	CCONJ	_	_	3	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	et	et	CCONJ	_	ExtPos=CCONJ	12	cc	_	Idiom=Yes
 4	puis	puis	CCONJ	_	_	3	unk	_	InIdiom=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	au	au	ADP	_	_	12	mod	_	_
@@ -463,16 +463,16 @@
 3	fait	fait	NOUN	_	_	2	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	reparandum	_	_
 7	c'	ce	PRON	_	PronType=Dem	8	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	repair	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	reparandum	_	_
 9	c'	ce	PRON	_	PronType=Dem	10	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	repair	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	sorte	sorte	NOUN	_	_	10	comp:pred	_	cdet=Yes|Gender[lex]=Fem|Number[ctxt]=Sing
 13	de	de	ADP	_	_	12	udep	_	_
 14	tour	tour	NOUN	_	_	13	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-15	.	.	PUNCT	_	_	6	punct	_	_
+15	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_28
 # text = c'est juste un escalier et des ascenceurs.
@@ -641,9 +641,9 @@
 1	du	du	ADP	_	_	7	discourse	_	_
 2	coup	coup	NOUN	_	_	1	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	qui	qui	PRON	_	PronType=Rel	7	subj	_	_
+4	qui	qui	PRON	_	PronType=Rel	6	reparandum	_	_
 5	euh	euh	INTJ	_	_	6	discourse:filler	_	_
-6	qui	qui	PRON	_	PronType=Rel	4	repair	_	_
+6	qui	qui	PRON	_	PronType=Rel	7	subj	_	_
 7	faisait	faire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 8	grève	grève	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	aujourd'hui	aujourd'hui	ADV	_	_	7	mod	_	_
@@ -718,11 +718,11 @@
 7	qu'	que	SCONJ	_	_	6	unk	_	InIdiom=Yes|SpaceAfter=No
 8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	10	subj@expl	_	Person[lex]=3
 9	y	y	PRON	_	PronType=Prs	10	comp@expl	_	Person[lex]=3
-10	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	6	comp:obj	_	Number[ctxt]=Sing|Person[ctxt]=3
+10	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	14	reparandum	_	Number[ctxt]=Sing|Person[ctxt]=3
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	comp:obj	_	Scrap=Yes
 12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	14	subj@expl	_	Person[lex]=3
 13	y	y	PRON	_	PronType=Prs	14	comp@expl	_	Person[lex]=3
-14	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	10	repair	_	Number[ctxt]=Sing|Person[ctxt]=3
+14	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	6	comp:obj	_	Number[ctxt]=Sing|Person[ctxt]=3
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	LiaisonAfter=Yes
 16	escalator	escalator	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 17	dans	dans	ADP	_	_	14	mod	_	_
@@ -762,9 +762,9 @@
 3	après	après	ADV	_	_	10	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	avec	avec	ADP	_	_	10	mod	_	_
-6	Re~	Re~	X	_	ExtPos=PROPN	5	comp	_	_
+6	Re~	Re~	X	_	ExtPos=PROPN	8	reparandum	_	_
 7	euh	euh	INTJ	_	_	6	discourse:filler	_	_
-8	Thomas	Thomas	PROPN	_	_	6	repair	_	Gender[lex]=Unknown|SpaceAfter=No
+8	Thomas	Thomas	PROPN	_	_	5	comp	_	Gender[lex]=Unknown|SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	_
 10	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	11	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

@@ -69,9 +69,9 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	ça	ça	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 7	faisait	faire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
-8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	11	det	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	10	punct	_	_
-10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	repair	_	_
+8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	10	reparandum	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
 11	semaines	semaine	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 12	et	et	CCONJ	_	_	14	cc	_	_
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
@@ -113,11 +113,11 @@
 # sent_id = ParisStories_2021_pireSoireeHorrible_9
 # speaker = L1
 # text = et, euh, et au bout d'un moment on a craqué parce que, bah, elle est, elle forçait, elle forçait, puis, elle était plus jamais à la maison et tout.
-1	et	et	CCONJ	_	_	12	cc	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	5	punct	_	_
+1	et	et	CCONJ	_	_	5	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
 3	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	et	et	CCONJ	_	_	1	repair	_	_
+5	et	et	CCONJ	_	_	12	cc	_	_
 6	au	au	ADP	_	_	12	mod	_	_
 7	bout	bout	NOUN	_	_	6	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	d'	de	ADP	_	_	7	mod	_	SpaceAfter=No
@@ -132,10 +132,10 @@
 17	bah	bah	INTJ	_	_	20	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	20	subj	_	Person[lex]=3
-20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	23	punct	_	_
+20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	reparandum	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
 22	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	23	subj	_	Person[lex]=3
-23	forçait	forcer	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	20	repair	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
+23	forçait	forcer	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	14	comp:obj	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
 25	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	26	subj	_	Person[lex]=3
 26	forçait	forcer	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	23	conj:coord	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
@@ -339,9 +339,9 @@
 # sent_id = ParisStories_2021_pireSoireeHorrible_22
 # speaker = L1
 # text = la, la première discussion qu'on a eue, c'est il critiquait les notes scolaires de mon frère.
-1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	première	premier	ADJ	_	Gender=Fem	5	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 5	discussion	discussion	NOUN	_	_	12	dislocated:subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 6	qu'	que	PRON	_	PronType=Rel	9	comp:obj	_	SpaceAfter=No
@@ -440,10 +440,10 @@
 10	,	,	PUNCT	_	_	5	punct	_	_
 11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	12	subj	_	Person[lex]=3
 12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	comp	_	_
-13	à	à	ADP	_	_	12	comp:pred	_	_
+13	à	à	ADP	_	_	16	reparandum	_	_
 14	se	soi	PRON	_	PronType=Prs|Reflex=Yes	15	comp@expl	_	Person[lex]=3
 15	plaindre	plaindre	VERB	_	VerbForm=Inf	13	comp	_	Subject=SubjRaising
-16	à	à	ADP	_	_	13	repair	_	SpaceAfter=No
+16	à	à	ADP	_	_	12	comp:pred	_	SpaceAfter=No
 17	…	…	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_30
@@ -454,10 +454,10 @@
 3	et	et	CCONJ	_	_	10	cc	_	_
 4	moi	moi	PRON	_	Emph=Yes|PronType=Prs	10	dislocated:subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	Number[lex]=Sing|Person[lex]=1
+6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	reparandum	_	Number[lex]=Sing|Person[lex]=1
 7	me	moi	PRON	_	Emph=No|PronType=Prs	6	unk	_	Number[lex]=Sing|Person[lex]=1|Scrap=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
-9	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	repair	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+9	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 10	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	là	là	ADV	_	_	10	comp:pred	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	_
@@ -538,9 +538,9 @@
 # text = donc, nous, nous, tous les trois, on était hyper gêné.
 1	donc	donc	ADV	_	_	12	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	dislocated:subj	_	Number[lex]=Plur|Person[lex]=1|SpaceAfter=No
+3	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	reparandum	_	Number[lex]=Plur|Person[lex]=1|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	repair	_	Number[lex]=Plur|Person[lex]=1|SpaceAfter=No
+5	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	dislocated:subj	_	Number[lex]=Plur|Person[lex]=1|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	tous	tout	ADJ	_	Gender=Masc	9	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -609,9 +609,9 @@
 # sent_id = ParisStories_2021_pireSoireeHorrible_41
 # speaker = L1
 # text = le, le supplice s'est arrêté là.
-1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	supplice	supplice	NOUN	_	_	6	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	7	comp:obj	_	Person[lex]=3|SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -626,12 +626,12 @@
 2	ensuite	ensuite	ADV	_	_	5	mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	subj	_	Person[lex]=3
-5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	reparandum	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	mère	mère	NOUN	_	_	10	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	11	comp:obj	_	Person[lex]=3|SpaceAfter=No
-10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	repair	_	_
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	invité	inviter	VERB	_	VerbForm=Part|Voice=Act	10	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 12	à	à	ADP	_	_	11	comp:obl	_	_
 13	manger	manger	VERB	_	VerbForm=Inf	12	comp	_	SpaceAfter=No|Subject=SubjRaising
@@ -640,7 +640,7 @@
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	chez	chez	ADP	_	_	13	mod	_	_
 18	nous	nous	PRON	_	Case=Acc|Emph=No|PronType=Prs	17	comp	_	Number[lex]=Plur|Person[lex]=1|SpaceAfter=No
-19	.	.	PUNCT	_	_	5	punct	_	_
+19	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_43
 # speaker = L1
@@ -752,18 +752,18 @@
 2	là	là	ADV	_	_	5	mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	5	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	reparandum	_	_
 6	cru	croire	VERB	_	VerbForm=Part|Voice=Act	5	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
-7	,	,	PUNCT	_	_	9	punct	_	_
+7	,	,	PUNCT	_	_	5	punct	_	_
 8	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-9	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	repair	_	_
+9	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	cru	croire	VERB	_	VerbForm=Part|Voice=Act	9	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	13	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 13	était	être	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	10	parataxis	_	Number[ctxt]=Sing|Person[ctxt]=3
 14	chez	chez	ADP	_	_	13	comp:obl	_	_
 15	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|PronType=Prs	14	comp	_	Person[lex]=3|SpaceAfter=No
-16	!	!	PUNCT	_	_	5	punct	_	_
+16	!	!	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_50
 # speaker = L1
@@ -792,11 +792,11 @@
 # text = il arrivait avec, euh, avec les assiettes.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	2	subj	_	Person[lex]=3
 2	arrivait	arriver	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
-3	avec	avec	ADP	_	_	2	mod	_	SpaceAfter=No
+3	avec	avec	ADP	_	_	7	reparandum	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	euh	euh	INTJ	_	_	3	discourse:filler	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	avec	avec	ADP	_	_	3	repair	_	_
+7	avec	avec	ADP	_	_	2	mod	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 9	assiettes	assiette	NOUN	_	_	7	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_

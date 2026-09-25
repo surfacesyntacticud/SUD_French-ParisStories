@@ -227,9 +227,9 @@
 20	pas	pas	ADV	_	Polarity=Neg	19	mod	_	_
 21	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	tout	tout	NOUN	_	_	19	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
-23	de	de	ADP	_	_	19	comp:obl	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	25	punct	_	_
-25	de	de	ADP	_	_	23	repair	_	_
+23	de	de	ADP	_	_	25	reparandum	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	de	de	ADP	_	_	19	comp:obl	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 27	région	région	NOUN	_	_	25	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing
 28	parisienne	parisien	ADJ	_	Gender=Fem	27	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
@@ -267,16 +267,16 @@
 60	Rhônes	Rhônes	PROPN	_	_	59	comp	_	Gender[lex]=Unknown
 61	-Alpes	Alpes	PROPN	_	_	60	flat@name	_	Gender[lex]=Unknown
 62	euh	euh	INTJ	_	_	61	discourse:filler	_	_
-63	quelques	quelques	DET	_	PronType=Ind	47	mod	_	Number[lex]=Plur|Scrap=Yes
+63	quelques	quelques	DET	_	PronType=Ind	68	reparandum	_	Number[lex]=Plur|Scrap=Yes
 64	euh	euh	INTJ	_	_	63	discourse:filler	_	SpaceAfter=No
-65	,	,	PUNCT	_	_	68	punct	_	_
+65	,	,	PUNCT	_	_	63	punct	_	_
 66	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	68	subj	_	InIdiom=Yes|Person[lex]=3
 67	y	y	PRON	_	PronType=Prs	68	comp	_	InIdiom=Yes|Person[lex]=3
-68	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	63	repair	_	Idiom=Yes|SpaceAfter=No
-69	,	,	PUNCT	_	_	72	punct	_	_
+68	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	72	reparandum	_	Idiom=Yes|SpaceAfter=No
+69	,	,	PUNCT	_	_	68	punct	_	_
 70	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	72	subj	_	InIdiom=Yes|Person[lex]=3
 71	y	y	PRON	_	PronType=Prs	72	comp	_	InIdiom=Yes|Person[lex]=3
-72	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	68	repair	_	Idiom=Yes
+72	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	mod	_	Idiom=Yes
 73	même	même	ADV	_	_	74	mod	_	_
 74	pas	pas	ADV	_	Polarity=Neg	72	mod	_	_
 75	euh	euh	INTJ	_	_	78	discourse:filler	_	SpaceAfter=No
@@ -350,9 +350,9 @@
 19	sert	servir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	comp:obj	_	Person[ctxt]=3|Reported=Yes
 20	à	à	ADP	_	_	19	comp:obl	_	_
 21	rien	rien	PRON	_	PronType=Neg	20	comp	_	Gender[lex]=Masc|Number[lex]=Sing
-22	que	que	SCONJ	_	_	21	unk	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	24	punct	_	_
-24	que	que	SCONJ	_	_	22	repair	_	_
+22	que	que	SCONJ	_	_	24	reparandum	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	que	que	SCONJ	_	_	21	unk	_	_
 25	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	27	subj	_	Number[lex]=Sing|Person[lex]=1
 26	te	toi	PRON	_	Case=Dat|Emph=No|PronType=Prs	27	comp:obl	_	Number[lex]=Sing|Person[lex]=2
 27	donne	donner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	24	comp	_	Person[ctxt]=1
@@ -399,10 +399,10 @@
 3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	9	punct	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	reparandum	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
 8	c'	ce	PRON	_	PronType=Dem	9	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	repair	_	_
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
 11	possible	possible	ADJ	_	_	9	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
@@ -410,7 +410,7 @@
 14	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	9	parataxis	_	Person[ctxt]=2
 15	pas	pas	ADV	_	Polarity=Neg	14	mod	_	_
 16	connaître	connaître	VERB	_	VerbForm=Inf	14	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
-17	.	.	PUNCT	_	_	6	punct	_	_
+17	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2021_nouveauxEleves_19
 # text = donc je lui dis oui peut-être, mais, bon, euh, c'est pas grave, euh, c'est juste comme ça, juste pour savoir.
@@ -493,9 +493,9 @@
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	au	au	ADP	_	_	7	mod	_	_
 3	début	début	NOUN	_	_	2	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
-4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	7	subj	_	Person[lex]=3|SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	_
-6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	repair	_	Person[lex]=3
+4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	reparandum	_	Person[lex]=3|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	7	subj	_	Person[lex]=3
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
 9	trop	trop	ADV	_	_	7	mod	_	_
@@ -597,9 +597,9 @@
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	si	si	SCONJ	_	_	28	mod	_	_
 14	vraiment	vraiment	ADV	_	_	19	mod	_	_
-15	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	19	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-16	,	,	PUNCT	_	_	17	punct	_	_
-17	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	repair	_	Number[lex]=Sing|Person[lex]=1
+15	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	17	reparandum	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	19	subj	_	Number[lex]=Sing|Person[lex]=1
 18	te	toi	PRON	_	Case=Dat|Emph=No|PronType=Prs	19	comp:obl	_	Number[lex]=Sing|Person[lex]=2
 19	dis	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	13	comp	_	Person[ctxt]=1|SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_

@@ -132,11 +132,11 @@
 9	d'	de	ADP	_	_	8	mod	_	SpaceAfter=No
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	carrière	carrière	NOUN	_	_	9	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing
-12	de	de	ADP	_	_	11	udep	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	16	punct	_	_
+12	de	de	ADP	_	_	16	reparandum	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
 14	euh	euh	INTJ	_	_	16	discourse:filler	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	de	de	ADP	_	_	12	repair	_	_
+16	de	de	ADP	_	_	11	udep	_	_
 17	saut	saut	NOUN	_	_	16	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 18	d'	de	ADP	_	_	17	mod	_	SpaceAfter=No
 19	obstacles	obstacle	NOUN	_	_	18	comp	_	cdet=No|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
@@ -171,10 +171,10 @@
 
 # sent_id = ParisStories_2021_neesLeMemeMois_6
 # text = et heu, et du coup, bah, on était en train de regarder les concours, et euh, on a vu une petite tête se ramener.
-1	et	et	CCONJ	_	_	11	cc	_	_
+1	et	et	CCONJ	_	_	4	reparandum	_	_
 2	heu	heu	INTJ	_	_	4	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	et	et	CCONJ	_	_	1	repair	_	_
+4	et	et	CCONJ	_	_	11	cc	_	_
 5	du	du	ADP	_	_	11	discourse	_	_
 6	coup	coup	NOUN	_	_	5	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
@@ -329,9 +329,9 @@
 10	frère	frère	NOUN	_	_	8	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	2	punct	_	_
 12	où	où	ADV	_	PronType=Rel	16	mod	_	_
-13	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	16	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+13	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	15	reparandum	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
-15	on	on	PRON	_	PronType=Ind	13	repair	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+15	on	on	PRON	_	PronType=Ind	16	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 16	goûtait	goûter	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	2	mod@relcl	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	où	où	ADV	_	PronType=Rel	20	mod	_	_
@@ -461,19 +461,19 @@
 2	voilà	voilà	VERB	_	ExtPos=INTJ	5	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	ça	ça	PRON	_	PronType=Dem	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-5	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3
+5	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	reparandum	_	Person[ctxt]=3
 6	faire	faire	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
 7	euh	euh	INTJ	_	_	6	discourse:filler	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	10	punct	_	_
+8	,	,	PUNCT	_	_	5	punct	_	_
 9	ça	ça	PRON	_	PronType=Dem	10	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-10	fait	faire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	5	repair	_	Number[ctxt]=Sing|Person[ctxt]=3
+10	fait	faire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 11	neuf	neuf	NUM	_	ExtPos=DET|Gender=Masc	12	mod	_	Number[lex]=Plur
 12	ans	an	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 13	qu'	que	SCONJ	_	_	10	comp:obj	_	SpaceAfter=No
 14	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	16	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 15	se	soi	PRON	_	PronType=Prs|Reflex=Yes	16	comp:obj	_	Person[lex]=3
 16	connaît	connaître	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	13	comp	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
-17	.	.	PUNCT	_	_	5	punct	_	_
+17	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_24
 # text = donc, bon, c'était il y a longtemps.

@@ -45,11 +45,11 @@
 5	mis	mettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	_
-9	plus	plus	ADV	_	_	5	comp:obj	_	_
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	plus	plus	ADV	_	_	12	reparandum	_	_
 10	du	du	ADP	_	_	9	comp:obj	_	Scrap=Yes|SpaceAfter=No
-11	,	,	PUNCT	_	_	12	punct	_	_
-12	plus	plus	ADV	_	_	9	repair	_	_
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	plus	plus	ADV	_	_	5	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	deux	deux	NUM	_	ExtPos=DET	15	mod	_	Number[lex]=Plur
 15	heures	heure	NOUN	_	_	13	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
@@ -67,11 +67,11 @@
 6	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	donné	donner	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 8	rendez-vous	rendez-vous	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-9	à	à	ADP	_	_	7	mod	_	_
+9	à	à	ADP	_	_	13	reparandum	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	comp	_	Scrap=Yes
 11	euh	euh	INTJ	_	_	13	discourse:filler	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
-13	à	à	ADP	_	_	9	repair	_	_
+13	à	à	ADP	_	_	7	mod	_	_
 14	quinze	quinze	NUM	_	ExtPos=PROPN	15	mod	_	Number[lex]=Sing
 15	heure	heure	NOUN	_	_	13	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	_
@@ -173,15 +173,15 @@
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	bah	bah	INTJ	_	_	31	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	repair	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-13	,	,	PUNCT	_	_	14	punct	_	_
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	repair	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	_
-16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	repair	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	_
-18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 19	première	premier	ADJ	_	Gender=Fem	20	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 20	fois	fois	NOUN	_	_	31	dislocated:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 21	que	que	SCONJ	_	_	20	mod	_	_
@@ -207,34 +207,34 @@
 2	euh	euh	INTJ	_	_	13	discourse:filler	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	et	et	CCONJ	_	_	1	conj:coord	_	_
-5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	13	subj	_	Person[lex]=3
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	12	reparandum	_	Person[lex]=3
 6	ouais	ouais	INTJ	_	_	13	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	subj	_	Number[lex]=Sing|Person[lex]=2
 9	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	6	discourse	_	Person[ctxt]=2|SpaceAfter=No
 10	,	,	PUNCT	_	_	6	punct	_	_
 11	et	et	CCONJ	_	_	13	cc	_	_
-12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	repair	_	Person[lex]=3
-13	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
+12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	13	subj	_	Person[lex]=3
+13	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	18	reparandum	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	ouais	ouais	INTJ	_	_	13	discourse	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	18	punct	_	_
+16	,	,	PUNCT	_	_	13	punct	_	_
 17	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	18	subj	_	Person[lex]=3
-18	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	13	repair	_	Number[ctxt]=Sing|Person[ctxt]=3
+18	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 20	cheveux	cheveu	NOUN	_	_	18	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 21	courts	court	ADJ	_	Gender=Masc	20	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
-22	.	.	PUNCT	_	_	13	punct	_	_
+22	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_10
 # text = il était, euh, il était tout mouillé à cause de la pluie.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	2	subj	_	Person[lex]=3
-2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	reparandum	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	euh	euh	INTJ	_	_	2	discourse:filler	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	_	_
+5	,	,	PUNCT	_	_	2	punct	_	_
 6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	7	subj	_	Person[lex]=3
-7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	repair	_	_
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	tout	tout	ADV	_	_	9	mod	_	_
 9	mouillé	mouiller	VERB	_	VerbForm=Part	7	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 10	à	à	ADP	_	_	7	mod	_	_
@@ -242,7 +242,7 @@
 12	de	de	ADP	_	_	10	comp:obl	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 14	pluie	pluie	NOUN	_	_	12	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-15	.	.	PUNCT	_	_	2	punct	_	_
+15	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_11
 # text = tu te rappelles pas, il avait un peu les cheveux courts.
@@ -303,9 +303,9 @@
 
 # sent_id = ParisStories_2021_pluieEtMamie_15
 # text = il, il était tout rouge là tu te rappelles?
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	subj	_	Person[lex]=3|SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
-3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	1	repair	_	Person[lex]=3
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	reparandum	_	Person[lex]=3|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	subj	_	Person[lex]=3
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	tout	tout	ADV	_	_	6	mod	_	_
 6	rouge	rouge	ADJ	_	_	4	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
@@ -355,10 +355,10 @@
 16	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 17	quand	quand	SCONJ	_	_	16	mod	_	_
 18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs|Shared=No	19	subj	_	Person[lex]=3
-19	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	comp	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	22	punct	_	_
+19	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	reparandum	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
 21	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	22	subj@pass	_	Person[lex]=3
-22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	repair	_	_
+22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	comp	_	_
 23	habillé	habiller	VERB	_	VerbForm=Part	22	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 24	avec	avec	ADP	_	_	22	mod	_	_
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	26	det	_	_
@@ -458,10 +458,10 @@
 
 # sent_id = ParisStories_2021_pluieEtMamie_25
 # text = et euh, et euh, là, euh, donc, on marche, on marche, etc.
-1	et	et	CCONJ	_	_	14	cc	_	_
+1	et	et	CCONJ	_	_	4	reparandum	_	_
 2	euh	euh	INTJ	_	_	4	discourse:filler	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	et	et	CCONJ	_	_	1	repair	_	_
+4	et	et	CCONJ	_	_	14	cc	_	_
 5	euh	euh	INTJ	_	_	14	discourse:filler	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	là	là	ADV	_	_	14	discourse	_	SpaceAfter=No

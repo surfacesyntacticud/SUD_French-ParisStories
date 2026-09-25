@@ -345,8 +345,8 @@
 3	contents	content	ADJ	_	Gender=Masc	2	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 4	de	de	ADP	_	_	3	mod	_	_
 5	retrouver	retrouver	VERB	_	VerbForm=Inf	4	comp	_	Subject=SubjRaising
-6	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-7	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	6	repair	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+6	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	7	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 8	amis	ami	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 9	enfin	enfin	ADV	_	ExtPos=INTJ	2	discourse	_	_
 10	voilà	voilà	VERB	_	ExtPos=INTJ	2	discourse	_	SpaceAfter=No
@@ -366,8 +366,8 @@
 10	peu	peu	NOUN	_	ExtPos=ADV	8	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 11	euh	euh	INTJ	_	_	13	discourse:filler	_	_
 12	complètement	complètement	ADV	_	_	13	mod	_	_
-13	dispro~	dispro~	X	_	ExtPos=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:pred	_	_
-14	disproportionné	disproportionné	ADJ	_	_	13	repair	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+13	dispro~	dispro~	X	_	ExtPos=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	reparandum	_	_
+14	disproportionné	disproportionné	ADJ	_	_	8	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_experienceFac_25
@@ -464,8 +464,8 @@
 10	que	que	SCONJ	_	_	9	comp:pred	_	_
 11	du	du	ADP	_	_	13	mod	_	_
 12	coup	coup	NOUN	_	_	11	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
-13	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	comp	_	Person[ctxt]=3
-14	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	13	repair	_	Person[ctxt]=3
+13	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	14	reparandum	_	Person[ctxt]=3
+14	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	comp	_	Person[ctxt]=3
 15	réussir	réussir	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
 16	à	à	ADP	_	_	15	comp:obl	_	_
 17	se	soi	PRON	_	PronType=Prs|Reflex=Yes	18	comp:obj	_	Person[lex]=3
@@ -617,11 +617,11 @@
 3	enfin	enfin	ADV	_	ExtPos=INTJ	1	discourse	_	_
 4	voilà	voilà	VERB	_	ExtPos=INTJ	1	discourse	_	_
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	reparandum	_	_
 7	c'	ce	PRON	_	PronType=Dem	8	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	repair	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	sympa	sympa	ADJ	_	_	8	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
-10	.	.	PUNCT	_	_	6	punct	_	_
+10	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2019_experienceFac_39
 # text = puis il y a pas mal de trucs d'organisés comme les afterworks le jeudi.
@@ -734,14 +734,14 @@
 # sent_id = ParisStories_2019_experienceFac_47
 # text = j'ai beaucoup euh j'ai beaucoup apprécié.
 1	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	reparandum	_	_
 3	beaucoup	beaucoup	ADV	_	_	2	mod	_	_
 4	euh	euh	INTJ	_	_	6	discourse:filler	_	_
 5	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	repair	_	_
+6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	beaucoup	beaucoup	ADV	_	_	6	mod	_	_
 8	apprécié	apprécier	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
-9	.	.	PUNCT	_	_	2	punct	_	_
+9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_experienceFac_48
 # text = après il y a pas mal de trucs d'organisés.
@@ -901,8 +901,8 @@
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	truc	truc	NOUN	_	_	10	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 13	sympa	sympa	ADJ	_	_	12	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-14	à	à	ADP	_	_	12	udep	_	_
-15	à	à	ADP	_	ExtPos=ADV	14	repair	_	Idiom=Yes
+14	à	à	ADP	_	_	15	reparandum	_	_
+15	à	à	ADP	_	ExtPos=ADV	12	udep	_	Idiom=Yes
 16	côté	côté	NOUN	_	_	15	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 17	de	de	ADP	_	_	16	udep	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
@@ -927,8 +927,8 @@
 
 # sent_id = ParisStories_2019_experienceFac_62
 # text = on on apprend sur nous.
-1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	3	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-2	on	on	PRON	_	PronType=Ind	1	repair	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	reparandum	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+2	on	on	PRON	_	PronType=Ind	3	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 3	apprend	apprendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3
 4	sur	sur	ADP	_	_	3	mod	_	_
 5	nous	nous	PRON	_	Case=Acc|Emph=No|PronType=Prs	4	comp	_	Number[lex]=Plur|Person[lex]=1|SpaceAfter=No
@@ -938,8 +938,8 @@
 # text = on apprend à à découvrir d'autres personnes.
 1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 2	apprend	apprendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3
-3	à	à	ADP	_	_	2	comp:obl	_	_
-4	à	à	ADP	_	_	3	repair	_	_
+3	à	à	ADP	_	_	4	reparandum	_	_
+4	à	à	ADP	_	_	2	comp:obl	_	_
 5	découvrir	découvrir	VERB	_	VerbForm=Inf	4	comp	_	Subject=SubjRaising
 6	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	LiaisonAfter=Yes|SpaceAfter=No
 7	autres	autre	ADJ	_	_	8	mod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
@@ -1009,10 +1009,10 @@
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	InIdiom=Yes
 15	peu	peu	NOUN	_	ExtPos=ADV	13	mod	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 16	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	17	det	_	LiaisonAfter=Yes|SpaceAfter=No
-17	autres	autre	ADJ	_	_	13	comp:obj	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
+17	autres	autre	ADJ	_	_	20	reparandum	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 18	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	LiaisonAfter=Yes|SpaceAfter=No
 19	autres	autre	ADJ	_	_	20	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
-20	mondes	monde	NOUN	_	_	17	repair	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+20	mondes	monde	NOUN	_	_	13	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
 23	gens	gens	NOUN	_	_	20	conj:appos	_	Gender[lex]=Masc|Number[ctxt]=Plur
@@ -1174,10 +1174,10 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 9	fac	fac	NOUN	_	_	11	dislocated:subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 10	c'	ce	PRON	_	PronType=Dem	11	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	14	punct	_	_
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	reparandum	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
 13	c'	ce	PRON	_	PronType=Dem	14	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	repair	_	_
+14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp	_	_
 15	quelque	quelque	DET	_	PronType=Ind	16	det	_	Number[lex]=Sing
 16	chose	chose	NOUN	_	_	14	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
 17	d'	de	ADP	_	_	16	udep	_	SpaceAfter=No
@@ -1228,9 +1228,9 @@
 28	chose	chose	NOUN	_	_	24	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
 29	euh	euh	INTJ	_	_	31	discourse:filler	_	_
 30	ouais	ouais	INTJ	_	_	31	discourse	_	_
-31	d'	de	ADP	_	_	28	udep	_	SpaceAfter=No
+31	d'	de	ADP	_	_	33	reparandum	_	SpaceAfter=No
 32	hu~	hu~	X	_	ExtPos=NOUN|Gender=Masc|Number=Sing	31	comp	_	_
-33	d'	de	ADP	_	_	31	repair	_	SpaceAfter=No
+33	d'	de	ADP	_	_	28	udep	_	SpaceAfter=No
 34	humain	humain	ADJ	_	Gender=Masc	33	comp	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 35	.	.	PUNCT	_	_	24	punct	_	_
 
@@ -1253,16 +1253,16 @@
 
 # sent_id = ParisStories_2019_experienceFac_82
 # text = et euh et j'aime beaucoup la notion de de partage.
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	3	reparandum	_	_
 2	euh	euh	INTJ	_	_	3	discourse:filler	_	_
-3	et	et	CCONJ	_	_	1	repair	_	_
+3	et	et	CCONJ	_	_	5	cc	_	_
 4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 5	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
 6	beaucoup	beaucoup	ADV	_	_	5	mod	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	notion	notion	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-9	de	de	ADP	_	_	8	udep	_	_
-10	de	de	ADP	_	_	9	repair	_	_
+9	de	de	ADP	_	_	10	reparandum	_	_
+10	de	de	ADP	_	_	8	udep	_	_
 11	partage	partage	NOUN	_	_	10	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -1291,8 +1291,8 @@
 
 # sent_id = ParisStories_2019_experienceFac_85
 # text = et et même avec les professeurs je trouve que la relation est est différente.
-1	et	et	CCONJ	_	_	8	cc	_	_
-2	et	et	CCONJ	_	_	1	repair	_	_
+1	et	et	CCONJ	_	_	2	reparandum	_	_
+2	et	et	CCONJ	_	_	8	cc	_	_
 3	même	même	ADV	_	_	4	mod	_	_
 4	avec	avec	ADP	_	_	8	mod	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -1302,8 +1302,8 @@
 9	que	que	SCONJ	_	_	8	comp:obj	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	relation	relation	NOUN	_	Shared=No	12	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp	_	_
-13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	repair	_	_
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	_
+13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp	_	_
 14	différente	différent	ADJ	_	Gender=Fem	13	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -1349,8 +1349,8 @@
 14	groupe	groupe	NOUN	_	_	12	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 15	ça	ça	PRON	_	PronType=Dem	16	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 16	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Person[ctxt]=3
-17	de	de	ADP	_	_	16	comp:obl	_	_
-18	de	de	ADP	_	_	17	repair	_	_
+17	de	de	ADP	_	_	18	reparandum	_	_
+18	de	de	ADP	_	_	16	comp:obl	_	_
 19	plus	plus	ADV	_	_	20	mod	_	_
 20	discuter	discuter	VERB	_	VerbForm=Inf	18	comp	_	Subject=NoRaising
 21	et	et	CCONJ	_	_	25	cc	_	_
@@ -1368,9 +1368,9 @@
 # sent_id = ParisStories_2019_experienceFac_88
 # text = enfin voilà, voilà l'expérience que j'ai de la fac.
 1	enfin	enfin	ADV	_	ExtPos=INTJ	2	discourse	_	_
-2	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	_
-4	voilà	voilà	VERB	_	_	2	repair	_	_
+2	voilà	voilà	VERB	_	_	4	reparandum	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	voilà	voilà	VERB	_	_	0	root	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 6	expérience	expérience	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 7	que	que	PRON	_	PronType=Rel	9	comp:obj	_	_
@@ -1379,5 +1379,5 @@
 10	de	de	ADP	_	_	6	udep	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 12	fac	fac	NOUN	_	_	10	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-13	.	.	PUNCT	_	_	2	punct	_	_
+13	.	.	PUNCT	_	_	4	punct	_	_
 

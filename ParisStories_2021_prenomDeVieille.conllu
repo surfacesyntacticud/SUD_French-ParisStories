@@ -13,15 +13,15 @@
 11	c'	ce	PRON	_	PronType=Dem	12	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-15	,	,	PUNCT	_	_	18	punct	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
 16	euh	euh	INTJ	_	_	18	discourse:filler	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
-18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	repair	_	HasSpokenGender=OnlySingExceptWithLiaison
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 19	fois	fois	NOUN	_	_	12	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
-20	où	où	ADV	_	PronType=Rel	24	mod	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	22	punct	_	_
-22	où	où	ADV	_	PronType=Rel	20	repair	_	_
+20	où	où	ADV	_	PronType=Rel	22	reparandum	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	où	où	ADV	_	PronType=Rel	24	mod	_	_
 23	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	24	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 24	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	mod@relcl	_	_
 25	rencontré	rencontrer	VERB	_	VerbForm=Part|Voice=Act	24	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
@@ -88,12 +88,12 @@
 24	,	,	PUNCT	_	_	26	punct	_	_
 25	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 26	tour	tour	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-27	,	,	PUNCT	_	_	28	punct	_	_
-28	pour	pour	ADP	_	_	26	mod	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	32	punct	_	_
+27	,	,	PUNCT	_	_	32	punct	_	_
+28	pour	pour	ADP	_	_	32	reparandum	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
 30	euh	euh	INTJ	_	_	32	discourse:filler	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	30	punct	_	_
-32	pour	pour	ADP	_	_	28	repair	_	_
+32	pour	pour	ADP	_	_	26	mod	_	_
 33	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	34	comp:obj	_	Person[lex]=3|SpaceAfter=No
 34	inscrire	inscrire	VERB	_	VerbForm=Inf	32	comp	_	SpaceAfter=No|Subject=NoRaising
 35	,	,	PUNCT	_	_	36	punct	_	_
@@ -299,11 +299,11 @@
 38	parce	parce	ADV	_	ExtPos=SCONJ	26	mod	_	Idiom=Yes
 39	que	que	SCONJ	_	_	38	unk	_	InIdiom=Yes
 40	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	41	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-41	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	39	comp	_	Person[ctxt]=1
+41	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	45	reparandum	_	Person[ctxt]=1
 42	pas	pas	ADV	_	Polarity=Neg	41	mod	_	SpaceAfter=No
-43	,	,	PUNCT	_	_	45	punct	_	_
+43	,	,	PUNCT	_	_	41	punct	_	_
 44	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	45	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-45	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	41	repair	_	_
+45	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	39	comp	_	_
 46	pas	pas	ADV	_	Polarity=Neg	45	mod	_	_
 47	trouvé	trouver	VERB	_	VerbForm=Part|Voice=Act	45	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 48	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	49	det	_	_
@@ -382,13 +382,13 @@
 1	ah	ah	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=2
-4	es	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	8	punct	_	_
+4	es	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	reparandum	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
 6	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	Number[lex]=Sing|Person[lex]=2
 7	t'	toi	PRON	_	Case=Acc|Emph=No|PronType=Prs	8	comp:obj	_	Number[lex]=Sing|Person[lex]=2|SpaceAfter=No
-8	appelles	appeler	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	repair	_	Person[ctxt]=2
+8	appelles	appeler	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=2
 9	comment	comment	ADV	_	_	8	comp:pred	_	SpaceAfter=No
-10	?	?	PUNCT	_	_	4	punct	_	_
+10	?	?	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_17
 # text = tu viens d'où?
@@ -432,14 +432,14 @@
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	journée	journée	NOUN	_	_	6	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 5	se	soi	PRON	_	PronType=Prs|Reflex=Yes	6	comp@expl	_	Person[lex]=3
-6	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
-7	,	,	PUNCT	_	_	10	punct	_	_
+6	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	reparandum	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
 8	ça	ça	PRON	_	PronType=Dem	10	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 9	se	soi	PRON	_	PronType=Prs|Reflex=Yes	10	comp@expl	_	Person[lex]=3
-10	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	repair	_	Number[ctxt]=Sing|Person[ctxt]=3
+10	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 11	très	très	ADV	_	_	12	mod	_	_
 12	bien	bien	ADV	_	_	10	mod	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	6	punct	_	_
+13	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_21
 # text = et le lendemain, je retourne en classe.
@@ -481,7 +481,7 @@
 # sent_id = ParisStories_2021_prenomDeVieille_24
 # text = et devant la salle, je me souviens, on avait physique et devant la salle, je vois cette fille, que j'avais vue hier.
 1	et	et	CCONJ	_	_	19	cc	_	_
-2	devant	devant	ADP	_	_	19	mod	_	_
+2	devant	devant	ADP	_	_	14	reparandum	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	salle	salle	NOUN	_	_	2	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -493,10 +493,10 @@
 11	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	4	parataxis:parenth	_	Number[ctxt]=Sing|Person[ctxt]=3
 12	physique	physique	NOUN	_	_	11	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 13	et	et	CCONJ	_	_	14	cc	_	_
-14	devant	devant	ADP	_	_	2	repair	_	_
+14	devant	devant	ADP	_	_	19	mod	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 16	salle	salle	NOUN	_	_	14	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-17	,	,	PUNCT	_	_	2	punct	_	_
+17	,	,	PUNCT	_	_	14	punct	_	_
 18	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	19	subj	_	Number[lex]=Sing|Person[lex]=1
 19	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
 20	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	HasSpokenGender=OnlySingExceptWithLiaison
