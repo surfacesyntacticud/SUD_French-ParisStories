@@ -290,10 +290,10 @@
 2	oui	oui	INTJ	_	_	5	discourse	_	SpaceAfter=No|WordAlignmentBegin=45394|WordAlignmentEnd=45822
 3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=45822|WordAlignmentEnd=45822
 4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs|Shared=No	5	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=45822|WordAlignmentEnd=46251
-5	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	7	reparandum	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=46251|WordAlignmentEnd=46679
+5	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=46251|WordAlignmentEnd=46679
 6	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=46679|WordAlignmentEnd=46679
-7	j~	j~	X	_	ExtPos=PRON	0	root	_	WordAlignmentBegin=46679|WordAlignmentEnd=47107
-8	…	…	PUNCT	_	_	7	punct	_	WordAlignmentBegin=47107|WordAlignmentEnd=47107
+7	j~	j~	X	_	ExtPos=PRON	5	root	_	Promotion=subj|WordAlignmentBegin=46679|WordAlignmentEnd=47107
+8	…	…	PUNCT	_	_	5	punct	_	WordAlignmentBegin=47107|WordAlignmentEnd=47107
 
 # sent_id = ParisStories_2022_15_onEnParleAPersonne__19
 # speaker = L1
@@ -741,7 +741,7 @@
 9	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp	_	WordAlignmentBegin=122464|WordAlignmentEnd=122756
 10	arrivée	arriver	VERB	_	VerbForm=Part	9	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=122756|WordAlignmentEnd=123048
 11	en	en	ADP	_	_	10	mod	_	WordAlignmentBegin=123048|WordAlignmentEnd=123340
-12	courant	courir	VERB	_	VerbForm=Part	11	comp	_	PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Pres|WordAlignmentBegin=123340|WordAlignmentEnd=123631
+12	courant	courir	VERB	_	VerbForm=Part	11	comp	_	SpaceAfter=No|Tense[denom]=Pres|WordAlignmentBegin=123340|WordAlignmentEnd=123631
 13	,	,	PUNCT	_	_	14	punct	_	WordAlignmentBegin=123631|WordAlignmentEnd=123631
 14	hein	hein	INTJ	_	_	10	discourse:tag	_	WordAlignmentBegin=123631|WordAlignmentEnd=123923
 15	?	?	PUNCT	_	_	4	punct	_	WordAlignmentBegin=123923|WordAlignmentEnd=123923

@@ -35,8 +35,8 @@
 6	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	8	comp:obl	_	Person[lex]=3|SpaceAfter=No
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	fait	faire	VERB	_	Gender=Masc|VerbForm=Part	7	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
-9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	10	det	_	_
-10	petit	petit	ADJ	_	Gender=Masc	16	reparandum	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	10	det	_	Head=Position
+10	petit	petit	ADJ	_	Gender=Masc	16	reparandum	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Promotion=mod|Scrap=Yes|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	euh	euh	INTJ	_	_	16	discourse:filler	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
@@ -549,7 +549,7 @@
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	parti	partir	VERB	_	VerbForm=Part	7	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 9	en	en	ADP	_	_	8	mod	_	_
-10	tapant	taper	VERB	_	VerbForm=Part	9	comp	_	PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres
+10	tapant	taper	VERB	_	VerbForm=Part	9	comp	_	Tense[denom]=Pres
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	scandale	scandale	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	_
@@ -670,12 +670,12 @@
 # sent_id = ParisStories_2019_voyageItalie_30
 # text = on devait être quand, on était jeudi, vendredi, et c'était complet jusqu'au lundi.
 1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-2	devait	devoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	7	reparandum	_	Number[ctxt]=Sing|Person[ctxt]=3
+2	devait	devoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|Scrap=Yes
 3	être	être	AUX	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 4	quand	quand	ADV	_	_	3	comp:pred	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	7	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj:reform	_	_
 8	jeudi	jeudi	NOUN	_	_	7	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	vendredi	vendredi	NOUN	_	_	8	conj:reform	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -752,14 +752,14 @@
 24	c'	ce	PRON	_	PronType=Dem	25	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 25	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 26	horrible	horrible	ADJ	_	_	25	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-27	parce	parce	ADV	_	ExtPos=SCONJ	34	reparandum	_	Idiom=Yes
+27	parce	parce	ADV	_	ExtPos=SCONJ	25	mod	_	Idiom=Yes
 28	que	que	SCONJ	_	_	27	unk	_	InIdiom=Yes
 29	euh	euh	INTJ	_	_	34	discourse:filler	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
 31	mais	mais	CCONJ	_	_	34	discourse	_	_
 32	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	34	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 33	n'	ne	ADV	_	Polarity=Neg	34	mod	_	SpaceAfter=No
-34	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	mod	_	_
+34	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	comp	_	_
 35	pas	pas	ADV	_	Polarity=Neg	34	mod	_	_
 36	vraiment	vraiment	ADV	_	_	37	mod	_	_
 37	regardé	regarder	VERB	_	VerbForm=Part|Voice=Act	34	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past

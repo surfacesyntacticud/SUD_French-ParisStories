@@ -124,12 +124,12 @@
 36	m'	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	38	comp:obl	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 37	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	mod@relcl	_	_
 38	offert	offrir	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	37	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
-39	enfin	enfin	ADV	_	ExtPos=INTJ	2	discourse	_	_
-40	bref	bref	INTJ	_	_	2	discourse	_	_
-41	voilà	voilà	VERB	_	ExtPos=INTJ	2	discourse	_	SpaceAfter=No
+39	enfin	enfin	ADV	_	ExtPos=INTJ	44	discourse	_	_
+40	bref	bref	INTJ	_	_	44	discourse	_	_
+41	voilà	voilà	VERB	_	ExtPos=INTJ	44	discourse	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	44	punct	_	_
 43	très	très	ADV	_	_	44	mod	_	_
-44	sympa	sympa	ADJ	_	ExtPos=INTJ	2	discourse	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+44	sympa	sympa	ADJ	_	ExtPos=INTJ	29	conj:coord	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 45	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_6
@@ -679,29 +679,29 @@
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	vers	vers	ADP	_	_	9	udep	_	_
 13	Agen	Agen	PROPN	_	_	12	comp	_	Gender[lex]=Unknown
-14	specialisée	specialiser	ADJ	_	Gender=Fem|Tense=Past|VerbForm=Part	19	reparandum	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-15	pour	pour	ADP	_	_	14	mod	_	_
+14	specialisée	specialiser	ADJ	_	Gender=Fem|Tense=Past|VerbForm=Part	9	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+15	pour	pour	ADP	_	_	14	mod	_	Scrap=Yes
 16	euh	euh	INTJ	_	_	19	discourse:filler	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	enfin	enfin	ADV	_	ExtPos=INTJ	19	discourse	_	_
-19	spécialisée	specialiser	ADJ	_	Gender=Fem|Tense=Past|VerbForm=Part	26	reparandum	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-20	non	non	ADV	_	ExtPos=INTJ|Polarity=Neg	26	discourse	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	20	punct	_	_
+19	spécialisée	specialiser	ADJ	_	Gender=Fem|Tense=Past|VerbForm=Part	14	conj:reform	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+20	non	non	ADV	_	ExtPos=INTJ|Polarity=Neg	19	mod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	26	punct	_	_
 22	enfin	enfin	ADV	_	ExtPos=INTJ	26	discourse	_	wordform=fin
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 24	thème	thème	NOUN	_	_	26	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 25	c'	ce	PRON	_	PronType=Dem	26	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-26	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	mod	_	_
+26	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	parataxis:parenth	_	_
 27	euh	euh	INTJ	_	_	30	discourse:filler	_	_
 28	euh	euh	INTJ	_	_	30	discourse:filler	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-30	best	best	X	_	Foreign=Yes	36	reparandum	_	HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Lang=en
+30	best	best	X	_	Foreign=Yes	26	comp:pred	_	HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Lang=en
 31	sellers	sellers	X	_	Foreign=Yes	30	flat@foreign	_	Lang=en
 32	de	de	ADP	_	_	30	udep	_	_
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 34	été	été	NOUN	_	_	32	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
-35	,	,	PUNCT	_	_	30	punct	_	_
-36	colo	colo	NOUN	_	_	26	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing
+35	,	,	PUNCT	_	_	36	punct	_	_
+36	colo	colo	NOUN	_	_	9	conj:reform	_	Gender[lex]=Fem|Number[ctxt]=Sing
 37	écrivains	écrivain	NOUN	_	_	36	mod	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 38	.	.	PUNCT	_	_	7	punct	_	_
 

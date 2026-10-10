@@ -69,13 +69,13 @@
 10	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=9182|WordAlignmentEnd=9182
 11	au	au	ADP	_	_	6	comp:obl	_	WordAlignmentBegin=9182|WordAlignmentEnd=9334
 12	chenil	chenil	NOUN	_	_	11	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=9334|WordAlignmentEnd=9485
-13	pour	pour	ADP	_	_	19	reparandum	_	WordAlignmentBegin=9981|WordAlignmentEnd=10155
+13	pour	pour	ADP	_	_	6	mod	_	WordAlignmentBegin=9981|WordAlignmentEnd=10155
 14	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	15	comp:obj	_	Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=10155|WordAlignmentEnd=10328
 15	adopter	adopter	VERB	_	VerbForm=Inf	13	comp	_	SpaceAfter=No|Subject=NoRaising|WordAlignmentBegin=10328|WordAlignmentEnd=10502
 16	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=10502|WordAlignmentEnd=10502
 17	enfin	enfin	ADV	_	ExtPos=INTJ	19	discourse	_	SpaceAfter=No|WordAlignmentBegin=10968|WordAlignmentEnd=11213
 18	,	,	PUNCT	_	_	17	punct	_	WordAlignmentBegin=11213|WordAlignmentEnd=11213
-19	pour	pour	ADP	_	_	5	mod	_	WordAlignmentBegin=11213|WordAlignmentEnd=11458
+19	pour	pour	ADP	_	_	13	conj:reform	_	WordAlignmentBegin=11213|WordAlignmentEnd=11458
 20	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	21	comp:obj	_	Person[lex]=3|WordAlignmentBegin=11458|WordAlignmentEnd=11702
 21	chercher	chercher	VERB	_	VerbForm=Inf	19	comp	_	SpaceAfter=No|Subject=NoRaising|WordAlignmentBegin=11702|WordAlignmentEnd=11947
 22	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=11947|WordAlignmentEnd=11947
@@ -323,7 +323,7 @@
 # sent_id = ParisStories_2022_7_chienGourmand__17
 # speaker = L1
 # text = hum, parce qu'il a un peu de mal à avancer.
-1	hum	hum	INTJ	_	_	6	discourse	_	SpaceAfter=No|WordAlignmentBegin=44337|WordAlignmentEnd=44617
+1	hum	hum	INTJ	_	_	3	discourse	_	SpaceAfter=No|WordAlignmentBegin=44337|WordAlignmentEnd=44617
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=44617|WordAlignmentEnd=44617
 3	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Coconstruct=mod::ParisStories_2022_7_chienGourmand__16::8|Idiom=Yes|SingleSpeaker=Yes|WordAlignmentBegin=44617|WordAlignmentEnd=44897
 4	qu'	que	SCONJ	_	_	3	unk	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=44897|WordAlignmentEnd=45178
@@ -401,7 +401,7 @@
 # sent_id = ParisStories_2022_7_chienGourmand__23
 # speaker = L1
 # text = enfin, à chaque fois que je reviens parce que, bon …
-1	enfin	enfin	ADV	_	ExtPos=INTJ	5	discourse	_	SpaceAfter=No|WordAlignmentBegin=54981|WordAlignmentEnd=55124
+1	enfin	enfin	ADV	_	ExtPos=INTJ	3	discourse	_	SpaceAfter=No|WordAlignmentBegin=54981|WordAlignmentEnd=55124
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=55124|WordAlignmentEnd=55124
 3	à	à	ADP	_	_	0	root	_	WordAlignmentBegin=55124|WordAlignmentEnd=55124
 4	chaque	chaque	DET	_	PronType=Ind	5	det	_	Number[lex]=Sing|WordAlignmentBegin=55124|WordAlignmentEnd=55267
@@ -420,10 +420,10 @@
 # text = à, à, normalement …
 1	à	à	ADP	_	_	3	reparandum	_	SpaceAfter=No|WordAlignmentBegin=56691|WordAlignmentEnd=56691
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=56691|WordAlignmentEnd=56691
-3	à	à	ADP	_	_	5	reparandum	_	SpaceAfter=No|WordAlignmentBegin=56691|WordAlignmentEnd=56691
+3	à	à	ADP	_	_	0	root	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=56691|WordAlignmentEnd=56691
 4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=56691|WordAlignmentEnd=56691
-5	normalement	normalement	ADV	_	_	0	root	_	WordAlignmentBegin=56691|WordAlignmentEnd=57584
-6	…	…	PUNCT	_	_	5	punct	_	WordAlignmentBegin=57584|WordAlignmentEnd=57584
+5	normalement	normalement	ADV	_	_	3	mod	_	WordAlignmentBegin=56691|WordAlignmentEnd=57584
+6	…	…	PUNCT	_	_	3	punct	_	WordAlignmentBegin=57584|WordAlignmentEnd=57584
 
 # sent_id = ParisStories_2022_7_chienGourmand__25
 # speaker = L1
@@ -657,16 +657,16 @@
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	unk	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=87713|WordAlignmentEnd=87886
 12	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=87886|WordAlignmentEnd=87886
 13	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	WordAlignmentBegin=87886|WordAlignmentEnd=88060
-14	cyanure	cyanure	NOUN	_	_	23	reparandum	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=88060|WordAlignmentEnd=88233
-15	,	,	PUNCT	_	_	22	punct	_	WordAlignmentBegin=88233|WordAlignmentEnd=88233
+14	cyanure	cyanure	NOUN	_	_	9	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=88060|WordAlignmentEnd=88233
+15	,	,	PUNCT	_	_	23	punct	_	WordAlignmentBegin=88233|WordAlignmentEnd=88233
 16	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	reparandum	_	SpaceAfter=No|WordAlignmentBegin=88493|WordAlignmentEnd=88657
 17	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=88657|WordAlignmentEnd=88657
 18	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	reparandum	_	SpaceAfter=No|WordAlignmentBegin=88657|WordAlignmentEnd=88821
 19	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=88821|WordAlignmentEnd=88821
-20	ouais	ouais	INTJ	_	_	18	discourse	_	SpaceAfter=No|WordAlignmentBegin=88821|WordAlignmentEnd=88985
-21	,	,	PUNCT	_	_	18	punct	_	WordAlignmentBegin=88985|WordAlignmentEnd=88985
+20	ouais	ouais	INTJ	_	_	23	discourse	_	SpaceAfter=No|WordAlignmentBegin=88821|WordAlignmentEnd=88985
+21	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=88985|WordAlignmentEnd=88985
 22	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	WordAlignmentBegin=88985|WordAlignmentEnd=89149
-23	cyanure	cyanure	NOUN	_	_	9	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=89149|WordAlignmentEnd=89312
+23	cyanure	cyanure	NOUN	_	_	14	conj:reform	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=89149|WordAlignmentEnd=89312
 24	.	.	PUNCT	_	_	9	punct	_	WordAlignmentBegin=89312|WordAlignmentEnd=89312
 
 # sent_id = ParisStories_2022_7_chienGourmand__40
