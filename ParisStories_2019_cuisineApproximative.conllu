@@ -560,7 +560,7 @@
 # text = là je rajoute le fr~, fromage et tout, et euh, non non non bah je je l'enlève du feu en fait, dès que, dès que le beurre est fondu.
 1	là	là	ADV	_	_	3	mod	_	_
 2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Person[lex]=1
-3	rajoute	rajouter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	21	reparandum	_	Person[ctxt]=1
+3	rajoute	rajouter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 5	fr~	fr~	X	_	ExtPos=NOUN|Gender=Masc|Number=Sing	7	reparandum	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
@@ -578,22 +578,22 @@
 18	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	19	reparandum	_	Number[lex]=Sing|Person[lex]=1
 19	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	21	subj	_	Number[lex]=Sing|Person[lex]=1
 20	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	21	comp:obj	_	Person[lex]=3|SpaceAfter=No
-21	enlève	enlever	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
+21	enlève	enlever	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	parataxis	_	Person[ctxt]=1
 22	du	du	ADP	_	_	21	comp:obl	_	_
 23	feu	feu	NOUN	_	_	22	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 24	en	en	ADP	_	ExtPos=ADV	21	discourse	_	Idiom=Yes
 25	fait	fait	NOUN	_	_	24	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 26	,	,	PUNCT	_	_	30	punct	_	_
-27	dès	dès	ADP	_	ExtPos=ADV	30	reparandum	_	Idiom=Yes
-28	que	que	SCONJ	_	_	27	unk	_	InIdiom=Yes|SpaceAfter=No
+27	dès	dès	ADP	_	_	30	reparandum	_	Scrap=Yes
+28	que	que	SCONJ	_	_	27	comp	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	27	punct	_	_
-30	dès	dès	ADP	_	ExtPos=ADV	21	mod	_	Idiom=Yes
-31	que	que	SCONJ	_	_	30	unk	_	InIdiom=Yes
+30	dès	dès	ADP	_	_	21	mod	_	_
+31	que	que	SCONJ	_	_	30	comp	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 33	beurre	beurre	NOUN	_	_	34	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 34	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	comp	_	_
 35	fondu	fondre	VERB	_	VerbForm=Part|Voice=Pass	34	comp:aux@pass	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
-36	.	.	PUNCT	_	_	21	punct	_	_
+36	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_24
 # text = en fait, quand tu mets la farine au final ça se décolle.

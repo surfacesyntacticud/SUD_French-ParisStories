@@ -174,7 +174,7 @@
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	reparandum	_	_
 24	pas	pas	ADV	_	Polarity=Neg	23	mod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	23	punct	_	_
-26	franchement	franchement	ADV	_	_	29	mod	_	SpaceAfter=No
+26	franchement	franchement	ADV	_	ExtPos=INTJ	29	discourse	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	_
 28	c'	ce	PRON	_	PronType=Dem	29	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -286,7 +286,7 @@
 3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-6	voulait	vouloir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	17	reparandum	_	Number[ctxt]=Sing|Person[ctxt]=3
+6	voulait	vouloir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 7	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	8	comp:obl	_	Person[lex]=3|SpaceAfter=No
 8	acheter	acheter	VERB	_	VerbForm=Inf	6	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 9	,	,	PUNCT	_	_	13	punct	_	_
@@ -297,14 +297,14 @@
 14	,	,	PUNCT	_	_	6	punct	_	_
 15	genre	genre	NOUN	_	ExtPos=INTJ	17	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 16	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	17	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-17	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
+17	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj:coord	_	Number[ctxt]=Sing|Person[ctxt]=3
 18	devant	devant	ADP	_	_	17	mod	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	glacier	glacier	NOUN	_	_	18	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	et	et	CCONJ	_	_	23	cc	_	InIdiom=Yes
 23	tout	tout	ADV	_	ExtPos=ADV	17	conj:coord	_	Idiom=Yes|SpaceAfter=No
-24	.	.	PUNCT	_	_	17	punct	_	_
+24	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_13
 # text = on demande si, euh, on peut s'installer en terrasse, euh, pour prendre, euh, notre petite boule de glace.
@@ -1070,7 +1070,7 @@
 
 # sent_id = ParisStories_2019_voyageItalie_48
 # text = franchement, le euh, le truc qui est génial, c'est les les pizzas à cinq euros.
-1	franchement	franchement	ADV	_	_	13	mod	_	SpaceAfter=No
+1	franchement	franchement	ADV	_	ExtPos=INTJ	13	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	euh	euh	INTJ	_	_	6	discourse:filler	_	SpaceAfter=No

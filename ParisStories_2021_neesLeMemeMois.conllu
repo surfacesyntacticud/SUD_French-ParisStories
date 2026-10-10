@@ -461,12 +461,12 @@
 2	voilà	voilà	VERB	_	ExtPos=INTJ	5	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	ça	ça	PRON	_	PronType=Dem	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-5	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	reparandum	_	Person[ctxt]=3
+5	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3
 6	faire	faire	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
-7	euh	euh	INTJ	_	_	6	discourse:filler	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	5	punct	_	_
+7	euh	euh	INTJ	_	_	10	discourse:filler	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
 9	ça	ça	PRON	_	PronType=Dem	10	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-10	fait	faire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
+10	fait	faire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	5	conj:reform	_	Number[ctxt]=Sing|Person[ctxt]=3
 11	neuf	neuf	NUM	_	ExtPos=DET|Gender=Masc	12	mod	_	Number[lex]=Plur
 12	ans	an	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 13	qu'	que	SCONJ	_	_	10	comp:obj	_	SpaceAfter=No
@@ -525,7 +525,7 @@
 # macrosyntax = du coup euh, voilà en mars [ parce qu'on est nées le même mois en plus! ]
 # speaker = L2
 # text = parce qu'on est nées le même mois en plus!
-1	parce	parce	SCONJ	_	ExtPos=SCONJ	0	root	_	Coconstruct=mod::ParisStories_2021_neesLeMemeMois_25::2|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Coconstruct=mod::ParisStories_2021_neesLeMemeMois_25::2|Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	4	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp	_	_
