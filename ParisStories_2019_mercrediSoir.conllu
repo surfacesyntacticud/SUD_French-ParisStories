@@ -59,7 +59,7 @@
 3	drôle	drôle	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
-# text = et euh, du coup euh, on s'est baladé, m'a emmené, euh, vers les quais de Seine.
+# text = et euh, du coup euh, on s'est baladé. m'a emmené, euh, vers les quais de Seine.
 # sent_id = ParisStories_2019_mercrediSoir_5
 1	et	et	CCONJ	_	_	10	cc	_	_
 2	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
@@ -70,11 +70,11 @@
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind|Shared=No	10	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 9	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	11	comp@expl	_	Person[lex]=3|SpaceAfter=No
-10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	reparandum	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	baladé	balader	VERB	_	VerbForm=Part	10	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
-12	,	,	PUNCT	_	_	10	punct	_	_
+12	.	.	PUNCT	_	_	10	punct	_	_
 13	m'	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	15	comp:obj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	parataxis	_	_
 15	emmené	emmener	VERB	_	VerbForm=Part|Voice=Act	14	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	euh	euh	INTJ	_	_	19	discourse:filler	_	SpaceAfter=No
@@ -682,9 +682,9 @@
 
 # text = bah, déjà c'est un, c'est, c'est pas un bar anglo-saxon etc.
 # sent_id = ParisStories_2019_mercrediSoir_33
-1	bah	bah	INTJ	_	_	5	discourse	_	SpaceAfter=No
+1	bah	bah	INTJ	_	_	12	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	déjà	déjà	ADV	_	_	5	mod	_	_
+3	déjà	déjà	ADV	_	_	12	mod	_	_
 4	c'	ce	PRON	_	PronType=Dem|Shared=No	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	reparandum	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	comp:pred	_	Scrap=Yes|SpaceAfter=No
@@ -698,7 +698,7 @@
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	bar	bar	NOUN	_	_	12	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 16	anglo-saxon	anglo-saxon	ADJ	_	Gender=Masc	15	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-17	etc	etc	ADV	_	_	5	conj:coord	_	SpaceAfter=No|wordform=etcétéra
+17	etc	etc	ADV	_	_	12	conj:coord	_	SpaceAfter=No|wordform=etcétéra
 18	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = donc, euh, on était content.

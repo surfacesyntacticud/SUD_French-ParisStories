@@ -1,8 +1,8 @@
 # text = ouais alors en fait euh Rafi il a, il a rencontré une, une fille, euh à l'Île Maurice.
 # sent_id = ParisStories_2019_mauriceAventure_1
-1	ouais	ouais	INTJ	_	_	8	discourse	_	_
-2	alors	alors	ADV	_	_	8	discourse	_	_
-3	en	en	ADP	_	ExtPos=ADV	8	discourse	_	Idiom=Yes
+1	ouais	ouais	INTJ	_	_	11	discourse	_	_
+2	alors	alors	ADV	_	_	11	discourse	_	_
+3	en	en	ADP	_	ExtPos=ADV	11	discourse	_	Idiom=Yes
 4	fait	fait	NOUN	_	_	3	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 5	euh	euh	INTJ	_	_	8	discourse:filler	_	_
 6	Rafi	Rafi	PROPN	_	_	8	dislocated:subj	_	Gender[lex]=Unknown
@@ -166,7 +166,7 @@
 
 # text = enfin c'est, c'est ouais c'est un un parc d'aventures super grand.
 # sent_id = ParisStories_2019_mauriceAventure_11
-1	enfin	enfin	ADV	_	ExtPos=INTJ	3	discourse	_	_
+1	enfin	enfin	ADV	_	ExtPos=INTJ	9	discourse	_	_
 2	c'	ce	PRON	_	PronType=Dem	3	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	reparandum	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -200,13 +200,13 @@
 12	nous	nous	PRON	_	Case=Acc|Emph=No|PronType=Prs	14	comp:obj	_	Number[lex]=Plur|Person[lex]=1
 13	y	y	PRON	_	PronType=Prs	14	mod	_	Person[lex]=3
 14	emmener	emmener	VERB	_	VerbForm=Inf	11	comp	_	Subject=SubjRaising
-15	sur	sur	ADP	_	_	14	mod	_	_
+15	sur	sur	ADP	_	_	21	reparandum	_	_
 16	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	15	comp	_	Person[lex]=3
 17	de	de	ADP	_	_	16	mod	_	_
 18	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 19	jours	jour	NOUN	_	_	17	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	sur	sur	ADP	_	_	15	conj:reform	_	_
+21	sur	sur	ADP	_	_	14	mod	_	_
 22	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	21	comp	_	Person[lex]=3
 23	de	de	ADP	_	_	22	mod	_	_
 24	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	25	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -217,10 +217,10 @@
 29	pour	pour	ADP	_	_	32	reparandum	_	_
 30	euh	euh	INTJ	_	_	32	discourse:filler	_	_
 31	bah	bah	INTJ	_	_	32	discourse	_	_
-32	pour	pour	ADP	_	ExtPos=ADV	14	mod	_	Idiom=Yes
-33	qu'	que	SCONJ	_	_	32	unk	_	InIdiom=Yes|SpaceAfter=No
+32	pour	pour	ADP	_	ExtPos=ADV	14	mod	_	_
+33	qu'	que	SCONJ	_	_	32	comp	_	SpaceAfter=No
 34	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	35	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-35	puisse	pouvoir	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	32	comp:obj	_	Person[ctxt]=3
+35	puisse	pouvoir	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	33	comp	_	Person[ctxt]=3
 36	découvrir	découvrir	VERB	_	VerbForm=Inf	35	comp:obj	_	Subject=SubjRaising
 37	en	en	ADP	_	ExtPos=ADV	41	discourse	_	Idiom=Yes
 38	fait	fait	NOUN	_	_	37	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
@@ -535,7 +535,7 @@
 
 # text = enfin c'est c'est vraiment super joli.
 # sent_id = ParisStories_2019_mauriceAventure_34
-1	enfin	enfin	ADV	_	ExtPos=INTJ	3	discourse	_	_
+1	enfin	enfin	ADV	_	ExtPos=INTJ	5	discourse	_	_
 2	c'	ce	PRON	_	PronType=Dem	3	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	reparandum	_	_
 4	c'	ce	PRON	_	PronType=Dem	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
@@ -690,10 +690,10 @@
 
 # text = donc du coup bah on était pas très on était plus très nombreux à rester pour faire ça.
 # sent_id = ParisStories_2019_mauriceAventure_45
-1	donc	donc	ADV	_	_	6	mod	_	_
-2	du	du	ADP	_	_	6	discourse	_	_
+1	donc	donc	ADV	_	_	10	mod	_	_
+2	du	du	ADP	_	_	10	discourse	_	_
 3	coup	coup	NOUN	_	_	2	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing
-4	bah	bah	INTJ	_	_	6	discourse	_	_
+4	bah	bah	INTJ	_	_	10	discourse	_	_
 5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	reparandum	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
@@ -808,21 +808,21 @@
 # text = donc voilà et euh et donc en fait, on comme je disais, c'est un super grand endroit.
 # sent_id = ParisStories_2019_mauriceAventure_53
 1	donc	donc	ADV	_	_	2	mod	_	_
-2	voilà	voilà	VERB	_	ExtPos=INTJ	3	discourse	_	_
+2	voilà	voilà	VERB	_	ExtPos=INTJ	0	root	_	_
 3	et	et	CCONJ	_	_	5	reparandum	_	_
 4	euh	euh	INTJ	_	_	5	discourse:filler	_	_
 5	et	et	CCONJ	_	_	16	cc	_	_
-6	donc	donc	ADV	_	_	3	cc	_	_
-7	en	en	ADP	_	ExtPos=ADV	3	discourse	_	Idiom=Yes
+6	donc	donc	ADV	_	_	16	mod	_	_
+7	en	en	ADP	_	ExtPos=ADV	16	discourse	_	Idiom=Yes
 8	fait	fait	NOUN	_	_	7	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
-9	,	,	PUNCT	_	_	5	punct	_	_
-10	on	on	PRON	_	PronType=Ind	3	unk	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|Scrap=Yes
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	on	on	PRON	_	PronType=Ind	16	reparandum	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|Scrap=Yes
 11	comme	comme	ADP	_	_	16	discourse	_	_
 12	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	Number[lex]=Sing|Person[lex]=1
 13	disais	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	11	comp	_	Person[ctxt]=1|SpaceAfter=No
 14	,	,	PUNCT	_	_	11	punct	_	_
 15	c'	ce	PRON	_	PronType=Dem	16	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 18	super	super	ADV	_	_	19	mod	_	_
 19	grand	grand	ADJ	_	Gender=Masc|Number=Sing	20	mod	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes

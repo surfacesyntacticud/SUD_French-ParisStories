@@ -466,7 +466,7 @@
 10	bah	bah	INTJ	_	_	13	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	13	subj	_	Person[lex]=3
-13	vient	venir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	27	reparandum	_	Person[ctxt]=3
+13	vient	venir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3
 14	et	et	CCONJ	_	_	27	cc	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	quand	quand	SCONJ	_	_	27	mod	_	_
@@ -480,9 +480,9 @@
 24	travaille	travailler	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	conj:coord	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
 25	,	,	PUNCT	_	_	16	punct	_	_
 26	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	27	subj	_	Number[lex]=Sing|Person[lex]=1
-27	viens	venir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
+27	viens	venir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	13	conj:coord	_	Person[ctxt]=1
 28	aussi	aussi	ADV	_	_	27	mod	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	27	punct	_	_
+29	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2021_nouvelleCollegue_22
 # speaker = L1
@@ -493,11 +493,11 @@
 4	bah	bah	INTJ	_	_	2	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	c'	ce	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	reparandum	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	vraiment	vraiment	ADV	_	_	7	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-11	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj:reform	_	_
 12	pas	pas	ADV	_	Polarity=Neg	11	mod	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 14	impression	impression	NOUN	_	_	11	comp:obj@lvc	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -561,12 +561,12 @@
 # sent_id = ParisStories_2021_nouvelleCollegue_27
 # speaker = L1
 # text = en général, bah, oui, on parle, on parle assez souvent.
-1	en	en	ADP	_	_	9	mod	_	_
+1	en	en	ADP	_	_	12	mod	_	_
 2	général	général	NOUN	_	Number=Sing	1	comp	_	Gender[lex]=Masc|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	bah	bah	INTJ	_	_	9	discourse	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	_
-6	oui	oui	INTJ	_	_	4	discourse	_	SpaceAfter=No
+4	bah	bah	INTJ	_	_	12	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	oui	oui	INTJ	_	_	12	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	9	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 9	parle	parler	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	reparandum	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
@@ -579,12 +579,12 @@
 
 # sent_id = ParisStories_2021_nouvelleCollegue_28
 # speaker = L1
-# text = c'est, c'est vraiment plus mon amie que, que ma collègue, et, même, en fait, quand on est fâché, c'est marrant, mais on est obligé de se parler, à cause, enfin, grâce au travail, on va dire.
+# text = c'est, c'est vraiment plus mon amie que, que ma collègue. et, même, en fait, quand on est fâché, c'est marrant, mais on est obligé de se parler, à cause, enfin, grâce au travail, on va dire.
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	reparandum	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	c'	ce	PRON	_	PronType=Dem	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	reparandum	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	vraiment	vraiment	ADV	_	_	5	mod	_	_
 7	plus	plus	ADV	_	_	9	mod	_	_
 8	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
@@ -594,7 +594,7 @@
 12	que	que	SCONJ	_	_	7	comp:obj	_	_
 13	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 14	collègue	collègue	NOUN	_	_	12	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	_
+15	.	.	PUNCT	_	_	5	punct	_	_
 16	et	et	CCONJ	_	_	29	cc	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	même	même	ADV	_	_	29	mod	_	SpaceAfter=No
@@ -608,7 +608,7 @@
 26	fâché	fâché	ADJ	_	_	25	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 27	,	,	PUNCT	_	_	23	punct	_	_
 28	c'	ce	PRON	_	PronType=Dem	29	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
 30	marrant	marrant	ADJ	_	Gender=Masc	29	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 31	,	,	PUNCT	_	_	34	punct	_	_
 32	mais	mais	CCONJ	_	_	34	cc	_	_
@@ -724,7 +724,7 @@
 # sent_id = ParisStories_2021_nouvelleCollegue_34
 # speaker = L1
 # text = du coup, c'est, ils disent qu'on est en symbiose.
-1	du	du	ADP	_	_	5	discourse	_	_
+1	du	du	ADP	_	_	8	discourse	_	_
 2	coup	coup	NOUN	_	_	1	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	c'	ce	PRON	_	PronType=Dem	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
@@ -742,15 +742,15 @@
 # sent_id = ParisStories_2021_nouvelleCollegue_35
 # speaker = L1
 # text = et, euh, c'est, bah, c'est pratique, quand on a des foules, parce que du coup on n'a qu'une seule caisse d'ouverte.
-1	et	et	CCONJ	_	_	6	cc	_	SpaceAfter=No
+1	et	et	CCONJ	_	_	11	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	euh	euh	INTJ	_	_	6	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	reparandum	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	bah	bah	INTJ	_	_	6	discourse	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	6	punct	_	_
+8	bah	bah	INTJ	_	_	11	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
 10	c'	ce	PRON	_	PronType=Dem	11	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	pratique	pratique	ADJ	_	_	11	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No

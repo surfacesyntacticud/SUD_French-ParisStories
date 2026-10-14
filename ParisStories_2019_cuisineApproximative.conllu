@@ -147,7 +147,7 @@
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_8
-# text = et une fois que le tout est bien fondu, bien, ouais, que l'eau et le beurre est bien, est bien, sont bien mélangés, tu rajoutes un peu de sel, et tu rajoutes la farine, et la farine, maintenant je l'ai retenu, c'est ce qu'il y a le plus gros format.
+# text = et une fois que le tout est bien fondu, bien, ouais, que l'eau et le beurre est bien, est bien, sont bien mélangés, tu rajoutes un peu de sel, et tu rajoutes la farine. et la farine, maintenant je l'ai retenu, c'est ce qu'il y a le plus gros format.
 1	et	et	CCONJ	_	_	32	cc	_	_
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	InIdiom=Yes
 3	fois	fois	NOUN	_	ExtPos=ADV	32	mod	_	Gender[lex]=Fem|Idiom=Yes|Number[ctxt]=Sing
@@ -164,7 +164,7 @@
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	que	que	SCONJ	_	_	4	conj:reform	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	17	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-17	eau	eau	NOUN	_	Shared=No	21	subj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+17	eau	eau	NOUN	_	Shared=No	27	subj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 18	et	et	CCONJ	_	_	20	cc	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 20	beurre	beurre	NOUN	_	_	17	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -190,19 +190,19 @@
 40	rajoutes	rajouter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	32	conj:coord	_	Person[ctxt]=2
 41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 42	farine	farine	NOUN	_	_	40	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-43	,	,	PUNCT	_	_	51	punct	_	_
-44	et	et	CCONJ	_	_	51	cc	_	_
+43	.	.	PUNCT	_	_	32	punct	_	_
+44	et	et	CCONJ	_	_	55	cc	_	_
 45	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 46	farine	farine	NOUN	_	_	55	dislocated:subj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 47	,	,	PUNCT	_	_	46	punct	_	_
 48	maintenant	maintenant	ADV	_	_	51	mod	_	_
 49	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	51	subj	_	Number[lex]=Sing|Person[lex]=1
 50	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	52	comp:obj	_	Person[lex]=3|SpaceAfter=No
-51	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	40	conj:coord	_	_
+51	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	46	parataxis:parenth	_	_
 52	retenu	retenir	VERB	_	VerbForm=Part|Voice=Act	51	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 53	,	,	PUNCT	_	_	55	punct	_	_
 54	c'	ce	PRON	_	PronType=Dem	55	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-55	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	mod	_	_
+55	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	parataxis	_	_
 56	ce	ce	PRON	_	PronType=Dem	55	comp:pred	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 57	qu'	que	PRON	_	PronType=Rel	60	subj	_	SpaceAfter=No
 58	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	60	subj@expl	_	Person[lex]=3
@@ -212,7 +212,7 @@
 62	plus	plus	ADV	_	_	63	mod	_	_
 63	gros	gros	ADJ	_	Gender=Masc	64	mod	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing
 64	format	format	NOUN	_	_	60	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-65	.	.	PUNCT	_	_	32	punct	_	_
+65	.	.	PUNCT	_	_	55	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_9
 # text = enfin c'était genre euh, cent cinquante grammes de farine, alors que tout le reste c'est soixante-quinze grammes ou euh, vingt-cinq centilitres.
